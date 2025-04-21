@@ -115,10 +115,6 @@ pytest
 
 Ensure you have the test dependencies installed (usually listed in `requirements.txt`).
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
-
 ## 🙏 Acknowledgements
 
 * Built with [Sphinx](https://www.sphinx-doc.org/) for documentation.
