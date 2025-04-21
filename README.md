@@ -1,7 +1,6 @@
 # chat2llms
 
 ![CI Status](https://github.com/goldollarch/chat2llms/workflows/Build%20and%20Deploy%20Documentation/badge.svg) ![PyPI Version](https://img.shields.io/pypi/v/chat2llms.svg) ![Python Versions](https://img.shields.io/pypi/pyversions/chat2llms.svg)
-![License](https://img.shields.io/github/license/goldollarch/chat2llms.svg)
 [![Documentation Status](https://readthedocs.org/projects/chat2llms/badge/?version=latest)](https://chat2llms.readthedocs.io/en/latest/?badge=latest) 
 
 Welcome to **Chat2LLMs** !
@@ -13,6 +12,7 @@ Let’s use **Large Language Models** to **chat** with **Master of Laws** !
 This project represents an attempt to apply LLMs to the study and analysis of specific judicial cases. We focus on [a chinese typical real-world criminal case](https://goldollarch.github.io/chat2llms/case/intro.html) as our research subject. Using LLMs, we conduct detailed textual analysis of several formal legal documents from this case.
 
 For more information, refer to [the documentation](ttps://goldollarch.github.io/chat2llms/).
+
 
 ## ✨ Features and Contributions
 
@@ -36,6 +36,7 @@ For more information, refer to [the documentation](ttps://goldollarch.github.io/
 * Identifies gaps in LLM capabilities (e.g., nuanced legal interpretation)
 * Proposes future improvements.
 
+
 ## 📦 Installation
 
 The following command installs `chat2llms` from the [Python Package Index](https://pypi.org/project/chat2llms/). You will need a working installation of Python and pip.
@@ -49,6 +50,7 @@ If you need to install from the GitHub repository (e.g., for development or late
 ```bash
 pip install git+[https://github.com/](https://github.com/)goldollarch/chat2llms.git
 ```
+
 
 ## 🚀 Quick Start
 
@@ -88,9 +90,11 @@ print(analyzer.highlight_differences())
 # You can add more advanced analysis or custom comparison logic in the AnswerAnalyzer.
 ```
 
+
 ## 📖 Documentation
 
 For more detailed information on installation, advanced usage, API reference, and adding new LLM clients or analysis methods, and some results, please refer to [the official documentation](https://goldollarch.github.io/chat2llms/).
+
 
 ## 🙌 Contributing
 
@@ -102,20 +106,3 @@ Here are some ways you can contribute:
 * Suggest new features
 * Submit pull requests for bug fixes or new features
 * Improve documentation
-
-## ✅ Running Tests
-
-To run the test suite, navigate to the project root directory and execute:
-
-```bash
-pytest
-# or using the standard library runner
-# python -m unittest discover tests
-```
-
-Ensure you have the test dependencies installed (usually listed in `requirements.txt`).
-
-## 🙏 Acknowledgements
-
-* Built with [Sphinx](https://www.sphinx-doc.org/) for documentation.
-* Uses the [Read the Docs theme](https://sphinx-rtd-theme.readthedocs.io/) for documentation styling.
