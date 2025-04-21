@@ -11,7 +11,7 @@ Let’s use **Large Language Models** to **chat** with **Master of Laws** !
 
 This project represents an attempt to apply LLMs to the study and analysis of specific judicial cases. We focus on [a chinese typical real-world criminal case](https://goldollarch.github.io/chat2llms/case/intro.html) as our research subject. Using LLMs, we conduct detailed textual analysis of several formal legal documents from this case.
 
-For more information, refer to [the documentation](ttps://goldollarch.github.io/chat2llms/).
+For more information, refer to [the documentation](https://goldollarch.github.io/chat2llms/).
 
 
 ## ✨ Features and Contributions
