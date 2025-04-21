@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Structured Legal Data &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Legal Entities and Relationships" href="../entity/entity.html" />
+    <link rel="prev" title="Preprocessing" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../code/index.html">API documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../letters/index.html">Letters by Defendant</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Preprocessing</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Structured Legal Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#from-criminal-judgment">From Criminal Judgment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#from-criminal-ruling">From Criminal Ruling</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../entity/entity.html">Legal Entities and Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../logic/logic.html">Judicial Logic and Legal Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../quality/quality.html">Quality and Compliance Review</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../chats/compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../chats/elements/index.html">Key Elements of the Crime “Picking Quarrels and Provoking Trouble”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../chats/accuse/index.html">Accuse the Judicial Mafia</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../gaps/hallucination.html">Hallucination of LLMs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../gaps/practical.html">Lack of Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../gaps/value.html">Absence of Value Judgments</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Preprocessing</a></li>
+      <li class="breadcrumb-item active">Structured Legal Data</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/case/prepro/structure/structure.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="structured-legal-data">
+<h1>Structured Legal Data<a class="headerlink" href="#structured-legal-data" title="Link to this heading"></a></h1>
+<section id="from-criminal-judgment">
+<h2>From Criminal Judgment<a class="headerlink" href="#from-criminal-judgment" title="Link to this heading"></a></h2>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;Case Number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;(2023) Yun 0112 Xing Chu No. 57&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;Case Type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Criminal&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;Cause of Action&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Crime of Creating Disturbances&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;Parties Information&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Defendant&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;Name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Chen Jingyuan&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Gender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Male&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Date of Birth&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;June 30, 1976&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Citizen ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;510212197606300330&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Education Level&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Doctoral Degree&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Occupation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Unemployed&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Registered Address&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Xuhui District, Shanghai&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Residential Address&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;No. 407 Zhaojiabang Road, Xuhui District, Shanghai&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Custody Measures&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Criminal detention on September 7, 2022&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Arrested on October 14, 2022&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;Defense Attorneys&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Yang Yuan&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Law Firm&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Yunnan Lingyun Law Firm&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Li Min&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Law Firm&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Yunnan Lingyun Law Firm&quot;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;Prosecution&#39;s Accusation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;From July 2019 to April 2022, the defendant Chen Jingyuan used chat tools via VPN to spread false information online, disrupting social order.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;Defendant&#39;s Defense&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Denied criminal conduct, claiming the prosecution&#39;s charges infringed on his freedom of speech, thought, and belief.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;Defense Arguments&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;Disputed classification of the involved information as &#39;false&#39;&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;No evidence proving the defendant knowingly spread false information&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Forwarding posts was for casual entertainment without political or disruptive intent&quot;</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;Key Controversies&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;Determination of whether the disseminated information constituted falsehood&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Establishment of the defendant&#39;s subjective intent to spread known falsehoods&quot;</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;Court Findings&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Chen Jingyuan knowingly forwarded images and articles attacking national leadership and China&#39;s political system via foreign chat platforms, confirmed as false information causing severe public disorder.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;Legal Basis&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;Article 293(1) of the Criminal Law of the People&#39;s Republic of China&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Article 47 of the Criminal Law of the People&#39;s Republic of China&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Article 64 of the Criminal Law of the People&#39;s Republic of China&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Paragraph 2, Article 5 of the Supreme People&#39;s Court and Supreme People&#39;s Procuratorate Interpretation on Handling Online Defamation Cases&quot;</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;Judgment Outcome&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Conviction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Crime of Creating Disturbances&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Sentence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1 year and 8 months imprisonment (September 7, 2022 to May 6, 2024)&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Disposal of Seized Property&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Confiscated computers, phones, and hard drives to be processed according to law&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;Court Information&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Court Name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Xishan District People&#39;s Court, Kunming City, Yunnan Province&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Collegiate Panel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Presiding Judge: Pu Huijun&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;People&#39;s Assessor: Li Fengfen&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;People&#39;s Assessor: Huang Yun&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;Judgment Date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;April 3, 2023&quot;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="from-criminal-ruling">
+<h2>From Criminal Ruling<a class="headerlink" href="#from-criminal-ruling" title="Link to this heading"></a></h2>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;Case Information&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Court&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Intermediate People&#39;s Court of Kunming City, Yunnan Province&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Case Number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;(2023) Yun 01 Criminal Final 310&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Case Type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Criminal&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Trial Procedure&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Second Instance&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Judgment Date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;May 12, 2023&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;Parties Information&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Original Prosecuting Authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Xishan District People&#39;s Procuratorate of Kunming&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Appellant&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;Name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Chen Jingyuan&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Gender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Male&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Date of Birth&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;June 30, 1976&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Citizen ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;510212197606300330&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Education Level&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PhD education level&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Occupation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Unemployed&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Registered Residence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Xuhui District, Shanghai&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Current Custody Location&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Xishan District Detention Center, Kunming&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Compulsory Measures&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Criminal detention on September 7, 2022&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Arrested on October 14, 2022&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;First Instance Details&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Court&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Xishan District People&#39;s Court of Kunming&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Case Number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;(2023) Yun 0112 Criminal Initial 57&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Judgment Date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;April 3, 2023&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Established Facts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Spread false statements using circumvention tools from July 2019 to April 2022, disrupting social order&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Judgment Result&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;Conviction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Crime of Picking Quarrels and Provoking Troubles&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Sentence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1 year and 8 months imprisonment&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;Property Disposal&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Confiscated computers, phones, and hard drives to be processed according to law&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;Appeal Grounds&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;Disputed materials do not constitute &#39;false information&#39; under criminal law&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;No knowledge of information&#39;s falsity during dissemination&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Insufficient evidence of severe public order disruption&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Non-compliance with Interpretation Article 3 of the Online Defamation Judicial Explanation&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Lack of subjective criminal intent&quot;</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;Second Instance Findings&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Established Facts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Forwarded articles/images attacking national leadership and political system via overseas chat tools (2019-2022)&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Evidence List&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Household registration records&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Apprehension documentation&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Defendant&#39;s statements&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Witness testimonies&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Search warrants and records&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Seizure decisions and inventories&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Online data extraction records&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Electronic data inventories&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Chat platform analysis report&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Property examination records&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;Evidence Authentication&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Evidence verified through first-instance cross-examination; lawful sources, objective authenticity, and complete chain&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;Court Opinions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Legal Basis&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Criminal Law Article 293(1)&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Criminal Law Article 47&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Criminal Law Article 64&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Supreme Court &amp; Procuratorate Interpretation on Online Defamation Cases Article 5(2)&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;Judicial Reasoning&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Constitutes elements of Picking Quarrels and Provoking Troubles&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Cyberspace falls under public order jurisdiction&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Forwarded content clearly illegal&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Caused severe public order disruption&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;Appeal Handling&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Appeal grounds inconsistent with facts and law; rejected&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;Judgment Result&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Legal Basis&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Criminal Procedure Law Article 236(1)(1)&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Ruling&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Appeal dismissed; original judgment upheld&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Effect&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;This ruling is final&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;Judicial Panel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;Presiding Judge&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Li Xiangyun&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Judges&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Zhao Yong&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Niu Kehui&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;Court Clerk&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Yang Tianfu&quot;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>[<a class="reference internal" href="structure_cn.html"><span class="std std-doc">Chinese</span></a>]</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="Preprocessing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../entity/entity.html" class="btn btn-neutral float-right" title="Legal Entities and Relationships" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, scitao.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeepSeek &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../code/index.html">API documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../case/letters/index.html">Letters by Defendant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../case/prepro/index.html">Preprocessing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elements/index.html">Key Elements of the Crime “Picking Quarrels and Provoking Trouble”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../gaps/hallucination.html">Hallucination of LLMs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../gaps/practical.html">Lack of Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../gaps/value.html">Absence of Value Judgments</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">DeepSeek</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/chats/compare/Ruling/Ruling_cn.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="deepseek">
+<h1>DeepSeek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h1>
+<section id="id1">
+<h2><strong>一、分析框架与总体结构</strong><a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>模型</strong></p></th>
+<th class="head"><p><strong>分析维度</strong></p></th>
+<th class="head"><p><strong>核心关注点</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>DeepSeek</strong></p></td>
+<td><p>分程序合规性、实体法律问题、系统性关切三部分</p></td>
+<td><p>强调程序违法、证据漏洞、司法独立性及国际法冲突</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Gemini</strong></p></td>
+<td><p>聚焦二审裁定的程序审查、实质审查及终局性影响</p></td>
+<td><p>重点分析二审法院对一审判决的”形式确认”与”缺乏独立论证”</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Grok</strong></p></td>
+<td><p>分证据充分性、法律推理、程序合规性、透明度、量刑比例五维度</p></td>
+<td><p>系统解剖一审判决与二审裁定的技术性缺陷，强调法律文书的说理不足与比例失衡</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+</section>
+<section id="id2">
+<h2><strong>二、相似性分析</strong><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>1. <strong>程序违规的共识性批评</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>• <strong>未举行听证会</strong>：</p>
+<p>• 三模型均援引《刑诉法》第234条，指出二审法院未对陈京元提出的事实争议举行听证会违反法定程序（DeepSeek称”程序违法”，Grok指”违反CPL第223条”）。</p>
+<p>• <strong>一审程序缺陷</strong>：</p>
+<p>• 一致批评一审法院未公开审理且未说明例外理由（DeepSeek/Grok引用《刑诉法》第11条，Gemini称”损害程序正义”）。</p>
+</section>
+<section id="id4">
+<h3>2. <strong>实体法律问题的共性指摘</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>• <strong>“虚假信息”认定缺陷</strong>：</p>
+<p>• 均指出法院未独立验证信息虚假性，混淆事实陈述与主观意见（DeepSeek称”违反罪刑法定”，Grok指”缺乏具体内容举证”）。</p>
+<p>• <strong>因果关系论证不足</strong>：</p>
+<p>• 共同质疑”严重扰乱社会秩序”的认定缺乏实证数据（引用2013年司法解释的转发量标准，Gemini称”延续一审证据漏洞”）。</p>
+<p>• <strong>主观故意的推定错误</strong>：</p>
+<p>• 均反对以学历推定”明知”（DeepSeek指”违反无罪推定”，Grok称”违反《刑法》第14条”）。</p>
+</section>
+<section id="id5">
+<h3>3. <strong>系统性问题的共同关切</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>• <strong>寻衅滋事罪（PXQT）的滥用</strong>：</p>
+<p>• 一致批评将政治表达泛犯罪化（DeepSeek称”口袋罪扩张”，Grok指”超越立法本意”）。</p>
+<p>• <strong>司法独立性质疑</strong>：</p>
+<p>• 均提及”上级指示”等外部干预可能（DeepSeek/Gemini强调”破坏公信力”，Grok未直接提及但隐含类似结论）。</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id6">
+<h2><strong>三、差异性分析</strong><a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>1. <strong>分析深度的差异</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>模型</strong></p></th>
+<th class="head"><p><strong>优势领域</strong></p></th>
+<th class="head"><p><strong>局限性</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>DeepSeek</strong></p></td>
+<td><p>系统性最强，完整覆盖程序-实体-制度三层结构，引入《公民权利公约》第19条的国际法对比</p></td>
+<td><p>对二审裁定的具体说理缺陷分析较少</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Gemini</strong></p></td>
+<td><p>对二审裁决的”形式合规性”与”实质空洞化”有精细解构（如指出法院未回应”选择性执法”等上诉理由）</p></td>
+<td><p>未深入探讨量刑比例问题</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Grok</strong></p></td>
+<td><p>技术细节最丰富，量化指出”&lt;100粉丝量””转发&lt;100次”等数据，分项解剖法律文书格式缺陷</p></td>
+<td><p>未充分讨论司法系统性改革路径（如DeepSeek提出的法律修订建议）</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h3>2. <strong>论证焦点的分野</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>• <strong>DeepSeek</strong>：</p>
+<p>• 突出”政治表达权与国家安全框架的张力”，提出”司法独立性强化””与国际标准接轨”等改革建议。</p>
+<p>• <strong>Gemini</strong>：</p>
+<p>• 聚焦二审裁决的”终局性影响”，强调其”耗尽常规救济途径”对当事人的制度性后果。</p>
+<p>• <strong>Grok</strong>：</p>
+<p>• 独创性分析判决书的”透明度缺陷”，指出两份文书重复使用模板化语言（如”证据形成链条”的机械表述）。</p>
+</section>
+<section id="id9">
+<h3>3. <strong>法律条款引用的侧重</strong><a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>模型</strong></p></th>
+<th class="head"><p><strong>核心法律依据</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>DeepSeek</strong></p></td>
+<td><p>《刑诉法》第11/14/234条、《刑法》第293条、2013年司法解释、《公民权利公约》第19条</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Gemini</strong></p></td>
+<td><p>《刑诉法》第234/227条、《刑法》第293条，侧重程序法条文的解释冲突</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Grok</strong></p></td>
+<td><p>《刑诉法》第11/53/183/197/223/227条、《刑法》第14/61/293条，强调证据规则与量刑原则的交叉适用</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id10">
+<h2><strong>四、结论性对比</strong><a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>维度</strong></p></th>
+<th class="head"><p><strong>DeepSeek</strong></p></th>
+<th class="head"><p><strong>Gemini</strong></p></th>
+<th class="head"><p><strong>Grok</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>分析视角</strong></p></td>
+<td><p>宏观制度批判</p></td>
+<td><p>中观司法过程解构</p></td>
+<td><p>微观技术缺陷剖析</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>改革建议</strong></p></td>
+<td><p>明确（法律修订/司法独立/国际接轨）</p></td>
+<td><p>隐含（未具体化）</p></td>
+<td><p>技术性（如证据标准细化）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>文书批判力度</strong></p></td>
+<td><p>最强（直指”系统性冤假错案”）</p></td>
+<td><p>较强（称”橡皮图章式审查”）</p></td>
+<td><p>最强（量化列举5类具体缺陷）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>国际法关联</strong></p></td>
+<td><p>明确引用ICCPR</p></td>
+<td><p>未提及</p></td>
+<td><p>未提及</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心共识</strong>：三模型均认为本案存在重大程序违法与实体证据缺陷，反映中国司法实践中”口袋罪”滥用与表达权压制的结构性矛盾。</p>
+<p><strong>最大分歧</strong>：DeepSeek与Grok在改革路径上分别侧重制度重构与技术修补，而Gemini更关注个案审查机制的失灵。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, scitao.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
