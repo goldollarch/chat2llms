@@ -223,8 +223,8 @@ if __name__ == "__main__":
     # analyzer.save()
 
     # # 文档转换使用示例
-    input_path = "xcenjoy.docx"
-    output_path = "xcenjoy.md"
+    input_path = "README_doc.docx"
+    output_path = "README_doc.md"
     convert_with_pandoc(input_path, output_path)
 
     # input_path = "Letter.docx"
