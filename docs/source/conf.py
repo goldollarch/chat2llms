@@ -25,8 +25,8 @@ author = 'goldollarch@gmail.com'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 
-# language = 'zh_CN'
 language = 'en'
+# language = 'zh_CN'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

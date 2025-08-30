@@ -1,18 +1,15 @@
 # chat2llms
 
 ![CI Status](https://github.com/goldollarch/chat2llms/workflows/Build%20and%20Deploy%20Documentation/badge.svg) ![PyPI Version](https://img.shields.io/pypi/v/chat2llms.svg) ![Python Versions](https://img.shields.io/pypi/pyversions/chat2llms.svg)
-[![Documentation Status](https://readthedocs.org/projects/chat2llms/badge/?version=latest)](https://chat2llms.readthedocs.io/en/latest/?badge=latest) 
+[![Documentation Status](https://readthedocs.org/projects/chat2llms/badge/?version=latest)](https://chat2llms.readthedocs.io/en/latest/?badge=latest)
 
 Welcome to **Chat2LLMs** !
 
-Let’s use **Large Language Models** to **chat** with **Master of Laws** !
+Let's use **Large Language Models** to **chat** with **Master of Laws** !
 
 **chat2llms** is a research initiative that facilitates communication between large language models and legal professionals. Its goal is to leverage existing LLMs to analyze complex legal topics through concrete judicial cases, deepen understanding of legal disciplines, and explore the limitations and future development directions of current LLMs.
 
 This project represents an attempt to apply LLMs to the study and analysis of specific judicial cases. We focus on [a chinese typical real-world criminal case](https://goldollarch.github.io/chat2llms/case/intro.html) as our research subject. Using LLMs, we conduct detailed textual analysis of several formal legal documents from this case.
-
-For more information, refer to [the documentation](ttps://goldollarch.github.io/chat2llms/).
-
 
 ## ✨ Features and Contributions
 
@@ -36,7 +33,6 @@ For more information, refer to [the documentation](ttps://goldollarch.github.io/
 * Identifies gaps in LLM capabilities (e.g., nuanced legal interpretation)
 * Proposes future improvements.
 
-
 ## 📦 Installation
 
 The following command installs `chat2llms` from the [Python Package Index](https://pypi.org/project/chat2llms/). You will need a working installation of Python and pip.
@@ -48,9 +44,13 @@ pip install chat2llms
 If you need to install from the GitHub repository (e.g., for development or latest changes):
 
 ```bash
-pip install git+[https://github.com/](https://github.com/)goldollarch/chat2llms.git
-```
+git clone https://github.com/goldollarch/chat2llms.git
 
+cd chat2llms
+pip install -r requirements.txt
+pip install -e ".[dev]"
+
+```
 
 ## 🚀 Quick Start
 
@@ -90,11 +90,9 @@ print(analyzer.highlight_differences())
 # You can add more advanced analysis or custom comparison logic in the AnswerAnalyzer.
 ```
 
-
 ## 📖 Documentation
 
 For more detailed information on installation, advanced usage, API reference, and adding new LLM clients or analysis methods, and some results, please refer to [the official documentation](https://goldollarch.github.io/chat2llms/).
-
 
 ## 🙌 Contributing
 
