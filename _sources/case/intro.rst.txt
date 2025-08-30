@@ -18,7 +18,7 @@ It’s hardly surprising that the district court gived :ref:`the First-Instance 
 
 The defendant was dissatisfied and appealed. :ref:`The defendant pointed out <ruling-defendant>`:
 
-1.  The pictures or information involved in this case do not belong to "false information" in the sense of criminal law.  Most of these posts are academic or ideological viewpoints that do not have standard answers, or are merely subjective psychological activities expressing certain emotions or feelings. They completely lack factual or scientific evaluation criteria for truth or falsity.
+1.  The pictures or information involved in this case do not belong to "false information" in the sense of criminal law.  Most of these posts are academic or ideological viewpoints that do not have standard answers, or are merely subjective psychological activities expressing certain emotions or feelings. They completely lack factual or scientific evaluation criteria for truth or falsity. The court opinion clearly demonstrates that the judge lacks the basic ability to distinguish between facts and opinions.
 
 2.  The defendant did not knowingly spread "false information" on the Internet. Most of these posts were not created by the defendant. The defendant merely "retweeted" them without any additions or deletions. Many of the posts collected by the police had been formally published on domestic and foreign portal websites such as Sina.com, and even on official Party media such as CCTV and Guangming Daily, and had been widely reprinted. These posts still exist on the Internet and can still be retrieved, and have not been officially refuted as "rumors" or "false information."
 
