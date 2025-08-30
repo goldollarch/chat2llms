@@ -26,7 +26,7 @@ This project represents an attempt to apply LLMs to the study and analysis of sp
 * Converting unstructured legal texts into **structured data** (e.g., case type, party information, disputed issues, legal basis) and identifying legal entities and relationships (e.g., torts, roles of parties such as plaintiff/defendant/third party, timelines).
 * Parsing the court’s **reasoning chain** of "facts → legal components → conclusions" to understand how facts are mapped to legal provisions.
 * Conducting **quality and compliance reviews** of legal texts to detect formatting errors, incorrect legal citations, and logical inconsistencies.
-* And so on.
+* And so on...
 
 ### Critical Evaluation
 
