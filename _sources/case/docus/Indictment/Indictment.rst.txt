@@ -44,9 +44,9 @@ To: The People's Court of Xishan District, Kunming City
 .. raw:: html
 
    <!-- 右对齐 -->
-   <div style="text-align: right;">Procurator: Ge Bin</div>
+   <div style="text-align: right;">Procurator: Ge Bin (葛斌)</div>
    <!-- 右对齐 -->
-   <div style="text-align: right;">Assistant Procurator: Li Zhenwu</div>
+   <div style="text-align: right;">Assistant Procurator: Li Zhenwu (李振武)</div>
    <!-- 右对齐 -->
    <div style="text-align: right;">January 12, 2023</div>
 

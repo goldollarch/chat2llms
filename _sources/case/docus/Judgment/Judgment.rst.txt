@@ -62,11 +62,11 @@ If you are not satisfied with this judgment, you may, within ten days from the s
 .. raw:: html
 
    <!-- 右对齐 -->
-   <div style="text-align: right;">Presiding Judge: Pu Huijun</div>
+   <div style="text-align: right;">Presiding Judge: Pu Huijun (普会竣)</div>
    <!-- 右对齐 -->
-   <div style="text-align: right;">People's Assessor: Li Fengfen</div>
+   <div style="text-align: right;">People's Assessor: Li Fengfen (李凤芬)</div>
    <!-- 右对齐 -->
-   <div style="text-align: right;">People's Assessor: Huang Yun</div>
+   <div style="text-align: right;">People's Assessor: Huang Yun (黄云)</div>
 
    <!-- 右对齐 -->
    <div style="text-align: right;">April 3, 2023</div>
