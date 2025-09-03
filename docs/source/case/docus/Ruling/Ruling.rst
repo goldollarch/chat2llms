@@ -61,16 +61,16 @@ This ruling is final.
 .. raw:: html
 
    <!-- 右对齐 -->
-   <div style="text-align: right;">Presiding Judge: Li Xiangyun</div>
+   <div style="text-align: right;">Presiding Judge: Li Xiangyun (李湘云)</div>
    <!-- 右对齐 -->
-   <div style="text-align: right;">Judge: Zhao Yong</div>
+   <div style="text-align: right;">Judge: Zhao Yong (赵勇)</div>
    <!-- 右对齐 -->
-   <div style="text-align: right;">Judge: Niu Kehui</div>
+   <div style="text-align: right;">Judge: Niu Kehui (牛克辉)</div>
    <!-- 右对齐 -->
    <div style="text-align: right;">May 12, 2023</div>
 
 
-Clerk: Yang Tianfu
+Clerk: Yang Tianfu (杨添福)
 
 -----------
 
