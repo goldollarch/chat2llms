@@ -36,4 +36,4 @@ Chinese
 
 ---------------------------------------------------
 
-[[法律分析](/chats/answers/qwen/evalution.md)][[总体评估](/chats/answers/qwen/overview.md)][[启示建议](/chats/answers/qwen/propose.md)]
+【[法律分析](/chats/answers/qwen/evalution.md)】-【[总体评估](/chats/answers/qwen/overview.md)】-【[启示建议](/chats/answers/qwen/propose.md)】
