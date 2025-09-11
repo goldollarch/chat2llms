@@ -1,5 +1,5 @@
- Judicial corruption in the case
-===================================================
+ The judicial corruption 
+========================
 
 Below is a professional legal analysis and evaluation of the judicial corruption alleged by Dr. Chen Jingyuan in his *Self-Defense and Accusation from Prison*. The analysis is grounded in the *Criminal Law of the People\'s Republic of China*, the *Criminal Procedure Law*, and relevant regulations on judicial conduct, such as the *Judges Law of the People\'s Republic of China* and the *Prosecutors Law of the People\'s Republic of China*. It evaluates the legal implications of the alleged judicial corruption, the actions of the law enforcement personnel, and the broader impact on the judicial system.
 
@@ -121,4 +121,4 @@ The case reflects systemic issues in China's judicial system, including lack of 
 
 ---------------------------------------------
 
-[[Chinese](/chats/accuse/criminal/evidence/Letter_corruption_cn.md)]
+【[Chinese](/chats/accuse/criminal/evidence/corruption_cn.md)】-【[criticize](/chats/answers/qwen/corruption_criticize.md)】
