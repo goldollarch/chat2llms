@@ -10,20 +10,14 @@ Apply LLMs to the study and analysis the criminal and administrative violations.
  .. toctree::
     :maxdepth: 3
 
-    evidence/Letter_corruption
-
-
- .. toctree::
-    :maxdepth: 3
-
-    evidence/prosecutor_in_Letter
+    evidence/corruption
 
  .. toctree::
     :maxdepth: 3
 
-    evidence/Procuratorate_Fabrication_Evidence
+    evidence/police
 
  .. toctree::
     :maxdepth: 3
 
-    evidence/Procuratorate_Conduct
+    evidence/prosecutor

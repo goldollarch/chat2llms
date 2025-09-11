@@ -162,6 +162,6 @@ Below is a detailed analysis of Ge Bin's conduct from multiple perspectives, eva
 *Disclaimer: Grok is not a lawyer; please consult one. Don't share information that can identify you.*
 
 
----------------------------------------------
+---------------------------------------------------------
 
-[[Chinese](/chats/accuse/criminal/evidence/Procuratorate_Conduct_cn.md)]
+[[Chinese](/chats/accuse/criminal/evidence/conduct_cn.md)]
