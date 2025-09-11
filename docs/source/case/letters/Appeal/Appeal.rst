@@ -3,9 +3,9 @@ A Notice of Appeal
 
 ---------------------------------------------------------
 
-To the Relevant Leaders:
+To the Relevant Authorities:
 
-------------------------
+-----------------------------
 
 My name is Chen Jingyuan, and I was sentenced to 20 months in prison for the crime of picking quarrels and provoking trouble [Refer to: :doc:`Criminal Judgment (2023) Yun 0112 Xing Chu 57 </case/docus/Judgment/Judgment>`]. After carefully reading the judgment, I found that there are many inconsistencies with the actual situation, and the logic of the judgment is quite hasty and arbitrary. After much thought, I decided to file an appeal, mainly to discuss the following two points:
 
