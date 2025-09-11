@@ -1,7 +1,7 @@
 chinese
 ---------
 
-这里将结合五份原始法律文书[【起诉书】](/case/docus/Indictment/Indictment_cn.md)、[【判决书】](/case/docus/Judgment/Judgment_cn.md)、[【上诉书】](/case/letters/Appeal/Appeal_cn.md)、[【裁定书】](/case/docus/Ruling/Ruling_cn.md)、[【狱中书】](/case/letters/Prison/Letter_cn.md)中的具体内容，对该案进行更精细化的法律评析与批判。
+这里将结合五份原始法律文书：检方[【起诉书】](/case/docus/Indictment/Indictment_cn.md)、一审[【判决书】](/case/docus/Judgment/Judgment_cn.md)、[【上诉书】](/case/letters/Appeal/Appeal_cn.md)、二审[【裁定书】](/case/docus/Ruling/Ruling_cn.md)、狱中[【自辩与控告血书】](/case/letters/Prison/Letter_cn.md)中的具体内容，对该案进行更精细化的法律评析与批判。
 
 
 ## **一、 实体法批判：判决书中的“法律虚构”与“要件缺失”**
