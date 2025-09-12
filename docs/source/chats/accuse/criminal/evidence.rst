@@ -4,7 +4,7 @@ Illegal and criminal activities
 
 Apply LLMs to the study and analysis the criminal and administrative violations. 
 
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
 
  .. toctree::
@@ -20,9 +20,10 @@ Apply LLMs to the study and analysis the criminal and administrative violations.
  .. toctree::
     :maxdepth: 3
 
-    evidence/prosecutor
+    evidence/judge
 
  .. toctree::
     :maxdepth: 3
 
-    evidence/judge
+    evidence/prosecutor
+
