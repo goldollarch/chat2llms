@@ -21,3 +21,8 @@ Apply LLMs to the study and analysis the criminal and administrative violations.
     :maxdepth: 3
 
     evidence/prosecutor
+
+ .. toctree::
+    :maxdepth: 3
+
+    evidence/judge

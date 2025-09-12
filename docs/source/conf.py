@@ -45,7 +45,8 @@ extensions = [
     'sphinx.ext.viewcode',     # Add links to source code
     'sphinx.ext.todo',         # Support TODOs
 
-    'myst_parser'
+    'sphinxcontrib.mermaid',
+    'myst_parser'  # 用于支持Markdown文件
 ]
 
 # Napoleon settings for Google-style docstrings
@@ -55,6 +56,10 @@ napoleon_include_init_with_doc = True
 napoleon_include_private_with_doc = False
 napoleon_use_param = True
 napoleon_use_rtype = True
+
+# Mermaid配置
+mermaid_output_format = 'raw'  # 使用SVG格式
+mermaid_params = ['--theme', 'forest', '--width', '800']
 
 # Autodoc settings
 autodoc_default_options = {
