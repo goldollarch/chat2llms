@@ -1,7 +1,7 @@
 A specific example
 =====================
 
-Apply LLMs to the study and analysis the criminal and administrative violations. 
+Let's begin our further exploration with a specific example. 
 
 ---------------------------------------------------------------------------------
 
