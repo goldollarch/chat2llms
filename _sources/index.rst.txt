@@ -81,6 +81,7 @@ Contents
     :maxdepth: 6
     :caption: Gaps
 
+    gaps/example
     gaps/hallucination
     gaps/practical
     gaps/value
