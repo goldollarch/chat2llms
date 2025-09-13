@@ -26,7 +26,7 @@ DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】堪称**�
 
 ---
 
-### **二、 深度对比：Grok分析及陈京元《狱中血书》的异同**
+### **二、 深度对比：与Grok分析及陈京元《狱中血书》的异同**
 
 | 分析类型 | DeepSeek 评论 | Grok分析 | 陈京元《狱中血书》 |
 | :--- | :--- | :--- | :--- |
