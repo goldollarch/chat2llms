@@ -42,4 +42,4 @@ Grok
 
 ---
 
-【[Qwen评价](/chats/accuse/criminal/evidence/qw2grok.md)】
+【[Qwen评价](/gaps/example/qw2grok.md)】

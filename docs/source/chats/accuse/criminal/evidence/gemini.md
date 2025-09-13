@@ -46,4 +46,4 @@ Gemini
 
 ---------------------------------------------
 
-【[Qwen评价](/chats/accuse/criminal/evidence/qw2gmn.md)】
+【[Qwen评价](/gaps/example/qw2gmn.md)】

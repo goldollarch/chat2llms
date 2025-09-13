@@ -105,4 +105,4 @@ graph LR
 
 ---
 
-[[DeepSeek](/chats/accuse/criminal/evidence/deepseek.md)]-[[Gemini](/chats/accuse/criminal/evidence/gemini.md)]-[[Grok](/chats/accuse/criminal/evidence/grok.md)]-[[Qwen](/chats/accuse/criminal/evidence/qwen.md)]
+[[DeepSeek](/chats/accuse/criminal/evidence/deepseek.md)][[Gemini](/chats/accuse/criminal/evidence/gemini.md)][[Grok](/chats/accuse/criminal/evidence/grok.md)][[Qwen](/chats/accuse/criminal/evidence/qwen.md)]
