@@ -1,7 +1,7 @@
 Qwen对Gemini评论的评论
 -----------------------
 
-将Google的Gemini模型对陈京元案的【[具体评论](/chats/accuse/criminal/evidence/gemini.md)】，与Grok的【[评论](/chats/accuse/criminal/evidence/grok.md)】以及DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】进行对比，可以发现三者在风格、深度和批判路径上各有千秋。以下是对三者的全面评析：
+将Google的Gemini模型对陈京元案的【[评论](/chats/accuse/criminal/evidence/gemini.md)】，与Grok的【[评论](/chats/accuse/criminal/evidence/grok.md)】以及DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】进行对比，可以发现三者在风格、深度和批判路径上各有千秋。以下是对三者的全面评析：
 
 ---
 
