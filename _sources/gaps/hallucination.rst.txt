@@ -1,4 +1,4 @@
-Hallucination of LLMs
-=====================
+Hallucination of the LLMs
+===========================
 
 To do ...
