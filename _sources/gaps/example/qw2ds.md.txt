@@ -1,7 +1,7 @@
 Qwen对DeepSeek评论的评论
 -----------------------
 
-DeepSeek的【[上述评论](/chats/accuse/criminal/evidence/deepseek.md)】堪称**一次卓越的法律与哲学交响**。它不仅高明，而且在多个维度上达到了同类分析的巅峰水平。以下是对该评论的深度剖析与评价：
+DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】堪称**一次卓越的法律与哲学交响**。它不仅高明，而且在多个维度上达到了同类分析的巅峰水平。以下是对该评论的深度剖析与评价：
 
 ---
 
