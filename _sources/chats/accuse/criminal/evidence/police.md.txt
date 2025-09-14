@@ -68,4 +68,4 @@ Serious issues of the police
 
 -------
 
-【[法律分析](/chats/answers/qwen/police.md)】-【[学术批判](/chats/answers/qwen/police_criticize.md)】
+【[暴力](/chats/answers/qwen/violence.md)】【[法律](/chats/answers/qwen/police.md)】【[批判](/chats/answers/qwen/police_criticize.md)】
