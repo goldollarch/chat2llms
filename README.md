@@ -5,7 +5,7 @@
 
 Welcome to **Chat2LLMs** !
 
-Let's use **Large Language Models** to **chat** with **Master of Laws** !
+Let's use **Large Language Models (LLM)** to **chat** with **Master of Laws (LLM)** !
 
 **chat2llms** is a research initiative that facilitates communication between large language models and legal professionals. Its goal is to leverage existing LLMs to analyze complex legal topics through concrete judicial cases, deepen understanding of legal disciplines, and explore the limitations and future development directions of current LLMs.
 
