@@ -72,6 +72,6 @@ Qwen对Grok评论的评论
 
 ---------------------------------------------
 
-【[Deepseek](/gaps/example/ds2qw2ds.md)】
-【[Gemini](/gaps/example/gmn2all.md)】
-【[Grok](/gaps/example/grok2qw.md)】
+[[Deepseek](/gaps/example/ds2qw2ds.md)]
+[[Gemini](/gaps/example/gmn2all.md)]
+[[Grok](/gaps/example/grok2qw.md)]

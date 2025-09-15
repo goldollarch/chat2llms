@@ -67,6 +67,6 @@ DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】堪称**�
 
 ---------------------------------------------
 
-【[Deepseek](/gaps/example/ds2qw2ds.md)】
-【[Gemini](/gaps/example/gmn2all.md)】
-【[Grok](/gaps/example/grok2ds.md)】
+[[Deepseek](/gaps/example/ds2qw2ds.md)]
+[[Gemini](/gaps/example/gmn2all.md)]
+[[Grok](/gaps/example/grok2ds.md)]
