@@ -73,6 +73,6 @@ Gemini的评论是一次极其高效且精准的“外科手术”。它没有�
 
 ---------------------------------------------
 
-【[Gemini的元评价](/gaps/example/gmn2all.md)】
-【[Deepseek对Qwen评价的评价](/gaps/example/ds2qw2ds.md)】
-【[Grok对Qwen评DeepSeek评论的评论](/gaps/example/grok2ds.md)】
+【[Deepseek](/gaps/example/ds2qw2ds.md)】
+【[Gemini](/gaps/example/gmn2all.md)】
+【[Grok](/gaps/example/grok2ds.md)】

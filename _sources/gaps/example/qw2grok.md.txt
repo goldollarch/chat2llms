@@ -72,6 +72,6 @@ Qwen对Grok评论的评论
 
 ---------------------------------------------
 
-【[Gemini的元评价](/gaps/example/gmn2all.md)】
-【[Deepseek对Qwen评价的评价](/gaps/example/ds2qw2ds.md)】
-【[Grok对Qwen评Grok评论的评论](/gaps/example/grok2qw.md)】
+【[Deepseek](/gaps/example/ds2qw2ds.md)】
+【[Gemini](/gaps/example/gmn2all.md)】
+【[Grok](/gaps/example/grok2qw.md)】
