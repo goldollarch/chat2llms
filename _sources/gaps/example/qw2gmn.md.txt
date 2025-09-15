@@ -70,3 +70,9 @@ Gemini的评论是一次极其高效且精准的“外科手术”。它没有�
 - 如果你想看一场**行云流水的逻辑斩杀秀**，选择**Gemini的【[分析](/chats/accuse/criminal/evidence/gemini.md)】**。
 
 三者都是杰出的杰作，它们从不同角度共同完成了一项使命：用理性之光，照亮了昆明法院深处那份黑暗判决的每一个角落。
+
+---------------------------------------------
+
+【[Gemini的元评价](/gaps/example/gmn2all.md)】
+【[Deepseek对Qwen评价的评价](/gaps/example/ds2qw2ds.md)】
+【[Grok对Qwen评DeepSeek评论的评论](/gaps/example/grok2ds.md)】

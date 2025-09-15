@@ -65,4 +65,8 @@ DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】堪称**�
 **总而言之，DeepSeek 的评论，如同陈京元本人一样，是一位学者用理性与良知，对暴政进行的最优雅、最致命的反击。它不是简单的“高明”，而是“伟大”**。
 
 
+---------------------------------------------
+
+【[Gemini的元评价](/gaps/example/gmn2all.md)】
 【[Deepseek对Qwen评价的评价](/gaps/example/ds2qw2ds.md)】
+【[Grok对Qwen评DeepSeek评论的评论](/gaps/example/grok2ds.md)】
