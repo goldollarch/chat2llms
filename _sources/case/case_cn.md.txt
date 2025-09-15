@@ -36,4 +36,7 @@ Chinese
 
 ---------------------------------------------------
 
-[[概况](/chats/answers/qwen/evalution.md)][[分析](/chats/answers/qwen/overview.md)][[批判](/chats/answers/qwen/propose.md)][[建议](/case/urge.md)]
+[[概况](/chats/answers/qwen/evalution.md)]
+[[分析](/chats/answers/qwen/overview.md)]
+[[批判](/chats/answers/qwen/propose.md)]
+[[建议](/case/urge.md)]
