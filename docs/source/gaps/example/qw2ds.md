@@ -67,6 +67,6 @@ DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】堪称**�
 
 ---------------------------------------------
 
-【[Gemini的元评价](/gaps/example/gmn2all.md)】
-【[Deepseek对Qwen评价的评价](/gaps/example/ds2qw2ds.md)】
-【[Grok对Qwen评DeepSeek评论的评论](/gaps/example/grok2ds.md)】
+【[Deepseek](/gaps/example/ds2qw2ds.md)】
+【[Gemini](/gaps/example/gmn2all.md)】
+【[Grok](/gaps/example/grok2ds.md)】
