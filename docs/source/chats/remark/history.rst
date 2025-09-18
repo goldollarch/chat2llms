@@ -6,8 +6,8 @@
  .. toctree::
     :maxdepth: 3
 
-    smq/sj_ds
-    smq/sj_gmn
     smq/sj_grk
+    smq/sj_gmn
+    smq/sj_ds
     smq/sj_qw
 
