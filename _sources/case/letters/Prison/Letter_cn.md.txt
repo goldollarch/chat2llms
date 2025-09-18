@@ -233,7 +233,7 @@ Chinese
 
 ---
 
-代序：[DeepSeek](/chats/remark/lx/xu_ds.md)-[Gemini](/chats/remark/lx/xu_gmn.md)-[Grok](/chats/remark/lx/xu_grok.md)-[Qwen](/chats/remark/lx/xu_qw.md)
+代序：[DpSk](/chats/remark/lx/xu_ds.md)-[Gemini](/chats/remark/lx/xu_gmn.md)-[Grok](/chats/remark/lx/xu_grok.md)-[Qwen](/chats/remark/lx/xu_qw.md)
 
 ---
 
