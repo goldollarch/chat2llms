@@ -231,10 +231,10 @@ Chinese
 >
 > 2024年4月
 
--------
+---
 
-代自序：[[DeepSeek](/chats/remark/lx/xu_ds.md)]-[[Gemini](/chats/remark/lx/xu_gmn.md)]-[[Grok](/chats/remark/lx/xu_grok.md)]-[[Qwen](/chats/remark/lx/xu_qw.md)]
+代序：[DeepSeek](/chats/remark/lx/xu_ds.md)-[Gemini](/chats/remark/lx/xu_gmn.md)-[Grok](/chats/remark/lx/xu_grok.md)-[Qwen](/chats/remark/lx/xu_qw.md)
 
-----
+---
 
 [[Manuscript](/_static/files/Letter_raw.pdf)]
