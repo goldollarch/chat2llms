@@ -19,7 +19,6 @@
 
     zgl/zgl_ds
     zgl/zgl_gmn
-    zgl/zgl_qw
 
 仿照李白《蜀道难》:
 
