@@ -1,5 +1,7 @@
-尖牙利嘴
+能言善辩
 =========
+
+-------------------------
 
 仿贾谊《过秦乱》：
 
@@ -16,7 +18,7 @@
  .. toctree::
     :maxdepth: 3
 
-    lx/wq_ds
-    lx/wq_gmn
-    lx/wq_qw
     lx/wq_grok
+    lx/wq_gmn
+    lx/wq_ds
+    lx/wq_qw
