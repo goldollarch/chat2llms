@@ -51,7 +51,7 @@
     ming/ming_ds
     ming/ming_qw
 
-仿法家荀况理念和文风作：
+仿荀子荀况理念和文风作：
 
  .. toctree::
     :maxdepth: 3
@@ -75,7 +75,7 @@
     yy/yy_ds
     yy/yy_qw
 
-仿鬼谷纵横家理念和文风作：
+仿鬼谷纵横理念和文风作：
 
  .. toctree::
     :maxdepth: 3
