@@ -37,3 +37,13 @@
 
     su/su_ds
     su/su_qw
+
+仿鲁迅《为了忘却的纪念》：
+
+ .. toctree::
+    :maxdepth: 3
+
+    lx/wq_grok
+    lx/wq_gmn
+    lx/wq_ds
+    lx/wq_qw
