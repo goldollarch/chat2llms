@@ -5,7 +5,7 @@
 
 供自娱自乐，同时为探究当代大语言模型文本处理能力的极限。
 
-分类：:doc:`历史 </chats/remark/history>`、:doc:`理论 </chats/remark/theory>`、:doc:`批判 </chats/remark/criticize>`、:doc:`情感 </chats/remark/emotion>`
+文体：:doc:`历史 </chats/remark/history>`、:doc:`理论 </chats/remark/theory>`、:doc:`抒情 </chats/remark/emotion>`、:doc:`议论 </chats/remark/criticize>`
 
 ---------------------------------------------------------------------------------
 
@@ -23,10 +23,9 @@
  .. toctree::
     :maxdepth: 3
 
-    criticize
+    emotion
 
  .. toctree::
     :maxdepth: 3
 
-    emotion
-
+    criticize
