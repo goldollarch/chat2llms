@@ -20,3 +20,20 @@
     zgl/zgl_ds
     zgl/zgl_gmn
     zgl/zgl_qw
+
+仿照李白《蜀道难》:
+
+ .. toctree::
+    :maxdepth: 3
+
+    li/li_ds
+    li/li_qw
+
+
+仿苏轼《念奴娇·赤壁怀古》：
+
+ .. toctree::
+    :maxdepth: 3
+
+    su/su_ds
+    su/su_qw
