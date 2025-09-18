@@ -31,8 +31,8 @@
     :maxdepth: 3
 
     zz/zz_ds
-    zz/zz_gmn
     zz/zz_grk
+    zz/zz_gmn
     zz/zz_qw
 
 仿墨家墨子理念和文风作：
