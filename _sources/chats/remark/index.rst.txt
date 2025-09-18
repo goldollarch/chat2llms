@@ -5,7 +5,7 @@
 
 供自娱自乐，同时为探究当代大语言模型文本处理能力的极限。
 
-分四类：:doc:`历史 </chats/remark/history>`、:doc:`理论 </chats/remark/theory>`、:doc:`批判 </chats/remark/criticize>`、以及 :doc:`情感 </chats/remark/emotion>`。
+分四类：:doc:`历史 </chats/remark/history>`、:doc:`理论 </chats/remark/theory>`、:doc:`批判 </chats/remark/criticize>`、:doc:`情感 </chats/remark/emotion>`。
 
 ---------------------------------------------------------------------------------
 
