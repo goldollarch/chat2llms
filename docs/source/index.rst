@@ -67,15 +67,16 @@ Contents
     case/intro
     case/docus/index
     case/letters/index
-    case/prepro/index
 
 .. toctree::
     :maxdepth: 6
     :caption: Chats
 
+    chats/prepro/index
     chats/compare/index
     chats/elements/index
     chats/accuse/index
+    chats/outlaw/index
 
 .. toctree::
     :maxdepth: 6
