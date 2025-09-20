@@ -233,7 +233,7 @@ Chinese
 
 ---
 
-代序：[[Gemini](/chats/remark/lx/xu_gmn.md)]-[[Grok](/chats/remark/lx/xu_grok.md)]-[[Qwen](/chats/remark/lx/xu_qw.md)]
+代序：[[Gemini](/chats/outlaw/emotion/lx/xu/xu_gmn.md)]-[[Grok](/chats/outlaw/emotion/lx/xu/xu_grok.md)]-[[Qwen](/chats/outlaw/emotion/lx/xu/xu_qw.md)]
 
 ---
 

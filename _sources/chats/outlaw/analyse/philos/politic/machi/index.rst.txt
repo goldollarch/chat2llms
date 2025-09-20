@@ -1,0 +1,13 @@
+Machiavelli
+=========
+
+根据帕拉图哲学理念：
+
+-------------------
+
+ .. toctree::
+    :maxdepth: 3
+
+    machi_ds
+    machi_qw
+

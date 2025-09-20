@@ -1,6 +1,6 @@
-===========================
+========================
 Legal Documents Analysis
-===========================
+========================
 
 Three large language models (`DeepSeek <https://www.deepseek.com>`_, `Gemini <https://gemini.google.com>`_ and `Grok <https://x.ai/grok>`_) 
 have been used to analyse the Indictment [Refer to: :doc:`/case/docus/Indictment/Indictment`], 
