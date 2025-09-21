@@ -1,7 +1,7 @@
 Robert Nozick
 =========
 
-根据帕拉图哲学理念：
+基于当代政治哲学家罗伯特·诺齐克（Robert Nozick）的 **自由至上主义**（Libertarianism）与 **最小国家理论**（Minimal State Theory）。
 
 -------------------
 

@@ -1,7 +1,7 @@
 Jean-Jacques Rousseau
 ===================
 
-根据帕拉图哲学理念：
+基于让-雅克·卢梭（Jean-Jacques Rousseau）的政治哲学核心思想。
 
 -------------------
 

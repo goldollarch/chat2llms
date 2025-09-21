@@ -1,13 +1,15 @@
-诸葛亮
+屈原
 =========
 
-仿《出师表》：
+仿《离骚》:
 
 -------------------------
 
  .. toctree::
     :maxdepth: 3
 
-    zgl_ds
-    zgl_gmn
+    ds
+    gmn
+    grok
+    qw
 

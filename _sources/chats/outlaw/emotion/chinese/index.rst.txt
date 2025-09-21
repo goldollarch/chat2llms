@@ -6,12 +6,12 @@ Chinese
  .. toctree::
     :maxdepth: 3
 
-    smq/index
+    qu/index
 
  .. toctree::
     :maxdepth: 3
 
-    zgl/index
+    smq/index
 
  .. toctree::
     :maxdepth: 3
@@ -22,6 +22,16 @@ Chinese
     :maxdepth: 3
 
     su/index
+
+ .. toctree::
+    :maxdepth: 3
+
+    zz/index
+
+ .. toctree::
+    :maxdepth: 3
+
+    yu/index
 
  .. toctree::
     :maxdepth: 3
