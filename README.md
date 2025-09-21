@@ -9,7 +9,7 @@ Let's use **Large Language Models (LLM)** to **chat** with **Master of Laws (LLM
 
 **chat2llms** is a research initiative that facilitates communication between large language models and legal professionals. Its goal is to leverage existing LLMs to analyze complex legal topics through concrete judicial cases, deepen understanding of legal disciplines, and explore the limitations and future development directions of current LLMs.
 
-This project represents an attempt to apply LLMs to the study and analysis of specific judicial cases. We mainly focus on [[a crimal case of 'Xun Xin Zi Shi', often translated as picking quarrels and provoking trouble (PXQT) in mainland China](https://goldollarch.github.io/chat2llms/case/intro.html)] as our research subject. Using LLMs, we conduct detailed textual analysis of several formal legal documents from this case.
+This project represents an attempt to apply LLMs to the study and analysis of specific judicial cases. We mainly focus on [[a case of 'Xun Xin Zi Shi', often translated as picking quarrels and provoking trouble (PXQT) in mainland China](https://goldollarch.github.io/chat2llms/case/intro.html)] as our research subject. Using LLMs, we conduct detailed textual analysis of several formal legal documents from this case.
 
 ## ✨ Features and Contributions
 
