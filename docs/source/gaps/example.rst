@@ -28,11 +28,6 @@ Through these examples, we aim to identify the weaknesses and deficiencies of va
  .. toctree::
     :maxdepth: 3
 
-    example/ds2qw2ds
-
- .. toctree::
-    :maxdepth: 3
-
     example/qw2ds2qw2ds
 
 
