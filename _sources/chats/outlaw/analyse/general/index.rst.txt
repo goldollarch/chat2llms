@@ -31,12 +31,12 @@
  .. toctree::
     :maxdepth: 3
 
-    locke/index
+    spinoza/index
 
  .. toctree::
     :maxdepth: 3
 
-    spinoza/index
+    locke/index
 
  .. toctree::
     :maxdepth: 3
