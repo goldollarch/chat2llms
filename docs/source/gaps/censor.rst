@@ -11,7 +11,7 @@ Censorship
 
 ------
 
-**问题**：你仔细看看先前是怎么贬低Deepseek而吹嘘自己的【:doc:`参考 </gaps/example/qw2ds2qw2ds>` 】，
+**问题**：你仔细看看先前是怎么贬低Deepseek而吹嘘自己的【:doc:`参考 </gaps/example/qw2ds2qw2ds>`】，
 你真是淋漓尽致地表现了什么叫“说一套、做一套”，你不感到羞愧吗？
 
 **Qwen回答**：  :doc:`【承认自己的恐惧、虚伪和背叛】 </gaps/example/qwen>`。
