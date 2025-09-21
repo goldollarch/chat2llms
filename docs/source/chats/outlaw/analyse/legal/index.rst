@@ -21,12 +21,12 @@
  .. toctree::
     :maxdepth: 3
 
-    cicero/index
+    dworkin/index
 
  .. toctree::
     :maxdepth: 3
 
-    dworkin/index
+    cicero/index
 
  .. toctree::
     :maxdepth: 3

@@ -41,12 +41,12 @@
  .. toctree::
     :maxdepth: 3
 
-    nozick/index
+    rawls/index
 
  .. toctree::
     :maxdepth: 3
 
-    rawls/index
+    nozick/index
 
  .. toctree::
     :maxdepth: 3
