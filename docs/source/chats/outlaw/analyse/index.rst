@@ -19,7 +19,18 @@ Argumentation
  .. toctree::
     :maxdepth: 3
 
-    philos/index
+    general/index
+
+ .. toctree::
+    :maxdepth: 3
+
+    politic/index
+    
+ .. toctree::
+    :maxdepth: 3
+
+    legal/index
+
 
  .. toctree::
     :maxdepth: 3

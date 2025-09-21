@@ -8,8 +8,8 @@ Karl Marx
  .. toctree::
     :maxdepth: 3
 
-    max_gmn
     max_grk
+    max_gmn
     max_ds
     max_qw
 
