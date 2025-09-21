@@ -14,7 +14,7 @@ Land beyond law
 
 和陈京元 :doc:`【狱中血书】</case/letters/Prison/Letter_cn>` 对所谓 :doc:`【犯罪铁证】</chats/elements/actions/index>` 对应，分为下列几类文体：
 
-:doc:`历史（记叙文）</chats/outlaw/history/index>`、:doc:`分析（说明、议论文）</chats/outlaw/analyse/index>`、以及 :doc:`抒情（诗词曲赋、散文）</chats/outlaw/emotion/index>`
+:doc:`历史（记叙文）</chats/outlaw/history/index>`、:doc:`分析（说明、议论文）</chats/outlaw/analyse/index>`、以及 :doc:`抒情（诗词、散文）</chats/outlaw/emotion/index>`
 
 ---------------------------------------------------------------------------------
 
