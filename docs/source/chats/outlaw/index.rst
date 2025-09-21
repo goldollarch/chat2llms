@@ -12,7 +12,9 @@ Land beyond law
 
 一方面可以欣赏大语言模型强大的文本处理能力，另一方面也为了探究当代大语言模型文本处理能力的极限。
 
-文体：:doc:`历史叙述 </chats/outlaw/history/index>`、:doc:`分析评论 </chats/outlaw/analyse/index>`、:doc:`抒情散文 </chats/outlaw/emotion/index>`
+和陈京元 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>` 对所谓“**犯罪铁证**”对应，分为下列几类文体：
+
+:doc:`历史(记叙文)</chats/outlaw/history/index>`、:doc:`分析(说明、议论文)</chats/outlaw/analyse/index>`、以及 :doc:`抒情(诗词曲赋、散文)</chats/outlaw/emotion/index>`
 
 ---------------------------------------------------------------------------------
 

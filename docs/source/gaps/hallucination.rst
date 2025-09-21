@@ -1,5 +1,5 @@
-Hallucination
-==============
+Hallucination of LLM
+=====================
 
 .. note::
    
