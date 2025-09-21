@@ -11,4 +11,4 @@ Lyric Prose
  .. toctree::
     :maxdepth: 3
 
-    english/index
+    foreign/index
