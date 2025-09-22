@@ -1,4 +1,4 @@
-科学伟人
+科学评论
 =========
 
 ----------
@@ -17,4 +17,9 @@
     :maxdepth: 3
 
     russell/index
+
+ .. toctree::
+    :maxdepth: 3
+
+    soc/index
 
