@@ -8,6 +8,7 @@ Albert Camus
  .. toctree::
     :maxdepth: 3
 
+    gemini
     ds
     qw
 

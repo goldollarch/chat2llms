@@ -8,6 +8,8 @@ Jean-Paul Sartre
  .. toctree::
     :maxdepth: 3
 
+    grok
+    gemini
     ds
     qw
 

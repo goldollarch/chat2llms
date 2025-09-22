@@ -8,7 +8,8 @@ Plato
  .. toctree::
     :maxdepth: 3
 
-    plato_gmn
-    plato_ds
-    plato_qw
+    grok
+    gemini
+    deepseek
+    qwen
 
