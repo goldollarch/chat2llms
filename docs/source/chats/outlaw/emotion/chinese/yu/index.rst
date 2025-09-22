@@ -10,6 +10,6 @@
 
     ds
     gmn
-    grok
+    grk
     qw
 
