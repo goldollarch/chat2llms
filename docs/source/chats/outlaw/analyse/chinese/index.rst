@@ -2,7 +2,6 @@
 =========
 
 
-
 ----------------
  
  .. toctree::
@@ -64,4 +63,14 @@
     :maxdepth: 3
 
     jy/index
+
+ .. toctree::
+    :maxdepth: 3
+
+    zhu/index
+
+ .. toctree::
+    :maxdepth: 3
+
+    wang/index
 
