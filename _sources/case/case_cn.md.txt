@@ -39,4 +39,5 @@ Chinese
 [[概况](/chats/answers/qwen/evalution.md)]
 [[分析](/chats/answers/qwen/overview.md)]
 [[批判](/chats/answers/qwen/propose.md)]
+[[理论](/chats/outlaw/analyse/index.rst)]
 [[呼吁](/chats/accuse/urges/grok.md)]

@@ -8,6 +8,7 @@
  .. toctree::
     :maxdepth: 3
 
+    grok
     xun_ds
     xun_qw
 

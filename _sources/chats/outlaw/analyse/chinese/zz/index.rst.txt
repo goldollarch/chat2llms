@@ -8,7 +8,7 @@
  .. toctree::
     :maxdepth: 3
 
-    zz_ds
     zz_grk
     zz_gmn
+    zz_ds
     zz_qw

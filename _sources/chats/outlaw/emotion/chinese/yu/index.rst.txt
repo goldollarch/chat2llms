@@ -8,8 +8,8 @@
  .. toctree::
     :maxdepth: 3
 
-    ds
-    gmn
     grk
+    gmn
+    ds
     qw
 

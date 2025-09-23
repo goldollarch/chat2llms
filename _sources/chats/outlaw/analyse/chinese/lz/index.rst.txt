@@ -8,6 +8,7 @@
  .. toctree::
     :maxdepth: 3
 
+    grok
     lao_ds
     lao_qw
 
