@@ -8,7 +8,7 @@ Thomas Hobbes
  .. toctree::
     :maxdepth: 3
 
-    hobbes_gmn
+    grok
     hobbes_ds
     hobbes_qw
 

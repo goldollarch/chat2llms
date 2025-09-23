@@ -8,6 +8,7 @@ Montesquieu
  .. toctree::
     :maxdepth: 3
 
+    grok
     mds_ds
     mds_qw
 

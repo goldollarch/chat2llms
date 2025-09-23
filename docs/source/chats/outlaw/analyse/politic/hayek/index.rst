@@ -8,6 +8,7 @@ Friedrich Hayek
  .. toctree::
     :maxdepth: 3
 
+    grok
     hayek_ds
     hayek_qw
 

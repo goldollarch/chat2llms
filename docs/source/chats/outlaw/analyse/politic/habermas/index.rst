@@ -8,6 +8,7 @@ Jürgen Habermas
  .. toctree::
     :maxdepth: 3
 
+    grok
     habermas_ds
     habermas_qw
 

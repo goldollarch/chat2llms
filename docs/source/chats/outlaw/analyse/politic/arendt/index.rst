@@ -8,6 +8,7 @@ Hannah Arendt
  .. toctree::
     :maxdepth: 3
 
+    grok
     arendt_ds
     arendt_qw
 

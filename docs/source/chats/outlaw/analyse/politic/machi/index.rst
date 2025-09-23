@@ -8,6 +8,7 @@ Machiavelli
  .. toctree::
     :maxdepth: 3
 
+    grok
     machi_ds
     machi_qw
 
