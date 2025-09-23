@@ -8,6 +8,7 @@ H. L. A. Hart
  .. toctree::
     :maxdepth: 3
 
+    grok
     ds
     qw
 

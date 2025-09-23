@@ -8,6 +8,7 @@ Rousseau
  .. toctree::
     :maxdepth: 3
 
+    grok
     rouss_ds
     rouss_qw
 

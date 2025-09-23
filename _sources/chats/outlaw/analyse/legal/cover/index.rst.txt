@@ -8,6 +8,7 @@ Robert M. Cover
  .. toctree::
     :maxdepth: 3
 
+    grok
     ds
     qw
 
