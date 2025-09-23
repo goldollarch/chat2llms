@@ -10,6 +10,7 @@ Scientific prophecy
     :maxdepth: 3
 
     grok
+    gemini
     deepseek
     qwen
 
