@@ -4,22 +4,17 @@
 ----------
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
     galileo/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
     einst/index
     
  .. toctree::
-    :maxdepth: 3
-
-    russell/index
-
- .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
     soc/index
 

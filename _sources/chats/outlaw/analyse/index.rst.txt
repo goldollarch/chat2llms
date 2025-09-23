@@ -12,28 +12,28 @@ Argumentation
 -------------------------
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     chinese/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     general/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     politic/index
     
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     legal/index
 
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     science/index
 
