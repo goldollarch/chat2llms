@@ -8,6 +8,7 @@
  .. toctree::
     :maxdepth: 3
 
+    grok
     mo_ds
     mo_qw
 

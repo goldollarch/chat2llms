@@ -8,6 +8,7 @@ Aristotle
  .. toctree::
     :maxdepth: 3
 
+    grok
     aristotle_ds
     aristotle_qw
 

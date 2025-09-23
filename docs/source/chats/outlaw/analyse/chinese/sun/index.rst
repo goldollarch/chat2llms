@@ -8,6 +8,7 @@
  .. toctree::
     :maxdepth: 3
 
+    grok
     sun_ds
     sun_qw
 

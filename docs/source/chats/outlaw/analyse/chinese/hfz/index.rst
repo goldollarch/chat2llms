@@ -9,6 +9,7 @@
  .. toctree::
     :maxdepth: 3
 
+    grok
     han_ds
     han_qw
 

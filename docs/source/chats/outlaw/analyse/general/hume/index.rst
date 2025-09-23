@@ -8,6 +8,7 @@ David Hume
  .. toctree::
     :maxdepth: 3
 
+    grok
     ds
     qw
 

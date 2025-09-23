@@ -8,6 +8,7 @@ John Locke
  .. toctree::
     :maxdepth: 3
 
+    grok
     locke_ds
     locke_qw
 

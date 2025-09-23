@@ -8,6 +8,6 @@
  .. toctree::
     :maxdepth: 3
 
-    sm_ds
     sm_gmn
+    sm_ds
     sm_qw
