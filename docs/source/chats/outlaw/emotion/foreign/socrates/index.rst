@@ -8,6 +8,7 @@ Socrates
  .. toctree::
     :maxdepth: 3
 
+    gmn
     ds
     qw
 

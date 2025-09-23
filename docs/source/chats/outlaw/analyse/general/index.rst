@@ -86,6 +86,11 @@
  .. toctree::
     :maxdepth: 3
 
+    mmax/index
+
+ .. toctree::
+    :maxdepth: 3
+
     hume/index
 
  .. toctree::
