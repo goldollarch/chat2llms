@@ -8,6 +8,7 @@ Bertrand Russell
  .. toctree::
     :maxdepth: 3
 
+    grok
     ds
     qw
 

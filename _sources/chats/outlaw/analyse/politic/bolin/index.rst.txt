@@ -8,6 +8,7 @@ Isaiah Berlin
  .. toctree::
     :maxdepth: 3
 
+    grok
     bolin_ds
     bolin_qw
 

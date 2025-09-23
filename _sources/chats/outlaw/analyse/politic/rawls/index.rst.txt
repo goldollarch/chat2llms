@@ -8,6 +8,7 @@ John Rawls
  .. toctree::
     :maxdepth: 3
 
+    grok
     rawls_ds
     rawls_qw
 

@@ -8,6 +8,7 @@ Charles Taylor
  .. toctree::
     :maxdepth: 3
 
+    grok
     ds
     qw
 

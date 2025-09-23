@@ -8,6 +8,7 @@ Robert Nozick
  .. toctree::
     :maxdepth: 3
 
+    grok
     nozick_ds
     nozick_qw
 

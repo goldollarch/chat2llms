@@ -8,6 +8,7 @@ Jesus Christ
  .. toctree::
     :maxdepth: 3
 
+    grok
     gmn
     ds
     qw

@@ -8,6 +8,7 @@ Michael Sandel
  .. toctree::
     :maxdepth: 3
 
+    grok
     sandel_ds
     sandel_qw
 
