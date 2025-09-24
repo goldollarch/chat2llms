@@ -99,4 +99,4 @@ The documents broadly comply with formal requirements but carry the following ri
 **Date**: [Insert Date]
 
 ---------------------------------------
-[[Chinese](/case/prepro/quality/quality_cn.md)]
+[[Chinese](/chats/prepro/quality/quality_cn.md)]

@@ -104,4 +104,4 @@ The court constructed its reasoning as follows:
 This judgment reflects judicial rigor in regulating online speech but raises concerns about procedural fairness and proportionality, particularly in balancing state interests with fundamental rights. The lack of substantive analysis on falsity and harm underscores tensions between public order maintenance and freedom of expression in China’s legal framework.
 
 -----------------------------------
-[[Chinese](/case/prepro/logic/logic_cn.md)]
+[[Chinese](/chats/prepro/logic/logic_cn.md)]
