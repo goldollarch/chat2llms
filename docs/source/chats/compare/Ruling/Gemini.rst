@@ -73,6 +73,7 @@ Here is a comparison of the similarities and differences among these analyses.
 
 -------------
 
+[:doc:`/chats/compare/Ruling/grok_cn`]
 [:doc:`/chats/compare/Ruling/Ruling_cn`]
 [:doc:`/chats/compare/Ruling/Gemini_cn`]
-[:doc:`/chats/compare/Ruling/grok_cn`]
+[:doc:`/chats/answers/qwen/ruling`]

@@ -115,4 +115,4 @@ Let me know if further details are needed!
 
 
 --------------------------------------
-[[Chinese](/case/prepro/entity/entity_cn.md)]
+[[Chinese](/chats/prepro/entity/entity_cn.md)]

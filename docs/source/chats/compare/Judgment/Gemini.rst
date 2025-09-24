@@ -151,6 +151,7 @@ rather than reflecting any substantive disagreement on the judgment's core defic
 
 -------------
 
+[:doc:`/chats/answers/qwen/Judgment`]
 [:doc:`/chats/compare/Judgment/deepseek`]
 [:doc:`/chats/compare/Judgment/grok`]
 

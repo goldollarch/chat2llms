@@ -162,4 +162,4 @@ From Criminal Ruling
 ```
 
 -----------------------------------
-[[Chinese](/case/prepro/structure/structure_cn.md)]
+[[Chinese](/chats/prepro/structure/structure_cn.md)]
