@@ -67,10 +67,10 @@
  .. toctree::
     :maxdepth: 1
 
-    zhu/index
+    lix/index
 
  .. toctree::
     :maxdepth: 1
 
-    wang/index
+    xxue/index
 
