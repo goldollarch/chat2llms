@@ -6,6 +6,12 @@ Chinese
  .. toctree::
     :maxdepth: 1
 
-    smq/index
+    sm/index
+
+
+ .. toctree::
+    :maxdepth: 1
+
+    jy/index
 
 

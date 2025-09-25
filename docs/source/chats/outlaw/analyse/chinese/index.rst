@@ -68,11 +68,6 @@ Chinese
  .. toctree::
     :maxdepth: 1
 
-    jy/index
-
- .. toctree::
-    :maxdepth: 1
-
     lix/index
 
  .. toctree::
