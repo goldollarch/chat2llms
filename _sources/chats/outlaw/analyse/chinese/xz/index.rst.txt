@@ -51,6 +51,7 @@
     :maxdepth: 3
 
     grok
+    gemini
     xun_ds
     xun_qw
 

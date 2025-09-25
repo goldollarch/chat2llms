@@ -47,6 +47,7 @@
     :maxdepth: 3
 
     grok
+    gemini
     ming_ds
     ming_qw
 

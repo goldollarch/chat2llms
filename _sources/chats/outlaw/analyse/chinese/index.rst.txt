@@ -7,6 +7,7 @@ Chinese
    
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
+百家争鸣
 
 ----------------
  

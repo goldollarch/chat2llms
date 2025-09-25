@@ -44,6 +44,7 @@
     :maxdepth: 3
 
     grok
+    gemini
     han_ds
     han_qw
 

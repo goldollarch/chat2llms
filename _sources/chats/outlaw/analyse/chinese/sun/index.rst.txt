@@ -63,6 +63,7 @@
     :maxdepth: 3
 
     grok
+    gemini
     sun_ds
     sun_qw
 
