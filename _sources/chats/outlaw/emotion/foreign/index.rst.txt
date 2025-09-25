@@ -6,6 +6,11 @@ Foreign
  .. toctree::
     :maxdepth: 1
 
+    christ/index
+
+ .. toctree::
+    :maxdepth: 1
+
     socrates/index
     
  .. toctree::
@@ -16,6 +21,16 @@ Foreign
  .. toctree::
     :maxdepth: 1
 
+    galileo/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    einst/index
+    
+ .. toctree::
+    :maxdepth: 1
+
     russell/index
 
  .. toctree::
@@ -23,8 +38,4 @@ Foreign
 
     king/index
 
- .. toctree::
-    :maxdepth: 1
-
-    christ/index
 

@@ -4,13 +4,13 @@ Historical Narration
 -------------------------
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     chinese/index
 
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     foreign/index
 

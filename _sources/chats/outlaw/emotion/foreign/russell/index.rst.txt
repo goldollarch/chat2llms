@@ -1,4 +1,4 @@
-Bertrand Russell
+Russell
 =================
 
 仿《罗素自传》序言体例

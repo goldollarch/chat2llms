@@ -1,4 +1,4 @@
-Martin Luther King
+King
 ===================
 
 仿《我有一个梦》(I have a dream)

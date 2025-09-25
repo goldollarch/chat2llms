@@ -19,21 +19,6 @@ Argumentation
  .. toctree::
     :maxdepth: 2
 
-    general/index
+    foreign/index
 
- .. toctree::
-    :maxdepth: 2
-
-    politic/index
-    
- .. toctree::
-    :maxdepth: 2
-
-    legal/index
-
-
- .. toctree::
-    :maxdepth: 2
-
-    science/index
-
+ 
