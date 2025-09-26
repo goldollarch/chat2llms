@@ -91,4 +91,4 @@ Qwen
 
 --------
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/foreign/science/psycho/forensic/resutls/wq.md)】
+【[警察与司法人员心理分析](/chats/outlaw/analyse/foreign/science/psycho/forensic/resutls/qw.md)】
