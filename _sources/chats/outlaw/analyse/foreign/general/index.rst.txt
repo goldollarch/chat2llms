@@ -101,6 +101,11 @@ General
  .. toctree::
     :maxdepth: 1
 
+    popper/index
+
+ .. toctree::
+    :maxdepth: 1
+
     russell/index
 
  .. toctree::
@@ -112,6 +117,11 @@ General
     :maxdepth: 1
 
     heidegger/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    science/index
 
  .. toctree::
     :maxdepth: 1
