@@ -91,6 +91,11 @@ General
  .. toctree::
     :maxdepth: 1
 
+    frankfurt/index
+
+ .. toctree::
+    :maxdepth: 1
+
     hume/index
 
  .. toctree::
@@ -137,6 +142,11 @@ General
     :maxdepth: 1
 
     hermen/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    language/index
 
  .. toctree::
     :maxdepth: 1
