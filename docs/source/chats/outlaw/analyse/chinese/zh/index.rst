@@ -50,6 +50,7 @@
     :maxdepth: 3
 
     grok
+    gemini
     ggz_ds
     ggz_qw
 
