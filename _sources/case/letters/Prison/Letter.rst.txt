@@ -425,5 +425,4 @@ Respectfully,
 
 -----------
 
-[:doc:`/case/letters/Prison/Letter_cn`] 
-
+[:doc:`Chinese </case/letters/Prison/Letter_cn>`] 

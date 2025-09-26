@@ -62,7 +62,7 @@ If you are not satisfied with this judgment, you may, within ten days from the s
 .. raw:: html
 
    <!-- 右对齐 -->
-   <div style="text-align: right;">Presiding Judge: Pu Huijun (普会竣)</div>
+   <div style="text-align: right;">Presiding Judge: Pu Huijun (普会峻)</div>
    <!-- 右对齐 -->
    <div style="text-align: right;">People's Assessor: Li Fengfen (李凤芬)</div>
    <!-- 右对齐 -->
