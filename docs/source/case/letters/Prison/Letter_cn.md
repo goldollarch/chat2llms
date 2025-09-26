@@ -1,5 +1,5 @@
-Chinese
-=======
+狱中自辩暨控告血书
+==================
 
 **尊敬的有关部门：**
 
@@ -238,3 +238,4 @@ Chinese
 ---
 
 [[Manuscript](/_static/files/Letter_raw.pdf)]
+[[word](/_static/files/Letter_cn.docx)]

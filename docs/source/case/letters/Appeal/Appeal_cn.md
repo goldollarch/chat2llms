@@ -1,7 +1,7 @@
 Chinese
 ========
 
-上诉通知书
+上诉申请书
 -----------
 
 尊敬的有关部门：
@@ -21,3 +21,4 @@ Chinese
 ----------------------------------------------------------------
 
 [[Manuscript](/_static/files/Appeal_raw.pdf)]
+[[word](/_static/files/Appeal_cn.docx)]
