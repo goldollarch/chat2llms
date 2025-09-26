@@ -64,19 +64,10 @@ Political
  .. toctree::
     :maxdepth: 1
 
-    habermas/index
-
+    sandel/index
+    
  .. toctree::
     :maxdepth: 1
 
     pettit/index
 
- .. toctree::
-    :maxdepth: 1
-
-    sandel/index
-
- .. toctree::
-    :maxdepth: 1
-
-    taylor/index
