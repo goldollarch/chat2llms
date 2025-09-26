@@ -64,6 +64,11 @@ Legal
  .. toctree::
     :maxdepth: 1
 
+    holmes/index
+
+ .. toctree::
+    :maxdepth: 1
+
     kelsen/index
 
  .. toctree::
