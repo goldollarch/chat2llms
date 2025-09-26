@@ -1,6 +1,7 @@
 Psychology
 =========
 
+心理学视角的分析。
 
 -------------------------
 
@@ -17,12 +18,12 @@ Psychology
  .. toctree::
     :maxdepth: 1
 
-    develop/index
+    evolution/index
 
  .. toctree::
     :maxdepth: 1
 
-    evolution/index
+    develop/index
 
  .. toctree::
     :maxdepth: 1
