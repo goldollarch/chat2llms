@@ -71,3 +71,23 @@ Political
 
     pettit/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    oakeshott/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    cohen/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    strauss/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    williams/index
+
