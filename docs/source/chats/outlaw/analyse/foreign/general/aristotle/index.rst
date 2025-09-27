@@ -55,6 +55,7 @@ Aristotle
     :maxdepth: 3
 
     grok
+    gemini
     aristotle_ds
     aristotle_qw
 

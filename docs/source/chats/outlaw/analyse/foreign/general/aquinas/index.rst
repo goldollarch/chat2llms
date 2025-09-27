@@ -81,6 +81,7 @@ St. Thomas Aquinas
     :maxdepth: 3
 
     grok
+    gemini
     ds
     qw
 
