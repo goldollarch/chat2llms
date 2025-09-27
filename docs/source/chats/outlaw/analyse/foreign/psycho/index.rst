@@ -45,6 +45,16 @@ Minds
  .. toctree::
     :maxdepth: 1
 
+    piaget/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    rogers/index
+
+ .. toctree::
+    :maxdepth: 1
+
     kahneman/index
 
  .. toctree::
@@ -56,16 +66,6 @@ Minds
     :maxdepth: 1
 
     maslow/index
-
- .. toctree::
-    :maxdepth: 1
-
-    piaget/index
-
- .. toctree::
-    :maxdepth: 1
-
-    rogers/index
 
  .. toctree::
     :maxdepth: 1
