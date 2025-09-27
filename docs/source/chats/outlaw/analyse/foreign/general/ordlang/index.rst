@@ -1,4 +1,4 @@
-Ordinary Language
+Ord.Language
 =========
 
 基于 **日常语言学派** （Ordinary Language Philosophy）的理论视角。
@@ -41,7 +41,6 @@ Ordinary Language
 
 *   **简单来说**：语言不仅是用来“说”的，更是用来“做”的。说“我道歉”就是在执行道歉这个行为；说“我打赌”就是在完成下注的动作。
 
----
 
 **总结：一场哲学方法的革命**
 
