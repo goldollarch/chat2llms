@@ -76,6 +76,7 @@ St. Augustine
     :maxdepth: 3
 
     grok
+    gemini
     ds
     qw
 
