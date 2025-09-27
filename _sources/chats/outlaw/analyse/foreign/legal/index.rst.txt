@@ -81,3 +81,23 @@ Legal
 
     raz/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    max/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    critical/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    positivism/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    right/index
+
