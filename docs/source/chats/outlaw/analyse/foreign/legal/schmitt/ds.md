@@ -1,7 +1,7 @@
 Deepseek
 --------
 
-好的，我将基于卡尔·施密特（Carl Schmitt）的政治法学核心思想——尤其是其 **“主权决断论”**（Sovereign is he who decides on the exception）、**“敌友划分”**（Friend-Enemy Distinction）与 **“法律就是具体秩序”**（Law as Concrete Order）的理论——对陈京元博士案件进行剖析。施密特的理论为我们理解此案中**法律的悬置**、**主权的显现**与**政治的绝对性**提供了一个冷酷而极具穿透力的分析框架。
+下面将基于卡尔·施密特（Carl Schmitt）的政治法学核心思想——尤其是其 **“主权决断论”**（Sovereign is he who decides on the exception）、**“敌友划分”**（Friend-Enemy Distinction）与 **“法律就是具体秩序”**（Law as Concrete Order）的理论——对陈京元博士案件进行剖析。施密特的理论为我们理解此案中**法律的悬置**、**主权的显现**与**政治的绝对性**提供了一个冷酷而极具穿透力的分析框架。
 
 ---
 
