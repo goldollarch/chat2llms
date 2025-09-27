@@ -81,6 +81,11 @@ General
  .. toctree::
     :maxdepth: 1
 
+    mill/index
+
+ .. toctree::
+    :maxdepth: 1
+
     max/index
 
  .. toctree::
@@ -121,11 +126,6 @@ General
  .. toctree::
     :maxdepth: 1
 
-    science/index
-
- .. toctree::
-    :maxdepth: 1
-
     analytic/index
 
  .. toctree::
@@ -156,6 +156,11 @@ General
  .. toctree::
     :maxdepth: 1
 
+    postm/index
+
+ .. toctree::
+    :maxdepth: 1
+
     hermen/index
 
  .. toctree::
@@ -171,4 +176,5 @@ General
  .. toctree::
     :maxdepth: 1
 
-    postm/index
+    science/index
+
