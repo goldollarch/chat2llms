@@ -49,6 +49,11 @@ Legal
  .. toctree::
     :maxdepth: 1
 
+    schmitt/index
+
+ .. toctree::
+    :maxdepth: 1
+
     fuller/index
 
  .. toctree::
@@ -75,9 +80,4 @@ Legal
     :maxdepth: 1
 
     raz/index
-
- .. toctree::
-    :maxdepth: 1
-
-    schmitt/index
 
