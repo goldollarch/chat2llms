@@ -1,4 +1,4 @@
-Heidegger
+Martin Heidegger
 =========
 
 基于马丁·海德格尔（Martin Heidegger）哲学的核心概念。
