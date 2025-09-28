@@ -263,4 +263,4 @@ Analysis and Evaluation
 
 ---------------------------------------------
 
-[[Deepseek](/chats/answers/deepseek/criminal.md)] [[Grok](/chats/accuse/criminal/analyses_cn.md)]
+[[Deepseek](/chats/answers/deepseek/criminal.md)] [[Grok](/chats/accuse/criminal/analyses_cn.md)][[Qwen](/chats/accuse/criminal/qwen.md)]

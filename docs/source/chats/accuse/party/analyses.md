@@ -130,9 +130,6 @@ Chen Jingyuan's allegations highlight significant concerns about the conduct of 
 
 **Conclusion**: Chen's allegations are partially valid, particularly regarding procedural fairness and the rule of law. The personnel's conduct, if as described, could harm the Party's image and goals, supporting Chen's claim of \"low-level red, high-level black\" tactics. However, many of his accusations lack specific evidence, and the personnel likely viewed their actions as consistent with Party priorities (e.g., suppressing dissent). The case reflects broader tensions between the Party's control mechanisms and its stated commitment to legal governance, highlighting systemic issues in the PRC's judicial system.
 
-*Disclaimer: Grok is not a lawyer; please consult one. Don\'t share information that can identify you.*
-
 -------------------
 
-[[Gemini](/chats/accuse/party/Gemini.md)] 
-[[Grok](/chats/accuse/party/Grok.md)]
+[[Gemini](/chats/accuse/party/Gemini.md)][[Grok](/chats/accuse/party/Grok.md)][[Qwen](/chats/accuse/party/qwen.md)]
