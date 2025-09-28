@@ -1,7 +1,7 @@
 Analysis of Criminal Ruling
 =====================================
 
-Three large language models ( :doc:`/chats/answers/deepseek/Ruling`, :doc:`/chats/answers/gemini/Ruling`, and 
+Some large language models ( :doc:`/chats/answers/deepseek/Ruling`, :doc:`/chats/answers/gemini/Ruling`, and 
 :doc:`/chats/answers/grok/Ruling` ）have been used to analyse the Kunming Intermediate People's Court's 
 final ruling [Refer to: :doc:`/case/docus/Ruling/Ruling`], which upheld Chen Jingyuan's conviction. 
 
@@ -9,7 +9,7 @@ Here is a comparison of the similarities and differences among these analyses.
 
 **I. Similarities Across All Three Analyses (DeepSeek, Gemini, Grok):**
 
-   The three large language models demonstrate significant agreement in their critical assessments of  Key points of consensus include:
+   The the large language models demonstrate significant agreement in their critical assessments of  Key points of consensus include:
 
    1. **Upholding a Flawed Judgment:** All three analyses concur that the fundamental problem with the ruling is its affirmation of the deeply flawed first-instance judgment. They agree the appellate court failed to correct the lower court's errors.  
 

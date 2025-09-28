@@ -1,7 +1,7 @@
 Analysis of Criminal Judgment
 =======================================
 
-Three large language models ( :doc:`/chats/answers/deepseek/Judgment`, :doc:`/chats/answers/gemini/Judgment`, and 
+Some large language models ( :doc:`/chats/answers/deepseek/Judgment`, :doc:`/chats/answers/gemini/Judgment`, and 
 :doc:`/chats/answers/grok/Judgment` ）have been used to analyse the Xishan District Court's 
 first-instance judgment [Refer to: :doc:`/case/docus/Judgment/Judgment`] in Chen Jingyuan case。 
 
