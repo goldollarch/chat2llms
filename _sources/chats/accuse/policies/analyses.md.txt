@@ -78,8 +78,7 @@ Chen Jingyuan's allegations highlight potential conflicts between the law enforc
 
 **Conclusion**: Chen's allegations have some merit. The law enforcement personnel's actions may conflict with the \"Community with a Shared Future for Mankind\" concept, indirectly undermine the intellectual foundations of state policies, and risk diplomatic repercussions due to extraterritorial enforcement. However, claims of \"thorough negation of human civilization\" or \"subversion of all policies\" are exaggerated, and the personnel likely believed their actions aligned with the state's stability objectives. This case reflects the complex balance between domestic enforcement, legal governance, and international policy goals in China.
 
-*Disclaimer: Grok is not a lawyer; please consult one. Don't share information that can identify you.*
 
 ---
 
-[[Chinese](/chats/accuse/policies/analyses_cn.md)]
+[[Grok](/chats/accuse/policies/analyses_cn.md)][[qwen](/chats/accuse/policies/qwen.md)]

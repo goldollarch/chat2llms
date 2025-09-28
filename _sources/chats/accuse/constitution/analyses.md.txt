@@ -129,8 +129,6 @@ Chen Jingyuan's allegations highlight potential constitutional violations by the
 
 **Conclusion**: Chen's allegations have some merit, particularly regarding freedom of speech and procedural justice. If the personnel labeled political speech as a \"rumor\" and suppressed it without evidence, their actions may violate Articles 35 and 36 of the *Constitution*, infringing upon fundamental rights. However, some claims (e.g., \"negation of human civilization,\" \"harming all humanity\") are exaggerated and lack direct evidence. The personnel may argue their actions were aimed at maintaining public order, reflecting a tension between constitutional rights and public power in China's judicial practice.
 
-*Disclaimer: Grok is not a lawyer; please consult one. Don't share information that can identify you.*
-
 ---------------------------------------------
 
-[[Chinese](/chats/accuse/constitution/analyses_cn.md)]
+[[Grok](/chats/accuse/constitution/analyses_cn.md)][[Qwen](/chats/accuse/constitution/qwen.md)]
