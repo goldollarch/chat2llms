@@ -64,6 +64,7 @@ Frankfurt
     :maxdepth: 3
 
     grok
+    gemini
     ds
     qw
 
