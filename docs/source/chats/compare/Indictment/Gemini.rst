@@ -1,7 +1,7 @@
 Analysis of the Indictment
 ============================
 
-Three large language models ( :doc:`/chats/answers/deepseek/Indictment`, :doc:`/chats/answers/gemini/Indictment`, and 
+Some large language models ( :doc:`/chats/answers/deepseek/Indictment`, :doc:`/chats/answers/gemini/Indictment`, and 
 :doc:`/chats/answers/grok/Indictment` ）have been used to analyse the Indictment 
 [Refer to: :doc:`/case/docus/Indictment/Indictment`] in the Chen Jingyuan case. 
 
@@ -10,7 +10,7 @@ Here is a comparison of the similarities and differences among these analyses.
 
 **I. Similarities Across All Three Analyses (DeepSeek, Gemini, Grok):**
 
-All three large language models offer highly consistent critical assessments of , converging on several key points:
+All the large language models offer highly consistent critical assessments of , converging on several key points:
 
 ----
 

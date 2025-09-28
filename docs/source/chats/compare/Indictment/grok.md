@@ -21,7 +21,7 @@ The analyses critique the indictment\'s failure to meet legal standards, particu
 
 **Introduction**
 
-This note compares the legal analyses and assessments of the Prosecution\'s Indictment in Chen Jingyuan\'s case by three large language models: DeepSeek, Gemini, and Grok. Chen, convicted under Article 293 for forwarding X posts, faced an indictment alleging \"false statements\" disrupting public order. The analyses, based on attached documents (deepseek_indict.docx, gemini_indict.docx, grok_indict.docx), evaluate legal framework, evidence, procedure, and broader implications, identifying similarities and differences.
+This note compares the legal analyses and assessments of the Prosecution\'s Indictment in Chen Jingyuan\'s case by the large language models: DeepSeek, Gemini, and Grok. Chen, convicted under Article 293 for forwarding X posts, faced an indictment alleging \"false statements\" disrupting public order. The analyses, based on attached documents (deepseek_indict.docx, gemini_indict.docx, grok_indict.docx), evaluate legal framework, evidence, procedure, and broader implications, identifying similarities and differences.
 
 **Methodology**
 

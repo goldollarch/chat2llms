@@ -1,14 +1,14 @@
 Overall Documents Analysis
 ==============================
 
-Three large language models  ([deepseek](/chats/answers/deepseek/overview), [gemini](/chats/answers/gemini/overview), and [grok](/chats/answers/grok/overview) ）have provided a professional legal analysis and evaluation of this case [Refer to case: [introduction](/case/intro)], which involves the Chinese legal concept of "Xun Xin Zi Shi", often translated as "picking quarrels and provoking trouble". 
+Some large language models  ([deepseek](/chats/answers/deepseek/overview), [gemini](/chats/answers/gemini/overview), and [grok](/chats/answers/grok/overview) ）have provided a professional legal analysis and evaluation of this case [Refer to case: [introduction](/case/intro)], which involves the Chinese legal concept of "Xun Xin Zi Shi", often translated as "picking quarrels and provoking trouble". 
 
 
 Here is a comparison of the similarities and differences between the legal analyses of the Chen Jingyuan case provided by DeepSeek, Gemini, and Grok, based on the documents you supplied.
 
 **I. Similarities Across All Three Analyses (DeepSeek, Gemini, Grok):**
 
-All three large language models provide remarkably consistent legal analyses and assessments of the Chen Jingyuan case, highlighting several core points of agreement:
+All the large language models provide remarkably consistent legal analyses and assessments of the Chen Jingyuan case, highlighting several core points of agreement:
 
 1. **Identification of Legal Framework:** All correctly identify Article 293 of the PRC Criminal Law ("Picking Quarrels and Provoking Trouble" \- PXQT) and the relevant 2013 Judicial Interpretation concerning online conduct as the central legal basis for the charge and conviction.
 
