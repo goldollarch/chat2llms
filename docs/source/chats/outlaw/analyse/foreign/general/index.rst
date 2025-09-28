@@ -86,6 +86,11 @@ General
  .. toctree::
     :maxdepth: 1
 
+    dewey/index
+
+ .. toctree::
+    :maxdepth: 1
+
     max/index
 
  .. toctree::
