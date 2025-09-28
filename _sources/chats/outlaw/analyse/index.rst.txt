@@ -1,4 +1,4 @@
-Argumentation
+Theoretical Analysis
 ===============
 
 .. note::

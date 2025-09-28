@@ -26,6 +26,11 @@ Social
  .. toctree::
     :maxdepth: 1
 
+    weber/index
+
+ .. toctree::
+    :maxdepth: 1
+
     adorno/index
 
  .. toctree::
@@ -66,14 +71,10 @@ Social
  .. toctree::
     :maxdepth: 1
 
-    sen/index
-
- .. toctree::
-    :maxdepth: 1
-
     taylor/index
 
  .. toctree::
     :maxdepth: 1
 
-    weber/index
+    sen/index
+
