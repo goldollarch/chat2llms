@@ -52,6 +52,7 @@ Edmund Husserl
     :maxdepth: 3
 
     grok
+    gemini
     ds
     qw
 

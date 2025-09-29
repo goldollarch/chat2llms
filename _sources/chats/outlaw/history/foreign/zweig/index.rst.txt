@@ -22,6 +22,7 @@ Zweig
  .. toctree::
     :maxdepth: 3
 
+    grok
     zwg_ds
     zwg_qw
 

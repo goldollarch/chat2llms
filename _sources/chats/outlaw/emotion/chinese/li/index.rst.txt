@@ -8,6 +8,7 @@
  .. toctree::
     :maxdepth: 3
 
+    grok
     li_ds
     li_qw
 

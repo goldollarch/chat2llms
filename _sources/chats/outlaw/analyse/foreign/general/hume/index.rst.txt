@@ -67,6 +67,7 @@ David Hume
     :maxdepth: 3
 
     grok
+    gemini
     ds
     qw
 

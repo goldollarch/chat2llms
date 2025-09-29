@@ -41,11 +41,6 @@ Chinese
  .. toctree::
     :maxdepth: 1
 
-    ming/index
-
- .. toctree::
-    :maxdepth: 1
-
     xz/index
 
  .. toctree::
@@ -57,6 +52,11 @@ Chinese
     :maxdepth: 1
 
     yy/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    ming/index
 
  .. toctree::
     :maxdepth: 1
@@ -77,4 +77,9 @@ Chinese
     :maxdepth: 1
 
     xxue/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    other/index
 
