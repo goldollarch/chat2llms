@@ -81,4 +81,4 @@ Chen Jingyuan's allegations highlight potential conflicts between the law enforc
 
 ---
 
-[[Grok](/chats/accuse/policies/analyses_cn.md)][[qwen](/chats/accuse/policies/qwen.md)]
+[[Grok](/chats/accuse/policies/analyses_cn.md)][[Qwen](/chats/accuse/policies/qwen.md)]

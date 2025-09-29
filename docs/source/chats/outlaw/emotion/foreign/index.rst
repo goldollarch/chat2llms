@@ -21,6 +21,11 @@ Foreign
  .. toctree::
     :maxdepth: 1
 
+    russell/index
+
+ .. toctree::
+    :maxdepth: 1
+
     galileo/index
 
  .. toctree::
@@ -28,11 +33,6 @@ Foreign
 
     einst/index
     
- .. toctree::
-    :maxdepth: 1
-
-    russell/index
-
  .. toctree::
     :maxdepth: 1
 

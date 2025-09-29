@@ -8,5 +8,6 @@ King
  .. toctree::
     :maxdepth: 3
 
+    grok
     king_ds
     king_qw
