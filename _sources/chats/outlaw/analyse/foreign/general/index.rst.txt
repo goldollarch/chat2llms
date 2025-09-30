@@ -6,6 +6,11 @@ General
  .. toctree::
     :maxdepth: 1
 
+    socrates/index
+
+ .. toctree::
+    :maxdepth: 1
+
     plato/index
 
  .. toctree::
