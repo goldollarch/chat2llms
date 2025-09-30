@@ -189,4 +189,4 @@ This aligns with *CPL* Article 242(1), potentially proving the original facts (s
 
 --------
 
-[[Grok数据](/chats/elements/disorder/xcenjoy_cn)]
+[[Chinese](/chats/elements/disorder/xcenjoy_cn)]
