@@ -186,4 +186,6 @@ The Kunming authorities' conviction of Dr. Chen Jingyuan for \"picking quarrels 
 
 --------------
 
-[[Grok](/chats/elements/actions/analyses_cn)][[Qwen](/chats/elements/actions/qwen)]
+[[Grok](/chats/elements/actions/analyses_cn)]
+[[DeepSeek](/chats/elements/actions/deepseek)]
+[[Qwen](/chats/elements/actions/qwen)]

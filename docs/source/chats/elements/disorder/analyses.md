@@ -131,3 +131,4 @@ This evaluation is based on the case documents and Chen's self-defense, as of Ma
 [[Gemini](/chats/answers/gemini/disorder)]
 [[Deepseek](/chats/answers/deepseek/disorder)] 
 [[Qwen](/chats/elements/disorder/qwen)] 
+[[DS](/chats/elements/disorder/deepseek)] 
