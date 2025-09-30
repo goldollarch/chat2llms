@@ -10,3 +10,8 @@ Chinese
 
     smq/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    lqc/index
+

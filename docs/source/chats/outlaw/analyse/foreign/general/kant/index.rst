@@ -76,6 +76,7 @@ Immanuel Kant
     :maxdepth: 3
 
     grok
+    gemini
     ds
     qw
 

@@ -71,6 +71,7 @@ John Locke
     :maxdepth: 3
 
     grok
+    gemini
     locke_ds
     locke_qw
 
