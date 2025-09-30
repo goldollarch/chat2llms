@@ -86,6 +86,11 @@ General
  .. toctree::
     :maxdepth: 1
 
+    bergson/index
+
+ .. toctree::
+    :maxdepth: 1
+
     mill/index
 
  .. toctree::

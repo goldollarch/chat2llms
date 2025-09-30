@@ -70,4 +70,9 @@ Minds
  .. toctree::
     :maxdepth: 1
 
+    fromm/index
+
+ .. toctree::
+    :maxdepth: 1
+
     seligman/index
