@@ -81,9 +81,7 @@ Dr. Chen Jingyuan's self-defense regarding the \"knowledge\" attribution is lega
 
 This evaluation is based on Chen Jingyuan's self-defense and case documents, as of March 23, 2025. For a deeper analysis, additional procedural details could be requested, but this is beyond the current scope.
 
-**Disclaimer**: Grok is not a lawyer; please consult one. Don't share information that can identify you.
-
 
 --------------
 
-[[Chinese](/chats/elements/knowing/analyses_cn)]
+[[Grok](/chats/elements/knowing/analyses_cn)][[Qwen](/chats/elements/knowing/qwen)]
