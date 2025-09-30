@@ -125,10 +125,9 @@ Chen's self-defense centers on several key legal and theoretical arguments, whic
 
 This evaluation is based on the case documents and Chen's self-defense, as of March 23, 2025. For a deeper analysis, further procedural details or additional evidence could be requested, but this is beyond the current scope.
 
-**Disclaimer**: Grok is not a lawyer; please consult one. Don\'t share information that can identify you.
-
-
 --------------
-[[Deepseek](/chats/answers/deepseek/disorder)] 
-[[Gemini](/chats/answers/gemini/disorder)]
+
 [[Grok](/chats/answers/grok/disorder_cn)] 
+[[Gemini](/chats/answers/gemini/disorder)]
+[[Deepseek](/chats/answers/deepseek/disorder)] 
+[[Qwen](/chats/elements/disorder/qwen)] 
