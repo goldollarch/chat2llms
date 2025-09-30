@@ -41,6 +41,11 @@ Social
  .. toctree::
     :maxdepth: 1
 
+    marcuse/index
+
+ .. toctree::
+    :maxdepth: 1
+
     foucault/index
 
  .. toctree::
