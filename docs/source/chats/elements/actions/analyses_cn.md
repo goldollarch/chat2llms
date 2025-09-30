@@ -188,5 +188,5 @@ Grok
 
 ------------
 
-[[Grok数据分析20250325](/chats/elements/disorder/xcenjoy)]
-[[Grok数据分析20250925](/chats/elements/actions/xresults)]
+[[数据20250325](/chats/elements/disorder/xcenjoy)]
+[[数据20250925](/chats/elements/actions/xresults)]
