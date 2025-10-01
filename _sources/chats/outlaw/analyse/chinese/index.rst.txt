@@ -9,77 +9,15 @@ Chinese
    
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
-百家争鸣
 
 ----------------
  
  .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
-    lz/index
-
- .. toctree::
-    :maxdepth: 1
-
-    kz/index
+    person/index
 
  .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
-    mz/index
-
- .. toctree::
-    :maxdepth: 1
-
-    zz/index
-
- .. toctree::
-    :maxdepth: 1
-
-    mo/index
-
- .. toctree::
-    :maxdepth: 1
-
-    xz/index
-
- .. toctree::
-    :maxdepth: 1
-
-    hfz/index
-
- .. toctree::
-    :maxdepth: 1
-
-    yy/index
-
- .. toctree::
-    :maxdepth: 1
-
-    ming/index
-
- .. toctree::
-    :maxdepth: 1
-
-    sun/index
-
- .. toctree::
-    :maxdepth: 1
-
-    zh/index
-
- .. toctree::
-    :maxdepth: 1
-
-    lix/index
-
- .. toctree::
-    :maxdepth: 1
-
-    xxue/index
-
- .. toctree::
-    :maxdepth: 1
-
-    other/index
-
+    school/index

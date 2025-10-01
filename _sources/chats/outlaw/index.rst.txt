@@ -20,7 +20,7 @@ Land beyond law
 
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 6
 
     analyse/index
 

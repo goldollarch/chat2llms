@@ -14,12 +14,12 @@ Theoretical Analysis
 -------------------------
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     chinese/index
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 5
 
     foreign/index
 

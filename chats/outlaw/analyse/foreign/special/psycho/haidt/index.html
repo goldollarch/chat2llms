@@ -1,0 +1,287 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan Haidt &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../freud/qw.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../code/index.html">API documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">Theoretical Analysis</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">Chinese</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">Foreign</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../general/index.html">General</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">Specialty</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">Historical Narration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">Lyric (poetry, prose)</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Theoretical Analysis</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Foreign</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Specialty</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Minds</a></li>
+      <li class="breadcrumb-item active">Jonathan Haidt</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/special/psycho/haidt/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="jonathan-haidt">
+<h1>Jonathan Haidt<a class="headerlink" href="#jonathan-haidt" title="Link to this heading"></a></h1>
+<p>基于乔纳森·海特（Jonathan Haidt）的社会心理学和道德心理学视角。</p>
+<hr class="docutils" />
+<p>乔纳森·海特是社会心理学和道德心理学领域极具影响力的思想家。他的核心要义可以概括为：<strong>颠覆理性主义道德观，揭示道德判断主要由快速的、自动的直觉驱动，并系统性地阐释道德的多元基础，以此解释和理解政治分歧与社会冲突。</strong></p>
+<p>以下是其思想的几个核心支柱：</p>
+<p>一、核心命题：社会直觉主义模型</p>
+<p>这是海特对传统道德判断模型的根本性挑战。</p>
+<ul class="simple">
+<li><p><strong>批判“理性主义马车”模型</strong>：传统观点认为，道德判断像一辆由理性（车夫）驾驭着情感（马）的马车。即我们先通过理性推理得出对错结论，然后情感跟进。</p></li>
+<li><p><strong>提出“社会直觉主义模型”</strong>：海特认为，实际情况恰恰相反。道德判断更像是一头 <strong>直觉的大象</strong> 背上驮着一个 <strong>事后辩护的理性骑手</strong> 。</p>
+<ol class="arabic simple">
+<li><p><strong>直觉优先</strong>：当我们面对一个道德情境时，会瞬间、自动地产生一种直觉性的情感反应（如“这太恶心了！”或“这真高尚！”）。这个直觉直接决定了我们的判断。</p></li>
+<li><p><strong>理性事后辩护</strong>：我们的理性（骑手）的主要工作不是寻找真理，而是为直觉（大象）已经做出的判断寻找合理的理由和论据来说服他人和自己。</p></li>
+<li><p><strong>社会性核心</strong>：我们的直觉深受所处社会和文化环境的影响，并且我们主要通过社会互动来影响和改变彼此的道德观念，而非纯粹的理性辩论。</p></li>
+</ol>
+</li>
+</ul>
+<p>二、道德基础理论：解释道德多样性与政治分歧</p>
+<p>这是海特最著名的贡献。他提出，人类的“道德味觉”并非单一，而是由几种（最初为五种，后扩展为六种）先天性的心理基础构成。不同文化和意识形态的人，只是在“调校”这些基础的敏感度上有所不同。</p>
+<table class="docutils align-center" id="id1">
+<caption><span class="caption-text">海特的六大道德基础</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 15.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 35.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>道德基础</strong></p></th>
+<th class="head"><p><strong>核心关切（适应性问题）</strong></p></th>
+<th class="head"><p><strong>典型表现（直觉词汇）</strong></p></th>
+<th class="head"><p><strong>典型重视群体</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>1. 关爱/伤害</strong></p></td>
+<td><p>抚育后代，保护脆弱者免受伤害。</p></td>
+<td><p>同情、残忍、善良、痛苦。</p></td>
+<td><p><strong>普遍重视（尤其是自由派/左派）</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>2. 公平/欺骗</strong></p></td>
+<td><p>从合作关系中获得双向收益，惩罚欺骗者。</p></td>
+<td><p>正义、权利、平等、作弊。</p></td>
+<td><p><strong>普遍重视（尤其是自由派/左派）</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>3. 忠诚/背叛</strong></p></td>
+<td><p>建立和维护强大的联盟团体。</p></td>
+<td><p>国家、旗帜、背叛、团队精神。</p></td>
+<td><p><strong>保守派/右派更为重视</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>4. 权威/颠覆</strong></p></td>
+<td><p>在等级社会中建立有益的领导和服从关系。</p></td>
+<td><p>尊重、服从、传统、秩序。</p></td>
+<td><p><strong>保守派/右派更为重视</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>5. 圣洁/堕落</strong></p></td>
+<td><p>避免疾病和污染，维持身体和灵魂的纯洁。</p></td>
+<td><p>纯洁、神圣、污秽、节制。</p></td>
+<td><p><strong>保守派/右派更为重视</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>6. 自由/压迫</strong></p></td>
+<td><p>抵抗霸凌和专制，保护个人自主权。</p></td>
+<td><p>压迫、暴政、自由、自主。</p></td>
+<td><p><strong>普遍重视（自由派可能更强调）</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心论点</strong>：</p>
+<ul class="simple">
+<li><p><strong>自由派/左派</strong> 的道德观念主要建立在 <strong>关爱/伤害</strong> 和 <strong>公平/欺骗</strong> 这两个基础上，相对忽视其他基础。</p></li>
+<li><p><strong>保守派/右派</strong> 的道德观念则相对均衡地运用全部（或大部分）基础。</p></li>
+<li><p>因此，政治分歧的根源不仅是利益，更是 <strong>道德品味的差异</strong> 。双方像是在用不同的“道德语法”说话，导致难以相互理解。自由派认为保守派冷漠（不关心伤害与公平），保守派认为自由派浅薄（不尊重权威、传统和圣洁）。</p></li>
+</ul>
+<p>三、幸福假设：关于美好生活的古老智慧</p>
+<p>在《幸福假设》中，海特探讨了“人如何获得幸福”这一古老问题，并运用现代心理学研究成果进行了验证。</p>
+<ul class="simple">
+<li><p><strong>核心比喻</strong>：他再次使用“大象（情感/直觉）与骑手（理性）”的比喻，指出幸福的获得不能只靠理性的骑手（如设定目标），关键在于 <strong>驯服和引导情感的大象</strong> 。</p></li>
+<li><p><strong>重要结论</strong>：</p>
+<ul>
+<li><p><strong>幸福主要来自人际关系</strong> （爱与被爱）和 <strong>全身心投入某项事业</strong> （心流体验）。</p></li>
+<li><p><strong>“蜂巢开关”</strong>：人类不仅有自私的一面，还天生具有“群体性”，能够在特定情境下（如集体仪式、运动盛会）超越个人利益，融入集体，获得深刻的满足感。</p></li>
+</ul>
+</li>
+</ul>
+<p>四、对现代社会的诊断与警示</p>
+<p>在《娇惯的心灵》中，海特将其理论应用于分析美国校园及社会现象，提出“三大谬误”：</p>
+<ol class="arabic simple">
+<li><p><strong>脆弱人谬误</strong>：认为年轻人心理极度脆弱，需要过度保护。这反而阻碍了其抗逆力的发展。</p></li>
+<li><p><strong>情绪推理谬误</strong>：“我感觉不舒服，所以一定是有人错了”。将主观感受作为客观事实的依据。</p></li>
+<li><p><strong>“我们vs他们”的非黑即白谬误</strong>：将世界简单划分为好人（受害者）与坏人（压迫者）。</p></li>
+</ol>
+<p>他认为，这些认知谬误与社交媒体等因素结合，正在导致一代人认知和行为模式的扭曲，不利于民主社会所必需的理性对话和抗压能力。</p>
+<p>核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>道德判断</strong></p></td>
+<td><p>道德判断由 <strong>直觉</strong> 驱动，理性主要扮演 <strong>事后辩护</strong> 的角色。</p></td>
+<td><p><strong>社会直觉主义模型、大象与骑手</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>道德心理学</strong></p></td>
+<td><p>人类的道德由多种 <strong>道德基础</strong> 构成，政治分歧源于对不同道德基础的侧重。</p></td>
+<td><p><strong>道德基础理论（6大基础）、道德多样性</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>幸福哲学</strong></p></td>
+<td><p>幸福源于 <strong>人际关系</strong> 和 <strong>心流体验</strong> ，人天生具有融入集体的 <strong>“蜂巢开关”</strong>。</p></td>
+<td><p><strong>幸福假设、蜂巢开关</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>社会批判</strong></p></td>
+<td><p>过度保护和对安全的极端追求，正在塑造”娇惯的心灵”，损害社会韧性。</p></td>
+<td><p><strong>三大谬误、安全主义</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>总而言之，乔纳森·海特的核心要义在于，他运用社会心理学的实证研究，有力地揭示了人类道德和非理性的一面，为我们理解自身、理解政治对立、以及思考如何建设一个更美好的社会提供了极其宝贵和富有启发性的视角。他提醒我们，要达成社会共识，首先需要学会理解对方所使用的“道德语言”。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ds.html">Deepseek</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qw.html">Qwen</a></li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../freud/qw.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
