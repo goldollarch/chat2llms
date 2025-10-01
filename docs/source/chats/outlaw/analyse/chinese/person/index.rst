@@ -1,5 +1,5 @@
-Foreign
-==========
+诸子
+=========
 
 .. note::
    
@@ -9,16 +9,40 @@ Foreign
    
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
+----------------
+ 
+ .. toctree::
+    :maxdepth: 1
 
--------------------------
+    lz/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
-    general/index
+    kz/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
-    special/index
-    
+    mz/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    zz/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    xz/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    hfz/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    other/index
+

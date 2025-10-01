@@ -1,5 +1,5 @@
-Foreign
-==========
+百家
+=========
 
 .. note::
    
@@ -10,15 +10,65 @@ Foreign
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
 
--------------------------
+----------------
+ 
+ .. toctree::
+    :maxdepth: 1
+
+    ru/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
-    general/index
+    dao/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
-    special/index
-    
+    fa/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    mo/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    yy/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    ming/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    sun/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    zh/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    ye/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    fo/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lix/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    xxue/index
+
