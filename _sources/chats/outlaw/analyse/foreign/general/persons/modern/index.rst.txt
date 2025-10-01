@@ -11,11 +11,6 @@
  .. toctree::
     :maxdepth: 1
 
-    mill/index
-
- .. toctree::
-    :maxdepth: 1
-
     james/index
 
  .. toctree::
@@ -57,5 +52,20 @@
     :maxdepth: 1
 
     camus/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    habermas/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    marcuse/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    foucault/index
 
 
