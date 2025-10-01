@@ -1,4 +1,4 @@
-Herbert Marcuse
+Marcuse
 =========
 
 基于​​赫伯特·马尔库塞（Herbert Marcuse）​​的哲学理论。
