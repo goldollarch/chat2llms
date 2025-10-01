@@ -18,7 +18,7 @@ Chinese
  .. toctree::
     :maxdepth: 1
 
-    li/index
+    lib/index
 
  .. toctree::
     :maxdepth: 1
