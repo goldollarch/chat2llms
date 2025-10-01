@@ -32,7 +32,7 @@
  .. toctree::
     :maxdepth: 3
 
-    sj_grk
-    sj_gmn
-    sj_ds
-    sj_qw
+    grok
+    gemini
+    deepseek
+    qwen
