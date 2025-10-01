@@ -51,6 +51,11 @@
  .. toctree::
     :maxdepth: 1
 
+    krkgrd/index
+
+ .. toctree::
+    :maxdepth: 1
+
     schpnhua/index
 
  .. toctree::
