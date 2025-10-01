@@ -6,7 +6,7 @@ Land beyond law
    
    我坚信，面对如此复杂的系统性司法不公，单一的法律条文分析是苍白无力的。必须动用哲学、历史、科学乃至艺术鉴赏的武器库，才能彻底解构其荒谬性。
    
-   --- 引自 :doc:`【Deepseek的评论】</gaps/example/ds2qw2ds>`
+   --- 引自 :doc:`【Deepseek的评论】</gaps/example/ds3qw3ds>`
 
 这一部分我们将把视界扩充到法律领域之外。我们邀请各大语言模型依据古今学者名流根据各自思想和理念评论 :doc:`【陈京元案】 </case/case_cn>`。
 
@@ -20,7 +20,7 @@ Land beyond law
 
 
  .. toctree::
-    :maxdepth: 6
+    :maxdepth: 4
 
     analyse/index
 
