@@ -61,7 +61,7 @@ Contents
 
 
 .. toctree::
-    :maxdepth: 6
+    :maxdepth: 4
     :caption: Case
 
     case/intro
@@ -69,7 +69,7 @@ Contents
     case/letters/index
 
 .. toctree::
-    :maxdepth: 6
+    :maxdepth: 8
     :caption: Chats
 
     chats/prepro/index

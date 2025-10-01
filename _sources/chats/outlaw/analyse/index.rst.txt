@@ -19,7 +19,7 @@ Theoretical Analysis
     chinese/index
 
  .. toctree::
-    :maxdepth: 5
+    :maxdepth: 4
 
     foreign/index
 

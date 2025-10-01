@@ -4,12 +4,12 @@ Lyric (poetry, prose)
 ---------
 
  .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     foreign/index
 
  .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     chinese/index
     
