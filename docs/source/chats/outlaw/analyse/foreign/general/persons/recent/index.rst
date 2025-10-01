@@ -66,4 +66,14 @@
  .. toctree::
     :maxdepth: 1
 
+    bentham/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    mill/index
+
+ .. toctree::
+    :maxdepth: 1
+
     max/index

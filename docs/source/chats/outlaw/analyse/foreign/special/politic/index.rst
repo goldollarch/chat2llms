@@ -34,11 +34,6 @@ Political
  .. toctree::
     :maxdepth: 1
 
-    bentham/index
-
- .. toctree::
-    :maxdepth: 1
-
     hayek/index
 
  .. toctree::
