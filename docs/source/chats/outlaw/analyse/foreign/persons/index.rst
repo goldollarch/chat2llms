@@ -1,4 +1,4 @@
-哲学巨匠
+巨匠
 =========
 
 -------------------------
@@ -17,4 +17,9 @@
     :maxdepth: 2
 
     modern/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    schools/index
 

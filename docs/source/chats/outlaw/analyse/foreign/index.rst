@@ -1,4 +1,4 @@
-Foreign
+外国
 ==========
 
 .. note::
@@ -15,7 +15,7 @@ Foreign
  .. toctree::
     :maxdepth: 3
 
-    general/index
+    persons/index
 
  .. toctree::
     :maxdepth: 3

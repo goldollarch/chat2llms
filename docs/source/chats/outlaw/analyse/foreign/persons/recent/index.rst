@@ -51,6 +51,11 @@
  .. toctree::
     :maxdepth: 1
 
+    max/index
+
+ .. toctree::
+    :maxdepth: 1
+
     krkgrd/index
 
  .. toctree::
@@ -72,8 +77,3 @@
     :maxdepth: 1
 
     mill/index
-
- .. toctree::
-    :maxdepth: 1
-
-    max/index
