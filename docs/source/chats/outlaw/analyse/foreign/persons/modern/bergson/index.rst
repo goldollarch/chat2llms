@@ -89,6 +89,7 @@ Bergson
     :maxdepth: 3
 
     grok
+    gemini
     deepseek
     qwen
 
