@@ -11,6 +11,7 @@ Avalanche
 
     grok
     gemini
+    chatgpt
     deepseek
     qwen
 

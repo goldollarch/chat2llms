@@ -10,5 +10,6 @@ Christ
 
     grok
     gmn
+    chatgpt
     ds
     qw
