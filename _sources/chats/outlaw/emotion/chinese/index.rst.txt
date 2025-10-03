@@ -18,6 +18,11 @@
  .. toctree::
     :maxdepth: 1
 
+    xi/index
+
+ .. toctree::
+    :maxdepth: 1
+
     lib/index
 
  .. toctree::
