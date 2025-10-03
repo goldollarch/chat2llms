@@ -94,4 +94,4 @@ Qwen
 
 ---
 
-【[日常语言学派](/chats/outlaw/analyse/foreign/general/schools/ordlang/qw.md)】
+【[日常语言学派](/chats/outlaw/analyse/foreign/schools/postm/ordlang/qw.md)】
