@@ -40,4 +40,4 @@ Chinese
 [[分析](/chats/answers/qwen/overview.md)]
 [[批判](/chats/answers/qwen/propose.md)]
 [[理论](/chats/outlaw/analyse/index.rst)]
-[[呼吁](/chats/accuse/urges/grok.md)]
+[[呼吁](/chats/outlaw/emotion/chinese/xi/grk.md)]

@@ -1,4 +1,4 @@
-诸子百家
+大师
 =========
 
 .. note::
@@ -10,14 +10,20 @@
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
 
-----------------
- 
- .. toctree::
-    :maxdepth: 2
-
-    person/index
+-------------------------
 
  .. toctree::
     :maxdepth: 2
 
-    school/index
+    ancient/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    recent/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    modern/index
+

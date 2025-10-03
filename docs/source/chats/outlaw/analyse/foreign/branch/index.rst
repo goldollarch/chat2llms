@@ -1,5 +1,5 @@
-诸子百家
-=========
+分支
+==========
 
 .. note::
    
@@ -10,14 +10,24 @@
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
 
-----------------
- 
- .. toctree::
-    :maxdepth: 2
-
-    person/index
+-------------------------
 
  .. toctree::
     :maxdepth: 2
 
-    school/index
+    politic/index
+    
+ .. toctree::
+    :maxdepth: 2
+
+    legal/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    social/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    psycho/index

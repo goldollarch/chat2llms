@@ -1,41 +1,41 @@
-伟人情怀
+心理学
 =========
 
----------
+心理学视角的分析。
+
+-------------------------
 
  .. toctree::
     :maxdepth: 1
 
-    christ/index
+    general/index
 
  .. toctree::
     :maxdepth: 1
 
-    socrates/index
-    
- .. toctree::
-    :maxdepth: 1
-
-    spinoza/index
+    cognitive/index
 
  .. toctree::
     :maxdepth: 1
 
-    russell/index
+    evolution/index
 
  .. toctree::
     :maxdepth: 1
 
-    galileo/index
+    develop/index
 
  .. toctree::
     :maxdepth: 1
 
-    einst/index
-    
+    personal/index
+
  .. toctree::
     :maxdepth: 1
 
-    king/index
+    forensic/index
 
+ .. toctree::
+    :maxdepth: 1
 
+    social/index
