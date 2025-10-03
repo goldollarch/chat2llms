@@ -20,5 +20,5 @@ Chinese
 
 ----------------------------------------------------------------
 
-[[Manuscript](/_static/files/Appeal_raw.pdf)]
-[[word](/_static/files/Appeal_cn.docx)]
+[[Manuscript](/_static/files/Appeal.pdf)]
+[[word](/_static/files/Appeal.docx)]
