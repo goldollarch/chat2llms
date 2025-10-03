@@ -16,6 +16,6 @@ Chinese
 
 ---
 
-[[Manuscript](/_static/files/punish_raw.pdf)]
-[[word](/_static/files/Letter_cn.docx)]
+[[Manuscript](/_static/files/statement.pdf)]
+[[word](/_static/files/Letter.docx)]
 
