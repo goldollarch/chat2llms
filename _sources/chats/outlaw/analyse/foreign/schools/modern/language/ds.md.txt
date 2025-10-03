@@ -66,4 +66,4 @@ Deepseek
 
 ---
 
-【[日常语言学派](/chats/outlaw/analyse/foreign/general/schools/ordlang/ds.md)】
+【[日常语言学派](/chats/outlaw/analyse/foreign/schools/postm/ordlang/ds.md)】

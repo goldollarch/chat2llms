@@ -33,4 +33,4 @@ Grok
 
 ---
 
-【[日常语言学派](/chats/outlaw/analyse/foreign/general/schools/ordlang/grok.md)】
+【[日常语言学派](/chats/outlaw/analyse/foreign/schools/postm/ordlang/grok.md)】

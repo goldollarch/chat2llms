@@ -50,4 +50,4 @@ Gemini
 
 ---
 
-【[日常语言学派](/chats/outlaw/analyse/foreign/general/schools/ordlang/gemini.md)】
+【[日常语言学派](/chats/outlaw/analyse/foreign/schools/postm/ordlang/gemini.md)】
