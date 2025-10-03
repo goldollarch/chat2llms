@@ -6,12 +6,12 @@
  .. toctree::
     :maxdepth: 1
 
-    socrates/index
+    plato/index
 
  .. toctree::
     :maxdepth: 1
 
-    plato/index
+    socrates/index
 
  .. toctree::
     :maxdepth: 1

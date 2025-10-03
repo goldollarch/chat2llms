@@ -10,6 +10,7 @@
 
     grok
     gemini
+    chatgpt
     deepseek
     qwen
 
