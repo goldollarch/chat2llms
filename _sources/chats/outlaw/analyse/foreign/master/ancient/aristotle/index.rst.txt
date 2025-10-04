@@ -56,6 +56,7 @@ Aristotle
 
     grok
     gemini
+    chatgpt
     aristotle_ds
     aristotle_qw
 

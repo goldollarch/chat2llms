@@ -68,6 +68,7 @@ Plato
 
     grok
     gemini
+    chatgpt
     deepseek
     qwen
 

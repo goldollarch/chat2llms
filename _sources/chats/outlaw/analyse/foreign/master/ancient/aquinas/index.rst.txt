@@ -82,6 +82,7 @@ Aquinas
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

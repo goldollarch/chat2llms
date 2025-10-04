@@ -70,6 +70,7 @@ Camus
 
     grok
     gemini
+    chatgpt
     ds
     qw
 
