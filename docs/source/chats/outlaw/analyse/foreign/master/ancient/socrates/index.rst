@@ -132,6 +132,7 @@ Socrates
 
     grok
     gemini
+    chatgpt
     deepseek
     qwen
 

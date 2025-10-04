@@ -77,6 +77,7 @@ Augustine
 
     grok
     gemini
+    chatgpt
     ds
     qw
 
