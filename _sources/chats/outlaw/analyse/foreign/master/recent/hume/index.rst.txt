@@ -68,6 +68,7 @@ Hume
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

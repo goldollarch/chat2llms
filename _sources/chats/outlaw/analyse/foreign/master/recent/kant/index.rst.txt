@@ -77,6 +77,7 @@ Kant
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

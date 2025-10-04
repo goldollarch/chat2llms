@@ -79,6 +79,7 @@ Bentham
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

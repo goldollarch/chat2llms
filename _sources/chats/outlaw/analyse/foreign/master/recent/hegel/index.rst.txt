@@ -66,6 +66,7 @@ Hegel
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

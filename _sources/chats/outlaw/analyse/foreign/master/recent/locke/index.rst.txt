@@ -72,6 +72,7 @@ Locke
 
     grok
     gemini
+    chatgpt
     locke_ds
     locke_qw
 
