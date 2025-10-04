@@ -3,7 +3,7 @@ ChatGPT
 
 **引导词**
 
-Chines：
+Chinese：
 
 > 我所爱的孩子：
 >
@@ -43,7 +43,7 @@ English：
 
 **祷告词**
 
-Chines：
+Chinese：
 
 > 慈爱的天父：
 >
@@ -98,5 +98,3 @@ English：
 >
 > All this we ask in the name of our Lord Jesus Christ,
 > Amen.
-
----
