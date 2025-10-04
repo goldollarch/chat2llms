@@ -53,6 +53,7 @@ Husserl
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

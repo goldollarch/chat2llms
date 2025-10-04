@@ -71,6 +71,7 @@ Heidegger
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

@@ -50,6 +50,7 @@ Sartre
 
     grok
     gemini
+    chatgpt
     ds
     qw
 
