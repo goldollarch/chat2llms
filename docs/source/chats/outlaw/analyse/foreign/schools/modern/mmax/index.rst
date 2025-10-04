@@ -68,6 +68,7 @@ Marxism
 
     grk
     gmn
+    chatgpt
     ds
     qw
 

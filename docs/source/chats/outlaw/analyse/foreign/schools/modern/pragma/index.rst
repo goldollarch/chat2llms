@@ -99,6 +99,7 @@ Pragmatism
 
     grok
     gemini
+    chatgpt
     deepseek
     qwen
 

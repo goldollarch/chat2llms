@@ -78,6 +78,7 @@ Science
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

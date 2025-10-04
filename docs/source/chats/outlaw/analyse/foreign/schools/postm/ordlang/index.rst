@@ -73,6 +73,7 @@ Ordinary Language
     :maxdepth: 1
 
     grok
+    chatgpt
     ds
     qw
 

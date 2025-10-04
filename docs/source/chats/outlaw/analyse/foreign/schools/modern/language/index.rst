@@ -88,6 +88,7 @@ Language
 
     grok
     gemini
+    chatgpt
     ds
     qw
 
