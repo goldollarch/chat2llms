@@ -77,6 +77,7 @@ Science
     :maxdepth: 1
 
     grok
+    gemini
     ds
     qw
 
