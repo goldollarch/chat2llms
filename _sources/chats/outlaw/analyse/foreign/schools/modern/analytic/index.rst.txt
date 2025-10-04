@@ -98,6 +98,7 @@ Analytic
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

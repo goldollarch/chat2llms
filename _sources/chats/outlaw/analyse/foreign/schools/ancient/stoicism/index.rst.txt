@@ -68,6 +68,7 @@ Stoicism
     :maxdepth: 1
 
     grok
+    chatgpt
     ds
     qw
 

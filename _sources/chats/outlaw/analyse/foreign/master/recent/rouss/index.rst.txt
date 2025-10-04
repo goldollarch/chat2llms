@@ -50,6 +50,7 @@ Rousseau
     :maxdepth: 3
 
     grok
+    chatgpt
     rouss_ds
     rouss_qw
 
