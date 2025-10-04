@@ -39,4 +39,4 @@ Chinese
 [[概况](/chats/answers/qwen/evalution.md)]
 [[法务](/chats/answers/qwen/overview.md)]
 [[理论](/chats/outlaw/analyse/index.rst)]
-[[呼吁](/chats/urges/grk.md)]
+[[追责](/chats/urges/grk.md)]
