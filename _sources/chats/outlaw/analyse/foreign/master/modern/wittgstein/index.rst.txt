@@ -93,6 +93,7 @@ Wittgenstein
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

@@ -93,6 +93,7 @@ Habermas
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

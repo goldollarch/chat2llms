@@ -82,6 +82,7 @@ James
 
     grok
     gemini
+    chatgpt
     ds
     qw
 
