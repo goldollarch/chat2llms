@@ -71,6 +71,7 @@ Hermeneutics
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

@@ -65,6 +65,7 @@ Frankfurt
 
     grok
     gemini
+    chatgpt
     ds
     qw
 
