@@ -132,4 +132,7 @@ Chen Jingyuan's allegations highlight significant concerns about the conduct of 
 
 -------------------
 
-[[Gemini](/chats/accuse/party/Gemini.md)][[Grok](/chats/accuse/party/Grok.md)][[Qwen](/chats/accuse/party/qwen.md)]
+[[ChatGPT](/chats/answers/chatgpt/party.md)]
+[[Gemini](/chats/accuse/party/Gemini.md)]
+[[Grok](/chats/accuse/party/Grok.md)]
+[[Qwen](/chats/accuse/party/qwen.md)]

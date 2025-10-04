@@ -84,4 +84,7 @@ This evaluation is based on Chen Jingyuan's self-defense and case documents, as 
 
 --------------
 
-[[Grok](/chats/elements/knowing/analyses_cn)][[DeepSeek](/chats/elements/knowing/deepseek)][[Qwen](/chats/elements/knowing/qwen)]
+[[Grok](/chats/elements/knowing/analyses_cn)]
+[[ChatGPT](/chats/answers/chatgpt/knowing.md)]
+[[DeepSeek](/chats/elements/knowing/deepseek)]
+[[Qwen](/chats/elements/knowing/qwen)]
