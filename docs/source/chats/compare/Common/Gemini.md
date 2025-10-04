@@ -65,5 +65,6 @@ The analyses from DeepSeek, Gemini, and Grok are remarkably convergent in their 
 ---
 
 [[Grok](/chats/compare/Common/grok)]
+[[ChatGPT](/chats/answers/chatgpt/overview.md)]
 [[Deepseek](/chats/compare/Common/deepseek)]
 [[Qwen](/chats/answers/qwen/overview)]
