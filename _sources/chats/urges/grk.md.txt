@@ -15,5 +15,5 @@
 
 ---
 
-[[告昆明司法黑帮书](/chats/outlaw/emotion/chinese/xi/ds.md)]
-[[讨普会峻檄](/chats/outlaw/emotion/chinese/xi/qw.md)]
+[[告昆明司法黑帮书](/chats/urges/ds.md)]
+[[讨普会峻檄](/chats/urges/qw.md)]
