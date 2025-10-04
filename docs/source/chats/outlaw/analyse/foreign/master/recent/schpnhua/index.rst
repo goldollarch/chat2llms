@@ -65,6 +65,7 @@ Schopenhauer
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

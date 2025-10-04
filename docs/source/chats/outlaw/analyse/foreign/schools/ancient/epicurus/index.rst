@@ -79,6 +79,7 @@ Epicurus
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

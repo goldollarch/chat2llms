@@ -36,6 +36,7 @@ Marx
 
     max_grk
     max_gmn
+    chatgpt
     max_ds
     max_qw
 
