@@ -177,8 +177,8 @@ chinese
 ---
 
 [[Overview](/chats/answers/qwen/propose.md)]
+[[DeepSeek](/chats/accuse/criminal/evidence/deepseek.md)]
+[[Qwen](/chats/answers/qwen/analyse.md)]
 [[ChatGPT](/chats/answers/chatgpt/overview.md)]
 [[Gemini](/chats/accuse/criminal/evidence/gemini.md)]
 [[Grok](/chats/accuse/criminal/evidence/grok.md)]
-[[Qwen](/chats/answers/qwen/analyse.md)]
-[[DS](/chats/accuse/criminal/evidence/deepseek.md)]
