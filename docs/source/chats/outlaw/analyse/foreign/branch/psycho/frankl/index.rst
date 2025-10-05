@@ -90,6 +90,7 @@ Viktor Frankl
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

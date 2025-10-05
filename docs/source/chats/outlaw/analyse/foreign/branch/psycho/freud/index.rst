@@ -58,6 +58,7 @@ Sigmund Freud
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

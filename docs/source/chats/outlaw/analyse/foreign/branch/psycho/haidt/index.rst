@@ -122,6 +122,7 @@ Jonathan Haidt
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
