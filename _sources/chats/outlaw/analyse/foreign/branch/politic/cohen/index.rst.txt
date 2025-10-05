@@ -88,6 +88,7 @@ Gerald Allan Cohen
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
