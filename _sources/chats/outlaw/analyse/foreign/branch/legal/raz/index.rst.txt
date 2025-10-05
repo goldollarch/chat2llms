@@ -81,6 +81,7 @@ Joseph Raz
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

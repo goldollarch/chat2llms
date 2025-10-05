@@ -92,6 +92,7 @@ H. L. A. Hart
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
