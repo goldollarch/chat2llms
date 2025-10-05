@@ -109,6 +109,7 @@ Chen Jingyuan's allegations highlight potential constitutional violations by the
 
 ---
 
-[[ChatGPT](/chats/answers/chatgpt/constitute.md)]
 [[Grok](/chats/accuse/constitution/analyses_cn.md)]
+[[ChatGPT](/chats/answers/chatgpt/constitute.md)]
+[[Deepseek](/chats/answers/deepseek/constitute.md)]
 [[Qwen](/chats/accuse/constitution/qwen.md)]
