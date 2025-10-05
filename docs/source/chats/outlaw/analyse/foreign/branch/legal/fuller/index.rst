@@ -83,6 +83,7 @@ Lon L. Fuller
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

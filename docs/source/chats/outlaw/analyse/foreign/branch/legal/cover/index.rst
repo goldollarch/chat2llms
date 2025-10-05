@@ -79,6 +79,7 @@ Robert M. Cover
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

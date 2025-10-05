@@ -1,7 +1,7 @@
 Postmodernism
 =========
 
-基于后现代主义哲学的核心思潮。
+基于后现代主义哲学的核心思想。
 
 ------
 
@@ -97,6 +97,7 @@ Postmodernism
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

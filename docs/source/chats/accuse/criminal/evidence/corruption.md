@@ -93,4 +93,5 @@ The case reflects systemic issues in China's judicial system, including lack of 
 
 ---
 
-【[Chinese](/chats/accuse/criminal/evidence/corruption_cn.md)】-【[criticize](/chats/answers/qwen/corruption_criticize.md)】
+[[Chinese](/chats/accuse/criminal/evidence/corruption_cn.md)]
+[[criticize](/chats/answers/qwen/corruption_criticize.md)]
