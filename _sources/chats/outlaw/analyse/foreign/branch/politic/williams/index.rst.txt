@@ -82,6 +82,7 @@ Bernard Williams
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

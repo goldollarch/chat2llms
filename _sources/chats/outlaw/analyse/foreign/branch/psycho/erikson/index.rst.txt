@@ -101,6 +101,7 @@ Erik H. Erikson
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

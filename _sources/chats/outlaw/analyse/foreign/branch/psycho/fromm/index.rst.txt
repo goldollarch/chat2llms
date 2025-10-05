@@ -106,6 +106,7 @@ Erich Fromm
     :maxdepth: 3
 
     grok
+    chatgpt
     deepseek
     qwen
 

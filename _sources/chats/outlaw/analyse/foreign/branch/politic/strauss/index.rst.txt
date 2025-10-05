@@ -82,6 +82,7 @@ Leo Strauss
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
