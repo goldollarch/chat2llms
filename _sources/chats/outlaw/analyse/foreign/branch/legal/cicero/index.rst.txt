@@ -103,6 +103,7 @@ Marcus Tullius Cicero
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

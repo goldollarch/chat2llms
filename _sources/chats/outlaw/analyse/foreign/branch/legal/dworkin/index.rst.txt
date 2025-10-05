@@ -87,6 +87,7 @@ Ronald Dworkin
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

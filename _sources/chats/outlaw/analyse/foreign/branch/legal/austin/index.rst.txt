@@ -96,6 +96,7 @@ John Austin
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

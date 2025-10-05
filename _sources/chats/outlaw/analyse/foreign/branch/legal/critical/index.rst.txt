@@ -74,6 +74,7 @@ Critical Legal Studies
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

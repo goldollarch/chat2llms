@@ -99,6 +99,7 @@ John Finnis
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
