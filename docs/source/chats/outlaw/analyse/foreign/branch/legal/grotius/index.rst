@@ -84,6 +84,7 @@ Hugo Grotius
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

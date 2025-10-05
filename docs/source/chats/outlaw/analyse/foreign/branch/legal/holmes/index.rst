@@ -84,6 +84,7 @@ Oliver Wendell Holmes
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

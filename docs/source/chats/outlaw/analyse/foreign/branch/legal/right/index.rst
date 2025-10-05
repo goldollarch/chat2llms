@@ -77,6 +77,7 @@ Legal Right
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

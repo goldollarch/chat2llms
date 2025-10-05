@@ -71,6 +71,7 @@ Karl Marx
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

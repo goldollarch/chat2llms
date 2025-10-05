@@ -99,6 +99,7 @@ Hannah Arendt
     :maxdepth: 3
 
     grok
+    chatgpt
     arendt_ds
     arendt_qw
 

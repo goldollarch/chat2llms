@@ -90,6 +90,7 @@ Carl Schmitt
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
