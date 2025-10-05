@@ -72,6 +72,7 @@ Friedrich Hayek
     :maxdepth: 3
 
     grok
+    chatgpt
     hayek_ds
     hayek_qw
 

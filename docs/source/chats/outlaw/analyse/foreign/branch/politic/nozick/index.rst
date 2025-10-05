@@ -97,6 +97,7 @@ Robert Nozick
     :maxdepth: 3
 
     grok
+    chatgpt
     nozick_ds
     nozick_qw
 
