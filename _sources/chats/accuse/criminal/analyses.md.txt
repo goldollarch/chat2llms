@@ -263,7 +263,8 @@ Analysis and Evaluation
 
 ---------------------------------------------
 
+[[Grok](/chats/accuse/criminal/analyses_cn.md)]
+[[Gemini](/chats/answers/gemini/crimal.md)]
 [[ChatGPT](/chats/answers/chatgpt/crimal.md)]
 [[Deepseek](/chats/answers/deepseek/criminal.md)]
-[[Grok](/chats/accuse/criminal/analyses_cn.md)]
 [[Qwen](/chats/accuse/criminal/qwen.md)]

@@ -64,4 +64,4 @@ Serious issues of the judge Li
 
 ---
 
-[[Grok](/chats/answers/grok/judgeLi.md)][[Qwen](/chats/answers/qwen/judgeLi.md)]
+[[Grok](/chats/answers/grok/judgeLi.md)][[Gemini](/chats/answers/gemini/judgeLi.md)][[Qwen](/chats/answers/qwen/judgeLi.md)]
