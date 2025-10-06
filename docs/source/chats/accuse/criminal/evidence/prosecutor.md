@@ -29,7 +29,7 @@ Dr. Chen Jingyuan alleges that prosecutor Ge Bin engaged in judicial corruption 
   - **Article 11 of the *Criminal Procedure Law***: Courts must ensure a fair trial, which includes transparency through public hearings unless legally exempted.
 - **Evaluation**:
 
-  - **Violation of Public Trial Requirement**: Chen's case involves the charge of \"picking quarrels and provoking trouble\" based on retweeting online content. There is no indication that the case involved state secrets, personal privacy, or minors, which are the primary exceptions to the public trial requirement. The non-public nature of the trial, without a justified exception, violates Article 183 of the *Criminal Procedure Law*. This lack of transparency suggests an intent to shield the proceedings from public scrutiny, a common tactic in politically motivated cases, as noted in web result \[web:2\] (*Picking Quarrels and Provoking Trouble*), where such charges are often used to suppress dissent.
+  - **Violation of Public Trial Requirement**: Chen's case involves the charge of \"picking quarrels and provoking trouble\" based on retweeting online content. There is no indication that the case involved state secrets, personal privacy, or minors, which are the primary exceptions to the public trial requirement. The non-public nature of the trial, without a justified exception, violates Article 183 of the *Criminal Procedure Law*. This lack of transparency suggests an intent to shield the proceedings from public scrutiny, a common tactic in politically motivated cases, as noted in web result  (*Picking Quarrels and Provoking Trouble*), where such charges are often used to suppress dissent.
   - **Judicial Corruption Implication**: The decision to hold a non-public trial without legal justification raises concerns of judicial corruption, as it may have been intended to conceal procedural irregularities or external influences, such as the \"special instructions\" from \"higher-level leaders\" Chen mentions elsewhere in his statement.
 
 **2. Disregard for Evidence**
@@ -87,9 +87,9 @@ Dr. Chen Jingyuan alleges that prosecutor Ge Bin engaged in judicial corruption 
 
 - **Systemic Issues**:
 
-  - **Lack of Judicial Independence**: Web result \[web:3\] (*Judicial Independence in the PRC*) highlights that China's judicial system often faces interference from local governments and Party officials. Ge Bin's actions---disregarding evidence and legal standards---may reflect such interference, especially given Chen's mention of \"special instructions\" from \"higher-level leaders.\"
-  - **Abuse of \"Picking Quarrels and Provoking Trouble\"**: Web result \[web:2\] (*Picking Quarrels and Provoking Trouble*) notes that this charge is frequently used to suppress dissent, targeting activists and scholars (e.g., Huang Xueqin, Yang Maodong). Chen's case fits this pattern, with the charge applied despite insufficient evidence, suggesting a politically motivated prosecution.
-  - **Impact on Public Trust**: Web result \[web:0\] indicates that external interventions undermine judicial fairness. Ge Bin's blatant disregard for evidence and law further erodes public trust in the judicial system, as it demonstrates a lack of accountability and integrity.
+  - **Lack of Judicial Independence**: Web result (*Judicial Independence in the PRC*) highlights that China's judicial system often faces interference from local governments and Party officials. Ge Bin's actions---disregarding evidence and legal standards---may reflect such interference, especially given Chen's mention of \"special instructions\" from \"higher-level leaders.\"
+  - **Abuse of \"Picking Quarrels and Provoking Trouble\"**: Web result  (*Picking Quarrels and Provoking Trouble*) notes that this charge is frequently used to suppress dissent, targeting activists and scholars (e.g., Huang Xueqin, Yang Maodong). Chen's case fits this pattern, with the charge applied despite insufficient evidence, suggesting a politically motivated prosecution.
+  - **Impact on Public Trust**: Web result indicates that external interventions undermine judicial fairness. Ge Bin's blatant disregard for evidence and law further erodes public trust in the judicial system, as it demonstrates a lack of accountability and integrity.
 - **Procedural Violations**:
 
   - **Non-Public Trial**: As noted, the non-public trial violates Article 183 of the *Criminal Procedure Law*.
@@ -98,8 +98,8 @@ Dr. Chen Jingyuan alleges that prosecutor Ge Bin engaged in judicial corruption 
 
 **6. Broader Implications**
 
-- **Rule of Law**: Ge Bin's actions undermine China's stated commitment to the \"comprehensive rule of law,\" a key policy under Xi Jinping. Web result \[web:3\] notes that while reforms have been discussed (e.g., centralizing court finances), local interference remains a significant challenge, as evidenced in Chen's case.
-- **Human Rights Concerns**: The misuse of \"picking quarrels and provoking trouble\" to target Chen, a scholar, mirrors cases like those of Cao Shunli and Huang Xueqin (web result \[web:2\]), raising concerns about freedom of expression and the abuse of vague laws to suppress dissent.
+- **Rule of Law**: Ge Bin's actions undermine China's stated commitment to the \"comprehensive rule of law,\" a key policy under Xi Jinping. Web result  notes that while reforms have been discussed (e.g., centralizing court finances), local interference remains a significant challenge, as evidenced in Chen's case.
+- **Human Rights Concerns**: The misuse of \"picking quarrels and provoking trouble\" to target Chen, a scholar, mirrors cases like those of Cao Shunli and Huang Xueqin (raising concerns about freedom of expression and the abuse of vague laws to suppress dissent.
 - **Systemic Corruption**: Ge Bin's behavior suggests a broader culture of impunity within the judicial system, where prosecutors can disregard evidence and law without fear of repercussions, further eroding the integrity of the legal system.
 
 ---
