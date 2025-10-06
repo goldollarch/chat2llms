@@ -93,6 +93,7 @@ Developmental
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
