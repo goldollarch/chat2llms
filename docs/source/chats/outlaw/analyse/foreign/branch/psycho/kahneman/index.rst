@@ -90,6 +90,7 @@ Daniel Kahneman
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

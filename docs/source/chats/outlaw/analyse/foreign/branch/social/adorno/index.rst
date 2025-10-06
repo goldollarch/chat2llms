@@ -97,6 +97,7 @@ Theodor W. Adorno
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

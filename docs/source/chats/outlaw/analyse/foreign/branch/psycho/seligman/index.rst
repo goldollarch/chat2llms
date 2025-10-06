@@ -119,6 +119,7 @@ Martin Seligman
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

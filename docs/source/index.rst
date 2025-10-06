@@ -4,7 +4,7 @@ Chat2LLMs
 
 Welcome to **Chat2LLMs** ! 
 
-Let's use **Large Language Models** to **chat** with **Master of Laws** ! 
+Let's use Large Language Models (**LLM**) to **chat** with a Master of Laws (**LLM**) ! 
 
 -----------------------
 
