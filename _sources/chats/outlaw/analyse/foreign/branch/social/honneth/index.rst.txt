@@ -101,6 +101,7 @@ Axel Honneth
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
