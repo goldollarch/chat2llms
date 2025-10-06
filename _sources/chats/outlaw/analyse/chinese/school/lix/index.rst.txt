@@ -42,6 +42,7 @@
 
     grok
     gemini
+    chatgpt
     ds
     qw
 

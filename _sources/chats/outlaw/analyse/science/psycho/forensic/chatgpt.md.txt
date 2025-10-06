@@ -181,3 +181,7 @@ ChatGPT
 **真正的司法现代化，不仅是制度革新，更是心理成熟的演化。**
 唯有当司法者具备心理学意义上的“共情与反思能力”，
 法治才能从权力工具升华为人类理性的象征。
+
+--------
+
+【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/gpt.md)】

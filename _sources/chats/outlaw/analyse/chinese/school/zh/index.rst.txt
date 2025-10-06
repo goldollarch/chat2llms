@@ -51,6 +51,7 @@
 
     grok
     gemini
+    chatgpt
     ggz_ds
     ggz_qw
 

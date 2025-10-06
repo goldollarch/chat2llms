@@ -59,6 +59,7 @@
 
     grok
     gemini
+    chatgpt
     mo_ds
     mo_qw
 

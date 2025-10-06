@@ -3,7 +3,9 @@ Analysis and Evaluation
 
 **Evaluation of Chen Jingyuan's Defense and Analysis of the Deficiencies and Errors in Law Enforcement's Use of Artistic Works as Evidence for "Picking Quarrels and Provoking Trouble"**
 
-## **Overview of Chen Jingyuan's Defense**
+---------------
+
+**Overview of Chen Jingyuan's Defense**
 
 **In his [*Self-Defense and Accusation from Prison*](/case/letters/Prison/Letter), Dr. Chen Jingyuan strongly opposes the Kunming judicial authorities' classification of several artistic works he allegedly forwarded as "rumors" and their subsequent use as evidence to convict him of "picking quarrels and provoking trouble" under Article 293 of the *Criminal Law of the People's Republic of China*. Chen argues that labeling these artistic works as "rumors" and using them as the basis for criminal punishment not only lacks legal grounding but also contradicts the nature of artistic creation, undermines Chinese civilization, and threatens the freedom of cultural workers. His key points include:**
 
@@ -75,7 +77,9 @@ Analysis and Evaluation
 
 **Conclusion: Chen's defense is well-grounded in its discussion of the nature of art, Chinese cultural traditions, and the subjectivity of appreciation. The authorities' classification of artistic works as "rumors" and their use as criminal evidence are problematic. However, some of Chen's assertions (e.g., "thorough negation of Chinese civilization") are overstated and require more objective evidence.**
 
-## **Deficiencies and Errors in Law Enforcement's Use of Artistic Works as Evidence for "Picking Quarrels and Provoking Trouble"**
+--------------
+
+**Deficiencies and Errors in Law Enforcement's Use of Artistic Works as Evidence for "Picking Quarrels and Provoking Trouble"**
 
 **1. Misinterpretation of the Elements of "Picking Quarrels and Provoking Trouble"**
 
