@@ -76,6 +76,7 @@ Charles Taylor
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

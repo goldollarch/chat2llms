@@ -89,6 +89,7 @@ Martha C. Nussbaum
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
