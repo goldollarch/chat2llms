@@ -48,6 +48,7 @@
 
     grok
     gemini
+    chatgpt
     ming_ds
     ming_qw
 

@@ -149,4 +149,7 @@ This evaluation is based on Chen's allegations and case documents as of March 23
 
 ---
 
-[[Grok](/chats/accuse/overview_cn.md)][[Qwen](/chats/accuse/qwen.md)]
+[[Grok](/chats/accuse/overview_cn.md)]
+[[ChatGPT](/chats/accuse/chatgpt.md)]
+[[DeepSeek](/chats/accuse/deepseek.md)]
+[[Qwen](/chats/accuse/qwen.md)]
