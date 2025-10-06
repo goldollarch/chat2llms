@@ -1,5 +1,5 @@
 Jean Piaget
-=========
+==============
 
 基于 **让·皮亚杰（Jean Piaget）的发生认识论和认知发展理论** 视角。
 
@@ -108,6 +108,7 @@ Jean Piaget
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

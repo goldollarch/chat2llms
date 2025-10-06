@@ -83,6 +83,7 @@ Carl Gustav Jung
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 

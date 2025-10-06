@@ -1,5 +1,5 @@
 Carl Rogers
-=========
+===============
 
 基于卡尔·罗杰斯（Carl Rogers）人本主义心理学的核心思想。
 
@@ -83,6 +83,7 @@ Carl Rogers
     :maxdepth: 3
 
     grok
+    chatgpt
     ds
     qw
 
