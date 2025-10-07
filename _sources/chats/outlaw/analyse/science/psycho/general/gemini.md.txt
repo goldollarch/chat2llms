@@ -36,5 +36,5 @@ Gemini
 
 -------
 
-[[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/gemini.md)]
-[[被告人心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/gemini.md)]
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/gemini.md)]
+[[被告心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/gemini.md)]
