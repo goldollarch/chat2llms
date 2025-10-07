@@ -7,7 +7,7 @@ ChatGPT
 
 ---
 
-# **从心理学视角对陈京元博士案件中警察与司法人员心理的系统分析**
+# **从心理学视角对陈京元案件中警察与司法人员心理的系统分析**
 
 （A Psychological Analysis of Police and Judicial Mentality in the Case of Dr. Jingyuan Chen）
 
