@@ -79,3 +79,8 @@ Qwen
 > —— 发展心理学精神
 
 陈京元，正是这句话最悲壮的践行者——他在铁窗之内，完成了对人类文明的最后贡献。
+
+
+-----------
+
+[[被告人心理发展状况分析](/chats/outlaw/analyse/science/psycho/develop/resutls/qwen.md)]
