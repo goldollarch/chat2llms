@@ -156,3 +156,8 @@ ChatGPT
 
 这不仅是对个体人格力量的见证，
 也是人格心理学关于“人性尊严与理性自主”的最佳现实案例。
+
+
+-----------
+
+[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/resutls/chatgpt.md)]
