@@ -74,5 +74,5 @@ Qwen
 
 -------
 
-[[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/qw.md)]
-[[被告人心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/qw.md)]
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/qw.md)]
+[[被告心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/qw.md)]

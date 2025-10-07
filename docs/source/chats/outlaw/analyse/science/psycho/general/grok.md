@@ -36,5 +36,5 @@ Grok
 
 -------
 
-[[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/grok.md)]
-[[被告人心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/grok.md)]
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/grok.md)]
+[[被告心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/grok.md)]
