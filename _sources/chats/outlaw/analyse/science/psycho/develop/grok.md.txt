@@ -136,4 +136,4 @@ Grok
 
 -----------
 
-[[被告人心理发展状况分析](/chats/outlaw/analyse/science/psycho/develop/resutls/copilot.md)]
+[[被告人心理发展状况分析](/chats/outlaw/analyse/science/psycho/develop/resutls/grok.md)]
