@@ -191,3 +191,8 @@ ChatGPT
 > 在外部强制与内部理性之间，
 > 心灵仍可凭借信念、思维与意义实现自我整合——
 > 这是心理学意义上最高级的“自由”。
+
+---
+
+[[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/gpt.md)]
+[[被告人心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/gpt.md)]

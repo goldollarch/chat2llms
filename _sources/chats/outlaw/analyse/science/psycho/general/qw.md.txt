@@ -70,3 +70,9 @@ Qwen
 
 > **“真正的勇气，不是没有恐惧，而是带着恐惧依然前行。”**  
 > 陈京元，正是这句话最悲壮的践行者。
+
+
+-------
+
+[[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/qw.md)]
+[[被告人心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/qw.md)]
