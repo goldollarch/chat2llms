@@ -32,3 +32,9 @@ Grok
 **五、结语：案件的心理学警示**
 
 从一般心理学视角，陈京元案是认知偏差、社会服从与应激响应的交互悲剧：司法系统失调放大威胁，阻滞个体成长。但陈的反思韧性，证明人类心理的适应潜力。主流科学呼吁：通过实证改革（如偏差教育、程序透明），重建健康心理生态，方能实现公正社会。陈的抗争，如心理学所述，乃人类精神的典范——从危机中重生。
+
+
+-------
+
+[[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/grok.md)]
+[[被告人心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/grok.md)]
