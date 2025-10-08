@@ -34,6 +34,11 @@ Political
  .. toctree::
     :maxdepth: 1
 
+    thoreau/index
+
+ .. toctree::
+    :maxdepth: 1
+
     hayek/index
 
  .. toctree::
@@ -85,6 +90,11 @@ Political
     :maxdepth: 1
 
     williams/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    king/index
 
  .. toctree::
     :maxdepth: 1
