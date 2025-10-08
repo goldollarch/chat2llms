@@ -76,3 +76,7 @@ Friedrich Hayek
     hayek_ds
     hayek_qw
 
+
+---------------------------
+
+[:doc:`哈耶克与凯恩斯的争论 </chats/outlaw/analyse/foreign/branch/politic/hayek/keynes>`]
