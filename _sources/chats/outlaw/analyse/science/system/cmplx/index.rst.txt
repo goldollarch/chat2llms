@@ -13,6 +13,7 @@ Complexity
 
     grok
     gemini
+    copilot
     chatgpt
     deepseek
     qwen
