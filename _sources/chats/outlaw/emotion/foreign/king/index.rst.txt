@@ -9,5 +9,6 @@ King
     :maxdepth: 3
 
     grok
+    gemini
     king_ds
     king_qw

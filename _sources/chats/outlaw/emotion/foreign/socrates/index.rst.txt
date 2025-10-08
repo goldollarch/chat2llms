@@ -10,6 +10,7 @@ Socrates
 
     grok
     gmn
+    gpt
     ds
     qw
 
