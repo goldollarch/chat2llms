@@ -1,6 +1,8 @@
 世界伟人
 =========
 
+伟人情怀
+
 ---------
 
  .. toctree::
@@ -22,6 +24,11 @@
     :maxdepth: 1
 
     russell/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    thoreau/index
 
  .. toctree::
     :maxdepth: 1
