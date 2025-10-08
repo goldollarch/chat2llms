@@ -15,3 +15,8 @@
 
     lqc/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    yys/index
+
