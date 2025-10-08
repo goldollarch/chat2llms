@@ -87,3 +87,7 @@ Popper
     ds
     qw
 
+
+---------------------------
+
+[:doc:`波普尔批判马克思主义 </chats/outlaw/analyse/foreign/master/modern/popper/max>`]

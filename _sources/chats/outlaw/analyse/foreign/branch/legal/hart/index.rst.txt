@@ -96,3 +96,7 @@ H. L. A. Hart
     ds
     qw
 
+
+---------------------------
+
+[:doc:`哈特与富勒的论战 </chats/outlaw/analyse/foreign/branch/legal/hart_fuller>`]
