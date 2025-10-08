@@ -23,6 +23,8 @@ Zweig
     :maxdepth: 3
 
     grok
+    copilot
+    chatgpt
     zwg_ds
     zwg_qw
 
