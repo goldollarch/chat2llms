@@ -13,6 +13,7 @@ Gödel Theorem
 
     grok
     gemini
+    copilot
     chatgpt
     deepseek
     qwen
