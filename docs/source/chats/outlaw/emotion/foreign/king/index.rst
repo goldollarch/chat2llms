@@ -10,5 +10,7 @@ King
 
     grok
     gemini
-    king_ds
-    king_qw
+    copilot
+    chatgpt
+    deepseek
+    qwen

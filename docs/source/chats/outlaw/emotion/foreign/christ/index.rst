@@ -10,6 +10,7 @@ Christ
 
     grok
     gmn
+    copilot
     chatgpt
     ds
     qw
