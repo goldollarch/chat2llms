@@ -9,6 +9,7 @@ Spinoza
     :maxdepth: 3
 
     grok
+    gpt
     ds
     qw
 
