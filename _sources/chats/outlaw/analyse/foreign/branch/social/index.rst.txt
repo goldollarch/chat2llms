@@ -63,3 +63,8 @@ Social
 
     sen/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    giddens/index
+
