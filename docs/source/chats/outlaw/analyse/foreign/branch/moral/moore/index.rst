@@ -1,7 +1,7 @@
-G.E. Moore
+George Edward Moore
 =================
 
-根据G.E. Moore（1873–1958）直觉主义道德哲学
+根据乔治·爱德华·摩尔（George Edward Moore）直觉主义道德哲学
 
 -------
 
