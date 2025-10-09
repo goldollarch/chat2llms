@@ -100,9 +100,3 @@ Moral
     :maxdepth: 1
 
     scanlon/index
-
- .. toctree::
-    :maxdepth: 1
-
-    taylor/index
-
