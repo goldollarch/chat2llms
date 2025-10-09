@@ -56,11 +56,6 @@ Social
  .. toctree::
     :maxdepth: 1
 
-    nussbaum/index
-
- .. toctree::
-    :maxdepth: 1
-
     taylor/index
 
  .. toctree::
