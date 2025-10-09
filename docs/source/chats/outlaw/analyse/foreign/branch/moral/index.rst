@@ -54,10 +54,39 @@ Moral
  .. toctree::
     :maxdepth: 1
 
+    moore/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    ayer/index
+
+ .. toctree::
+    :maxdepth: 1
+
     anscombe/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    macIntyre/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    nagel/index
 
  .. toctree::
     :maxdepth: 1
 
     singer/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    parfit/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    stevenson/index
