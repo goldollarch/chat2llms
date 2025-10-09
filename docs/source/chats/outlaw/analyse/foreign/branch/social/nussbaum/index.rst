@@ -1,4 +1,4 @@
-Martha C. Nussbaum
+Martha Nussbaum
 =========
 
 基于 **玛莎·努斯鲍姆（Martha C. Nussbaum）** 的“能力进路”（Capabilities Approach）视角。

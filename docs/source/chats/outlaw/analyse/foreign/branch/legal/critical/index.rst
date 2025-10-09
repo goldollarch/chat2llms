@@ -1,4 +1,4 @@
-Critical Legal Studies
+Critical Legal
 =========
 
 基于批判法学理论（Critical Legal Studies, CLS）的视角。

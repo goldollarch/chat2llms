@@ -1,4 +1,4 @@
-Marcus Tullius Cicero
+Marcus T. Cicero
 =========
 
 基于马库斯·图利乌斯·西塞罗（Marcus Tullius Cicero）的法律哲学核心思想。
