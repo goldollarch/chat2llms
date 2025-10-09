@@ -1,4 +1,4 @@
-Henry David Thoreau
+H.D.Thoreau
 =================
 
 根据亨利·大卫·梭罗（Henry David Thoreau）公民不服从的现代理论。

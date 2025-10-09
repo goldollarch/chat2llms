@@ -1,4 +1,4 @@
-Oliver Wendell Holmes
+Oliver W. Holmes
 ==============
 
 基于奥利弗·温德尔·霍姆斯（Oliver Wendell Holmes Jr.）​​ 法律现实主义立场。
