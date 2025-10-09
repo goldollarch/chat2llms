@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G.E. Moore &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../meta/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../code/index.html">API documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史记叙</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Moral</a></li>
+      <li class="breadcrumb-item active">G.E. Moore</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/moral/moore/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="g-e-moore">
+<h1>G.E. Moore<a class="headerlink" href="#g-e-moore" title="Link to this heading"></a></h1>
+<p>根据G.E. Moore（1873–1958）直觉主义道德哲学</p>
+<hr class="docutils" />
+<p>G.E. 摩尔是20世纪初影响深远的哲学家，被誉为 <strong>现代元伦理学的开创者</strong>。他的道德哲学思想以其清晰、严谨和对基础概念的深刻剖析而著称，其核心可以概括为：<strong>对传统伦理学的根本性批判，主张“善”是一种简单的、不可定义的、非自然的属性，只能通过直觉来把握；并指出试图用自然属性（如快乐）或形而上学属性（如符合上帝意志）来定义“善”的做法犯了“自然主义谬误”。</strong></p>
+<p>他的工作重心不在于告诉人们“什么行为是道德的”，而在于 <strong>澄清道德推理本身的前提和基础</strong>。其核心思想建立在以下四大支柱之上：</p>
+<p>一、核心批判：自然主义谬误</p>
+<p>这是摩尔哲学最著名、最具革命性的贡献，也是他全部理论的出发点。</p>
+<ul class="simple">
+<li><p><strong>核心论点</strong>：摩尔认为，传统的伦理学理论（如功利主义、进化论伦理学、神命论）都犯了一个根本性的错误—— <strong>自然主义谬误</strong>。</p></li>
+<li><p><strong>谬误的实质</strong>：这种谬误在于 <strong>试图用另一种属性（无论是自然的还是形而上学的）来定义“善”这一最基本的伦理属性</strong>。例如：</p>
+<ul>
+<li><p><a href="#id1"><span class="problematic" id="id2">**</span></a>快乐主义**（功利主义）：将“善”定义为“快乐”。</p></li>
+<li><p><strong>进化论伦理学</strong>：将“善”定义为“更进化的”。</p></li>
+<li><p><strong>神命论</strong>：将“善”定义为“上帝所命令的”。</p></li>
+</ul>
+</li>
+<li><p><strong>摩尔的驳斥</strong>：摩尔认为，无论你提出什么定义X，我们总可以有意义地追问：“<strong>但是，X本身就是善的吗？</strong>” 这个问题的开放性表明，“善”不等于X，它是一个独立的、不可还原的概念。</p></li>
+</ul>
+<p>二、核心主张：“善”的不可定义性</p>
+<p>在批判之后，摩尔提出了自己的正面理论。</p>
+<ul class="simple">
+<li><p><strong>“善”是简单的</strong>：摩尔将“善”类比于颜色“黄色”。黄色是一种简单的感官性质，无法向一个没见过黄色的人定义它是什么，只能指给他看。同样，<strong>“善”是一种简单的、不可分析的伦理性质</strong>，是构成复杂道德判断的终极要素。</p></li>
+<li><p><strong>“善”是非自然的</strong>：“善”的属性不能通过感官经验或自然科学（如心理学、物理学）的方法来认识和验证。它不属于自然科学所研究的“自然”世界。它是一个 <strong>非自然的属性</strong>。</p></li>
+<li><p><strong>开放问题论证</strong>：这是摩尔证明“善”不可定义的核心论证。其逻辑是：如果“善”真的可以定义为X（例如“快乐”），那么“快乐是善的吗？”这个问题就等同于问“快乐是快乐吗？”，这会成为一个 <strong>同语反复的、封闭的**问题。但事实上，“快乐是善的吗？”是一个 **开放的、有实质意义的问题</strong>。因此，“善”不能等同于“快乐”或任何其他属性。</p></li>
+</ul>
+<p>三、认识论：直觉主义</p>
+<p>如果“善”是简单的、非自然的，我们如何认识它？摩尔的答案是直觉。</p>
+<ul class="simple">
+<li><p><strong>道德直觉</strong>：我们能够直接地、不通过推理而把握基本的伦理真理。这种能力不是某种神秘的天启，而类似于我们通过感官直接感知黄色一样，是一种 <strong>理性的直观</strong>。</p></li>
+<li><p><strong>自明性</strong>：基本的伦理原则（如“快乐是善的”）是 <strong>自明的</strong>。它们本身是显而易见的，无需其他证据来证明，尽管我们可能会在具体应用中犯错。</p></li>
+<li><p><strong>作用范围</strong>：直觉只作用于非常基本、抽象的伦理命题（如“善是什么”），而不是具体的道德规则（如“不应偷窃”），后者需要复杂的推理。</p></li>
+</ul>
+<p>四、规范伦理学：理想功利主义</p>
+<p>尽管摩尔在元伦理学上批判功利主义犯了自然主义谬误，但他自己在规范伦理学（即我们应该怎么做）上却是一种特殊形式的功利主义者。</p>
+<ul class="simple">
+<li><p><strong>核心主张</strong>：虽然“善”本身不可定义，但我们可以探究 <strong>哪些事物本身是善的**（即作为目的，而非手段）。他认为，**某些意识状态，如对美的欣赏和人际友爱，是内在善的</strong>。</p></li>
+<li><p><strong>理想功利主义</strong>：因此，正确的行为是那些能在世界上 <a href="#id3"><span class="problematic" id="id4">**</span></a>产生最大量的内在善**的行为。这与古典功利主义（将善定义为快乐）不同，摩尔对“善”的理解更丰富、更“理想化”，故称为理想功利主义。</p></li>
+<li><p><strong>表面上看是矛盾的？</strong>：这看似矛盾，实则不然。摩尔批判的是将“善” <strong>定义</strong> 为某种自然属性（如快乐）。但他完全可以 <strong>主张</strong> （而非定义）快乐和友爱等是善的，并以此作为道德判断的准则。</p></li>
+</ul>
+<p>—</p>
+<p>核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>元伦理学批判</strong></p></td>
+<td><p>传统伦理学犯了 <strong>自然主义谬误</strong>，即错误地试图定义不可定义的”善”。</p></td>
+<td><p><strong>自然主义谬误、定义谬误</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>本体论</strong></p></td>
+<td><p><strong>“善”是简单的、不可分析的、非自然的属性</strong>，是伦理学的基元。</p></td>
+<td><p><strong>善的不可定义性、简单概念、非自然属性</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>认识论</strong></p></td>
+<td><p>我们通过 <strong>道德直觉</strong> 来认识基本的伦理真理，这些真理是 <strong>自明的</strong>。</p></td>
+<td><p><strong>直觉主义、自明性、理性直观</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>规范伦理学</strong></p></td>
+<td><p>正确的行为是能产生最大量 <strong>内在善</strong> （如美感、友爱）的行为，即 <strong>理想功利主义</strong>。</p></td>
+<td><p><strong>理想功利主义、内在善、工具善</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>影响与意义</p>
+<p>摩尔的工作彻底改变了道德哲学的讨论方式：</p>
+<ul class="simple">
+<li><p><strong>开创了元伦理学</strong>：他将哲学家的注意力从“什么是对的”转向了“道德语言和概念的意义是什么”，奠定了20世纪分析伦理学的基础。</p></li>
+<li><p><strong>设定了议程</strong>：此后几十年，伦理学的核心争论很大程度上是围绕如何回应摩尔的“自然主义谬误”和“开放问题论证”展开的（如情感主义、规定主义、自然主义的复兴等）。</p></li>
+<li><p><strong>强调清晰性</strong>：他坚持概念的清晰和论证的严谨，对哲学分析方法的树立贡献巨大。</p></li>
+</ul>
+<p>总而言之，G.E. 摩尔的核心思想在于，他进行了一次伦理学的“<strong>地基清理</strong>”工作。他迫使哲学家们意识到，在构建任何庞大的伦理学体系之前，必须首先审视其最基本的概念是否坚实可靠。他的批判虽然严苛，但极大地推动了道德哲学的精确化和深度化，其影响至今犹存。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a></li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../meta/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
