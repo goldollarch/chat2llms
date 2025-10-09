@@ -1,4 +1,4 @@
-Peter Albert David Singer
+Peter A.D Singer
 =========
 
 根据彼得·辛格（Peter Albert David Singer，1946年—）道德哲学理念。
