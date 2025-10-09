@@ -79,14 +79,30 @@ Moral
  .. toctree::
     :maxdepth: 1
 
-    singer/index
-
- .. toctree::
-    :maxdepth: 1
-
     parfit/index
 
  .. toctree::
     :maxdepth: 1
 
+    singer/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    nussbaum/index
+
+ .. toctree::
+    :maxdepth: 1
+
     stevenson/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    scanlon/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    taylor/index
+

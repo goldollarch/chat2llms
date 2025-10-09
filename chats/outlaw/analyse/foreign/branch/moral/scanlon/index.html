@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thomas M. Scanlon &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../stevenson/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../code/index.html">API documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史记叙</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Moral</a></li>
+      <li class="breadcrumb-item active">Thomas M. Scanlon</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/moral/scanlon/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="thomas-m-scanlon">
+<h1>Thomas M. Scanlon<a class="headerlink" href="#thomas-m-scanlon" title="Link to this heading"></a></h1>
+<p>根据托马斯·斯坎伦（Thomas M. Scanlon）的契约主义道德理论视角。</p>
+<hr class="docutils" />
+<p>托马斯·斯坎伦是当代道德哲学中“契约主义”流派最重要的代表人物。他的理论精致、有力，其核心思想可以概括为：<strong>道德的正确与否，并非取决于行为的后果，而是取决于行为所依据的原则能否被他人合理地拒绝。道德的本质不是利益的算计，而是寻求一种能与他人相互证明、相互承认的公平关系。我们关心道德的深层动机，源于一种“向他人证明自己行为正当性”的欲望，即希望自己的生活能与他人以一种他们都无法合理拒绝的原则和谐共处。</strong></p>
+<p>他的理论旨在提供一种比功利主义和传统义务论更具说服力的道德基础，其核心要义建立在以下四大支柱之上：</p>
+<p>一、核心原则：合理拒绝原则</p>
+<p>这是斯坎伦契约主义的基石，也是一个独特的道德检验标准。</p>
+<ul class="simple">
+<li><p><strong>核心表述</strong>：一个行为是错误的，如果它在某种情况下被一组 <strong>为行为提供理由的道德原则</strong> 所禁止，而这组原则是 <strong>知情、无意愿强制的各方在寻求一致同意的过程中，没有人能够合理拒绝的</strong>。</p></li>
+<li><p><strong>关键点</strong>：</p>
+<ul>
+<li><p><strong>不是实际同意，而是合理拒绝</strong>：我们不需要征得每个人的实际同意。我们问的是： <strong>是否存在一个理由，使得任何人都可以“合理地拒绝”接受某项原则的约束？</strong>  如果存在这样的理由，那么该原则就是错误的。</p></li>
+<li><p><strong>理由的权重</strong>：什么样的拒绝是“合理的”？这取决于理由的 <strong>一般性和说服力</strong>。理由必须是能被他人理解和认可的，而不能是古怪的、自私的或个人偏好的。例如，一个原则如果要求某人承受巨大的痛苦或牺牲基本利益，而只是为了给他人带来微小的便利，那么这个人就有 <strong>合理的理由</strong> 拒绝它。</p></li>
+</ul>
+</li>
+</ul>
+<p>二、道德动机：证明的欲望</p>
+<p>斯坎伦对“我们为何要讲道德”这个问题给出了一个深刻的回答。</p>
+<ul class="simple">
+<li><p><strong>核心动机</strong>：我们关心道德，最根本的动机并非出于自利或对惩罚的恐惧，而是源于一种他希望称之为“<strong>证明的欲望</strong>”的东西——即我们 <strong>希望能够按照他人无法合理拒绝的理由来规范自己的行为，从而与他人处于一种相互承认的和谐关系中</strong>。</p></li>
+<li><p><strong>重要意义</strong>：这种动机解释了道德的 <strong>规范力</strong>。当我们行为错误时，我们感到的负罪感，正是源于我们意识到自己无法向受影响者证明自身行为的正当性，从而破坏了这种我们渴望拥有的关系。</p></li>
+</ul>
+<p>三、契约主义的独特性：与功利主义和康德主义的对比</p>
+<p>斯坎伦的理论与主流道德理论有显著区别。</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>对比维度</strong></p></th>
+<th class="head"><p><strong>斯坎伦的契约主义</strong></p></th>
+<th class="head"><p><strong>功利主义</strong></p></th>
+<th class="head"><p><strong>康德主义</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>关注焦点</strong></p></td>
+<td><p><strong>原则能否被合理拒绝</strong> （正当性证明）</p></td>
+<td><p><strong>后果是否最大化总体福利</strong> （效用计算）</p></td>
+<td><p><strong>准则能否成为普遍法则</strong> （理性一致性）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>个人地位</strong></p></td>
+<td><p>个人有 <strong>合理拒绝</strong> 的权利，保护个人不受巨大牺牲</p></td>
+<td><p>个人利益可能为总体利益 <strong>被牺牲</strong></p></td>
+<td><p>个人作为 <strong>理性立法者</strong>，目的而非手段</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>道德错误</strong></p></td>
+<td><p>无法向他人 <strong>证明</strong> 自己行为的正当性</p></td>
+<td><p>未能产生 <strong>最好的事态</strong></p></td>
+<td><p>违背了 <strong>理性自身制定的法则</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>四、道德与理由：理由的优先性</p>
+<p>在斯坎伦的理论中，“理由”扮演着核心角色。</p>
+<ul class="simple">
+<li><p><strong>理由优先于原则</strong>：道德原则之所以有效，是因为它们 <strong>建立在更基本的、关于我们有理由做什么和想要什么的事实之上</strong>。我们先要理解什么样的理由是强有力的、一般的，然后才能判断一个原则能否被合理拒绝。</p></li>
+<li><p><strong>道德的核心任务</strong>：因此，道德哲学的核心任务是 <strong>理解理由的本质和结构</strong>，探究不同理由的权重和范围。</p></li>
+</ul>
+<p>—</p>
+<p>核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>道德标准</strong></p></td>
+<td><p><strong>合理拒绝原则</strong>：行为的对错取决于其原则能否被他人 <strong>合理拒绝</strong>。</p></td>
+<td><p><strong>合理拒绝、相互证明、公平原则</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>道德心理学</strong></p></td>
+<td><p><strong>证明的欲望</strong>：道德的深层动机是希望与他人处于一种 <strong>相互承认的正当关系</strong> 中。</p></td>
+<td><p><strong>证明的欲望、相互承认、道德动机</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>理论比较</strong></p></td>
+<td><p>区别于功利主义的 <strong>后果计算</strong> 和康德主义的 <strong>普遍立法</strong>，聚焦于 <strong>人际间的证明</strong>。</p></td>
+<td><p><strong>契约主义 vs. 功利主义 vs. 康德主义</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>理由理论</strong></p></td>
+<td><p><strong>理由优先于原则</strong>，道德哲学的首要任务是探究 <strong>理由的本质和权重</strong>。</p></td>
+<td><p><strong>理由的优先性、理由的权重、规范性</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>总而言之，斯坎伦契约主义的核心思想在于，它将道德从一个关于 <strong>后果或抽象法则</strong> 的问题，转变为一个关于 <strong>人际关系和相互尊重</strong> 的问题。道德的本质在于我们 <strong>负有一种对待他人的责任——按照他们无法合理抱怨的方式来行动</strong>。他的理论成功地将个人尊严（每个人都有合理拒绝的权利）与对他人福祉的关切（我们必须考虑他人的理由）结合起来，为现代道德哲学提供了一套极具吸引力和说服力的论述。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a></li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../stevenson/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

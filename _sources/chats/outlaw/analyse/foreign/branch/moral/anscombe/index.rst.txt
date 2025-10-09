@@ -1,7 +1,7 @@
-G. E. M. Anscombe
+Elizabeth Ancombe
 ===================
 
-根据伊丽莎白·安斯康姆（G. E. M. Anscombe, 1919–2001）道德哲学。
+根据伊丽莎白·安斯康姆（Elizabeth Ancombe, 1919–2001）道德哲学。
 
 -------
 
