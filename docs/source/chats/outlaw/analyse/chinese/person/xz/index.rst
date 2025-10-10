@@ -54,6 +54,8 @@
 
     grok
     gemini
+    copilot
+    chatgpt
     xun_ds
     xun_qw
 

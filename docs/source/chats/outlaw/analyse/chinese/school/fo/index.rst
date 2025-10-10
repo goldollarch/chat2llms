@@ -100,6 +100,7 @@
 
     grok
     gemini
+    copilot
     chatgpt
     deepseek
     qwen

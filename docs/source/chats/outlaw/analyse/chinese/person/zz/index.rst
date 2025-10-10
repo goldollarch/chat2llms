@@ -49,5 +49,7 @@
 
     zz_grk
     zz_gmn
+    copilot
+    chatgpt
     zz_ds
     zz_qw

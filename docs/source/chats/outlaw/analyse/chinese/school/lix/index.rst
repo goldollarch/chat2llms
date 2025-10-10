@@ -42,6 +42,7 @@
 
     grok
     gemini
+    copilot
     chatgpt
     ds
     qw
