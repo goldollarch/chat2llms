@@ -36,6 +36,8 @@
 
     grok
     gemini
+    copilot
+    chatgpt
     lao_ds
     lao_qw
 

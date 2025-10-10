@@ -64,6 +64,7 @@
 
     grok
     gemini
+    copilot
     chatgpt
     sun_ds
     sun_qw

@@ -54,6 +54,7 @@
 
     grok
     gemini
+    copilot
     chatgpt
     ming_ds
     ming_qw

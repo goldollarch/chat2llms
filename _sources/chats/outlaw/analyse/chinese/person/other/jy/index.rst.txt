@@ -38,6 +38,8 @@
 
     jia_grk
     jia_gmn
+    copilot
+    chatgpt
     jia_ds
     jia_qw
 

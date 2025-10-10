@@ -45,6 +45,8 @@
 
     grok
     gemini
+    copilot
+    chatgpt
     han_ds
     han_qw
 
