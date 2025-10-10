@@ -1,5 +1,5 @@
 Robert Alexy
-=========
+=============
 
 基于罗伯特·亚历山大（或译阿莱克西）（Robert Alexy）法律哲学核心要义。
 
@@ -81,6 +81,7 @@ Robert Alexy
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw
