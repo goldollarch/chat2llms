@@ -1,5 +1,5 @@
 Robert M. Cover
-=========
+=================
 
 基于罗伯特·M·卡沃（Robert M. Cover）具有里程碑意义的法律哲学。
 
@@ -79,6 +79,7 @@ Robert M. Cover
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw
