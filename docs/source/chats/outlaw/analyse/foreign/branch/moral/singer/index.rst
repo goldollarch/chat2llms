@@ -93,6 +93,7 @@ Peter A.D Singer
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek

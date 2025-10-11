@@ -1,7 +1,7 @@
 Martha Nussbaum
 ==================
 
-基于 **玛莎·努斯鲍姆（Martha C. Nussbaum）** 的视角。
+基于 **玛莎·努斯鲍姆（Martha C. Nussbaum）** 的哲学视角。
 
 -------------
 
@@ -88,6 +88,7 @@ Martha Nussbaum
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     ds

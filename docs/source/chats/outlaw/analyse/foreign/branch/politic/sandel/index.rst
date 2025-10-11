@@ -86,6 +86,7 @@ Michael Sandel
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     sandel_ds
     sandel_qw

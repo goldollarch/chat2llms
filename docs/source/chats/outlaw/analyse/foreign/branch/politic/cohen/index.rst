@@ -1,5 +1,5 @@
 Gerald Allan Cohen
-=========
+===================
 
 根据 G.A. 柯恩（Gerald Allan Cohen）​​ 的政治哲学视角。
 
@@ -88,6 +88,7 @@ Gerald Allan Cohen
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw

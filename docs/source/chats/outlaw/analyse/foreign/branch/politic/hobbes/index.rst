@@ -95,6 +95,7 @@ Thomas Hobbes
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     hobbes_ds
     hobbes_qw

@@ -106,6 +106,7 @@ Leslie Stevenson
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek

@@ -79,6 +79,7 @@ Machiavelli
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     machi_ds
     machi_qw

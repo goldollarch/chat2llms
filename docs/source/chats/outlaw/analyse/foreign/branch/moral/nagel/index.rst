@@ -91,6 +91,7 @@ Thomas Nagel
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek

@@ -101,6 +101,7 @@ G.E.摩尔用此论证反驳道德自然主义。即使我们完全定义了一�
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek
