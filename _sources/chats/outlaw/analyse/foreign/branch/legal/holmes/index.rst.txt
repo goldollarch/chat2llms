@@ -84,6 +84,7 @@ Oliver W. Holmes
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     ds

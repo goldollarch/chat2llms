@@ -95,6 +95,7 @@ Hans Kelsen
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     ds
