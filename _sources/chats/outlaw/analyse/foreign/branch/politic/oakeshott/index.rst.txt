@@ -1,5 +1,5 @@
 Michael Oakeshott
-=========
+===================
 
 根据​​迈克尔·奥克肖特（Michael Oakeshott）​​的政治哲学视角。
 
@@ -93,6 +93,7 @@ Michael Oakeshott
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw

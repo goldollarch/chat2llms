@@ -97,6 +97,7 @@ Derek Parfit
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek

@@ -96,6 +96,7 @@ Thomas M. Scanlon
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek

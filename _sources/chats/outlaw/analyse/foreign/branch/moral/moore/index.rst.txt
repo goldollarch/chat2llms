@@ -99,6 +99,7 @@ G.E. 摩尔是20世纪初影响深远的哲学家，被誉为 **现代元伦理�
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek
