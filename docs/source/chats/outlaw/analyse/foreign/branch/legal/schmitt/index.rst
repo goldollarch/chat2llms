@@ -1,5 +1,5 @@
 Carl Schmitt
-=========
+==============
 
 基于卡尔·施密特（Carl Schmitt）的政治法学核心思想。
 
@@ -90,6 +90,7 @@ Carl Schmitt
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     ds
