@@ -1,5 +1,5 @@
 Émile Durkheim
-=========
+=================
 
 基于 **埃米尔·涂尔干（Émile Durkheim）** 的社会学视角。
 
@@ -111,6 +111,7 @@
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw

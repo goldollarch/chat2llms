@@ -78,6 +78,7 @@ Anthony Giddens
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     chatgpt
     deepseek

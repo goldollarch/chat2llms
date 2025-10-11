@@ -1,7 +1,7 @@
 Viktor Frankl
 =========
 
-基于维克多·弗兰克尔（Viktor Frankl）意义治疗（Logotherapy）哲学的核心思想。
+基于维克多·弗兰克尔（Viktor Frankl）意义治疗（Logotherapy）的核心思想。
 
 -------------
 
@@ -90,6 +90,7 @@ Viktor Frankl
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw

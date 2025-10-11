@@ -1,5 +1,5 @@
 Abraham Maslow
-=========
+================
 
 基于亚伯拉罕·马斯洛（Abraham Maslow）人本主义心理学的核心思想。
 
@@ -109,6 +109,7 @@ Abraham Maslow
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw
