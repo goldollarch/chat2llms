@@ -97,6 +97,7 @@ Max Horkheimer
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw
