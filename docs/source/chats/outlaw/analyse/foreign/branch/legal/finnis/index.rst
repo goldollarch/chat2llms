@@ -1,5 +1,5 @@
 John Finnis
-=========
+=============
 
 基于约翰·菲尼斯（John Finnis）的新自然法理论核心思想。
 
@@ -99,6 +99,7 @@ John Finnis
     :maxdepth: 3
 
     grok
+    copilot
     chatgpt
     ds
     qw

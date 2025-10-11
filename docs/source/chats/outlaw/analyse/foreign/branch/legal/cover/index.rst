@@ -80,6 +80,7 @@ Robert M. Cover
 
     grok
     gemini
+    copilot
     chatgpt
     ds
     qw

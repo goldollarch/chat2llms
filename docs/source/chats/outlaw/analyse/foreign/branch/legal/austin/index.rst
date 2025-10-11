@@ -97,6 +97,7 @@ John Austin
 
     grok
     gemini
+    copilot
     chatgpt
     ds
     qw
