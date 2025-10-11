@@ -1,4 +1,4 @@
-Theodor W. Adorno
+Theodor Adorno
 =========
 
 基于 **西奥多·阿多诺（Theodor W. Adorno）** 的批判理论视角。
