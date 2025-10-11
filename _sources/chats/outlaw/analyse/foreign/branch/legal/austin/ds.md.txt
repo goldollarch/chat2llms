@@ -1,7 +1,7 @@
 Deepseek
 --------
 
-好的，我将基于约翰·奥斯丁（John Austin）的分析法学（Analytical Jurisprudence）核心思想——尤其是其 **“法律命令说”**（Command Theory of Law）、**“主权者”**（Sovereign）概念以及 **“法律与道德分离”**（Separation of Law and Morality）的主张——对陈京元博士案件进行剖析。奥斯丁的实证主义法学为我们理解此案中法律的本质、效力及其与权力的关系提供了一个冷酷而清晰的框架。
+基于约翰·奥斯丁（John Austin）的分析法学（Analytical Jurisprudence）核心思想——尤其是其 **“法律命令说”**（Command Theory of Law）、**“主权者”**（Sovereign）概念以及 **“法律与道德分离”**（Separation of Law and Morality）的主张——对陈京元博士案件进行剖析。奥斯丁的实证主义法学为我们理解此案中法律的本质、效力及其与权力的关系提供了一个冷酷而清晰的框架。
 
 ---
 

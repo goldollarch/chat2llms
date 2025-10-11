@@ -1,5 +1,5 @@
 Lon L. Fuller
-=========
+===============
 
 基于朗·富勒（Lon L. Fuller）的法律哲学核心思想。
 
@@ -83,6 +83,7 @@ Lon L. Fuller
     :maxdepth: 3
 
     grok
+    copilot
     chatgpt
     ds
     qw

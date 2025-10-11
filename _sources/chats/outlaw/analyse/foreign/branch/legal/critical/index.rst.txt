@@ -74,6 +74,7 @@ Critical Legal
     :maxdepth: 3
 
     grok
+    copilot
     chatgpt
     ds
     qw
