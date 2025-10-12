@@ -20,13 +20,13 @@
  .. toctree::
     :maxdepth: 2
 
-    politic/index
-    
+    moral/index
+
  .. toctree::
     :maxdepth: 2
 
-    moral/index
-
+    politic/index
+    
  .. toctree::
     :maxdepth: 2
 

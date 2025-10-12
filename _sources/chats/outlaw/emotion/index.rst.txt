@@ -15,12 +15,12 @@
 ---------
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     foreign/index
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     chinese/index
     
