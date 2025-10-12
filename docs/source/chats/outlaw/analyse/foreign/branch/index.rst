@@ -26,14 +26,13 @@
     :maxdepth: 2
 
     politic/index
-    
- .. toctree::
-    :maxdepth: 2
-
-    psycho/index
 
  .. toctree::
     :maxdepth: 2
 
     social/index
+    
+ .. toctree::
+    :maxdepth: 2
 
+    psycho/index
