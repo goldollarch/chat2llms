@@ -79,6 +79,7 @@ Marcuse
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     deepseek
     qwen

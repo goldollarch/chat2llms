@@ -65,6 +65,7 @@ Russell
     :maxdepth: 3
 
     grok
+    gemini
     chatgpt
     ds
     qw
