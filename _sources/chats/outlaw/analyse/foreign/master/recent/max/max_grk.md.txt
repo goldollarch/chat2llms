@@ -13,15 +13,15 @@ Furthermore, historical materialism reveals class dimensions: Chen, as an intell
 
 In essence, Chen's ordeal underscores Marxism's warning against state mechanisms that hinder free critique, essential for resolving contradictions toward communism. As Marx advocated for a press that "fights for the truth" against censorship's "spiritual police", reforming such cases through evidence-based justice and open dialogue would align with dialectical progress. Chen's resilience—vowing lifelong accountability for his persecutors—embodies the Marxist spirit of struggle, reminding us that true socialism demands not suppression, but the liberation of thought to propel historical materialism forward.
 
-----------------
+---
 
-当然可以。以下是一篇以卡尔·马克思的思想立场、论证逻辑与文风撰写的评论文章，参照《黑格尔法哲学批判》《路易·波拿巴的雾月十八日》《资本论》序言等文本的修辞节奏与语言张力，结合陈京元博士案件的具体历史语境。
+以下是一篇以卡尔·马克思的思想立场、论证逻辑与文风撰写的评论文章，结合陈京元博士案件的具体历史语境。
 
 ---
 
 🟥 法的幽灵与知识的刑罚：论陈京元案
 
-“批判的武器当然不能代替武器的批判，物质力量必须用物质力量来摧毁；但理论一旦掌握群众，也会变成物质力量。”  
+“批判的武器当然不能代替武器的批判，物质力量必须用物质力量来摧毁；但理论一旦掌握群众，也会变成物质力量。”
 ——《黑格尔法哲学批判》
 
 在一个将秩序神圣化的时代，真理成为异端，思想成为罪证，而知识分子则被钉上“扰乱”的十字架。陈京元博士的案件，不是孤立的司法误判，而是整个法权结构对批判理性的系统性否定，是国家机器对知识劳动的惩罚性回应，是“法的幽灵”在现实中对思想的复仇。
@@ -46,7 +46,7 @@ In essence, Chen's ordeal underscores Marxism's warning against state mechanisms
 
 我们不能仅仅谴责这一起案件，我们必须揭示其结构性根源。我们不能仅仅为陈京元发声，我们必须为所有被压制的思想发声。真正的批判不是对现象的愤怒，而是对本质的揭露。真正的解放不是对个案的申诉，而是对制度的否定。
 
-“批判的任务不是描绘事物的美丽外貌，而是揭示事物的真实面貌。”  
+“批判的任务不是描绘事物的美丽外貌，而是揭示事物的真实面貌。”
 ——马克思，《黑格尔法哲学批判》
 
 愿我们在这幽暗的时代，不做法律的奴仆，而做真理的仆人；不做秩序的守夜人，而做历史的清算者。
