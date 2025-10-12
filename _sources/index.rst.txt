@@ -46,23 +46,20 @@ The **objectives** include:
 
 --------------------
 
-Contents
-==========
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Code
+   :hidden:
 
    usage
    installation
    code/index
    contributing
 
-
 .. toctree::
     :maxdepth: 4
     :caption: Case
+    :hidden:
 
     case/intro
     case/docus/index
@@ -71,6 +68,7 @@ Contents
 .. toctree::
     :maxdepth: 8
     :caption: Chats
+    :hidden:
 
     chats/prepro/index
     chats/compare/index
@@ -81,6 +79,7 @@ Contents
 .. toctree::
     :maxdepth: 6
     :caption: Gaps
+    :hidden:
 
     gaps/example
     gaps/hallucination
@@ -88,11 +87,3 @@ Contents
     gaps/value
     gaps/censor
 
------------------------
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
