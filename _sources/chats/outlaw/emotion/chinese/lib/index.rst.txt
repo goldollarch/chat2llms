@@ -9,6 +9,7 @@
     :maxdepth: 3
 
     grok
+    gemini
     li_ds
     li_qw
 
