@@ -8,6 +8,7 @@ Galileo
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     gpt
     galileo_ds

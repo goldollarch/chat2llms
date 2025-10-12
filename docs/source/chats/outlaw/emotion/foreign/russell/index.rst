@@ -9,6 +9,7 @@ Russell
     :maxdepth: 3
 
     grok
+    gemini
     copilot
     gpt
     ds

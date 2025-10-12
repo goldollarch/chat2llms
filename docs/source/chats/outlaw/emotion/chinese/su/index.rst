@@ -8,5 +8,6 @@
  .. toctree::
     :maxdepth: 3
 
+    gemini
     su_ds
     su_qw
