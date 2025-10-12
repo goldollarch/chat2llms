@@ -14,16 +14,16 @@
 -------------------------
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     master/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     schools/index
     
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     branch/index
