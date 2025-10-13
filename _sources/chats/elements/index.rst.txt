@@ -18,17 +18,17 @@ typically comprises in the Chenjingyuan's case.
 ------
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     actions/index
 
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     disorder/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     knowing/index
