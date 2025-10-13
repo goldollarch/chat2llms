@@ -14,27 +14,27 @@ Furthermore, he listed four categories of the criminal acts of this organized cr
 
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     criminal/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     constitution/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     policies/index
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     party/index
 
 
  .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     overview

@@ -1,4 +1,4 @@
-Objective Criminal Conduct
+So-called "rumors" 
 ===========================
 
 Based on several police interrogations and preliminary summary, the defendant have identified 
@@ -27,9 +27,20 @@ any **official refutation or clarification** have never been seen.)
  .. toctree::
     :maxdepth: 2
 
-    evidence
+    artistic/index
+
 
  .. toctree::
     :maxdepth: 2
 
-    analyses
+    emotion/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    theory/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    history/index

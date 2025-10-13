@@ -1,6 +1,6 @@
-****************************
-Rational Understanding
-****************************
+********************
+Rational Knowledge
+********************
 
 The third category of my so-called "criminal evidence," which the police have extensively collected, consists of articles describing, summarizing,
 analyzing, or commenting on current affairs, news, history, figures, or academic theories, ideologies, and other fields by various institutions, think
