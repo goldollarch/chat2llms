@@ -21,6 +21,11 @@
  .. toctree::
     :maxdepth: 1
 
+    lenin/index
+
+ .. toctree::
+    :maxdepth: 1
+
     popper/index
 
  .. toctree::
