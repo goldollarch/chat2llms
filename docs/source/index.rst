@@ -53,7 +53,6 @@ The **objectives** include:
 
    usage
    installation
-   code/index
    contributing
 
 .. toctree::

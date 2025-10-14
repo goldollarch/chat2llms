@@ -25,4 +25,4 @@
  .. toctree::
     :maxdepth: 2
 
-    postm/index
+    nowaday/index
