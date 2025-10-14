@@ -39,8 +39,10 @@ Copilot
 只有这样，我们党才能真正实现“人民满意、社会稳定、国家长治久安”的执政目标，才能在新时代的伟大征程中不断赢得人民的信任与支持。
 
 
----
+-------------
 
+[[马](/chats/outlaw/analyse/foreign/master/recent/max/copilot.md)]
+[[列](/chats/outlaw/analyse/foreign/master/modern/lenin/copilot.md)]
 [[毛](/chats/outlaw/analyse/chinese/school/ccp/m/copilot.md)]
 [[邓](/chats/outlaw/analyse/chinese/school/ccp/d/copilot.md)]
 [[江](/chats/outlaw/analyse/chinese/school/ccp/j/copilot.md)]
