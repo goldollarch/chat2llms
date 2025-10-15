@@ -111,6 +111,7 @@ Chen Jingyuan's allegations highlight potential constitutional violations by the
 
 [[Grok](/chats/accuse/constitution/analyses_cn.md)]
 [[Gemini](/chats/answers/gemini/constitute.md)]
+[[Copilot](/chats/answers/copilot/constitute.md)]
 [[ChatGPT](/chats/answers/chatgpt/constitute.md)]
 [[Deepseek](/chats/answers/deepseek/constitute.md)]
 [[Qwen](/chats/accuse/constitution/qwen.md)]
