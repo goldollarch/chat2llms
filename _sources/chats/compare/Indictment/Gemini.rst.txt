@@ -136,6 +136,7 @@ concluding remarks (e.g., DeepSeek's recommendations, Grok's disclaimer).
 
 [:doc:`/chats/compare/Indictment/grok`]
 [:doc:`/chats/answers/gemini/Indictment`]
+[:doc:`/chats/answers/copilot/indict`]
 [:doc:`/chats/answers/chatgpt/indict`]
 [:doc:`/chats/compare/Indictment/deepseek`]
 [:doc:`/chats/answers/qwen/Indictment`]
