@@ -75,6 +75,7 @@ Here is a comparison of the similarities and differences among these analyses.
 
 [:doc:`/chats/compare/Ruling/grok_cn`]
 [:doc:`/chats/answers/gemini/Ruling_cn`]
+[:doc:`/chats/answers/copilot/ruling`]
 [:doc:`/chats/answers/chatgpt/ruling`]
 [:doc:`/chats/answers/deepseek/Ruling_cn`]
 [:doc:`/chats/answers/qwen/ruling`]

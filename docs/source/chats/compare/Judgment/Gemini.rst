@@ -153,6 +153,7 @@ rather than reflecting any substantive disagreement on the judgment's core defic
 
 [:doc:`/chats/compare/Judgment/grok`]
 [:doc:`/chats/answers/gemini/Judgment`]
+[:doc:`/chats/answers/copilot/judge`]
 [:doc:`/chats/answers/chatgpt/judge`]
 [:doc:`/chats/compare/Judgment/deepseek`]
 [:doc:`/chats/answers/qwen/Judgment`]
