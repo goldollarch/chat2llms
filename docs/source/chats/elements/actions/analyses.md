@@ -188,6 +188,7 @@ The Kunming authorities' conviction of Dr. Chen Jingyuan for \"picking quarrels 
 
 [[Grok](/chats/elements/actions/analyses_cn)]
 [[Gemini](/chats/answers/gemini/actions.md)]
+[[Copilot](/chats/answers/copilot/actions.md)]
 [[ChatGPT](/chats/answers/chatgpt/actions.md)]
 [[DeepSeek](/chats/elements/actions/deepseek)]
 [[Qwen](/chats/elements/actions/qwen)]

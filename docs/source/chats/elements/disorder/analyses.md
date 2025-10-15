@@ -129,6 +129,7 @@ This evaluation is based on the case documents and Chen's self-defense, as of Ma
 
 [[Grok](/chats/answers/grok/disorder_cn)] 
 [[Gemini](/chats/answers/gemini/disorder)]
+[[Copilot](/chats/answers/copilot/disorder.md)]
 [[ChatGPT](/chats/answers/chatgpt/disorder.md)]
 [[Deepseek](/chats/answers/deepseek/disorder)] 
 [[Qwen](/chats/elements/disorder/qwen)] 

@@ -151,6 +151,7 @@ This evaluation is based on Chen's allegations and case documents as of March 23
 
 [[Grok](/chats/accuse/overview_cn.md)]
 [[Gemini](/chats/accuse/gemini.md)]
+[[Copilot](/chats/accuse/copilot.md)]
 [[ChatGPT](/chats/accuse/chatgpt.md)]
 [[DeepSeek](/chats/accuse/deepseek.md)]
 [[Qwen](/chats/accuse/qwen.md)]
