@@ -1,5 +1,5 @@
 法律
-=========
+======
 
 法律哲学（Legal Philosophy，又称法理学、法哲学，Jurisprudence）是哲学与法学交叉的核心领域，它探讨 **法律的本质、法律与道德的关系、法律的正当性、法律解释、司法推理、权利与义务、法治、法律权威等根本性问题**。
 法律哲学不仅为法律体系提供理论基础，也深刻影响了立法、司法、法律改革以及我们对“什么是良法”“什么是公正”的理解。
@@ -53,7 +53,7 @@
    * - 批判法学 
      - 法律并非中立，揭示其意识形态性与权力结构
      - :doc:`罗伯托·昂格尔 </chats/outlaw/analyse/foreign/branch/legal/unger/index>` 等
-   * - 法律经济学（Law and Economics）
+   * - 法律经济学
      - 法律应以效率为导向，运用经济分析方法
      - :doc:`理查德·波斯纳 </chats/outlaw/analyse/foreign/branch/legal/posner/index>` 等
    * - 新修辞学法学
