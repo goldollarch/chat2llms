@@ -5,7 +5,7 @@ Carl Schmitt
 
 --------
 
-.. hint::
+.. note::
 
   近年来，以施密特主义为中心，:doc:`马基雅维利 </chats/outlaw/analyse/foreign/branch/politic/machi/index>`、 
   :doc:`霍布斯 </chats/outlaw/analyse/foreign/branch/politic/hobbes/index>` 等人的国家理性一脉学说在一些知识分子那里大热，
