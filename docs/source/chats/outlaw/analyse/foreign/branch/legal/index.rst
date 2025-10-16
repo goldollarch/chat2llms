@@ -9,27 +9,27 @@
 1. 自然法学派（Natural Law School）
 
 - **核心理念**：法律应体现道德与正义，恶法非法。
-- **代表人物**：亚里士多德、托马斯·阿奎那、洛克、卢梭、富勒、德沃金、罗尔斯。
+- **代表人物**： :doc:`亚里士多德 </chats/outlaw/analyse/foreign/master/ancient/aristotle/index>`、:doc:`托马斯·阿奎那 </chats/outlaw/analyse/foreign/master/ancient/aquinas/index>`、:doc:`洛克 </chats/outlaw/analyse/foreign/master/recent/locke/index>`、:doc:`卢梭 </chats/outlaw/analyse/foreign/master/recent/rouss/index>`、:doc:`富勒 </chats/outlaw/analyse/foreign/branch/legal/fuller/index>`、:doc:`德沃金 </chats/outlaw/analyse/foreign/branch/legal/dworkin/index>`、:doc:`罗尔斯 </chats/outlaw/analyse/foreign/branch/politic/rawls/index>`。
 - **主要特点**：
   
   - 强调人类理性与自然权利（如生命、自由、财产）。
   - 法律源于“高于人定法”的自然法则。
-  - 二战后出现“新自然法学”，如富勒的“内在道德”。
+  - 二战后出现“新自然法学”，如 :doc:`富勒 </chats/outlaw/analyse/foreign/branch/legal/fuller/index>` 的“内在道德”。
 
 2. 分析实证主义法学派（Analytical Legal Positivism）
 
 - **核心理念**：法律是人制定的规则，与道德无关。
-- **代表人物**：边沁、奥斯丁、凯尔森、哈特。
+- **代表人物**： :doc:`边沁 </chats/outlaw/analyse/foreign/master/recent/bentham/index>`、:doc:`奥斯丁 </chats/outlaw/analyse/foreign/branch/legal/austin/index>`、:doc:`凯尔森 </chats/outlaw/analyse/foreign/branch/legal/kelsen/index>`、:doc:`哈特 </chats/outlaw/analyse/foreign/branch/legal/hart/index>`。
 - **主要特点**：
 
   - 强调法律的逻辑结构与语言分析。
   - 主张“恶法亦法”，法律研究应价值中立。
-  - 凯尔森提出“纯粹法学”，哈特发展“规则理论”。
+  - :doc:`凯尔森 </chats/outlaw/analyse/foreign/branch/legal/kelsen/index>` 提出“纯粹法学”，:doc:`哈特 </chats/outlaw/analyse/foreign/branch/legal/hart/index>` 发展“规则理论”。
 
 3. 社会法学派（Sociological Jurisprudence）
 
 - **核心理念**：法律是社会生活的产物，应服务于社会需求。
-- **代表人物**：埃尔利希、霍姆斯、庞德。
+- **代表人物**： :doc:`埃利希 </chats/outlaw/analyse/foreign/branch/legal/ehrlich/index>`、:doc:`霍姆斯 </chats/outlaw/analyse/foreign/branch/legal/holmes/index>`、:doc:`庞德 </chats/outlaw/analyse/foreign/branch/legal/pound/index>`。
 - **主要特点**：
 
   - 强调法律的实际效果与社会适应性。
@@ -49,16 +49,16 @@
      - 代表人物
    * - 马克思主义法学
      - 法律是阶级斗争的工具，服务于统治阶级
-     - 马克思、恩格斯
-   * - 批判法学（Critical Legal Studies）
+     - :doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/max/index>`
+   * - 批判法学 
      - 法律并非中立，揭示其意识形态性与权力结构
-     - 罗伯特·安格尔等
+     - :doc:`罗伯托·昂格尔 </chats/outlaw/analyse/foreign/branch/legal/unger/index>` 等
    * - 法律经济学（Law and Economics）
      - 法律应以效率为导向，运用经济分析方法
-     - 理查德·波斯纳等
+     - :doc:`理查德·波斯纳 </chats/outlaw/analyse/foreign/branch/legal/posner/index>` 等
    * - 新修辞学法学
      - 强调法律语言的修辞性与解释的多样性
-     - 查伊佩罗、佩雷尔曼
+     - :doc:`查伊姆·佩雷尔曼 </chats/outlaw/analyse/foreign/branch/legal/perelman/index>`
 
 
 这些流派之间的争论构成了法律哲学的基本张力：
@@ -123,7 +123,17 @@
  .. toctree::
     :maxdepth: 1
 
+    ehrlich/index
+
+ .. toctree::
+    :maxdepth: 1
+
     holmes/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    pound/index
 
  .. toctree::
     :maxdepth: 1
@@ -143,17 +153,7 @@
  .. toctree::
     :maxdepth: 1
 
-    critical/index
-
- .. toctree::
-    :maxdepth: 1
-
-    positivism/index
-
- .. toctree::
-    :maxdepth: 1
-
-    right/index
+    unger/index
 
  .. toctree::
     :maxdepth: 1
@@ -164,4 +164,14 @@
     :maxdepth: 1
 
     perelman/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    positivism/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    right/index
 
