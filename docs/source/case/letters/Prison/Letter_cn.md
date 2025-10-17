@@ -233,9 +233,10 @@
 
 ---
 
-代序：【[Gemini](/chats/outlaw/emotion/chinese/lx/xu/xu_gmn.md)】【[Qwen](/chats/outlaw/emotion/chinese/lx/xu/xu_qw.md)】
+下载：[[Manuscript](/_static/files/Letter.pdf)]
+[[Word](/_static/files/Letter.docx)]
 
 ---
 
-[[Manuscript](/_static/files/Letter.pdf)]
-[[word](/_static/files/Letter.docx)]
+代序：[[Gemini](/chats/outlaw/emotion/chinese/lx/xu/xu_gmn.md)]
+[[Qwen](/chats/outlaw/emotion/chinese/lx/xu/xu_qw.md)]
