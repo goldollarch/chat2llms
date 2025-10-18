@@ -36,4 +36,13 @@ Thus, the defendant was sent to prison to serve their sentence and undergo refor
 
 This case is a textbook example of the Chinese legal crime of "Xun Xin Zi Shi (寻衅滋事)", often translated as `picking quarrels and provoking trouble (PXQT) <https://en.wikipedia.org/wiki/Picking_quarrels_and_provoking_trouble>`_ in mainland China. The complete case materials are available online for reference by Chinese legal researchers.
 
+---------------------------------------------------
+
+[:doc:`Overview </chats/answers/qwen/evalution>`]
+[:doc:`Legal Affairs </chats/answers/qwen/overview>`]
+[:doc:`Theoretical Analysis </chats/outlaw/analyse/index>`]
+[:doc:`Lifetime Accountability </chats/urges/grk>`]
+
+--------------------------------
+
 [:doc:`/case/case_cn`]
