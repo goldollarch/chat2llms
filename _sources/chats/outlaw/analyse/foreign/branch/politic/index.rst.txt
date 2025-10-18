@@ -40,7 +40,7 @@
      - :doc:`洛克 </chats/outlaw/analyse/foreign/master/recent/locke/index>` 、:doc:`密尔 </chats/outlaw/analyse/foreign/master/recent/mill/index>` 、 :doc:`罗尔斯 </chats/outlaw/analyse/foreign/branch/politic/rawls/index>` 
    * - 保守主义
      - 强调传统、秩序与渐进改革
-     - :doc:`培根 </chats/outlaw/analyse/foreign/master/recent/bacon/index>` 、 :doc:`埃德蒙·柏克 </chats/outlaw/analyse/foreign/branch/politic/burke/index>` 、 :doc:`迈克尔·奥克肖特 </chats/outlaw/analyse/foreign/branch/politic/oakeshott/index>` 
+     - :doc:`培根 </chats/outlaw/analyse/foreign/master/recent/bacon/index>` 、 :doc:`柏克 </chats/outlaw/analyse/foreign/branch/politic/burke/index>` 、 :doc:`奥克肖特 </chats/outlaw/analyse/foreign/branch/politic/oakeshott/index>` 
    * - 马克思主义
      - 关注阶级斗争与历史唯物主义
      - :doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/max/index>` 
@@ -55,7 +55,7 @@
      - :doc:`马尔库塞 </chats/outlaw/analyse/foreign/master/modern/marcuse/index>` 、:doc:`哈贝马斯 </chats/outlaw/analyse/foreign/master/modern/habermas/index>` 
    * - 女性主义政治哲学
      - 关注性别不平等与权力关系
-     - :doc:`西蒙娜·德·波伏娃 </chats/outlaw/analyse/foreign/branch/politic/beauvoir/index>` 、 :doc:`南茜·弗雷泽 </chats/outlaw/analyse/foreign/branch/social/fraser/index>` 
+     - :doc:`波伏娃 </chats/outlaw/analyse/foreign/branch/politic/beauvoir/index>` 、 :doc:`弗雷泽 </chats/outlaw/analyse/foreign/branch/social/fraser/index>` 
 
 四、政治哲学与法律哲学的关系
 
