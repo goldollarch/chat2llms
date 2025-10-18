@@ -1,4 +1,4 @@
-Analysis of Criminal Judgment
+Analysis of the Judgment
 =======================================
 
 Some large language models ( :doc:`/chats/answers/deepseek/Judgment`, :doc:`/chats/answers/gemini/Judgment`, and 

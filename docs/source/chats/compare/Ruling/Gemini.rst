@@ -1,4 +1,4 @@
-Analysis of Criminal Ruling
+Analysis of the Ruling
 =====================================
 
 Some large language models ( :doc:`/chats/answers/deepseek/Ruling`, :doc:`/chats/answers/gemini/Ruling`, and 

@@ -1,4 +1,4 @@
-The Procuratorate's Indictment 
+The Indictment 
 ===============================
 
 
