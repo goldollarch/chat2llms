@@ -1,7 +1,7 @@
-Severe Harm of Social Order
+Severe Harm Social Order
 ===========================
 
-In his Self-Defense and Accusation from Prison, 
+In his :doc:`self-defense and accusation </case/letters/Prison/Letter>`,  
 Chen Jingyuan systematically refuted the prosecutor's accusation that his actions "caused serious public disorder," 
 encompassing three levels of scientific argumentation, legal interpretation, and empirical observation.
 
