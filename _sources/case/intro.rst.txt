@@ -38,9 +38,9 @@ This case is a textbook example of the Chinese legal crime of "Xun Xin Zi Shi (å
 
 ---------------------------------------------------
 
-[:doc:`Overview </chats/answers/qwen/evalution>`]
-[:doc:`Legal Affairs </chats/answers/qwen/overview>`]
-[:doc:`Lifetime Accountability </chats/urges/grk>`]
+[:doc:`Overview </chats/answers/qwen/evalution>`] -
+[:doc:`Legal Affairs </chats/answers/qwen/overview>`] -
+[:doc:`Lifetime Accountability </chats/urges/grk>`] -
 [:doc:`Theoretical Analysis </chats/outlaw/analyse/index>`]
 
 --------------------------------
