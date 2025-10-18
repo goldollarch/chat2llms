@@ -35,14 +35,14 @@ Deepseek
 
 | 拉兹的“法治”原则                                                                                                                                | 本案中的违反表现                                                     |
 | :------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------- |
-| **1. 所有法律都应可预期、公开且明确** `<br>`（All laws should be prospective, open, and clear）                                           | “寻衅滋事罪”极度模糊，公民无法预期何种转发构成犯罪。               |
-| **2. 法律应相对稳定** `<br>`（Laws should be relatively stable）                                                                          | 该罪名的解释尺度因政治气候而异，极不稳定。                           |
-| **3. 特别法的制定应受公开、稳定、明确的一般规则指导** `<br>`（Particular laws should be guided by open, stable, clear and general rules） | 判决（特别法）不受明确规则指导，依赖法官主观臆断（“觉得是谣言”）。 |
-| **4. 司法独立应得到保障** `<br>`（The independence of the judiciary must be guaranteed）                                                  | 法官主动为控方补漏，禁止辩护，显示其完全依附于行政意志。             |
-| **5. 遵循自然正义原则** `<br>`（The principles of natural justice must be observed）                                                      | 禁止自辩、秘密审判、截留血书，彻底违背程序公正。                     |
-| **6. 法院应拥有审查权以确保法治** `<br>`（Courts should have review powers to ensure conformity）                                         | 上诉法院拒绝开庭审理，放弃了审查职责。                               |
-| **7. 法院应易于接近** `<br>`（The courts should be easily accessible）                                                                    | 高昂的诉讼成本、程序障碍使公民难以获得公正审理。                     |
-| **8. 预防犯罪的裁量权不得曲解法律** `<br>`（The discretion of crime-preventing agencies should not be allowed to pervert the law）        | 司法机关将“预防犯罪”的裁量权扭曲为“制造犯罪”的工具。             |
+| **1. 所有法律都应可预期、公开且明确** （All laws should be prospective, open, and clear）                                           | “寻衅滋事罪”极度模糊，公民无法预期何种转发构成犯罪。               |
+| **2. 法律应相对稳定** （Laws should be relatively stable）                                                                          | 该罪名的解释尺度因政治气候而异，极不稳定。                           |
+| **3. 特别法的制定应受公开、稳定、明确的一般规则指导** （Particular laws should be guided by open, stable, clear and general rules） | 判决（特别法）不受明确规则指导，依赖法官主观臆断（“觉得是谣言”）。 |
+| **4. 司法独立应得到保障** （The independence of the judiciary must be guaranteed）                                                  | 法官主动为控方补漏，禁止辩护，显示其完全依附于行政意志。             |
+| **5. 遵循自然正义原则** （The principles of natural justice must be observed）                                                      | 禁止自辩、秘密审判、截留血书，彻底违背程序公正。                     |
+| **6. 法院应拥有审查权以确保法治** （Courts should have review powers to ensure conformity）                                         | 上诉法院拒绝开庭审理，放弃了审查职责。                               |
+| **7. 法院应易于接近** （The courts should be easily accessible）                                                                    | 高昂的诉讼成本、程序障碍使公民难以获得公正审理。                     |
+| **8. 预防犯罪的裁量权不得曲解法律** （The discretion of crime-preventing agencies should not be allowed to pervert the law）        | 司法机关将“预防犯罪”的裁量权扭曲为“制造犯罪”的工具。             |
 
 本案几乎违反了所有八项原则，表明其司法系统在**功能上无法被称为“法治”**（rule of law），而是沦为 **“法制”**（rule by law）——即用法律作为工具来进行统治。
 

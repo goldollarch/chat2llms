@@ -22,8 +22,11 @@ ChatGPT
 > “法是自由的存在方式。”（*Das Recht ist die Existenz der Freiheit.*）
 
 在现代法权哲学看来，法律的正当性基础有三层：
+
 1️⃣ **个体自由权（subjective right）**
+
 2️⃣ **社会理性秩序（ethical life, Sittlichkeit）**
+
 3️⃣ **国家公共理性（public reason and legitimacy）**
 
 当这三者失衡时，法律不再是“法权”，而是“权力的技术化工具”。

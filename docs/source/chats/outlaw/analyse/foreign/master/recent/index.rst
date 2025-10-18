@@ -11,11 +11,6 @@
  .. toctree::
     :maxdepth: 1
 
-    bacon/index
-
- .. toctree::
-    :maxdepth: 1
-
     rouss/index
 
  .. toctree::
@@ -27,6 +22,11 @@
     :maxdepth: 1
 
     spinoza/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    bacon/index
 
  .. toctree::
     :maxdepth: 1
@@ -56,6 +56,16 @@
  .. toctree::
     :maxdepth: 1
 
+    bentham/index
+    
+ .. toctree::
+    :maxdepth: 1
+
+    mill/index
+
+ .. toctree::
+    :maxdepth: 1
+
     krkgrd/index
 
  .. toctree::
@@ -68,12 +78,3 @@
 
     nietzsche/index
 
- .. toctree::
-    :maxdepth: 1
-
-    bentham/index
-
- .. toctree::
-    :maxdepth: 1
-
-    mill/index
