@@ -73,4 +73,9 @@
 
     foucault/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    derrida/index
+
 
