@@ -38,6 +38,11 @@
  .. toctree::
     :maxdepth: 1
 
+    wtq/index
+
+ .. toctree::
+    :maxdepth: 1
+
     yu/index
 
  .. toctree::
