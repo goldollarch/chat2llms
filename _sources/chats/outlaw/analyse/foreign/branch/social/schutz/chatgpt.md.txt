@@ -97,8 +97,8 @@ ChatGPT
 
 在舒茨视角下，陈京元的自辩体现了以下三种抵抗形式：
 
-1. **恢复意义的主体性（Restoration of Subjective Meaning）**他拒绝被“犯罪类型化”，坚持重新定义自身行为的意义。
-2. **重建理解的共同体（Reconstruction of Intersubjectivity）**他通过哲学论证、理性沟通，呼唤社会回归对“理解”而非“控制”的信任。
+1. **恢复意义的主体性（Restoration of Subjective Meaning）** 他拒绝被“犯罪类型化”，坚持重新定义自身行为的意义。
+2. **重建理解的共同体（Reconstruction of Intersubjectivity）** 他通过哲学论证、理性沟通，呼唤社会回归对“理解”而非“控制”的信任。
 3. **维护生活世界的尊严（Defense of Lebenswelt Integrity）**
    他的学术自觉与精神抵抗，
    实质上是对现代官僚系统入侵人类精神生活的抵制。

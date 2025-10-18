@@ -10,7 +10,7 @@ as well as the CAP theorem, to deny the causal relationship between his "reposti
 
 Then, he examined specific legal provisions to disprove the so-called "serious disorder" as inconsistent with basic facts.
 
-Finally, from an empirical perspective, after serving his sentence, Chen Jingyuan discovered that all of his posts, 
+Finally, from an empirical perspective, after serving his sentence, Chen Jingyuan discovered that all of his reposts, 
 which were allegedly "irrefutable evidence of his crimes," still existed online, 
 but received no attention, no reposting, no discussion, and had not generated any social response.
 
