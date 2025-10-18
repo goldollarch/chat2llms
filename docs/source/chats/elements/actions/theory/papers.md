@@ -148,4 +148,4 @@ Some Papers by Professor Xu Zhangrun
 
 --------------
 
-[[Chinese](/chats/elements/actions/viewpoint/papers_cn)]
+[[Chinese](/chats/elements/actions/theory/papers_cn)]

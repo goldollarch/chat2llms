@@ -131,4 +131,4 @@ The Kunming authorities' use of Chen's forwarding of the Twitter post by \"çŽ‹æ±
 
 --------------
 
-[[Chinese](/chats/elements/actions/viewpoint/Spectrum_cn)]
+[[Chinese](/chats/elements/actions/theory/Spectrum_cn)]

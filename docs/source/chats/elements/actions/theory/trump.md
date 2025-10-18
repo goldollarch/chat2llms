@@ -134,4 +134,4 @@ The Kunming authorities' use of Chen's forwarding of the Twitter post as evidenc
 
 --------------
 
-[[Chinese](/chats/elements/actions/viewpoint/trump_cn)]
+[[Chinese](/chats/elements/actions/theory/trump_cn)]

@@ -120,4 +120,4 @@ The Kunming authorities' use of Chen's forwarding of the Twitter post by \"å¤©ä¸
 
 --------------
 
-[[Chinese](/chats/elements/actions/realities/deng_cn)]
+[[Chinese](/chats/elements/actions/history/deng_cn)]

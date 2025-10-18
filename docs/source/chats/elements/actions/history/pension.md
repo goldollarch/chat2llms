@@ -135,4 +135,4 @@ The Kunming authorities' use of Chen's forwarding of the Twitter post by \"å¸Œæœ
 
 --------------
 
-[[Chinese](/chats/elements/actions/realities/pension_cn)]
+[[Chinese](/chats/elements/actions/history/pension_cn)]

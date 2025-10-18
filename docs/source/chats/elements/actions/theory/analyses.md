@@ -168,4 +168,4 @@ The Kunming authorities' decision to convict Dr. Chen Jingyuan of \"picking quar
 
 --------------
 
-[[Chinese](/chats/elements/actions/viewpoint/analyses_cn)]
+[[Chinese](/chats/elements/actions/theory/analyses_cn)]

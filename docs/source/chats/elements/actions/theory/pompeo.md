@@ -131,4 +131,4 @@ Click here to read more of Secretary of State Michael R. Pompeo's July 23 speech
 
 --------------
 
-[[Chinese](/chats/elements/actions/viewpoint/pompeo_cn)]
+[[Chinese](/chats/elements/actions/theory/pompeo_cn)]

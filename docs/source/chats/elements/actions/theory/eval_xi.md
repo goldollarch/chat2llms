@@ -127,4 +127,4 @@ Grok Disclaimer: Grok is not a lawyer; please consult one. Don't share informati
 
 --------------
 
-[[Chinese](/chats/elements/actions/viewpoint/eval_xi_cn)]
+[[Chinese](/chats/elements/actions/theory/eval_xi_cn)]

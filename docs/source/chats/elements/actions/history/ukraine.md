@@ -194,4 +194,4 @@ Grok Disclaimer: Grok is not a lawyer; please consult one. Don't share informati
 
 --------------
 
-[[Chinese](/chats/elements/actions/realities/ukraine_cn)]
+[[Chinese](/chats/elements/actions/history/ukraine_cn)]
