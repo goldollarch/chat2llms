@@ -2,7 +2,7 @@ Introduction
 ============
 
 
-.. centered:: A Crimal Case of "Picking Quarrels and Provoking Trouble" in Mainland China 
+.. centered:: A Typical Crimal Case of "Picking Quarrels and Provoking Trouble" in Mainland China 
 
 ------------------------------------------------------------------------------------------------
 
