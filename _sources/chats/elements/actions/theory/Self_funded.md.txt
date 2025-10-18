@@ -138,4 +138,4 @@ Grok Disclaimer: Grok is not a lawyer; please consult one. Don't share informati
 
 --------------
 
-[[Chinese](/chats/elements/actions/viewpoint/Self_funded_cn)]
+[[Chinese](/chats/elements/actions/theory/Self_funded_cn)]

@@ -144,5 +144,5 @@ The Kunming authorities' use of Chen's forwarding of the Twitter post by \"Petri
 
 --------------
 
-[[Chinese](/chats/elements/actions/realities/Mao_cn)]
+[[Chinese](/chats/elements/actions/history/Mao_cn)]
 
