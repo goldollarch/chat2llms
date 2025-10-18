@@ -6,6 +6,10 @@ Some of the third category of reposts are purely historical materials; these are
 
 From a scholar's perspective, these are essentially no different in principle from the third category.
 
+---------
+
+Refer to :ref:`historical-realities`
+
 ----------------------------------
 
 
@@ -13,7 +17,6 @@ From a scholar's perspective, these are essentially no different in principle fr
     :maxdepth: 3
 
     evidence
-
 
  .. toctree::
     :maxdepth: 3

@@ -4,7 +4,9 @@ Subjective Emotions
 
 The second category of reposts involves the expression of personal subjective emotions.
 
-Refer to: :ref:`Self-Defense and Accusation from Prison <subjective-emotions>`
+---------
+
+Refer to :ref:`subjective-emotions`
 
 ----------------------------------
 
