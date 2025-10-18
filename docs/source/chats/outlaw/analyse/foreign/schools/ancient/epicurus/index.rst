@@ -86,4 +86,4 @@ Epicurus
 
 ---------------------------
 
-[:doc:`比较斯多葛主义与伊壁鸠鲁学派两派哲学 </chats/outlaw/analyse/foreign/schools/ancient/epi_sto>`]
+[:doc:`斯多葛主义与伊壁鸠鲁学派比较 </chats/outlaw/analyse/foreign/schools/ancient/epi_sto>`]
