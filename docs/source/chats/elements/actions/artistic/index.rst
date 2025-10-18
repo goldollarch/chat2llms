@@ -4,7 +4,9 @@ Artistic Works
 
 The first category of "rumors" or retweets reposted by the defendant consists of artistic works.
 
-Refer to: :ref:`Self-Defense and Accusation from Prison <artistic-works>`
+---------
+
+Refer to :ref:`artistic-works`
 
 ----------------------------------
 

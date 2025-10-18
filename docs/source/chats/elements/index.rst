@@ -20,20 +20,20 @@ typically comprises in the Chenjingyuan's case.
  .. toctree::
     :maxdepth: 2
 
-    overview
+    disorder/index
 
  .. toctree::
     :maxdepth: 2
 
     actions/index
 
-
- .. toctree::
-    :maxdepth: 2
-
-    disorder/index
-
  .. toctree::
     :maxdepth: 2
 
     knowing/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    overview
+
