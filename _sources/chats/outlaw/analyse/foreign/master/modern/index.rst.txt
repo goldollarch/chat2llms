@@ -61,7 +61,7 @@
  .. toctree::
     :maxdepth: 1
 
-    habermas/index
+    derrida/index
 
  .. toctree::
     :maxdepth: 1
@@ -71,11 +71,11 @@
  .. toctree::
     :maxdepth: 1
 
-    foucault/index
+    habermas/index
 
  .. toctree::
     :maxdepth: 1
 
-    derrida/index
+    foucault/index
 
 
