@@ -14,7 +14,7 @@ Land beyond law
 
 和陈京元 :doc:`【狱中血书】</case/letters/Prison/Letter_cn>` 对所谓 :doc:`【犯罪铁证】</chats/elements/actions/index>` 对应，分三类：:doc:`抒情诗文 </chats/outlaw/emotion/index>`、:doc:`理论分析 </chats/outlaw/analyse/index>`、:doc:`历史记叙 </chats/outlaw/history/index>`。
 
-静待昆明司法黑帮恶势力团伙的“**梳理**”，作为“**寻衅滋事罪**”的“**谣言铁证**”。
+静待昆明司法黑帮恶势力团伙“**梳理**”作为“**寻衅滋事**”的“**谣言铁证**”。
 
 ---------------------------------------------------------------------------------
 
