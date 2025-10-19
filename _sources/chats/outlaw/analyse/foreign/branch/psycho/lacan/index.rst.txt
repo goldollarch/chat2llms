@@ -1,7 +1,7 @@
 Jacques Lacan
 ==============
 
-根据雅克·拉康（Jacques Lacan）的哲学核心思想。
+根据雅克·拉康（Jacques Lacan）的精神分析哲学核心思想。
 
 ---------
 
