@@ -10,5 +10,6 @@
 
     wq_grok
     wq_gmn
+    copilot
     wq_ds
     wq_qw
