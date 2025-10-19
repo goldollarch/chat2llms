@@ -65,7 +65,10 @@ Anarchism
    * - 无政府共产主义
      - 追求"各尽所能、各取所需"的共同体
      - :doc:`克鲁泡特金 </chats/outlaw/analyse/foreign/branch/politic/kropotkin/index>` 
-     
+   * - 后结构主义无政府主义
+     - 反对话语权力与身份规训
+     - :doc:`索尔·纽曼 </chats/outlaw/analyse/foreign/branch/politic/newman/index>` 
+
 该思想体系提供了一种关于自由、组织与人类解放的独特理论视角，至今仍影响着社会运动与乌托邦想象。
 
 -------------------
