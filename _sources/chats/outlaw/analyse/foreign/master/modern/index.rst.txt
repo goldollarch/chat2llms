@@ -41,6 +41,26 @@
  .. toctree::
     :maxdepth: 1
 
+    kripke/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    austin/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    searle/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    putnam/index
+
+ .. toctree::
+    :maxdepth: 1
+
     husserl/index
 
  .. toctree::
@@ -77,5 +97,10 @@
     :maxdepth: 1
 
     foucault/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    zizek/index
 
 
