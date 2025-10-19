@@ -223,8 +223,8 @@
  .. toctree::
     :maxdepth: 1
 
-    meta/index
-
+    scheler/index
+    
  .. toctree::
     :maxdepth: 1
 
@@ -283,4 +283,5 @@
  .. toctree::
     :maxdepth: 1
 
-    scheler/index
+    meta/index
+
