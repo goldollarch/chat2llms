@@ -176,6 +176,11 @@
  .. toctree::
     :maxdepth: 1
 
+    newman/index
+
+ .. toctree::
+    :maxdepth: 1
+
     anarchism/index
 
  .. toctree::
