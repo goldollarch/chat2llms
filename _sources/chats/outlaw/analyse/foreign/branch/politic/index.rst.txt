@@ -41,13 +41,13 @@
    * - 保守主义
      - 强调传统、秩序与渐进改革
      - :doc:`培根 </chats/outlaw/analyse/foreign/master/recent/bacon/index>` 、 :doc:`柏克 </chats/outlaw/analyse/foreign/branch/politic/burke/index>` 、 :doc:`奥克肖特 </chats/outlaw/analyse/foreign/branch/politic/oakeshott/index>` 
-   * - 马克思主义
+   * - :doc:`马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>` 
      - 关注阶级斗争与历史唯物主义
      - :doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/max/index>` 
-   * - 社群主义
+   * - :doc:`社群主义 </chats/outlaw/analyse/foreign/branch/politic/commun/index>`
      - 强调共同体与文化认同
      - :doc:`桑德尔 </chats/outlaw/analyse/foreign/branch/politic/sandel/index>` 、 :doc:`麦金太尔 </chats/outlaw/analyse/foreign/branch/moral/macIntyre/index>` 
-   * - 无政府主义
+   * - :doc:`无政府主义 </chats/outlaw/analyse/foreign/branch/politic/anarchism/index>` 
      - 反对国家权力，主张自发秩序
      - :doc:`巴枯宁 </chats/outlaw/analyse/foreign/branch/politic/bakunin/index>` 、 :doc:`克鲁泡特金 </chats/outlaw/analyse/foreign/branch/politic/kropotkin/index>` 
    * - 批判理论
@@ -96,7 +96,12 @@
  .. toctree::
     :maxdepth: 1
 
-    bakunin/index
+    stirner/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    proudhon/index
 
  .. toctree::
     :maxdepth: 1
@@ -167,6 +172,11 @@
     :maxdepth: 1
 
     king/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    anarchism/index
 
  .. toctree::
     :maxdepth: 1

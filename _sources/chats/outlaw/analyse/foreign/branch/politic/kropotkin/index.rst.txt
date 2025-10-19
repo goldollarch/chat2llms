@@ -1,7 +1,7 @@
 Peter Kropotkin
 =================
 
-基于彼得·克鲁泡特金（Peter Kropotkin）的无政府主义的无政府主义政治哲学视角。
+基于彼得·克鲁泡特金（Peter Kropotkin）的无政府主义政治哲学视角。
 
 -------
 
