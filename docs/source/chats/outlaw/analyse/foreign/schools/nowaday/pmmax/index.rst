@@ -64,6 +64,7 @@ Postmodern Maxism
 
     grk
     gmn
+    copilot
     gpt
     ds
     qw
