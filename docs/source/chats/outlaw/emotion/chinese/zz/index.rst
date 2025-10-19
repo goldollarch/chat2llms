@@ -10,6 +10,7 @@
 
     grk
     gmn
+    copilot
     ds
     qw
 

@@ -8,12 +8,12 @@
  .. toctree::
     :maxdepth: 1
 
-    qu/index
+    smq/index
 
  .. toctree::
     :maxdepth: 1
 
-    smq/index
+    qu/index
 
  .. toctree::
     :maxdepth: 1

@@ -10,6 +10,7 @@
 
     grok
     gemini
+    copilot
     li_ds
     li_qw
 

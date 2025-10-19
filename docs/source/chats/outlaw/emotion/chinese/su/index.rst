@@ -9,5 +9,6 @@
     :maxdepth: 3
 
     gemini
+    copilot
     su_ds
     su_qw
