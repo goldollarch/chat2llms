@@ -73,6 +73,11 @@
  .. toctree::
     :maxdepth: 1
 
+    max/index
+
+ .. toctree::
+    :maxdepth: 1
+
     alexy/index
 
  .. toctree::
@@ -144,11 +149,6 @@
     :maxdepth: 1
 
     raz/index
-
- .. toctree::
-    :maxdepth: 1
-
-    max/index
 
  .. toctree::
     :maxdepth: 1

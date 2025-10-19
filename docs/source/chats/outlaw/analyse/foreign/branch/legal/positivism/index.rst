@@ -1,5 +1,5 @@
-Positivism
-=========
+Analytical Positivism
+======================
 
 基于分析实证主义法哲学（Analytical Legal Positivism）理论。
 
