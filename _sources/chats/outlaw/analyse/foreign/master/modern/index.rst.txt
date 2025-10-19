@@ -63,12 +63,6 @@
 
     derrida/index
 
-
- .. toctree::
-    :maxdepth: 1
-
-    lacan/index
-
  .. toctree::
     :maxdepth: 1
 
