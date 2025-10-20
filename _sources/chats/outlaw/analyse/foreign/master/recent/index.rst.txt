@@ -31,6 +31,11 @@
  .. toctree::
     :maxdepth: 1
 
+    dilthey/index
+
+ .. toctree::
+    :maxdepth: 1
+
     locke/index
 
  .. toctree::
@@ -67,6 +72,11 @@
     :maxdepth: 1
 
     krkgrd/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    smacher/index
 
  .. toctree::
     :maxdepth: 1

@@ -56,6 +56,11 @@
  .. toctree::
     :maxdepth: 1
 
+    saussure/index
+
+ .. toctree::
+    :maxdepth: 1
+
     searle/index
 
  .. toctree::
@@ -117,6 +122,11 @@
     :maxdepth: 1
 
     foucault/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    gadamer/index
 
  .. toctree::
     :maxdepth: 1

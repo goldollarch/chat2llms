@@ -96,6 +96,7 @@ Butler
  .. toctree::
     :maxdepth: 3
 
+    grok
     gemini
     copilot
     deepseek
