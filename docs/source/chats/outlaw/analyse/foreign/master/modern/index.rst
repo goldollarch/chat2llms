@@ -66,6 +66,11 @@
  .. toctree::
     :maxdepth: 1
 
+    ryle/index
+
+ .. toctree::
+    :maxdepth: 1
+
     husserl/index
 
  .. toctree::
@@ -77,6 +82,21 @@
     :maxdepth: 1
 
     sartre/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    barthes/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    baudrilard/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    butler/index
 
  .. toctree::
     :maxdepth: 1
@@ -102,6 +122,11 @@
     :maxdepth: 1
 
     habermas/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lyotard/index
 
  .. toctree::
     :maxdepth: 1
