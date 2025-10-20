@@ -1,0 +1,273 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quine &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../putnam/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../branch/index.html">分支</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史记叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">大师</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">现代</a></li>
+      <li class="breadcrumb-item active">Quine</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/master/modern/quine/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="quine">
+<h1>Quine<a class="headerlink" href="#quine" title="Link to this heading"></a></h1>
+<p>基于威拉德·范·奥曼·奎因（Willard Van Orman Quine）分析哲学核心思想对陈京元博士案件进行评价。</p>
+<hr class="docutils" />
+<p>威拉德·范·奥曼·奎因是20世纪下半叶最具革命性的分析哲学家之一。他的思想以其 <strong>逻辑上的严谨、对传统经验论根基的彻底批判以及恢弘的自然主义世界观</strong> 而著称。其核心思想可以概括为：<strong>对逻辑实证主义和分析哲学的两大基石——“分析/综合区分”和“还原论”——发起毁灭性攻击，并在此基础上，提出一种以“整体论”和“自然化认识论”为特征的、将哲学视为科学延续的科学哲学体系。</strong></p>
+<p>奎因的哲学极具颠覆性和系统性，其核心要义可以梳理为以下四大支柱：</p>
+<p>一、对“经验论的两个教条”的批判</p>
+<p>这是奎因最著名、影响最深远的论文，直接改变了分析哲学的进程。他攻击了两个被奉为圭臬的教条：</p>
+<ol class="arabic simple">
+<li><p><strong>批判“分析/综合的区分”</strong></p>
+<ul class="simple">
+<li><p><strong>传统观点</strong>：逻辑实证主义认为，命题分为两种：</p>
+<ul>
+<li><p><strong>分析命题</strong>：其真值仅由词语含义和逻辑规则决定，无需经验验证（如“所有单身汉都是未婚的”）。</p></li>
+<li><p><strong>综合命题</strong>：其真值取决于世界的事实，需要经验验证（如“草坪是绿的”）。</p></li>
+</ul>
+</li>
+<li><p><strong>奎因的批判</strong>：他论证，<strong>不存在截然分明的分析/综合界限</strong>。所谓分析命题的真值，最终也依赖于语言共同体对词语用法的事实性约定，而这些约定本身就像经验假设一样，是 <strong>可以修正的</strong>。他认为，分析性是一个无法被清晰定义的“虚假”概念。</p></li>
+</ul>
+</li>
+<li><p><strong>批判“还原论”</strong></p>
+<ul class="simple">
+<li><p><strong>传统观点</strong>：逻辑实证主义认为，每一个有意义的陈述都可以被 <strong>翻译或还原</strong> 为关于直接经验的陈述。</p></li>
+<li><p><strong>奎因的批判</strong>：这是 <strong>徒劳的幻想</strong>。我们无法将单个陈述与特定的经验证据一一对应。</p></li>
+</ul>
+</li>
+</ol>
+<p>二、整体论：信念之网</p>
+<p>在批判了两个教条之后，奎因提出了其替代方案：<strong>知识的整体论形象</strong>。</p>
+<ul class="simple">
+<li><p><strong>核心比喻</strong>：我们的知识体系不是一个由各自独立基石搭建的建筑，而是一个 <strong>力场（或信念之网）</strong>。</p></li>
+<li><p><strong>结构</strong>：</p>
+<ul>
+<li><p><strong>边缘</strong>：与经验直接接触的部分，如感官报告。</p></li>
+<li><p><strong>内部</strong>：越来越抽象的理论，如物理定律、数学真理、逻辑规则。</p></li>
+</ul>
+</li>
+<li><p><strong>运作方式</strong>：</p>
+<ul>
+<li><p>当经验（边缘）与我们的预测发生冲突时， <strong>我们可以有多种方式调整信念之网来消化这个反例</strong>。</p></li>
+<li><p>我们可以 <strong>修改靠近边缘的具体假设</strong>，也可以 <strong>修改核心地带的逻辑或数学定律</strong>。</p></li>
+<li><p><strong>著名论断</strong>：“<strong>任何陈述都可以被认为是真的，只要我们在系统的其他部分做出足够剧烈的调整。</strong>”</p></li>
+</ul>
+</li>
+<li><p><strong>意义</strong>：这解释了科学理论的韧性和修正机制。没有哪个信念是神圣不可侵犯的，但修改核心信念的代价极高。</p></li>
+</ul>
+<p>三、翻译的不确定性论题</p>
+<p>这是奎因另一个极具争议且深刻的论题，旨在说明语言意义的根本不确定性。</p>
+<ul class="simple">
+<li><p><strong>思想实验：彻底翻译</strong>：设想一位语言学家面对一个完全陌生的土著语言（如“嘎瓦嘎”语）。当他听到土著在兔子跑过时说“Gavagai！”时，他如何确定“Gavagai”的意思就是“兔子”？</p></li>
+<li><p><strong>论题</strong>：<strong>存在无数种在经验上等价但彼此不相容的翻译手册</strong>。例如，“Gavagai”可以指：</p>
+<ul>
+<li><p>“兔子”</p></li>
+<li><p>“未分离的兔子时间段”</p></li>
+<li><p>“兔子的组成部分的集合”</p></li>
+<li><p>……</p></li>
+</ul>
+</li>
+<li><p><strong>根源</strong>：不确定性源于 <strong>证据对理论的非充分决定性</strong>。单凭行为证据（刺激条件）无法唯一地确定词语的指称（本体论承诺）。</p></li>
+<li><p><strong>著名结论</strong>：<strong>“指称是不可测知的”</strong>。我们无法确定他人语词的确切指称，只能观察其使用行为。</p></li>
+</ul>
+<p>四、自然化认识论</p>
+<p>在摧毁了传统认识论（寻求知识确定性基础的事业）之后，奎因提出了其建设性方案。</p>
+<ul class="simple">
+<li><p><strong>核心主张</strong>： <strong>认识论应该被自然化</strong>。即，认识论不应是位于科学之上的“第一哲学”，试图为科学知识提供先于科学的、牢不可破的基础。</p></li>
+<li><p><strong>新角色</strong>：认识论应成为 <strong>心理学的一章</strong>，进而是自然科学的一章。它的任务是 <strong>在科学内部，运用科学方法（如心理学、神经科学），研究人类如何从感官刺激中产生出关于世界的科学理论</strong>。</p></li>
+<li><p><strong>目标</strong>：不再是证明科学的正确性，而是 <strong>描述和解释我们获取知识的因果过程</strong>。它是一个 <strong>经验的、描述性的</strong> 事业。</p></li>
+</ul>
+<p>—</p>
+<p>核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论领域</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与论证</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>语言哲学/认识论</strong></p></td>
+<td><p><strong>不存在分析/综合的绝对区分</strong>，还原论是幻想。</p></td>
+<td><p><strong>对”两个教条”的批判、分析性难题</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>知识论</strong></p></td>
+<td><p><strong>知识是一个整体论的”信念之网”</strong>，面对反例时可做多种调整。</p></td>
+<td><p><strong>整体论、信念之网、迪昂-奎因论题</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>意义理论</strong></p></td>
+<td><p><strong>翻译在根本上是不确定的</strong>，指称是不可测知的。</p></td>
+<td><p><strong>翻译的不确定性、彻底翻译、指称不可测知性</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>哲学方法论</strong></p></td>
+<td><p><strong>认识论应被自然化</strong>，成为心理学和自然科学的一部分。</p></td>
+<td><p><strong>自然化认识论、科学连续性</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>思想特质与影响</p>
+<ul class="simple">
+<li><p><strong>革命性</strong>：奎因的工作从根本上动摇了逻辑实证主义和分析哲学早期的基础，迫使哲学界重新思考意义、知识和真理的本质。</p></li>
+<li><p><strong>系统性</strong>：他的批判性和建设性理论相互支撑，形成一个连贯的自然主义体系。</p></li>
+<li><p><strong>科学导向</strong>：他坚定地将哲学与自然科学（尤其是物理学和心理学）结盟，塑造了当代分析哲学的主流形态。</p></li>
+<li><p><strong>争议性</strong>：其论题（如翻译不确定性、否定分析性）至今仍是激烈辩论的焦点。</p></li>
+</ul>
+<p>总而言之，威拉德·范·奥曼·奎因的核心思想在于，他进行了一场 <strong>哲学的“自然主义转向”</strong>。他将哲学从寻求先验基础的徒劳中解放出来，将其安置在 <strong>科学探究的连续谱系</strong> 之中。他的工作告诉我们，我们的知识体系是一个 <strong>面对经验冲击时具有韧性和弹性的整体网络</strong>，而哲学家的任务不是为这个网络寻找虚幻的“阿基米德支点”，而是 <strong>从网络内部出发，运用最佳可用工具，去理解这个网络本身是如何构建和运作的</strong>。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a></li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../putnam/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
