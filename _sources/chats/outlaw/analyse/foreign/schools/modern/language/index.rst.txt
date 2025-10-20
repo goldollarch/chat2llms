@@ -92,3 +92,8 @@ Language
     ds
     qw
 
+
+
+---------------------------
+
+[:doc:`日常语言学派 </chats/outlaw/analyse/foreign/schools/nowaday/ordlang/index>`]
