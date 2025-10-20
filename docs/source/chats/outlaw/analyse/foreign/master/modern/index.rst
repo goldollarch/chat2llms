@@ -6,21 +6,6 @@
  .. toctree::
     :maxdepth: 1
 
-    bergson/index
-
- .. toctree::
-    :maxdepth: 1
-
-    james/index
-
- .. toctree::
-    :maxdepth: 1
-
-    dewey/index
-
- .. toctree::
-    :maxdepth: 1
-
     lenin/index
 
  .. toctree::
@@ -41,12 +26,32 @@
  .. toctree::
     :maxdepth: 1
 
+    austin/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    davidson/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    dennett/index
+
+ .. toctree::
+    :maxdepth: 1
+
     kripke/index
 
  .. toctree::
     :maxdepth: 1
 
-    austin/index
+    putnam/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    quine/index
 
  .. toctree::
     :maxdepth: 1
@@ -56,7 +61,7 @@
  .. toctree::
     :maxdepth: 1
 
-    putnam/index
+    strawson/index
 
  .. toctree::
     :maxdepth: 1
@@ -81,12 +86,17 @@
  .. toctree::
     :maxdepth: 1
 
+    deleuze/index
+
+ .. toctree::
+    :maxdepth: 1
+
     derrida/index
 
  .. toctree::
     :maxdepth: 1
 
-    marcuse/index
+    foucault/index
 
  .. toctree::
     :maxdepth: 1
@@ -96,7 +106,12 @@
  .. toctree::
     :maxdepth: 1
 
-    foucault/index
+    marcuse/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    ricoeur/index
 
  .. toctree::
     :maxdepth: 1
