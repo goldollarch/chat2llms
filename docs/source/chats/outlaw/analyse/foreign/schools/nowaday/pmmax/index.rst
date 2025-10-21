@@ -73,6 +73,6 @@ Postmodern Maxism
 ---------------------------
 
 [:doc:`马克思主义 </chats/outlaw/analyse/foreign/master/recent/max/index>`]
-[:doc:`苏联列宁主义 </chats/outlaw/analyse/foreign/master/modern/lenin/index>`]
 [:doc:`现代马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>`]
+[:doc:`苏联列宁主义 </chats/outlaw/analyse/foreign/master/modern/lenin/index>`]
 [:doc:`中共马列主义 </chats/outlaw/analyse/chinese/school/ccp/index>`]

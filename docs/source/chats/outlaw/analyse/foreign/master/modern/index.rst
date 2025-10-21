@@ -1,77 +1,14 @@
 现代
 =========
 
+现当代著名（欧陆）哲学家
+
 -------------------------
 
  .. toctree::
     :maxdepth: 1
 
     lenin/index
-
- .. toctree::
-    :maxdepth: 1
-
-    popper/index
-
- .. toctree::
-    :maxdepth: 1
-
-    russell/index
-
- .. toctree::
-    :maxdepth: 1
-
-    wittgstein/index
-
- .. toctree::
-    :maxdepth: 1
-
-    austin/index
-
- .. toctree::
-    :maxdepth: 1
-
-    davidson/index
-
- .. toctree::
-    :maxdepth: 1
-
-    dennett/index
-
- .. toctree::
-    :maxdepth: 1
-
-    kripke/index
-
- .. toctree::
-    :maxdepth: 1
-
-    putnam/index
-
- .. toctree::
-    :maxdepth: 1
-
-    quine/index
-
- .. toctree::
-    :maxdepth: 1
-
-    saussure/index
-
- .. toctree::
-    :maxdepth: 1
-
-    searle/index
-
- .. toctree::
-    :maxdepth: 1
-
-    strawson/index
-
- .. toctree::
-    :maxdepth: 1
-
-    ryle/index
 
  .. toctree::
     :maxdepth: 1
@@ -131,7 +68,27 @@
  .. toctree::
     :maxdepth: 1
 
+    gramsci/index
+
+ .. toctree::
+    :maxdepth: 1
+
     habermas/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    jameson/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    kristeva/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lukacs/index
 
  .. toctree::
     :maxdepth: 1
@@ -151,6 +108,17 @@
  .. toctree::
     :maxdepth: 1
 
+    rorty/index
+
+ .. toctree::
+    :maxdepth: 1
+
     zizek/index
 
+
+-------------------------
+
+.. note::
+
+   这里列出的主要是现代欧陆哲学家，英美分析哲学将归入 :doc:`语言哲学 </chats/outlaw/analyse/foreign/branch/langu/index>` 部分专门列出​​。
 

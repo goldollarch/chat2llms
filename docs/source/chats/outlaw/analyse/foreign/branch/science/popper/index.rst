@@ -1,4 +1,4 @@
-Popper
+Karl Popper
 =========
 
 基于卡尔·波普尔（Karl Popper）批判理性主义哲学的核心思想。
