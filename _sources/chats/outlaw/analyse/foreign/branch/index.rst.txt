@@ -11,6 +11,11 @@
 
 
 -------------------------
+   
+ .. toctree::
+    :maxdepth: 2
+
+    langu/index
 
  .. toctree::
     :maxdepth: 2
@@ -36,3 +41,9 @@
     :maxdepth: 2
 
     psycho/index
+
+ .. toctree::
+    :maxdepth: 2
+
+    science/index
+
