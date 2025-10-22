@@ -7,7 +7,7 @@ Qwen
 
 ---
 
-一、**基本归因错误**（Fundamental Attribution Error）
+### 一、**基本归因错误**（Fundamental Attribution Error）
 
 社会心理学指出，人们倾向于将他人行为归因于其内在特质（如性格、动机），而忽视情境因素；但对自己行为则更强调外部环境。
 
@@ -17,7 +17,7 @@ Qwen
 
 ---
 
-二、**权威服从与制度性去责任化**（Obedience to Authority & Diffusion of Responsibility）
+### 二、**权威服从与制度性去责任化**（Obedience to Authority & Diffusion of Responsibility）
 
 米尔格拉姆实验表明，普通人在权威指令下，可能实施违背道德的行为，并将责任转移给上级。
 
@@ -28,7 +28,7 @@ Qwen
 
 ---
 
-三、**内群体偏见与外群体污名化**（In-group Bias & Out-group Stigmatization）
+### 三、**内群体偏见与外群体污名化**（In-group Bias & Out-group Stigmatization）
 
 社会认同理论（Tajfel & Turner）指出，人们通过贬低“外群体”来强化“内群体”优越感。
 
@@ -39,7 +39,7 @@ Qwen
 
 ---
 
-四、**去个性化与暴力合理化**（Deindividuation）
+### 四、**去个性化与暴力合理化**（Deindividuation）
 
 在群体或制度角色中，个体易丧失自我意识，行为趋于极端化（如斯坦福监狱实验）。
 
@@ -51,7 +51,7 @@ Qwen
 
 ---
 
-五、**认知失调与合理化策略**（Cognitive Dissonance & Justification）
+### 五、**认知失调与合理化策略**（Cognitive Dissonance & Justification）
 
 当行为与信念冲突时，个体会通过改变认知来减少心理不适。
 
@@ -65,7 +65,7 @@ Qwen
 
 ---
 
-六、**沉默螺旋与制度性恐惧**（Spiral of Silence）
+### 六、**沉默螺旋与制度性恐惧**（Spiral of Silence）
 
 诺依曼（Noelle-Neumann）指出，个体因害怕孤立而不敢表达异议，导致主流意见被放大。
 
@@ -77,7 +77,7 @@ Qwen
 
 ---
 
-结语：社会心理学的警示——普通人如何成为不公的共谋？
+### 结语：社会心理学的警示——普通人如何成为不公的共谋？
 
 陈京元案并非源于“坏人作恶”，而是**普通人在特定社会心理机制与制度结构中，逐步放弃道德判断、服从权威、污名异己、合理化暴力的结果**。这正是社会心理学最深刻的警示：
 

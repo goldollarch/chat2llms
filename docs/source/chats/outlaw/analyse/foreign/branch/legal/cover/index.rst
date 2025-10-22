@@ -78,7 +78,6 @@ Robert M. Cover
  .. toctree::
     :maxdepth: 3
 
-    grok
     gemini
     copilot
     chatgpt
