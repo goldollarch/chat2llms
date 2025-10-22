@@ -41,8 +41,3 @@
 
     hfz/index
 
- .. toctree::
-    :maxdepth: 1
-
-    other/index
-
