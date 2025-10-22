@@ -58,7 +58,7 @@ Structuralism
 -------------------
 
  .. toctree::
-    :maxdepth: 1
+    :maxdepth: 3
 
     grok
     gemini

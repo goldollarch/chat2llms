@@ -1,13 +1,13 @@
 Grok
 ------
 
-**Brief Description of Self-Organized Criticality (SOC) Theory and Avalanche Dynamics**
+### **Brief Description of Self-Organized Criticality (SOC) Theory and Avalanche Dynamics**
 
 Self-Organized Criticality (SOC) is a theoretical framework in physics introduced by Per Bak, Chao Tang, and Kurt Wiesenfeld in 1987 to explain how complex systems evolve spontaneously to a critical state without external fine-tuning. In this state, the system balances on the edge of stability and instability, akin to a phase transition point (e.g., water boiling at 100°C). SOC systems are open, driven by slow, continuous inputs (e.g., energy or matter addition) and exhibit rapid relaxations or bursts when perturbed. A hallmark is power-law distributions: event sizes (e.g., small vs. large) follow a scale-invariant pattern, where the frequency of events decreases as a power function of their magnitude, often visualized as a straight line on a log-log plot. This implies no characteristic scale—small events are common, but rare large ones can dominate.
 
 The classic model is the "sandpile" (Bak-Tang-Wiesenfeld model): grains of sand are added slowly to a pile until it reaches a critical slope. At criticality, a single grain can trigger avalanches—cascading slides—of varying sizes, from tiny (a few grains) to massive (system-wide collapse). Avalanche dynamics refer to these intermittent, punctuated bursts: local instabilities propagate through long-range correlations (system-wide connectivity), leading to self-similarity (fractal patterns) and intermittency (quiet periods interspersed with sudden activity). SOC explains phenomena like earthquakes (Richter scale power laws), forest fires, neural firings, financial crashes, and even social contagions, where minor triggers amplify into major disruptions in coupled networks.
 
-**Evaluation of Dr. Chen Jingyuan's Argument**
+### **Evaluation of Dr. Chen Jingyuan's Argument**
 
 Dr. Chen Jingyuan's application of SOC theory in his defense is intellectually robust and contextually apt, demonstrating a valid metaphorical extension from physical to social systems, though with some limitations in empirical rigor.
 
