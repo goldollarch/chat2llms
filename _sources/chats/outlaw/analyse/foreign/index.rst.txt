@@ -21,9 +21,10 @@
  .. toctree::
     :maxdepth: 2
 
-    schools/index
-    
+    branch/index
+
  .. toctree::
     :maxdepth: 2
 
-    branch/index
+    schools/index
+    

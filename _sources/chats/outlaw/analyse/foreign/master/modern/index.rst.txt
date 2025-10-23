@@ -28,6 +28,16 @@
  .. toctree::
     :maxdepth: 1
 
+    apel/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    althusser/index
+
+ .. toctree::
+    :maxdepth: 1
+
     barthes/index
 
  .. toctree::

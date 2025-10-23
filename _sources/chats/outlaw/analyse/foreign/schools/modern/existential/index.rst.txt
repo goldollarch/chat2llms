@@ -58,15 +58,15 @@ Existentialism
 
    * - **思想家**
      - **核心贡献与侧重**
-   * - **索伦·克尔凯郭尔**
+   * - :doc:`索伦·克尔凯郭尔 </chats/outlaw/analyse/foreign/master/recent/krkgrd/index>` 
      - 奠基人。强调"**个体**"的独特性，反对黑格尔的抽象体系；关注信仰、焦虑和"非此即彼"的 **选择**。
-   * - **弗里德里希·尼采**
+   * - :doc:`弗里德里希·尼采 </chats/outlaw/analyse/foreign/master/recent/nietzsche/index>` 
      - 先驱。"**上帝已死**"宣告了传统价值的崩塌，人必须 **重估一切价值**，成为创造者。
-   * - **马丁·海德格尔**
+   * - :doc:`马丁·海德格尔 </chats/outlaw/analyse/foreign/master/modern/heidegger/index>`
      - 分析了"**此在**"的结构，提出"**沉沦**"、"**操心**"、"**向死而生**"等概念，探讨存在的意义。
-   * - **让-保罗·萨特**
+   * - :doc:`让-保罗·萨特 </chats/outlaw/analyse/foreign/master/modern/sartre/index>`
      - 明确"**存在先于本质**"，强调 **绝对自由与责任**，哲学是介入现实的"行动哲学"。
-   * - **阿尔贝·加缪**
+   * - :doc:`阿尔贝·加缪 </chats/outlaw/analyse/foreign/master/modern/camus/index>`
      - 聚焦"**荒谬**"问题。探讨如何在无意义的世界中生存（如西西弗斯），倡导 **反抗** 与 **激情生活**。
 
 四、影响与争议
