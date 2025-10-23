@@ -1,7 +1,10 @@
-Gemini
-------
+# Gemini
 
-对陈京元博士案件的评价，若以赫伯特·马尔库塞（Herbert Marcuse）的批判哲学为核心，则必须将其置于 **“发达工业社会”（Advanced Industrial Society）的意识形态与社会控制机制**之下进行透视。
+----------
+
+## 评价陈京元博士案件
+
+若以赫伯特·马尔库塞（Herbert Marcuse）的批判哲学为核心，则必须将其置于 **“发达工业社会”（Advanced Industrial Society）的意识形态与社会控制机制**之下进行透视。
 
 陈博士的遭遇，并非孤立的司法事件，而是 **“单向度社会”（One-Dimensional Society）**中**“技术理性”（Technological Rationality）对“否定性思维”（Negative Thinking）的系统性排斥与镇压**的典型案例。
 
@@ -39,7 +42,7 @@ Gemini
 
 ---
 
-**论批判之维度的消亡与技术理性的暴政：陈京元博士判决的诊断**
+## 论批判之维度的消亡与技术理性的暴政：陈京元博士判决的诊断
 
 ——赫伯特·马尔库塞 沉痛的否定性之声
 
