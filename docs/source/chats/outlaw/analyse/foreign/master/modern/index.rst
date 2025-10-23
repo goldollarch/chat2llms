@@ -113,6 +113,11 @@
  .. toctree::
     :maxdepth: 1
 
+    strauss/index
+
+ .. toctree::
+    :maxdepth: 1
+
     zizek/index
 
 

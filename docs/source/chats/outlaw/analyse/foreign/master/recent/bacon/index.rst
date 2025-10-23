@@ -1,4 +1,4 @@
-Bacon
+Francis Bacon
 =========
 
 弗朗西斯·培根（Francis Bacon）经验论哲学​​视角。

@@ -1,4 +1,4 @@
-Derrida
+Jacques Derrida
 =========
 
 雅克·德里达（Jacques Derrida），解构主义的代表人物

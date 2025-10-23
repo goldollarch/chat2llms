@@ -1,4 +1,4 @@
-Davidson
+Donald Davidson
 =========
 
 基于唐纳德·戴维森（Donald Davidson）分析哲学核心思想对陈京元博士案件进行评价。

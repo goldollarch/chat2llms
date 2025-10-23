@@ -1,4 +1,4 @@
-Putnam
+Hilary Putnam
 ======
 
 基于希拉里·普特南（Hilary Putnam）哲学核心思想。

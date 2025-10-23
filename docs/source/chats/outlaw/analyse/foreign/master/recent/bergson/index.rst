@@ -1,4 +1,4 @@
-Bergson
+Henri Bergson
 =========
 
 基于​​亨利·柏格森（Henri Bergson）​的生命哲学理论。

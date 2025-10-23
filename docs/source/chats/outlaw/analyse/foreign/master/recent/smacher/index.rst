@@ -1,4 +1,4 @@
-Schleiermacher
+Friedrich Schleiermacher
 =============
 
 基于弗里德里希·施莱尔马赫（Friedrich Schleiermacher）解释学的核心思想对陈京元博士案件进行评价。

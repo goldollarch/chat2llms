@@ -1,4 +1,4 @@
-Saussure
+Ferdinand de Saussure
 =============
 
 基于费尔迪南·德·索绪尔（Ferdinand de Saussure）现代语言学的核心思想对陈京元博士案件进行评价。

@@ -1,4 +1,4 @@
-Strawson
+Peter Strawson
 ==========
 
 基于彼得·斯特劳森（Peter Strawson）哲学核心思想对陈京元博士案件进行评价。
@@ -94,3 +94,7 @@ Strawson
     deepseek
     qwen
 
+
+---------------------------
+
+[:doc:`Strauss .vs. Strawson </chats/outlaw/analyse/foreign/branch/langu/strawson/compare>`]

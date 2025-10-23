@@ -1,4 +1,4 @@
-Dilthey
+Wilhelm Dilthey
 =============
 
 基于威廉·狄尔泰（Wilhelm Dilthey）解释学的核心思想对陈京元博士案件进行评价。

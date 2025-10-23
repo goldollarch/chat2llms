@@ -1,4 +1,4 @@
-Frege
+Gottlob Frege
 ======
 
 基于戈特洛布·弗雷格（Gottlob Frege）的分析哲学核心思想对陈京元博士案件进行评价。

@@ -1,7 +1,7 @@
-Austin
-======
+John Langshaw Austin
+===================
 
-基于J.L. 奥斯汀（J.L. Austin）的语言哲学核心思想。
+基于约翰·朗肖·奥斯丁（John Langshaw Austin）的语言哲学核心思想。
 
 ----------------
 
@@ -105,3 +105,6 @@ J.L. 奥斯汀是20世纪哲学中一位极具原创性的人物，是 **日常�
     deepseek
     qwen
 
+---------------------------
+
+[:doc:`两个 约翰·奥斯丁（John Austin） </chats/outlaw/analyse/foreign/branch/legal/austin/compare>`]

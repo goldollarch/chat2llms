@@ -1,4 +1,4 @@
-Baudrillard
+Jean Baudrillard
 =============
 
 基于让·鲍德里亚（Jean Baudrillard）哲学核心思想对陈京元博士案件进行评价。

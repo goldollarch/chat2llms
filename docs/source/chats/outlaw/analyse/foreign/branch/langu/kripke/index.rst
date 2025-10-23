@@ -1,4 +1,4 @@
-Kripke
+Saul Kripke
 ======
 
 基于索尔·克里普克（Saul Kripke）的分析哲学核心思想。

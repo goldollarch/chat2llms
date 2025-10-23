@@ -1,4 +1,4 @@
-Marcus T. Cicero
+Marcus Tullius Cicero
 ==================
 
 基于马库斯·图利乌斯·西塞罗（Marcus Tullius Cicero）的法律哲学核心思想。
@@ -102,6 +102,7 @@ Marcus T. Cicero
  .. toctree::
     :maxdepth: 3
 
+    grok
     gemini
     copilot
     chatgpt

@@ -1,7 +1,7 @@
 John Austin
 ============
 
-基于约翰·奥斯丁（John Austin）的分析法学（Analytical Jurisprudence）核心思想。
+基于约翰·奥斯丁（John Austin）的分析法学（Analytical Jurisprudence）核心思想。 
 
 --------
 
@@ -102,3 +102,7 @@ John Austin
     ds
     qw
 
+
+---------------------------
+
+[:doc:`两个 约翰·奥斯丁（John Austin） </chats/outlaw/analyse/foreign/branch/legal/austin/compare>`]

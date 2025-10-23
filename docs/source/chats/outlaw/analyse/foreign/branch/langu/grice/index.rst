@@ -1,4 +1,4 @@
-Paul Grice
+Herbert Paul Grice
 ============
 
 基于保罗·格赖斯（Herbert Paul Grice）的语言哲学核心思想对陈京元博士案件进行评价。

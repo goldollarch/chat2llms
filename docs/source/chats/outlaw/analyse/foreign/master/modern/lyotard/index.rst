@@ -1,4 +1,4 @@
-Lyotard
+Jean-François Lyotard
 =============
 
 基于让-弗朗索瓦·利奥塔（Jean-François Lyotard）哲学核心思想对陈京元博士案件进行评价。

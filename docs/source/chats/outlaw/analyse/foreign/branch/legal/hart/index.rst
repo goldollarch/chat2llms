@@ -1,7 +1,7 @@
 H. L. A. Hart
-=========
+================
 
-基于赫伯特·哈特（H. L. A. Hart）的法律实证主义（Legal Positivism）核心思想。
+基于赫伯特‧哈特（ Herbert Lionel Adolphus Hart）的法律实证主义（Legal Positivism）核心思想。
 
 ---------
 

@@ -1,4 +1,4 @@
-Peirce
+Charles S. Peirce
 ======
 
 基于查尔斯·桑德斯·皮尔斯（Charles S. Peirce）哲学核心思想对陈京元博士案件进行评价。

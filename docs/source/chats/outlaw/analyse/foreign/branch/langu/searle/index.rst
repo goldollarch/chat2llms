@@ -1,4 +1,4 @@
-Searle
+John Searle
 ======
 
 基于约翰·塞尔（John Searle）的哲学核心思想哲学核心思想。

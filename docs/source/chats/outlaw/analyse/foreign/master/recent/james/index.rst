@@ -1,4 +1,4 @@
-James
+William James
 =========
 
 基于威廉·詹姆斯（William James）哲学的核心思想。
@@ -86,3 +86,7 @@ James
     ds
     qw
 
+
+---------------------------
+
+[:doc:`James .vs. Jameson </chats/outlaw/analyse/foreign/master/modern/jameson/compare>`]

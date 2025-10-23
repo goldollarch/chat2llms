@@ -21,6 +21,11 @@
  .. toctree::
     :maxdepth: 1
 
+    pythgras/index
+
+ .. toctree::
+    :maxdepth: 1
+
     plotinus/index
 
  .. toctree::

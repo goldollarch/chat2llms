@@ -1,4 +1,4 @@
-Dewey
+John Dewey
 =========
 
 基于约翰·杜威（John Dewey）的哲学理念。
