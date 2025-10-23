@@ -64,7 +64,7 @@ The **objectives** include:
     case/letters/index
 
 .. toctree::
-    :maxdepth: 8
+    :maxdepth: 10
     :caption: Chats
     :hidden:
 
