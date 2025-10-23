@@ -14,7 +14,7 @@ Language
 
 *   **核心思想**：我们说话不仅仅是在 **描述** 世界，更是在 **做事** （Performing an action）。语言是一种行为。
 
-*   **代表人物**：约翰·奥斯汀、约翰·塞尔。
+*   **代表人物**：:doc:`约翰·奥斯汀 </chats/outlaw/analyse/foreign/branch/langu/austin/index>`、:doc:`约翰·塞尔 </chats/outlaw/analyse/foreign/branch/langu/searle/index>`。
 
 *   **关键概念**： **“以言行事”** （Illocutionary Act）。当我说“我承诺”或法官说“我宣判”，我并不是在描述一个承诺或判决，我 **就是在** 承诺或判决。
 
@@ -24,7 +24,7 @@ Language
 
 *   **核心思想**：语言不是被动地反映一个预先存在的现实，而是主动地 **参与建构** 我们所感知的社会现实和身份。
 
-*   **代表人物**：米歇尔·福柯、后结构主义者。
+*   **代表人物**：:doc:`米歇尔·福柯 </chats/outlaw/analyse/foreign/master/modern/foucault/index>`、:doc:`后结构主义者 </chats/outlaw/analyse/foreign/schools/nowaday/posts/index>`。
 
 *   **关键概念**： **“话语”** （Discourse）。特定领域（如医学、法律）的话语体系，通过定义概念、规则和“真理”，塑造了我们理解世界和自身的方式（如何为“正常”，何为“疯狂”）。
 
@@ -34,7 +34,7 @@ Language
 
 *   **核心思想**：语言的本质功能是实现主体间的 **相互理解** 与 **理性共识** 。有效的沟通需要平等的对话环境。
 
-*   **代表人物**：于尔根·哈贝马斯。
+*   **代表人物**：:doc:`于尔根·哈贝马斯 </chats/outlaw/analyse/foreign/master/modern/habermas/index>`。
 
 *   **关键概念**： **“沟通理性”** 和 **“理想言谈情境”**。真正的共识只能通过所有参与者自由、平等地辩论，且只信服于“更佳论证的力量”而达成。
 
@@ -44,7 +44,7 @@ Language
 
 *   **核心思想**：词语的意义不存在于抽象的字典定义中，而在于它在具体的 **“生活形式”** 和 **“语言游戏”** 中的 **用法**。
 
-*   **代表人物**：路德维希·维特根斯坦（后期）。
+*   **代表人物**：:doc:`路德维希·维特根斯坦（后期） </chats/outlaw/analyse/foreign/branch/langu/wittgstein/index>`。
 
 *   **关键概念**： **“语言游戏”**、 **“意义即使用”**。理解一个词，就像理解棋类游戏中的一步棋，必须懂得整个游戏的规则和目的。
 
