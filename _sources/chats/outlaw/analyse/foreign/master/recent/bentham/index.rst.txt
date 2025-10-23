@@ -1,4 +1,4 @@
-Bentham
+Jeremy Bentham
 =========
 
 基于杰里米·边沁（Jeremy Bentham）的功利主义（Utilitarianism）政治与法哲学核心思想。

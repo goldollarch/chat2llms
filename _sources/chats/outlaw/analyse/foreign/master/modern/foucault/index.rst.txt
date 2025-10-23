@@ -1,4 +1,4 @@
-Foucault
+Michel Foucault
 =========
 
 基于 **米歇尔·福柯 （Michel Foucault）** 的哲学视角。

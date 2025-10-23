@@ -1,4 +1,4 @@
-Barthes
+Roland Barthes
 =============
 
 基于罗兰·巴尔特（Roland Barthes）哲学核心思想对陈京元博士案件进行评价。

@@ -62,3 +62,7 @@ Fredric Jameson
     deepseek
     qwen
 
+
+---------------------------
+
+[:doc:`James .vs. Jameson </chats/outlaw/analyse/foreign/master/modern/jameson/compare>`]

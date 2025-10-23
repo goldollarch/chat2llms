@@ -75,7 +75,7 @@ Augustine
  .. toctree::
     :maxdepth: 3
 
-    grok
+    copilot
     gemini
     chatgpt
     ds

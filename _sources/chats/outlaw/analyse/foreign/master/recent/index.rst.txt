@@ -96,5 +96,19 @@
  .. toctree::
     :maxdepth: 1
 
-    frege/index
+    peirce/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    james/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    dewey/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    frege/index

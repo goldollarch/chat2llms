@@ -1,4 +1,4 @@
-Butler
+Judith Butler
 =============
 
 基于朱迪斯·巴特勒（Judith Butler）哲学核心思想对陈京元博士案件进行评价。

@@ -11,26 +11,6 @@
  .. toctree::
     :maxdepth: 1
 
-    peirce/index
-
- .. toctree::
-    :maxdepth: 1
-
-    james/index
-
- .. toctree::
-    :maxdepth: 1
-
-    dewey/index
-
- .. toctree::
-    :maxdepth: 1
-
-    frege/index
-
- .. toctree::
-    :maxdepth: 1
-
     saussure/index
 
  .. toctree::

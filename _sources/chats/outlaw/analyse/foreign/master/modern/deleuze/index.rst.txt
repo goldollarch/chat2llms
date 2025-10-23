@@ -1,4 +1,4 @@
-Deleuze
+Gilles Deleuze
 ========
 
 基于吉尔·德勒兹（Gilles Deleuze）哲学核心思想对陈京元博士案件进行评价。

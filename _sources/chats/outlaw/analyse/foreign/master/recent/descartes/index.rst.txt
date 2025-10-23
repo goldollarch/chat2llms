@@ -1,4 +1,4 @@
-Descartes
+René Descartes
 =========
 
 基于​​勒内·笛卡尔（René Descartes）的唯理论哲学​​视角。

@@ -1,4 +1,4 @@
-Gadamer
+Hans-Georg Gadamer
 =============
 
 基于汉斯-格奥尔格·伽达默尔（Hans-Georg Gadamer）解释学哲学的核心思想对陈京元博士案件进行评价。

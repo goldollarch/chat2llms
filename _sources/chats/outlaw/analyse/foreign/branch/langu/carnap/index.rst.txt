@@ -101,3 +101,7 @@ Rudolf Carnap
     deepseek
     qwen
 
+
+---------------------------
+
+[:doc:`Carnap .vs. Karl Popper </chats/outlaw/analyse/foreign/branch/science/popper/compare>`]

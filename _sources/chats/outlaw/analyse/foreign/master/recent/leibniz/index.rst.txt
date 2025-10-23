@@ -1,4 +1,4 @@
-Leibniz
+G. Wilhelm Leibniz
 =========
 
 基于基于​​戈特弗里德·威廉·莱布尼茨（Gottfried Wilhelm Leibniz）​​的哲学视角。

@@ -1,4 +1,4 @@
-Wittgenstein
+Ludwig Wittgenstein
 =========
 
 基于路德维希·维特根斯坦（Ludwig Wittgenstein）哲学的核心思想。

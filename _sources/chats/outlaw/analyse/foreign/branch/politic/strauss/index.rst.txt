@@ -87,3 +87,7 @@ Leo Strauss
     ds
     qw
 
+
+---------------------------
+
+[:doc:`两位不同的 Strauss </chats/outlaw/analyse/foreign/branch/politic/strauss/compare>`]

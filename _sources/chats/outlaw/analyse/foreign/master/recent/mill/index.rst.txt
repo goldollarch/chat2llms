@@ -1,4 +1,4 @@
-John S.Mill
+John Stuart Mill
 =========
 
 基于约翰·斯图尔特·密尔（John Stuart Mill）哲学核心思想。

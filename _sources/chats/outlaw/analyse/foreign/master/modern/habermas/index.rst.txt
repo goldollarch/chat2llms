@@ -1,4 +1,4 @@
-Habermas
+Jürgen Habermas
 =========
 
 基于 **尤尔根·哈贝马斯（Jürgen Habermas）** 的批判理论视角。
