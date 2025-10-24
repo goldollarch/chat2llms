@@ -13,6 +13,11 @@
  .. toctree::
     :maxdepth: 1
 
+    hzx/index
+
+ .. toctree::
+    :maxdepth: 1
+
     lqc/index
 
  .. toctree::
