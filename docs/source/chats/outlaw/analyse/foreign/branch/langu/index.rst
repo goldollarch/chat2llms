@@ -174,11 +174,6 @@
 
     grice/index
 
- .. toctree::
-    :maxdepth: 1
-
-    ordlang/index
-
 
 ---------------------------
 

@@ -46,7 +46,7 @@ Structuralism
 
 **三、与存在主义的对比**
 
-结构主义的兴起常被视为对象征“自由、选择、主体性”的 **存在主义** 的反动。:doc:`让-保罗·萨特 </chats/outlaw/analyse/foreign/master/modern/sartre/index>`说“存在先于本质”，强调人的主观能动性；而结构主义则认为“结构先于主体”，强调外在系统的决定性力量。
+结构主义的兴起常被视为对象征“自由、选择、主体性”的 **存在主义** 的反动。:doc:`让-保罗·萨特 </chats/outlaw/analyse/foreign/master/modern/sartre/index>` 说“存在先于本质”，强调人的主观能动性；而结构主义则认为“结构先于主体”，强调外在系统的决定性力量。
 
 
 **四、影响与后续**

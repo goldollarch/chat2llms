@@ -1,4 +1,4 @@
-P.-J. Proudhon
+Pierre-Joseph Proudhon
 =======================
 
 根据皮埃尔-约瑟夫·普鲁东（Pierre-Joseph Proudhon）的政治哲学核心思想。

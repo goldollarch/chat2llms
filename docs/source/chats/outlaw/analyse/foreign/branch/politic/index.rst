@@ -177,17 +177,17 @@
  .. toctree::
     :maxdepth: 1
 
-    stirner/index
-
- .. toctree::
-    :maxdepth: 1
-
     proudhon/index
 
  .. toctree::
     :maxdepth: 1
 
     kropotkin/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    stirner/index
 
  .. toctree::
     :maxdepth: 1
