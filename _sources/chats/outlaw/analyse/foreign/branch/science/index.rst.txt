@@ -165,3 +165,8 @@
 
     realism/index
 
+
+---------------------------
+
+[:doc:`当代科学哲学 </chats/outlaw/analyse/foreign/schools/modern/science/index>`]
+[:doc:`爱因斯坦 .vs. 玻尔 </chats/outlaw/analyse/foreign/branch/science/compare>`]
