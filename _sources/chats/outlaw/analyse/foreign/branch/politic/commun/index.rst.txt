@@ -5,7 +5,9 @@ Communitarianism
 
 ---------
 
-社群主义是20世纪下半叶兴起的一股重要的政治哲学思潮，其主要代表人物包括 **阿拉斯戴尔·麦金泰尔（Alasdair MacIntyre）、迈克尔·桑德尔（Michael Sandel）、查尔斯·泰勒（Charles Taylor）和迈克尔·沃尔泽（Michael Walzer）** 等。它是在批判以约翰·罗尔斯为代表的 **自由主义** （特别是其个人主义预设）中发展起来的。
+社群主义是20世纪下半叶兴起的一股重要的政治哲学思潮，其主要代表人物包括  :doc:`麦金泰尔 </chats/outlaw/analyse/foreign/branch/moral/macIntyre/index>` 、
+:doc:`迈克尔·桑德尔 </chats/outlaw/analyse/foreign/branch/politic/sandel/index>` 、和 :doc:`查尔斯·泰勒 </chats/outlaw/analyse/foreign/branch/social/taylor/index>` 等。
+它是在批判以 :doc:`约翰·罗尔斯 </chats/outlaw/analyse/foreign/branch/politic/rawls/index>` 为代表的 **自由主义** （特别是其个人主义预设）中发展起来的。
 
 其核心思想并非要完全否定个人自由，而是主张 **个人自由的实现离不开其所在的社群**，并强调 **共同善、传统和社群成员身份** 对于构成自我和实现美好生活的重要性。
 
