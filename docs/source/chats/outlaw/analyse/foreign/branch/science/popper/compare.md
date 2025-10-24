@@ -1,7 +1,7 @@
 Compare
 ----------
 
-【[卡尔·波普尔（Karl Popper）](/chats/outlaw/analyse/foreign/branch/science/popper/index)】和【[鲁道夫·卡尔纳普（Rudolf Carnap）](/chats/outlaw/analyse/foreign/branch/langu/carnap/index)】是20世纪两位极其重要的哲学巨匠，他们都关注科学哲学，都深受维也纳学派思想环境的影响，但他们的核心观点形成了鲜明的对立，这种对立定义了现代科学哲学的许多关键辩论。
+【[卡尔·波普尔（Karl Popper）](/chats/outlaw/analyse/foreign/branch/science/popper/index)】和【[鲁道夫·卡尔纳普（Rudolf Carnap）](/chats/outlaw/analyse/foreign/branch/science/carnap/index)】是20世纪两位极其重要的哲学巨匠，他们都关注科学哲学，都深受维也纳学派思想环境的影响，但他们的核心观点形成了鲜明的对立，这种对立定义了现代科学哲学的许多关键辩论。
 
 简单来说，可以将他们的关系概括为：**卡尔纳普是逻辑实证主义（也称逻辑经验主义）的集大成者，而波普尔则是该运动最著名、最有力的批判者。**
 

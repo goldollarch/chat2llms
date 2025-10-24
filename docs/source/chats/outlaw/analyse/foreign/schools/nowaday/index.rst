@@ -6,11 +6,6 @@
  .. toctree::
     :maxdepth: 1
 
-    ordlang/index
-
- .. toctree::
-    :maxdepth: 1
-
     pmmax/index
 
  .. toctree::

@@ -96,4 +96,4 @@ Language
 
 ---------------------------
 
-[:doc:`日常语言学派 </chats/outlaw/analyse/foreign/schools/nowaday/ordlang/index>`]
+[:doc:`语言哲学 </chats/outlaw/analyse/foreign/branch/langu/index>`]
