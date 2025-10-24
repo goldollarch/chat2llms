@@ -82,3 +82,7 @@ Science
     ds
     qw
 
+
+---------------------------
+
+[:doc:`科学哲学 </chats/outlaw/analyse/foreign/branch/science/index>`]
