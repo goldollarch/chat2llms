@@ -6,7 +6,7 @@
  .. toctree::
     :maxdepth: 1
 
-    pmmax/index
+    postm/index
 
  .. toctree::
     :maxdepth: 1
@@ -16,4 +16,11 @@
  .. toctree::
     :maxdepth: 1
 
-    postm/index
+    ordlang/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    pmmax/index
+
+
