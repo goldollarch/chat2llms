@@ -9,7 +9,7 @@ Thomas Kuhn
 
 库恩在1962年出版的《科学革命的结构》中提出了这一革命性理论，其核心框架可以通过下图清晰地展示：
 
-.. image:: /_static/images/kuhn.png
+.. image:: kuhn.png
 
 一、核心概念：范式与科学共同体
 

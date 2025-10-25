@@ -11,7 +11,7 @@ Imre Lakatos
 
 拉卡托斯的核心思想体系可以通过以下框架图清晰地展示其结构与动态过程：
 
-.. image:: /_static/images/lakatos.png
+.. image:: lakatos.png
 
 一、核心单位：科学研究纲领
 

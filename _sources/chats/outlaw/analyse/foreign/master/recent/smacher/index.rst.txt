@@ -24,7 +24,7 @@ Friedrich Schleiermacher
 
 施莱尔马赫认为，完整的理解必须同时进行两个相互关联的维度分析，其关系如下图所示：
 
-.. image:: /_static/images/smacher.png
+.. image:: smacher.png
 
      
 语法解释（客观维度）

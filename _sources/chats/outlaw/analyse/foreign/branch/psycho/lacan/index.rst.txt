@@ -138,7 +138,7 @@ Jacques Lacan
 
 拉康的整个理论规划与心灵哲学的预设和目标几乎是背道而驰的。下图清晰地展示了二者在核心问题、研究对象和方法论上的根本分歧：
 
-.. image:: /_static/images/lacan.png
+.. image:: lacan.png
 
 
 如上图所示，两者的分歧是根本性的：

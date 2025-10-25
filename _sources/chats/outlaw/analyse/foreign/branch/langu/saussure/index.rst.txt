@@ -1,5 +1,5 @@
 Ferdinand de Saussure
-=============
+=======================
 
 基于费尔迪南·德·索绪尔（Ferdinand de Saussure）现代语言学的核心思想对陈京元博士案件进行评价。
 
@@ -11,7 +11,7 @@ Ferdinand de Saussure
 
 索绪尔的思想体系主要由以下四大革命性支柱构成，其结构关系如下图所示：
 
-.. image:: /_static/images/saussure.png
+.. image:: saussure.png
 
 一、语言与言语的区分
 
