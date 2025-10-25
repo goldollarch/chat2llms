@@ -20,9 +20,18 @@
  .. toctree::
     :maxdepth: 2
 
-    modern/index
+    recent/index
 
  .. toctree::
     :maxdepth: 2
 
-    nowaday/index
+    modern/index
+
+
+----------
+
+哲学小常识
+
+-----------
+
+[:doc:`“唯”字头理论 </chats/outlaw/analyse/foreign/schools/only>`]

@@ -8,11 +8,6 @@
  .. toctree::
     :maxdepth: 1
 
-    lenin/index
-
- .. toctree::
-    :maxdepth: 1
-
     husserl/index
 
  .. toctree::

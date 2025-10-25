@@ -1,0 +1,25 @@
+近代
+======
+
+-------------------------
+
+ .. toctree::
+    :maxdepth: 1
+
+    idealism/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    material/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    rational/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    empiric/index
+
