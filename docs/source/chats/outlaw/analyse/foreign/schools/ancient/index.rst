@@ -24,3 +24,13 @@
 
     scholastic/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    nominal/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    realism/index
+

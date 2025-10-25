@@ -82,7 +82,7 @@
 
     *   **社会民主主义**：通过议会民主和福利国家政策在资本主义框架内进行改革。
 
-*   **代表人物**：:doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/max/index>` 。
+*   **代表人物**：:doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/max/index>`、 :doc:`列宁 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>` 。
 
 5. **社群主义**
 
@@ -120,7 +120,7 @@
      - :doc:`培根 </chats/outlaw/analyse/foreign/master/recent/bacon/index>` 、 :doc:`柏克 </chats/outlaw/analyse/foreign/branch/politic/burke/index>` 、 :doc:`奥克肖特 </chats/outlaw/analyse/foreign/branch/politic/oakeshott/index>` 
    * - :doc:`马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>` 
      - 关注阶级斗争与历史唯物主义
-     - :doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/max/index>` 
+     - :doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/max/index>`、 :doc:`列宁 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>` 
    * - :doc:`社群主义 </chats/outlaw/analyse/foreign/branch/politic/commun/index>`
      - 强调共同体与文化认同
      - :doc:`桑德尔 </chats/outlaw/analyse/foreign/branch/politic/sandel/index>` 、 :doc:`麦金太尔 </chats/outlaw/analyse/foreign/branch/moral/macIntyre/index>` 
@@ -198,6 +198,11 @@
     :maxdepth: 1
 
     arendt/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lenin/index
 
  .. toctree::
     :maxdepth: 1

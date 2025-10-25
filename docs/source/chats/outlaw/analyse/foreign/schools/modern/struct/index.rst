@@ -66,3 +66,7 @@ Structuralism
     ds
     qw
 
+
+---------------------------
+
+[:doc:`后结构主义 </chats/outlaw/analyse/foreign/schools/modern/struct/posts/index>`]
