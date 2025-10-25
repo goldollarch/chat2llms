@@ -43,7 +43,7 @@
 
 对于上述核心问题，不同的思想家给出了系统性的、但往往相互竞争的回答，从而形成了主要的思想流派。下图清晰地展示了这些流派的核心理念与演变关系：
 
-.. image:: /_static/images/politic.png
+.. image:: politic.png
 
 
 以下是各流派的详细说明：
@@ -263,6 +263,21 @@
     :maxdepth: 1
 
     williams/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    agamben/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    esposito/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    mouffe/index
 
  .. toctree::
     :maxdepth: 1

@@ -11,7 +11,7 @@ Jean Baudrillard
 
 鲍德里亚的思想发展有明显的阶段性，其核心演变可以通过下图清晰地展示：
 
-.. image:: /_static/images/baudrilard.png
+.. image:: baudrilard.png
 
 第一阶段：消费社会与符号批判
 

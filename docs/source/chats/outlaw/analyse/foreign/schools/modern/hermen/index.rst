@@ -11,7 +11,7 @@ Hermeneutics
 
 以下流程图清晰地展示了解释学发展的主要阶段、核心转折及代表人物：
 
-.. image:: /_static/images/hermen.png
+.. image:: hermen.png
 
 解释学核心思想的演变
 
@@ -127,3 +127,6 @@ Hermeneutics
     ds
     qw
 
+---------------------------
+
+[:doc:`学派比较 </chats/outlaw/analyse/foreign/schools/modern/hermen/compare>`]

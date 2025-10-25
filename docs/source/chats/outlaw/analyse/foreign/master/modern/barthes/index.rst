@@ -9,7 +9,7 @@ Roland Barthes
 
 巴尔特的思想极具魅力且充满流动性，其核心发展可梳理为三个主要阶段，其演进过程如下图所示：
 
-.. image:: /_static/images/barthes.png
+.. image:: barthes.png
 
 第一阶段：神话学与符号批判（结构主义符号学时期）
 

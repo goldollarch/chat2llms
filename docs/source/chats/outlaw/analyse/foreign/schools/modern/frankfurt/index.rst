@@ -9,7 +9,7 @@ Frankfurt
 
 该学派的思想发展脉络与核心贡献，可以通过以下图表清晰地呈现其演进过程：
 
-.. image:: /_static/images/frankfurt.png
+.. image:: frankfurt.png
 
 一、批判理论的总体纲领：对传统理论的超越
 

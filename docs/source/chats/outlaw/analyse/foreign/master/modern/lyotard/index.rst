@@ -9,7 +9,7 @@ Jean-François Lyotard
 
 利奥塔的思想历程复杂，但其理论大厦建立在几个核心支柱之上。下图清晰地展示了他思想的演进脉络与核心构成：
 
-.. image:: /_static/images/lyotard.png
+.. image:: lyotard.png
 
 
 一、后现代状况：对宏大叙事的批判

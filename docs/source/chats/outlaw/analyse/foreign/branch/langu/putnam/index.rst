@@ -11,7 +11,7 @@ Hilary Putnam
 
 普特南的哲学之旅像一条不断自我修正的河流，其思想精髓可以通过他留下的几个里程碑式的“路标”来把握。下图梳理了他思想演进的几个关键阶段与核心贡献：
 
-.. image:: /_static/images/putnam.png
+.. image:: putnam.png
 
 
 思想演进三个关键阶段如下：

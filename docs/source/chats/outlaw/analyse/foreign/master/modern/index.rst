@@ -135,5 +135,5 @@
 
 .. note::
 
-   这里列出的主要是现代欧陆哲学家，英美分析哲学将归入 :doc:`语言哲学 </chats/outlaw/analyse/foreign/branch/langu/index>` 部分专门列出​​。
+   这里列出的主要是欧洲大陆哲学家​​。
 
