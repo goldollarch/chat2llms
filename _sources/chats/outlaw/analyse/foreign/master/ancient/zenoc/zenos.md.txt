@@ -6,7 +6,7 @@
 
 ---
 
-[【基提翁的芝诺】](/chats/outlaw/analyse/foreign/schools/ancient/stoicism/zeno/index)（Zeno of Citium，斯多葛学派创始人）和[【埃利亚的芝诺】](/chats/outlaw/analyse/foreign/master/ancient/zeno/index)（Zeno of Elea，巴门尼德的学生）是两位同名但思想迥异的古希腊哲学家。他们的思想代表了古希腊哲学中两条截然不同的路径。
+[【基提翁的芝诺】](/chats/outlaw/analyse/foreign/master/ancient/zenoc/index)（Zeno of Citium，斯多葛学派创始人）和[【埃利亚的芝诺】](/chats/outlaw/analyse/foreign/master/ancient/zenoe/index)（Zeno of Elea，巴门尼德的学生）是两位同名但思想迥异的古希腊哲学家。他们的思想代表了古希腊哲学中两条截然不同的路径。
 
 以下是对他们思想异同的详细分析。
 

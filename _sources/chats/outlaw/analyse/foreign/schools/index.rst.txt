@@ -27,6 +27,11 @@
 
     modern/index
 
+ .. toctree::
+    :maxdepth: 2
+
+    nowaday/index
+
 
 ----------
 
@@ -34,4 +39,6 @@
 
 -----------
 
-[:doc:`“唯”字头理论 </chats/outlaw/analyse/foreign/schools/only>`]
+[:doc:`现代西方哲学概况 </chats/outlaw/analyse/foreign/schools/review>`]
+[:doc:`当代欧陆哲学概况 </chats/outlaw/analyse/foreign/schools/euro>`]
+[:doc:`几大“唯”字头理论 </chats/outlaw/analyse/foreign/schools/only>`]

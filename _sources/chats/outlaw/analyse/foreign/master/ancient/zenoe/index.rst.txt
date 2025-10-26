@@ -111,4 +111,4 @@ Zeno of Elea
 
 ---------------------------
 
-【:doc:`古希腊两个芝诺（Zeno） </chats/outlaw/analyse/foreign/schools/ancient/stoicism/zeno/zenos>`】
+【:doc:`古希腊两个芝诺（Zeno） </chats/outlaw/analyse/foreign/master/ancient/zenoc/zenos>`】

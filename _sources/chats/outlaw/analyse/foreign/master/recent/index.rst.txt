@@ -103,6 +103,11 @@
  .. toctree::
     :maxdepth: 1
 
+    smacher/index
+
+ .. toctree::
+    :maxdepth: 1
+
     whitehead/index
 
  .. toctree::

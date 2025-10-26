@@ -23,7 +23,7 @@ Hermeneutics
 
 *   **代表人物与思想**：
 
-    *  :doc:`弗里德里希·施莱尔马赫 </chats/outlaw/analyse/foreign/schools/modern/hermen/smacher/index>`  ：
+    *  :doc:`弗里德里希·施莱尔马赫 </chats/outlaw/analyse/foreign/master/recent/smacher/index>`  ：
 
         *   **普遍解释学**：解释学不应只是特定领域的技巧，而应是适用于一切文本理解的普遍方法论。
 
@@ -75,7 +75,7 @@ Hermeneutics
 
 *   **代表人物与思想**：
 
-    *  :doc:`保罗·利科 </chats/outlaw/analyse/foreign/master/modern/ricoeur/index>` ：
+    *  :doc:`保罗·利科 </chats/outlaw/analyse/foreign/master/nowaday/ricoeur/index>` ：
 
         *   **反思的解释学**：试图调和解释学的各种冲突。他主张通过 **“长程迂回”** ——即对符号、神话、文本等客观产物的细致分析——来更好地理解自我。他强调 **叙事身份**，我们通过讲述故事来理解自身。
 
@@ -83,7 +83,7 @@ Hermeneutics
 
         *   **批判的解释学**：认为伽达默尔忽略了语言和传统中可能蕴含的 **权力扭曲和意识形态**。他主张解释学必须与 **意识形态批判** 结合，通过理想的交往情境，消除系统性扭曲，达成真正的共识。
 
-    *  :doc:`卡尔-奥托·阿佩尔 </chats/outlaw/analyse/foreign/master/modern/apel/index>` ：
+    *  :doc:`卡尔-奥托·阿佩尔 </chats/outlaw/analyse/foreign/master/nowaday/apel/index>` ：
 
         *   **先验解释学**：将解释学与康德先验哲学结合，认为 **达成理解的先验条件** 是解释学的根基，所有解释共同体都必须预设一种理想沟通的可能性。
 
