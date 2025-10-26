@@ -11,13 +11,13 @@ Epicurus（伊壁鸠鲁）所代表的 [【伊壁鸠鲁学派（Epicureanism）�
 
 - **创始人**： [【伊壁鸠鲁】](/chats/outlaw/analyse/foreign/schools/ancient/epicurus/index)（Epicurus，公元前341–前270年），出生于萨摩斯岛，后来在雅典建立“花园”（The Garden）学园。
 - **核心目标**：追求一种没有痛苦（aponia）和心灵纷扰（ataraxia）的幸福生活，即“宁静”（tranquility）。
-- **主要经典**：伊壁鸠鲁的书信和《快乐论》（Letter to Menoeceus等），但大部分原著已佚失，我们主要通过后人的记载如罗马哲学家 [【卢克莱修（Lucretius）】](/chats/outlaw/analyse/foreign/schools/ancient/epicurus/lucretius/index) 的《物性论》了解其思想。
+- **主要经典**：伊壁鸠鲁的书信和《快乐论》（Letter to Menoeceus等），但大部分原著已佚失，我们主要通过后人的记载如罗马哲学家 [【卢克莱修（Lucretius）】](/chats/outlaw/analyse/foreign/master/ancient/lucretius/index) 的《物性论》了解其思想。
 
 ### 2. 斯多葛学派（Stoicism）
 
-- **创始人**：[【基提翁的芝诺】](/chats/outlaw/analyse/foreign/schools/ancient/stoicism/zeno/index)（Zeno of Citium，约公元前334–前262年），在雅典的“彩绘柱廊”（Stoa Poikile）讲学，因此得名。
+- **创始人**：[【基提翁的芝诺】](/chats/outlaw/analyse/foreign/master/ancient/zenoc/index)（Zeno of Citium，约公元前334–前262年），在雅典的“彩绘柱廊”（Stoa Poikile）讲学，因此得名。
 - **核心目标**：通过理性生活，顺应自然与理性（Logos），达到内心的平静（apatheia，即不受负面情绪干扰的状态）。
-- **代表人物**：包括[【克律西波斯（Chrysippus）】](/chats/outlaw/analyse/foreign/schools/ancient/stoicism/chrysipus/index)、[【塞内卡（Seneca）】](/chats/outlaw/analyse/foreign/schools/ancient/stoicism/seneca/index)、[【爱比克泰德（Epictetus）】](/chats/outlaw/analyse/foreign/schools/ancient/stoicism/epictetus/index)、罗马皇帝[【马可·奥勒留（Marcus Aurelius）】](/chats/outlaw/analyse/foreign/schools/ancient/stoicism/aurelius/index)。
+- **代表人物**：包括[【克律西波斯（Chrysippus）】](/chats/outlaw/analyse/foreign/master/ancient/chrysipus/index)、[【塞内卡（Seneca）】](/chats/outlaw/analyse/foreign/master/ancient/seneca/index)、[【爱比克泰德（Epictetus）】](/chats/outlaw/analyse/foreign/master/ancient/epictetus/index)、罗马皇帝[【马可·奥勒留（Marcus Aurelius）】](/chats/outlaw/analyse/foreign/master/ancient/aurelius/index)。
 - **主要经典**：虽然很多原著也已失传，但通过后人整理和这些哲学家的书信、对话录得以保存。
 
 ---

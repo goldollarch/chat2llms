@@ -51,13 +51,13 @@ Stoicism
 
 **四、主要代表人物**
 
-*   :doc:`基提翁的芝诺 </chats/outlaw/analyse/foreign/schools/ancient/stoicism/zeno/index>` ： 斯多葛学派的创始人。
+*   :doc:`基提翁的芝诺 </chats/outlaw/analyse/foreign/master/ancient/zenoc/index>` ： 斯多葛学派的创始人。
 
-*   :doc:`安涅·塞内卡 </chats/outlaw/analyse/foreign/schools/ancient/stoicism/seneca/index>` ： 罗马帝国政治家、剧作家，他的《书信集》深入探讨了日常生活中的哲学问题。
+*   :doc:`安涅·塞内卡 </chats/outlaw/analyse/foreign/master/ancient/seneca/index>` ： 罗马帝国政治家、剧作家，他的《书信集》深入探讨了日常生活中的哲学问题。
 
-*   :doc:`爱比克泰德 </chats/outlaw/analyse/foreign/schools/ancient/stoicism/epictetus/index>` ： 曾为奴隶，其思想核心即是“控制二分法”，著作《手册》是极佳的实践指南。
+*   :doc:`爱比克泰德 </chats/outlaw/analyse/foreign/master/ancient/epictetus/index>` ： 曾为奴隶，其思想核心即是“控制二分法”，著作《手册》是极佳的实践指南。
 
-*   :doc:`马可·奥勒留 </chats/outlaw/analyse/foreign/schools/ancient/stoicism/aurelius/index>` ： 罗马帝国皇帝，其著作《沉思录》是他写给自己的个人日记，是斯多葛实践的终极典范。
+*   :doc:`马可·奥勒留 </chats/outlaw/analyse/foreign/master/ancient/aurelius/index>` ： 罗马帝国皇帝，其著作《沉思录》是他写给自己的个人日记，是斯多葛实践的终极典范。
 
 
 斯多葛主义在当代依然极具影响力，其教义被视为 **管理情绪、培养韧性和践行责任** 的强大心理工具，被广泛应用于现代心理学、领导力培训和个人发展中。
