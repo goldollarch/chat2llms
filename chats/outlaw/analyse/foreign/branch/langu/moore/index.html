@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>George Edward Moore &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../kripke/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">语言</a></li>
+      <li class="breadcrumb-item active">George Edward Moore</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/langu/moore/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="george-edward-moore">
+<h1>George Edward Moore<a class="headerlink" href="#george-edward-moore" title="Link to this heading"></a></h1>
+<p>根据乔治·爱德华·摩尔（George Edward Moore）常识唯实论哲学</p>
+<hr class="docutils" />
+<p>摩尔是20世纪初英国分析哲学的开创者之一，他的“常识唯实论”是对当时占据主导地位的唯心论（尤其是布拉德雷和麦克塔加特的思想）的一次强力反击。其哲学核心可以概括为：<strong>坚决捍卫“常识”世界观的真实性与可靠性，认为我们对诸如“外部世界存在”、“他人有心”等基本常识信念的确定性，远高于任何试图否定它们的哲学论证的确定性。</strong></p>
+<p>摩尔的哲学方法极具特色，其核心思想可以通过下图清晰地展现其论证结构与哲学意涵：</p>
+<img alt="../../../../../../../_images/review.png" src="../../../../../../../_images/review.png" />
+<p>以下，我们将沿此脉络，深入解析摩尔哲学的核心要义。</p>
+<p>一、核心立场：为常识辩护</p>
+<p>摩尔的出发点是对哲学怀疑论的彻底拒绝。</p>
+<ul class="simple">
+<li><p><strong>批判靶子</strong>：他反对各种形式的唯心论和怀疑论，这些理论声称外部世界是虚幻的、时间是不真实的、或我们无法知道他人心灵的存在。</p></li>
+<li><p><strong>核心主张</strong>：摩尔认为，某些由“常识”持有的信念是 <strong>确定无疑、不可怀疑的</strong>。这些信念构成了我们理解世界和进行哲学讨论的 <strong>稳固基础</strong>。哲学的错误不在于常识，而在于哲学家们试图用复杂而可疑的论证来否定简单而确定的真理。</p></li>
+<li><p><strong>著名清单</strong>：在《为常识辩护》一文中，他列举了一些确定为真的常识命题，例如：</p>
+<ul>
+<li><p>“我的身体存在并且已经存在了一段时间。”</p></li>
+<li><p>“地球在我出生前已存在很久。”</p></li>
+<li><p>“其他具有类似身体的人也存在，他们拥有自己的思想和体验。”</p></li>
+</ul>
+</li>
+</ul>
+<p>二、著名论证：举起双手的证明</p>
+<p>摩尔最广为人知的举动是在一次演讲中**举起双手**，以此证明外部世界的存在。</p>
+<ul class="simple">
+<li><p><strong>论证过程</strong>：</p>
+<ol class="arabic simple">
+<li><p>前提1：<strong>“这是一只手”（举起左手）</strong>。</p></li>
+<li><p>前提2：<strong>“这是另一只手”（举起右手）</strong>。</p></li>
+<li><p>结论：<strong>“因此，至少存在两个外部物体，所以外部世界是存在的。”</strong></p></li>
+</ol>
+</li>
+<li><p><strong>深层逻辑</strong>：这个看似简单的举动蕴含深刻的哲学策略。摩尔并非要“证明”给一个彻底的怀疑论者看，而是要表明：<strong>任何否认外部世界存在的哲学论证，其前提的确定性都远远低于“这是一只手”这个简单事实的确定性。</strong> 因此，如果论证导出了违背常识的结论，那么错误的一定是论证本身，而不是常识信念。这是一种**归谬法**。</p></li>
+</ul>
+<p>三、哲学方法：分析而非颠覆</p>
+<p>摩尔不仅是常识的捍卫者，也是 <strong>概念分析</strong> 方法的先驱。</p>
+<ul class="simple">
+<li><p><strong>哲学的真正任务</strong>：摩尔认为，哲学的任务 <strong>不是颠覆常识</strong>，而是 <strong>分析和澄清常识信念中所包含的概念</strong>。例如，当我们说“这是一张桌子”时，我们需要分析“存在”、“物质对象”、“桌子”等概念的确切含义及其关系。</p></li>
+<li><p><strong>分析哲学的开端</strong>：这项工作开启了分析哲学的传统，将哲学的关注点从构建宏大体系转向了对语言和概念的精细分析。</p></li>
+</ul>
+<p>四、伦理学贡献：元伦理学的开创</p>
+<p>在伦理学领域，摩尔同样做出了里程碑式的贡献，其著作《伦理学原理》开创了**元伦理学**。</p>
+<ul class="simple">
+<li><p><strong>核心命题：“善”是不可定义的</strong></p>
+<ul>
+<li><p>摩尔认为，“善”是一个 <strong>简单的、非自然的属性</strong>，就像“黄色”一样，无法被分解或用其他属性来定义。</p></li>
+<li><p>任何试图用自然属性（如“快乐”、“欲望满足”）来定义“善”的尝试都犯了 <strong>“自然主义谬误”</strong>。</p></li>
+</ul>
+</li>
+<li><p><strong>开放问题论证</strong>：</p>
+<ul>
+<li><p>对于任何定义（如“善=快乐”），我们总可以有意义地问：“快乐是善的吗？”</p></li>
+<li><p>如果这个问题是开放的、有意义的，就证明“善”不等于“快乐”。因此，“善”是独特的、不可还原的。</p></li>
+</ul>
+</li>
+</ul>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 40.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>形而上学/知识论</strong></p></td>
+<td><p><strong>常识信念（如外部世界存在）是确定无疑的，构成哲学的基石。</strong></p></td>
+<td><p><strong>常识唯实论、对怀疑论的反驳、确定性等级</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>哲学方法论</strong></p></td>
+<td><p><strong>哲学的任务是分析常识信念中的概念，而非否定常识。</strong></p></td>
+<td><p><strong>概念分析、分析哲学先驱</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>著名论证</strong></p></td>
+<td><p><strong>“举手证明”：外部世界存在的确定性高于任何怀疑论论证。</strong></p></td>
+<td><p><strong>归谬法、日常语言论证</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>伦理学</strong></p></td>
+<td><p><strong>“善”是不可定义的简单属性，定义它即犯”自然主义谬误”。</strong></p></td>
+<td><p><strong>元伦理学、开放问题论证、非自然属性</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与影响</p>
+<ul class="simple">
+<li><p><strong>日常语言的清晰性</strong>：摩尔坚持用日常语言进行哲学表达，反对晦涩的哲学术语，认为这往往是哲学混乱的根源。</p></li>
+<li><p><strong>稳健的实在论</strong>：他的哲学提供了一种稳健的、非独断的实在论，即相信一个独立于心灵的、由日常物体和他人心灵构成的世界的真实存在。</p></li>
+<li><p><strong>深远影响</strong>：他影响了后来的整个分析哲学运动，尤其是维特根斯坦（后期）和日常语言学派（如奥斯汀）。他的元伦理学至今仍是该领域的核心议题。</p></li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，G. E. 摩尔的核心思想在于，他是一位 <strong>“常识的捍卫者”和“分析的清道夫”</strong> 。他教导我们，<strong>在从事哲学思考时，不应为了迎合某种理论而牺牲我们最坚实、最直接的信念。</strong> 当精妙的哲学论证与简单的常识事实冲突时，更理性的做法是 <strong>检查论证而非抛弃常识</strong>。</p>
+<p>他的全部工作是对 <strong>哲学傲慢</strong> 的一次矫正，重新将哲学锚定在 <strong>人类共同的经验和语言</strong> 之中。在这个意义上，他不仅是分析哲学的开创者，更是一位让哲学重归清醒与谦逊的思想家。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#the-indubitability-of-common-sense-propositions-judicial-disruption-as-unproven-skeptical-denial">1. The Indubitability of Common Sense Propositions: Judicial “Disruption” as Unproven Skeptical Denial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#direct-realism-and-the-external-world-intent-as-idealist-abstraction-over-perceptual-particulars">2. Direct Realism and the External World: “Intent” as Idealist Abstraction Over Perceptual Particulars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#ethical-intuitionism-and-non-natural-properties-coercive-justice-as-misjudged-moral-indefinables">3. Ethical Intuitionism and Non-Natural Properties: Coercive “Justice” as Misjudged Moral Indefinables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#conclusion-moore-s-lens-on-the-caseskeptical-shadows-over-indubitable-hands">Conclusion: Moore’s Lens on the Case—Skeptical Shadows Over Indubitable Hands</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#common-sense-as-the-foundation-of-moral-judgment">1. <strong>Common Sense as the Foundation of Moral Judgment</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#the-naturalistic-fallacy-justice-is-not-what-power-defines">2. <strong>The Naturalistic Fallacy: Justice Is Not What Power Defines</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#moral-facts-are-objective-and-knowable">3. <strong>Moral Facts Are Objective and Knowable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#clarity-over-complexity-the-ethics-of-simplicity">4. <strong>Clarity Over Complexity: The Ethics of Simplicity</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#conclusion-silence-as-common-sense-integrity">5. <strong>Conclusion: Silence as Common Sense Integrity</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>“常识”的司法死亡：对“无危害则无惩罚”这一基本正义观的践踏</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“自明真理”的暴力否定：对“具体事实”优先于“抽象概念”的颠倒</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>“整体证据”原则的沦丧：孤立看待行为，无视整体语境</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 <strong>对“怀疑论”的终极讽刺：权力成为最极端的怀疑论者</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论：一场“常识世界”在“权力建构世界”前的陷落</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 常识信念的不可动摇性与自明性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">二、 对抽象概念和怀疑论的驳斥</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#ethical-intuitionism">三、 道德直觉主义（Ethical Intuitionism）的应用</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">总结：常识对非理性与不公正的直接否定</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<p>摩尔不仅是常识唯实论的代表人物，更被公认为 <a class="reference internal" href="../../moral/moore/index.html"><span class="doc">现代元伦理学的开创者</span></a> 。他的工作在这两个领域是紧密相连、互为支撑的。</p>
+<p>以下将详细解释他如何将常识唯实论的哲学方法应用于伦理学，从而开创了元伦理学这一全新的哲学领域。</p>
+<p>核心论证：从常识哲学到元伦理学革命</p>
+<p>摩尔的思想具有高度的统一性。他在本体论和知识论上捍卫“常识”的方法，直接引导了他对伦理学根本问题的革命性处理。</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 40.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>核心领域</strong></p></th>
+<th class="head"><p><strong>摩尔的立场与方法</strong></p></th>
+<th class="head"><p><strong>具体表现与影响</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>常识唯实论 / 直接知觉唯实论</strong></p></td>
+<td><p><strong>反对怀疑论，捍卫常识世界的真实性。</strong> 方法：认为某些基本命题（如”这是一只手”）是自明的、不可怀疑的，其真实性比任何精巧的哲学论证都更确定。</p></td>
+<td><p><strong>著名举动</strong>：举起双手说”这是一只手，那是另一只”，以此证明外部世界的存在。其论点在于，怀疑论者的论证无法推翻我们直接感知的、最基本的常识信念。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>现代元伦理学（开创）</strong></p></td>
+<td><p><strong>将上述分析方法应用于伦理学本身。</strong> 核心问题从”什么行为是善的？”转变为 <strong>“‘善’这个词意味着什么？”</strong>。这是典型的元伦理学问题。</p></td>
+<td><p><strong>核心著作</strong>：1903年出版的 <strong>《伦理学原理》</strong> ，这本书被视为现代元伦理学的奠基之作。</p></td>
+</tr>
+</tbody>
+</table>
+<p>摩尔的元伦理学核心贡献：自然主义谬误与“善”的不可定义性</p>
+<p>摩尔在《伦理学原理》中提出了两个革命性的观点，彻底改变了伦理学的讨论方式：</p>
+<ol class="arabic simple">
+<li><p><strong>自然主义谬误</strong></p>
+<ul class="simple">
+<li><p><strong>内容</strong>：摩尔指出，许多传统的伦理理论（如功利主义说“善是快乐”，进化伦理学说“善是更进化的”）都犯了一个根本错误——即试图用一个**自然的或超自然的属性**来定义“善”这个最简单的概念。</p></li>
+<li><p><strong>论证</strong>：他提出了著名的 <strong>“开放问题论证”</strong> 。对于任何提出的定义（如“善=快乐”），我们总可以有意义地问：“快乐是善的吗？”如果这个问题是开放的、有意义的，那么就证明“善”不等于“快乐”。而“快乐是快乐的吗？”这个问题是封闭的、无意义的。因此，“善”不能被任何其他属性定义。</p></li>
+<li><p><strong>意义</strong>：这一批判将伦理学从关于世界事实的讨论（心理学、生物学、神学）中剥离出来，使其成为一个独立的、处理 <strong>基本价值概念</strong> 的哲学领域。</p></li>
+</ul>
+</li>
+<li><p><strong>“善”是简单的、不可分析的非自然属性</strong></p>
+<ul class="simple">
+<li><p><strong>内容</strong>：既然“善”像“黄色”一样，是一个简单的、不可再分的概念，我们无法用其他东西来定义它。我们只能通过一种 <strong>直觉</strong> 来直接认识它。他认为“善”是一种 <strong>非自然的属性</strong>，即它虽然存在于对象或行为中，但不能被科学经验所分析。</p></li>
+<li><p><strong>意义</strong>：这确立了直觉主义在元伦理学中的早期地位，并引发了长达一个世纪的关于道德语言本质、道德属性是否实在的争论。</p></li>
+</ul>
+</li>
+</ol>
+<p>结论：毋庸置疑的开创者</p>
+<p>因此，G. E. 摩尔的身份是双重的，且后者源于前者：</p>
+<ul class="simple">
+<li><p><strong>作为常识唯实论者</strong>，他提供了一种哲学方法：<strong>拒绝怀疑论，相信直接自明的常识，并对基本概念进行清晰的分析。</strong></p></li>
+<li><p><strong>作为现代元伦理学的开创者</strong>，他将这种方法应用于伦理学领域，<strong>首次清晰地将伦理学的“第一级问题”（什么是对的？）和“第二级问题”（“对”意味着什么？）区分开来</strong>，并将焦点放在了后者之上。</p></li>
+</ul>
+<p>正是通过摩尔的工作，伦理学才开始系统性地反思自身的概念基础、语言和逻辑，从而诞生了以 <strong>语言分析、概念考察</strong> 为特征的现代元伦理学。因此，<strong>他不仅是开创者，更是奠基人</strong>。</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../kripke/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

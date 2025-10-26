@@ -23,3 +23,8 @@
 
     empiric/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    pragma/index
+

@@ -1,6 +1,8 @@
 近代
 =========
 
+从笛卡尔直到第二次世界大战。
+
 -------------------------
 
  .. toctree::
@@ -41,6 +43,11 @@
  .. toctree::
     :maxdepth: 1
 
+    berkeley/index
+
+ .. toctree::
+    :maxdepth: 1
+
     hume/index
 
  .. toctree::
@@ -52,6 +59,16 @@
     :maxdepth: 1
 
     hegel/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    fichte/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    schelling/index
 
  .. toctree::
     :maxdepth: 1
@@ -76,17 +93,17 @@
  .. toctree::
     :maxdepth: 1
 
-    smacher/index
-
- .. toctree::
-    :maxdepth: 1
-
     schpnhua/index
 
  .. toctree::
     :maxdepth: 1
 
     nietzsche/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    whitehead/index
 
  .. toctree::
     :maxdepth: 1

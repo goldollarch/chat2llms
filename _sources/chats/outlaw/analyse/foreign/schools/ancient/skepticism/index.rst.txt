@@ -14,7 +14,7 @@ Skepticism
 
 1.  **核心目标：心灵安宁**
 
-    - 古典怀疑主义者（如皮浪主义学派）认为，人类对同一事物的判断会产生矛盾与争论，导致心灵焦虑。若能停止对事物本质下判断，就能从争论中解脱，获得宁静。
+    - 古典怀疑主义者（如 :doc:`皮浪主义学派 </chats/outlaw/analyse/foreign/schools/ancient/skepticism/pyrrho/index>` ）认为，人类对同一事物的判断会产生矛盾与争论，导致心灵焦虑。若能停止对事物本质下判断，就能从争论中解脱，获得宁静。
 
 2.  **核心方法：悬搁判断**
 
@@ -22,7 +22,7 @@ Skepticism
 
 3.  **著名论式：十个模式**
 
-    - 怀疑主义者（如埃奈西德穆）提出了一系列“模式”或论证，来展示为何我们应悬搁判断。例如：
+    - 怀疑主义者（如 :doc:`埃奈西德穆 </chats/outlaw/analyse/foreign/schools/ancient/skepticism/Anesidem/index>` ）提出了一系列“模式”或论证，来展示为何我们应悬搁判断。例如：
 
         - **不同生物的感知差异**：蜂蜜对人来说是甜的，对蜜蜂可能不是。
 
@@ -86,7 +86,7 @@ Skepticism
      - **悬搁判断**，遵循现象生活
      - **方法论怀疑**，提出思想实验（如缸中之脑）
    * - **关键代表**
-     - 皮浪、塞克斯都·恩披里克
+     - :doc:`皮浪 </chats/outlaw/analyse/foreign/schools/ancient/skepticism/pyrrho/index>` 、:doc:`塞克斯都·恩披里克 </chats/outlaw/analyse/foreign/schools/ancient/skepticism/empiricus/index>`
      - 笛卡尔、休谟
 
 

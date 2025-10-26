@@ -118,6 +118,11 @@
  .. toctree::
     :maxdepth: 1
 
+    review/index
+
+ .. toctree::
+    :maxdepth: 1
+
     carnap/index
 
  .. toctree::
@@ -143,6 +148,16 @@
  .. toctree::
     :maxdepth: 1
 
+    boyd/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    daubert/index
+
+ .. toctree::
+    :maxdepth: 1
+
     fraassen/index
 
  .. toctree::
@@ -153,7 +168,7 @@
  .. toctree::
     :maxdepth: 1
 
-    daubert/index
+    sellars/index
 
  .. toctree::
     :maxdepth: 1
@@ -168,5 +183,4 @@
 
 ---------------------------
 
-[:doc:`当代科学哲学 </chats/outlaw/analyse/foreign/schools/modern/science/index>`]
 [:doc:`爱因斯坦 .vs. 玻尔 </chats/outlaw/analyse/foreign/branch/science/compare>`]
