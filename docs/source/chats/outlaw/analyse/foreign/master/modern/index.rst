@@ -23,11 +23,6 @@
  .. toctree::
     :maxdepth: 1
 
-    apel/index
-
- .. toctree::
-    :maxdepth: 1
-
     althusser/index
 
  .. toctree::
@@ -83,16 +78,6 @@
  .. toctree::
     :maxdepth: 1
 
-    jameson/index
-
- .. toctree::
-    :maxdepth: 1
-
-    kristeva/index
-
- .. toctree::
-    :maxdepth: 1
-
     lukacs/index
 
  .. toctree::
@@ -104,16 +89,6 @@
     :maxdepth: 1
 
     marcuse/index
-
- .. toctree::
-    :maxdepth: 1
-
-    ricoeur/index
-
- .. toctree::
-    :maxdepth: 1
-
-    rorty/index
 
  .. toctree::
     :maxdepth: 1

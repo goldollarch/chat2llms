@@ -15,7 +15,7 @@ Postmodern Maxism
 
 后现代马克思主义将批判焦点从 **经济基础转向上层建筑**，特别关注 **文化、消费和符号** 在晚期资本主义中的核心作用：
 
-- :doc:`詹明信 </chats/outlaw/analyse/foreign/master/modern/jameson/index>` 提出“**后现代主义是晚期资本主义的文化逻辑**”，认为文化已被彻底商品化，成为资本积累的新形式。
+- :doc:`詹明信 </chats/outlaw/analyse/foreign/master/nowaday/jameson/index>` 提出“**后现代主义是晚期资本主义的文化逻辑**”，认为文化已被彻底商品化，成为资本积累的新形式。
 
 - :doc:`鲍德里亚 </chats/outlaw/analyse/foreign/master/modern/baudrilard/index>` 分析 **消费社会**，指出消费的符号意义取代了使用价值，成为社会控制的新机制。
 
@@ -41,9 +41,9 @@ Postmodern Maxism
 
 - :doc:`德里达 </chats/outlaw/analyse/foreign/master/modern/derrida/index>` 的“**解构**”方法和 :doc:`福柯 </chats/outlaw/analyse/foreign/master/modern/foucault/index>`  的“**权力谱系学**”被广泛运用以揭示隐含在语言和制度中的权力结构。
 
-📊 五、重要理论特征：以 :doc:`詹明信 </chats/outlaw/analyse/foreign/master/modern/jameson/index>`  为例
+📊 五、重要理论特征：以 :doc:`詹明信 </chats/outlaw/analyse/foreign/master/nowaday/jameson/index>`  为例
 
-:doc:`詹明信 </chats/outlaw/analyse/foreign/master/modern/jameson/index>` 的理论集中体现了后现代马克思主义的特点：
+:doc:`詹明信 </chats/outlaw/analyse/foreign/master/nowaday/jameson/index>` 的理论集中体现了后现代马克思主义的特点：
 
 - **资本主义分期理论**：将资本主义分为 **民族资本主义、垄断资本主义、跨国资本主义** 三阶段，后现代主义是跨国资本主义阶段的文化对应物。
 
@@ -55,7 +55,7 @@ Postmodern Maxism
 
 后现代马克思主义的 **贡献** 在于拓展了马克思主义的批判维度，使其更贴合晚期资本主义的现实。然而，其 **局限性** 也很明显：过度强调文化和话语分析，可能 **淡化经济基础的决定作用** 和 **削弱集体行动的可能性**。这一思潮反映了左翼思想在应对资本主义新形态时的艰难探索与自我更新。
 
-希望以上介绍能帮助您理解后现代马克思主义的核心思想。如果您对特定理论家（如 :doc:`詹明信 </chats/outlaw/analyse/foreign/master/modern/jameson/index>` 、 :doc:`鲍德里亚 </chats/outlaw/analyse/foreign/master/modern/baudrilard/index>` ）的思想更感兴趣，我可以进一步提供针对性说明。
+希望以上介绍能帮助您理解后现代马克思主义的核心思想。如果您对特定理论家（如 :doc:`詹明信 </chats/outlaw/analyse/foreign/master/nowaday/jameson/index>` 、 :doc:`鲍德里亚 </chats/outlaw/analyse/foreign/master/modern/baudrilard/index>` ）的思想更感兴趣，我可以进一步提供针对性说明。
 
 -------------------
 
@@ -72,7 +72,7 @@ Postmodern Maxism
 
 ---------------------------
 
-[:doc:`马克思主义 </chats/outlaw/analyse/foreign/master/recent/max/index>`]
-[:doc:`现代马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>`]
+[:doc:`马克思主义 </chats/outlaw/analyse/foreign/master/recent/marx/index>`]
+[:doc:`现代马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`]
 [:doc:`苏联列宁主义 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>`]
 [:doc:`中共马列主义 </chats/outlaw/analyse/chinese/school/ccp/index>`]

@@ -22,7 +22,7 @@ New Materialism
 
 *   **新唯物主义的革命性观点**：物质是 **能动的、自我组织的、具有创造力的**。它内部蕴含着生成、变化和涌现新形态的潜力。自然、身体、技术物乃至社会结构，都不是僵死的，而是充满内在活力的过程。
 
-**著名例子**：:doc:`简·贝内特 </chats/outlaw/analyse/foreign/schools/nowaday/material/bennett/index>` 在《活跃的物质》中描述了一个“垃圾堆”：她看到一只手套、一个塑料瓶、一团霉菌等。她认为，这个垃圾堆 assemblage 作为一个整体，展现了一种非人的、分布式的“能动性”，它影响着环境、视觉景观和过往行人的情绪。
+**著名例子**：:doc:`简·贝内特 </chats/outlaw/analyse/foreign/master/nowaday/bennett/index>` 在《活跃的物质》中描述了一个“垃圾堆”：她看到一只手套、一个塑料瓶、一团霉菌等。她认为，这个垃圾堆 assemblage 作为一个整体，展现了一种非人的、分布式的“能动性”，它影响着环境、视觉景观和过往行人的情绪。
 
 二、核心原则
 
@@ -38,7 +38,7 @@ New Materialism
 
     *   **核心思想**：**拒绝以人类为中心的等级制本体论**。在新唯物主义看来，人类并不天然地高于动物、植物、微生物或技术物。所有存在者（人类与非人）在本体论上是“扁平”的，都是能动的行动者，共同参与世界的构成。
 
-    *   **思想来源**：深受 :doc:`布鲁诺·拉图尔 </chats/outlaw/analyse/foreign/schools/nowaday/material/latour/index>` “行动者网络理论”的影响。
+    *   **思想来源**：深受 :doc:`布鲁诺·拉图尔 </chats/outlaw/analyse/foreign/master/nowaday/latour/index>` “行动者网络理论”的影响。
 
 3.  **对二元论的彻底拒绝**
 
@@ -58,13 +58,13 @@ New Materialism
 
 **主要代表人物**：
 
-*   :doc:`简·贝内特 </chats/outlaw/analyse/foreign/schools/nowaday/material/bennett/index>` ： 提出“物的能动性”，探讨非人力量在政治生活中的作用。
+*   :doc:`简·贝内特 </chats/outlaw/analyse/foreign/master/nowaday/bennett/index>` ： 提出“物的能动性”，探讨非人力量在政治生活中的作用。
 
-*   :doc:`凯伦·芭拉德 </chats/outlaw/analyse/foreign/schools/nowaday/material/barad/index>` ： 结合量子物理学和过程哲学，阐述物质的内在活力和“能动实在论”。
+*   :doc:`凯伦·芭拉德 </chats/outlaw/analyse/foreign/master/nowaday/barad/index>` ： 结合量子物理学和过程哲学，阐述物质的内在活力和“能动实在论”。
 
-*   :doc:`罗西·布雷多蒂 </chats/outlaw/analyse/foreign/schools/nowaday/material/braidotti/index>` ： 以“后人类”理论闻名，强调物质、技术和生命的连续性。
+*   :doc:`罗西·布雷多蒂 </chats/outlaw/analyse/foreign/master/nowaday/braidotti/index>` ： 以“后人类”理论闻名，强调物质、技术和生命的连续性。
 
-*   :doc:`曼努尔·德兰达 </chats/outlaw/analyse/foreign/schools/nowaday/material/delanda/index>` ： 运用德勒兹哲学和复杂科学，对历史和社会进行新唯物主义的重读。
+*   :doc:`曼努尔·德兰达 </chats/outlaw/analyse/foreign/master/nowaday/delanda/index>` ： 运用德勒兹哲学和复杂科学，对历史和社会进行新唯物主义的重读。
 
 四、伦理与政治意涵
 
@@ -94,11 +94,11 @@ New Materialism
 
 代表人物
 
-[:doc:`Karen Barad </chats/outlaw/analyse/foreign/schools/nowaday/material/barad/index>`]
-[:doc:`Jane Bennett </chats/outlaw/analyse/foreign/schools/nowaday/material/bennett/index>`]
-[:doc:`Rosi Braidotti </chats/outlaw/analyse/foreign/schools/nowaday/material/braidotti/index>`]
-[:doc:`Manuel DeLanda </chats/outlaw/analyse/foreign/schools/nowaday/material/delanda/index>`]
-[:doc:`Bruno Latour </chats/outlaw/analyse/foreign/schools/nowaday/material/latour/index>`]
+[:doc:`Karen Barad </chats/outlaw/analyse/foreign/master/nowaday/barad/index>`]
+[:doc:`Jane Bennett </chats/outlaw/analyse/foreign/master/nowaday/bennett/index>`]
+[:doc:`Rosi Braidotti </chats/outlaw/analyse/foreign/master/nowaday/braidotti/index>`]
+[:doc:`Manuel DeLanda </chats/outlaw/analyse/foreign/master/nowaday/delanda/index>`]
+[:doc:`Bruno Latour </chats/outlaw/analyse/foreign/master/nowaday/latour/index>`]
 
 -----------
 

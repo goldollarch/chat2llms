@@ -16,7 +16,7 @@ Speculative Realism
 
 要理解思辨实在论，必须首先理解其攻击的靶心—— **“相关主义”**。
 
-*   **相关主义**：这是思辨实在论者 :doc:`昆汀·梅亚苏 </chats/outlaw/analyse/foreign/schools/nowaday/realism/meillassou/index>` 提出的概念，指一种自康德以来的哲学教条。康德认为，我们无法认识“**物自体**”，我们只能认识被我们的先天认知形式（时间、空间、范畴）所建构的“现象”。因此，**思维与存在、世界与人类总是相互关联的**。我们无法思考一个独立于我们思维的世界。
+*   **相关主义**：这是思辨实在论者 :doc:`昆汀·梅亚苏 </chats/outlaw/analyse/foreign/master/nowaday/meillassou/index>` 提出的概念，指一种自康德以来的哲学教条。康德认为，我们无法认识“**物自体**”，我们只能认识被我们的先天认知形式（时间、空间、范畴）所建构的“现象”。因此，**思维与存在、世界与人类总是相互关联的**。我们无法思考一个独立于我们思维的世界。
 
 *   **思辨实在论的指控**：相关主义导致了一种 **顽固的人类中心主义**。哲学变得只关心人类如何“ access ”（接近）世界，而完全放弃了思考世界本身的可能性。这被思辨实在论者视为哲学的怯懦和堕落。
 
@@ -24,7 +24,7 @@ Speculative Realism
 
 如图表所示，思辨实在论内部为解决“如何思辨绝对实在”这一核心问题，发展出四条主要路径。
 
-1. :doc:`昆汀·梅亚苏 </chats/outlaw/analyse/foreign/schools/nowaday/realism/meillassou/index>` - 思辨唯物论
+1. :doc:`昆汀·梅亚苏 </chats/outlaw/analyse/foreign/master/nowaday/meillassou/index>` - 思辨唯物论
 
 *   **核心著作**：《有限性之后》
 
@@ -34,7 +34,7 @@ Speculative Realism
 
 *   **方法**：通过数学（尤其是集合论）来思辨绝对实在。
 
-2. :doc:`格拉汉姆·哈曼 </chats/outlaw/analyse/foreign/schools/nowaday/realism/harman/index>` - 对象导向本体论
+2. :doc:`格拉汉姆·哈曼 </chats/outlaw/analyse/foreign/master/nowaday/harman/index>` - 对象导向本体论
 
 *   **核心命题**：**实在由“对象”构成，所有对象（无论是电子、茶杯、国家还是思想）都是平等的，且永远无法被完全耗尽。**
 
@@ -46,13 +46,13 @@ Speculative Realism
 
 *   **影响**：在艺术、建筑等领域影响巨大，因为它赋予了一切非人对象以神秘性和平等地位。
 
-3. :doc:`雷·布拉西耶 </chats/outlaw/analyse/foreign/schools/nowaday/realism/brassier/index>` - 消除唯物论
+3. :doc:`雷·布拉西耶 </chats/outlaw/analyse/foreign/master/nowaday/brassier/index>` - 消除唯物论
 
 *   **核心命题**：**“虚无主义是真理。”** 世界本质上是无意义、无目的的。人类意识是自然过程的偶然产物，并终将消亡。
 
 *   **态度**：他主张一种冷酷的、科学化的唯物主义，接受宇宙的冷漠和人类最终的消亡。哲学的任务不是寻找意义或安慰，而是 **追随理性的冷酷之光**，即使它导向的是虚无。他的思想深受神经科学和宇宙学的影响。
 
-4. :doc:`伊恩·汉密尔顿·格兰特 </chats/outlaw/analyse/foreign/schools/nowaday/realism/grant/index>` - 自然哲学取向
+4. :doc:`伊恩·汉密尔顿·格兰特 </chats/outlaw/analyse/foreign/master/nowaday/grant/index>` - 自然哲学取向
 
 *   **核心思想**：回归德国唯心论（特别是谢林），认为自然不是被动的产物，而是充满创造力和生产力的动态过程。哲学应思考这种“自然的生产性”，反对将自然简化为科学定律下的被动领域。
 
@@ -105,9 +105,9 @@ Speculative Realism
 
 代表人物
 
-[:doc:`Alain Badiou </chats/outlaw/analyse/foreign/schools/nowaday/realism/badiou/index>`]
-[:doc:`Ray Brassier </chats/outlaw/analyse/foreign/schools/nowaday/realism/brassier/index>`]
-[:doc:`Iain Hamilton Grant </chats/outlaw/analyse/foreign/schools/nowaday/realism/grant/index>`]
-[:doc:`Graham Harman </chats/outlaw/analyse/foreign/schools/nowaday/realism/harman/index>`]
-[:doc:`Quentin Meillassoux </chats/outlaw/analyse/foreign/schools/nowaday/realism/meillassou/index>`]
+[:doc:`Alain Badiou </chats/outlaw/analyse/foreign/master/nowaday/badiou/index>`]
+[:doc:`Graham Harman </chats/outlaw/analyse/foreign/master/nowaday/harman/index>`]
+[:doc:`Ray Brassier </chats/outlaw/analyse/foreign/master/nowaday/brassier/index>`]
+[:doc:`Iain Hamilton Grant </chats/outlaw/analyse/foreign/master/nowaday/grant/index>`]
+[:doc:`Quentin Meillassoux </chats/outlaw/analyse/foreign/master/nowaday/meillassou/index>`]
 

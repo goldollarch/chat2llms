@@ -76,8 +76,8 @@ Marxism
 
 ---------------------------
 
-[:doc:`马克思主义 </chats/outlaw/analyse/foreign/master/recent/max/index>`]
-[:doc:`法兰克福学派 </chats/outlaw/analyse/foreign/schools/modern/mmax/frankfurt/index>`]
-[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/pmmax/index>`]
+[:doc:`马克思主义 </chats/outlaw/analyse/foreign/master/recent/marx/index>`]
+[:doc:`法兰克福学派 </chats/outlaw/analyse/foreign/schools/modern/marx/frankfurt/index>`]
+[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/nowaday/marx/index>`]
 [:doc:`苏联列宁主义 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>`]
 [:doc:`中共马列主义 </chats/outlaw/analyse/chinese/school/ccp/index>`]
