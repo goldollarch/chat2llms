@@ -1,5 +1,5 @@
 Hermeneutics
-=========
+==============
 
 基于解释学（Hermeneutics）理论视角。
 
@@ -23,7 +23,7 @@ Hermeneutics
 
 *   **代表人物与思想**：
 
-    *  :doc:`弗里德里希·施莱尔马赫 </chats/outlaw/analyse/foreign/master/recent/smacher/index>`  ：
+    *  :doc:`弗里德里希·施莱尔马赫 </chats/outlaw/analyse/foreign/schools/modern/hermen/smacher/index>`  ：
 
         *   **普遍解释学**：解释学不应只是特定领域的技巧，而应是适用于一切文本理解的普遍方法论。
 

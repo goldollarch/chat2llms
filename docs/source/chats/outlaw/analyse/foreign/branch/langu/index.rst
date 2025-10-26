@@ -107,6 +107,11 @@
  .. toctree::
     :maxdepth: 1
 
+    review/index
+
+ .. toctree::
+    :maxdepth: 1
+
     saussure/index
 
  .. toctree::
@@ -142,12 +147,17 @@
  .. toctree::
     :maxdepth: 1
 
-    putnam/index
+    moore/index
 
  .. toctree::
     :maxdepth: 1
 
     quine/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    putnam/index
 
  .. toctree::
     :maxdepth: 1
@@ -174,7 +184,3 @@
 
     grice/index
 
-
----------------------------
-
-[:doc:`当代语言哲学 </chats/outlaw/analyse/foreign/schools/modern/language/index>`]

@@ -1,4 +1,4 @@
-Language
+Overview
 =========
 
 基于当代语言哲学的理论视角。
@@ -96,5 +96,4 @@ Language
 
 ---------------------------
 
-[:doc:`日常语言学派 </chats/outlaw/analyse/foreign/schools/modern/language/ordlang/index>`]
-[:doc:`语言哲学 </chats/outlaw/analyse/foreign/branch/langu/index>`]
+[:doc:`日常语言学派 </chats/outlaw/analyse/foreign/branch/langu/review/ordlang/index>`]

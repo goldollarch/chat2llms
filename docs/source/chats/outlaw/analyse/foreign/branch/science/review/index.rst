@@ -1,4 +1,4 @@
-Science
+Overview
 =========
 
 基于当代科学哲学（Contemporary Philosophy of Science）​的视角。
@@ -82,7 +82,3 @@ Science
     ds
     qw
 
-
----------------------------
-
-[:doc:`科学哲学 </chats/outlaw/analyse/foreign/branch/science/index>`]

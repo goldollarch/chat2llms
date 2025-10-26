@@ -8,7 +8,7 @@
  .. toctree::
     :maxdepth: 1
 
-    mmax/index
+    analytic/index
 
  .. toctree::
     :maxdepth: 1
@@ -48,22 +48,7 @@
  .. toctree::
     :maxdepth: 1
 
-    pragma/index
-
- .. toctree::
-    :maxdepth: 1
-
-    language/index
-
- .. toctree::
-    :maxdepth: 1
-
-    analytic/index
-
- .. toctree::
-    :maxdepth: 1
-
-    science/index
+    mmax/index
 
 ----------
 
