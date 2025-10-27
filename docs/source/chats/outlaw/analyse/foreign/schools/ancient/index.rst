@@ -7,6 +7,11 @@
  .. toctree::
     :maxdepth: 1
 
+    cynicism/index
+
+ .. toctree::
+    :maxdepth: 1
+
     epicurus/index
 
  .. toctree::

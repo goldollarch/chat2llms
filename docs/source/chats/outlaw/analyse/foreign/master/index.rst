@@ -20,6 +20,11 @@
  .. toctree::
     :maxdepth: 2
 
+    middle/index
+
+ .. toctree::
+    :maxdepth: 2
+
     recent/index
 
  .. toctree::
@@ -31,6 +36,4 @@
  .. toctree::
     :maxdepth: 2
 
-    nowaday/index
-
-
+    today/index

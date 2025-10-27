@@ -47,14 +47,14 @@ Nominalism
 
 *   **代表人物**：
 
-    *   :doc:`彼得·阿伯拉尔 </chats/outlaw/analyse/foreign/master/ancient/abelard/index>` ：概念论的主要奠基者。他提出了精密的论证，指出共相是 **心灵通过抽象形成的概念**，用于 **谓述** 多个个体。它的存在依赖于心灵的活动，而非独立的客观实在。
+    *   :doc:`彼得·阿伯拉尔 </chats/outlaw/analyse/foreign/master/middle/abelard/index>` ：概念论的主要奠基者。他提出了精密的论证，指出共相是 **心灵通过抽象形成的概念**，用于 **谓述** 多个个体。它的存在依赖于心灵的活动，而非独立的客观实在。
 
-    *   :doc:`奥卡姆的威廉 </chats/outlaw/analyse/foreign/master/ancient/william/index>` ：晚期唯名论的集大成者，他的思想极具颠覆性。
+    *   :doc:`奥卡姆的威廉 </chats/outlaw/analyse/foreign/master/middle/william/index>` ：晚期唯名论的集大成者，他的思想极具颠覆性。
 
 
 三、奥卡姆的威廉与“奥卡姆剃刀”
 
- :doc:`奥卡姆的威廉 </chats/outlaw/analyse/foreign/master/ancient/william/index>` 是唯名论最著名的代表，他的思想极大地推动了唯名论的发展并产生了深远影响。
+ :doc:`奥卡姆的威廉 </chats/outlaw/analyse/foreign/master/middle/william/index>` 是唯名论最著名的代表，他的思想极大地推动了唯名论的发展并产生了深远影响。
 
 *   **核心思想**：
 
@@ -92,7 +92,7 @@ Nominalism
 
 总而言之，唯名论的核心思想在于，它是一场 **“个体的解放运动”和“形而上学的瘦身计划”** 。它教导我们，**真实世界的丰富性和实在性在于其具体、多样、个别的存在物，而不是那些我们用以概括它们的抽象标签。**
 
-从 :doc:`罗瑟林 </chats/outlaw/analyse/foreign/master/ancient/rosecelin/index>` 的声音，到 :doc:`彼得·阿伯拉尔 </chats/outlaw/analyse/foreign/master/ancient/abelard/index>` 的概念，再到 :doc:`奥卡姆的威廉 </chats/outlaw/analyse/foreign/master/ancient/william/index>` 的剃刀，唯名论者完成了一次哲学上的“哥白尼式革命”：**将哲学的焦点从抽象的“共相天堂”拉回到了具体的“个体世界”**。它的胜利，标志着中世纪经院哲学的衰落，并深刻地塑造了现代哲学、科学和政治思想的个体主义、经验主义和实证主义基调。
+从 :doc:`罗瑟林 </chats/outlaw/analyse/foreign/master/middle/rosecelin/index>` 的声音，到 :doc:`彼得·阿伯拉尔 </chats/outlaw/analyse/foreign/master/middle/abelard/index>` 的概念，再到 :doc:`奥卡姆的威廉 </chats/outlaw/analyse/foreign/master/middle/william/index>` 的剃刀，唯名论者完成了一次哲学上的“哥白尼式革命”：**将哲学的焦点从抽象的“共相天堂”拉回到了具体的“个体世界”**。它的胜利，标志着中世纪经院哲学的衰落，并深刻地塑造了现代哲学、科学和政治思想的个体主义、经验主义和实证主义基调。
 
 ------------
 

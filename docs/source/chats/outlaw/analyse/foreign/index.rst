@@ -9,7 +9,7 @@
    
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
-哲学层次认识
+西方哲学层次认识
 
 -------------------------
 
@@ -28,3 +28,12 @@
 
     schools/index
     
+
+----------
+
+哲学常识
+
+-----------
+
+[:doc:`西方哲学简史 </chats/outlaw/analyse/foreign/review>`]
+

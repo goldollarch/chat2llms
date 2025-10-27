@@ -132,4 +132,4 @@ Frankfurt
 ---------------------------
 
 [:doc:`西方马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>`]
-[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/nowaday/pmmax/index>`]
+[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/pmmax/index>`]

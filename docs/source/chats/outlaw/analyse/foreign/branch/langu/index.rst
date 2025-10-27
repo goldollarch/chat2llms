@@ -184,3 +184,11 @@
 
     grice/index
 
+
+----------
+
+哲学常识
+
+-----------
+
+[:doc:`语言哲学和分析哲学关系 </chats/outlaw/analyse/foreign/branch/langu/analytic>`]

@@ -154,4 +154,4 @@ Zeno of Citium
 
 ---------------------------
 
-【:doc:`古希腊两个芝诺（Zeno） </chats/outlaw/analyse/foreign/master/ancient/zenoc/zenos>`】
+【:doc:`古希腊两个芝诺（Zeno） </chats/outlaw/analyse/foreign/master/ancient/zenos>`】
