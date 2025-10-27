@@ -127,8 +127,8 @@ ChatGPT
 
 ---
 
-[[马](/chats/outlaw/analyse/foreign/master/recent/max/chatgpt.md)]
-[[列](/chats/outlaw/analyse/foreign/master/modern/lenin/chatgpt.md)]
+[[马](/chats/outlaw/analyse/foreign/master/recent/marx/chatgpt.md)]
+[[列](/chats/outlaw/analyse/foreign/branch/politic/lenin/chatgpt.md)]
 [[毛](/chats/outlaw/analyse/chinese/school/ccp/m/chatgpt.md)]
 [[邓](/chats/outlaw/analyse/chinese/school/ccp/d/chatgpt.md)]
 [[江](/chats/outlaw/analyse/chinese/school/ccp/j/chatgpt.md)]

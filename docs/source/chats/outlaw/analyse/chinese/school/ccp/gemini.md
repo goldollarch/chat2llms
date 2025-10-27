@@ -45,8 +45,8 @@ Gemini
 
 ---
 
-[[马](/chats/outlaw/analyse/foreign/master/recent/max/max_gmn.md)]
-[[列](/chats/outlaw/analyse/foreign/master/modern/lenin/gemini.md)]
+[[马](/chats/outlaw/analyse/foreign/master/recent/marx/max_gmn.md)]
+[[列](/chats/outlaw/analyse/foreign/branch/politic/lenin/gemini.md)]
 [[毛](/chats/outlaw/analyse/chinese/school/ccp/m/gemini.md)]
 [[邓](/chats/outlaw/analyse/chinese/school/ccp/d/gemini.md)]
 [[江](/chats/outlaw/analyse/chinese/school/ccp/j/gemini.md)]

@@ -87,8 +87,8 @@ Qwen
 
 ---
 
-[[马](/chats/outlaw/analyse/foreign/master/recent/max/max_qw.md)]
-[[列](/chats/outlaw/analyse/foreign/master/modern/lenin/qwen.md)]
+[[马](/chats/outlaw/analyse/foreign/master/recent/marx/max_qw.md)]
+[[列](/chats/outlaw/analyse/foreign/branch/politic/lenin/qwen.md)]
 [[毛](/chats/outlaw/analyse/chinese/school/ccp/m/qwen.md)]
 [[邓](/chats/outlaw/analyse/chinese/school/ccp/d/qwen.md)]
 [[江](/chats/outlaw/analyse/chinese/school/ccp/j/qwen.md)]
