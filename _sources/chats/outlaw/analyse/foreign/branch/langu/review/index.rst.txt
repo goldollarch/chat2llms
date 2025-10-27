@@ -24,7 +24,7 @@ Overview
 
 *   **核心思想**：语言不是被动地反映一个预先存在的现实，而是主动地 **参与建构** 我们所感知的社会现实和身份。
 
-*   **代表人物**：:doc:`米歇尔·福柯 </chats/outlaw/analyse/foreign/master/modern/foucault/index>`、:doc:`后结构主义者 </chats/outlaw/analyse/foreign/schools/nowaday/posts/index>`。
+*   **代表人物**：:doc:`米歇尔·福柯 </chats/outlaw/analyse/foreign/master/modern/foucault/index>`、:doc:`后结构主义者 </chats/outlaw/analyse/foreign/schools/today/posts/index>`。
 
 *   **关键概念**： **“话语”** （Discourse）。特定领域（如医学、法律）的话语体系，通过定义概念、规则和“真理”，塑造了我们理解世界和自身的方式（如何为“正常”，何为“疯狂”）。
 

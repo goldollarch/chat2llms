@@ -34,4 +34,4 @@ Grok
 
 ---
 
-[[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/frankfurt/grok.md)][[后现代马克思主义](/chats/outlaw/analyse/foreign/schools/nowaday/pmmax/grk.md)]
+[[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/frankfurt/grok.md)][[后现代马克思主义](/chats/outlaw/analyse/foreign/schools/today/pmmax/grk.md)]

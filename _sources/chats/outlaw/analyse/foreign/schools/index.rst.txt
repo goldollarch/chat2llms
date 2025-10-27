@@ -30,12 +30,12 @@
  .. toctree::
     :maxdepth: 2
 
-    nowaday/index
+    today/index
 
 
 ----------
 
-哲学小常识
+哲学常识
 
 -----------
 

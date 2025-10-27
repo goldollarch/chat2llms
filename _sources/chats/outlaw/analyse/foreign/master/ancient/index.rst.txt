@@ -63,16 +63,6 @@
  .. toctree::
     :maxdepth: 1
 
-    augustine/index
-
- .. toctree::
-    :maxdepth: 1
-
-    anselm/index
-
- .. toctree::
-    :maxdepth: 1
-
     anesidem/index
 
  .. toctree::
@@ -83,17 +73,12 @@
  .. toctree::
     :maxdepth: 1
 
-    abelard/index
-
- .. toctree::
-    :maxdepth: 1
-
-    aquinas/index
-
- .. toctree::
-    :maxdepth: 1
-
     chrysipus/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    diogenes/index
 
  .. toctree::
     :maxdepth: 1
@@ -104,14 +89,4 @@
     :maxdepth: 1
 
     epictetus/index
-
- .. toctree::
-    :maxdepth: 1
-
-    rosecelin/index
-
- .. toctree::
-    :maxdepth: 1
-
-    william/index
 

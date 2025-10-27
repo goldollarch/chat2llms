@@ -75,4 +75,4 @@ Qwen
 
 --------
 
-[[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/frankfurt/qw.md)][[后现代马克思主义](/chats/outlaw/analyse/foreign/schools/nowaday/pmmax/qw.md)]
+[[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/frankfurt/qw.md)][[后现代马克思主义](/chats/outlaw/analyse/foreign/schools/today/pmmax/qw.md)]

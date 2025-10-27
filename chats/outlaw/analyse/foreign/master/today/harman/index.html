@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graham Harman &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Gemini" href="../grant/gemini.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../branch/index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">大师</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">前沿</a></li>
+      <li class="breadcrumb-item active">Graham Harman</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/master/today/harman/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="graham-harman">
+<h1>Graham Harman<a class="headerlink" href="#graham-harman" title="Link to this heading"></a></h1>
+<p>基于格拉汉姆·哈曼（Graham Harman）的​​对象导向本体论（Object-Oriented Ontology, OOO）​​ 哲学核心思想</p>
+<hr class="docutils" />
+<p>格拉汉姆·哈曼的 <strong>对象导向本体论</strong> 是21世纪哲学中最具原创性和影响力的思想之一。其核心思想可以概括为： <strong>对西方哲学传统发起一场彻底的“本体论革命”，将一切存在物——无论是岩石、茶杯、人类、公司还是电子——都提升为平等的“对象”，并主张所有对象都是深不可测的，其真实本质永远在彼此的关系中“撤回”，从而形成一个神秘而扁平的本体论宇宙。</strong></p>
+<p>OOO的哲学体系精妙而独特，其核心要义可以梳理为以下四大支柱：</p>
+<p>一、核心本体论：对象是终极的实在</p>
+<p>这是OOO的基石，也是一个极具颠覆性的起点。</p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>： <strong>宇宙的基本单位是“对象”。</strong> 对象不仅指日常物品，而是指 <strong>任何拥有某种统一性和自主性，不能被完全还原为其组成部分或与其环境关系的实体</strong>。</p></li>
+<li><p><strong>对象的范围</strong>：从最微小的 <strong>亚原子粒子</strong> 到最宏大的 <strong>星系</strong>，从真实的 <strong>茶杯</strong> 到虚构的 <strong>公司</strong> 或 <strong>观念</strong>，都是对象。它们在 <strong>本体论上是平等的</strong> ——茶杯并不比构成它的原子更不真实，公司也不比它的员工更虚幻。</p></li>
+<li><p><strong>关键内涵</strong>：对象具有 <strong>独立的、不依赖于其他对象的存在</strong>。一个对象即使不被其他对象感知或使用，它依然存在。这与将事物还原为关系网络（如社会建构论）或更基本粒子（如还原论）的观点截然相反。</p></li>
+</ul>
+<p>二、对象的二元结构：实在对象与感性对象</p>
+<p>哈曼认为，所有对象都具有一种深刻的内在分裂，这是理解其“神秘性”的关键。</p>
+<ul class="simple">
+<li><p><strong>实在对象</strong>：指 <strong>对象自身深不可测的内在本质或统一性</strong>。它是一个私密的、隐藏的领域，永远无法被其他对象直接接触或完全理解。</p></li>
+<li><p><strong>感性对象</strong>：指当一个对象与其他对象发生关系时， <strong>在对方“面前”所呈现出的那个简化版、可感知的侧面或形象</strong>。</p></li>
+<li><p><strong>著名比喻</strong>：你与你的朋友互动时，你接触到的并不是朋友完整的、深不可测的内心世界（实在对象），而只是他在你面前表现出来的那个特定形象（感性对象）。 <strong>实在对象永远“撤回”到感性对象之后。</strong></p></li>
+</ul>
+<p>三、关系理论：间接关系与“风化”</p>
+<p>这是OOO最富洞见的部分，解释了对象之间如何互动。</p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>： <strong>所有对象间的互动都是间接的、扭曲的、不完整的。</strong></p></li>
+<li><p><strong>关系不对称论题</strong>：当两个对象（如“人”与“茶杯”）互动时，它们并非直接接触对方的实在对象，而是 <strong>通过各自的感性对象进行一种“翻译”或“代理”</strong>。</p>
+<ul>
+<li><p>人通过视觉、触觉等感官（人的感性对象）来接触茶杯呈现出的颜色、形状等（茶杯的感性对象）。</p></li>
+<li><p>茶杯的实在对象（其完整的、深层的本质）和人的实在对象（其完整的意识）都未直接参与互动，它们“撤回”了。</p></li>
+</ul>
+</li>
+<li><p><strong>“风化”</strong>：哈曼用这个地质学术语来描述互动过程中的 <strong>失真和转化</strong>。就像风和水侵蚀岩石，改变其形状一样，任何互动都会改变所涉及的对象，使其以某种特定的、不完整的方式呈现。</p></li>
+</ul>
+<p>四、四重结构：对对象关系的系统分析</p>
+<p>哈曼后期发展出一个更精细的模型——“四重对象”，来系统化地描述任何互动事件。</p>
+<p>在一个简单的关系（如“火燃烧棉花”）中，涉及四个要素：</p>
+<ol class="arabic simple">
+<li><p><strong>实在对象</strong>：棉花的真实本质（S-O）。</p></li>
+<li><p><strong>感性对象</strong>：棉花在火面前呈现出的可燃性等属性（S-Q）。</p></li>
+<li><p><strong>实在本质</strong>：火的真实本质，即其燃烧能力（R-O）。</p></li>
+<li><p><strong>感性本质</strong>：火在燃烧过程中表现出的具体火焰形态（R-Q）。</p></li>
+</ol>
+<p>哈曼认为，真正的互动（“燃烧”）只发生在 <strong>感性对象之间（S-Q与R-Q）</strong>。而两个实在对象（S-O与R-O）则永远隐藏在背景中，无法直接接触。这解释了为什么关系总是不完整的，以及为什么对象总保有一份神秘性。</p>
+<p>—</p>
+<p>核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>本体论</strong></p></td>
+<td><p><strong>“对象是终极实在”</strong>，万物在本体论上平等，不可相互还原。</p></td>
+<td><p><strong>对象、扁平本体论、反还原论</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>对象结构</strong></p></td>
+<td><p><strong>所有对象都具有”实在对象”与”感性对象”的二元分裂</strong>。</p></td>
+<td><p><strong>实在对象、感性对象、撤回</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>关系理论</strong></p></td>
+<td><p><strong>对象间关系是间接的、扭曲的，通过”风化”进行</strong>。</p></td>
+<td><p><strong>间接关系、风化、关系不对称</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>系统模型</strong></p></td>
+<td><p><strong>用”四重对象”模型精细刻画任何互动事件中的隐匿与显现</strong>。</p></td>
+<td><p><strong>四重对象、隐喻、美学模型</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>思想特质与影响</p>
+<ul class="simple">
+<li><p><strong>彻底的去人类中心主义</strong>：OOO将人从“万物尺度”的王座上拉下，将其视为众多对象中的普通一员。</p></li>
+<li><p><strong>美学的本体论转向</strong>：哈曼认为，既然对象无法被概念理性直接把握，那么 <strong>艺术</strong> （尤其是隐喻和暗示）就成为接近对象神秘性的更佳途径。OOO在艺术、建筑和文学批评领域产生了巨大影响。</p></li>
+<li><p><strong>与相关思潮的区别</strong>：</p>
+<ul>
+<li><p><strong>vs. 拉图尔的ANT</strong>：拉图尔强调行动者之间的 <strong>联结网络</strong>，而哈曼强调对象的 <strong>独立性与退缩</strong>。</p></li>
+<li><p><strong>vs. 新唯物主义</strong>：新唯物主义强调物质的活力和流变，而OOO更关注对象的 <strong>稳定性和统一性</strong>。</p></li>
+</ul>
+</li>
+</ul>
+<p>总而言之，格拉汉姆·哈曼的核心思想在于，他是一位 <strong>“对象的辩护者”和“关系神秘性的揭示者”</strong> 。他教导我们， <strong>世界不是一个光滑的、完全可知的关系网络，而是一个由无数深不可测的“对象”构成的、充满神秘缝隙的宇宙。</strong> 哲学的任务不是用概念去穿透对象，而是 <strong>尊重对象的退缩，并欣赏它们在不完整的关系中产生的无限可能性和美感</strong>。他的全部工作是对 <strong>实在之深度、独立性与神秘性</strong> 的一次充满魅力的重新发现。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#withdrawal-and-ontological-autonomy-judicial-reduction-as-violation-of-the-object-s-inner-real">1. Withdrawal and Ontological Autonomy: Judicial Reduction as Violation of the Object’s Inner Real</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#the-quadruple-object-and-relational-tension-the-evidence-chain-as-distorted-fourfold-harmony">2. The Quadruple Object and Relational Tension: The “Evidence Chain” as Distorted Fourfold Harmony</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#critique-of-correlationism-and-flat-ontology-human-centric-order-as-speculative-denial-of-object-equality">3. Critique of Correlationism and Flat Ontology: Human-Centric “Order” as Speculative Denial of Object Equality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#conclusion-harman-s-lens-on-the-casea-relational-veil-over-withdrawn-dignity">Conclusion: Harman’s Lens on the Case—A Relational Veil Over Withdrawn Dignity</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#objects-withdraw-silence-as-ontological-depth">1. <strong>Objects Withdraw: Silence as Ontological Depth</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#undermining-and-overmining-the-states-ontological-violence">2. <strong>Undermining and Overmining: The State’s Ontological Violence</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#the-autonomy-of-objects-ethics-without-transparency">3. <strong>The Autonomy of Objects: Ethics Without Transparency</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#assemblages-and-the-hidden-real">4. <strong>Assemblages and the Hidden Real</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#conclusion-silence-as-withdrawal-withdrawal-as-power">5. <strong>Conclusion: Silence as Withdrawal, Withdrawal as Power</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>“对象”的平等性与司法对“非人对象”的暴力征用</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“真实内核”的不可触及与司法的“关系”暴力</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#versus">三、 <strong>“诱惑” versus “暴力”：关系生态的破坏</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#undermining-overmining">四、 <strong>“ undermining” 与 “overmining” 的双重操作</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3"><strong>结论：一个对象间“暴力关系”的形而上学悲剧</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 实在对象与“撤退”：本质的不可通达性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#quadruple-structure">二、 四重结构（Quadruple Structure）：表象与实在的张力</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#relations">三、 关联（Relations）与权力网络的平庸性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">结论：撤退的实在对象与表象的暴力</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../grant/gemini.html" class="btn btn-neutral float-left" title="Gemini" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
