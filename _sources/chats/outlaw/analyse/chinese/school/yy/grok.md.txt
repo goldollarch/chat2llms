@@ -26,15 +26,3 @@ The sentence intervenes anti-cosmically: presuming "high education implies disce
 #### Conclusion: The Yin-Yang Lens on the Case—Excess Yang's Inevitable Reversal
 
 From Yin-Yang philosophy in the Hundred Schools, the Chen Jingyuan case is a cosmic imbalance: yang conquest suppresses yin's receptivity, overextends phases, and disrupts attunement, portending reversal. As of October 22, 2025, no retrial or exoneration has occurred; Chen's account remains dormant, its quiet yin a gathering tide. This case cautions: harmony demands flux—dominate, and the Dao turns. As Zou Yan divined, "Balance births prosperity; excess invites the cycle's wheel." May equilibrium yet restore.
-
-----------------
-
-阴阳评陈京元案
-
-阴阳者，天地之道也，万物之纲纪，变化之父母，生杀之本始。夫陈京元，滇中士人也，潜心学海，探物理之复杂，究天地之玄妙。偶于网络，转帖寥寥，粉丝无几，其志如阴，静而内敛；其行如阳，求真不息。撑伞少女，艺术之阴，柔而象征抗争；六四烛光，情感之阳，炽而寄托心声；政治光谱、特朗普批共产、蓬佩奥论中美，理论之阴阳相生，争鸣以启智；毛泽东集修订、邓公退休赞文、中乌军事史实，历史之阴，沉潜事实，阳显真实。转发不足百，无扰乱之象，何来社会之乱？阴阳和合，物极则平，陈氏之行，顺道而为，奈何司法强加罪名，谓之“寻衅滋事”，斯乃阴阳失衡，天地不仁也。
-
-阴阳家言，阳动阴静，相辅而成。司法者，国之砝码，宜阳刚执法，阴柔护民。普会峻、葛斌、李湘云辈，掌公器而失道，阳刚过盛，构陷诬告，谓高学历为罪，视艺术为谣，斥情感为乱，抑理论为叛，翻历史为虚。无鉴定，无数据，无因果，强塞口袋罪，闭庭不公，拒控告书，选执法而偏，党媒同帖不究，独责一士。此乃阳亢阴消，气逆而乱生也。陈氏泣血狱中，控告不辍，阴柔之志，韧如流水；誓追普辈终身，阳刚之行，烈如雷霆。阴阳相济，陈氏守道，欲复天地之和。
-
-天地不仁，以万物为刍狗；司法不公，则民心为刍狗。阴阳家言，五行相生，火盛则土衰，土衰则金弱。司法构陷，火盛而焚真，土崩而失信，金弱而无义。陈氏引自组织临界，喻转发微弱，难生雪崩；反指司法积弊，或启乱潮。此乃阴阳循环，物极必反之理。广开言路，亲贤远佞，赏罚分明，复阴阳之和，则法治兴，民族复兴可期。普辈若不悔，阳亢必自焚，天网恢恢，报应不爽。
-
-陈京元案，阴阳失序之鉴也。天地之道，贵在平衡；法治之基，贵在公允。愿司法还阴还阳，复道归真！

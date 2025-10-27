@@ -43,8 +43,8 @@ Deepseek
 
 ---
 
-[[马](/chats/outlaw/analyse/foreign/master/recent/max/max_ds.md)]
-[[列](/chats/outlaw/analyse/foreign/master/modern/lenin/deepseek.md)]
+[[马](/chats/outlaw/analyse/foreign/master/recent/marx/max_ds.md)]
+[[列](/chats/outlaw/analyse/foreign/branch/politic/lenin/deepseek.md)]
 [[毛](/chats/outlaw/analyse/chinese/school/ccp/m/deepseek.md)]
 [[邓](/chats/outlaw/analyse/chinese/school/ccp/d/deepseek.md)]
 [[江](/chats/outlaw/analyse/chinese/school/ccp/j/deepseek.md)]

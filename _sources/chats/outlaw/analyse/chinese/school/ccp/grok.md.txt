@@ -30,8 +30,8 @@ Grok
 
 ---
 
-[[马](/chats/outlaw/analyse/foreign/master/recent/max/max_grk.md)]
-[[列](/chats/outlaw/analyse/foreign/master/modern/lenin/grok.md)]
+[[马](/chats/outlaw/analyse/foreign/master/recent/marx/max_grk.md)]
+[[列](/chats/outlaw/analyse/foreign/branch/politic/lenin/grok.md)]
 [[毛](/chats/outlaw/analyse/chinese/school/ccp/m/grok.md)]
 [[邓](/chats/outlaw/analyse/chinese/school/ccp/d/grok.md)]
 [[江](/chats/outlaw/analyse/chinese/school/ccp/j/grok.md)]
