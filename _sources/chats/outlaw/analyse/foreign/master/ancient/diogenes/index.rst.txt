@@ -129,4 +129,5 @@ Diogenes
     copilot
     deepseek
     gemini
+    qwen
 

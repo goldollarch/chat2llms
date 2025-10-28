@@ -30,4 +30,5 @@ Daubert Standard
     copilot
     deepseek
     gemini
+    qwen
 

@@ -83,4 +83,5 @@ Causal theory
     copilot
     deepseek
     gemini
+    qwen
 
