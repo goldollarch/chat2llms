@@ -128,3 +128,4 @@ Lucretius
     copilot
     deepseek
     gemini
+    qwen

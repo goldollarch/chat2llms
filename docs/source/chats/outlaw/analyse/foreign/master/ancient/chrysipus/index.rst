@@ -130,3 +130,4 @@ Chrysippus
     copilot
     deepseek
     gemini
+    qwen

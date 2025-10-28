@@ -150,6 +150,7 @@ Zeno of Citium
     copilot
     deepseek
     gemini
+    qwen
 
 
 ---------------------------

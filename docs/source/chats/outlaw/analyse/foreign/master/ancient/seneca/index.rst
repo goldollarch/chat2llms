@@ -124,3 +124,4 @@ Seneca
     copilot
     deepseek
     gemini
+    qwen

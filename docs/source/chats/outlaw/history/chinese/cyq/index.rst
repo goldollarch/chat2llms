@@ -106,3 +106,4 @@
     gemini
     copilot
     deepseek
+    qwen

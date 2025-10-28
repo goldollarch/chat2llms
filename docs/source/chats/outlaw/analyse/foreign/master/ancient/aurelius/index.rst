@@ -117,3 +117,4 @@ Aurelius
     copilot
     deepseek
     gemini
+    qwen

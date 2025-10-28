@@ -123,3 +123,4 @@ Epictetus
     copilot
     deepseek
     gemini
+    qwen
