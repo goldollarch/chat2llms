@@ -1,5 +1,5 @@
 Bernard Williams
-=========
+====================
 
 根据伯纳德·威廉姆斯（Bernard Williams）的政治哲学视角。
 
@@ -82,6 +82,7 @@ Bernard Williams
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds

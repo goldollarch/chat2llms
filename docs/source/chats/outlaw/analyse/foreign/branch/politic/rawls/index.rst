@@ -101,6 +101,7 @@ John Rawls
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     rawls_ds

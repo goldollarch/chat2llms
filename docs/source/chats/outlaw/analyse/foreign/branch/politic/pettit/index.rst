@@ -1,5 +1,5 @@
 Philip Pettit
-=========
+===============
 
 基于菲利普·佩蒂特（Philip Pettit）的政治哲学核心思想。
 
@@ -90,6 +90,7 @@ Philip Pettit
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds

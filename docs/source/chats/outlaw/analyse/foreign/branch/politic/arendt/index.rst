@@ -1,5 +1,5 @@
 Hannah Arendt
-=========
+==============
 
 基于汉娜·阿伦特（Hannah Arendt）的政治哲学核心思想。
 
@@ -99,6 +99,7 @@ Hannah Arendt
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     arendt_ds

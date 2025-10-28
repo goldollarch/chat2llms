@@ -1,5 +1,5 @@
 Michael Sandel
-=========
+=================
 
 根据迈克尔·桑德尔（Michael Sandel）政治哲学核心思想。
 
@@ -86,6 +86,7 @@ Michael Sandel
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     sandel_ds

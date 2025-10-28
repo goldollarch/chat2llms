@@ -93,6 +93,7 @@ Michael Oakeshott
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds

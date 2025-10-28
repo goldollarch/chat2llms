@@ -97,6 +97,7 @@ Robert Nozick
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     nozick_ds
