@@ -2,66 +2,75 @@
 
 ----------
 
-Evaluating the case of Dr. Chen Jingyuan through the lens of **New Experimentalism**, particularly the philosophy of Ian Hacking, invites us to rethink the epistemic and political status of the evidence and procedures used against him. Hacking’s work emphasizes the **primacy of experimental practice**, the **stability of phenomena**, and the **constructed yet real nature of scientific objects**. Applying these insights to a legal-political context reveals how **power can masquerade as epistemic authority**, and how the absence of experimental rigor undermines the legitimacy of state claims.
+好的。我将结合伊恩·哈金（Ian Hacking）所代表的**新实验主义（New Experimentalism）**核心思想来分析陈京元案。哈金强调实验在科学中的自主地位，提出“如果你能造出它，你就能相信它”（if you can spray them, then they are real），并主张实验实践往往独立于理论而具有验证与建构现实的力量。以下为中英文对照的评析：  
 
 ---
 
-## 1. **Hacking’s “Entity Realism”: Do the Charges Track a Stable Phenomenon?**
+## 一、实验的自主性与法律证据  
+### Autonomy of Experiment and Legal Evidence  
 
-Hacking’s *entity realism* argues that we should believe in entities that we can manipulate and observe in experimental settings. In Dr. Chen’s case, the charge of “picking quarrels and provoking trouble” lacks this kind of epistemic stability:
+**中文**：  
+哈金认为，实验并非只是理论的附庸，而是具有独立的认识论地位。在本案中，国家的指控缺乏“实验性”的验证：没有可重复、可观察的证据来证明个体言论必然导致社会混乱。换言之，法律叙事停留在理论层面，却没有通过“实验性事实”来支撑。  
 
-- It is not a **manipulable phenomenon**—there is no clear operational definition or reproducible test.
-- It does not emerge from **experimental interaction**, but from **interpretive fiat**.
-- It fails to meet the standard of **ontological commitment** that Hacking demands: we cannot say “this is real” in the same way we say electrons are real.
-
-Thus, the accusation is not grounded in a stable epistemic object—it is a **political construct**, not a scientific one.
-
----
-
-## 2. **“Representing and Intervening”: Where Is the Intervention?**
-
-Hacking distinguishes between *representing* (theory) and *intervening* (experiment). Scientific knowledge gains credibility when it leads to successful interventions. In Dr. Chen’s case:
-
-- The state’s representation of his speech as harmful lacks **interventionist support**—there is no causal mechanism, no demonstrable effect.
-- The legal apparatus does not test or falsify its claims—it **asserts them**.
-- This breaks the epistemic contract of New Experimentalism: **without intervention, representation is hollow**.
-
-Dr. Chen’s case reveals a system that **represents without testing**, punishes without proving.
+**English**:  
+Hacking argued that experiments are not mere auxiliaries to theory but have independent epistemic authority. In this case, the state’s charge lacked “experimental” validation: there was no repeatable, observable evidence that individual speech necessarily causes social disorder. In other words, the legal narrative remained theoretical without being grounded in experimental facts.  
 
 ---
 
-## 3. **The Social Construction of Knowledge and the Politics of Classification**
+## 二、“造出即实在”与社会现实  
+### “If You Can Make Them, They Are Real” and Social Reality  
 
-Hacking’s work on the *looping effects of human kinds* shows how classifications affect the people classified. Dr. Chen is labeled a “troublemaker,” and this label reshapes his social reality:
+**中文**：  
+哈金提出，科学对象的实在性在于我们能否在实验中“造出”并操控它们。在本案中，所谓“扰乱秩序”的威胁并未被“造出”或直接呈现，而是通过话语建构出来的抽象概念。相比之下，陈京元的言论是可观察、可记录的“实在”。这表明，国家惩罚的对象并非经验上可操控的事实，而是话语性虚构。  
 
-- The classification is **not neutral**—it is embedded in power.
-- It creates a **feedback loop**: the label justifies surveillance, which reinforces the label.
-- The category itself is **unstable**, shifting with political needs rather than empirical findings.
-
-This is a classic case of **dynamic nominalism**, where the state invents a category and then treats it as real, without epistemic justification.
-
----
-
-## 4. **Experimental Practice vs. Political Procedure**
-
-New Experimentalism values **hands-on engagement**, reproducibility, and empirical grounding. Dr. Chen’s case lacks all three:
-
-- There is no **experimental test** of his speech’s alleged harm.
-- No **peer review**, no **methodological transparency**, no **replication**.
-- The legal process substitutes **ritual for experiment**, **authority for evidence**.
-
-From a Hacking-inspired view, this is not knowledge—it is **performance**.
+**English**:  
+Hacking suggested that the reality of scientific entities lies in whether we can “make and manipulate” them in experiments. In this case, the alleged “threat to order” was not “made” or directly manifested but constructed discursively as an abstract notion. By contrast, Chen’s speech was observable and recordable reality. This shows that what the state punished was not an empirically manipulable fact but a discursive fiction.  
 
 ---
 
-## 5. **Conclusion: The Absence of Epistemic Integrity**
+## 三、实验实践与社会检验  
+### Experimental Practice and Social Testing  
 
-From the perspective of Ian Hacking’s New Experimentalism, the case of Dr. Chen Jingyuan reveals a profound **epistemic failure**. The state’s claims are not grounded in stable phenomena, reproducible interventions, or rigorous classification. They are **politically expedient constructs**, lacking the experimental integrity that gives scientific claims their authority.
+**中文**：  
+新实验主义强调，科学进步依赖于实验实践的不断检验与修正。在社会层面，批判性言论本应成为“实验”社会制度的方式：通过表达不同意见，社会可以检验自身的合理性与稳定性。然而，本案中，国家拒绝这种“社会实验”，选择压制，从而阻断了制度自我修正的可能性。  
 
-> “If you can spray them, then they are real.” — Ian Hacking, *Representing and Intervening*
-
-Dr. Chen cannot be “sprayed”—his conscience, his silence, his critique are not manipulable entities. They are **moral phenomena**, and the attempt to criminalize them is a misuse of epistemic language in service of power.
+**English**:  
+New experimentalism stresses that scientific progress depends on experimental practices of testing and revision. At the social level, critical speech should function as an “experiment” on institutions: by expressing dissent, society can test its own rationality and stability. Yet in this case, the state rejected such “social experimentation,” opting for repression, thereby blocking the possibility of institutional self-correction.  
 
 ---
 
-If you wish, I can expand this into a Hacking-style essay titled *Phenomena Without Proof: Experimentalism and the Ethics of Evidence*, or compose a fictional dialogue between Ian Hacking and a modern dissenter. Just say the word.
+## 四、实验事实与话语权力  
+### Experimental Facts and Discursive Power  
+
+**中文**：  
+哈金提醒我们，实验事实的力量在于其可重复性与可操控性，而不是权威话语的宣称。本案中，国家依赖的是权力话语，而非经验事实。由此可见，法律判断缺乏“实验事实”的支撑，而更多是一种政治性的建构。  
+
+**English**:  
+Hacking reminds us that the power of experimental facts lies in their repeatability and manipulability, not in authoritative declarations. In this case, the state relied on discursive power rather than empirical facts. Thus, the legal judgment lacked the support of “experimental facts” and was more a political construction.  
+
+---
+
+## 五、结论  
+### Conclusion  
+
+**中文**：  
+从哈金的新实验主义视角看，陈京元案揭示了：  
+- 法律指控缺乏实验性的验证与经验支撑；  
+- “扰乱秩序”的威胁是话语建构，而非经验实在；  
+- 公民言论本应作为“社会实验”来检验制度，却被压制；  
+- 权力依赖话语而非事实，导致制度失去自我修正的能力。  
+
+哈金会提醒我们：一个健康的社会，应当像科学实验一样，允许多元的“实验性实践”，通过不断检验与修正来接近真实与公正。  
+
+**English**:  
+From Hacking’s new experimentalism perspective, Chen Jingyuan’s case reveals that:  
+- The legal charge lacked experimental validation and empirical support.  
+- The “threat to order” was discursively constructed, not an empirical reality.  
+- Citizens’ speech should have functioned as a “social experiment” to test institutions but was suppressed.  
+- Authority relied on discourse rather than facts, depriving institutions of self-corrective capacity.  
+
+Hacking would remind us that a healthy society, like science, should allow plural “experimental practices,” using continuous testing and revision to approach truth and justice.  
+
+---
+
+要不要我进一步帮你把这份中英文对照的分析扩展成一篇 **“新实验主义与社会实验”专题论文**，并与范·弗拉森的“建构经验论”进行对比，展示两种科学哲学如何揭示社会制度与经验事实之间的张力？

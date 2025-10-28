@@ -1,5 +1,5 @@
 Martin Luther King
-==============
+===================
 
 根据马丁·路德·金（Martin Luther King, Jr.）政治​哲学理念。
 

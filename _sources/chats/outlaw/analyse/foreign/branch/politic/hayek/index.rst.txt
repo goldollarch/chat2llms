@@ -1,5 +1,5 @@
 Friedrich Hayek
-=========
+================
 
 基于弗里德里希·哈耶克（Friedrich Hayek）的政治经济学思想。
 
@@ -72,6 +72,7 @@ Friedrich Hayek
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     hayek_ds

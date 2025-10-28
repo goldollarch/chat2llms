@@ -87,6 +87,7 @@ Isaiah Berlin
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     bolin_ds

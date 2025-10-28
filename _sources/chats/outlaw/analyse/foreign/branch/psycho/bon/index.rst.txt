@@ -87,6 +87,7 @@ Gustave Le Bon
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds

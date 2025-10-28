@@ -1,5 +1,5 @@
 Erik H. Erikson
-=========
+=================
 
 基于埃里克·埃里克森（Erik H. Erikson）的 **心理社会发展理论** （Theory of Psychosocial Development）。
 
@@ -100,6 +100,7 @@ Erik H. Erikson
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grok
     gemini
     chatgpt

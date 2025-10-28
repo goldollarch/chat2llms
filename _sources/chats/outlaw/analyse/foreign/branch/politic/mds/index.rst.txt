@@ -104,6 +104,7 @@ Montesquieu
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     mds_ds

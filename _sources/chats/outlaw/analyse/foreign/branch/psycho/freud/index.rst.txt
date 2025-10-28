@@ -1,5 +1,5 @@
 Sigmund Freud
-=========
+===============
 
 基于西格蒙德·弗洛伊德创立的精神分析学说。
 
@@ -57,6 +57,7 @@ Sigmund Freud
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grok
     gemini
     chatgpt

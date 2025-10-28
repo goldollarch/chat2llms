@@ -1,5 +1,5 @@
 Thomas Hobbes
-=========
+===============
 
 基于托马斯·霍布斯（Thomas Hobbes）的政治哲学核心思想。
 
@@ -95,6 +95,7 @@ Thomas Hobbes
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     hobbes_ds

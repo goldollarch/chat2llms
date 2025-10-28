@@ -1,5 +1,5 @@
 Leo Strauss
-=========
+============
 
 根据列奥·施特劳斯（Leo Strauss）的政治哲学视角。
 
@@ -82,6 +82,7 @@ Leo Strauss
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds
