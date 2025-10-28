@@ -136,9 +136,9 @@ Alfred Schütz
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grok
     gemini
-    copilot
     chatgpt
     deepseek
     qwen

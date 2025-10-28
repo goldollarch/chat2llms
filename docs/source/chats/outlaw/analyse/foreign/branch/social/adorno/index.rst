@@ -1,5 +1,5 @@
 Theodor Adorno
-=========
+===============
 
 基于 **西奥多·阿多诺（Theodor W. Adorno）** 的批判理论视角。
 
@@ -96,6 +96,7 @@ Theodor Adorno
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grok
     gemini
     chatgpt
