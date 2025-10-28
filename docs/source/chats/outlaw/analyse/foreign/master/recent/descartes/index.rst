@@ -1,5 +1,5 @@
 René Descartes
-=========
+===============
 
 基于​​勒内·笛卡尔（René Descartes）的唯理论哲学​​视角。
 
@@ -111,6 +111,7 @@ René Descartes
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     deepseek

@@ -115,7 +115,7 @@ Realism
  .. toctree::
     :maxdepth: 3
 
-    grok
     copilot
+    grok
     deepseek
     gemini

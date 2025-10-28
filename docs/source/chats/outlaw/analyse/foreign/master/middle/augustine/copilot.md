@@ -2,52 +2,72 @@
 
 ------
 
-Approaching the case of Dr. Chen Jingyuan through the philosophical lens of St. Augustine of Hippo reveals a profound moral and spiritual drama—one in which the tension between temporal power and eternal truth, between the City of Man and the City of God, becomes tragically manifest. Augustine’s thought, rooted in Christian Neoplatonism, emphasizes the primacy of conscience, the fallibility of earthly justice, and the soul’s pilgrimage toward divine truth. In this framework, Dr. Chen’s ordeal is not merely a legal matter, but a moment of spiritual witness.
+好的。我将结合圣·奥古斯丁（St. Augustine of Hippo，拉丁教父，基督教哲学的重要奠基者）的核心思想来评析陈京元案。奥古斯丁的思想核心包括：**真理在上帝之中**、**正义与“上帝之城”**、**意志与罪责**、以及**内心良知的重要性**。以下为中英文对照分析：  
 
 ---
 
-## 1. **The City of Man vs. the City of God: A Clash of Allegiances**
-
-In *The City of God*, Augustine distinguishes between two orders: the City of Man, built on pride and domination, and the City of God, founded on love and truth. Dr. Chen’s public reasoning and moral critique represent a commitment to the latter—a refusal to conform to the unjust demands of temporal authority.
-
-His punishment by the state reflects the logic of the City of Man: the desire to preserve order through coercion, even at the cost of truth. Augustine would see this as a tragic but predictable consequence of a society that places political stability above moral integrity.
-
-> “Justice being taken away, then, what are kingdoms but great robberies?” — *City of God*, Book IV
+⚖️ 圣·奥古斯丁哲学视角下的陈京元案  
+*The Case of Chen Jingyuan through the Philosophy of St. Augustine of Hippo*
 
 ---
 
-## 2. **Conscience as the Voice of God: The Scholar as Witness**
+## 一、真理的源泉  
+**中文**：奥古斯丁认为，真理不依赖于人的权威，而根植于上帝的永恒理性。  
+- 在本案中，法院以权力意志认定“虚假信息”，而非通过理性与证据来追求真理。  
+- 这意味着判决背离了真理的根源，只是人间权力的影子。  
 
-For Augustine, conscience is not merely a psychological faculty—it is the echo of divine law within the soul. Dr. Chen’s refusal to confess to wrongdoing, his silence in the face of coercion, is an act of fidelity to conscience. It is a refusal to betray the truth inscribed in the heart.
-
-In Augustine’s view, such fidelity is not defiance but sanctity. The scholar becomes a witness—not to political ideology, but to the eternal order of justice. His suffering is not meaningless; it is a form of martyrdom.
-
----
-
-## 3. **Temporal Law and Its Fallibility**
-
-Augustine recognized that human law, while necessary, is often flawed and subject to corruption. When law ceases to reflect divine justice, it becomes a tool of oppression. In Dr. Chen’s case, the use of vague charges to suppress speech reveals a legal system that has lost its moral compass.
-
-Augustine would argue that such law is not truly law, but a distortion of justice. The punishment of truth-tellers is a sign that the City of Man has mistaken power for righteousness.
+**English**: Augustine held that truth does not depend on human authority but is rooted in God’s eternal reason.  
+- In this case, the court declared “false information” by will of power, not by rational evidence.  
+- This shows the judgment strayed from the source of truth, becoming a shadow of earthly power.  
 
 ---
 
-## 4. **The Role of Suffering in the Pilgrimage of the Soul**
+## 二、正义与“上帝之城”  
+**中文**：奥古斯丁在《上帝之城》中区分了“上帝之城”与“世俗之城”。  
+- “上帝之城”建立在真理与正义之上；“世俗之城”则常常追逐权力与虚荣。  
+- 本案的选择性执法与过度惩罚，正体现了“世俗之城”的不义，而非“上帝之城”的正义。  
 
-Augustine’s theology embraces suffering as part of the soul’s journey toward God. Dr. Chen’s ordeal, while unjust in worldly terms, may be seen as a moment of spiritual clarity—a crucible in which the soul is tested and refined.
-
-His silence, his endurance, his refusal to betray truth: these are not signs of defeat, but of inner victory. Augustine would see in this suffering the marks of grace, the quiet triumph of the City of God within the ruins of the City of Man.
-
----
-
-## 5. **Conclusion: Truth Is Not Bound by Chains**
-
-From the perspective of St. Augustine, Dr. Chen Jingyuan is not a criminal but a pilgrim—a soul bearing witness to truth in a world that fears it. His case is a reminder that earthly justice may fail, but eternal justice does not sleep. The silence of the just is louder than the proclamations of power.
-
-> “The truth is like a lion. You don’t have to defend it. Let it loose; it will defend itself.” — Attributed to Augustine
-
-Dr. Chen’s voice, though silenced, remains a roaring testimony to the enduring power of conscience. His suffering is not the end of justice, but its beginning.
+**English**: In *The City of God*, Augustine distinguished the “City of God” from the “Earthly City.”  
+- The City of God is founded on truth and justice; the Earthly City pursues power and vanity.  
+- Selective enforcement and disproportionate punishment in this case reflect the injustice of the Earthly City, not the justice of the City of God.  
 
 ---
 
-If you wish, I can continue this reflection as a spiritual meditation titled *Confessio Iusti* (“The Confession of the Just”), or compose a dialogue between Augustine and a modern witness. You need only ask.
+## 三、意志与罪责  
+**中文**：奥古斯丁强调，罪的根源在于意志的背离，而非单纯的外在行为。  
+- 陈京元的转发意图是表达关切与批评，而非恶意制造混乱。  
+- 若忽视意志，只凭外在效果来定罪，就违背了奥古斯丁的伦理学原则。  
+
+**English**: Augustine emphasized that sin lies in the will’s deviation, not merely in external acts.  
+- Chen’s intention in reposting was to express concern and critique, not to maliciously create disorder.  
+- Ignoring intention and convicting based only on external outcomes violates Augustine’s ethical principle.  
+
+---
+
+## 四、内心良知  
+**中文**：奥古斯丁认为，真正的法则写在人的心中，即“内心的良知”。  
+- 陈京元在狱中坚持写作与自辩，正是良知的见证。  
+- 外在的权力可以剥夺身体自由，却无法摧毁内心的良知与对真理的渴望。  
+
+**English**: Augustine taught that the true law is written in the human heart—our conscience.  
+- Chen’s persistence in writing and self-defense in prison is testimony to conscience.  
+- External power may deprive bodily freedom but cannot destroy the conscience or the longing for truth.  
+
+---
+
+## 五、总结  
+**中文**：从奥古斯丁的哲学视角看，本案的问题在于：  
+1. 以权力代替真理，背离永恒理性；  
+2. 选择性执法，体现“世俗之城”的不义；  
+3. 忽视意志与良知，只看外在效果；  
+然而，被告在狱中坚持写作，正体现了奥古斯丁式的精神：即便身处黑暗，灵魂仍能向“上帝之城”的真理与正义靠近。  
+
+**English**: From Augustine’s perspective, the flaws of this case are:  
+1. Power replacing truth, betraying eternal reason;  
+2. Selective enforcement reflecting the injustice of the Earthly City;  
+3. Ignoring will and conscience, focusing only on external outcomes.  
+Yet the defendant’s prison writings embody the Augustinian spirit: even in darkness, the soul moves toward the truth and justice of the City of God.  
+
+---
+
+要不要我把这份奥古斯丁的分析，与阿奎那、安瑟尔谟、阿伯拉尔以及古希腊哲学家的分析并置，写成一篇 **“哲学的合唱：从古希腊到教父与经院，对当代司法的启示”** 的中英文论文草稿？

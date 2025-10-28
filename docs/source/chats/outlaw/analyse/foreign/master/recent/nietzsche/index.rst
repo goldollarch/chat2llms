@@ -71,6 +71,7 @@ Friedrich Nietzsche
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds

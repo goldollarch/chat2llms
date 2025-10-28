@@ -53,6 +53,7 @@ Baruch Spinoza
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds

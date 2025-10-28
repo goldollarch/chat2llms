@@ -99,6 +99,7 @@ Francis Bacon
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     deepseek

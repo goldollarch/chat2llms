@@ -64,6 +64,7 @@ Evolutionary
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grok
     gemini
     chatgpt

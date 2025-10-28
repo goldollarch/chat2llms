@@ -92,6 +92,7 @@ John Stuart Mill
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds

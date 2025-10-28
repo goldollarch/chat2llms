@@ -55,6 +55,7 @@ Aristotle
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     aristotle_ds

@@ -1,5 +1,5 @@
 Jean-Paul Sartre
-=========
+=================
 
 基于让-保罗·萨特（Jean-Paul Sartre）存在主义哲学的核心思想。
 
@@ -49,6 +49,7 @@ Jean-Paul Sartre
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     ds
