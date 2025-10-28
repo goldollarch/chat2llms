@@ -1,9 +1,14 @@
 古代
 =========
 
-古希腊罗马及黑暗的中世纪哲学家
+古希腊罗马哲学家
 
 --------------------------
+
+ .. toctree::
+    :maxdepth: 1
+
+    protagras/index
 
  .. toctree::
     :maxdepth: 1

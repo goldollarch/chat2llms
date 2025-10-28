@@ -1,5 +1,5 @@
 Personality 
-=========
+============
 
 基于人格心理学（Personality Psychology）的整合视角分析。
 
@@ -87,6 +87,7 @@ Personality
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grok
     gemini
     chatgpt

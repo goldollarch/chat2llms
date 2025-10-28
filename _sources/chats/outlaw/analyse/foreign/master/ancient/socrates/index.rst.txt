@@ -131,6 +131,7 @@ Socrates
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     deepseek

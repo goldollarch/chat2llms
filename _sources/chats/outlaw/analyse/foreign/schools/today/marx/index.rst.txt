@@ -62,9 +62,9 @@ Postmodern Maxism
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grk
     gmn
-    copilot
     gpt
     ds
     qw

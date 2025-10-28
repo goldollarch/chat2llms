@@ -50,6 +50,7 @@ Jean-Jacques Rousseau
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     rouss_ds

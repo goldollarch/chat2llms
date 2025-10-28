@@ -66,9 +66,9 @@ Marxism
  .. toctree::
     :maxdepth: 3
 
+    copilot
     grk
     gmn
-    copilot
     chatgpt
     ds
     qw

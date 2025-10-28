@@ -1,5 +1,5 @@
 John Locke
-=========
+============
 
 基于约翰·洛克（John Locke）的政治哲学核心原则。
 
@@ -71,6 +71,7 @@ John Locke
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     locke_ds

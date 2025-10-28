@@ -94,6 +94,7 @@ G. Wilhelm Leibniz
     :maxdepth: 3
 
     grok
+    copilot
     gemini
     chatgpt
     deepseek
