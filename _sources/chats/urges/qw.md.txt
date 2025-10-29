@@ -30,3 +30,12 @@
 愿借滇池万顷波，洗净冤狱千重黑；
 且擎西山千秋月，照彻法治正道明！
 
+
+---
+
+[[Grok](/chats/outlaw/emotion/chinese/xi/grok.md)]
+[[Gemini](/chats/outlaw/emotion/chinese/xi/gemini.md)]
+[[Copilot](/chats/outlaw/emotion/chinese/xi/copilot.md)]
+[[ChatGPT](/chats/outlaw/emotion/chinese/xi/chatgpt.md)]
+[[DeepSeek](/chats/outlaw/emotion/chinese/xi/deepseek.md)]
+[[Qwen](/chats/outlaw/emotion/chinese/xi/qwen.md)]
