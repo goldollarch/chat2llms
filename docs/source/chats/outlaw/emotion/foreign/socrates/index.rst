@@ -8,10 +8,10 @@ Socrates
  .. toctree::
     :maxdepth: 3
 
-    grok
-    gmn
-    copilot
     gpt
+    grok
+    copilot
     ds
+    gmn
     qw
 

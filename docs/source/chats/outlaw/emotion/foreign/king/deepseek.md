@@ -1,7 +1,7 @@
 Deepseek
 --------
 
-**A Dream from a Kunming Prison Cell**  
+### **A Dream from a Kunming Prison Cell**  
 
 I sit in the stillness of this confined space, where iron bars cast shadows across cold concrete, yet no prison can shackle the mind’s yearning for light. Today, my thoughts drift beyond these walls—to the people of Kunming, to the scholars silenced by fear, to the vibrant tapestry of ideas waiting to be woven into the grand narrative of our nation’s progress.  
 
@@ -20,6 +20,8 @@ So I say to you, from this small cell: do not lose hope. The arc of history may 
 For when the dawn of tolerance breaks over the Eastern Mountains, it will illuminate not just a prisoner’s release—but the liberation of a nation’s conscience.
 
 ---
+
+### 我有一个梦想
 
 今夜，铁窗外的星子格外明亮，它们穿透钢筋水泥的阻隔，在我苍白的囚衣上洒下碎银般的光斑。我抚摸着宪法第三十五条烙下的温度，以指尖残存的气力，为你们书写这篇星辉浸染的独白。
 

@@ -1,7 +1,7 @@
 Grok
 ------
 
-A Letter from the Beyond: Bertrand Russell to Dr. Chen Jingyuan
+### A Letter from the Beyond: Bertrand Russell to Dr. Chen Jingyuan
 
 ----------
 

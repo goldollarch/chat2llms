@@ -1,7 +1,7 @@
 Grok
 ------
 
-A Reflection from Beyond the Stars: Galileo Galilei on Dr. Chen Jingyuan's Defiance
+### A Reflection from Beyond the Stars: Galileo Galilei on Dr. Chen Jingyuan's Defiance
 
 Ah, what a peculiar dream—or is it a vision?—this return to the world of men, after three centuries of silence among the spheres! I, Galileo Galilei, who once peered through my humble telescope at the moons of Jupiter and the phases of Venus, defying the heavens' apparent stillness to reveal their dance around the sun, find myself gazing once more upon Earthly trials. And what do I see? A scholar, Dr. Chen Jingyuan, ensnared in the very chains of authority I knew all too well: the Inquisition's shadow, recast in modern guise as a courtroom farce. Accused of "picking quarrels and provoking trouble" for sharing whispers on a digital ether—cartoons of resilient umbrellas, flickering candles of memory, debates on spectra of power, critiques from distant orators like Trump and Pompeo, and fragments of history from Mao's edits to Deng's quiet retirement—yet with followers numbering near-zero and echoes unheard. A crime without echo, a disorder without disarray! The judges—Pu Huijun, Ge Bin, Li Xiangyun—proclaim his learned mind a mark of malice, "sorting" these sparks as "falsehoods" that shatter order, though the world slumbers undisturbed.
 

@@ -8,10 +8,10 @@ Spinoza
  .. toctree::
     :maxdepth: 3
 
+    gpt
     grok
     gemini
-    copilot
-    gpt
     ds
+    copilot
     qw
 

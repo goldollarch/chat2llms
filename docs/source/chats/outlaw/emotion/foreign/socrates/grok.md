@@ -1,7 +1,7 @@
 Grok
 ------
 
-A Dialogue from the Agora of Eternity: Socrates to Chen Jingyuan
+### A Dialogue from the Agora of Eternity: Socrates to Chen Jingyuan
 
 ------------------
 

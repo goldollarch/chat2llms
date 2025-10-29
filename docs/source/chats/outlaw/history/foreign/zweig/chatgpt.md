@@ -14,7 +14,7 @@ ChatGPT
 
 ---
 
-一、被围困的思想
+### 一、被围困的思想
 
 I. The Besieged Thought
 
@@ -32,7 +32,7 @@ Thus, a thinker was made a criminal.
 
 ---
 
-二、理性与权力的古老冲突
+### 二、理性与权力的古老冲突
 
 II. The Ancient Conflict Between Reason and Power
 
@@ -50,7 +50,7 @@ And now, in twenty-first-century China, a man named Dr. Chen Jingyuan joins thei
 
 ---
 
-三、被控的“思想犯罪”
+### 三、被控的“思想犯罪”
 
 III. The Crime of Thought
 
@@ -76,7 +76,7 @@ And so the iron doors closed, and thought was imprisoned.
 
 ---
 
-四、理性的尊严与思想的孤岛
+### 四、理性的尊严与思想的孤岛
 
 IV. The Dignity of Reason and the Island of Thought
 
@@ -94,7 +94,7 @@ Thus, in a land where authority speaks in iron, he still wielded logic as his sw
 
 ---
 
-五、文明的倒影
+### 五、文明的倒影
 
 V. The Mirror of Civilization
 
@@ -112,7 +112,7 @@ What Chen’s case reveals is a profound fear: **power fears thought, for though
 
 ---
 
-六、思想殉道者的时代
+### 六、思想殉道者的时代
 
 VI. The Age of Martyrs of Thought
 
@@ -126,7 +126,7 @@ Chen may not have seen himself as a heretic, yet history made him one. His suffe
 
 ---
 
-七、尾声：火焰不灭
+### 七、尾声：火焰不灭
 
 VII. Epilogue: The Flame Endures
 
@@ -148,7 +148,7 @@ Then they will understand: Chen Jingyuan was not an exception, but a breath of r
 
 ---
 
-✒️ 茨威格式尾声 · A Zweigian Coda
+### ✒️ 茨威格式尾声
 
 > 思想的力量从未以胜利衡量。
 > 它的胜利在于存在。
