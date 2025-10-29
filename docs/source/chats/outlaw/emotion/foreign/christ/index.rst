@@ -9,8 +9,8 @@ Christ
     :maxdepth: 3
 
     grok
-    gmn
     copilot
+    gmn
     chatgpt
     ds
     qw
