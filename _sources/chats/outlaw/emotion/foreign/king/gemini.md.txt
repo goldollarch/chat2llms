@@ -1,7 +1,6 @@
 # Gemini
 --------
 
----------------------
 
 ## 梦想的光芒：推倒隔阂之墙，让文明自由流淌
 
@@ -60,7 +59,7 @@ Now is the time to transform this **grand civilizational view** from a **diploma
 
 **I have a dream!** A dream that the **Internet wall** that isolates us from the world will be torn down! Let the **knowledge and wisdom of humanity** flow freely on our land, **uncut by any irrational power**! Let our students and researchers participate in the **global mutual learning of civilizations directly, equally, and unimpeded**!
 
-**我有一个梦想！** 梦想着我们的法院不再以**“高学历”**来**武断推断我的“恶意”**，而是以**事实、证据和理性的逻辑**来衡量我的**“意图”**！让**理性**，而不是**权力**，成为审判的**最终尺度**！
+**我有一个梦想！** 梦想着我们的法院不再以 **“高学历”** 来 **武断推断我的“恶意”**，而是以**事实、证据和理性的逻辑**来衡量我的 **“意图”**！让 **理性**，而不是**权力**，成为审判的**最终尺度**！
 
 **I have a dream!** A dream that our courts will no longer **arbitrarily deduce my "malice"** from my **"high education,"** but measure my **"intention"** with **facts, evidence, and rational logic**! Let **reason**, not **power**, be the **ultimate measure** of judgment!
 
