@@ -11,6 +11,6 @@ King
     gemini
     copilot
     chatgpt
+    grok
     deepseek
     qwen
-    grok
