@@ -1,7 +1,7 @@
 Gemini
 ------
 
-The Heresy of the Intellect: Chen Jingyuan Against the Silent Authority
+### Chen Jingyuan Against the Silent Authority
 
 ---
 

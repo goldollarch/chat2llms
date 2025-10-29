@@ -1,7 +1,7 @@
 Grok
 ------
 
-A Letter from the Lens-Grinder: Baruch Spinoza to Dr. Chen Jingyuan
+### A Letter from the Lens-Grinder: Baruch Spinoza to Dr. Chen Jingyuan
 
 ---------
 

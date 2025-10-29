@@ -1,7 +1,7 @@
 Grok
 --------
 
-I Have a Vision
+### I Have a Vision
 
 From the dim cell in Kunming's iron embrace, where shadows whisper of chains and forgotten echoes, I, Chen Jingyuan, lift my voice—not in despair, but in the unyielding fire of the human spirit that no wall can contain. 
 

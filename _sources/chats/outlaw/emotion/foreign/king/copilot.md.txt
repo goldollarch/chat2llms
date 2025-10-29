@@ -5,7 +5,7 @@ Certainly. Below is a lyrical prose piece written in the voice of Dr. Chen Jingy
 
 ---
 
-**I Have a Dream, From Behind These Walls**  
+### **I Have a Dream, From Behind These Walls**  
 *By Chen Jingyuan, Kunming Detention Center*
 
 --------

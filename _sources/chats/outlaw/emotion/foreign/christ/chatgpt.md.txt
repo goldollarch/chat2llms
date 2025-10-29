@@ -1,9 +1,9 @@
 ChatGPT
 -------
 
-**引导词**
+### **引导词**
 
-Chinese：
+#### Chinese：
 
 > 我所爱的孩子：
 >
@@ -21,7 +21,7 @@ Chinese：
 >
 > —— 主耶稣基督
 
-English：
+#### English：
 
 > My beloved child:
 >
@@ -41,9 +41,9 @@ English：
 
 ---
 
-**祷告词**
+### **祷告词**
 
-Chinese：
+#### Chinese：
 
 > 慈爱的天父：
 >
@@ -71,7 +71,7 @@ Chinese：
 > 这一切，我们奉主耶稣基督的名求，
 > 阿们。
 
-English：
+#### English：
 
 > Loving Heavenly Father:
 >

@@ -1,7 +1,7 @@
 Grok
 ------
 
-A Message of Guidance in the Name of Jesus Christ
+### A Message of Guidance in the Name of Jesus Christ
 
 ----------
 

@@ -9,8 +9,8 @@
     :maxdepth: 3
 
     gemini
-    copilot
     chatgpt
+    copilot
     deepseek
     qwen
 

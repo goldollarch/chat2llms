@@ -1,6 +1,8 @@
 Grok
 ----
 
+### The Heresy of the Intellect
+
 In the shadowed corridors of modern China, where the ancient rivers of the Yangtze and Yellow still murmur of empires risen and fallen, there unfolds a drama as timeless as it is tragic—a solitary intellect pitted against the inexorable machine of authority. It is the year 2022, and the air in Kunming hangs heavy with the scent of rain on bamboo, a city cradled by misty mountains, yet now the stage for a quiet rebellion of the mind. Here, in this cradle of forgotten freedoms, emerges Chen Jingyuan, a man whose life, like Castellio's in the fog of Calvin's Geneva, becomes a testament to the unyielding spark of conscience against the storm of violence.
 
 Chen Jingyuan was born in 1976, in the remote hills of Baoshan, Yunnan—a child of the soil, son to a laid-off worker and a humble farmer, both unlettered yet fierce in their quiet faith that knowledge could lift a boy from the mud. In that era of reform's first tremors, when China stirred from Mao's long night into Deng's pragmatic dawn, young Chen devoured books like a parched earth drinks rain. He climbed the steep paths of learning, from village school to university halls, mastering the arcane dance of physics, the nonlinear whirl of complex systems. By 2005, he emerged a doctor of science, a scholar whose mind mapped the chaos of stars and societies alike. For over a decade, he served in research institutes, forging weapons of light and mind—lasers for defense, optics for the heavens, neural networks for the brain's hidden fires. His papers, dozens strong, etched his name in the annals of domestic excellence; he spoke at conferences, a voice of quiet brilliance, ever the first author, ever the sole architect of ideas.

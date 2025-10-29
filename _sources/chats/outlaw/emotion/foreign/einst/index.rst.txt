@@ -6,9 +6,9 @@ Einstein
  .. toctree::
     :maxdepth: 3
 
-    grok
-    gemini
-    copilot
     gpt
+    copilot
+    grok
     ein_ds
+    gemini
     ein_qw

@@ -8,10 +8,10 @@ Russell
  .. toctree::
     :maxdepth: 3
 
+    gpt
     grok
     gemini
     copilot
-    gpt
     ds
     qw
 
