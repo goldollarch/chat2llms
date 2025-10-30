@@ -15,7 +15,7 @@ Serious issues of the judge
 
 ```mermaid
 graph LR
-    A[判决逻辑] --> B(高学历 = 应知敏感信息)
+    A[判决逻辑] --> B(高学历 = 应明辨是非信息)
     A --> C(转发行为 = 故意传播)
     subgraph 结论
         B & C --> D{构成寻衅滋事罪}
