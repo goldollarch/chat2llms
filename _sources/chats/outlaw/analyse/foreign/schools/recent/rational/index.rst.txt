@@ -89,6 +89,7 @@ Rationalism
 
     copilot
     grok
+    chatgpt
     deepseek
     gemini
     qwen

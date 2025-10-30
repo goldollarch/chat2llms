@@ -101,6 +101,7 @@ Nominalism
 
     copilot
     grok
+    chatgpt
     deepseek
     gemini
     qwen

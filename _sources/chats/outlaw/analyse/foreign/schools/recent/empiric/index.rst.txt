@@ -92,6 +92,7 @@ Empiricism
 
     copilot
     grok
+    chatgpt
     deepseek
     gemini
     qwen

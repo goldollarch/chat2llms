@@ -96,6 +96,8 @@ Scientific Realism
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen
 
