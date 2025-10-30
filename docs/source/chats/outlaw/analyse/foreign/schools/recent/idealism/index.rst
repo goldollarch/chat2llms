@@ -100,6 +100,7 @@ Idealism
 
     copilot
     grok
+    chatgpt
     deepseek
     gemini
     qwen

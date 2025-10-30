@@ -108,6 +108,7 @@ Materialism
 
     copilot
     grok
+    chatgpt
     deepseek
     gemini
     qwen
