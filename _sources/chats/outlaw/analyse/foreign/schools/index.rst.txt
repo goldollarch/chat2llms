@@ -35,10 +35,10 @@
 
 ----------
 
-哲学常识
+西方哲学常识
 
 -----------
 
-[:doc:`西方哲学概况 </chats/outlaw/analyse/foreign/schools/review>`]
-[:doc:`欧陆哲学概况 </chats/outlaw/analyse/foreign/schools/euro>`]
-[:doc:`“唯”字头理论 </chats/outlaw/analyse/foreign/schools/only>`]
+[:doc:`西方哲学核心骨架 </chats/outlaw/analyse/foreign/schools/only>`]
+[:doc:`现代西方哲学概况 </chats/outlaw/analyse/foreign/schools/review>`]
+[:doc:`现代欧陆哲学概况 </chats/outlaw/analyse/foreign/schools/euro>`]
