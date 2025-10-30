@@ -89,6 +89,7 @@ New Materialism
     grok
     deepseek
     gemini
+    qwen
 
 -----------
 

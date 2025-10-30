@@ -91,3 +91,4 @@ Rationalism
     grok
     deepseek
     gemini
+    qwen

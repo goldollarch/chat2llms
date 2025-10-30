@@ -37,5 +37,5 @@
 -----------
 
 [:doc:`后现代/结构主义 </chats/outlaw/analyse/foreign/schools/today/posts>`]
-[:doc:`新实在论/唯物主义 </chats/outlaw/analyse/foreign/schools/today/new>`]
+[:doc:`新唯物/实在论 </chats/outlaw/analyse/foreign/schools/today/new>`]
 

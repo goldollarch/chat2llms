@@ -1,7 +1,7 @@
 Cynicism
 ========
 
-基于犬儒学派（Cynicism）​​ 的哲学核心思想哲学核心思想
+基于犬儒学派（Cynicism）​​ 的哲学核心思想
 
 ---------------------------------
 
@@ -109,3 +109,4 @@ Cynicism
     grok
     deepseek
     gemini
+    qwen
