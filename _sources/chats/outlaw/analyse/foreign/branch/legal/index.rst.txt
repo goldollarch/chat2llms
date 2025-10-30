@@ -93,6 +93,11 @@
  .. toctree::
     :maxdepth: 1
 
+    cardozo/index
+
+ .. toctree::
+    :maxdepth: 1
+
     dworkin/index
 
  .. toctree::
@@ -169,6 +174,16 @@
     :maxdepth: 1
 
     positivism/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    sociolo/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    natural/index
 
  .. toctree::
     :maxdepth: 1

@@ -118,11 +118,6 @@
  .. toctree::
     :maxdepth: 1
 
-    review/index
-
- .. toctree::
-    :maxdepth: 1
-
     carnap/index
 
  .. toctree::
@@ -153,11 +148,6 @@
  .. toctree::
     :maxdepth: 1
 
-    daubert/index
-
- .. toctree::
-    :maxdepth: 1
-
     fraassen/index
 
  .. toctree::
@@ -173,12 +163,27 @@
  .. toctree::
     :maxdepth: 1
 
+    daubert/index
+
+ .. toctree::
+    :maxdepth: 1
+
     causal/index
 
  .. toctree::
     :maxdepth: 1
 
+    positivism/index
+
+ .. toctree::
+    :maxdepth: 1
+
     realism/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    review/index
 
 
 ---------------------------

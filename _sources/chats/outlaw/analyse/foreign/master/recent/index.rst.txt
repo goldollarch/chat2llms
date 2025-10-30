@@ -38,6 +38,11 @@
  .. toctree::
     :maxdepth: 1
 
+    smith/index
+
+ .. toctree::
+    :maxdepth: 1
+
     locke/index
 
  .. toctree::
