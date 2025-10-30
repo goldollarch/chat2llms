@@ -35,5 +35,5 @@
 
 -----------
 
-[:doc:`西方哲学简史 </chats/outlaw/analyse/foreign/review>`]
+[:doc:`西方哲学史 </chats/outlaw/analyse/foreign/review>`]
 

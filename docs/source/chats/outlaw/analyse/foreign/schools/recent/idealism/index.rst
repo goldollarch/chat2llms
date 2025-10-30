@@ -102,3 +102,4 @@ Idealism
     grok
     deepseek
     gemini
+    qwen

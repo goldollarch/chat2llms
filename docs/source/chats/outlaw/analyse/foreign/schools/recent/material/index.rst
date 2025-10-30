@@ -110,3 +110,4 @@ Materialism
     grok
     deepseek
     gemini
+    qwen

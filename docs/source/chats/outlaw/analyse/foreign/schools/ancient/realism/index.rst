@@ -119,3 +119,4 @@ Realism
     grok
     deepseek
     gemini
+    qwen

@@ -94,3 +94,4 @@ Empiricism
     grok
     deepseek
     gemini
+    qwen

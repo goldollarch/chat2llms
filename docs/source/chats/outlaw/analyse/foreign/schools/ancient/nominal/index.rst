@@ -103,3 +103,4 @@ Nominalism
     grok
     deepseek
     gemini
+    qwen

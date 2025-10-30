@@ -33,8 +33,5 @@
 
 ---
 
-[[DeepSeek](/chats/outlaw/emotion/chinese/xi/deepseek.md)]
-[[Copilot](/chats/outlaw/emotion/chinese/xi/copilot.md)]
-[[ChatGPT](/chats/outlaw/emotion/chinese/xi/chatgpt.md)]
 [[Gemini](/chats/outlaw/emotion/chinese/xi/gemini.md)]
-[[Grok](/chats/outlaw/emotion/chinese/xi/grok.md)]
+[[DeepSeek](/chats/outlaw/emotion/chinese/xi/deepseek.md)]
