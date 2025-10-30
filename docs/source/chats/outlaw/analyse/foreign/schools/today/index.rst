@@ -32,10 +32,10 @@
 
 ----------
 
-哲学常识
+西方哲学前沿
 
 -----------
 
-[:doc:`后现代/结构主义 </chats/outlaw/analyse/foreign/schools/today/posts>`]
-[:doc:`新唯物/实在论 </chats/outlaw/analyse/foreign/schools/today/new>`]
+[:doc:`后现代/后结构主义 </chats/outlaw/analyse/foreign/schools/today/posts>`]
+[:doc:`新唯物/思辨实在论 </chats/outlaw/analyse/foreign/schools/today/new>`]
 
