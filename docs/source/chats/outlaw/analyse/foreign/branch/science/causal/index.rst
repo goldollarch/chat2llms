@@ -81,6 +81,7 @@ Causal theory
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
     qwen

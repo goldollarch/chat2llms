@@ -28,6 +28,7 @@ Daubert Standard
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
     qwen

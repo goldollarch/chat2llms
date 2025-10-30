@@ -43,6 +43,11 @@
  .. toctree::
     :maxdepth: 1
 
+    diogenes/index
+
+ .. toctree::
+    :maxdepth: 1
+
     lucretius/index
 
  .. toctree::
@@ -58,7 +63,7 @@
  .. toctree::
     :maxdepth: 1
 
-    seneca/index
+    empiricus/index
 
  .. toctree::
     :maxdepth: 1
@@ -73,25 +78,20 @@
  .. toctree::
     :maxdepth: 1
 
+    seneca/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    epictetus/index
+
+ .. toctree::
+    :maxdepth: 1
+
     aurelius/index
 
  .. toctree::
     :maxdepth: 1
 
     chrysipus/index
-
- .. toctree::
-    :maxdepth: 1
-
-    diogenes/index
-
- .. toctree::
-    :maxdepth: 1
-
-    empiricus/index
-
- .. toctree::
-    :maxdepth: 1
-
-    epictetus/index
 
