@@ -1,27 +1,22 @@
-中国史家
-========
+其它
+=====
 
-史海钩沉
+继往开来
 
 -------------------------
 
  .. toctree::
     :maxdepth: 1
 
-    smq/index
+    gyw/index
 
  .. toctree::
     :maxdepth: 1
 
-    lqc/index
+    hzx/index
 
  .. toctree::
     :maxdepth: 1
 
-    cyq/index
-
- .. toctree::
-    :maxdepth: 1
-
-    yys/index
+    wfz/index
 
