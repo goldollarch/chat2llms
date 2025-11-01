@@ -18,6 +18,16 @@
  .. toctree::
     :maxdepth: 1
 
+    voltaire/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    diderot/index
+
+ .. toctree::
+    :maxdepth: 1
+
     leibniz/index
 
  .. toctree::

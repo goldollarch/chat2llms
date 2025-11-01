@@ -1,5 +1,5 @@
-Analytic
-=========
+Analytic Philosophy
+==================
 
 基于分析哲学（Analytic Philosophy）的主要工具。
 

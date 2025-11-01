@@ -16,22 +16,24 @@
   * **核心问题**：“世界的本质（本源）是什么？”（宇宙论）
   * **代表人物**：
     * **泰勒斯**：认为水是万物的本源（西方哲学开端）。
-    * **赫拉克利特**：强调“万物皆流”，火是本源，逻各斯是关键。
+    * [赫拉克利特](/chats/outlaw/analyse/foreign/master/ancient/heraclitus/index)：强调“万物皆流”，火是本源，逻各斯是关键。
     * **巴门尼德**：强调“存在”是不变、唯一的，区分了“真理之路”与“意见之路”。
+
 * **2. 古典时期（公元前5世纪 — 公元前4世纪）**
 
   * **核心转折**：从自然转向人和社会（伦理学、政治哲学、认识论）。
   * **代表人物**：
-    * **苏格拉底**：提出“认识你自己”，专注于伦理问题，使用“诘问法”探寻普遍定义。
-    * **柏拉图**：提出“理念论”，认为可感世界是理念世界的摹本。强调理性灵魂对真理的回忆。
-    * **亚里士多德**：柏拉图的学生，批判理念论，建立系统的逻辑学、形而上学（“第一哲学”）、伦理学和政治学。
+    * [苏格拉底](/chats/outlaw/analyse/foreign/master/ancient/socrates/index)：提出“认识你自己”，专注于伦理问题，使用“诘问法”探寻普遍定义。
+    * [柏拉图](/chats/outlaw/analyse/foreign/master/ancient/plato/index)：提出“理念论”，认为可感世界是理念世界的摹本。强调理性灵魂对真理的回忆。
+    * [亚里士多德](/chats/outlaw/analyse/foreign/master/ancient/aristotle/index)：柏拉图的学生，批判理念论，建立系统的逻辑学、形而上学（“第一哲学”）、伦理学和政治学。
+
 * **3. 希腊化与罗马时期（公元前4世纪 — 公元6世纪）**
 
   * **核心问题**：如何在动荡的世界中获得“幸福”与“心灵宁静”？（伦理学为中心）
   * **主要学派**：
-    * **伊壁鸠鲁学派**：快乐是善，但强调通过知识消除恐惧（尤其是对神和死亡的恐惧）的静态快乐。
-    * **斯多葛学派**：顺应自然（理性）而活，强调德性自足，忍受痛苦，世界主义。
-    * **怀疑主义学派**：悬置判断，以达到心灵的宁静。
+    * [伊壁鸠鲁学派](/chats/outlaw/analyse/foreign/schools/ancient/epicurus/index)：快乐是善，但强调通过知识消除恐惧（尤其是对神和死亡的恐惧）的静态快乐。
+    * [斯多葛学派](/chats/outlaw/analyse/foreign/schools/ancient/stoicism/index)：顺应自然（理性）而活，强调德性自足，忍受痛苦，世界主义。
+    * [怀疑主义学派](/chats/outlaw/analyse/foreign/schools/ancient/skepticism/index)：悬置判断，以达到心灵的宁静。
 
 ### **第二时期：中世纪哲学（约公元5世纪 — 14世纪）**
 
@@ -40,34 +42,37 @@
 * **1. 教父哲学（约2世纪 — 8世纪）**
 
   * **核心任务**：将希腊哲学与基督教教义结合，确立正统教义。
-  * **代表人物**：**奥古斯丁**，受柏拉图主义影响，提出“光照说”，强调信仰是理解的前提。
-* **2. 经院哲学（约9世纪 — 14世纪）**
+  * **代表人物**：[奥古斯丁](/chats/outlaw/analyse/foreign/master/middle/augustine/index)，受柏拉图主义影响，提出“光照说”，强调信仰是理解的前提。
+
+* **2. [经院哲学](/chats/outlaw/analyse/foreign/schools/ancient/scholastic/index)（约9世纪 — 14世纪）**
 
   * **核心任务**：用严密的逻辑和理性方法系统化神学体系。
-  * **代表人物**：**托马斯·阿奎那**，将亚里士多德哲学与基督教神学完美结合，构建了宏大的综合体系。其核心是“五路证明”和“信仰与理性的和谐”。
+  * **代表人物**：[托马斯·阿奎那](/chats/outlaw/analyse/foreign/master/middle/aquinas/index)，将亚里士多德哲学与基督教神学完美结合，构建了宏大的综合体系。其核心是“五路证明”和“信仰与理性的和谐”。
 
 ### **第三时期：近代哲学（约17世纪 — 18世纪末）**
 
 **核心特征**：哲学从神学中独立出来，研究的中心从“神”转向“人”和“人的理性”，核心问题是**认识论**（我们如何认识世界？）。
 
-* **1. 理性主义（大陆学派）**
+* **1. [理性主义](/chats/outlaw/analyse/foreign/schools/recent/rational/index)（大陆学派）**
 
   * **核心主张**：知识源于先天固有的理性原则，强调演绎法。
   * **代表人物**：
-    * **笛卡尔**（近代哲学之父）：提出“我思故我在”，通过普遍怀疑确立理性的绝对基础。
-    * **斯宾诺莎**：采用几何学方法，构建一元论的“实体”体系。
-    * **莱布尼茨**：提出“单子论”和“预定和谐”。
-* **2. 经验主义（英国学派）**
+    * [笛卡尔](/chats/outlaw/analyse/foreign/master/recent/descartes/index)（近代哲学之父）：提出“我思故我在”，通过普遍怀疑确立理性的绝对基础。
+    * [斯宾诺莎](/chats/outlaw/analyse/foreign/master/recent/spinoza/index)：采用几何学方法，构建一元论的“实体”体系。
+    * [莱布尼茨](/chats/outlaw/analyse/foreign/master/recent/leibniz/index)：提出“单子论”和“预定和谐”。
+
+* **2. [经验主义](/chats/outlaw/analyse/foreign/schools/recent/empiric/index)（英国学派）**
 
   * **核心主张**：知识源于后天感官经验，强调归纳法。
   * **代表人物**：
-    * **洛克**：批判“天赋观念”，提出“白板说”。
-    * **贝克莱**：提出“存在就是被感知”，走向主观唯心主义。
-    * **休谟**：将经验主义推向极致，提出因果律只是心理习惯的“恒常联结”，对知识的可靠性提出严重怀疑。
-* **3. 启蒙哲学与批判哲学的集大成**
+    * [洛克](/chats/outlaw/analyse/foreign/master/recent/locke/index)：批判“天赋观念”，提出“白板说”。
+    * [贝克莱](/chats/outlaw/analyse/foreign/master/recent/berkeley/index)：提出“存在就是被感知”，走向主观唯心主义。
+    * [休谟](/chats/outlaw/analyse/foreign/master/recent/hume/index)：将经验主义推向极致，提出因果律只是心理习惯的“恒常联结”，对知识的可靠性提出严重怀疑。
+
+* **3. [启蒙哲学](/chats/outlaw/analyse/foreign/schools/recent/enlighten/index)与 [批判哲学](/chats/outlaw/analyse/foreign/schools/recent/critical/index) 的集大成**
 
   * **核心任务**：回应理性主义与经验主义的冲突，为科学和道德寻求稳固基础。
-  * **代表人物**：**康德**，发动“哥白尼式革命”，提出不是观念符合对象，而是对象符合观念。划分“现象界”与“物自体”，试图为人类的知识和道德划定界限和基础。
+  * **代表人物**：[康德](/chats/outlaw/analyse/foreign/master/recent/kant/index)，发动“哥白尼式革命”，提出不是观念符合对象，而是对象符合观念。划分“现象界”与“物自体”，试图为人类的知识和道德划定界限和基础。
 
 ### **第四时期：现代及当代哲学（约19世纪 — 至今）**
 
@@ -75,19 +80,22 @@
 
 * **1. 19世纪哲学**
 
-  * **德国观念论**：**黑格尔**，构建庞大的绝对精神辩证法体系。
+  * **德国观念论**：[黑格尔](/chats/outlaw/analyse/foreign/master/recent/hegel/index)，构建庞大的绝对精神辩证法体系。
   * **对理性主义的反叛**：
-    * **叔本华**：强调非理性的“意志”是世界的本质。
-    * **克尔凯郭尔**：存在主义先驱，强调个体生存的抉择与焦虑。
-  * **社会批判**：**马克思**，将黑格尔的辩证法应用于社会历史领域，强调实践和经济基础的决定作用。
+    * [叔本华](/chats/outlaw/analyse/foreign/master/recent/schpnhua/index)：强调非理性的“意志”是世界的本质。
+    * [克尔凯郭尔](/chats/outlaw/analyse/foreign/master/recent/krkgrd/index)：[存在主义](/chats/outlaw/analyse/foreign/schools/modern/existential/index)先驱，强调个体生存的抉择与焦虑。
+
+  * **社会批判**：[马克思](/chats/outlaw/analyse/foreign/master/recent/marx/index)，将黑格尔的辩证法应用于社会历史领域，强调实践和经济基础的决定作用。
+  
 * **2. 20世纪至今的两大主流**
 
-  * **分析哲学**（主要流行于英美）
+  * [分析哲学](/chats/outlaw/analyse/foreign/schools/modern/analytic/index)（主要流行于英美）
     * **核心**：关注语言、逻辑和概念分析。认为哲学问题源于语言的误用。
-    * **代表人物**：弗雷格、罗素、早期维特根斯坦、奎因等。
-  * **欧陆哲学**（主要流行于欧洲大陆）
+    * **代表人物**：[弗雷格](/chats/outlaw/analyse/foreign/master/recent/frege/index)、[罗素](/chats/outlaw/analyse/foreign/branch/langu/russell/index)、早期[维特根斯坦](/chats/outlaw/analyse/foreign/branch/langu/wittgstein/index)、[奎因](/chats/outlaw/analyse/foreign/branch/langu/quine/index)等。
+
+  * [欧陆哲学](/chats/outlaw/analyse/foreign/schools/euro)（主要流行于欧洲大陆）
     * **核心**：关注存在、历史、权力、现象和实践。
-    * **主要流派**：现象学（胡塞尔、海德格尔）、存在主义（萨特）、解释学（伽达默尔）、结构主义与后结构主义（福柯、德里达）、批判理论（法兰克福学派）。
+    * **主要流派**：现象学（[胡塞尔](/chats/outlaw/analyse/foreign/master/modern/husserl/index)、[海德格尔](/chats/outlaw/analyse/foreign/master/modern/heidegger/index)）、[存在主义](/chats/outlaw/analyse/foreign/schools/modern/existential/index)（[萨特](/chats/outlaw/analyse/foreign/master/modern/sartre/index)）、[解释学](/chats/outlaw/analyse/foreign/schools/modern/hermen/index)（[伽达默尔](/chats/outlaw/analyse/foreign/master/modern/gadamer/index)）、[结构主义](/chats/outlaw/analyse/foreign/schools/modern/struct/index) 与 [后结构主义](/chats/outlaw/analyse/foreign/schools/today/posts/index)（[福柯](/chats/outlaw/analyse/foreign/master/modern/foucault/index)、[德里达](/chats/outlaw/analyse/foreign/master/modern/derrida/index)）、批判理论（[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/marx/frankfurt/index)）。
 
 ### **西方哲学史总结**
 

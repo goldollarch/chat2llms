@@ -13,6 +13,11 @@
  .. toctree::
     :maxdepth: 1
 
+    phenom/index
+
+ .. toctree::
+    :maxdepth: 1
+
     existential/index
 
  .. toctree::
@@ -24,6 +29,11 @@
     :maxdepth: 1
 
     hermen/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    critical/index
 
  .. toctree::
     :maxdepth: 1

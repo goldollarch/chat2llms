@@ -128,6 +128,11 @@ Hermeneutics
     ds
     qw
 
----------------------------
+----------
 
-[:doc:`学派比较 </chats/outlaw/analyse/foreign/schools/modern/hermen/compare>`]
+西方哲学常识
+
+-----------
+
+[:doc:`现象学、存在主义和解释学 </chats/outlaw/analyse/foreign/schools/modern/compare>`]
+[:doc:`解释学与其它学派 </chats/outlaw/analyse/foreign/schools/modern/hermen/compare>`]

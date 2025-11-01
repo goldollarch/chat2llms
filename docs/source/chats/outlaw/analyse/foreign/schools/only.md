@@ -1,6 +1,6 @@
 ## 几大“唯”字头的理论
 
-唯物论与唯心论、唯实论与唯名论、唯理论与经验论等几组“唯”字头的理论是西方哲学史的核心骨架，它们之间的关系错综复杂但又充满逻辑。它们并非并列关系，而是在**不同哲学层面（本体论、认识论）上，围绕不同核心问题产生的对立阵营**。
+[唯物论](/chats/outlaw/analyse/foreign/schools/recent/material/index)与 [唯心论](/chats/outlaw/analyse/foreign/schools/recent/idealism/index)、[唯实论](/chats/outlaw/analyse/foreign/schools/ancient/realism/index) 与 [唯名论](/chats/outlaw/analyse/foreign/schools/ancient/nominal/index)、[唯理论](/chats/outlaw/analyse/foreign/schools/recent/rational/index)与 [经验论](/chats/outlaw/analyse/foreign/schools/recent/empiric/index) 等几组“唯”字头的理论是西方哲学史的核心骨架，它们之间的关系错综复杂但又充满逻辑。它们并非并列关系，而是在**不同哲学层面（本体论、认识论）上，围绕不同核心问题产生的对立阵营**。
 
 为了更直观地理解它们如何交织构成哲学史脉络，下图呈现了其核心演进逻辑：
 
@@ -13,14 +13,14 @@
 
 这个层面讨论“存在”本身的基本构成。
 
-#### 1. 唯物论 vs. 唯心论
+#### 1. [唯物论](/chats/outlaw/analyse/foreign/schools/recent/material/index) vs.  [唯心论](/chats/outlaw/analyse/foreign/schools/recent/idealism/index)
 这是**最根本**的划分，即 **“哲学的基本问题”** ：世界的本原是物质还是精神？
 
 *   **唯物论**：**物质是第一性的**，精神/意识是物质（如大脑）的产物。世界是客观存在的物质世界。
 *   **唯心论**：**精神是第一性的**，物质世界是精神、意识或理念的产物或显现。
 *   **关系**：**根本对立**。它们提供了关于世界本质的两种最基础的、互不相容的答案。
 
-#### 2. 唯实论 vs. 唯名论
+#### 2. [唯实论](/chats/outlaw/analyse/foreign/schools/ancient/realism/index) vs. [唯名论](/chats/outlaw/analyse/foreign/schools/ancient/nominal/index)
 这是**中世纪哲学**的核心争论，可以看作是唯物与唯心争论在 **“共相问题”** 上的一个具体表现。它问的是：**普遍概念（如“人类”、“红色”）是否真实存在？**
 
 *   **唯实论**（Realism，也译“实在论”）：**共相是真实存在的实体**。“人类”这个理念是独立于苏格拉底、柏拉图等具体个人而客观存在的本质。这通常倾向于**唯心论**立场（认为抽象理念是根本）。
@@ -33,7 +33,7 @@
 
 这个层面讨论知识的来源、范围和可靠性。
 
-#### 3. 唯理论 vs. 经验论
+#### 3. [唯理论](/chats/outlaw/analyse/foreign/schools/recent/rational/index) vs. [经验论](/chats/outlaw/analyse/foreign/schools/recent/empiric/index) 
 这是**近代哲学（17-18世纪）** 的核心争论。在默认了外部世界存在（实在论）的前提下，争论**知识的来源**。
 
 *   **唯理论**：**强调理性是知识的主要来源**。认为人类心灵中有一些先天固有的观念（如数学公理、逻辑法则），通过理性推理可以获得普遍必然的真知识。代表人物：笛卡尔、斯宾诺莎、莱布尼茨。

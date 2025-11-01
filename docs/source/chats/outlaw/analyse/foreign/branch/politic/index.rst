@@ -48,7 +48,7 @@
 
 以下是各流派的详细说明：
 
-1. **自由主义**
+1. :doc:`自由主义 </chats/outlaw/analyse/foreign/branch/politic/liberal/index>`
 
 *   **核心主张**：**个人自由和权利** 是最高政治价值。国家的首要任务是保护个人的生命、自由和财产，其权力必须受到限制（如宪法、分权）。
 
@@ -60,19 +60,19 @@
 
 *   **代表人物**：:doc:`洛克 </chats/outlaw/analyse/foreign/master/recent/locke/index>` 、:doc:`密尔 </chats/outlaw/analyse/foreign/master/recent/mill/index>` 、:doc:`哈耶克 </chats/outlaw/analyse/foreign/branch/politic/hayek/index>`、:doc:`伯林 </chats/outlaw/analyse/foreign/branch/politic/bolin/index>` 、:doc:`罗尔斯 </chats/outlaw/analyse/foreign/branch/politic/rawls/index>`。
 
-2. **共和主义**
+2. :doc:`共和主义 </chats/outlaw/analyse/foreign/branch/politic/republic/index>`
 
 *   **核心主张**：自由不仅是不受干涉，更在于 **免于支配**。真正的自由是通过 **公民积极参与政治自治** 来实现的，强调公民美德和公共善。
 
 *   **代表人物**：:doc:`亚里士多德 </chats/outlaw/analyse/foreign/master/ancient/aristotle/index>`、:doc:`马基雅维利 </chats/outlaw/analyse/foreign/branch/politic/machi/index>`、:doc:`卢梭 </chats/outlaw/analyse/foreign/master/recent/rouss/index>`、当代的 :doc:`昆廷·斯金纳 </chats/outlaw/analyse/foreign/branch/politic/skinner/index>`。
 
-3. **保守主义**
+3. :doc:`保守主义 </chats/outlaw/analyse/foreign/branch/politic/conserva/index>`
 
 *   **核心主张**：对激进的理性建构和社会变革持怀疑态度。强调 **传统、秩序、权威和渐进式改革** 的价值，认为社会制度是历史智慧的沉淀。
 
 *   **代表人物**： :doc:`埃德蒙·柏克 </chats/outlaw/analyse/foreign/branch/politic/burke/index>`、:doc:`迈克尔·奥克肖特 </chats/outlaw/analyse/foreign/branch/politic/oakeshott/index>`。
 
-4. **社会主义/马克思主义**
+4. :doc:`社会主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/index>` 和 :doc:`马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`
 
 *   **核心主张**：批判资本主义制度是 **剥削和不平等的根源**。主张通过改变经济基础（如生产资料公有制）来实现真正的自由与平等，强调 **社会平等** 和 **集体行动**。
 
@@ -84,7 +84,7 @@
 
 *   **代表人物**：:doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/marx/index>`、 :doc:`列宁 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>` 。
 
-5. **社群主义**
+5. :doc:`社群主义 </chats/outlaw/analyse/foreign/branch/politic/commun/index>`
 
 *   **核心主张**：批判自由主义的“原子化”个人观。认为 **个人的身份、价值和目标都是由其所在的社群构成的**。主张“共同善”优先于个人权利。
 
@@ -92,7 +92,7 @@
 
 6. **其他重要流派**
 
-*   **无政府主义**：否定一切强制性国家权力的合法性，相信人类可基于自愿合作实现社会和谐。
+*   :doc:`无政府主义 </chats/outlaw/analyse/foreign/branch/politic/anarchism/index>`：否定一切强制性国家权力的合法性，相信人类可基于自愿合作实现社会和谐。
 
 *   **女性主义政治哲学**：批判传统政治哲学中的性别偏见，从性别视角重新审视权力、正义和公私领域划分。
 
@@ -121,10 +121,10 @@
    * - :doc:`马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>` 
      - 关注阶级斗争与历史唯物主义
      - :doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/marx/index>`、 :doc:`列宁 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>` 
-   * - :doc:`社群主义 </chats/outlaw/analyse/foreign/branch/politic/commun/index>`
+   * - 社群主义
      - 强调共同体与文化认同
      - :doc:`桑德尔 </chats/outlaw/analyse/foreign/branch/politic/sandel/index>` 、 :doc:`麦金太尔 </chats/outlaw/analyse/foreign/branch/moral/macIntyre/index>` 
-   * - :doc:`无政府主义 </chats/outlaw/analyse/foreign/branch/politic/anarchism/index>` 
+   * - 无政府主义 
      - 反对国家权力，主张自发秩序
      - :doc:`巴枯宁 </chats/outlaw/analyse/foreign/branch/politic/bakunin/index>` 、 :doc:`克鲁泡特金 </chats/outlaw/analyse/foreign/branch/politic/kropotkin/index>` 
    * - 批判理论
@@ -308,6 +308,11 @@
     :maxdepth: 1
 
     commun/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    biopolitics/index
 
  .. toctree::
     :maxdepth: 1
