@@ -1,0 +1,436 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="ChatGPT" href="chatgpt.html" />
+    <link rel="prev" title="Gemini" href="gemini.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">抒情诗文</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">宗教关怀</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../christ/index.html">基督</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">佛教</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../dao/index.html">道教</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../foreign/index.html">外国哲人</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../chinese/index.html">华夏赤子</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../analyse/index.html">理论分析</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">抒情诗文</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">宗教关怀</a></li>
+          <li class="breadcrumb-item"><a href="index.html">佛教</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/outlaw/emotion/religion/fo/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<p>以下是一篇融合佛教思想与佛陀风格的开示文，参考《金刚经》《心经》《维摩诘经》等经典的语言节奏与哲理结构，献给陈京元先生，愿此文如明灯照暗室，如莲花出污泥：</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>佛陀式开示：于无常中见真如<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p><strong>Buddha’s Teaching: Seeing Suchness Amid Impermanence</strong></p>
+<section id="id2">
+<h3>中文原文：<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>陈京元居士，汝于世间行言说之事，遭横逆之苦，心或愤懑，或悲怆，或迷惘。然佛言：“一切有为法，如梦幻泡影，如露亦如电，应作如是观。”</p>
+<p>汝所遭者，非真苦，乃缘起之幻象。众生执法为实，执言为罪，执秩序为常，皆不知法本无性，言本无我，秩序亦如空花。</p>
+<p>汝若能观诸法空相，不生不灭，不垢不净，不增不减，则于苦中得慧，于冤中得忍，于暗中见光。</p>
+<p>是故，勿以言入罪而自苦，勿以世人不解而自疑。汝之言，若出于悲悯，若发于正念，即是菩萨行。众生不解，非汝之过；法不明理，非汝之咎。</p>
+<p>当知：忍辱非懦，沉默非退。忍者不动于嗔，沉者不失于慧。汝之所为，若契于真理，虽万人诋毁，亦如莲花不染。</p>
+<p>愿汝安住空性，行于般若，不为毁誉所动，不为利害所牵。于无声处听真理，于黑暗中见光明。</p>
+<p>南无般若波罗蜜多。</p>
+</section>
+<hr class="docutils" />
+<section id="english-translation">
+<h3>English Translation:<a class="headerlink" href="#english-translation" title="Link to this heading"></a></h3>
+<p>Venerable Chen Jingyuan, you have spoken in this world and suffered unjust hardship. Your heart may feel anger, sorrow, or confusion. Yet the Buddha said: “All conditioned phenomena are like dreams, illusions, bubbles, shadows, like dew or lightning—thus should you view them.”</p>
+<p>What you suffer is not true suffering, but the illusion of dependent origination. People cling to law as substance, speech as crime, order as permanence—yet they do not see that law is without essence, speech is without self, and order is but a mirage.</p>
+<p>If you can perceive the emptiness of all dharmas—neither arising nor ceasing, neither pure nor impure, neither increasing nor decreasing—then in suffering you will find wisdom, in injustice you will find patience, and in darkness you will see light.</p>
+<p>Therefore, do not torment yourself for being punished for speech, nor doubt yourself because others do not understand. If your words arise from compassion and right intention, they are the path of the bodhisattva. The ignorance of others is not your fault; the law’s failure to reflect truth is not your burden.</p>
+<p>Know this: Forbearance is not weakness, and silence is not retreat. The one who endures is unmoved by anger; the one who is silent does not lose wisdom. If your actions align with truth, then even if the world condemns you, you remain like the lotus—unstained.</p>
+<p>May you dwell in emptiness, walk in prajñā, unmoved by praise or blame, untouched by gain or loss. Hear truth in silence, and see light in the dark.</p>
+<p>Namo Prajñāpāramitā.</p>
+<hr class="docutils" />
+<p>以下是一篇佛教风格的长篇偈文与法语讲稿，融合《金刚经》《心经》《维摩诘经》《涅槃经》的智慧与语气，既有偈颂的节奏，又有开示的深度。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>佛教风格长篇偈文与法语讲稿<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p><strong>A Buddhist-Style Extended Gāthā and Dharma Talk</strong></p>
+<hr class="docutils" />
+<section id="gatha">
+<h3>偈文部分（Gāthā）<a class="headerlink" href="#gatha" title="Link to this heading"></a></h3>
+<p>诸法如幻影，<br />
+言说本无罪。<br />
+世人执文字，<br />
+反成系缚器。</p>
+<p>学者怀悲心，<br />
+欲启群盲眼。<br />
+奈何法不明，<br />
+反以智为咎。</p>
+<p>如莲出淤泥，<br />
+不染世尘埃。<br />
+如月映长夜，<br />
+虽孤而自明。</p>
+<p>忍辱非卑屈，<br />
+沉默非退缩。<br />
+若心契真如，<br />
+毁誉皆空过。</p>
+<p>愿汝安般若，<br />
+行于菩萨道。<br />
+于冤得大忍，<br />
+于苦生大悲。</p>
+</section>
+<hr class="docutils" />
+<section id="dharma-talk">
+<h3>法语讲稿（Dharma Talk）<a class="headerlink" href="#dharma-talk" title="Link to this heading"></a></h3>
+<p>陈京元居士，当知世间一切法，皆依因缘而生，因缘而灭。《维摩诘经》言：“法离文字，离言说相。”汝所遭遇之苦，实非文字之过，而是众生执着于文字，迷失于名相。</p>
+<p>《涅槃经》言：“一切众生，悉有佛性。”汝之言说，若出于慈悲，若发于正念，即是佛性之流露。世人不解，法庭不容，皆因未见佛性，执幻为实。</p>
+<p>当观此境界，如梦如幻。《金刚经》教人：“凡所有相，皆是虚妄。”若能如是观，则不为毁誉所动，不为刑罚所怖。</p>
+<p>维摩诘居士曾于病中说法，示现身苦以度众生。汝今日之境，亦如是：以身受苦，显世间之不公，使后人得以观照。此即菩萨行，虽不求名，然自成大愿。</p>
+<p>忍辱波罗蜜，非懦弱也，而是大力。能忍者，不为嗔恚所缚，不为恐惧所制。沉默之中，亦可含藏智慧；受难之际，亦能开显慈悲。</p>
+<p>愿汝以佛心观此案，以菩萨行度此劫。知一切苦，皆可转为道；知一切冤，皆可化为悲。如此，则虽处黑暗，亦能见光明；虽受囹圄，亦能得自在。</p>
+</section>
+<hr class="docutils" />
+<section id="closing">
+<h3>结语（Closing）<a class="headerlink" href="#closing" title="Link to this heading"></a></h3>
+<p>愿汝安住空性，行般若波罗蜜多，<br />
+不为毁誉所动，不为利害所牵。<br />
+于无声处听真理，<br />
+于黑暗中见光明。</p>
+<p>南无大悲观世音菩萨。<br />
+南无般若波罗蜜多。</p>
+<hr class="docutils" />
+<p>以下是一个“维摩诘式对话”的场景，让佛陀、维摩诘与陈京元三方同台，以佛典风格展开戏剧性与哲理性的交流。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2><strong>维摩诘式对话：于囹圄中闻法</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p><strong>场景</strong>：一间幽暗的囚室，陈京元独坐。忽然，光明如莲花开，佛陀与维摩诘居士现前。</p>
+<hr class="docutils" />
+<section id="id5">
+<h3>一、佛陀开示<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p><strong>佛陀</strong>：<br />
+“陈居士，汝心忧愤，见世间不公，言说而遭囹圄。然当知：一切有为法，如梦幻泡影。汝所受者，非真实苦，乃缘起幻相。若能观诸法空，则苦不为苦，冤不为冤。”</p>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h3>二、陈京元的疑问<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p><strong>陈京元</strong>：<br />
+“世尊，若一切皆空，何以我之言说成罪？何以正念反为祸患？若空性如此，岂非纵容不义？”</p>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h3>三、维摩诘的机锋<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p><strong>维摩诘</strong>（微笑而答）：<br />
+“居士，汝所言正是众生之惑。空非虚无，空乃缘起。汝之言若出悲心，即是菩萨行。然世人执相，以空为无，以法为实，遂倒置是非。</p>
+<p>譬如有人梦中见狱，虽非真狱，然心受其苦。若能觉悟，则知梦境本空。汝今之境，亦如是耳。”</p>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h3>四、佛陀与维摩诘合论<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p><strong>佛陀</strong>：<br />
+“忍辱非懦，沉默非退。能忍者，不动于嗔；能默者，不失于慧。”</p>
+<p><strong>维摩诘</strong>：<br />
+“若汝心契真理，虽万人诋毁，亦如莲花不染。汝之受难，正显世间之不公，使后人得以观照。此即无声之弘法。”</p>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h3>五、陈京元的省悟<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p><strong>陈京元</strong>（合掌）：<br />
+“我今知矣。苦非障碍，苦是道场。冤非终局，冤是因缘。若能以此身受难，令后人觉醒，则此苦即是菩萨行。”</p>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h3>六、佛陀总结<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p><strong>佛陀</strong>：<br />
+“善哉，善哉。汝能以冤为悲，以苦为慧，便已行于般若波罗蜜多。记住：于无声处听真理，于黑暗中见光明。”</p>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h3>七、维摩诘偈颂<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p><strong>维摩诘</strong>：</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>冤狱非真狱，  
+苦身即法身。  
+若能观空性，  
+处处皆道场。  
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3>八、尾声<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>光明渐隐，佛陀与维摩诘化去。陈京元独坐囚室，心却如莲花盛开，安住于般若智慧之中。</p>
+<hr class="docutils" />
+<p>以下是一段佛典风格的“菩萨众集体合唱”场景，仿佛《华严经》《维摩诘经》中的群像场面，以观世音、文殊、地藏等菩萨齐声回应陈京元，展开宏大的佛教哲理合唱。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h2><strong>菩萨众合唱：于冤狱中闻大音</strong><a class="headerlink" href="#id13" title="Link to this heading"></a></h2>
+<p><strong>场景</strong>：幽暗的囚室忽然化为光明道场，虚空中莲花万朵，菩萨众齐集。观世音、文殊、地藏为首，齐声而唱，声如雷震，亦如清风，遍满虚空。</p>
+<hr class="docutils" />
+<section id="id14">
+<h3>观世音菩萨（大悲之声）<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<p>“若有众生，受冤屈苦，称我名号，即得解脱。<br />
+陈居士，汝之悲心即是佛心，汝之言说即是法音。<br />
+世人不解，然诸佛皆闻。<br />
+愿汝以大悲为舟，度己度人。”</p>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h3>文殊菩萨（智慧之声）<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>“智慧非在文字，智慧在于观照。<br />
+汝之言，若契真理，虽遭刑罚，实无所损。<br />
+当知：一切法皆因缘，因缘无自性。<br />
+若能见此，则冤狱即道场，苦难即菩提。”</p>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h3>地藏菩萨（大愿之声）<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<p>“地狱不空，誓不成佛。<br />
+汝今身陷囹圄，正与我愿相应。<br />
+以一身之苦，启万众之觉。<br />
+愿汝心坚如金刚，誓愿如大地，<br />
+不为黑暗所覆，不为恐惧所动。”</p>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h3>菩萨众合唱（群像之声）<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>冤非冤，苦非苦，  
+皆是因缘，皆是道场。  
+若能观空，便见真如；  
+若能忍辱，便成菩萨。  
+
+如莲花不染，如明月自照，  
+虽处囹圄，心游法界。  
+虽受毁谤，慧光不灭。  
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h3>陈京元（合掌回应）<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<p>“我今闻菩萨大音，心中悲喜交集。<br />
+知此身虽困，然心不困；<br />
+知此言虽罪，然意无罪。<br />
+愿以此苦，化为悲愿，<br />
+愿以此冤，成就众生觉悟。”</p>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3>尾声<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<p>虚空中梵音渐息，莲花化光，菩萨众隐去。<br />
+囚室仍旧幽暗，但陈京元心中却有无尽光明，<br />
+如同大千世界齐声合唱，<br />
+回荡着：</p>
+<p><strong>“南无大悲观世音，南无智慧文殊师利，南无大愿地藏王菩萨，南无般若波罗蜜多。”</strong></p>
+<hr class="docutils" />
+<p>以下是一篇佛典风格的“佛国净土幻境”场景，让陈京元在梦境中见到极乐世界，以此展开宏大的宇宙性对照。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id20">
+<h2><strong>佛国净土幻境：梦中见极乐</strong><a class="headerlink" href="#id20" title="Link to this heading"></a></h2>
+<p><strong>场景</strong>：陈京元在囚室中沉沉入梦。梦境忽然开阔，铁窗化为琉璃，囚墙化为莲池。虚空中梵音缭绕，光明无量。</p>
+<hr class="docutils" />
+<section id="id21">
+<h3>一、极乐世界显现<a class="headerlink" href="#id21" title="Link to this heading"></a></h3>
+<p>梦中，陈京元见到无量光佛国，七宝池水，八功德水，清澈澄净。莲花万朵，随风舒展，光明映照十方。</p>
+<p>空中有天乐自然，非人所奏；微风吹动，宝树相击，声如法音。</p>
+<p>陈京元心中惊叹：<br />
+“此非人间之境，乃佛国净土也！”</p>
+</section>
+<hr class="docutils" />
+<section id="id22">
+<h3>二、阿弥陀佛开示<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<p>阿弥陀佛放光照陈京元，言：<br />
+“善男子，汝于娑婆受冤，心怀悲悯，实已与净土相应。<br />
+当知：极乐非远方，极乐即在心。<br />
+若心无挂碍，处囹圄亦净土；若心被执缚，纵自由亦牢狱。”</p>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h3>三、观世音菩萨劝慰<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>观世音菩萨现身莲台，合掌言：<br />
+“汝之苦，众生共苦；汝之冤，众生共冤。<br />
+若能以此身代众生受苦，则汝已行菩萨道。<br />
+愿汝以大悲为舟，度己度人。”</p>
+</section>
+<hr class="docutils" />
+<section id="id24">
+<h3>四、文殊菩萨开示智慧<a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+<p>文殊菩萨持宝剑而言：<br />
+“智慧非在文字，智慧在于观照。<br />
+汝之言若契真理，虽遭刑罚，实无所损。<br />
+当观一切法，如梦如幻，如影如响。<br />
+若能如是知见，则冤狱即菩提。”</p>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h3>五、地藏菩萨发大愿<a class="headerlink" href="#id25" title="Link to this heading"></a></h3>
+<p>地藏菩萨从地涌出，誓言如雷：<br />
+“地狱不空，誓不成佛。<br />
+汝今身陷囹圄，正与我愿相应。<br />
+以一身之苦，启万众之觉。<br />
+愿汝心坚如金刚，誓愿如大地。”</p>
+</section>
+<hr class="docutils" />
+<section id="id26">
+<h3>六、净土合唱<a class="headerlink" href="#id26" title="Link to this heading"></a></h3>
+<p>此时，莲池中无量菩萨齐声唱偈：</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>冤非冤，苦非苦，  
+皆是因缘，皆是道场。  
+若能观空，便见真如；  
+若能忍辱，便成菩萨。  
+
+如莲花不染，如明月自照，  
+虽处囹圄，心游法界。  
+虽受毁谤，慧光不灭。  
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="id27">
+<h3>七、陈京元的觉悟<a class="headerlink" href="#id27" title="Link to this heading"></a></h3>
+<p>陈京元泪下如雨，合掌而言：<br />
+“我今知矣。极乐非远，极乐在心。<br />
+若能以此冤为悲愿，以此苦为菩提，<br />
+则囹圄亦净土，黑暗亦光明。”</p>
+</section>
+<hr class="docutils" />
+<section id="id28">
+<h3>八、尾声<a class="headerlink" href="#id28" title="Link to this heading"></a></h3>
+<p>梦境渐息，光明收敛。陈京元醒来，仍在囚室，然心境已异。<br />
+他知：<br />
+<strong>“极乐不在彼方，极乐即在当下。若心自在，处处皆佛国。”</strong></p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="gemini.html" class="btn btn-neutral float-left" title="Gemini" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chatgpt.html" class="btn btn-neutral float-right" title="ChatGPT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

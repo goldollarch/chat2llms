@@ -25,3 +25,8 @@
 
     foreign/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    philos/index
+

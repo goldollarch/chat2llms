@@ -17,6 +17,11 @@
  .. toctree::
     :maxdepth: 1
 
+    religion/index
+
+ .. toctree::
+    :maxdepth: 1
+
     foreign/index
 
  .. toctree::

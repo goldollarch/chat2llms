@@ -1,14 +1,9 @@
-世界伟人
+外国哲人
 =========
 
-伟人情怀
+哲人情怀
 
 ---------
-
- .. toctree::
-    :maxdepth: 1
-
-    christ/index
 
  .. toctree::
     :maxdepth: 1

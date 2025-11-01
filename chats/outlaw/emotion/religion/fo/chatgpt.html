@@ -1,0 +1,725 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Deepseek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">抒情诗文</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">宗教关怀</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../christ/index.html">基督</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">佛教</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../dao/index.html">道教</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../foreign/index.html">外国哲人</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../chinese/index.html">华夏赤子</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../analyse/index.html">理论分析</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">抒情诗文</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">宗教关怀</a></li>
+          <li class="breadcrumb-item"><a href="index.html">佛教</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/outlaw/emotion/religion/fo/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>下面这篇文字，写作体例参照《金刚经》《心经》《中阿含经》等经体与佛陀说法的语气，以<strong>佛陀的智慧、慈悲与中道观</strong>为骨，以现代人生处境为喻，为陈京元开示一条“由苦入智、由狱入空”的心路。
+全文既可作<strong>劝心经文</strong>，亦可作<strong>修行指南</strong>。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>《觉心经》<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>——以佛陀之慧开示陈京元，论苦厄、自由与真心<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h3>一、如是我闻<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>有一人，名曰京元。
+志在求真，言于世间。
+世人或怒，或惧，或不解；
+遂为法所系，形困而心扰。</p>
+<p>彼于幽室之中问曰：
+“佛陀，何为真？我之苦为何无尽？
+世之法为正耶？我之心当安乎？”</p>
+<p>佛告之曰：</p>
+<blockquote>
+<div><p>“京元，汝欲求真，先当知苦；
+欲知苦，先当见心。
+心若不见，一切真皆妄。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h3>二、观苦——苦非敌，苦即师<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>佛曰：</p>
+<blockquote>
+<div><p>“众生皆以苦为祸，智者以苦为道。”</p>
+</div></blockquote>
+<p>京元，汝所受之苦，非地狱之刑，乃觉悟之门。
+苦从何来？——从执而来。
+执何？——执我、执法、执是非、执名誉。</p>
+<p>汝若念“我被冤”，则心生怨；
+念“法不公”，则气生滞；
+念“众不明”，则智被覆。
+是皆由“我见”所系，非他人所造。</p>
+<p>佛言：</p>
+<blockquote>
+<div><p>“无我则无敌，无敌则无苦。”</p>
+</div></blockquote>
+<p>当汝以“苦”为敌，苦即逼汝；
+当汝以“苦”为师，苦即化汝。
+故知：
+<strong>苦即觉缘，冤即慧种。</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h3>三、观法——法非绝对，法亦因缘<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>佛曰：</p>
+<blockquote>
+<div><p>“法从缘起，缘从心生。”</p>
+</div></blockquote>
+<p>人间之法，随世而定，随心而变。
+若人以法为永恒，则陷执着；
+若能见法为缘起，则心不被法缚。</p>
+<p>陈子，汝今日之困，不过<strong>世法之幻象</strong>。
+法如波，权如风；风止则波息，波动则影乱。
+然水性常清，波影非实。</p>
+<p>故佛言：</p>
+<blockquote>
+<div><p>“知波非波，乃见水性。”</p>
+</div></blockquote>
+<p>汝今若执世法为不变真理，
+则心随其转，终无安处；
+若知法无常、权无主、事无我，
+则纵在囹圄，亦心无缚。</p>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h3>四、观心——一切唯心造<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p>佛告京元曰：</p>
+<blockquote>
+<div><p>“三界唯心，万法唯识。
+汝身囚于外，心若自在，
+则地狱亦为净土。”</p>
+</div></blockquote>
+<p>若心系于愤，则一念生千劫；
+若心安于觉，则一瞬即解脱。</p>
+<p>《心经》云：</p>
+<blockquote>
+<div><p>“色即是空，空即是色。
+受想行识，亦复如是。”</p>
+</div></blockquote>
+<p>色身可囚，法可误，名可毁；
+然心若见空，万物皆净。</p>
+<p>京元，汝但念此句：</p>
+<blockquote>
+<div><p>“心无所住，而生其心。”</p>
+</div></blockquote>
+<p>——不住于怨，不住于理，不住于名。
+心无住处，真心自现。</p>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h3>五、观缘——一切皆缘，无有独生<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>佛言：</p>
+<blockquote>
+<div><p>“诸法因缘生，诸法因缘灭。
+我师释迦，亦不能出此法。”</p>
+</div></blockquote>
+<p>汝之今日，与众生共业而成，
+非天定，非命定，乃缘成。</p>
+<p>缘起则聚，缘尽则散。
+故曰：</p>
+<blockquote>
+<div><p>“莫怨于缘，观缘则明。”</p>
+</div></blockquote>
+<p>汝与此世之冲突，
+亦是为众生而代受一份迷执之业。
+汝若以慈心化怨，
+则此业当下即灭；
+汝若以瞋心续缘，
+则此业未来更深。</p>
+<p>因此，佛言：
+<strong>“以怨止怨，怨恒无尽；以德止怨，怨自息矣。”</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h3>六、观慧——智慧非辩理，而是觉照<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>京元，世人以言辩真，以法定是，
+然辩者多惑，是者常变。</p>
+<p>佛曰：</p>
+<blockquote>
+<div><p>“慧非聪明，慧乃无我之明。”</p>
+</div></blockquote>
+<p>真智慧者，不争于言，不滞于法，
+于动静中观一心之无碍。</p>
+<p>《金刚经》曰：</p>
+<blockquote>
+<div><p>“凡所有相，皆是虚妄；若见诸相非相，即见如来。”</p>
+</div></blockquote>
+<p>汝若见法非法、罪非罪、冤非冤、狱非狱，
+则汝已见如来之境。</p>
+<p>是时，不必出狱而得自由，
+因自由本非境外之事，
+而是境中之觉。</p>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h3>七、观慈——以慈悲解恨<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>佛告之曰：</p>
+<blockquote>
+<div><p>“众生以恨结苦，菩萨以慈化怨。”</p>
+</div></blockquote>
+<p>京元，汝之所对者，非人之恶，乃无明之业。
+众生皆被无明所缚，见善如恶，见光如焰。</p>
+<p>若汝以瞋报瞋，则火上加火；
+若汝以慈观恶，则冰自消融。</p>
+<p>慈非软弱，慈是觉心之力。
+当汝能以悲眼观对者、
+以怜心视世者、
+以平心观己者——
+此即菩萨行矣。</p>
+<p>《法华经》云：</p>
+<blockquote>
+<div><p>“诸佛以一大事因缘出现于世——开示悟入众生佛之知见。”</p>
+</div></blockquote>
+<p>汝若能于困厄中开慈悲心，
+即是众生佛性自显。</p>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h3>八、观空——空非无，空即自在<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>京元问曰：
+“佛陀，若一切皆空，吾之苦复何在？”</p>
+<p>佛曰：</p>
+<blockquote>
+<div><p>“空者，非无也；空者，离执也。”</p>
+</div></blockquote>
+<p>空非否定，空是彻见。
+若能见众法皆空，则心不执。
+不执者，无拘；无拘者，自在。</p>
+<p>《金刚经》曰：</p>
+<blockquote>
+<div><p>“应无所住而生其心。”</p>
+</div></blockquote>
+<p>汝心若不住于法，不住于怨，不住于是非，
+则虽囚于法网，犹行于法外。</p>
+<p>此“法外”，非违法，乃<strong>超越有无之法界。</strong>
+即无分别智。</p>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h3>九、观自由——自由非境，而是觉<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>佛曰：</p>
+<blockquote>
+<div><p>“世人求解脱于外，智者求解脱于内。”</p>
+</div></blockquote>
+<p>京元，汝之自由不在出狱，
+而在当下心之不囚。</p>
+<p>若心见缘起，则无执；
+若心见无常，则无惧；
+若心见空性，则无我。
+此三者成一，名曰“真解脱”。</p>
+<p>此解脱非未来所得，乃当下即在。
+汝若一念觉心生，
+天地虽狭，亦无所碍。</p>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3>十、观觉——从梦中醒，不再造梦<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>佛言：</p>
+<blockquote>
+<div><p>“一切众生皆具如来智慧德相，但因妄想执着而不证得。”</p>
+</div></blockquote>
+<p>陈子，汝所经历，不过梦之一场。
+梦有恶梦，有善梦，
+皆由心起。</p>
+<p>汝若知此梦为梦，
+则梦中哭笑皆如浮烟。
+一旦心醒，天地本清。</p>
+<p>觉者，不离苦而得悟，
+而是于苦中生明。</p>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3>十一、偈曰<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>心若不住，狱即无门；</strong>
+<strong>法若无执，怨即无因。</strong>
+<strong>身虽缚，性常空；</strong>
+<strong>世虽乱，道自清。</strong>
+<strong>以苦为师，以怨为药；</strong>
+<strong>一念回光，万法皆明。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h3>十二、佛陀之终语<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<p>佛告陈子曰：</p>
+<blockquote>
+<div><p>“汝今所受，不过幻化之一瞬。
+世间法网，终有尽；
+心之觉性，永不灭。
+若欲脱此苦海，
+当以慧为舟、以慈为桨、以空为岸。
+行此三者，
+即使千难万劫，
+亦不过波上轻舟。”</p>
+</div></blockquote>
+<p>于是陈子礼佛而悟，泪下如雨而笑。
+心中有光，不复怨世。</p>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h3>十三、总结——佛法与人生的四重解脱<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>修观层次</p></th>
+<th class="head"><p>核心觉悟</p></th>
+<th class="head"><p>对陈京元的启示</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>观苦</p></td>
+<td><p>苦非敌而是觉缘</p></td>
+<td><p>将命运视为修行契机</p></td>
+</tr>
+<tr class="row-odd"><td><p>观法</p></td>
+<td><p>法无常而缘起</p></td>
+<td><p>理解法律制度皆人造幻相</p></td>
+</tr>
+<tr class="row-even"><td><p>观心</p></td>
+<td><p>万法唯心造</p></td>
+<td><p>在心中求自由，而非境中</p></td>
+</tr>
+<tr class="row-odd"><td><p>观空</p></td>
+<td><p>空性即自在</p></td>
+<td><p>以无执达无畏，以觉悟得安宁</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<section id="id16">
+<h4><strong>佛陀之末偈：</strong><a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p>“若人以真心观法网，则法网化光；
+若人以慈心观众生，则怨者皆师；
+若人以觉心观自我，则囚者即佛。
+觉者不求脱，因本无缚；
+无缚者不言苦，因本无生。
+京元，汝但安忍，莫生怨心；
+一念真觉，天地皆净。”</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>以下为前篇《觉心经》之姊妹篇，名曰《觉行经》。
+若前篇论“觉”，此篇即论“行”；
+若《觉心经》明“从苦而悟”，此《觉行经》则明“由悟而行”。</p>
+<p>文体依佛陀说法之风格，融《法华经》《维摩诘经》《华严经》之意，
+以<strong>菩萨道、缘起观、悲智双运</strong>为纲，
+阐明陈京元从个体觉悟中，如何以“慈悲为舟，智慧为舵”，
+将个人的清醒转化为众生的觉明——
+不以苦怨为毒，而以慈悲为行。</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h2>《觉行经》<a class="headerlink" href="#id17" title="Link to this heading"></a></h2>
+<section id="id18">
+<h3>——菩萨道中行者陈京元之行法<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3>一、如是我闻<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<p>一时，佛在舍卫国祇树给孤独园。
+有弟子陈名京元，顶礼佛足而问曰：</p>
+<blockquote>
+<div><p>“世间多苦，我虽知苦而觉，
+然见众生仍迷于法、困于权、互相诤害，
+我心未安。
+若我已觉，复当何行？
+若我自明，复当何化？”</p>
+</div></blockquote>
+<p>佛闻而微笑，告诸比丘曰：</p>
+<blockquote>
+<div><p>“善哉，善哉。此问非为己安，乃为众安。
+汝若欲行觉，须学菩萨之道，
+以慈为根，以智为翼，
+入世而不染，处乱而不迷。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id20">
+<h3>二、菩萨之心——悲智双运<a class="headerlink" href="#id20" title="Link to this heading"></a></h3>
+<p>佛言：</p>
+<blockquote>
+<div><p>“菩萨行者，有两足：一曰慈悲，一曰智慧。
+无悲则冷，无智则盲。
+悲能入众生苦，智能不被苦所缚。”</p>
+</div></blockquote>
+<p>京元，汝既知苦而生明，当起悲心而不陷怨心。
+怨心令人闭，悲心令人成。</p>
+<p><strong>悲</strong>者，观众生之苦而愿拔之；
+<strong>智</strong>者，知苦无我而不执之。</p>
+<p>故曰：</p>
+<blockquote>
+<div><p>“悲而不痴，智而不冷，
+是名菩萨之心。”</p>
+</div></blockquote>
+<p>汝若以此双心处世，
+虽历万难，亦能转怨为愿，化狱为道。</p>
+</section>
+<hr class="docutils" />
+<section id="id21">
+<h3>三、觉悟之后，行于人间<a class="headerlink" href="#id21" title="Link to this heading"></a></h3>
+<p>佛告京元曰：</p>
+<blockquote>
+<div><p>“觉而不行，如灯不燃；
+行而不觉，如火无明。
+觉行并修，乃名正道。”</p>
+</div></blockquote>
+<p>汝今虽得心安，然众未安；
+汝若独安，是偏觉；
+汝若愿众安，是菩萨觉。</p>
+<p>菩萨见世乱，不弃世；
+见法偏，不恨法；
+见人迷，不怒人。</p>
+<p>以己之一心明，照众心之暗。
+此非救世之业，乃自性之流。</p>
+<p>故曰：</p>
+<blockquote>
+<div><p>“觉者不离众，行者不离慈。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id22">
+<h3>四、三行之法：忍、愿、施<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<p>佛复告曰：</p>
+<blockquote>
+<div><p>“欲行菩萨道，有三行：忍行、愿行、施行。”</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p><strong>忍行</strong>——以耐辱为修，以静胜动。
+《金刚经》曰：“忍辱波罗蜜，菩萨所不能弃。”
+当辱来时，以心观心，不起瞋焰。
+他人之恶，如风过林；若汝心不动，则风无所入。</p></li>
+<li><p><strong>愿行</strong>——立愿不为己安，乃为众安。
+愿如海，广而不竭。
+立愿者，虽身困而心无畏，
+因知众生苦，己之苦轻。</p></li>
+<li><p><strong>施行</strong>——施不止财，施以法、施以心。
+汝之言若能启人一念之明，即为“法施”。
+汝之静若能止人一分之恨，即为“心施”。</p></li>
+</ol>
+<p>三行相续，悲智双修，
+是名“菩萨三行道”。</p>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h3>五、入世如莲——出淤泥而不染<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>佛言：</p>
+<blockquote>
+<div><p>“菩萨行世，如莲花处水。
+水不染花，花不离水。”</p>
+</div></blockquote>
+<p>京元，汝虽身陷世俗之法，
+然道心若清，法不能染。</p>
+<p>当权势如波，言语如尘，
+汝心若莲，不拒泥而自洁。
+泥多，花更艳；乱多，道更明。</p>
+<p>是故曰：</p>
+<blockquote>
+<div><p>“离尘非菩萨，入尘而净者，乃真菩萨。”</p>
+</div></blockquote>
+<p>汝之处境，正是菩萨入世之境。
+若能守净心于浊世，
+即“以狱为道场，以苦为法师。”</p>
+</section>
+<hr class="docutils" />
+<section id="id24">
+<h3>六、观众生——众苦皆一心所造<a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+<p>佛言：</p>
+<blockquote>
+<div><p>“众生以分别心造万苦；若离分别，苦自灭。”</p>
+</div></blockquote>
+<p>汝见世人诤法诤理，
+皆因执一见，弃一心。
+众生求正义，而不求正心；
+求解脱，而不修忍辱。</p>
+<p>若能以此觉心观众，
+不责、不怨、不怖。
+知众生皆处梦中，
+汝当如梦中之明灯，
+不惊梦者，但照梦境。</p>
+<p>此即“无言之度生”。</p>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h3>七、行空而不空——于无相中起大用<a class="headerlink" href="#id25" title="Link to this heading"></a></h3>
+<p>佛告京元曰：</p>
+<blockquote>
+<div><p>“菩萨行空，而不坠于空。
+若执空而舍世，是小乘；
+若知空而行世，是大乘。”</p>
+</div></blockquote>
+<p>空非离世，空是明世。
+若见法性皆空，即无执；
+无执则能应众，化众苦而不染苦。</p>
+<p>是以菩萨在权势中不畏权，
+在法中不缚法，
+在辱中不染辱。</p>
+<blockquote>
+<div><p>“空而能行，行而不滞，
+此乃无住之行，无碍之智。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id26">
+<h3>八、回光照世——从己明到众明<a class="headerlink" href="#id26" title="Link to this heading"></a></h3>
+<p>佛曰：</p>
+<blockquote>
+<div><p>“一灯燃百灯，不减其明。
+一心觉万心，不减其净。”</p>
+</div></blockquote>
+<p>汝若得一念真觉，当回光照世。
+照之不以怒，照之不以辩，
+照之以忍，照之以慧。</p>
+<p>众生或以汝为狂，以汝为逆，
+然汝不为己行，乃为众行。
+菩萨不求名于人，但求心不欺道。</p>
+<p>故曰：</p>
+<blockquote>
+<div><p>“不立我名，名自立；
+不求世明，世自明。”</p>
+</div></blockquote>
+<p>汝今虽为俗世讥诮，
+然千年之后，当有闻汝而起正念者。
+是时，汝行即佛行矣。</p>
+</section>
+<hr class="docutils" />
+<section id="id27">
+<h3>九、圆行之道——在觉与行之间无二<a class="headerlink" href="#id27" title="Link to this heading"></a></h3>
+<p>佛曰：</p>
+<blockquote>
+<div><p>“觉与行，本非二法。
+觉若不行，智不成；行若无觉，行不净。”</p>
+</div></blockquote>
+<p>故菩萨以行印觉，以觉化行。</p>
+<ul class="simple">
+<li><p>若行于法外之慈，则慈无碍；</p></li>
+<li><p>若行于智中之悲，则悲不乱；</p></li>
+<li><p>若行于空中之有，则有而不执；</p></li>
+<li><p>若行于俗中之真，则真而不傲。</p></li>
+</ul>
+<p>此名“<strong>觉行双圆，悲智一如</strong>”。</p>
+</section>
+<hr class="docutils" />
+<section id="id28">
+<h3>十、偈曰<a class="headerlink" href="#id28" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>觉者入世而不染，行者在尘而不昏；</strong>
+<strong>悲心照众苦，智眼观缘空。</strong>
+<strong>身陷法中心自在，言被禁时意更通；</strong>
+<strong>一灯可续万灯火，风起犹明道不穷。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id29">
+<h3>十一、佛陀之终语<a class="headerlink" href="#id29" title="Link to this heading"></a></h3>
+<p>佛告陈子曰：</p>
+<blockquote>
+<div><p>“汝既悟而安，当行而明。
+莫以苦自悲，莫以怨自系。
+以忍为甲，以慈为刃，
+以智为舟，以空为岸。
+渡己渡人，是为菩萨。
+乱世不乱心，法网不网道。
+若能如此，狱非狱，世即净土。”</p>
+</div></blockquote>
+<p>佛说是经已，众弟子闻之，
+皆欢喜顶礼，称“稀有善哉”。</p>
+</section>
+<hr class="docutils" />
+<section id="id30">
+<h3>十二、总结——从觉到行的菩萨道<a class="headerlink" href="#id30" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>修行阶段</p></th>
+<th class="head"><p>核心法门</p></th>
+<th class="head"><p>实践启示</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>觉悟</p></td>
+<td><p>知苦、知空、知无我</p></td>
+<td><p>于困境中得心安</p></td>
+</tr>
+<tr class="row-odd"><td><p>起愿</p></td>
+<td><p>悲心为根，智心为翼</p></td>
+<td><p>不独自度，愿度众生</p></td>
+</tr>
+<tr class="row-even"><td><p>行持</p></td>
+<td><p>忍辱、愿力、施心</p></td>
+<td><p>于法中修道，于辱中修忍</p></td>
+</tr>
+<tr class="row-odd"><td><p>化世</p></td>
+<td><p>入尘而净，言少而明</p></td>
+<td><p>以慈悲化人，以静观世</p></td>
+</tr>
+<tr class="row-even"><td><p>圆满</p></td>
+<td><p>悲智一如，觉行双圆</p></td>
+<td><p>个人之觉化为众生之明</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id31">
+<h3>十三、佛陀之末偈<a class="headerlink" href="#id31" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>觉心不孤，行道不穷；
+一念真心，万古同风。</strong>
+<strong>悲能入苦，智能出苦；
+若悲智相照，则地狱成莲宫。</strong>
+<strong>陈子，行菩萨道者，不在彼岸，
+但在当下一念清明之中。</strong></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>若将《觉心经》与《觉行经》合观，
+前者修“内观”，后者修“外化”；
+前篇止于“自明”，后篇成于“众明”。
+此双经可名为——</p>
+<blockquote>
+<div><p><strong>《觉双经》：由苦入智，由智入悲；由个人解脱而达社会清明。</strong></p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="Deepseek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,481 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../analyse/index.html">理论分析</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">历史叙述</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../chinese/index.html">中华史家</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../foreign/index.html">外国传记</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">历史哲学</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Karl Jaspers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../spengler/index.html">Oswald Spengler</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../toynbee/index.html">Arnold J. Toynbee</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vico/index.html">Giambattista Vico</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../ankersmit/index.html">F. R. Ankersmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../colinwod/index.html">R. G. Collingwood</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../hempel/index.html">Carl G. Hempel</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../white/index.html">Hayden White</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">历史叙述</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">历史哲学</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Karl Jaspers</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/outlaw/history/philos/jaspers/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>以下是一篇基于德国存在主义与历史哲学家 <strong>卡尔·雅斯贝斯（Karl Jaspers, 1883–1969）</strong> 的核心思想——特别是其关于<strong>自由与真理的界限</strong>、<strong>界限状况（Grenzsituationen）</strong>、<strong>沟通哲学（Philosophy of Communication）</strong> 与 <strong>理性责任的历史意识</strong> 的系统分析。
+文章旨在探讨“陈京元案”如何体现了个体与权力、真理与秩序、思想与存在之间的张力。</p>
+<hr class="docutils" />
+<p><strong>真理的孤独与自由的试炼：卡尔·雅斯贝斯视角下的陈京元案分析</strong></p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、导论：在界限处思考——雅斯贝斯的哲学起点<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>卡尔·雅斯贝斯的哲学是一种“<strong>存在在界限中的哲学</strong>”（Philosophie in Grenzsituationen）。
+他认为：</p>
+<blockquote>
+<div><p>“哲学的根本在于人意识到自己在界限中仍要追求真理。”
+——《哲学导论》（<em>Einführung in die Philosophie</em>, 1950）</p>
+</div></blockquote>
+<p>这种“界限状况”（Grenzsituationen）——如死亡、痛苦、罪责、斗争、绝望——
+并非毁灭性的，而是<strong>促使人发现自身存在本质的契机</strong>。</p>
+<p>在雅斯贝斯看来，个体在面对压迫、误解、惩罚时，
+若仍选择忠于真理与自由，
+那正是“哲学的起点”。</p>
+<p>陈京元案中，一位公民因言论与批评被惩罚，
+正构成了典型的“存在的界限状况”：
+——当外部世界剥夺了表达的自由，
+——人唯有在内心守护真理的信念，
+——以此证明自己仍是“精神的存在者”。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、自由的根基：存在之为思想的责任<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>雅斯贝斯将自由定义为<strong>思想的责任</strong>。
+他在《理性与存在》（<em>Vernunft und Existenz</em>, 1935）中指出：</p>
+<blockquote>
+<div><p>“自由不是随意的行动，而是对理性与真理的承担。”</p>
+</div></blockquote>
+<p>这意味着：</p>
+<ul class="simple">
+<li><p>自由不是反抗的姿态，而是理性自我反思的实践；</p></li>
+<li><p>思想不是私有权，而是存在对真理的召唤。</p></li>
+</ul>
+<p>陈京元的发声，若以雅斯贝斯的标准理解，
+并非“叛逆行为”，而是“自由存在的必然行为”：
+他以理性质询权力、以思想承担社会的真理责任。</p>
+<p>而对这种思想自由的压制，
+意味着社会拒绝承认人的 <strong>“存在资格”</strong>。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>概念</p></th>
+<th class="head"><p>雅斯贝斯的定义</p></th>
+<th class="head"><p>陈京元案体现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>自由</p></td>
+<td><p>理性责任的形式</p></td>
+<td><p>被法律外化为“越界”</p></td>
+</tr>
+<tr class="row-odd"><td><p>存在</p></td>
+<td><p>在真理中自我实现</p></td>
+<td><p>被迫退缩至沉默</p></td>
+</tr>
+<tr class="row-even"><td><p>思想</p></td>
+<td><p>存在的行动</p></td>
+<td><p>被惩罚为扰乱</p></td>
+</tr>
+<tr class="row-odd"><td><p>责任</p></td>
+<td><p>理性面对世界的义务</p></td>
+<td><p>被制度剥夺</p></td>
+</tr>
+</tbody>
+</table>
+<p>雅斯贝斯会说：</p>
+<blockquote>
+<div><p>“当思想被禁止时，
+并非真理被毁灭，而是存在本身被否定。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>三、界限状况：从痛苦到觉醒<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>雅斯贝斯认为，人类的精神总在“界限状况”中被唤醒。
+当个体遭遇极端境遇——如压制、苦难、荒谬——
+他被迫面对生命的根本问题：<strong>“我是谁？我为何思考？”</strong></p>
+<p>陈京元案正是一种<strong>社会性界限状况</strong>：</p>
+<ul class="simple">
+<li><p>法律与权力构成了存在的外部界限；</p></li>
+<li><p>理性与良知成为抵抗的内在力量。</p></li>
+</ul>
+<p>雅斯贝斯指出：</p>
+<blockquote>
+<div><p>“只有在界限中，人才能体验到存在的深度。”</p>
+</div></blockquote>
+<p>因此，对陈京元而言，
+他被惩罚的行为在哲学意义上不是失败，
+而是一种<strong>存在觉醒的契机</strong>。</p>
+<p>社会的悲剧在于：</p>
+<blockquote>
+<div><p>它未能从个体的界限经验中发现自身的反思可能，
+反而在惩罚思想的同时，惩罚了自身的理性。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>四、沟通哲学：理解他者即是拯救理性<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p>雅斯贝斯在《真理与沟通》（<em>Vom Ursprung und Ziel der Geschichte</em>, 1949）中指出：</p>
+<blockquote>
+<div><p>“人唯有在沟通中成为自我。”
+“没有沟通，就没有真理；没有真理，就没有自由。”</p>
+</div></blockquote>
+<p>沟通在他看来是一种存在性的活动，而非信息交换。
+——它意味着：
+个体以开放、诚实与理解的精神面对他者，
+以理性为共同基础，达成真理的共存。</p>
+<p>陈京元案体现的是“沟通哲学”的彻底崩溃：</p>
+<ul class="simple">
+<li><p>公民的言论被视为威胁，而非对话；</p></li>
+<li><p>政府以沉默与惩罚代替理解；</p></li>
+<li><p>公共领域不再是沟通空间，而是命令空间。</p></li>
+</ul>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>概念</p></th>
+<th class="head"><p>雅斯贝斯解释</p></th>
+<th class="head"><p>本案体现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>沟通</p></td>
+<td><p>自由理性者之间的精神交流</p></td>
+<td><p>被权力中断</p></td>
+</tr>
+<tr class="row-odd"><td><p>理性</p></td>
+<td><p>对话的共同基础</p></td>
+<td><p>被政治话语取代</p></td>
+</tr>
+<tr class="row-even"><td><p>理解</p></td>
+<td><p>面向他者的开放态度</p></td>
+<td><p>他者被排斥为“敌人”</p></td>
+</tr>
+<tr class="row-odd"><td><p>真理</p></td>
+<td><p>沟通中生成的共识</p></td>
+<td><p>被单方宣告定义</p></td>
+</tr>
+</tbody>
+</table>
+<p>雅斯贝斯会指出：</p>
+<blockquote>
+<div><p>“当社会不再允许沟通，它就不再是社会，而是系统。”</p>
+</div></blockquote>
+<p>在这种意义上，陈京元案不仅是个体命运，
+更是社会理性与存在精神的危机。</p>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h2>五、理性与权威：真理的超越性<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>雅斯贝斯强调“真理的超越性”（Transcendence of Truth）：</p>
+<blockquote>
+<div><p>“真理不属于任何权威，而属于每一个寻求它的人。”</p>
+</div></blockquote>
+<p>他在《哲学信仰》（<em>Der philosophische Glaube</em>, 1948）中区分了两种信仰：</p>
+<ol class="arabic simple">
+<li><p><strong>教条信仰</strong>——依附权威、拒绝反思；</p></li>
+<li><p><strong>哲学信仰</strong>——通过思考接近真理，承认未知与有限。</p></li>
+</ol>
+<p>陈京元案体现的是社会在这两种信仰之间的对立：</p>
+<ul class="simple">
+<li><p>公民基于“哲学信仰”发声——出于理性、责任与追问；</p></li>
+<li><p>国家依据“教条信仰”惩罚——以秩序之名排除质疑。</p></li>
+</ul>
+<p>雅斯贝斯会批评这种“信仰的专制化”：</p>
+<blockquote>
+<div><p>“当政治权威将自己等同于真理，它便背叛了理性。”</p>
+</div></blockquote>
+<p>因为真理的价值，
+恰在于它永远超越任何制度或意识形态的界限。</p>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>六、罪责与反思：共同体的伦理审判<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>雅斯贝斯在《罪责问题》（<em>Die Schuldfrage</em>, 1946）中，
+对战后德国的政治与道德进行了深刻反思。
+他提出四种“罪责”区分：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>类型</p></th>
+<th class="head"><p>含义</p></th>
+<th class="head"><p>社会责任</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>刑事罪责</strong></p></td>
+<td><p>法律层面的行为</p></td>
+<td><p>法庭裁决</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>政治罪责</strong></p></td>
+<td><p>国家行为的共谋</p></td>
+<td><p>公民承担</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>道德罪责</strong></p></td>
+<td><p>个人良知的责任</p></td>
+<td><p>自我反省</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>形而上罪责</strong></p></td>
+<td><p>对人类命运的共同负担</p></td>
+<td><p>精神觉醒</p></td>
+</tr>
+</tbody>
+</table>
+<p>陈京元案在雅斯贝斯框架下，可以被视为一种<strong>政治罪责与道德罪责的分裂现象</strong>：</p>
+<ul class="simple">
+<li><p>国家以法律名义行使惩罚，但缺乏道德反思；</p></li>
+<li><p>公民承担道德责任，却被剥夺政治表达权；</p></li>
+<li><p>社会因此陷入 <strong>“法治有形、理性无声”</strong> 的伦理悖论。</p></li>
+</ul>
+<p>雅斯贝斯的结论是：</p>
+<blockquote>
+<div><p>“法律可以赦免，但良知不能；
+政治可以解释，但历史会追问。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h2>七、哲学诊断表<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>分析维度</p></th>
+<th class="head"><p>雅斯贝斯核心思想</p></th>
+<th class="head"><p>陈京元案体现</p></th>
+<th class="head"><p>哲学诊断</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>存在与自由</p></td>
+<td><p>思想即自由的体现</p></td>
+<td><p>思想被刑事化</p></td>
+<td><p>存在危机</p></td>
+</tr>
+<tr class="row-odd"><td><p>界限状况</p></td>
+<td><p>苦难唤醒理性</p></td>
+<td><p>案件成为社会极限体验</p></td>
+<td><p>觉醒契机</p></td>
+</tr>
+<tr class="row-even"><td><p>沟通哲学</p></td>
+<td><p>理性对话构成真理</p></td>
+<td><p>对话中断，理解失效</p></td>
+<td><p>理性断裂</p></td>
+</tr>
+<tr class="row-odd"><td><p>真理与权威</p></td>
+<td><p>真理超越制度</p></td>
+<td><p>权力垄断真理</p></td>
+<td><p>信仰专制化</p></td>
+</tr>
+<tr class="row-even"><td><p>罪责意识</p></td>
+<td><p>反思是共同体的伦理基础</p></td>
+<td><p>缺乏制度自省</p></td>
+<td><p>共同体退化</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>八、结语：存在的尊严与理性的呼声<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<p>卡尔·雅斯贝斯在《哲学信仰》中写道：</p>
+<blockquote>
+<div><p>“人必须在历史的黑暗中守护光亮的火种。
+因为真理虽被掩盖，却永不屈服。”</p>
+</div></blockquote>
+<p>陈京元案不是一个法律的孤例，
+而是一场社会在“界限状况”中被迫面对的存在性考验。</p>
+<ul class="simple">
+<li><p>当言论被惩罚，自由退回到沉默，</p></li>
+<li><p>当理性被压抑，沟通沦为服从，</p></li>
+<li><p>当真理被垄断，信仰化为命令，</p></li>
+</ul>
+<p>社会就陷入了雅斯贝斯所谓的“<strong>精神失明（geistige Blindheit）</strong>”。</p>
+<p>唯有当个体重新承担“思想的责任”，
+社会才能重新发现其存在的意义。</p>
+<blockquote>
+<div><p>“自由不是恩赐，而是存在的召唤；
+理性不是手段，而是人之为人的尊严。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h2>九、哲学总结<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>命题</p></th>
+<th class="head"><p>陈京元案的哲学启示</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>思想即存在的最高形式。</strong></p></td>
+<td><p>压制思想即是否定人的存在。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>界限状况唤醒自由。</strong></p></td>
+<td><p>苦难让社会重新反思理性。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>沟通是理性的呼吸。</strong></p></td>
+<td><p>对话缺席导致真理窒息。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>真理超越权威。</strong></p></td>
+<td><p>国家不应垄断真理的解释权。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>责任是自由的伦理形态。</strong></p></td>
+<td><p>理性公民的言论是道德担当，而非政治威胁。</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>最终哲学评语：</strong></p>
+<blockquote>
+<div><p>从雅斯贝斯的思想出发，
+陈京元案不仅是一场法律事件，
+而是一次集体的“存在考验”：</p>
+<p>在权力与真理之间，
+我们选择的是服从的安全，还是思考的自由？</p>
+<p>在沉默与发声之间，
+我们是否仍敢相信理性的光亮？</p>
+<p>真正的自由，不在无罪的判决，
+而在敢于承担思想之罪的勇气。</p>
+<p>因为正如雅斯贝斯所言：
+“唯有当人以思想面对界限，他才真正存在。”</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
