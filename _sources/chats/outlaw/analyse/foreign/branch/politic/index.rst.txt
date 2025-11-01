@@ -72,17 +72,21 @@
 
 *   **代表人物**： :doc:`埃德蒙·柏克 </chats/outlaw/analyse/foreign/branch/politic/burke/index>`、:doc:`迈克尔·奥克肖特 </chats/outlaw/analyse/foreign/branch/politic/oakeshott/index>`。
 
-4. :doc:`社会主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/index>` 和 :doc:`马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`
+4. :doc:`社会主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/index>`
 
 *   **核心主张**：批判资本主义制度是 **剥削和不平等的根源**。主张通过改变经济基础（如生产资料公有制）来实现真正的自由与平等，强调 **社会平等** 和 **集体行动**。
 
 *   **关键区分**：
 
-    *   **革命社会主义** （马克思主义）：通过革命推翻资本主义。
+    *   :doc:`科学社会主义 </chats/outlaw/analyse/foreign/master/recent/marx/index>` ：经典马克思主义。
 
-    *   **社会民主主义**：通过议会民主和福利国家政策在资本主义框架内进行改革。
+    *   :doc:`革命社会主义 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>` ：列宁主义，通过革命推翻资本主义。
 
-*   **代表人物**：:doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/marx/index>`、 :doc:`列宁 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>` 。
+    *   :doc:`民主社会主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/demosoc/index>`：通过议会民主和福利国家政策在资本主义框架内进行改革。
+
+    *   :doc:`中共社会主义 </chats/outlaw/analyse/chinese/school/ccp/index>`： 中国共产党的执政思想。
+
+*   **代表人物**：:doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/marx/index>`。
 
 5. :doc:`社群主义 </chats/outlaw/analyse/foreign/branch/politic/commun/index>`
 
@@ -118,7 +122,7 @@
    * - 保守主义
      - 强调传统、秩序与渐进改革
      - :doc:`培根 </chats/outlaw/analyse/foreign/master/recent/bacon/index>` 、 :doc:`柏克 </chats/outlaw/analyse/foreign/branch/politic/burke/index>` 、 :doc:`奥克肖特 </chats/outlaw/analyse/foreign/branch/politic/oakeshott/index>` 
-   * - :doc:`马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>` 
+   * - 社会主义 
      - 关注阶级斗争与历史唯物主义
      - :doc:`马克思、恩格斯 </chats/outlaw/analyse/foreign/master/recent/marx/index>`、 :doc:`列宁 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>` 
    * - 社群主义

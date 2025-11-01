@@ -6,7 +6,7 @@
 
 法律哲学主要包括以下几个核心流派：
 
-1. 自然法学派（Natural Law School）
+1. :doc:`自然法学派 </chats/outlaw/analyse/foreign/branch/legal/natural/index>` 
 
 - **核心理念**：法律应体现道德与正义，恶法非法。
 - **代表人物**： :doc:`亚里士多德 </chats/outlaw/analyse/foreign/master/ancient/aristotle/index>`、:doc:`托马斯·阿奎那 </chats/outlaw/analyse/foreign/master/ancient/aquinas/index>`、:doc:`洛克 </chats/outlaw/analyse/foreign/master/recent/locke/index>`、:doc:`卢梭 </chats/outlaw/analyse/foreign/master/recent/rouss/index>`、:doc:`富勒 </chats/outlaw/analyse/foreign/branch/legal/fuller/index>`、:doc:`德沃金 </chats/outlaw/analyse/foreign/branch/legal/dworkin/index>`、:doc:`罗尔斯 </chats/outlaw/analyse/foreign/branch/politic/rawls/index>`。
@@ -16,7 +16,7 @@
   - 法律源于“高于人定法”的自然法则。
   - 二战后出现“新自然法学”，如 :doc:`富勒 </chats/outlaw/analyse/foreign/branch/legal/fuller/index>` 的“内在道德”。
 
-2. 分析实证主义法学派（Analytical Legal Positivism）
+2. :doc:`分析实证主义法学派 </chats/outlaw/analyse/foreign/branch/legal/positivism/index>`
 
 - **核心理念**：法律是人制定的规则，与道德无关。
 - **代表人物**： :doc:`边沁 </chats/outlaw/analyse/foreign/master/recent/bentham/index>`、:doc:`奥斯丁 </chats/outlaw/analyse/foreign/branch/legal/austin/index>`、:doc:`凯尔森 </chats/outlaw/analyse/foreign/branch/legal/kelsen/index>`、:doc:`哈特 </chats/outlaw/analyse/foreign/branch/legal/hart/index>`。
@@ -26,7 +26,7 @@
   - 主张“恶法亦法”，法律研究应价值中立。
   - :doc:`凯尔森 </chats/outlaw/analyse/foreign/branch/legal/kelsen/index>` 提出“纯粹法学”，:doc:`哈特 </chats/outlaw/analyse/foreign/branch/legal/hart/index>` 发展“规则理论”。
 
-3. 社会法学派（Sociological Jurisprudence）
+3. :doc:`社会法学派 </chats/outlaw/analyse/foreign/branch/legal/sociolo/index>`
 
 - **核心理念**：法律是社会生活的产物，应服务于社会需求。
 - **代表人物**： :doc:`埃利希 </chats/outlaw/analyse/foreign/branch/legal/ehrlich/index>`、:doc:`霍姆斯 </chats/outlaw/analyse/foreign/branch/legal/holmes/index>`、:doc:`庞德 </chats/outlaw/analyse/foreign/branch/legal/pound/index>`。
