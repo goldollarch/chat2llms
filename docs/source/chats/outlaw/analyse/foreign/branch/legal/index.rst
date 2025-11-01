@@ -59,6 +59,9 @@
    * - 新修辞学法学
      - 强调法律语言的修辞性与解释的多样性
      - :doc:`查伊姆·佩雷尔曼 </chats/outlaw/analyse/foreign/branch/legal/perelman/index>`
+   * - 历史法学派
+     - 法律是"民族精神"的有机产物，随历史自然生长，而非理性设计。
+     - :doc:`萨维尼 </chats/outlaw/analyse/foreign/branch/legal/savigny/index>`
 
 
 这些流派之间的争论构成了法律哲学的基本张力：
@@ -169,6 +172,11 @@
     :maxdepth: 1
 
     perelman/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    savigny/index
 
  .. toctree::
     :maxdepth: 1
