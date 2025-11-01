@@ -1,0 +1,495 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../branch/index.html">分支</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">主流</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">现代</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Phenomenology</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/schools/modern/phenom/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>这一篇将以 <strong>现象学（Phenomenology）</strong> 的哲学核心思想为分析框架，
+从 <strong>胡塞尔（Edmund Husserl）</strong>、<strong>海德格尔（Martin Heidegger）</strong>、<strong>梅洛-庞蒂（Maurice Merleau-Ponty）</strong>、<strong>萨特（Jean-Paul Sartre）</strong> 等人的思想出发，
+探讨“陈京元案”在“意识—经验—意义—存在”层面所揭示的深层结构。</p>
+<p>与以往的社会哲学或政治分析不同，
+现象学不是批判权力或制度的外部理论，
+而是一种 <strong>回到经验本身、揭示事物如何“被给予”与“被理解”</strong> 的哲学方法。</p>
+<p>从现象学视角看，
+陈京元案不仅是一个法律事件，
+更是一个 <strong>“意义生成的场域”</strong>——
+在这个场域中，
+个体意识、社会话语、制度逻辑与存在经验相互交织，
+构成了现代中国社会“真理如何被体验、被遮蔽、被建构”的生动现象。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、现象学的哲学基础：回到经验本身<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>胡塞尔提出现象学的根本口号：</p>
+<blockquote>
+<div><p><strong>“回到事情本身！”（Zu den Sachen selbst!）</strong></p>
+</div></blockquote>
+<p>这意味着，哲学应当搁置一切既定假设与理论框架，
+去还原事物在意识中<strong>如何被直接经验与呈现</strong>。</p>
+<p>现象学通过“悬搁（epoché）”与“意向性分析（intentional analysis）”，
+试图揭示——</p>
+<blockquote>
+<div><p>我们不是在“面对世界”，而是在“与世界共在”中赋予意义。</p>
+</div></blockquote>
+<p>在陈京元案中，
+这种“意义的生成”尤为关键：</p>
+<ul class="simple">
+<li><p>法律如何在社会意识中“被理解”？</p></li>
+<li><p>公民的“言说”如何在公共语境中“被体验”？</p></li>
+<li><p>“扰乱秩序”这一表述如何在社会意识中“被显现”？</p></li>
+</ul>
+<p>这些问题不是逻辑的，而是<strong>现象的</strong>。
+现象学的任务不是判断谁对谁错，
+而是揭示“世界被如何理解与显现”。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、胡塞尔视角：意识的意向性与“意义的建构”<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>胡塞尔认为：</p>
+<blockquote>
+<div><p>“一切意识都是意向性的。”
+即——意识总是“关于某物”的。</p>
+</div></blockquote>
+<p>因此，任何法律行为、社会事件都不是客观事实的堆叠，
+而是<strong>意识赋予世界意义的过程</strong>。</p>
+<p>应用于本案：</p>
+<ul class="simple">
+<li><p>“国家”并非一个实物，而是集体意识中的“意义对象”；</p></li>
+<li><p>“秩序”并非自然存在，而是社会意向性的产物；</p></li>
+<li><p>“扰乱秩序”的指控，不是事实陈述，而是<strong>意向性判断</strong>。</p></li>
+</ul>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>层面</p></th>
+<th class="head"><p>意向性结构</p></th>
+<th class="head"><p>陈京元案中的体现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>主体意识</p></td>
+<td><p>对世界的指向性理解</p></td>
+<td><p>公民的批评意向被误读为敌意</p></td>
+</tr>
+<tr class="row-odd"><td><p>对象构成</p></td>
+<td><p>世界在意识中被建构</p></td>
+<td><p>“秩序”被建构为神圣、不可质疑的对象</p></td>
+</tr>
+<tr class="row-even"><td><p>意义生成</p></td>
+<td><p>意识与世界的互动结果</p></td>
+<td><p>“法律”被赋予权威的超验意义</p></td>
+</tr>
+<tr class="row-odd"><td><p>悬搁的可能</p></td>
+<td><p>放下成见以直观现象</p></td>
+<td><p>被权力语言遮蔽的“事实自身”被掩盖</p></td>
+</tr>
+</tbody>
+</table>
+<p>胡塞尔会说：</p>
+<blockquote>
+<div><p>“我们看到的不是事实，而是被预设框架所形塑的事实。”</p>
+</div></blockquote>
+<p>本案的问题在于——
+社会与司法体系缺乏“悬搁的能力”：
+即，无法暂时搁置自身的政治立场去还原“言说行为的本身”。</p>
+</section>
+<hr class="docutils" />
+<section id="being-in-the-world">
+<h2>三、海德格尔视角：存在与“在世之在”（Being-in-the-world）<a class="headerlink" href="#being-in-the-world" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>——“法律—权力—存在”的生存论解读<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>海德格尔将现象学从认识论转向<strong>存在论</strong>，
+他指出：</p>
+<blockquote>
+<div><p>“人不是认识世界的主体，而是处在世界之中的存在者（Dasein）。”</p>
+</div></blockquote>
+<p>换言之：
+我们与世界、制度、他人是共在的，
+而非“观察与被观察”的关系。</p>
+<p>在陈京元案中，这种共在关系被割裂：</p>
+<ul class="simple">
+<li><p>公民被还原为“案件对象”，不再是“共在的存在”；</p></li>
+<li><p>法律系统以“客体化”方式看待个体，而非与其共处；</p></li>
+<li><p>“在世之在”被替换为“被治理之在”。</p></li>
+</ul>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>海德格尔范畴</p></th>
+<th class="head"><p>哲学含义</p></th>
+<th class="head"><p>本案现象</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>在世之在</p></td>
+<td><p>人与世界共处的存在方式</p></td>
+<td><p>法律视个体为“对象”，非共在者</p></td>
+</tr>
+<tr class="row-odd"><td><p>他在（Mitsein）</p></td>
+<td><p>存在总是与他人共存</p></td>
+<td><p>“批评者”被孤立、断裂</p></td>
+</tr>
+<tr class="row-even"><td><p>真实性（Eigentlichkeit）</p></td>
+<td><p>面对自身存在的勇气</p></td>
+<td><p>个体批评体现真实存在的实践</p></td>
+</tr>
+<tr class="row-odd"><td><p>非真实性</p></td>
+<td><p>从众与恐惧的生存状态</p></td>
+<td><p>社会的沉默与顺从</p></td>
+</tr>
+<tr class="row-even"><td><p>语言与显现</p></td>
+<td><p>语言是存在的家</p></td>
+<td><p>言论自由被剥夺，存在之语被封锁</p></td>
+</tr>
+</tbody>
+</table>
+<p>海德格尔会说：</p>
+<blockquote>
+<div><p>“当语言被禁，存在便被封。”</p>
+</div></blockquote>
+<p>——在陈京元案中，
+“言论自由”不只是法律权利，
+而是<strong>存在之本身的权利</strong>。</p>
+<p>个体的发声，是其“在世之在”的展开；
+而当发声被惩罚，存在被迫退入“非真实性”的恐惧状态。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>四、梅洛-庞蒂视角：身体经验与“知觉的现象学”<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<section id="id5">
+<h3>——身体如何被规训、被沉默、被社会化<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>梅洛-庞蒂强调：</p>
+<blockquote>
+<div><p>“意识不是纯粹理智的，而是具身的（embodied）。”
+“身体是我在世界中的方式。”</p>
+</div></blockquote>
+<p>在陈京元案中，这一思想具有极强的启发性：</p>
+<ul class="simple">
+<li><p>陈京元的言说不仅是理性陈述，更是身体经验的外化；</p></li>
+<li><p>法律的惩罚机制不止作用于理性层面，而是作用于身体层面（拘押、监控、心理压力）；</p></li>
+<li><p>社会舆论的排斥使个体陷入“被看见的羞耻”与“被孤立的身体焦虑”。</p></li>
+</ul>
+<p>现象学揭示：
+“生命经验”被权力结构重塑成“可管理的身体”。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>维度</p></th>
+<th class="head"><p>梅洛-庞蒂观点</p></th>
+<th class="head"><p>本案体现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>身体性</p></td>
+<td><p>身体是意识与世界的接口</p></td>
+<td><p>法律通过身体控制意识（惩罚、拘押）</p></td>
+</tr>
+<tr class="row-odd"><td><p>感知结构</p></td>
+<td><p>我们通过感知构建世界</p></td>
+<td><p>舆论环境塑造了公众的“感知框架”</p></td>
+</tr>
+<tr class="row-even"><td><p>沟通性身体</p></td>
+<td><p>发声是身体的社会存在</p></td>
+<td><p>禁言即身体的社会性死亡</p></td>
+</tr>
+<tr class="row-odd"><td><p>可见性政治</p></td>
+<td><p>权力决定谁能被看见</p></td>
+<td><p>异见者被迫隐形化</p></td>
+</tr>
+</tbody>
+</table>
+<p>梅洛-庞蒂的视角让我们看到：</p>
+<blockquote>
+<div><p>“惩罚”不仅是法律事件，更是身体经验的再塑。</p>
+</div></blockquote>
+<p>国家通过对身体的控制来实现对意识的治理——
+这是一种“具身的生命政治”。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="etre-pour-autrui">
+<h2>五、萨特视角：自由、他人与“为他存在”（être-pour-autrui）<a class="headerlink" href="#etre-pour-autrui" title="Link to this heading"></a></h2>
+<section id="id6">
+<h3>——主体的自由与被凝视的困境<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p>萨特指出：</p>
+<blockquote>
+<div><p>“人被判定要自由。”
+自由不是外在赋予，而是存在的必然结构。</p>
+</div></blockquote>
+<p>然而，他也指出：</p>
+<blockquote>
+<div><p>“他人即地狱。”
+——当他人的目光将我对象化时，我的自由就被限制。</p>
+</div></blockquote>
+<p>在陈京元案中：</p>
+<ul class="simple">
+<li><p>个体以“批评”实践其自由存在；</p></li>
+<li><p>然而社会、舆论与权力体系以“他人的凝视”将其物化为“罪犯”；</p></li>
+<li><p>自由的存在被还原为“风险对象”。</p></li>
+</ul>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>概念</p></th>
+<th class="head"><p>哲学含义</p></th>
+<th class="head"><p>本案体现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>自由</p></td>
+<td><p>存在即自由</p></td>
+<td><p>批评行为是存在的展开</p></td>
+</tr>
+<tr class="row-odd"><td><p>他人</p></td>
+<td><p>凝视与评判的他者</p></td>
+<td><p>舆论、权力以他者目光对象化个体</p></td>
+</tr>
+<tr class="row-even"><td><p>恶信（bad faith）</p></td>
+<td><p>逃避自由责任</p></td>
+<td><p>社会沉默与从众</p></td>
+</tr>
+<tr class="row-odd"><td><p>真实性</p></td>
+<td><p>承担自由的焦虑</p></td>
+<td><p>思想者承担风险而言说</p></td>
+</tr>
+<tr class="row-even"><td><p>存在困境</p></td>
+<td><p>被他人定义</p></td>
+<td><p>思想者被制度化命名</p></td>
+</tr>
+</tbody>
+</table>
+<p>萨特会说：</p>
+<blockquote>
+<div><p>“在法的凝视中，人不再是存在者，而是案件。”</p>
+</div></blockquote>
+<p>陈京元案因此不是“法律判断”，而是一场“存在被物化”的悲剧。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h2>六、综合：现象学对本案的三重揭示<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>现象学维度</p></th>
+<th class="head"><p>哲学命题</p></th>
+<th class="head"><p>本案体现</p></th>
+<th class="head"><p>哲学诊断</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>意识现象学（胡塞尔）</strong></p></td>
+<td><p>意义是意向性建构的</p></td>
+<td><p>“扰乱秩序”是社会意义的构成，而非客观事实</p></td>
+<td><p>意识被权力框定</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>存在现象学（海德格尔）</strong></p></td>
+<td><p>存在即在世共存</p></td>
+<td><p>法律体制剥离个体的共在关系</p></td>
+<td><p>存在被客体化</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>身体现象学（梅洛-庞蒂）</strong></p></td>
+<td><p>意识具身、感知具社会性</p></td>
+<td><p>法律惩罚作用于身体与感知</p></td>
+<td><p>身体被规训化</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>自由现象学（萨特）</strong></p></td>
+<td><p>自由是存在的结构</p></td>
+<td><p>批评行为是自由实践</p></td>
+<td><p>自由被凝视与惩罚所束缚</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>七、现象学的伦理启示：<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<section id="id9">
+<h3>——还原“事实自身”，恢复“人之为人”的经验<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>现象学并不直接谈政治正义，
+但它提供了一种<strong>重新理解正义的方式</strong>：</p>
+<blockquote>
+<div><p>只有回到经验本身，我们才能重新看见被遮蔽的“人”。</p>
+</div></blockquote>
+<p>在陈京元案中，
+“人”被法律语言、政治叙事与社会感知层层覆盖。
+现象学的任务，正是“揭示被遮蔽的经验真相”。</p>
+<p>胡塞尔称之为：</p>
+<blockquote>
+<div><p>“现象学的使命是恢复世界的自明性。”</p>
+</div></blockquote>
+<p>因此：
+真正的法治不在于程序完备，
+而在于是否能<strong>让人的经验重新显现为世界的意义中心</strong>。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>八、结语：现象学的呼唤——让“显现”重新可能<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>“世界并非被思考出来的，而是被经验出来的。” ——梅洛-庞蒂</p>
+</div></blockquote>
+<p>陈京元案在现象学意义上，
+是“世界显现机制”被遮蔽的范例：
+法律语言掩盖经验，权力话语取代理解，
+人不再被当作“存在者”，而是“管理对象”。</p>
+<p>现象学提醒我们：</p>
+<blockquote>
+<div><p>“每一种压迫，首先是经验被消音。”</p>
+</div></blockquote>
+<p><strong>最终哲学评语：</strong></p>
+<blockquote>
+<div><p>从现象学的角度看，陈京元案的真正危机，
+不在于法的执行，而在于<strong>意义如何被建构与遮蔽</strong>。</p>
+<p>当意识失去自我反思，当存在失去发声，当经验被制度化为“秩序”，
+世界不再显现，人不再存在。</p>
+<p>唯有重新回到“事实自身”，
+才能让法恢复其人性基础，让社会重新看见“他人的经验”，
+也才能让思想重新成为 <strong>“存在的见证”</strong>。</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

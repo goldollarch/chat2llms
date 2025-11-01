@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biopolitics &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../commun/qw.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">政治</a></li>
+      <li class="breadcrumb-item active">Biopolitics</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/politic/biopolitics/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="biopolitics">
+<h1>Biopolitics<a class="headerlink" href="#biopolitics" title="Link to this heading"></a></h1>
+<p>基于生命政治（Biopolitics）政治哲学核心思想</p>
+<hr class="docutils" />
+<p>这是一个极其重要的当代政治哲学概念。“生命政治”指的是一种 <strong>现代权力形式，其核心操作对象不再是领土或法律主体，而是人类的生命本身——包括人口的健康、寿命、生育、卫生等生物性特征</strong>。它标志着权力技术从“让人死”或“任人生”的君主权力，转向了以“优化生命”为目标的治理术。</p>
+<p>其核心思想可以概括为：<strong>现代权力已经深入到了人类的生物性存在层面，通过一系列知识（如医学、统计学、经济学）和制度（如公共卫生、社会保障）来管理和调节“人口”的生命过程，以实现人口的优化、生产力的提升和秩序的稳定。这种管理生命、培育生命的权力，与传统的“死亡权力”相互交织，构成了现代治理的核心特征。</strong></p>
+<p>为了更清晰地把握生命政治的理论脉络与核心议题，下图梳理了其关键维度与内在逻辑：</p>
+<img alt="../../../../../../../_images/review7.png" src="../../../../../../../_images/review7.png" />
+<p>以下，我们将沿此思想脉络，深入解析生命政治的核心要义。</p>
+<p>一、理论奠基：福柯——从“使人死”到“使人活”的权力</p>
+<p>米歇尔·福柯是“生命政治”概念的首创者和系统阐述者。他的分析最为经典。</p>
+<ul class="simple">
+<li><p><strong>权力范式的历史转变</strong>：</p>
+<ul>
+<li><p><strong>传统君主权力</strong>：表现为 <strong>“让人死或任人生”</strong> 的权力。君主拥有剥夺生命的权利（死刑、战争），但不过多干预臣民的日常生活。</p></li>
+<li><p><strong>现代生命权力</strong>：表现为 <strong>“使人活或把人逐向死亡”</strong> 的权力。权力不再以杀戮为主要手段，而是**积极干预、管理、优化和培育生命**，使其更健康、更高效、更有序。</p></li>
+</ul>
+</li>
+<li><p><strong>两个层面</strong>：福柯认为生命权力在17-18世纪沿着两个方向发展：</p>
+<ol class="arabic simple">
+<li><p><strong>规训权力</strong>：针对 <strong>个体身体</strong>。通过监狱、学校、工厂等机构，训练身体，使其既顺从又有用。目标是制造“驯顺的肉体”。</p></li>
+<li><p><strong>生命政治</strong>：针对 <strong>人口</strong>。人口作为一个生物物种，具有出生率、死亡率、健康状况、寿命等整体特征。国家运用统计学、公共卫生、城市规划、社会保障等措施，在总体层面上 <strong>调节和优化人口的生命过程</strong>。</p></li>
+</ol>
+</li>
+<li><p><strong>治理理性</strong>：生命政治是 <strong>自由主义治理术</strong> 的核心。权力不再是通过压制来运作，而是通过 <strong>“安全配置”</strong> 来管理可能发生的风险，为生命创造自由流动的安全环境，并引导其自然发展。</p></li>
+</ul>
+<p>二、激进发展：阿甘本——“赤裸生命”与死亡政治</p>
+<p>乔治奥·阿甘本接受了福柯的命题，但得出了一个更为激进和悲观的结论。</p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>：生命政治并非现代才有，而是 <strong>西方政治隐秘的原初结构</strong>。政治从一开始就是通过排除一种特殊的生命形式——<strong>“赤裸生命”</strong>——来确立自身的。</p></li>
+<li><p><strong>“赤裸生命”</strong>：指被剥夺了政治和法律身份（公民权、人权）、可以被杀死但不会被祭祀的生命。古希腊的“神圣人”就是其原型。</p></li>
+<li><p><strong>“例外状态”</strong>：主权权力（最高权力）通过宣布“例外状态”（如紧急状态、战争状态），悬置法律，从而将公民还原为“赤裸生命”。<strong>集中营</strong> （而非医院）是生命政治的“典范空间”，因为它最赤裸地展现了权力将人置于法律之外，使其生命可以被随意处置。</p></li>
+<li><p><strong>结论</strong>：因此，生命政治本质上就是 <strong>“死亡政治”</strong> 。现代民主社会看似呵护生命，但其底层逻辑依然依赖于将一部分人（难民、无国籍者、恐怖分子嫌疑人）排除在法律保护之外的可能性。</p></li>
+</ul>
+<p>三、另辟蹊径：埃斯波西托——“免疫”范式</p>
+<p>罗伯托·埃斯波西托提供了另一种解释模型，试图超越福柯和阿甘本的悲观论调。</p>
+<ul class="simple">
+<li><p><strong>核心概念：“免疫”</strong>：现代政治的本质是一种 <strong>“免疫机制”</strong> 。如同医学通过接种小剂量病毒来使身体获得免疫力，政治权力也通过引入一种 <strong>“否定性”</strong> （如法律、规则、边界）来保护共同体的生命，使其避免陷入混乱。</p></li>
+<li><p><strong>免疫悖论</strong>：但当这种免疫机制过度时，它就会 <strong>反过来窒息它本应保护的生命</strong>。过度的安全措施、身份管控、排外政策，会导致共同体活力的丧失。这就是现代生命政治的危机——“免疫过度”。</p></li>
+<li><p><strong>建设性出路</strong>：埃斯波西托试图寻找一种 <strong>“肯定性的生命政治”</strong> ，即一种不再基于排斥和否定，而是能够肯定生命、促进生命充盈的共同生活形式。</p></li>
+</ul>
+<p>四、当代焦点：数字时代的新生命政治</p>
+<p>在21世纪，生命政治呈现出新的形态：</p>
+<ul class="simple">
+<li><p><strong>数字生命政治</strong>：通过大数据、人工智能、社会信用评分等数字技术，权力能够**预测、引导和塑造人的行为**。生命被数据化，成为可分析、可管理的对象。</p></li>
+<li><p><strong>生物资本化</strong>：基因编辑、优生学、抗衰老技术等生物科技，使生命本身成为可以**被优化、被投资、被资本化的材料**。“生命”本身成为了一个经济和政治项目。</p></li>
+</ul>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>福柯：治理术</strong></p></td>
+<td><p><strong>现代权力从”使人死”转向”使人活”，通过管理人口的生命过程进行治理。</strong></p></td>
+<td><p><strong>生命权力、人口、调节、安全配置</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>阿甘本：排斥结构</strong></p></td>
+<td><p><strong>政治的核心是制造”赤裸生命”，生命政治本质上是死亡政治。</strong></p></td>
+<td><p><strong>赤裸生命、例外状态、神圣人、集中营范式</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>埃斯波西托：免疫逻辑</strong></p></td>
+<td><p><strong>政治是一种免疫机制，过度免疫会导致共同体死亡。</strong></p></td>
+<td><p><strong>免疫范式、否定性、免疫过度、肯定性生命政治</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>当代发展</strong></p></td>
+<td><p><strong>数字技术和生物科技使生命政治进入精准预测和深度干预的新阶段。</strong></p></td>
+<td><p><strong>数据化、算法治理、生物资本</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、为何重要？——生命政治的双重性</p>
+<p>生命政治概念之所以关键，在于它揭示了现代权力的根本悖论和双重性：</p>
+<ul class="simple">
+<li><p><strong>进步的正面</strong>：公共卫生、社会福利、疫苗接种、环境保护……这些旨在改善民生、延长寿命的举措，无疑是生命政治的体现，也是现代文明进步的标志。</p></li>
+<li><p><strong>控制的阴暗面</strong>：种族主义、优生学、大规模监控、数据隐私侵犯、在“健康”名义下的社会排斥……这些同样是生命政治的体现，它展示了权力以“为你好”的名义，可以深入到何种程度。</p></li>
+</ul>
+<p><strong>根本问题</strong>：我们如何区分 <strong>“呵护生命的政治”</strong> 与 <strong>“控制生命的政治”</strong> ？在追求安全、健康和效率的同时，如何保障个人的自由、尊严和多样性？这正是生命政治理论留给我们的最紧迫的思考。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#biopolitics">基于生命政治（Biopolitics）政治哲学核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-the-core-ideas-of-biopolitical-philosophy">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on the Core Ideas of Biopolitical Philosophy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">一、生命政治哲学核心思想概述：生物权力与话语规训</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-biopolitical-philosophy-s-core-ideas-biopower-and-discursive-discipline">I. Overview of Biopolitical Philosophy’s Core Ideas: Biopower and Discursive Discipline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">二、以生命政治哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-biopolitical-philosophy-s-core-ideas">II. Analysis of the Case Based on Biopolitical Philosophy’s Core Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">三、结语：重振反话语抵抗，推动生命新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-counter-discourse-resistance-for-life-s-rebirth">III. Conclusion: Reviving Counter-Discourse Resistance for Life’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、生命政治的核心思想</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#case-analysis">二、案件分析 Case Analysis</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#speech-as-governance-of-life">1. 言论与生命的治理 Speech as Governance of Life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#false-information-as-normalization">2. “虚假信息”与规范化机制 “False Information” as Normalization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#procedures-as-surveillance">3. 程序与监控的延伸 Procedures as Surveillance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#chilling-effect-and-population-control">4. 寒蝉效应与人口管理 Chilling Effect and Population Control</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#conclusion-and-reflections">三、结论与启示 Conclusion and Reflections</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、生命政治的基本思想框架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、福柯视角：从“主权惩罚”到“生命管理”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">——国家如何通过司法体系规范生命</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">三、阿甘本视角：“裸命”与“例外状态”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">——法律如何以“保护”为名排除人之为人</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">四、姆贝姆视角：“死亡政治”与国家对言论的选择性容忍</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">——决定谁能活、谁能言</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">五、埃斯波西托视角：“免疫逻辑”与国家的防御性治理</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">——“以防御之名，施控制之实”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id10">六、生命政治的制度机制分析：从“治理”到“生物规范”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id11">七、生命政治的伦理后果</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">——从“让活”到“禁言”的社会进化</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id13">八、生命政治与法治危机：形式理性与实质生命的分裂</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">九、综合诊断表：生命政治视角下的陈京元案</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id15">十、结语：生命政治的警示——从“生存”到“存在”的复归</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>从“管理生命”到“剥夺生命”：生命权力的阴暗面</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“赤裸生命”的生产：司法程序如何剥离人的政治身份</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>“治理术”与“人口”的安全配置：对“危险”的预先清除</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 <strong>“使人活”与“让人死”的辩证：以保护之名行毁灭之实</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论：一场生命政治意义上的“死亡”生产</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. 从主权惩罚到规训式惩罚：控制“高学历生命”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">2. 身体、空间与档案的全面控制</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">3. 公共秩序与信息流的生命政治管理</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、<strong>数字生命政治：从身体规训到数据监控</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、<strong>思想规训：生命政治对“内在生命”的殖民</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">三、<strong>例外状态的常态化：以“秩序”之名悬置法治</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">四、<strong>生命政治的悖论：以“保护生命”之名扼杀生命</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">结语：生命政治的警示——当思想成为治理对象，自由便已死亡</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../commun/qw.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

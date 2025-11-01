@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Critical Philos &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../enlighten/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../branch/index.html">分支</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">主流</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">近代</a></li>
+      <li class="breadcrumb-item active">Critical Philos</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/schools/recent/critical/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="critical-philos">
+<h1>Critical Philos<a class="headerlink" href="#critical-philos" title="Link to this heading"></a></h1>
+<p>基于批判哲学（Critical Philosophy）的核心思想</p>
+<hr class="docutils" />
+<p>批判哲学是西方哲学史上一次根本性的转折，尤其指由伊曼努尔·康德所开创的哲学革命。其核心思想可以概括为：<strong>在理性试图超越经验去认识世界本质之前，必须先对理性本身的能力、范围和界限进行一次彻底的审查和批判。它主张哲学的首要任务不是直接构建关于世界或上帝的宏大体系，而是为理性“划界”，探究知识之所以可能的先决条件，从而为形而上学、伦理学和美学奠定可靠的基础。</strong></p>
+<p>批判哲学的本质是一场 <strong>“理性的自我审判”</strong> ，其核心方法与架构可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review50.png" src="../../../../../../../_images/review50.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析批判哲学的核心要义。</p>
+<p>一、核心标志：哲学中的“哥白尼革命”</p>
+<p>康德将其批判哲学比作一场哲学界的“哥白尼革命”，这形象地揭示了其根本转向。</p>
+<ul class="simple">
+<li><p><strong>传统观点</strong>：认识是 <strong>主体围绕客体转</strong>，即我们的观念必须符合外部对象。</p></li>
+<li><p><strong>康德的革命</strong>：认识是 <strong>客体围绕主体转</strong>，即对象必须符合我们固有的认识形式才能被认识。</p></li>
+<li><p><strong>内涵</strong>：知识并非被动反映世界，而是 <strong>主体利用自身固有的认知结构（如时空、范畴）去主动整理和构建感觉经验</strong> 的产物。我们所能认识的，只是事物向我们“显现”的样子（<strong>现象</strong>），而非事物本身（<strong>物自体</strong>）。</p></li>
+</ul>
+<p>二、根本方法：先验批判</p>
+<p>“批判”在此并非指“否定”或“驳斥”，而是指 <strong>审查、厘清、划界</strong>。</p>
+<ul class="simple">
+<li><p><strong>核心问题</strong>：批判哲学追问 <strong>“XX何以可能？”</strong>。例如：</p>
+<ul>
+<li><p><strong>“先天综合判断何以可能？”</strong> （《纯粹理性批判》）：即，既具有普遍必然性（先天）又能扩展我们知识内容（综合）的命题（如数学、物理学原理）是如何成立的？</p></li>
+<li><p><strong>“道德律令何以可能？”</strong> （《实践理性批判》）：即，那种无条件、强制性的道德命令是如何成立的？</p></li>
+</ul>
+</li>
+<li><p><strong>先验进路</strong>：它不研究具体的知识或道德内容，而是探究使这些内容成为可能的 <strong>先验条件、形式和原则</strong>。这些形式是主体先天具有的，是普遍必然的。</p></li>
+</ul>
+<p>三、主要领域：康德的三大批判</p>
+<p>康德通过三部巨著系统实施了他的批判计划。</p>
+<ol class="arabic simple">
+<li><p>《纯粹理性批判》—— 为知识奠基，为信仰留地盘</p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>任务</strong>：审查人的认识能力（理论理性），确定其能做什么、不能做什么。</p></li>
+<li><p><strong>核心结论</strong>：</p>
+<ul>
+<li><p><strong>可知世界与不可知世界的划分</strong>：我们的理性只能认识由感性直观（时间、空间）和知性范畴（如因果性、实体性）所构建的 <strong>“现象世界”</strong> 。而作为现象来源的 <strong>“物自体”</strong> （如世界整体、灵魂、上帝）是理性无法认识的。</p></li>
+<li><p><strong>划界的意义</strong>：这一方面为数学和自然科学的确定性提供了哲学证明，另一方面也 <strong>限制了理论理性的僭越</strong>，防止其陷入对“物自体”的无休止的、矛盾的独断论中（即“二律背反”）。</p></li>
+<li><p><strong>著名格言</strong>：<strong>“我不得不扬弃知识，以便为信仰留出地盘。”</strong> 即，限制科学知识的范围，是为道德和宗教信仰留下空间。</p></li>
+</ul>
+</li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><p>《实践理性批判》—— 为道德奠基</p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>任务</strong>：审查人的意志能力（实践理性），探究道德法则的可能性。</p></li>
+<li><p><strong>核心结论</strong>：</p>
+<ul>
+<li><p><strong>道德律令</strong>：真正的道德法则是 <strong>绝对命令</strong>，其核心形式是：“要只按照你同时能够愿意它成为一个普遍法则的那个准则去行动。” 即，你的行为准则应能成为一条普遍法则。</p></li>
+<li><p><strong>意志自由</strong>：道德法则的存在以 <strong>意志自由</strong> 为前提。自由是道德责任的必要条件。</p></li>
+<li><p><strong>实践理性的公设</strong>：为保证道德与幸福的最终统一（“至善”），实践理性必须“公设” <strong>灵魂不朽</strong> 和 <strong>上帝存在</strong>。这不是知识，而是道德实践的必要信念。</p></li>
+</ul>
+</li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><p>《判断力批判》—— 沟通自然与自由</p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>任务</strong>：审查人的情感能力（判断力），特别是审美判断和目的论判断。</p></li>
+<li><p><strong>核心结论</strong>：</p>
+<ul>
+<li><p><strong>审美判断</strong>：美感是 <strong>无利害的愉悦</strong>，具有“无目的的合目的性”。它沟通了感性与理性。</p></li>
+<li><p><strong>目的论判断</strong>：将自然看作一个有目的的系统，有助于我们理解有机生命，并暗示了自然领域（受必然律支配）与自由领域（受道德律支配）之间可能存在某种统一性。</p></li>
+</ul>
+</li>
+</ul>
+<p>四、批判哲学与相关哲学的对立</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>对比维度</strong></p></th>
+<th class="head"><p><strong>批判哲学</strong></p></th>
+<th class="head"><p><strong>独断论</strong></p></th>
+<th class="head"><p><strong>怀疑论</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>对理性的态度</strong></p></td>
+<td><p><strong>审查理性</strong>：先审查理性的能力和界限，再谈认识。</p></td>
+<td><p><strong>迷信理性</strong>：不经审查，直接断言理性可以认识终极实在。</p></td>
+<td><p><strong>否定理性</strong>：根本否定理性获得确定性知识的可能性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>方法论</strong></p></td>
+<td><p><strong>先验批判</strong>：追问”何以可能”，探寻先验条件。</p></td>
+<td><p><strong>直接建构</strong>：直接构建关于世界本体的形而上学体系。</p></td>
+<td><p><strong>全面怀疑</strong>：怀疑一切知识的可靠性。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>目标</strong></p></td>
+<td><p><strong>为理性划界</strong>：确定可知与不可知的界限，为真知奠基。</p></td>
+<td><p><strong>追求绝对知识</strong>：试图获得关于宇宙整体的终极真理。</p></td>
+<td><p><strong>终止判断</strong>：通过怀疑达到内心的宁静。</p></td>
+</tr>
+</tbody>
+</table>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>哲学使命</strong></p></td>
+<td><p><strong>在构建体系前，必须先对理性能力本身进行批判性审查。</strong></p></td>
+<td><p><strong>理性批判、划界、哥白尼革命</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>认识论</strong></p></td>
+<td><p><strong>人为自然立法；可知的是现象，不可知的是物自体。</strong></p></td>
+<td><p><strong>现象与物自体、先天综合判断、先验唯心论</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>伦理学</strong></p></td>
+<td><p><strong>道德源于理性颁布的绝对命令，意志自由是其前提。</strong></p></td>
+<td><p><strong>绝对命令、意志自由、实践理性公设</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>美学与目的论</strong></p></td>
+<td><p><strong>审美判断沟通自然与自由，目的论判断暗示世界的合目的性。</strong></p></td>
+<td><p><strong>无利害的愉悦、判断力、合目的性</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、历史影响与评价</p>
+<ul class="simple">
+<li><p><strong>划时代的意义</strong>：批判哲学终结了近代早期唯理论和经验论的争论，开启了从康德到黑格尔的德国古典哲学的辉煌时代，被誉为哲学史上的“蓄水池”（之前的哲学汇入其中，之后的哲学从中流出）。</p></li>
+<li><p><strong>深远影响</strong>：其主体性思想、对知识条件的探究深刻影响了现象学、分析哲学等现代哲学流派。</p></li>
+<li><p><strong>争议与批判</strong>：</p>
+<ul>
+<li><p>“物自体”概念被认为是一个不可知的神秘残留。</p></li>
+<li><p>其形式主义的伦理学被认为过于抽象，缺乏现实内容。</p></li>
+<li><p>后来的哲学家（如黑格尔）批评其“划界”过于僵化，割裂了现象与本质。</p></li>
+</ul>
+</li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，批判哲学的核心思想在于，它是一位 <strong>“理性的法官”和“思想的测绘师”</strong> 。它教导我们，<strong>人类追求真理的伟大征程，第一步不是向外眺望星空，而是向内审视我们用以眺望的“眼睛”本身——我们的理性。真正的智慧在于知道我们能知道什么，以及我们不能知道什么。</strong></p>
+<p>它的全部工作是对 <strong>人类认识能力</strong> 的一次空前自觉和伟大奠基。通过这场彻底的自我审查，批判哲学不仅为科学和道德奠定了更为坚实的基础，也为我们对待知识、信仰和世界的方式带来了一种深刻的谦逊和清醒。在这个意义上，康德开创的批判哲学，永远是现代哲学思考不可或缺的起点。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#critical-philosophy">基于批判哲学（Critical Philosophy）核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-the-core-ideas-of-critical-philosophy">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on the Core Ideas of Critical Philosophy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">一、批判哲学核心思想概述：理性界限与道德自律</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-critical-philosophy-s-core-ideas-limits-of-reason-and-moral-autonomy">I. Overview of Critical Philosophy’s Core Ideas: Limits of Reason and Moral Autonomy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">二、以批判哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-critical-philosophy-s-core-ideas">II. Analysis of the Case Based on Critical Philosophy’s Core Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">三、结语：重振理性自律，推动自由新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-rational-autonomy-for-liberty-s-rebirth">III. Conclusion: Reviving Rational Autonomy for Liberty’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、批判哲学核心思想</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、案件分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#epistemological-dimension">1. 认识论层面 / Epistemological Dimension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#practical-reason-and-freedom">2. 实践理性与自由 / Practical Reason and Freedom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#judgment-and-public-reason">3. 判断力与公共理性 / Judgment and Public Reason</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">三、结论与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、批判哲学的核心精神：理性的自我反思</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、《纯粹理性批判》：理性的限度与“伪理性化的法治”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">——法律理性如何超越其认识边界</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">三、《实践理性批判》：道德法则与自由意志</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">——自由的本体地位与“义务的颠倒”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">四、《判断力批判》：理性、想象与公共反思的空间</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">——审美判断与政治判断的类比</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">五、康德的“批判理性”三原则在本案中的映照</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id9">六、批判哲学的现代继承：哈贝马斯与理性公共性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id10">七、批判哲学的形上反思：理性、权力与自我限度</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id11">八、综合诊断表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">九、结语：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">——“让理性回到批判，让法治回到自限”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>康德式批判的失败：当“理性”被禁止为自己辩护</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“启蒙辩证法”的活样本：理性如何走向其反面</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>哈贝马斯“沟通理性”的彻底窒息</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 <strong>“意识形态批判”与“合法性危机”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论：一场批判哲学意义上的“理性之殇”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#critique-of-pure-reason">1. 理论理性批判（Critique of Pure Reason）：知识、经验与定罪的界限</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#critique-of-practical-reason">2. 实践理性批判（Critique of Practical Reason）：道德法则与主体自律</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#critique-of-judgment">3. 审美判断力批判（Critique of Judgment）：法律与目的论的无目的性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、“纯粹理性”的界限：司法无权审判“不可知之物”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、“实践理性”的自主：学者的道德自律不可被刑法取代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">三、“公共理性”的运用：思想市场是启蒙的唯一路径</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">四、“目的王国”的崩塌：人被当作手段，而非目的</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">五、结语：批判哲学的审判——谁更尊重理性？</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../enlighten/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

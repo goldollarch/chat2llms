@@ -1,0 +1,370 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enlightenment &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../empiric/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../branch/index.html">分支</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">主流</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">近代</a></li>
+      <li class="breadcrumb-item active">Enlightenment</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/schools/recent/enlighten/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="enlightenment">
+<h1>Enlightenment<a class="headerlink" href="#enlightenment" title="Link to this heading"></a></h1>
+<p>基于启蒙哲学（The Enlightenment）核心思想</p>
+<hr class="docutils" />
+<p>启蒙哲学是17世纪末至18世纪在欧洲（尤其在法国、英国和德国）兴起的一场宏大的思想革命运动。其核心思想可以概括为：<strong>一场以“理性”为最高权威，以“自由”为根本目标，旨在通过知识进步和思想解放来克服愚昧、专制和迷信，从而推动人类社会不断走向光明、进步与幸福的 intellectual revolution（思想革命）。</strong></p>
+<p>启蒙哲学并非一个统一的学派，而是一场由众多思想家共同推动的、具有共同精神气质的思想运动。其核心纲领与内在结构，可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review52.png" src="../../../../../../../_images/review52.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析启蒙哲学的核心要义。</p>
+<p>一、最高权威：理性</p>
+<p>“理性”是启蒙运动的旗帜和基石。它不仅是认知工具，更是评判一切的最高法庭。</p>
+<ul class="simple">
+<li><p><strong>核心口号</strong>：康德在《什么是启蒙运动？》中开宗明义：<strong>“要敢于认知！拥有运用你自己理性的勇气！”</strong> 这呼吁人们从自我招致的“不成熟状态”中挣脱出来。</p></li>
+<li><p><strong>内涵</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>工具理性</strong>：一种基于经验和逻辑的、认识自然和人类社会运行规律的能力。</p></li>
+<li><p><strong>批判理性</strong>：一种不盲从任何权威（宗教、传统、专制），对一切现有观念和制度进行审视、质疑和批判的能力。</p></li>
+<li><p><strong>公共理性</strong>：理性是普遍的，为所有人共有。通过 <strong>公开的辩论和自由的交流</strong>，真理越辩越明。</p></li>
+</ol>
+</li>
+</ul>
+<p>二、根本目标：自由</p>
+<p>启蒙哲士们追求多种维度的自由，旨在将人从各种束缚中解放出来。</p>
+<ul class="simple">
+<li><p><strong>思想自由与宗教宽容</strong>：反对思想禁锢和宗教迫害，主张人人有权利按照自己的理性思考，并选择自己的信仰。伏尔泰的名言：“我不同意你的观点，但誓死捍卫你说话的权利”是这种精神的典范。</p></li>
+<li><p><strong>政治自由</strong>：批判君主专制和封建特权，追求 <strong>法治、平等和基本人权</strong>。洛克提出生命、自由、财产是 <strong>不可剥夺的自然权利</strong>；卢梭提出 <strong>“社会契约论”</strong> 和 <strong>“主权在民”</strong> 思想，认为政府的权力来源于人民的同意。</p></li>
+<li><p><strong>经济自由</strong>：重农学派和亚当·斯密倡导 <strong>自由市场</strong>，反对重商主义的国家干预，认为个人追求自身利益在“看不见的手”引导下能促进公共福利。</p></li>
+</ul>
+<p>三、核心方法：怀疑与批判</p>
+<p>启蒙哲士们运用理性作为武器，对旧世界的根基进行了无情的批判。</p>
+<ul class="simple">
+<li><p><strong>批判的靶子</strong>：</p>
+<ul>
+<li><p><strong>宗教迷信与教条</strong>：将批判矛头直指天主教的权威和迷信，倡导 <strong>自然神论</strong> （上帝创造世界后便不再干预，世界依自然律运行）甚至 <strong>无神论</strong>。</p></li>
+<li><p><strong>专制王权</strong>：抨击“君权神授”，论证权力的世俗来源和限制。</p></li>
+<li><p><strong>传统偏见</strong>：挑战一切未经理性检验的传统习俗和社会制度。</p></li>
+</ul>
+</li>
+<li><p><strong>方法论</strong>：笛卡尔的 <strong>普遍怀疑</strong> 精神被继承和发扬，要求一切知识和社会制度都必须站在理性的法庭上为自己辩护。</p></li>
+</ul>
+<p>四、坚定信念：进步主义</p>
+<p>启蒙哲学对未来抱有一种前所未有的乐观主义信念。</p>
+<ul class="simple">
+<li><p><strong>知识进步观</strong>：相信 <strong>知识的积累和科学的进步</strong> 能够解决人类面临的问题，改善生活条件，推动社会不断向前发展。狄德罗主编的 <strong>《百科全书》</strong> 即是这一信念的集中体现，旨在汇集一切知识，启迪民智。</p></li>
+<li><p><strong>普遍历史观</strong>：人类历史是一个从蒙昧、迷信走向理性、光明的 <strong>线性进步过程</strong>。尽管道路曲折，但终极目标是向好的。</p></li>
+</ul>
+<p>五、主要代表人物与思想</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 70.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>代表人物</strong></p></th>
+<th class="head"><p><strong>核心贡献与思想</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>孟德斯鸠（法）</strong></p></td>
+<td><p>提出 <strong>“三权分立”</strong> 学说（立法、行政、司法），成为现代宪政主义的基石。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>伏尔泰（法）</strong></p></td>
+<td><p>启蒙的旗手，猛烈抨击天主教会的腐败和专制，倡导 <strong>理性、宗教宽容和自由</strong>。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>卢梭（法）</strong></p></td>
+<td><p>提出 <strong>“社会契约论”</strong> 和 <strong>“主权在民”</strong>，认为不平等源于私有制，强调”公意”的重要性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>狄德罗（法）</strong></p></td>
+<td><p><strong>《百科全书》</strong> 主编，旨在传播科学知识，挑战传统权威，是启蒙思想的集大成者。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>休谟（英）</strong></p></td>
+<td><p>经验论代表，对因果关系和归纳法提出深刻质疑，揭示了理性的局限性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>康德（德）</strong></p></td>
+<td><p>德国古典哲学奠基人，对”启蒙”做了经典定义，探讨理性的范围和界限（”人为自然立法”）。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>洛克（英）</strong></p></td>
+<td><p>早期启蒙思想家，系统阐述 <strong>经验论、政府论和宗教宽容</strong>，深刻影响了美国革命。</p></td>
+</tr>
+</tbody>
+</table>
+<p>六、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>理性观</strong></p></td>
+<td><p><strong>理性是最高权威，是评判一切、解放人类的根本工具。</strong></p></td>
+<td><p><strong>敢于认知、批判理性、公共运用理性</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>自由观</strong></p></td>
+<td><p><strong>人应享有思想、政治、经济等多方面的自由，这是不可剥夺的自然权利。</strong></p></td>
+<td><p><strong>思想自由、宗教宽容、主权在民、三权分立、自然权利</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>批判观</strong></p></td>
+<td><p><strong>运用理性对宗教迷信、专制政治和传统偏见进行无情的批判。</strong></p></td>
+<td><p><strong>怀疑精神、批判一切、反迷信、反专制</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>进步观</strong></p></td>
+<td><p><strong>知识进步将引领人类社会不断走向光明、幸福和完美的未来。</strong></p></td>
+<td><p><strong>进步主义、科学乐观主义、百科全书派</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>七、历史影响与反思</p>
+<ul class="simple">
+<li><p><strong>革命性的影响</strong>：启蒙思想直接为 <strong>美国独立战争</strong> 和 <strong>法国大革命</strong> 提供了理论武器和革命口号（自由、平等、博爱），奠定了现代西方民主、法治和人权观念的基础。</p></li>
+<li><p><strong>内在张力与反思</strong>：</p>
+<ul>
+<li><p>后世对启蒙的“理性万能”倾向进行了反思，如浪漫主义强调情感，后现代主义批判其“宏大叙事”可能带来的新的压迫。</p></li>
+<li><p>极端的理性主义是否会导致工具理性的膨胀，使人“异化”？</p></li>
+<li><p>“进步”观念是否掩盖了发展带来的新问题？</p></li>
+</ul>
+</li>
+</ul>
+<p>八、总结</p>
+<p>总而言之，启蒙哲学的核心思想在于，它是一场 <strong>“理性的黎明”与“人的第二次觉醒”</strong> 。它教导我们，<strong>人类无需匍匐在任何超验的权威脚下，我们自身拥有的理性，足以照亮前行的道路，为自己立法，并创造一个更自由、更公正、更繁荣的世界。</strong></p>
+<p>它的全部工作是对 <strong>人类自身力量</strong> 的一次伟大发现与肯定。尽管其理想在现实中遭遇了各种挑战，但启蒙运动所奠立的理性、自由、进步和宽容的基本价值，至今仍是现代文明大厦最坚实的基石。在这个意义上，我们至今仍然生活在启蒙运动所开启的时代，并继续着它未竟的事业。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">基于启蒙哲学核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-the-core-ideas-of-enlightenment-philosophy">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on the Core Ideas of Enlightenment Philosophy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、启蒙哲学核心思想概述：理性自由与分权进步</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-enlightenment-philosophy-s-core-ideas-rational-liberty-and-separated-progress">I. Overview of Enlightenment Philosophy’s Core Ideas: Rational Liberty and Separated Progress</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、以启蒙哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-enlightenment-philosophy-s-core-ideas">II. Analysis of the Case Based on Enlightenment Philosophy’s Core Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、结语：重振理性权利，推动进步新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-rational-rights-for-progress-s-rebirth">III. Conclusion: Reviving Rational Rights for Progress’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、启蒙哲学核心思想</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#case-analysis">二、案件分析 Case Analysis</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#absence-of-rational-critique">1. 理性批判的缺失 / Absence of Rational Critique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#erosion-of-freedom-of-speech">2. 言论自由的侵蚀 / Erosion of Freedom of Speech</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#rule-of-law-and-procedural-justice">3. 法治与程序正义 / Rule of Law and Procedural Justice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#public-reason-and-social-contract">4. 公共理性与社会契约 / Public Reason and Social Contract</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">三、结论与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、启蒙哲学的精神总纲</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#sapere-aude">——“Sapere Aude！”——勇于求知</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、康德：理性自主与公共理性</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">——“以理性为自身立法的主体”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">三、卢梭：社会契约与公意的异化</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">——“自由不在服从命令，而在服从自己制定的法”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">四、孟德斯鸠：权力分立与法治的精神</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">——“权力应以权力制约”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">五、伏尔泰：言论自由与宽容精神</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">——“我不同意你的观点，但我誓死捍卫你说话的权利。”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id10">六、狄德罗：知识、理性与反神圣化</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">——“真理不属于权威，而属于理性的公共空间。”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">七、综合分析：启蒙哲学框架下的陈京元案</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id13">八、启蒙的辩证性反思：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">——启蒙的危机即理性的危机</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id15">九、结语：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">——启蒙仍未完成</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>“理性”的放逐：当“敢于认知”的勇气遭遇“闭嘴”的命令</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“不成熟状态”的强制维系：塑造“永远长不大的孩子”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>“普遍人权”的幻灭：当权利成为权力的恩赐</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 <strong>“进步”叙事的破产：恐惧压制了知识可能的增长</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论：一场“启蒙”在“新蒙昧主义”前的溃败</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. 理性的主权与反抗权威的理性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">2. 人权与自由作为天赋权利</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">3. 法治与权力制约（分权制衡）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#vs">一、“敢于求知” vs. “以知为罪”：学者何以成罪人？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">二、“思想自由” vs. “思想定罪”：言论自由的启蒙根基</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">三、“理性至上” vs. “司法非理性”：法律沦为情绪与权力的附庸</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、“宽容原则” vs. “意识形态纯洁性”：对异见的恐惧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">五、“法治精神” vs. “人治暴政”：法律应约束权力，而非压制人民</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">结语：启蒙的警示——无思想自由，则无现代文明</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../empiric/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

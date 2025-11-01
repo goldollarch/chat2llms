@@ -23,7 +23,7 @@
  .. toctree::
     :maxdepth: 1
 
-    russell/index
+    voltaire/index
 
  .. toctree::
     :maxdepth: 1
@@ -34,6 +34,11 @@
     :maxdepth: 1
 
     galileo/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    russell/index
 
  .. toctree::
     :maxdepth: 1

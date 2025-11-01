@@ -1,0 +1,510 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../branch/index.html">分支</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙述</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">主流</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">近代</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Critical Philos</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/schools/recent/critical/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>以下是基于**批判哲学（Critical Philosophy）**核心思想对“陈京元案”进行的系统哲学分析。</p>
+<p>这里所说的“批判哲学”，并非一般意义上的“批评理论”（Critical Theory），
+而是指以<strong>伊曼努尔·康德（Immanuel Kant）<strong>为代表的</strong>“批判哲学传统”</strong>（Critische Philosophie）——
+即：通过理性对自身的限度、功能与合法性进行反思，
+以此建立起<strong>知识、伦理与政治的自我审查体系</strong>。</p>
+<p>“批判哲学”区别于“启蒙哲学”的激情与“实证哲学”的确定性，
+它是一种<strong>理性的自我限制、自我设定边界的哲学</strong>。
+它关心的不是“我们知道什么”，而是——</p>
+<blockquote>
+<div><p>“我们凭什么知道、能否知道、应该如何知道。”</p>
+</div></blockquote>
+<p>应用于陈京元案，
+“批判哲学”提供了一种深刻的分析框架：
+这不仅是法律与政治的冲突，
+更是<strong>理性如何在制度中被运用、被滥用、被遮蔽</strong>的问题。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、批判哲学的核心精神：理性的自我反思<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>康德在三大批判著作中（《纯粹理性批判》《实践理性批判》《判断力批判》）提出：</p>
+<blockquote>
+<div><p>“批判哲学的任务，不是扩展理性，而是为理性设限。”</p>
+</div></blockquote>
+<p>他区分了三种理性领域：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>领域</p></th>
+<th class="head"><p>对应著作</p></th>
+<th class="head"><p>主要问题</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>认知理性</strong></p></td>
+<td><p>《纯粹理性批判》</p></td>
+<td><p>我们能知道什么？（知识与经验的边界）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>实践理性</strong></p></td>
+<td><p>《实践理性批判》</p></td>
+<td><p>我们应当做什么？（道德与自由的基础）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>审美理性</strong></p></td>
+<td><p>《判断力批判》</p></td>
+<td><p>我们可以希望什么？（价值与和谐的可能）</p></td>
+</tr>
+</tbody>
+</table>
+<p>康德认为，理性若不反思自身，就会陷入“教条主义”与“权力狂妄”。
+因此，“批判哲学”是对一切理性权威的自省——包括科学、宗教与政治。</p>
+<p>应用于本案，这一立场转化为核心问题：</p>
+<blockquote>
+<div><p>“法律与政治的理性，是否仍在其应有的边界之内？”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、《纯粹理性批判》：理性的限度与“伪理性化的法治”<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>——法律理性如何超越其认识边界<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>康德指出：</p>
+<blockquote>
+<div><p>“理性一旦越出经验之界，便坠入幻象。”
+“理性必须自我约束，否则将以专断取代理解。”</p>
+</div></blockquote>
+<p>在陈京元案中，“理性越界”的现象十分明显：</p>
+<ul class="simple">
+<li><p>法律以“理性化”的名义解释一切社会行为；</p></li>
+<li><p>“扰乱秩序”“危害社会”等概念被抽象化、普遍化；</p></li>
+<li><p>司法理性转化为<strong>政治理性</strong>的延伸。</p></li>
+</ul>
+<p>这正是康德所说的“伪理性化”（pseudo-rationalization）——
+理性看似在运作，但已脱离经验基础与逻辑自限。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>批判哲学概念</p></th>
+<th class="head"><p>意涵</p></th>
+<th class="head"><p>本案体现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>经验界限</p></td>
+<td><p>理性应基于经验事实</p></td>
+<td><p>判决逻辑脱离事实，依附政治语义</p></td>
+</tr>
+<tr class="row-odd"><td><p>先验边界</p></td>
+<td><p>理性应知其不能为所欲为</p></td>
+<td><p>权力假借理性之名行超越之实</p></td>
+</tr>
+<tr class="row-even"><td><p>理性幻象</p></td>
+<td><p>以理性形式掩盖非理性内容</p></td>
+<td><p>“秩序”成为理性神话</p></td>
+</tr>
+<tr class="row-odd"><td><p>批判任务</p></td>
+<td><p>理性需自我约束</p></td>
+<td><p>法治缺乏对权力理性的批判机制</p></td>
+</tr>
+</tbody>
+</table>
+<p>康德会说：</p>
+<blockquote>
+<div><p>“当理性成为政治的仆人，它便丧失了批判的尊严。”</p>
+</div></blockquote>
+<p>换言之，本案揭示的是一种“理性失控”现象——
+法律形式依然存在，但理性精神已被工具化。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>三、《实践理性批判》：道德法则与自由意志<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<section id="id5">
+<h3>——自由的本体地位与“义务的颠倒”<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>康德在《实践理性批判》中指出：</p>
+<blockquote>
+<div><p>“自由意志是道德法则的根基。”
+“人不应被当作手段，而应永远被视为目的。”</p>
+</div></blockquote>
+<p>这构成了现代伦理法治的基石。
+法律的正当性来自于它是否尊重人之为“自律存在者”的地位。</p>
+<p>陈京元案中，</p>
+<ul class="simple">
+<li><p>个体行使理性言说（批判行为）本是自由意志的体现；</p></li>
+<li><p>但这种自由却被政治理性定义为“危险”与“扰乱”；</p></li>
+<li><p>结果是：<strong>义务与自由的关系被颠倒</strong>。</p></li>
+</ul>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>伦理层面</p></th>
+<th class="head"><p>康德原理</p></th>
+<th class="head"><p>本案体现</p></th>
+<th class="head"><p>伦理判断</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>自律</p></td>
+<td><p>自由意志为道德法源</p></td>
+<td><p>批评被外在强制所否定</p></td>
+<td><p>自律被替代为服从</p></td>
+</tr>
+<tr class="row-odd"><td><p>尊严</p></td>
+<td><p>人是目的，而非工具</p></td>
+<td><p>个体被牺牲为“秩序代价”</p></td>
+<td><p>尊严被功利化</p></td>
+</tr>
+<tr class="row-even"><td><p>义务</p></td>
+<td><p>服从理性法则</p></td>
+<td><p>法律服从权力意志</p></td>
+<td><p>法律义务被扭曲</p></td>
+</tr>
+<tr class="row-odd"><td><p>实践理性</p></td>
+<td><p>行动应出自内在良知</p></td>
+<td><p>思想行动被视为威胁</p></td>
+<td><p>理性被排除为“罪”</p></td>
+</tr>
+</tbody>
+</table>
+<p>康德式判断：</p>
+<blockquote>
+<div><p>“若法律不以自由为前提，则一切服从皆属不道德。”</p>
+</div></blockquote>
+<p>从批判哲学的角度，
+此案所反映的最大问题是——<strong>道德法则被外在政治理性取代</strong>。
+社会因此陷入“实践理性之沉默”。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>四、《判断力批判》：理性、想象与公共反思的空间<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>——审美判断与政治判断的类比<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>在《判断力批判》中，康德提出“反思判断”（reflective judgment）：</p>
+<blockquote>
+<div><p>理性在不确定规则下，对个别事物进行审慎判断。</p>
+</div></blockquote>
+<p>这种“反思判断”正是政治理性的伦理原型——
+即，在复杂社会中，法律与权力必须依赖公共理性与审美式的“宽容想象”来协调不同视角。</p>
+<p>然而陈京元案体现了“判断力危机”：</p>
+<ul class="simple">
+<li><p>公共空间中缺乏理性反思的余地；</p></li>
+<li><p>法律话语被僵化为命令逻辑；</p></li>
+<li><p>权力不再反思其行动的“审美与伦理意义”。</p></li>
+</ul>
+<p>康德指出：</p>
+<blockquote>
+<div><p>“判断力的丧失，是理性死亡的先兆。”</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>判断力范畴</p></th>
+<th class="head"><p>含义</p></th>
+<th class="head"><p>本案现象</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>反思判断</p></td>
+<td><p>从具体出发的理性理解</p></td>
+<td><p>法律机械套用、拒绝语境分析</p></td>
+</tr>
+<tr class="row-odd"><td><p>审美宽容</p></td>
+<td><p>理解差异的能力</p></td>
+<td><p>异见者被视为威胁</p></td>
+</tr>
+<tr class="row-even"><td><p>共通感（sensus communis）</p></td>
+<td><p>理性的共享基础</p></td>
+<td><p>公共理性空间消解</p></td>
+</tr>
+<tr class="row-odd"><td><p>批判性思维</p></td>
+<td><p>理性自省与修正</p></td>
+<td><p>政治理性自我封闭</p></td>
+</tr>
+</tbody>
+</table>
+<p>换言之：</p>
+<blockquote>
+<div><p>在本案中，理性不再“判断”，而仅“执行”；
+不再“理解”，而仅“惩罚”。</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>五、康德的“批判理性”三原则在本案中的映照<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>批判哲学原则</p></th>
+<th class="head"><p>核心内容</p></th>
+<th class="head"><p>本案偏离</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>理性自主原则</strong></p></td>
+<td><p>理性应自我立法、自我约束</p></td>
+<td><p>理性被外化为权力技术</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>目的原则</strong></p></td>
+<td><p>人是目的而非法的工具</p></td>
+<td><p>个体被牺牲为秩序的手段</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>普遍化原则</strong></p></td>
+<td><p>判断应能普遍化</p></td>
+<td><p>“秩序逻辑”被特定化为政治工具</p></td>
+</tr>
+</tbody>
+</table>
+<p>康德的警告在此尤为贴切：</p>
+<blockquote>
+<div><p>“当理性被剥夺批判的权利，启蒙即告终止。”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h2>六、批判哲学的现代继承：哈贝马斯与理性公共性<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<p>哈贝马斯作为康德批判传统的继承者指出：</p>
+<blockquote>
+<div><p>“批判哲学的精神，在于理性通过对自身合法性的反思而实现公共性。”</p>
+</div></blockquote>
+<p>在现代社会中，
+**公共理性（public reason）**应成为国家合法性的来源。
+当理性空间被权力垄断，
+国家就丧失了“批判性合法性”。</p>
+<p>陈京元案显示：</p>
+<ul class="simple">
+<li><p>公共理性被行政理性取代；</p></li>
+<li><p>“合法性”不再来自共识，而来自命令；</p></li>
+<li><p>理性丧失了自我反思与纠错的能力。</p></li>
+</ul>
+<p>这意味着，社会陷入<strong>后批判时代的危机</strong>：
+——理性仍在使用，却不再批判；
+——法治仍在运行，却无自省。</p>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>七、批判哲学的形上反思：理性、权力与自我限度<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<p>批判哲学提醒我们，
+“理性不是万能的”，
+但它必须<strong>自知其限度</strong>。</p>
+<p>陈京元案的问题不在于“理性不足”，
+而在于<strong>理性滥用</strong>：
+理性被从“自由的审思”降格为“秩序的辩护”。</p>
+<p>康德会在这里提出他最核心的问题：</p>
+<blockquote>
+<div><p>“理性，汝是否仍然批判？”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h2>八、综合诊断表<a class="headerlink" href="#id11" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>分析维度</p></th>
+<th class="head"><p>批判哲学命题</p></th>
+<th class="head"><p>本案体现</p></th>
+<th class="head"><p>哲学诊断</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>理性边界</p></td>
+<td><p>理性须自限</p></td>
+<td><p>理性越界成权力工具</p></td>
+<td><p>理性幻象化</p></td>
+</tr>
+<tr class="row-odd"><td><p>自由原则</p></td>
+<td><p>自律是法治根基</p></td>
+<td><p>批评自由被否</p></td>
+<td><p>自律被外律替代</p></td>
+</tr>
+<tr class="row-even"><td><p>人格尊严</p></td>
+<td><p>人是目的</p></td>
+<td><p>个人被工具化</p></td>
+<td><p>尊严坍塌</p></td>
+</tr>
+<tr class="row-odd"><td><p>实践理性</p></td>
+<td><p>行动需符合理性法则</p></td>
+<td><p>道德被行政取代</p></td>
+<td><p>实践理性沉默</p></td>
+</tr>
+<tr class="row-even"><td><p>判断力</p></td>
+<td><p>理性需反思与宽容</p></td>
+<td><p>法律拒绝反思差异</p></td>
+<td><p>判断力危机</p></td>
+</tr>
+<tr class="row-odd"><td><p>合法性来源</p></td>
+<td><p>公共理性共识</p></td>
+<td><p>权力自我正当化</p></td>
+<td><p>批判功能丧失</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h2>九、结语：<a class="headerlink" href="#id12" title="Link to this heading"></a></h2>
+<section id="id13">
+<h3>——“让理性回到批判，让法治回到自限”<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>康德的“批判哲学”并非反对理性，而是反对理性的傲慢。
+他呼吁：</p>
+<blockquote>
+<div><p>“让理性成为法官，而非暴君。”</p>
+</div></blockquote>
+<p>陈京元案从批判哲学的角度看，
+暴露了现代理性体系的根本危机：
+理性仍在使用，却不再自省；
+法律仍在运行，却丧失批判的灵魂。</p>
+<p><strong>最终哲学评语：</strong></p>
+<blockquote>
+<div><p>陈京元案的本质，是理性超越其限度的悲剧。
+法治不再批判，而成为权力的形而上辩护；
+道德不再自律，而被外律化为服从。</p>
+<p>批判哲学提醒我们：
+真正的理性必须懂得怀疑自身；
+真正的法治必须容许对自身的批判。</p>
+<p>当社会重新恢复“理性之批判力”，
+法律才能重新成为理性的化身，
+而非理性的幻象。</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
