@@ -89,3 +89,11 @@ Carl Gustav Jung
     ds
     qw
 
+
+----------
+
+哲学常识
+
+-----------
+
+[:doc:`荣格和弗洛伊德比较 </chats/outlaw/analyse/foreign/branch/psycho/jung/compare>`]
