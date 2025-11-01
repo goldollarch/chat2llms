@@ -76,4 +76,4 @@ Post-structuralism
 
 ---------------------------
 
-[:doc:`后结构主义 .vs. 后现代主义 </chats/outlaw/analyse/foreign/schools/today/compare>`]
+[:doc:`后结构主义 .vs. 后现代主义 </chats/outlaw/analyse/foreign/schools/today/posts>`]

@@ -55,7 +55,7 @@ Socialist
 
 *   **改革与渐进路径**：在保持基本制度不变的前提下，通过持续改革来完善社会主义，解放和发展生产力，回应时代挑战。
 
-这些路径的探索，也使得社会主义理论本身不断丰富和发展，形成了包括 **科学社会主义**、**民主社会主义** 等在内的多种流派。
+这些路径的探索，也使得社会主义理论本身不断丰富和发展，形成了包括 :doc:`革命社会主义 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>`、:doc:`民主社会主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/demosoc/index>` 等在内的多种流派。
 
 💎 核心目标与思想流变
 
@@ -74,3 +74,13 @@ Socialist
     deepseek
     gemini
     qwen
+
+----------
+
+哲学常识
+
+-----------
+
+[:doc:`各种社会主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/socs>`]
+[:doc:`民主社会主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/demosoc/index>`]
+[:doc:`民主社会主义与西方马克思主义 </chats/outlaw/analyse/foreign/branch/politic/socialist/demosoc/westm>`]
