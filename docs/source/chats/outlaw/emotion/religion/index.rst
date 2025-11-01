@@ -12,6 +12,10 @@
 
 ---------
 
+ .. toctree::
+    :maxdepth: 1
+
+    christ/index
 
  .. toctree::
     :maxdepth: 1
@@ -23,7 +27,3 @@
 
     dao/index
 
- .. toctree::
-    :maxdepth: 1
-
-    christ/index
