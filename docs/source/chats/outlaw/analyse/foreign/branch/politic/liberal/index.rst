@@ -131,3 +131,7 @@ Liberalism
     deepseek
     gemini
     qwen
+
+----------------------
+
+【:doc:`在不自由的体制下，活出自由的人生 </chats/outlaw/analyse/foreign/branch/politic/liberal/freedom>`】

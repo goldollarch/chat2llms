@@ -1,9 +1,9 @@
-King, Jr. 
-==========
+Mandela
+=========
 
-仿《我有一个梦》(I have a dream)
+仿曼德拉（Mandela）的智慧与文字风格。
 
--------------------------
+-------------------
 
  .. toctree::
     :maxdepth: 3
@@ -14,3 +14,4 @@ King, Jr.
     chatgpt
     deepseek
     qwen
+
