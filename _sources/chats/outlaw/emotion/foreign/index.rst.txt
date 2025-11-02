@@ -43,6 +43,12 @@
  .. toctree::
     :maxdepth: 1
 
+    mandela/index
+
+ .. toctree::
+    :maxdepth: 1
+
     king/index
+    
 
 
