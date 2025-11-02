@@ -10,7 +10,7 @@
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
 
----------
+--------------------
 
  .. toctree::
     :maxdepth: 1
@@ -27,3 +27,11 @@
 
     dao/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    ru/index
+
+--------------------------------------------
+
+【:doc:`中国的宗教信仰 </chats/outlaw/emotion/religion/review>`】
