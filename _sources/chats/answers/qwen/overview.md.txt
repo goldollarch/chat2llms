@@ -176,9 +176,9 @@ chinese
 
 ---
 
-[[Overview](/chats/answers/qwen/propose.md)]
+[[Qwen](/chats/answers/qwen/propose.md)]
 [[DeepSeek](/chats/accuse/criminal/evidence/deepseek.md)]
-[[Qwen](/chats/answers/qwen/analyse.md)]
-[[Grok](/chats/accuse/criminal/evidence/grok.md)]
-[[ChatGPT](/chats/answers/chatgpt/overview.md)]
 [[Gemini](/chats/accuse/criminal/evidence/gemini.md)]
+[[Copilot](/chats/answers/copilot/overview.md)]
+[[ChatGPT](/chats/answers/chatgpt/overview.md)]
+[[Grok](/chats/accuse/criminal/evidence/grok.md)]
