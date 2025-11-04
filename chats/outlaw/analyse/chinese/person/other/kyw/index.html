@@ -1,0 +1,340 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>康有为 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../wfz/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙评</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">其它</a></li>
+      <li class="breadcrumb-item active">康有为</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/other/kyw/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>康有为<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>基于康有为核心思想</p>
+<hr class="docutils" />
+<p>康有为是中国近代史上一位极其复杂且重要的人物，他是清末维新变法的思想导师和主要策划者。他的核心思想可以概括为：<strong>一套以“托古改制”为策略、以“大同世界”为终极理想、以“君主立宪”为现实路径的激进改良主义体系。其根本目标是通过吸收西方文明来改造中国，从而在弱肉强食的帝国主义的时代挽救民族危亡，并最终实现全球范围的平等与和平。</strong></p>
+<p>康有为的思想体系宏大且具有内在张力，其核心架构与演变脉络可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review2.png" src="../../../../../../../_images/review2.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析康有为思想的核心要义。</p>
+<p>一、理论基石与策略：“托古改制”</p>
+<p>这是康有为最独特也最具争议性的思想策略，旨在为其改革主张披上合法性的外衣，减少来自保守派的阻力。</p>
+<ul class="simple">
+<li><p><strong>核心内容</strong>：康有为宣称，孔子并非保守的“述而不作”者，而是一位伟大的 <strong>改革家</strong>。孔子撰写“六经”的真正目的，是 <strong>“托（借）古圣先王之言”来“改制”（改革制度）</strong> ，为未来社会制定蓝图。</p></li>
+<li><p><strong>具体操作</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>《新学伪经考》</strong>： 断言东汉以来的儒家经典（古文经）是刘歆为王莽篡汉而伪造的，是“伪经”，从而动摇了当时官方学术（汉学）的根基。</p></li>
+<li><p><strong>《孔子改制考》</strong>： 论证孔子本人就是一位改制者，先秦诸子都是为了实现自己的政治理想而“托古改制”。因此，他康有为效法孔子进行变法，是真正继承了孔子的真精神。</p></li>
+</ol>
+</li>
+<li><p><strong>目的</strong>：将西方资产阶级的议会、民主、平等思想，说成是中国古代“圣人之意”中早已有之的东西，为变法维新提供**“中国特色”的理论依据**，即 <strong>“复古”是为了“革新”</strong>。</p></li>
+</ul>
+<p>二、现实政治纲领：“君主立宪”与维新变法</p>
+<p>这是康有为在19世纪末全力推动的现实政治实践。</p>
+<ul class="simple">
+<li><p><strong>目标</strong>：在中国建立 <strong>君主立宪制</strong>。保留皇帝作为国家的象征，但通过设立议会、制定宪法来限制君权，建立责任政府，实现自上而下的政治现代化。</p></li>
+<li><p><strong>主要内容</strong>：在1898年的“戊戌变法”（百日维新）中，他通过光绪皇帝颁布了一系列诏令，内容包括：</p>
+<ul>
+<li><p><strong>政治</strong>：裁撤冗官、鼓励言论、开放政权。</p></li>
+<li><p><strong>经济</strong>：发展工商业、修铁路、开矿山。</p></li>
+<li><p><strong>文教</strong>：废八股、办新式学堂（如京师大学堂，北大前身）、派留学生。</p></li>
+<li><p><strong>军事</strong>：训练新式陆军海军。</p></li>
+</ul>
+</li>
+<li><p><strong>失败与意义</strong>：变法因保守势力（以慈禧太后为首）的反对而迅速失败，但它是一次全面的、试图将中国改造为现代国家的伟大尝试，起到了巨大的思想启蒙作用。</p></li>
+</ul>
+<p>三、终极社会理想：“大同世界”</p>
+<p>康有为的思想并未止于现实改革，他怀有极其宏大的乌托邦理想，集中体现在其秘不示人的著作 <strong>《大同书》</strong> 中。</p>
+<ul class="simple">
+<li><p><strong>哲学基础</strong>：发展儒家“公羊三世说”，认为人类社会演进分为三个阶段：</p>
+<ul>
+<li><p><strong>据乱世</strong>：君主专制时代。</p></li>
+<li><p><strong>升平世</strong>：君主立宪时代（即他当时奋斗的目标）。</p></li>
+<li><p><strong>太平世</strong>：民主共和的“大同世界”。</p></li>
+</ul>
+</li>
+<li><p><strong>“大同”蓝图</strong>：一个消灭了所有界限和痛苦的极致理想社会：</p>
+<ul>
+<li><p><strong>去国界</strong>：消灭国家，建立一个全球统一的“公政府”。</p></li>
+<li><p><strong>去级界</strong>：废除阶级，人人平等。</p></li>
+<li><p><strong>去种界</strong>：种族融合，美化人种。</p></li>
+<li><p><strong>去形界</strong>：男女完全平等。</p></li>
+<li><p><strong>去家界</strong>：取消家庭，儿童由社会公育，老人由社会公养。</p></li>
+<li><p><strong>去产界</strong>：废除私有制，实行计划经济。</p></li>
+<li><p><strong>去乱界</strong>：警察、监狱等都将废除。</p></li>
+<li><p><strong>去类界</strong>：众生平等，爱护万物。</p></li>
+<li><p><strong>去苦界</strong>：高度发达的科学技术让人享受极乐。</p></li>
+</ul>
+</li>
+<li><p><strong>矛盾性</strong>：康有为认为“大同”理想极其崇高，不可一蹴而就，且若在条件不成熟时宣扬会引发混乱，因此他生前并未公开《大同书》，而是致力于现实的“升平世”改革。这体现了他理想主义与现实主义之间的矛盾。</p></li>
+</ul>
+<p>四、哲学基础：“变易”的哲学</p>
+<p>康有为的所有主张都建立在一个核心观点上：<strong>“变”是宇宙的普遍法则</strong>。</p>
+<ul class="simple">
+<li><p><strong>理论来源</strong>：他利用中国传统哲学经典《周易》和《春秋公羊传》中的“变易”思想。</p></li>
+<li><p><strong>核心论点</strong>： “<strong>穷则变，变则通，通则久。</strong>” 认为清朝已到了非变不可的“穷途”。变法维新不是背离传统，而是顺应天理和历史潮流的必然要求。</p></li>
+</ul>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>变法策略</strong></p></td>
+<td><p><strong>“托古改制”：借孔子之名，行维新之实，为改革披上合法外衣。</strong></p></td>
+<td><p><strong>托古改制、孔子改制考、新学伪经考</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>政治纲领</strong></p></td>
+<td><p><strong>实行”君主立宪”，通过自上而下的维新变法挽救民族危亡。</strong></p></td>
+<td><p><strong>君主立宪、戊戌变法、废八股、练新军</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>社会理想</strong></p></td>
+<td><p><strong>人类最终将进入消灭一切界限的”大同世界”。</strong></p></td>
+<td><p><strong>大同书、太平世、去九界、乌托邦</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>哲学基础</strong></p></td>
+<td><p><strong>“变者，天道也”：变法维新是顺应历史发展规律的必然要求。</strong></p></td>
+<td><p><strong>变易哲学、三世说、进化史观</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与历史评价</p>
+<ul class="simple">
+<li><p><strong>激进与保守并存</strong>：其思想体系内存在深刻矛盾，策略上是保守的（尊孔保教），内容却是激进的（全面学习西方）。</p></li>
+<li><p><strong>承前启后</strong>：他是 <strong>近代中国启蒙思想的先驱</strong>，其变法理论打破了“祖宗之法不可变”的僵化思维，为后来的革命思潮开辟了道路。</p></li>
+<li><p><strong>历史局限</strong>：随着清朝的覆灭，其“君主立宪”主张失去现实基础，他本人后期沦为“保皇派”，趋于保守。其“大同”理想也带有空想色彩。</p></li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，康有为的核心思想在于，他是一位 <strong>“旧时代的掘墓人”与“新时代的预言家”的奇特混合体</strong>。他试图 <strong>用最传统的外衣包裹最激进的内核</strong>，在古老帝国的肌体上嫁接现代文明的枝条。</p>
+<p>他的全部工作是对 <strong>中国如何应对“三千年未有之大变局”</strong> 的一次极其勇敢而系统的回答。尽管其政治实践失败了，但他所倡导的变革精神、世界眼光和对理想社会的执着追求，深刻地影响了梁启超、孙中山等后来者，并至今仍在启迪我们思考传统与现代化、理想与现实之间的复杂关系。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">基于康有为核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-kang-youwei-s-core-ideas">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on Kang Youwei’s Core Ideas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、康有为核心思想概述：托古改制与大同平等</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-kang-youwei-s-core-ideas-borrowing-antiquity-for-reform-and-great-unity-equality">I. Overview of Kang Youwei’s Core Ideas: Borrowing Antiquity for Reform and Great Unity Equality</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、以康有为核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-kang-youwei-s-core-ideas">II. Analysis of the Case Based on Kang Youwei’s Core Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、结语：重振托古改制，推动平等新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-borrowing-antiquity-for-reform-for-equality-s-rebirth">III. Conclusion: Reviving Borrowing Antiquity for Reform for Equality’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">基于康有为思想的陈京元案分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2">一、康有为核心思想概述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#case-analysis">二、案件分析 Case Analysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3">三、结语与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">模拟《公车上书》：为陈京元陈情</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5">中文原文</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#english-rendering-summary-style">English Rendering (Summary Style)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6">大同书式未来愿景：无言禁之世</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7">中文原文</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#english-rendering">English Rendering</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id8">未来宪章：大同之世，无言禁之国</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9">序言</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10">第一章：人民之权</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11">第二章：政府之责</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12">第三章：法律之道</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id13">第四章：社会之理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14">第五章：大同之志</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id15">结语</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、从“维新”精神看本案之意义：破旧立新，法中求理</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、以“仁政”与“公法”观之：法应为人立，而非为权设</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">三、“礼义与权势之争”——康有为之道德政治批评</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">四、以“大同”理想观个人命运：由一案见天下之治</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">五、从康氏改革精神看今日之路：变法不止于政，更在心</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">六、结语：以仁为法，以义为命</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7"><strong>结论性评述：康有为思想下的陈京元案要义</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>“伪经”未破，旧法噬人：律例犹存秦政之弊</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“改制”不行，民权不彰：知识人未有制度护佑</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>“大同”难期，理想受挫：科学精神困于畛域之见</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">结语：维新未竟之路，当代知识人之使命</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. 制度的僵化与“托古改制”的必要性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">2. “公理”的缺失与价值的颠倒</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">3. “进化论”与文明的停滞危机</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#vs">一、“托古改制” vs. “以言为罪”：改革精神被误读为颠覆</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">二、“开通民智” vs. “思想禁锢”：学者从启蒙者沦为罪犯</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">三、“大同理想” vs. “体制神学”：世界视野被贬为“背叛”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、“君主立宪” vs. “司法专断”：程序理性被权力意志取代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">五、结语：康有为的警示——无思想自由，则无变法；无学者尊严，则无文明</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../wfz/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
