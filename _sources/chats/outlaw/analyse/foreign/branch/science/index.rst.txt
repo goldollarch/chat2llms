@@ -32,7 +32,7 @@
 
 *   **代表人物**：
 
-    *   **维也纳学派** （如石里克、:doc:`卡尔纳普 </chats/outlaw/analyse/foreign/branch/science/carnap/index>` ）：是该运动的核心。
+    *   **维也纳学派** （如 :doc:`石里克 </chats/outlaw/analyse/foreign/branch/science/schlick/index>`、:doc:`卡尔纳普 </chats/outlaw/analyse/foreign/branch/science/carnap/index>` ）：是该运动的核心。
 
     *  :doc:`卡尔·波普尔 </chats/outlaw/analyse/foreign/branch/science/popper/index>` ：虽然常被与实证主义者一起讨论，但他实际上是实证主义的 **重要批判者**。他提出了更具影响力的 **证伪主义**。
 
@@ -114,6 +114,11 @@
 科学哲学为法律，特别是与科学证据相关的法律实践，提供了 **至关重要的批判性思考工具**。它帮助法律人更清醒地认识到科学知识的局限性、暂时性和建构性，从而更审慎地评估和运用科学证据，最终更公正地裁决案件。
 
 -------------------------
+
+ .. toctree::
+    :maxdepth: 1
+
+    schlick/index
 
  .. toctree::
     :maxdepth: 1

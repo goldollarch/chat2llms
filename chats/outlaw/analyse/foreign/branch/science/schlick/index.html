@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moritz Schlick &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="科学" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史叙评</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">科学</a></li>
+      <li class="breadcrumb-item active">Moritz Schlick</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/science/schlick/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="moritz-schlick">
+<h1>Moritz Schlick<a class="headerlink" href="#moritz-schlick" title="Link to this heading"></a></h1>
+<p>基于维也纳学派创始人、分析哲学的重要先驱莫里茨·石里克（Moritz Schlick）的核心思想</p>
+<hr class="docutils" />
+<p>莫里茨·石里克是二十世纪哲学史上一位里程碑式的人物。作为 <strong>维也纳学派</strong> 的创始人和领袖，他是 <strong>逻辑实证主义</strong> 运动的核心推动者。他的核心思想可以概括为：<strong>一种致力于通过现代逻辑工具和实证科学精神来澄清哲学基础、划清科学与形而上学界限的激进哲学方案。其根本目标是终结哲学史上无休止的形而上学争论，将哲学从“思辨体系”转变为“追寻意义”的科学活动。</strong></p>
+<p>石里克的思想深刻而精密，其核心体系与演进可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review20.png" src="../../../../../../../_images/review20.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析石里克的核心要义。</p>
+<p>一、哲学的革命：哲学是意义的追寻</p>
+<p>石里克带来了一场哲学范式的根本性转变。</p>
+<ul class="simple">
+<li><p><strong>哲学的新使命</strong>：受维特根斯坦《逻辑哲学论》启发，石里克认为，哲学的根本任务不再是构建关于世界的宏大理论体系，而是 <strong>“澄清命题的意义”</strong>。</p></li>
+<li><p><strong>著名论断</strong>：<strong>“哲学不是一门科学，即不是一个知识体系，而是一种活动。”</strong> 这种活动就是 <strong>逻辑分析</strong> 活动，即运用现代逻辑工具分析科学概念和命题，使其含义清晰明确。</p></li>
+<li><p><strong>关键区分</strong>：他严格区分了 <strong>“知识的本质”</strong> 和 <strong>“体验的本质”</strong>。科学提供关于世界的 <strong>形式结构</strong> 知识，而世界的 <strong>内容</strong> （如“红”的感觉、疼痛的体验）是私人的、不可言传的，只能被体验。哲学关心的是前者。</p></li>
+</ul>
+<p>二、意义的基石：经验的证实原则</p>
+<p>这是石里克和维也纳学派最著名的学说，是判断一个陈述是否有认知意义的标尺。</p>
+<ul class="simple">
+<li><p><strong>核心原则</strong>：<strong>“一个命题的意义就在于它的证实方法。”</strong> 一个陈述如果要有意义，我们必须能够说出在何种可能的经验条件下，这个陈述会被证实为真或证伪为假。</p></li>
+<li><p><strong>著名公式</strong>：<strong>意义 = 可证实性</strong>。无法被经验证实或证伪的句子，即便在语法上正确，也缺乏认知意义。</p></li>
+<li><p><strong>批判的矛头</strong>：这一原则直指传统 <strong>形而上学</strong> 的命题（如“世界是绝对精神的显现”、“物自体不可知”）。石里克认为，这些命题无法被经验检验，因此是 <strong>无意义的伪命题</strong>，它们可能表达了一种人生态度或情感，但不传递任何知识。</p></li>
+</ul>
+<p>三、科学哲学的奠基：对几何学与相对论的哲学阐释</p>
+<p>石里克是一位精通物理学的哲学家，他对现代科学的哲学基础进行了卓越分析。</p>
+<ul class="simple">
+<li><p><strong>对几何学的分析</strong>：他区分了 <strong>直观几何学</strong> （关于空间的感性经验）、<strong>纯粹几何学</strong> （一个先天的逻辑系统，其公理是“隐定义”）和**物理几何学**（应用于现实世界的几何学）。他指出，欧几里得几何和非欧几何在逻辑上同样正确，选择哪种几何学来描述物理空间，是一个 <strong>经验问题和约定问题</strong>。这体现了他的 <strong>约定主义</strong> 思想。</p></li>
+<li><p><strong>对相对论的阐释</strong>：他深刻指出，爱因斯坦相对论的成功，正在于它澄清了“同时性”等基本概念的 <strong>操作定义</strong> （即如何通过光信号来测量同时性），从而揭示了这些概念的意义依赖于具体的证实方法。这为他的证实原则提供了强大的科学支持。</p></li>
+</ul>
+<p>四、身心问题：心理-物理协同论</p>
+<p>在心灵哲学上，石里克提出了一种温和的一元论方案。</p>
+<ul class="simple">
+<li><p><strong>核心观点</strong>：他反对心物二元论，认为“心理的”和“物理的”不是两种不同的实体，而是 <strong>对同一实在的两种不同描述方式</strong>。</p></li>
+<li><p><strong>心理-物理协同论</strong>：每一个心理事件都严格对应一个物理事件（特别是大脑中的生理过程）。它们不是因果关联，而是 <strong>同一件事物的两个方面</strong>，就像同一个数学函数可以用不同的坐标系来表示一样。这本质上是一种 <strong>一元论</strong>。</p></li>
+</ul>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>哲学观</strong></p></td>
+<td><p><strong>哲学是澄清命题意义的逻辑分析活动，而非构建知识体系。</strong></p></td>
+<td><p><strong>哲学作为活动、逻辑分析、意义的追寻</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>意义理论</strong></p></td>
+<td><p><strong>一个命题的意义在于其经验证实的方法。</strong></p></td>
+<td><p><strong>证实原则、可证实性、反形而上学</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>科学哲学</strong></p></td>
+<td><p><strong>科学概念的意义源于其操作定义，科学理论包含约定成分。</strong></p></td>
+<td><p><strong>约定主义、隐定义、对相对论的哲学阐释</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>心灵哲学</strong></p></td>
+<td><p><strong>心理事件与物理事件是同一实在的两种描述。</strong></p></td>
+<td><p><strong>身心同一论、心理-物理协同论</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与历史影响</p>
+<ul class="simple">
+<li><p><strong>清晰性与严格性</strong>：石里克追求哲学的极致清晰和逻辑严谨，其文风明晰，论证有力。</p></li>
+<li><p><strong>维也纳学派的灵魂</strong>：他以其个人魅力和学术深度，将维也纳学派凝聚成一个富有创造力的思想团体，吸引了卡尔纳普、纽拉特等一大批杰出学者。</p></li>
+<li><p><strong>深远影响与争议</strong>：</p>
+<ul>
+<li><p>其证实原则本身也遭到了质疑（如“证实原则本身如何被证实？”），但它极大地推动了语言哲学和科学哲学的发展。</p></li>
+<li><p>他对形而上学的激进批判虽然后来被软化，但永久性地改变了哲学讨论的方式，迫使形而上学必须更严谨地对待语言和意义问题。</p></li>
+</ul>
+</li>
+<li><p><strong>悲剧结局</strong>：石里克于1936年被一名精神错乱的学生刺杀，他的逝世也象征了维也纳学派在欧洲的终结。</p></li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，石里克的核心思想在于，他是一位 <strong>“哲学的科学家”和“意义的清道夫”</strong> 。他教导我们，<strong>真正的哲学进步不在于给出更多的答案，而在于提出更清晰、更有意义的问题。在思想能够正确地探索世界之前，必须首先澄清思想自身的语言和逻辑工具。</strong></p>
+<p>他的全部工作是对 <strong>哲学自身性质</strong> 的一次彻底反思和改造。在一个科学迅猛发展的时代，他力图让哲学摆脱玄思的桎梏，使其成为一种能够与科学并肩前行、为其奠定坚实概念基础的严格学科。尽管逻辑实证主义的许多强硬纲领后来被修正，但石里克所开启的“分析转向”和对意义的执着追寻，已经深深地刻入了现代哲学的基因之中。在这个意义上，他不仅是维也纳学派的创始人，更是整个分析哲学传统的奠基之父之一。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#moritz-schlick">基于莫里茨·石里克（Moritz Schlick，维也纳学派）哲学核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-moritz-schlick-s-core-ideas-in-the-vienna-circle-philosophy">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on Moritz Schlick’s Core Ideas in the Vienna Circle Philosophy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">一、石里克哲学核心思想概述：验证原则与逻辑澄清</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-schlick-s-core-philosophical-ideas-verification-principle-and-logical-clarification">I. Overview of Schlick’s Core Philosophical Ideas: Verification Principle and Logical Clarification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">二、以石里克哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-schlick-s-core-philosophical-ideas">II. Analysis of the Case Based on Schlick’s Core Philosophical Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">三、结语：重振验证澄清，推动理性新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-verification-clarification-for-rationality-s-rebirth">III. Conclusion: Reviving Verification Clarification for Rationality’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. 可验证性原则对核心罪状的批判</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#a">A. “造成公共秩序严重混乱”：经验可验证性的失败</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#b">B. “虚假信息”与“侮辱、攻击”：概念的混淆</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">2. 形而上学的清除与法律语言的净化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">3. 法律规范的工具性与逻辑</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">基于石里克（维也纳学派）思想的陈京元案分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2">一、石里克与维也纳学派核心思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#case-analysis">二、案件分析 Case Analysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6">三、结语与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id7">法治宣言：以逻辑澄清制度，以经验检验权力</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#premises">一、前提 Premises</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#definitions">二、定义 Definitions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#principles">三、原则 Principles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#critique">四、批判 Critique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#conclusion">五、结语 Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1"><strong>理性与事实之秩序：以石里克哲学观陈京元案</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">一、从“可验证性原则”出发：言论与指控的真值之问</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">二、从“语言与意义”论法治：当法律退化为修辞</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">三、从“经验理性”看社会：真理不属于权威，而属于事实</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">四、从“价值判断的非认知性”看法与道德的界限</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">五、科学社会与理性公民：石里克式的“启蒙政治”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">六、结语：让理性重回法与言的世界</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id9"><strong>理性之城：从维也纳学派到当代中国的逻辑政治困境</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">一、引言：当理性退场，语言开始腐烂</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">二、维也纳学派的精神：从语言明晰到社会理性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">三、语言的堕落：从修辞到控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">四、逻辑与法治：当法律失去可验证性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">五、科学理性与公共真理：维也纳学派的政治伦理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">六、当代中国的逻辑政治困境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">七、结语：在混沌中重建理性秩序</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id17"><strong>理性之魂：当科学失去伦理，当语言失去逻辑，人类如何重建意义</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">一、序：理性之亡与文明之危</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">二、科学的异化：理性如何变成冷漠</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">三、语言的崩坏：意义如何沦为口号</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">四、伦理的空洞：理性如何失去了人</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">五、意义的重建：让理性重新成为人类的道德</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id23">六、结语：从维也纳到当下</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#cap">一、 <strong>意义的澄清：CAP定理作为“事实真理”与“寻衅滋事”作为“无意义陈述”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">二、 <strong>“证实原则”的暴力悬置：当“闭嘴”命令取代了经验检验</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">三、 <strong>两种“真理”的混淆与权力的滥用</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">四、 <strong>对“元语言”的垄断：权力如何扼杀意义讨论</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4"><strong>结论：一场“逻辑实证主义”眼中的非理性狂欢</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、“虚假信息”是否可证实？——对指控命题的意义检验</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、“造成公共秩序严重混乱”是否可观测？——对损害结果的经验检验</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">三、“明知是谣言”是否可验证？——对主观状态的操作主义批判</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">四、司法语言的“形而上学化”：对政治修辞的哲学祛魅</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">五、结语：石里克的审判——无意义的指控，有意义的沉默</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="科学" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
