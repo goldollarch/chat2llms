@@ -28,6 +28,11 @@
  .. toctree::
     :maxdepth: 1
 
+    bruno/index
+
+ .. toctree::
+    :maxdepth: 1
+
     galileo/index
 
  .. toctree::
