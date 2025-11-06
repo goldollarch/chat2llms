@@ -23,5 +23,10 @@
  .. toctree::
     :maxdepth: 1
 
+    qmu/index
+
+ .. toctree::
+    :maxdepth: 1
+
     yys/index
 

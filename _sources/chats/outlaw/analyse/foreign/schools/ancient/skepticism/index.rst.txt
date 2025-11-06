@@ -49,7 +49,7 @@ Skepticism
 
 2.  **方法论怀疑：笛卡尔的“普遍怀疑”**
 
-    - 笛卡尔是转折点。他为了给知识找到一个绝对不可怀疑的基石，尝试怀疑一切可能被怀疑的东西（如感官、梦境、甚至数学），最终找到了“我思故我在”这个确定性基点。在这里，怀疑是 **建设性** 的。
+    - :doc:`笛卡尔 </chats/outlaw/analyse/foreign/master/recent/descartes/index>` 是转折点。他为了给知识找到一个绝对不可怀疑的基石，尝试怀疑一切可能被怀疑的东西（如感官、梦境、甚至数学），最终找到了“我思故我在”这个确定性基点。在这里，怀疑是 **建设性** 的。
 
 3.  **激进怀疑的挑战：**
 
@@ -57,11 +57,11 @@ Skepticism
 
         - **“缸中之脑”假设**：你如何证明你不是一个被科学家用计算机连接着大脑、正在模拟所有体验的“缸中之脑”？这个假设挑战了我们关于外部世界存在的全部信念。
 
-        - **归纳问题（休谟）**：我们如何能从“太阳过去每天都升起”归纳出“太阳明天一定会升起”？休谟认为，这依赖于“未来必然与过去一致”的假设，而这个假设本身无法被理性证明。这挑战了科学知识的根基。
+        - **归纳问题** （:doc:`休谟 </chats/outlaw/analyse/foreign/master/recent/hume/index>`）：我们如何能从“太阳过去每天都升起”归纳出“太阳明天一定会升起”？休谟认为，这依赖于“未来必然与过去一致”的假设，而这个假设本身无法被理性证明。这挑战了科学知识的根基。
 
 4.  **现代回应：**
 
-    - 现代哲学的主要流派（如经验主义、理性主义、康德哲学）在很大程度上都是在回应现代怀疑主义的挑战。例如，康德试图证明，虽然我们无法认识“物自体”，但我们的知识有其普遍必然的结构。
+    - 现代哲学的主要流派（如 :doc:`经验主义 </chats/outlaw/analyse/foreign/schools/recent/empiric/index>`、:doc:`理性主义 </chats/outlaw/analyse/foreign/schools/recent/rational/index>`、:doc:`康德哲学 </chats/outlaw/analyse/foreign/master/recent/kant/index>`）在很大程度上都是在回应现代怀疑主义的挑战。例如，康德试图证明，虽然我们无法认识“物自体”，但我们的知识有其普遍必然的结构。
 
 **小结：现代怀疑主义是一种理论挑战，它质疑我们获得客观、确定性知识的可能性，迫使哲学去审视知识的基础。**
 
@@ -86,8 +86,8 @@ Skepticism
      - **悬搁判断**，遵循现象生活
      - **方法论怀疑**，提出思想实验（如缸中之脑）
    * - **关键代表**
-     - :doc:`皮浪 </chats/outlaw/analyse/foreign/schools/ancient/skepticism/pyrrho/index>` 、:doc:`塞克斯都·恩披里克 </chats/outlaw/analyse/foreign/schools/ancient/skepticism/empiricus/index>`
-     - 笛卡尔、休谟
+     - :doc:`皮浪 </chats/outlaw/analyse/foreign/master/ancient/pyrrho/index>` 、:doc:`塞克斯都·恩披里克 </chats/outlaw/analyse/foreign/master/ancient/sextus/index>`
+     - :doc:`笛卡尔 </chats/outlaw/analyse/foreign/master/recent/descartes/index>`、:doc:`休谟 </chats/outlaw/analyse/foreign/master/recent/hume/index>`
 
 
 简而言之，古典怀疑主义教人 **如何生活**，而现代怀疑主义追问人 **能够知道什么**。

@@ -19,6 +19,7 @@ Cheng-Zhu Neo-Confucianism holds that *li* (principle) is the fundamental law of
 ### 1. 理不明则法失正 | Without Principle, Law Loses Justice
 
 **中文**：以“寻衅滋事”定罪，却缺乏明确证据证明“虚假信息”与“严重混乱”，这是“失理”的表现。程朱理学强调“理”是法律的根本，若无法合乎“理”，则法律只是权力的工具。
+
 **English**: Convicting under “picking quarrels and provoking trouble” without clear evidence of “false information” or “serious disorder” reflects a loss of *li*. Cheng-Zhu thought insists that *li* is the foundation of law; without it, law becomes a mere tool of power.
 
 ---
@@ -26,6 +27,7 @@ Cheng-Zhu Neo-Confucianism holds that *li* (principle) is the fundamental law of
 ### 2. 存天理，灭人欲 | Preserve Principle, Eliminate Selfish Will
 
 **中文**：若司法机关以维护权威为目的，而非追求公正，则是“人欲”凌驾于“天理”。理学认为，真正的治理应当“以理为公”，而非“以欲为私”。
+
 **English**: If judicial organs act to preserve authority rather than pursue justice, this is selfish will overriding heavenly principle. Neo-Confucianism teaches that true governance must be “public through principle,” not “private through desire.”
 
 ---
@@ -33,6 +35,7 @@ Cheng-Zhu Neo-Confucianism holds that *li* (principle) is the fundamental law of
 ### 3. 格物致知，明辨是非 | Investigating Things to Discern Truth
 
 **中文**：朱熹主张“格物致知”，即通过探究事实来明辨是非。本案中，未对转发内容进行充分的事实核查，却直接定性为“虚假”，违背了理学的求真精神。
+
 **English**: Zhu Xi’s *gewu zhizhi* requires investigating facts to discern truth. In this case, failing to thoroughly examine the reposted content before labeling it “false” violates the Neo-Confucian pursuit of truth.
 
 ---
@@ -40,6 +43,7 @@ Cheng-Zhu Neo-Confucianism holds that *li* (principle) is the fundamental law of
 ### 4. 正心诚意，公义为本 | Rectifying the Mind, Grounding in Justice
 
 **中文**：理学强调“正心诚意”，即治理者必须端正心志、以公义为本。本案中，秘密审判、剥夺辩护权，显示出缺乏“诚意”与“公义”，违背了理学的根本精神。
+
 **English**: Neo-Confucianism stresses “rectifying the mind and making intentions sincere,” meaning rulers must ground themselves in justice. Secret trials and denial of defense reveal a lack of sincerity and justice, contradicting the essence of Neo-Confucian governance.
 
 ---

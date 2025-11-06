@@ -59,7 +59,7 @@ Realism
 
     *   :doc:`G. E. 摩尔 </chats/outlaw/analyse/foreign/branch/langu/moore/index>` ：通过举起他的手说“这是一只手”，来论证外部世界的存在是一个比任何怀疑论论证都更确定的常识信念。
 
-    *   **日常语言学派** （后期维特根斯坦、奥斯汀）：认为怀疑论误用了语言，在日常语言实践中，我们无疑地预设了外部世界的存在。
+    *   :doc:`日常语言学派 </chats/outlaw/analyse/foreign/branch/langu/review/ordlang/index>` （后期维特根斯坦、奥斯汀）：认为怀疑论误用了语言，在日常语言实践中，我们无疑地预设了外部世界的存在。
 
 3. 科学唯实论
 
