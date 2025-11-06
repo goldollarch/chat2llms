@@ -63,7 +63,7 @@
  .. toctree::
     :maxdepth: 1
 
-    empiricus/index
+    sextus/index
 
  .. toctree::
     :maxdepth: 1
