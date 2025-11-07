@@ -76,4 +76,3 @@
     :maxdepth: 1
 
     ccp/index
-

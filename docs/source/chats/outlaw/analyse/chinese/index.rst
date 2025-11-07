@@ -22,3 +22,14 @@
     :maxdepth: 2
 
     school/index
+
+----------
+
+中国哲学常识
+
+-------------
+
+[:doc:`Gemini </chats/outlaw/analyse/chinese/gemini>`]
+[:doc:`ChatGPT </chats/outlaw/analyse/chinese/chatgpt>`]
+[:doc:`DeepSeek </chats/outlaw/analyse/chinese/deepseek>`]
+[:doc:`Qwen </chats/outlaw/analyse/chinese/qwen>`]
