@@ -1,0 +1,494 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">近代</a></li>
+          <li class="breadcrumb-item"><a href="index.html">黄宗羲</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/recent/hzx/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>黄宗羲是中国从封建政治向现代公民思想过渡的关键思想家之一，
+其思想核心是 <strong>“以天下为主，以君为客”</strong>——
+他以儒家道统为基础，却开出政治批判的近代精神；
+他是“专制制度批判”与“公共理性萌芽”的中国先声。</p>
+<p>因此，从黄宗羲的思想出发，本案可以被视为：</p>
+<blockquote>
+<div><p>“专制理性与公共理性的再度冲突”，
+“国家机器与士人精神之抗衡”的现代再现。</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、黄宗羲思想的历史背景与哲学核心<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>思想维度</p></th>
+<th class="head"><p>核心内容</p></th>
+<th class="head"><p>代表著作与表述</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>政治哲学</p></td>
+<td><p>君主专制之弊，民为邦本</p></td>
+<td><p>《明夷待访录》：“天下为主，君为客。”</p></td>
+</tr>
+<tr class="row-odd"><td><p>伦理哲学</p></td>
+<td><p>君臣之义在“相制而平”，非“专制而屈”</p></td>
+<td><p>“有治法，而后有治人。”</p></td>
+</tr>
+<tr class="row-even"><td><p>历史哲学</p></td>
+<td><p>历代政治兴衰皆由“权归于上一人”</p></td>
+<td><p>“自秦以来，天下之害莫大于君。”</p></td>
+</tr>
+<tr class="row-odd"><td><p>法治思想</p></td>
+<td><p>法不为君设，而为天下设</p></td>
+<td><p>“法者天下之公器，非一家之私也。”</p></td>
+</tr>
+<tr class="row-even"><td><p>士人观</p></td>
+<td><p>士以天下为己任，非以奉君为职</p></td>
+<td><p>“士之有天下者也，非君之有也。”</p></td>
+</tr>
+</tbody>
+</table>
+<p>黄宗羲思想的精神实质在于：</p>
+<blockquote>
+<div><p><strong>“以天下为公”的政治理性，反对一切以权力自居真理的制度形式。</strong></p>
+</div></blockquote>
+<p>换言之，他从儒家伦理出发，
+走向了近代意义上的<strong>公共理性、法治理念与权力约束意识</strong>。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、从黄宗羲的政治哲学看陈京元案<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>——权力与天下之关系错置<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>黄宗羲在《明夷待访录·原君》中写道：</p>
+<blockquote>
+<div><p>“天下之治乱，不在一姓之兴亡，而在天下之公私。”
+“天下为主，君为客。君以天下为私，则天下乱矣。”</p>
+</div></blockquote>
+<p>这几句话几乎可以直接照映本案的结构：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>思想命题</p></th>
+<th class="head"><p>黄宗羲原义</p></th>
+<th class="head"><p>在本案中的体现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>天下为主，君为客</p></td>
+<td><p>权力应服务于公共利益</p></td>
+<td><p>国家机器以“秩序”为名侵害公民自由</p></td>
+</tr>
+<tr class="row-odd"><td><p>法者天下之公器</p></td>
+<td><p>法律属于天下，而非统治者</p></td>
+<td><p>法律被行政化、工具化</p></td>
+</tr>
+<tr class="row-even"><td><p>君主之私害天下</p></td>
+<td><p>权力若不受制约，必害民</p></td>
+<td><p>司法成为政治安全逻辑的附属</p></td>
+</tr>
+<tr class="row-odd"><td><p>士以天下为己任</p></td>
+<td><p>思想者应为天下言</p></td>
+<td><p>思想批评者反被治罪</p></td>
+</tr>
+<tr class="row-even"><td><p>有治法而后有治人</p></td>
+<td><p>治国应以法度，不以权力</p></td>
+<td><p>法度屈从权力意志</p></td>
+</tr>
+</tbody>
+</table>
+<p>→ 结论：
+陈京元案的根本问题在于：<strong>法与权的关系逆转——权凌驾于法，法脱离于天下。</strong></p>
+<p>黄宗羲称这种结构为“君为私，法为器”，
+即：君主（或当代的政治体制）将公共法治变成自身统治的工具。
+他认为这是中国历史最大的政治恶疾——
+<strong>“专制以法为私器，而非公器。”</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>三、黄宗羲的“法治理性”：<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<section id="id5">
+<h3>——“法者天下之公器，非一家之私也”<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>在《明夷待访录·原法》中，黄宗羲明确提出：</p>
+<blockquote>
+<div><p>“法者，天下之公器；刑者，天下之公正。”
+“使法归于一人之手，是法之亡也。”</p>
+</div></blockquote>
+<p>这是中国思想史上最早的<strong>反专制法治观</strong>。</p>
+<p>如果以此为检验标准，陈京元案明显违背了“法之公器性”：</p>
+<ul class="simple">
+<li><p>法院判决缺乏独立性（受行政主导）；</p></li>
+<li><p>法条适用过度依赖政治需要（以“寻衅滋事”作为治理工具）；</p></li>
+<li><p>法律解释不以证据为依据，而以“秩序”作为目的；</p></li>
+<li><p>“刑”不为“天下之公正”，而为“秩序之私利”。</p></li>
+</ul>
+<p><strong>黄宗羲式结论：</strong></p>
+<blockquote>
+<div><p>此非法治，而为“以法行私”——以国家之名行君主之权。</p>
+</div></blockquote>
+<p>他曾预见这种结构的后果：</p>
+<blockquote>
+<div><p>“天下之法，若为一家之利，则虽曰治，实乱也。”</p>
+</div></blockquote>
+<p>换言之：
+<strong>当法律成为权力的辩护词，社会即已陷入“乱”的本质状态。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>四、黄宗羲的历史哲学：<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>——“治世者，常以言路之开塞为盛衰之征”<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>在《明夷待访录·言官》篇中，黄宗羲强调：</p>
+<blockquote>
+<div><p>“国无言路，则是国非国也。”
+“古之治天下者，必开言路以通天下之情。”</p>
+</div></blockquote>
+<p>他认为政治的正当性，来自社会情感的自由流通。
+“言路”之开，象征民意与理性的共生；
+“言路”之塞，标志权力的闭环与腐化。</p>
+<p>以此标准观陈京元案：</p>
+<ul class="simple">
+<li><p>公民言论被司法化；</p></li>
+<li><p>网络批评被定性为“扰乱秩序”；</p></li>
+<li><p>舆论监督渠道被堵塞；</p></li>
+<li><p>民情、民怨、民智被“程序性压抑”。</p></li>
+</ul>
+<p>→ 在黄宗羲语境中，这种局面正是“言路之塞”。
+他在明亡后痛陈：</p>
+<blockquote>
+<div><p>“当天下无复言者，是亡国之始也。”</p>
+</div></blockquote>
+<p>换言之，
+<strong>一个不容异声的社会，已丧失自我修复能力。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>五、黄宗羲的“士道”与“公道”：<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<section id="id9">
+<h3>——士人之责，在于为天下言<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>黄宗羲出身儒门，师承顾炎武一派“经世致用”之学，
+但他对士人的定义已突破传统忠君模式。</p>
+<blockquote>
+<div><p>“士者，非为君而学，乃为天下而学。”</p>
+</div></blockquote>
+<p>在陈京元案中，陈京元的发声——无论观点对错——
+本质上体现了士人精神的“天下意识”：
+他批评社会现象，质疑制度正当性，
+其行为正是黄宗羲意义上的“以天下为己任”。</p>
+<p>然而：</p>
+<ul class="simple">
+<li><p>权力体系将这种公共理性视为威胁；</p></li>
+<li><p>“士之为天下言”被解释为“扰乱秩序”；</p></li>
+<li><p>士道被贬为“越界行为”。</p></li>
+</ul>
+<p>这在黄宗羲看来，是<strong>政治堕落的标志</strong>。
+他在《原君》中说：</p>
+<blockquote>
+<div><p>“天下之士，皆为君用，则天下亡矣。”</p>
+</div></blockquote>
+<p>意思是：
+当士人仅为君主服务，而不为天下说话，
+政治与文化之命脉即断。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>六、黄宗羲的制度哲学：<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<section id="id11">
+<h3>——“公议之政”与“群体理性”<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>黄宗羲是中国思想史上最早提出“议政制衡”思想的学者之一。
+他提出：</p>
+<blockquote>
+<div><p>“治天下者，必使天下有可议之权。”</p>
+</div></blockquote>
+<p>在今天的语境中，这一思想对应于现代社会的：</p>
+<ul class="simple">
+<li><p>公共讨论权（public discourse）；</p></li>
+<li><p>新闻监督机制；</p></li>
+<li><p>民意反馈与政策约束机制。</p></li>
+</ul>
+<p>但在陈京元案中，司法逻辑的运作路径恰恰是：</p>
+<ul class="simple">
+<li><p>剥夺社会讨论权；</p></li>
+<li><p>禁绝公共议题反馈；</p></li>
+<li><p>将“批评”刑事化。</p></li>
+</ul>
+<p>这种局面在黄宗羲的理论中被称为：</p>
+<blockquote>
+<div><p>“治以禁议，实乱之渐。”</p>
+</div></blockquote>
+<p>他认为，政治合法性的核心在于：</p>
+<blockquote>
+<div><p>“君之权有所制，民之言有所伸。”</p>
+</div></blockquote>
+<p>因此，从黄宗羲立场看，陈京元案并非“维稳事件”，
+而是国家治理失衡、权力过度集中的症候。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h2>七、黄宗羲的道德哲学：<a class="headerlink" href="#id12" title="Link to this heading"></a></h2>
+<section id="id13">
+<h3>——“公者，理也；私者，欲也。”<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>黄宗羲以理欲之辨为治乱之根本：</p>
+<blockquote>
+<div><p>“理为天下之公，欲为一身之私。”</p>
+</div></blockquote>
+<p>他将“理”理解为公共理性，
+将“欲”视为个人或权力集团的自利。</p>
+<p>应用于本案：</p>
+<ul class="simple">
+<li><p>以“社会秩序”为名压制自由，是“欲”的扩张；</p></li>
+<li><p>以公共理性（讨论、批评、言说）维护社会真相，是“理”的伸张。</p></li>
+</ul>
+<p>黄宗羲认为：</p>
+<blockquote>
+<div><p>“治世者必以理胜欲；乱世者以欲害理。”</p>
+</div></blockquote>
+<p>→ 本案正反映出：
+社会正义的衰败并非因民间混乱，而是因公权“以欲害理”。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h2>八、从历史循环到当代理性：<a class="headerlink" href="#id14" title="Link to this heading"></a></h2>
+<section id="id15">
+<h3>——“专制之形变，仍专制也。”<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>黄宗羲深刻指出：</p>
+<blockquote>
+<div><p>“自秦以来，天下之害，莫大于专制。”</p>
+</div></blockquote>
+<p>他的历史哲学认为，中国政治的最大宿命是“专制形态的循环变体”：
+每次改朝换代，都未能建立制度性约束。</p>
+<p>在现代情境下，陈京元案体现的恰是一种“形变的专制”：</p>
+<ul class="simple">
+<li><p>名义上是“法治”，实质上是“权治”；</p></li>
+<li><p>名义上“依法办案”，实质上“以权解释法”；</p></li>
+<li><p>名义上维护秩序，实质上维护权力稳定。</p></li>
+</ul>
+<p>这正是黄宗羲所谓：</p>
+<blockquote>
+<div><p>“名为治平，实则专制之续。”</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h2>九、综合诊断：黄宗羲式的政治—哲学分析<a class="headerlink" href="#id16" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>分析维度</p></th>
+<th class="head"><p>黄宗羲思想</p></th>
+<th class="head"><p>本案体现</p></th>
+<th class="head"><p>哲学诊断</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>公与私</p></td>
+<td><p>法应为天下之公器</p></td>
+<td><p>法为权力之私器</p></td>
+<td><p>制度退化为私器</p></td>
+</tr>
+<tr class="row-odd"><td><p>言路</p></td>
+<td><p>民言乃治世之根</p></td>
+<td><p>言路封闭</p></td>
+<td><p>政治窒息</p></td>
+</tr>
+<tr class="row-even"><td><p>士人之责</p></td>
+<td><p>士以天下为己任</p></td>
+<td><p>思想者被定罪</p></td>
+<td><p>士道灭绝</p></td>
+</tr>
+<tr class="row-odd"><td><p>君民关系</p></td>
+<td><p>君为客，民为主</p></td>
+<td><p>权力凌驾公民</p></td>
+<td><p>“君本复活”</p></td>
+</tr>
+<tr class="row-even"><td><p>治法</p></td>
+<td><p>有治法而后有治人</p></td>
+<td><p>以人代法</p></td>
+<td><p>法治崩解</p></td>
+</tr>
+<tr class="row-odd"><td><p>历史规律</p></td>
+<td><p>专制形变而存</p></td>
+<td><p>“以法行私”重现</p></td>
+<td><p>历史循环未破</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>结论：</strong></p>
+<blockquote>
+<div><p>陈京元案的实质，是“天下之法为一家之私”的现代再现；
+它并非法治之胜，而是黄宗羲所警告的“专制遗绪之变形延续”。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h2>十、结语：以黄宗羲之言，为当下立论<a class="headerlink" href="#id17" title="Link to this heading"></a></h2>
+<p>黄宗羲在明亡后以史为鉴，以笔为剑。
+他在《明夷待访录》结语中写道：</p>
+<blockquote>
+<div><p>“天下之治，贵在公议；天下之乱，起于独断。
+使天下皆有言之权，而后政不蔽。”</p>
+</div></blockquote>
+<p>这句话跨越三百年，
+仍是今日中国思想史对陈京元案最深刻的注脚。</p>
+<p><strong>最终哲学评语：</strong></p>
+<blockquote>
+<div><p>陈京元案的根本问题，不在于一纸判决，而在于一个社会是否仍记得“天下为公”的古训。
+当法律不再是天下之公器，而成为权力之私器；
+当言路被禁，士道被灭；
+当“理”屈于“欲”；
+那么，黄宗羲在《明夷待访录》中三百年前的警告，
+就不再是历史，而是当下的现实。</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

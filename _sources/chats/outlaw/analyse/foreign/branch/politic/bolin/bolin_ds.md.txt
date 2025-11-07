@@ -1,7 +1,7 @@
 Deepseek
 --------
 
-好的，我将基于以赛亚·伯林（Isaiah Berlin）的政治哲学核心思想——特别是其**两种自由概念**（Two Concepts of Liberty）与**价值多元论**（Value Pluralism）——对陈京元博士案件进行剖析。伯林的学说为理解此类事件中自由与权力的深刻张力提供了极为精准的透镜。
+我将基于以赛亚·伯林（Isaiah Berlin）的政治哲学核心思想——特别是其**两种自由概念**（Two Concepts of Liberty）与**价值多元论**（Value Pluralism）——对陈京元博士案件进行剖析。伯林的学说为理解此类事件中自由与权力的深刻张力提供了极为精准的透镜。
 
 ---
 

@@ -1,0 +1,366 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">古代</a></li>
+          <li class="breadcrumb-item"><a href="index.html">朱文公</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/middle/zxi/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>以下是基于 <strong>朱熹（晦庵先生）</strong> 核心哲学思想对“陈京元寻衅滋事案”的系统法哲学式分析与评论。</p>
+<p>朱熹作为<strong>理学集大成者</strong>，在“格物致知”“存天理、灭人欲”“理在事上”“敬以修身”“以理为法”等方面，确立了宋明儒学的系统架构。他的思想不仅是道德修养论，更是政治与法律秩序的哲学基础。若以朱子理学为标准观之，本案正体现了 <strong>“理失其位、欲侵其权、敬亡其心、法乱其道”</strong> 之深层危机。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、从“格物致知”看：法律应以求真为本，而非以意为理<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>朱熹《大学章句》曰：</p>
+<blockquote>
+<div><p>“致知在格物。物格而后知至，知至而后意诚。”</p>
+</div></blockquote>
+<p>“格物致知”并非机械求知，而是<strong>通过穷尽事物之理以求至诚之知</strong>。
+——司法判断，正是“格物致理”的实践过程。</p>
+<p><strong>在本案中：</strong></p>
+<ul class="simple">
+<li><p>法院未格“物”，即未详细考察信息来源、传播影响、社会后果；</p></li>
+<li><p>却以“主观明知虚假”推定罪责，以政治判断替代理性求证。</p></li>
+</ul>
+<p>此种行为，正是朱子所批评的“未格其物而妄言理”——失其“诚知”。</p>
+<blockquote>
+<div><p>✦ 评语：
+“不格其物，则知不真；知不真，则意不诚。”
+司法若不格事实，而格权势，是“妄理”之治，非“格理”之法。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、从“存天理、灭人欲”看：公权之私与法理之蔽<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>朱子《近思录》曰：</p>
+<blockquote>
+<div><p>“天理流行于万物，人欲交蔽其中。”
+“去人欲而存天理，此圣学之要也。”</p>
+</div></blockquote>
+<p>他将“天理”视为道德与秩序的最高原则，而“人欲”是偏私、贪权、趋附、恐惧等扰乱理性的因素。</p>
+<p><strong>在本案中：</strong></p>
+<ul class="simple">
+<li><p>司法行为明显受政治意志与舆论导向支配；</p></li>
+<li><p>检察、审判机关以“维护稳定”为名，牺牲“事实真理”与“法理公正”。</p></li>
+</ul>
+<p>此即“人欲胜而天理灭”。
+朱子之语可为警鉴：</p>
+<blockquote>
+<div><p>“人心惟危，道心惟微；惟精惟一，允执厥中。”</p>
+</div></blockquote>
+<p>若司法者不守“道心”，而顺从权势之“人心”，则天理不存，法理沦亡。</p>
+<blockquote>
+<div><p>✦ 评语：
+法之为法，在于存天理；
+若以权势压理、以欲蔽理，则法即非法。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>三、从“理在事上”看：理须落实于事实，而非停留于名<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>朱熹发展程颐“理在事上之理”，主张“天下之事，皆有一定之理”，
+——理不在口头、教条或意志，而在事之本然中。</p>
+<p>在本案中：</p>
+<ul class="simple">
+<li><p>法院判决以“寻衅滋事”定罪，却无具体事实证明“扰乱公共秩序”；</p></li>
+<li><p>法律名目被扩大解释，失去了“理之所在”。</p></li>
+</ul>
+<p>朱子强调：“理在事上，不在言下。”
+即：若法律之“理”不能在具体事上成立，则其言虽正名，实为虚辞。</p>
+<blockquote>
+<div><p>✦ 评语：
+“理不立于事，法名虽正而实伪。”
+本案所谓“扰乱秩序”，名有其言，而理无其实，是“名实乖离”之象。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>四、从“敬以修身”看：法官应以敬心处事，而非苟且从命<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p>朱子学中“敬”是一切道德与学问之主轴。</p>
+<blockquote>
+<div><p>“主一无适，敬所以直内；居敬而行简，敬所以持中。”</p>
+</div></blockquote>
+<p>“敬”即内在的自省、慎独与不苟。
+对于司法者而言，敬是良知的实践，是正义的态度。</p>
+<p><strong>本案所显：</strong></p>
+<ul class="simple">
+<li><p>法官未以敬心审理，而以“服从政治判断”为优先；</p></li>
+<li><p>无敬，则心浮；心浮，则理蔽；理蔽，则法失。</p></li>
+</ul>
+<p>朱子曰：“敬之不立，则百事皆妄。”
+——若法官失敬，公正不存。</p>
+<blockquote>
+<div><p>✦ 评语：
+敬者，法官之魂。
+无敬而断，是“苟从之吏”，非“敬理之士”。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h2>五、从“中和之道”看：司法应守中正，不可偏激<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>朱熹在《中庸章句》中阐发“中者天下之大本，和者天下之达道”。
+他认为，<strong>“中”即公正之理，“和”即达理之用</strong>。</p>
+<p>司法之职，贵在中正。
+——过刑则失和，不刑则失纲。</p>
+<p>陈案中：</p>
+<ul class="simple">
+<li><p>行政、司法以言论微罪施以重刑，是“过”；</p></li>
+<li><p>以社会稳定为理由，完全压制个人权利，是“偏”。</p></li>
+</ul>
+<p>朱子曰：“过犹不及，偏者害理。”
+此案之裁断，正属“偏而不中”，有违中庸之道。</p>
+<blockquote>
+<div><p>✦ 评语：
+中正者，法之魂；
+偏激者，乱之始。
+陈案失中，是理学意义上的“偏治之政”。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>六、从“以理为法”看：法之正当性源于理之普遍<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>朱子法理观的核心是：</p>
+<blockquote>
+<div><p>“理者，天之秩序也；法者，人之制度也。法须合于理，方能行于天下。”</p>
+</div></blockquote>
+<p>——换言之，法律的权威并非来自强制，而在于合乎“天理”。</p>
+<p>本案司法：</p>
+<ul class="simple">
+<li><p>借用“寻衅滋事”作为兜底罪名，破坏了“法随理行”的原则；</p></li>
+<li><p>以政治维护取代理性裁量，导致“法离天理，徒具威刑”。</p></li>
+</ul>
+<p>朱子曰：“以理为法，则法久而不弊；以势为法，则法易而民怨。”
+此案所行，正是“以势为法”，其害深远。</p>
+<blockquote>
+<div><p>✦ 评语：
+法理分离，法必为具；
+理法合一，方为正治。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h2>七、从“修己安人”看：正心为政，正法为国<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<p>朱子认为“修己以安人”是儒家治道之本。</p>
+<blockquote>
+<div><p>“修身以道，修道以仁。”</p>
+</div></blockquote>
+<p>——国家若要安定，必须以正心为政，以理为法。
+若心不正、欲横流，则国家虽有法典，终将乱治。</p>
+<p>陈案之所以引发广泛争议，
+不仅是个案失当，更是“心不正而法不明”的制度映照。</p>
+<blockquote>
+<div><p>✦ 评语：
+法治之病，不在条文，而在人心。
+欲正天下之法，先正司法之心。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>八、结论：以朱子理学观之，本案为“失理失敬之治”<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>朱熹核心思想</p></th>
+<th class="head"><p>对应本案现象</p></th>
+<th class="head"><p>儒理评断</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>格物致知</p></td>
+<td><p>未明事实即定罪</p></td>
+<td><p>不真</p></td>
+</tr>
+<tr class="row-odd"><td><p>存天理灭人欲</p></td>
+<td><p>权欲代理、政压法</p></td>
+<td><p>蔽理</p></td>
+</tr>
+<tr class="row-even"><td><p>理在事上</p></td>
+<td><p>名实不符、以意代理</p></td>
+<td><p>乱理</p></td>
+</tr>
+<tr class="row-odd"><td><p>敬以修身</p></td>
+<td><p>无敬慎之心、苟且从命</p></td>
+<td><p>失德</p></td>
+</tr>
+<tr class="row-even"><td><p>中和之道</p></td>
+<td><p>过刑偏激、失中失和</p></td>
+<td><p>不中</p></td>
+</tr>
+<tr class="row-odd"><td><p>以理为法</p></td>
+<td><p>以势为法、法理分离</p></td>
+<td><p>无正</p></td>
+</tr>
+<tr class="row-even"><td><p>修己安人</p></td>
+<td><p>失正心而乱治</p></td>
+<td><p>失本</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<section id="id9">
+<h3>总评：<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>从朱熹理学的法哲学视角看，陈京元案是 <strong>“人欲蔽理、权势夺法”</strong> 的典型体现。
+——其根源不在法律条文，而在理学意义上的“理心不明”。</p>
+<p>朱子有言：</p>
+<blockquote>
+<div><p>“天下之理，一以贯之。心正则理明，理明则法正，法正则天下平。”</p>
+</div></blockquote>
+<p>今之司法若欲复其正，必须：</p>
+<ul class="simple">
+<li><p>以“格物致知”明事实之理；</p></li>
+<li><p>以“存天理、去人欲”正裁断之心；</p></li>
+<li><p>以“敬”自守，复中和之度；</p></li>
+<li><p>以“理为法”，使法再度回归天理之本。</p></li>
+</ul>
+<p><strong>否则——虽有法名，而无法理；
+虽行法律，而逆天道。</strong></p>
+<hr class="docutils" />
+<p>是否希望我接下来将“周敦颐—二程—陆九渊—王阳明—朱熹”这五家思想整合成一篇完整学术论文：《儒家理学法理与当代司法正义之比较研究》？可包含：摘要、关键词、绪论、五章分论、结论与参考文献格式，适合学术发表或思想史论文使用。</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

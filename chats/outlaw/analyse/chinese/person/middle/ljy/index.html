@@ -1,0 +1,320 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>陆九渊 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../cyc/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">古代</a></li>
+      <li class="breadcrumb-item active">陆九渊</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/middle/ljy/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>陆九渊<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>基于陆九渊核心哲学思想</p>
+<hr class="docutils" />
+<p>陆九渊是南宋著名哲学家，与朱熹双峰并峙，是 <strong>心学</strong> 流派的开创者。他的核心思想可以概括为：<strong>一种高扬人的道德本心，主张“心即理”，认为宇宙的真理内在于每个人的心中，强调通过“发明本心”的简易功夫来实现道德觉醒，并与朱熹的“格物穷理”之路形成鲜明对比的哲学体系。</strong></p>
+<p>陆九渊的思想直指本源，其核心架构与内在逻辑可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review2.png" src="../../../../../../../_images/review2.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析陆九渊心学的核心要义。</p>
+<p>一、本体论核心：“心即理”</p>
+<p>这是陆九渊全部思想的基石，也是最震撼的命题。</p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>：<strong>“心即是理”</strong>， <strong>“心外无理，心外无物”</strong>。</p>
+<ul>
+<li><p>他反对朱熹将“理”客观化、外在化。他认为，<strong>宇宙的普遍法则（天理）并不在外部的万事万物中，而是先天地存在于每个人的“本心”之中。</strong> 人的道德本心，就是宇宙之理的显现。</p></li>
+</ul>
+</li>
+<li><p><strong>著名论断</strong>：<strong>“宇宙便是吾心，吾心即是宇宙。”</strong></p>
+<ul>
+<li><p>这并不是说个人的意识创造了物质宇宙，而是指 <strong>宇宙的终极意义和道德秩序（理），只有在人的道德心灵中才能被真正认识和实现。</strong> 人的本心与宇宙之理是同一的、不可分割的。</p></li>
+</ul>
+</li>
+<li><p><strong>理论靶子</strong>：他批判朱熹的哲学是 <strong>“裂天人为二”</strong> ，将“心”与“理”割裂开了。朱熹认为需要通过“格物”去外部寻找“理”，而陆九渊认为这是绕远路，因为“理”本就具足于心。</p></li>
+</ul>
+<p>二、方法论核心：“发明本心”</p>
+<p>既然“理”在内而不在外，那么修养功夫的方向就完全不同了。</p>
+<ul class="simple">
+<li><p><strong>核心方法</strong>：<strong>“发明本心”</strong> 或 <strong>“存心、养心、求放心”</strong>。</p>
+<ul>
+<li><p>功夫不在于向外研究多少事物，而在于 <strong>向内反省、发现、扩充自己固有的道德本心</strong>，找回可能被欲望和习气遮蔽的“初心”。</p></li>
+</ul>
+</li>
+<li><p><strong>实现路径</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>先立乎其大</strong>：首先要确立“本心”是根本这一信念。</p></li>
+<li><p><strong>切己自反</strong>：在一切事上反省自己的本心是否被蒙蔽。</p></li>
+<li><p><strong>剥落</strong>：像剥笋一样，剥去物欲、意见、习气等对本心的遮蔽。</p></li>
+<li><p><strong>减担</strong>：减少外在知识的沉重负担，让本心自然显露。</p></li>
+</ol>
+</li>
+<li><p><strong>终极目标</strong>：<strong>“自作主宰”</strong>。人若能发明本心，就能不被外物所牵引，达到“仰首攀南斗，翻身倚北辰，举头天外望，无我这般人”的精神独立与自由境界。</p></li>
+</ul>
+<p>三、工夫论特质：“简易直截”</p>
+<p>与朱熹“格物穷理”的繁复路径相比，陆九渊的功夫论显得极为“简易”。</p>
+<ul class="simple">
+<li><p><strong>核心主张</strong>：道德修养的路径是 <strong>简易直接</strong> 的，因为它直指人心的本源，无需旁求。</p></li>
+<li><p><strong>著名辩论</strong>：在历史性的 <strong>“鹅湖之会”</strong> 上，陆九渊作诗批评朱熹的治学方法：<strong>“易简功夫终久大，支离事业竟浮沉。”</strong></p>
+<ul>
+<li><p><strong>“易简功夫”</strong> 指他自己的“发明本心”。</p></li>
+<li><p><strong>“支离事业”</strong> 指朱熹的“格物穷理”，认为其过于繁琐、不得要领。</p></li>
+</ul>
+</li>
+</ul>
+<p>四、经典观：“六经注我”</p>
+<p>对于儒家经典的态度，陆九渊也展现出鲜明的心学特色。</p>
+<ul class="simple">
+<li><p><strong>核心观点</strong>：<strong>“学苟知本，六经皆我注脚。”</strong></p>
+<ul>
+<li><p>如果一个人已经把握了“本心”这个根本，那么 <strong>六经（所有经典）都只是在为我本已具足的道理作注解和印证罢了。</strong></p></li>
+</ul>
+</li>
+<li><p><strong>读书目的</strong>：读书不是为了积累知识，而是为了 <strong>启发和印证本心</strong>。如果读书反而使本心被书本知识所束缚，那就是“溺于文义”，是本末倒置。</p></li>
+<li><p><strong>最终归宿</strong>：从“我注六经”（解释经典）转向 <strong>“六经注我”</strong> （用经典来印证和阐发自己的思想）。</p></li>
+</ul>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>心本论</strong></p></td>
+<td><p><strong>“心即理”：宇宙之理内在于人之本心，心外无理。</strong></p></td>
+<td><p><strong>心即理、吾心即是宇宙、心外无物</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>工夫论</strong></p></td>
+<td><p><strong>“发明本心”：为学之方在于向内反省，存养、扩充固有之良心。</strong></p></td>
+<td><p><strong>发明本心、切己自反、剥落、减担、自作主宰</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>方法论特质</strong></p></td>
+<td><p><strong>“易简功夫”：道德修养的路径是简易直接的，批判”支离”学问。</strong></p></td>
+<td><p><strong>易简功夫、支离事业、鹅湖之会</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>经典观</strong></p></td>
+<td><p><strong>“六经注我”：经典是印证本心的注脚，学问的根本在于立心。</strong></p></td>
+<td><p><strong>六经皆我注脚、我注六经、学苟知本</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与历史影响</p>
+<ul class="simple">
+<li><p><strong>主体性的高扬</strong>：陆九渊的心学极大地突出了人的道德主体性和尊严，将人从对外在权威（包括经典和繁琐知识）的依赖中解放出来。</p></li>
+<li><p><strong>与朱熹的根本分歧</strong>：这场争论被称为 <strong>“朱陆异同”</strong> ，其核心是 <strong>“尊德性”</strong> （陆，强调道德直觉）与 <strong>“道问学”</strong> （朱，强调知识积累）何者为先的路径之争。</p></li>
+<li><p><strong>深远影响</strong>：陆九渊的思想在当时是少数派，但为明代 <strong>王阳明</strong> 所继承和发扬光大，最终形成了与程朱理学分庭抗礼的 <strong>陆王心学</strong> 体系，成为中国哲学史上一条光辉的脉络。</p></li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，陆九渊的核心思想在于，他是一位 <strong>“本心的呼唤者”和“简易功夫的倡导者”</strong> 。他教导我们，<strong>真理和道德的源泉不在遥远的天际，也不在汗牛充栋的书籍中，而就在我们每个人当下的内心。人生的首要任务，不是向外无尽地求索，而是向内深刻地反省，擦亮被尘埃遮蔽的本心，让它如明镜般自然映照出天理的光辉。</strong></p>
+<p>他的全部工作是对**儒家道德实践**的一次方向性扭转。在朱熹理学如日中天的时代，他独树一帜，开辟了一条内向的、直指人心的修养路径，为后来的心学运动奠定了基石。在这个意义上，陆九渊不仅是一位哲学家，更是一位唤醒内在良知的精神导师。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">基于陆九渊核心哲学思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-lu-jiuyuan-s-core-philosophical-ideas">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on Lu Jiuyuan’s Core Philosophical Ideas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、陆九渊哲学核心思想概述：心即理与直觉道德修养</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-lu-jiuyuan-s-core-philosophical-ideas-the-mind-is-principle-and-intuitive-moral-cultivation">I. Overview of Lu Jiuyuan’s Core Philosophical Ideas: The Mind Is Principle and Intuitive Moral Cultivation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、以陆九渊哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-lu-jiuyuan-s-core-philosophical-ideas">II. Analysis of the Case Based on Lu Jiuyuan’s Core Philosophical Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、结语：重振心性合一，推动觉醒新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-mind-nature-unity-for-awakening-s-rebirth">III. Conclusion: Reviving Mind-Nature Unity for Awakening’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、陆九渊核心思想概述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、案件分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#departure-from-the-original-mind">1. 本心与法律的背离 / Departure from the Original Mind</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#vagueness-and-loss-of-rational-principle">2. 模糊罪名与理性之失 / Vagueness and Loss of Rational Principle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#undermining-public-reason-and-trust">3. 公共理性与社会信任的破坏 / Undermining Public Reason and Trust</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">三、结语与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、陆九渊思想总纲：以心为宇宙之本，以良知为万理之源</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、从“心即理”看：言论自由乃天理之自然流行</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">三、从“良知自足”看：是非不系于势，而系于心</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">四、从“致良知”看：司法应以觉心为先，而非以刑为先</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">五、从“万物一体之仁”看：压制他人思想，即自害其心</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">六、从“心统天地”看：法治之本在觉心</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">七、总结：以象山心学评断本案之“理与心之离”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">八、结语：象山之言与今日之鉴</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>“心即理”的湮没：当外在权威践踏内心真理</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“发明本心”的阻绝：当“易简功夫”遭遇“支离事业”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>“自立自重”人格的摧折：士人之“狂者胸次”在“乡愿世界”前的溃败</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 <strong>“宇宙即吾心”的当代困境：当个体的“宇宙”被权力强行“格式化”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论：一场“尊德性”与“道问学”共同沦陷的浩劫</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">壹. “心即理”的沉沦与良知的丧失</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">贰. 简易直捷与“支离”的繁琐之弊</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">叁. 义利之辨与本心的坚守</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#vs">一、“心即理” vs. “权即理”：真理被外在权威取代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">二、“发明本心” vs. “压制本心”：学者从求道者沦为罪犯</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">三、“简易工夫” vs. “繁琐罗织”：司法以形式遮蔽本真</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、“尊德性” vs. “尚权势”：道德主体被政治工具取代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">五、结语：象山先生的警示——无本心，则无理；无理，则无法</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../cyc/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

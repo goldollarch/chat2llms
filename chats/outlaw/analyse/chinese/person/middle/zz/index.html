@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>张横渠 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../zdy/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">古代</a></li>
+      <li class="breadcrumb-item active">张横渠</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/middle/zz/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>张横渠<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>基于张载核心哲学思想</p>
+<hr class="docutils" />
+<p>张载是北宋理学的奠基人之一，其思想深邃而富有开创性。核心思想可以概括为：<strong>一个以“气本论”为哲学基石，以“民胞物与”为伦理理想，以“为天地立心”为使命，融宇宙论、心性论与人生境界于一体的宏大体系。</strong></p>
+<p>张载的思想体系结构严谨，其核心架构与内在逻辑可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review6.png" src="../../../../../../../_images/review6.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析张载思想的核心要义。</p>
+<p>一、宇宙论基石：气本论</p>
+<p>张载哲学最根本的贡献，在于确立了“气”作为宇宙本原的地位。</p>
+<ul class="simple">
+<li><p><strong>核心命题：太虚即气</strong></p>
+<ul>
+<li><p>他提出 <strong>“太虚无形，气之本体；其聚其散，变化之客形耳”</strong>。</p></li>
+<li><p>这意味着：宇宙的终极本体（“太虚”）并非绝对的“无”，而是 <strong>充满希微、不可见的“气”</strong>。我们肉眼可见的万物（“客形”），只是“气” <strong>聚合</strong> 的暂时形态；万物消亡，则是“气” <strong>消散</strong> 回归本然状态。这有力地批判了佛家的“虚无”和道家的“有生于无”。</p></li>
+</ul>
+</li>
+<li><p><strong>宇宙生成论</strong>：</p>
+<ul>
+<li><p><strong>“气”</strong> 内部包含 <strong>阴阳</strong> 两种对立统一的势力，二者的相互作用（<strong>“感”</strong>）推动着宇宙万物的生生不息、变化无穷。</p></li>
+<li><p>这构成了一种 <strong>唯物的、动态的</strong> 宇宙观。</p></li>
+</ul>
+</li>
+</ul>
+<p>二、心性论核心：天地之性与气质之性</p>
+<p>这是张载对儒家心性论的划时代贡献，为后世理学所继承和发展。</p>
+<ul class="simple">
+<li><p><strong>双重人性论</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>天地之性</strong>：人禀受于“太虚”本然的、纯善的本性。这是人与万物共通的道德根源，是 <strong>至善的</strong>。</p></li>
+<li><p><strong>气质之性</strong>：人由于禀受的 <strong>气有清浊、厚薄之别</strong>，而形成的具体生理、心理素质和情感欲望。它有善有恶，是人性中 <strong>恶的来源</strong>。</p></li>
+</ol>
+</li>
+<li><p><strong>理论意义</strong>：这一区分完美地解释了儒家长期争论的“善恶来源”问题。人为何会作恶？因为“气质”遮蔽了本然的“天地之性”。道德修养的目标就是 <strong>改变浑浊的“气质”</strong>，使纯善的“天地之性”得以彰显。</p></li>
+<li><p><strong>心统性情</strong>：张载还提出 <strong>“心统性情”</strong> 的命题，认为“心”具有主宰和统合“性”（道德理性）与“情”（情感欲望）的能力，为道德实践提供了主体基础。</p></li>
+</ul>
+<p>三、伦理理想：民胞物与</p>
+<p>这是张载思想中最富感染力和社会关怀的部分，集中体现在其不朽名篇《西铭》中。</p>
+<ul class="simple">
+<li><p>《西铭》原名《订顽》，程颐改题为《西铭》，与《东铭》（原名《砭愚》）对应。朱熹曾将其收入《近思录》，并作《西铭解》阐释其理一分殊的思想。</p></li>
+<li><p>全文以“天人一体”为核心，阐发儒家伦理观，强调人与万物同源、仁爱及社会责任，被后世理学家奉为纲领性文献。</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>《西铭》：乾称父，坤称母；予兹藐焉，乃混然中处。故天地之塞，吾其体；天地之帅，吾其性。民吾同胞，物吾与也。
+大君者，吾父母宗子；其大臣，宗子之家相也。尊高年，所以长其长；慈孤弱，所以幼其幼。圣其合德，贤其秀也。
+凡天下疲癃残疾、惸独鳏寡，皆吾兄弟之颠连而无告者也。于时保之，子之翼也；乐且不忧，纯乎孝者也。
+违曰悖德，害仁曰贼；济恶者不才，其践形，惟肖者也。知化则善述其事，穷神则善继其志。不愧屋漏为无忝，存心养性为匪懈。
+恶旨酒，崇伯子之顾养；育英才，颍封人之锡类。不弛劳而厎豫，舜其功也；无所逃而待烹，申生其恭也。体其受而归全者，参乎！勇于从而顺令者，伯奇也。
+富贵福泽，将厚吾之生也；贫贱忧戚，庸玉汝于成也。存，吾顺事；没，吾宁也。</p>
+</div>
+<ul class="simple">
+<li><p><strong>核心境界</strong>：</p>
+<ul>
+<li><p><strong>“民吾同胞，物吾与也。”</strong> （百姓都是我的同胞，万物都是我的伙伴。）</p></li>
+<li><p>将宇宙视为一个大家庭：天地是父母，君主是嫡长子，大臣是管家，世间一切人都是我的兄弟姊妹，万物都是我的朋友。</p></li>
+</ul>
+</li>
+<li><p><strong>伦理要求</strong>：</p>
+<ul>
+<li><p><strong>“尊高年，所以长其长；慈孤弱，所以幼其幼。”</strong> 要尊敬世上的老人，慈爱世上的孤儿弱者。</p></li>
+<li><p><strong>“凡天下疲癃残疾、惸独鳏寡，皆吾兄弟之颠连而无告者也。”</strong> 对所有社会弱势群体，都应抱有深切的同情与关怀。</p></li>
+</ul>
+</li>
+<li><p><strong>人生态度</strong>：</p>
+<ul>
+<li><p>活着就顺应天道努力做事（<strong>“存，吾顺事”</strong>），死亡则安宁地回归本体（<strong>“没，吾宁也”</strong>），表现出一种将个人生命融入宇宙大化的豁达生死观。</p></li>
+</ul>
+</li>
+</ul>
+<p>四、修养工夫：大其心与变化气质</p>
+<p>如何实现上述理想？张载提出了一套具体的修养方法。</p>
+<ul class="simple">
+<li><p><strong>大其心</strong>： <strong>“大其心则能体天下之物。”</strong> 要打破由“气质”和感官带来的小我局限，扩展自己的心胸，去体会、感知天下万物与我本是一体。</p></li>
+<li><p><strong>变化气质</strong>：通过 <strong>“知礼成性”</strong> （学习礼义以成就本性）和 <strong>“穷神知化”</strong> （穷究宇宙奥秘）的工夫，克服“气质之性”的偏蔽，使“天地之性”充分显现，最终达到 <strong>“天人合一”</strong> 的最高境界。</p></li>
+<li><p><strong>知行观</strong>：强调 <strong>“知”</strong> 必须落实到 <strong>“行”</strong> ，如学习礼义就要在日常生活中践行。</p></li>
+</ul>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>宇宙论（本体）</strong></p></td>
+<td><p><strong>“太虚即气”：气是宇宙万物的本质，聚散变化构成世界。</strong></p></td>
+<td><p><strong>气本论、太虚、气聚散、一物两体（阴阳）</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>心性论（人生）</strong></p></td>
+<td><p><strong>“合虚与气，有性之名”：人性有”天地之性”（善源）与”气质之性”（恶源）双重结构。</strong></p></td>
+<td><p><strong>天地之性、气质之性、心统性情、善恶来源</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>伦理学（理想）</strong></p></td>
+<td><p><strong>“民胞物与”：将宇宙视为大家庭，涵摄博爱平等精神。</strong></p></td>
+<td><p><strong>《西铭》、民吾同胞、物吾与也、仁孝原则</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>工夫论（方法）</strong></p></td>
+<td><p><strong>“大其心”、”变化气质”：通过修养克服气质局限，回归天地之性。</strong></p></td>
+<td><p><strong>大其心、变化气质、知礼成性、穷神知化</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与历史影响</p>
+<ul class="simple">
+<li><p><strong>体系性与开创性</strong>：张载首次为儒学建立了一个完整的气本论哲学体系，其“天地之性”与“气质之性”的区分，被二程、朱熹等理学家奉为圭臬，奠定了理学心性论的基础。</p></li>
+<li><p><strong>博大的胸怀</strong>：其“民胞物与”的理想，将儒家的仁爱思想提升到宇宙论的高度，展现了极其博大的精神境界和深厚的人文关怀。</p></li>
+<li><p><strong>关学宗师</strong>：他开创的“关学”学派，强调学以致用、躬行实践，对后世实学思想产生了深远影响。</p></li>
+<li><p><strong>横渠四句</strong>：<strong>“为天地立心，为生民立命，为往圣继绝学，为万世开太平。”</strong> 这四句话虽非严格哲学命题，却集中体现了张载乃至整个宋明理学的宏大抱负与历史使命感，激励了无数后人。</p></li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，张载的核心思想在于，他是一位 <strong>“宇宙的诠释者”和“人生的指引者”</strong> 。他教导我们，<strong>人源于气，本性至善，虽为气质所拘，但可通过修养恢复与万物一体的本然状态。人生的最高意义，在于认识到自己是宇宙大家庭的一员，并为这个大家庭的和谐与福祉承担责任。</strong></p>
+<p>他的全部工作是对 <strong>儒家学说</strong> 的一次哲学上的升华和体系化重建。在佛道挑战的背景下，他构建了一个既深邃又平实的儒家世界观，为宋明理学的蓬勃发展奠定了坚实的基础。在这个意义上，张载不仅是关学宗师，更是整个理学思潮的伟大奠基者之一。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">基于张载核心哲学思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-zhang-zai-s-core-philosophical-ideas">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on Zhang Zai’s Core Philosophical Ideas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、张载哲学核心思想概述：气一元论与民胞物与</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-zhang-zai-s-core-philosophical-ideas-monism-of-qi-and-humanity-as-family-things-as-kin">I. Overview of Zhang Zai’s Core Philosophical Ideas: Monism of Qi and Humanity as Family, Things as Kin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、以张载哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-zhang-zai-s-core-philosophical-ideas">II. Analysis of the Case Based on Zhang Zai’s Core Philosophical Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、结语：重振仁民爱物，推动和谐新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-benevolence-to-people-love-for-things-for-harmony-s-rebirth">III. Conclusion: Reviving Benevolence to People, Love for Things for Harmony’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、张载核心思想概述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、案件分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#vagueness-of-law-and-loss-of-moral-heart">1. 法律语言的模糊与“立心”的缺失 / Vagueness of Law and Loss of Moral Heart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#scholars-speech-and-universal-kinship">2. 士人之言与“民胞物与” / Scholars’ Speech and Universal Kinship</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#institutional-legitimacy-and-opening-peace">3. 制度正当性与“开太平” / Institutional Legitimacy and Opening Peace</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">三、结语与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、从“气本论”看：天地之气本一，理应贯通，法不应违自然</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、从“为天地立心”看：法官应以天地公心为心，而非人欲之私</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">三、从“民胞物与”看：伤一人之心，即损万民之气</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">四、从“诚明”与“正义”看：以诚行法，以义为度</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">五、从“气有阴阳，理寓其中”看：法治之“理—气失衡”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">六、从“太和”之理看：法治的理想在于天地交感、阴阳平衡</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">七、结论：以张载之道观本案——气枉理失，公心不明</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>“为天地立心”的挫败：当理性探索之心被权力强行窒息</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“为生民立命”的危机：当士人安身立命之基被摧毁</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>“民胞物与”的撕裂：当同胞被视为异己与威胁</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 <strong>“气本论”与“仇必和而解”的悖反：当斗争哲学取代太和之道</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论：太平之基的动摇与士人气节的考验</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">壹. “气本论”与“太和”秩序的破坏</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">贰. “民胞物与”精神的失落</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">叁. “横渠四句”与知识分子的使命</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#vs">一、“为天地立心” vs. “以权代心”：真理被权力意志取代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">二、“为生民立命” vs. “以刑压民”：学者从济世者沦为罪犯</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">三、“为往圣继绝学” vs. “以罪断学”：学术自由被污名为滋事</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、“为万世开太平” vs. “以稳代平”：思想多元被政治一元取代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">五、结语：横渠先生的警示——无学者，则无道；无道，则无太平</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<p>[<a class="reference internal" href="../zz.html"><span class="doc">周敦颐与张载</span></a>]</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../zdy/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

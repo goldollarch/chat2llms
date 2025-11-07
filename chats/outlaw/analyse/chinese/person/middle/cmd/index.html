@@ -1,0 +1,305 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>程明道 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../zz/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">古代</a></li>
+      <li class="breadcrumb-item active">程明道</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/middle/cmd/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>程明道<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>基于程颢（明道先生）核心哲学思想</p>
+<hr class="docutils" />
+<p>程颢（明道先生）是宋代理学的奠基者之一，与其弟程颐并称“二程”。但他的思想路径独特，更侧重于内在的、活泼泼的生命体验与宇宙的合一，可视为后来陆王心学的先声。其核心思想可概括为：<strong>一种以“天理”为根基，以“仁者浑然与物同体”为最高境界，强调通过“诚敬存养”的内心工夫来体认“与物同体”之乐，充满生机与圆融意味的生命哲学。</strong></p>
+<p>程颢的思想体系浑然一体，其核心架构与内在逻辑可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review.png" src="../../../../../../../_images/review.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析程颢思想的核心要义。</p>
+<p>—</p>
+<p>一、本体论基石：“天理”观</p>
+<p>程颢与其弟程颐最大的共同贡献，是确立了 <strong>“天理”</strong> 作为宇宙本原的地位。但他对“天理”的体认更具个人色彩。</p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>：他自豪地说：<strong>“吾学虽有所受，‘天理’二字却是自家体贴出来。”</strong> 这表明“天理”对他而言，不是外在的研究对象，而是 <strong>内在的、真切的生命体验</strong>。</p></li>
+<li><p><strong>“天理”的内涵</strong>：程颢所说的“天理”，是 <strong>自然界的“生生之理”</strong> 与 <strong>人伦道德的“当然之则”</strong> 的统一。春生夏长是“天理”，仁、义、礼、智也是“天理”，二者本是一体。</p></li>
+<li><p><strong>著名比喻</strong>：他常用 <strong>“鸢飞鱼跃，活泼泼地”</strong> 来形容天理，强调天理是 <strong>充满生机与活力</strong> 的宇宙生命律动，而非僵死的教条。</p></li>
+</ul>
+<p>二、境界论核心：“万物一体之仁”</p>
+<p>这是程颢思想中最富感染力、最具特色的部分，是其哲学的巅峰境界。</p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>：<strong>“仁者，浑然与物同体。”</strong> 真正的仁者，感受到自我与宇宙万物是血脉相连、不可分割的整体。</p></li>
+<li><p><strong>著名论断</strong>：他用医学比喻阐明“仁”：<strong>“医书言手足痿痹为不仁，此言最善名状。仁者以天地万物为一体，莫非己也。”</strong></p>
+<ul>
+<li><p>一个人手脚麻木，不知痛痒，医学上叫“不仁”。同样，一个人如果感觉不到万物与自己是一体的，对万物的痛痒漠不关心，就是道德上的 <strong>“不仁”</strong>。</p></li>
+<li><p>达到“仁”的境界的人，视天地万物如同自己的身体一样，感同身受。</p></li>
+</ul>
+</li>
+<li><p><strong>宇宙情怀</strong>：<strong>“天地之用，皆我之用。”</strong> 达到此境界，便会拥有一种博大的宇宙情怀，以天下事为己任。</p></li>
+</ul>
+<p>三、修养工夫论：“诚敬存养”</p>
+<p>要达到“万物一体”的境界，需要一套修养工夫。程颢的工夫论侧重内在的存养，而非外在的穷索。</p>
+<ul class="simple">
+<li><p><strong>根本方法</strong>：<strong>“涵养须用敬，进学则在致知。”</strong> 但相较于其弟程颐侧重“致知”，程颢更强调 <strong>“涵养用敬”</strong>。</p></li>
+<li><p><strong>核心主张</strong>：<strong>“诚敬存养”</strong>。</p>
+<ul>
+<li><p><strong>诚</strong>：保持内心的真实无妄，不自我欺骗。</p></li>
+<li><p><strong>敬</strong>：保持内心的专一、警觉与敬畏，但并非拘谨紧张，而是 <strong>“心中无事”</strong> 的自然安宁。</p></li>
+<li><p>关键在于 <strong>“勿忘勿助长”</strong> ，即既不遗忘本心，也不拔苗助长，只是顺其自然地存养。</p></li>
+</ul>
+</li>
+<li><p><strong>境界目标</strong>：通过持续的诚敬存养，<strong>“存久自明”</strong> ，久而久之，自然能明了天人本是一体的道理，体验到 <strong>“天人本无二，不必言合”</strong> 的境界。</p></li>
+</ul>
+<p>四、思想特质：一元、圆融、活泼</p>
+<p>程颢的思想具有鲜明的整体性、圆融性与活泼性。</p>
+<ul class="simple">
+<li><p><strong>一元论</strong>：他强烈反对将事物割裂开来。他认为 <strong>“道之外无物，物之外无道。”</strong> 反对将“内心”与“外物”、“人性”与“天道”分为两截。</p></li>
+<li><p><strong>圆融性</strong>：他强调 <strong>“只心便是天”</strong> ，认为理、性、命、心、道等概念，其实都是 <strong>从不同角度描述同一个本体</strong>，本质上是相通的。</p></li>
+<li><p><strong>活泼性</strong>：他教导学生 <strong>“观天地生物气象”</strong>，从草木生长、雏鸡啄食中体会宇宙的“生意”，让道德修养成为一种活泼、愉悦的生命体验，而非枯燥的戒律。</p></li>
+</ul>
+<p>—</p>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>天理观</strong></p></td>
+<td><p><strong>“天理是自家体贴出来的”，是生生不息的自然与道德法则。</strong></p></td>
+<td><p><strong>天理、生生之理、鸢飞鱼跃</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>境界论</strong></p></td>
+<td><p><strong>“仁者浑然与物同体”，将宇宙万物视为与己一体的生命。</strong></p></td>
+<td><p><strong>万物一体之仁、手足痿痹喻、天地万物为一体</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>工夫论</strong></p></td>
+<td><p><strong>“诚敬存养”，通过内心的真实与专注来体认天理。</strong></p></td>
+<td><p><strong>诚敬存养、勿忘勿助长、涵养用敬</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>思想特质</strong></p></td>
+<td><p><strong>“只心便是天”，强调天人一元、圆融无碍、活泼泼的体验。</strong></p></td>
+<td><p><strong>天人一本、心便是天、观生物气象</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与历史影响</p>
+<ul class="simple">
+<li><p><strong>心学路向的开创者</strong>：程颢强调“心便是天”，其思想路径更侧重于内向的体验和直觉，为后来的陆九渊、王阳明的“心学”一脉开启了方向。与其弟程颐（及朱熹）侧重“格物穷理”的路径形成对照。</p></li>
+<li><p><strong>圆融的境界</strong>：他的哲学充满了生命的情调和艺术的意味，将崇高的道德境界转化为一种与宇宙大化同流的审美体验和生命乐趣。</p></li>
+<li><p><strong>深远影响</strong>：其“万物一体之仁”的思想，成为宋明理学共同的精神理想，深刻影响了后世中国知识分子的宇宙观和价值观。</p></li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，程颢的核心思想在于，他是一位 <strong>“生命的哲学家”和“圆融的境界者”</strong> 。他教导我们，<strong>宇宙不是一个冷冰冰的、需要我们去格物穷理的对象，而是一个生机盎然、与我们血脉相连的生命整体。道德修养的最高境界，不是遵守外在的规范，而是通过“诚敬”的工夫，唤醒并扩大我们内心本有的“仁心”，最终体验到一种与天地万物痛痒相关、浑然一体的至高快乐。</strong></p>
+<p>他的全部工作是对 <strong>儒家“仁学”</strong> 的一次充满诗意的升华。在理学的开创期，他为其注入了一种温暖的生命情怀和崇高的精神境界。在这个意义上，程颢不仅是一位理学家，更是一位指引人们如何将有限的生命融入无限的宇宙大化之中，从而获得最高精神自由的智慧导师。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">基于程颢（明道先生）哲学核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-cheng-hao-s-mingdao-core-philosophical-ideas">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on Cheng Hao’s (Mingdao) Core Philosophical Ideas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、程颢哲学核心思想概述：天理流行与仁者爱人</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-cheng-hao-s-core-philosophical-ideas-heavenly-principle-in-flux-and-benevolence-loves-all">I. Overview of Cheng Hao’s Core Philosophical Ideas: Heavenly Principle in Flux and Benevolence Loves All</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、以程颢哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-cheng-hao-s-core-philosophical-ideas">II. Analysis of the Case Based on Cheng Hao’s Core Philosophical Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、结语：重振仁心觉醒，推动和谐新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-benevolent-awakening-for-harmony-s-rebirth">III. Conclusion: Reviving Benevolent Awakening for Harmony’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、程颢核心思想概述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、案件分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#law-without-benevolence">1. 法律失仁 / Law Without Benevolence</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#separation-of-heart-and-principle">2. 人心与天理的割裂 / Separation of Heart and Principle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#loss-of-sincerity-and-reverence">3. 诚敬之道的失落 / Loss of Sincerity and Reverence</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#undermining-unity-of-benevolence">4. 仁者同体的破坏 / Undermining Unity of Benevolence</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">三、结语与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、从“心即理”看：人心之光与言论之本</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、从“天理人欲”看：公权之私与天理之失</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">三、从“明道”精神看：理在众心，非一人之私断</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">四、从“敬与诚”看：法官之德与公正之心</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">五、总结：以程颢哲学评断本案之“理失”</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 <strong>“仁者与物同体”之境的失落：麻木不仁的司法反应</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 <strong>“识仁”工夫的逆施：当“以诚敬存之”变为“以苛法抑之”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 <strong>“定性”功夫的考验：在“内外两忘”中持守心中之“仁”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 <strong>“天理”与“人欲”之辨：权力任性是对“生生之仁”的戕害</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">壹. 天理之失落与“人欲”的膨胀</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">贰. “万物一体之仁”的断裂</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">叁. 涵养工夫与当事人的应对</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#vs">一、“仁者与物同体” vs. “以刑隔物”：司法缺乏仁心</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">二、“心即理” vs. “权即理”：真理被权力意志取代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">三、“诚敬”之道 vs. “虚饰之法”：程序沦为形式暴力</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、“道在日用” vs. “道在口号”：法律脱离生活世界</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">五、结语：明道先生的警示——无仁心，则无法；无诚敬，则无道</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<p>[<a class="reference internal" href="../cc.html"><span class="doc">程颢和程颐</span></a>]</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../zz/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
