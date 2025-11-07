@@ -36,6 +36,6 @@
 -----------
 
 [:doc:`西方哲学简史 </chats/outlaw/analyse/foreign/review>`]
-[:doc:`西方哲学核心骨架 </chats/outlaw/analyse/foreign/schools/only>`]
-[:doc:`现代西方哲学概况 </chats/outlaw/analyse/foreign/schools/review>`]
-[:doc:`现代欧陆哲学概况 </chats/outlaw/analyse/foreign/schools/euro>`]
+[:doc:`西方哲学骨架 </chats/outlaw/analyse/foreign/schools/only>`]
+[:doc:`现代西方哲学 </chats/outlaw/analyse/foreign/schools/review>`]
+[:doc:`现代欧陆哲学 </chats/outlaw/analyse/foreign/schools/euro>`]
