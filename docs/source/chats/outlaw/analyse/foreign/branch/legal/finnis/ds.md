@@ -1,7 +1,7 @@
 Deepseek
 --------
 
-好的，我将基于约翰·菲尼斯（John Finnis）的新自然法理论核心思想——尤其是其 **“基本人类善”**（Basic Human Goods）、**“实践合理性”**（Practical Reasonableness）与 **“共同善”**（Common Good）的论述——对陈京元博士案件进行剖析。菲尼斯的理论为诊断此案中法律如何系统性背离其根本道德目的提供了深刻而有力的哲学框架。
+我将基于约翰·菲尼斯（John Finnis）的新自然法理论核心思想——尤其是其 **“基本人类善”**（Basic Human Goods）、**“实践合理性”**（Practical Reasonableness）与 **“共同善”**（Common Good）的论述——对陈京元博士案件进行剖析。菲尼斯的理论为诊断此案中法律如何系统性背离其根本道德目的提供了深刻而有力的哲学框架。
 
 ---
 

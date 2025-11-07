@@ -196,12 +196,12 @@
    * - **循环论历史哲学** （如 :doc:`斯宾格勒 </chats/outlaw/history/philos/spengler/index>` 、:doc:`汤因比 </chats/outlaw/history/philos/toynbee/index>`）
      - 法律是 **特定文明生命周期中的有机组成部分**，随文明兴衰而演变。
      - **法律移植的审慎**：强调法律需符合本土文明的"体质"，反对机械照搬。关注法律与文明整体精神的关联。
-   * - **历史主义** （如 :doc:`萨维尼 </chats/outlaw/analyse/foreign/branch/legal/savigny/index>`）
-     - 法律是 **民族精神** 在历史中缓慢、有机的产物，是"民族精神的沉淀"。
-     - **反对立法万能**：强调习惯法的重要性，认为法典应是民族法惯例的自觉表达，而非理性凭空创造。这是对自然法普适性的批判。
    * - **批判性历史哲学** （如 :doc:`后现代主义 </chats/outlaw/analyse/foreign/schools/today/postm/index>`、:doc:`福柯 </chats/outlaw/analyse/foreign/master/modern/foucault/index>`）
      - 法律是 **权力话语的构成部分**，其历史是权力争夺和排斥的历史。
      - **去神秘化**：批判法律中立表象，揭示其如何参与塑造并维护压迫性结构（如种族主义、父权制）。关注被主流法律史边缘化的叙事。
+   * - **历史主义** （如 :doc:`萨维尼 </chats/outlaw/analyse/foreign/branch/legal/savigny/index>`）
+     - 法律是 **民族精神** 在历史中缓慢、有机的产物，是"民族精神的沉淀"。
+     - **反对立法万能**：强调习惯法的重要性，认为法典应是民族法惯例的自觉表达，而非理性凭空创造。这是对自然法普适性的批判。
 
 
 二、法律如何回应历史哲学？

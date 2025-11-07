@@ -1,7 +1,7 @@
 Deepseek
 --------
 
-好的，我将基于赫伯特·哈特（H. L. A. Hart）的法律实证主义（Legal Positivism）核心思想——尤其是其 **“承认规则”**（Rule of Recognition）、**“法律的内在观点”**（Internal Point of View）与 **“最低限度的自然法”**（Minimum Content of Natural Law）理论——对陈京元博士案件进行剖析。哈特的理论为理解此案中法律体系的**功能性缺陷**与**合法性危机**提供了一个精密且富有解释力的分析框架。
+我将基于赫伯特·哈特（H. L. A. Hart）的法律实证主义（Legal Positivism）核心思想——尤其是其 **“承认规则”**（Rule of Recognition）、**“法律的内在观点”**（Internal Point of View）与 **“最低限度的自然法”**（Minimum Content of Natural Law）理论——对陈京元博士案件进行剖析。哈特的理论为理解此案中法律体系的**功能性缺陷**与**合法性危机**提供了一个精密且富有解释力的分析框架。
 
 ---
 

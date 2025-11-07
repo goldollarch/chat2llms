@@ -1,7 +1,7 @@
 Deepseek
 --------
 
-好的，我将基于菲利普·佩蒂特（Philip Pettit）的政治哲学核心思想——尤其是其 **“无支配的自由”**（Freedom as Non-Domination）、**“论辩式民主”**（Discursive Democracy）与 **“宪政共和主义”**（Republican Constitutionalism）理论——对陈京元博士案件进行剖析。佩蒂特的理论为理解此案中权力恣意性、公民地位与制度性失败提供了极为精准和富有批判力的分析框架。
+我将基于菲利普·佩蒂特（Philip Pettit）的政治哲学核心思想——尤其是其 **“无支配的自由”**（Freedom as Non-Domination）、**“论辩式民主”**（Discursive Democracy）与 **“宪政共和主义”**（Republican Constitutionalism）理论——对陈京元博士案件进行剖析。佩蒂特的理论为理解此案中权力恣意性、公民地位与制度性失败提供了极为精准和富有批判力的分析框架。
 
 ---
 
