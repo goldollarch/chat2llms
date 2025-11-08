@@ -53,3 +53,10 @@
     chatgpt
     zz_ds
     zz_qw
+    
+----------------------------------------------------------
+
+**学术比较与批判**
+ 
+[:doc:`庄子批判百家 </chats/outlaw/analyse/chinese/person/ancient/zz/zz>`]
+

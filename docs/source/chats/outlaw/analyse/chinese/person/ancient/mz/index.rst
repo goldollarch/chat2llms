@@ -62,3 +62,10 @@
     mz_ds
     mz_qw
 
+----------------------------------------------------------
+
+**学术比较与批判**
+
+
+[:doc:`孟子卫道 </chats/outlaw/analyse/chinese/school/ru/mz>`]
+[:doc:`荀子批判孟子 </chats/outlaw/analyse/chinese/person/ancient/mz/xun>`]

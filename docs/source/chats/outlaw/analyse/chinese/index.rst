@@ -25,11 +25,11 @@
 
 ----------
 
-中国哲学常识
+中国哲学精神
 
 -------------
 
+[:doc:`GPT </chats/outlaw/analyse/chinese/chatgpt>`]
 [:doc:`Gemini </chats/outlaw/analyse/chinese/gemini>`]
-[:doc:`ChatGPT </chats/outlaw/analyse/chinese/chatgpt>`]
-[:doc:`DeepSeek </chats/outlaw/analyse/chinese/deepseek>`]
 [:doc:`Qwen </chats/outlaw/analyse/chinese/qwen>`]
+[:doc:`DS </chats/outlaw/analyse/chinese/deepseek>`]
