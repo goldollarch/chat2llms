@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">古代</a></li>
+          <li class="breadcrumb-item"><a href="index.html">王夫之</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/middle/wfz/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>本篇将以 <strong>王夫之（1619–1692）</strong> 的历史哲学与政治思想为核心视角，
+从其“理在事中”“气一元论”“民为本体”“治乱循环”以及“良知与实践统一”等思想出发，
+对陈京元案进行哲学层面的分析与评论。</p>
+<p>王夫之（号船山）被誉为“明清之际思想第一人”，
+其思想既承接宋明理学的精神脉络，又以鲜明的历史唯物倾向超越旧儒。
+他在中国思想史上是<strong>由理学向实践哲学转折的关键人物</strong>。
+因此，从船山哲学出发分析本案，
+实质是以“理在事中”的实在精神，
+去审视“权力话语”与“现实正义”之间的脱节。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、王夫之思想的核心结构<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>思想维度</p></th>
+<th class="head"><p>核心命题</p></th>
+<th class="head"><p>含义与代表语</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>形上哲学</strong></p></td>
+<td><p>理在事中，理气不二</p></td>
+<td><p>真理不在超验概念中，而在现实事物运动中体现</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>历史哲学</strong></p></td>
+<td><p>以变为常，治乱循环</p></td>
+<td><p>历史为理在时空中展开的动态过程</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>政治哲学</strong></p></td>
+<td><p>民为邦本，君为民役</p></td>
+<td><p>政权合法性来自民意与公共理</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>认识论</strong></p></td>
+<td><p>知行合一，良知即实践</p></td>
+<td><p>真知源于行，不在空谈</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>伦理哲学</strong></p></td>
+<td><p>人心即天理，但须经实践磨炼</p></td>
+<td><p>道德非先验理念，而是实践中生成的理性</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>权力批判</strong></p></td>
+<td><p>君权不可神化，天下之理在民间</p></td>
+<td><p>政治理性应服从天理与民理之统一</p></td>
+</tr>
+</tbody>
+</table>
+<p>王夫之的思想精神，可以浓缩为一句话：</p>
+<blockquote>
+<div><p><strong>“理不在天，在事；道不在君，在民。”</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、从“理在事中”看陈京元案<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>——真理不在权力之口，而在事实之中<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>王夫之反对程朱理学“理在事外”的超验主义，主张：</p>
+<blockquote>
+<div><p>“理在事中，不离乎气。”
+“离事言理，理必虚妄。”</p>
+</div></blockquote>
+<p>这意味着：</p>
+<ul class="simple">
+<li><p>真理必须植根于现实；</p></li>
+<li><p>任何脱离事实、只凭权威解释的“理”，都是伪理。</p></li>
+</ul>
+<p>以此观陈京元案：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>层面</p></th>
+<th class="head"><p>王夫之思想</p></th>
+<th class="head"><p>本案现实</p></th>
+<th class="head"><p>哲学判断</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>理的来源</p></td>
+<td><p>理出于事，真理在事实中</p></td>
+<td><p>判决基于政治叙事而非事实</p></td>
+<td><p>离事言理，理成虚妄</p></td>
+</tr>
+<tr class="row-odd"><td><p>证据观</p></td>
+<td><p>实证为理之显现</p></td>
+<td><p>证据体系薄弱、逻辑失衡</p></td>
+<td><p>“空理”取代“实理”</p></td>
+</tr>
+<tr class="row-even"><td><p>司法理性</p></td>
+<td><p>以事定理，非以理裁事</p></td>
+<td><p>以意识形态先行</p></td>
+<td><p>理被意识形态化</p></td>
+</tr>
+<tr class="row-odd"><td><p>法律本体</p></td>
+<td><p>法应合于天下之理</p></td>
+<td><p>法服从政治之需</p></td>
+<td><p>法理分离</p></td>
+</tr>
+</tbody>
+</table>
+<p>船山哲学提醒我们：</p>
+<blockquote>
+<div><p>“凡事不以其实，而以所欲，则天理灭矣。”</p>
+</div></blockquote>
+<p>换言之，
+当司法系统以“秩序”“稳定”为目的，先设定“理”而后编造“事”，
+便是“理外求理”的虚伪——在哲学上，这是一种<strong>理的倒置与气的失位</strong>。</p>
+<p><strong>王夫之式批评：</strong></p>
+<blockquote>
+<div><p>“理不从事出，则为伪理；伪理行世，则乱生焉。”</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>三、从“理气一元论”看本案的权力逻辑<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<section id="id5">
+<h3>——权力并非超越之理，而是气化过程的一部分<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>王夫之认为：</p>
+<blockquote>
+<div><p>“理者，气之条理；气者，理之具象。”
+“天地万物，皆气之理也。”</p>
+</div></blockquote>
+<p>即理与气并非二元对立，而是同体相即。
+理在气中显，气因理而正。</p>
+<p>应用于政治与法治结构：</p>
+<ul class="simple">
+<li><p><strong>“理”</strong> → 正义、法度、公理；</p></li>
+<li><p><strong>“气”</strong> → 权力、制度、执行机制。</p></li>
+</ul>
+<p>船山指出：</p>
+<blockquote>
+<div><p>“气无理则乱，理离气则空。”</p>
+</div></blockquote>
+<p>陈京元案所暴露的恰是：</p>
+<ul class="simple">
+<li><p>权力（气）失去理的规范；</p></li>
+<li><p>法理（理）脱离现实机制（气）；</p></li>
+<li><p>“理空而气暴”，制度陷入僵化与自利循环。</p></li>
+</ul>
+<p>→ 这是典型的“理气失衡”。</p>
+<p>王夫之在《读通鉴论》中曾批评：</p>
+<blockquote>
+<div><p>“理不行于下，气必乱于上。”</p>
+</div></blockquote>
+<p>意即：当公理不能落实于下层现实，
+上层权力的“气”便失去节制，最终反噬天下。</p>
+<p><strong>结论：</strong></p>
+<blockquote>
+<div><p>陈京元案是“气强理弱”的政治结构化表现，
+它标志着法理之空洞化与权力之气化失衡。</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>四、从“民为邦本”看政治合法性<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>——天下之理在民，不在君<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>王夫之在《尚书引义》中提出：</p>
+<blockquote>
+<div><p>“君者，舟也；民者，水也。舟可覆于水上。”
+“天下之理，民为本体，君为寄托。”</p>
+</div></blockquote>
+<p>他继承并超越了孟子“民贵君轻”的思想，强调：</p>
+<blockquote>
+<div><p>“治天下者，以天下为心，以民为体。”</p>
+</div></blockquote>
+<p>在陈京元案中：</p>
+<ul class="simple">
+<li><p>公民表达权被压制；</p></li>
+<li><p>“民意”被视为“扰乱秩序”；</p></li>
+<li><p>政府以“秩序”名义否定个体理性。</p></li>
+</ul>
+<p>这恰好体现了王夫之所警告的“理失其本”状态：</p>
+<blockquote>
+<div><p>“理之所在，在乎民心。失民心而言理者，伪理也。”</p>
+</div></blockquote>
+<p>→ 当权力以“稳定”为最高价值，
+而非以民心、公理为中心，
+其理已堕为“私理”，法亦为“私法”。</p>
+<p>王夫之认为：“君民共体而异用”，
+君主只是“代民行理”的代理者，
+并无“理之垄断权”。</p>
+<p><strong>因此，从船山哲学看：</strong></p>
+<blockquote>
+<div><p>陈京元案实为“理之被私化、民之被虚化”的现代症候。</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>五、从“治乱循环论”看本案的历史位置<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<section id="id9">
+<h3>——乱非偶然，乃理气失衡之必然结果<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>在《读通鉴论》中，王夫之提出：</p>
+<blockquote>
+<div><p>“治乱，理气之循环也。”
+“乱者，理失其序，气逆其常也。”</p>
+</div></blockquote>
+<p>他认为治乱并非天命，而是制度与人心互动的周期。
+每当权力失衡、理被虚化、民失其心，则乱必至。</p>
+<p>将此放入现代法治语境：</p>
+<ul class="simple">
+<li><p>当权力不断压缩思想空间，</p></li>
+<li><p>当社会失去理性讨论的渠道，</p></li>
+<li><p>当法失去公信与独立性，</p></li>
+</ul>
+<p>这正是“理气循环趋乱”的信号。</p>
+<p>船山会说：</p>
+<blockquote>
+<div><p>“法乱于上，则民乱于下；理失于公，则私横于国。”</p>
+</div></blockquote>
+<p>因此，陈京元案不仅是“个案的错”，
+更是“治乱循环的征兆”——
+它表明理之序已乱、气之流已滞，
+社会的“道统”结构进入失衡阶段。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>六、从“知行合一”看司法与真理的断裂<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<section id="id11">
+<h3>——“知而不行，非真知；法而不行，非法。”<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>王夫之深受阳明影响，但比王阳明更重实践性：</p>
+<blockquote>
+<div><p>“知非行不明，行非知不正。”</p>
+</div></blockquote>
+<p>他强调 <strong>“理必在行中求”</strong>，反对空谈道德与抽象法理。</p>
+<p>在本案中：</p>
+<ul class="simple">
+<li><p>法院引用抽象条文（如“扰乱秩序”），</p></li>
+<li><p>却不落实于事实与证据的具体现实；</p></li>
+<li><p>知（法理）与行（实践）彻底断裂。</p></li>
+</ul>
+<p>这是王夫之最厌恶的“假知”：</p>
+<blockquote>
+<div><p>“言理而不行理者，知之贼也。”</p>
+</div></blockquote>
+<p>在他的框架下，
+司法不应是“以条文掩盖事实”，
+而应是“以实践验证理之真伪”。</p>
+<p>→ 陈京元案的司法逻辑正体现出“知行两亡”的局面：
+法知空洞，法行偏枯。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h2>七、从“人心即天理”看思想自由的哲学基础<a class="headerlink" href="#id12" title="Link to this heading"></a></h2>
+<section id="id13">
+<h3>——良知是理的根，压抑良知即逆天理<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>王夫之认为：</p>
+<blockquote>
+<div><p>“天理在人心中流行。”
+“人能存心养性，即顺天理之道。”</p>
+</div></blockquote>
+<p>这意味着：</p>
+<ul class="simple">
+<li><p>人心之正当表达（思想、批评、良知）即为天理的显现；</p></li>
+<li><p>压制人心即违天理。</p></li>
+</ul>
+<p>在陈京元案中：</p>
+<ul class="simple">
+<li><p>公民表达的良知被政治化；</p></li>
+<li><p>“思想”被视作威胁；</p></li>
+<li><p>“理性批评”被解释为“扰乱”。</p></li>
+</ul>
+<p>这正是船山所谓的“逆天理而行人欲”。</p>
+<p>他警告：</p>
+<blockquote>
+<div><p>“人欲胜，则天理亡。”</p>
+</div></blockquote>
+<p>→ 当权力体系以“稳定”之欲压倒人心之理，
+天理即在制度层面被消灭。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h2>八、从“道统—政统”之辨看权力合法性<a class="headerlink" href="#id14" title="Link to this heading"></a></h2>
+<section id="id15">
+<h3>——道在民间，政应合道<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>王夫之在《张子正蒙注》中强调：</p>
+<blockquote>
+<div><p>“道统不系于朝廷，而系于天下之公理。”</p>
+</div></blockquote>
+<p>他区分了“政统”（权力结构）与“道统”（正当性原则）。
+政统若违道统，必亡。</p>
+<p>陈京元案的结构是：</p>
+<ul class="simple">
+<li><p>政统绝对化（国家话语凌驾一切）；</p></li>
+<li><p>道统被压制（理性、批评、学术被剥夺）；</p></li>
+<li><p>结果是：政治合法性脱离道义基础。</p></li>
+</ul>
+<p>王夫之会称此为：</p>
+<blockquote>
+<div><p>“政专于上，道绝于下。”</p>
+</div></blockquote>
+<p>而他在历史哲学上指出：</p>
+<blockquote>
+<div><p>“政失于专，则民失其生，道失其传。”</p>
+</div></blockquote>
+<p>因此，从“道统”立场看，陈京元案不是“治理事件”，
+而是<strong>政统压倒道统、导致理性枯竭的文化危机。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h2>九、综合诊断表：王夫之式哲学透视<a class="headerlink" href="#id16" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>分析维度</p></th>
+<th class="head"><p>王夫之思想</p></th>
+<th class="head"><p>本案体现</p></th>
+<th class="head"><p>哲学结论</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>理在事中</p></td>
+<td><p>理应由事实显现</p></td>
+<td><p>以政治解释代事实</p></td>
+<td><p>理被虚化</p></td>
+</tr>
+<tr class="row-odd"><td><p>理气一元</p></td>
+<td><p>理与权力应协调</p></td>
+<td><p>权力脱理而独行</p></td>
+<td><p>理气失衡</p></td>
+</tr>
+<tr class="row-even"><td><p>民为本</p></td>
+<td><p>民心为理之体</p></td>
+<td><p>公民被视为对象</p></td>
+<td><p>理本被夺</p></td>
+</tr>
+<tr class="row-odd"><td><p>知行合一</p></td>
+<td><p>行为应合真理</p></td>
+<td><p>法行背离法理</p></td>
+<td><p>知行断裂</p></td>
+</tr>
+<tr class="row-even"><td><p>人心天理</p></td>
+<td><p>思想自由即天理</p></td>
+<td><p>言论被刑罚</p></td>
+<td><p>逆天理而行人欲</p></td>
+</tr>
+<tr class="row-odd"><td><p>道政之辨</p></td>
+<td><p>道统应制约政统</p></td>
+<td><p>政统压倒道统</p></td>
+<td><p>合法性危机</p></td>
+</tr>
+<tr class="row-even"><td><p>治乱循环</p></td>
+<td><p>理气失衡必致乱</p></td>
+<td><p>法治空化、舆论窒息</p></td>
+<td><p>乱之征兆已现</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>结论：</strong></p>
+<blockquote>
+<div><p>陈京元案体现了“理离事、气失衡、道断续、民被虚化”的历史状态，
+是王夫之哲学所言“伪理当道”的现实再现。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h2>十、结语：以王夫之之言为鉴<a class="headerlink" href="#id17" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>“治天下者，以理顺气；乱天下者，以欲逆理。”</p>
+</div></blockquote>
+<p>陈京元案所揭示的，
+正是权力以“欲”代“理”，以“虚理”压“实事”，
+从而导致社会理气逆行、制度失衡。</p>
+<p>王夫之若在世，或许会这样评此案：</p>
+<blockquote>
+<div><p>“理失于上，气乱于下；
+民心不达，天理不行。
+是非倒置之世，莫若斯矣。”</p>
+</div></blockquote>
+<p>换言之，
+<strong>当权力自居为“理”的化身时，真正的理性已死。</strong>
+而陈京元案的哲学意义，
+正是提醒我们：</p>
+<blockquote>
+<div><p>真理必须回到“事中”——
+在事实、民心与理性的统一中重建正义。</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>黄宗羲 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../wym/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">诸子百家</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">哲学思想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">诸子百家</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">古代</a></li>
+      <li class="breadcrumb-item active">黄宗羲</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/middle/hzx/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>黄宗羲<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>黄宗羲的历史和哲学观</p>
+<hr class="docutils" />
+<p>黄宗羲是明末清初的伟大学者、思想家，被誉为“中国思想启蒙之父”。他的历史观和哲学观深刻犀利，集中体现在其代表作《明夷待访录》和《明儒学案》中。其核心思想可以概括为：<strong>对君主专制的制度性批判，以及对儒家政治哲学的重建；其哲学基础是气本论和心性合一，并开创了以“万民之忧乐”为旨归的新史学。</strong></p>
+<p>黄宗羲的思想体系宏大而具革命性，其核心要义可梳理为以下四大支柱：</p>
+<p>一、政治历史观：对君主专制的根本批判与制度设计</p>
+<p>这是黄宗羲思想中最具震撼力的部分，矛头直指秦汉以来的专制皇权。</p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>：<strong>“天下为主，君为客”</strong> 与 <strong>“为天下之大害者，君而已矣”</strong>。</p></li>
+<li><p><strong>“天下为主，君为客”</strong>：</p>
+<ul>
+<li><p><strong>颠覆传统</strong>：彻底颠倒了“普天之下，莫非王土”的传统观念。他认为，“天下”是天下人的天下，是主体；君主只是为天下人服务的“客人”或“经理人”。</p></li>
+<li><p><strong>理想原型</strong>：上古三代（尧、舜、禹）的君主是“以天下为主”，辛苦为民，禅让传贤，是真正的“公天下”。</p></li>
+</ul>
+</li>
+<li><p><strong>“君主为天下大害”</strong>：</p>
+<ul>
+<li><p><strong>批判现实</strong>：后世的君主将“天下”视为私产，“以君为主，天下为客”。他们“屠毒天下之肝脑，离散天下之子女”，以满足一己之私欲，从而成为天下动荡和苦难的根源。</p></li>
+</ul>
+</li>
+<li><p><strong>制度构想</strong>：他不仅是批判者，更是建设者，提出了超越时代的制度设计：</p>
+<ul>
+<li><p><strong>恢复宰相制度</strong>：制约君权，避免独裁。</p></li>
+<li><p><strong>“学校议政”</strong>：使学校（类似国立大学）成为议政机构，公议是非，监督朝政。这被视作 <strong>议会制度的雏形</strong>。</p></li>
+<li><p><strong>“方镇”建国</strong>：在边疆设藩镇，类似联邦制，以增强国力。</p></li>
+</ul>
+</li>
+</ul>
+<p>二、哲学基础：气本论与心性合一</p>
+<p>黄宗羲的哲学承继了王阳明的心学，并加以发展，其本体论建立在“气”的基础之上。</p>
+<ul class="simple">
+<li><p><strong>气本论</strong>：他认为宇宙的本质是 <strong>“气”</strong> 。“天地之间，只有气，更无理。所谓理者，以气自有条理，故立此名耳。” 理不是独立存在的实体，而是 <strong>气自身运动的条理和规律</strong>。这具有唯物主义的倾向。</p></li>
+<li><p><strong>心性论</strong>：在心性关系上，他主张 <strong>“心即气”</strong> 或 <strong>“心性合一”</strong> 。</p>
+<ul>
+<li><p>他调和了阳明心学中“心即理”与理学中“性即理”的争论。</p></li>
+<li><p>他认为“心”是“气之灵处”，而“性”则是心之生理、条理。<strong>离开心的活动，无所谓性；离开气的流行，无所谓理。</strong></p></li>
+<li><p><strong>实践指向</strong>：这一哲学观强调在具体的历史实践和民生疾苦中体认和践行“理”，反对空谈性命、脱离实际的学风。</p></li>
+</ul>
+</li>
+</ul>
+<p>三、史学思想：学术史观与“一本万殊”</p>
+<p>黄宗羲是中国学术史（学案体）的奠基人，其史学思想极具开创性。</p>
+<ul class="simple">
+<li><p><strong>《明儒学案》的典范</strong>：他编纂《明儒学案》，系统梳理明代学术思想流变，并非简单罗列材料，而是有其深刻史观。</p></li>
+<li><p><strong>“一本万殊”</strong>：</p>
+<ul>
+<li><p><strong>核心命题</strong>：<strong>“学问之道，以各人自用得着者为真……奈何今之君子，必欲出于一途？”</strong></p></li>
+<li><p><strong>含义</strong>：真理（“一本”）是唯一的，但通往真理的道路和表现形态（“万殊”）却是多元的。每个学者的思想，只要有其真切体会，都是真理的某种呈现。</p></li>
+<li><p><strong>史学方法</strong>：他尊重不同学派的思想个性，反对定于一尊。编纂学案时，他力求客观呈现各家宗旨，“如中衢之樽，人持一瓦瓯牺杓而饮之，各充其量而已”，体现了极高的学术包容性。</p></li>
+</ul>
+</li>
+<li><p><strong>史学目的</strong>：治史是为了 <strong>“经世应务”</strong> ，即总结历史经验，为解决现实问题服务，而非徒做考据。</p></li>
+</ul>
+<p>四、经济思想：民本与工商皆本</p>
+<p>他的历史观延伸到经济领域，提出了超越传统重农抑商观念的主张。</p>
+<ul class="simple">
+<li><p><strong>批判“重农抑商”</strong>：他洞察到工商业对社会的重要性。</p></li>
+<li><p><strong>“工商皆本”</strong>：明确提出 <strong>“夫工固圣王之所欲来，商又使其愿出于途者，盖皆本也。”</strong> 他认为，那些有利于社会财富增长、满足民众需求的工商业，和农业一样，都是国家的根本。</p></li>
+<li><p><strong>土地与赋税改革</strong>：主张恢复“井田”精神，改革土地和赋税制度，减轻平民负担，其思想核心是 <strong>“富民”</strong>。</p></li>
+</ul>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>政治哲学</strong></p></td>
+<td><p><strong>“天下为主，君为客”</strong>，对君主专制进行根本性批判，并提出分权制衡的制度设计。</p></td>
+<td><p><strong>天下为公、君主为大害、学校议政、宰相分权</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>哲学基础</strong></p></td>
+<td><p><strong>“气本论”与”心性合一”</strong>，理在气中，强调在历史实践中求理。</p></td>
+<td><p><strong>气本论、心即气、理为气之条理</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>史学思想</strong></p></td>
+<td><p><strong>“一本万殊”的学术史观</strong>，编纂学案体，主张学术多元与经世致用。</p></td>
+<td><p><strong>一本万殊、学案体、经世应务、学术多元</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>经济思想</strong></p></td>
+<td><p><strong>“工商皆本”</strong>，批判重农抑商，主张富民改革。</p></td>
+<td><p><strong>工商皆本、井田精神、富民思想</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与影响</p>
+<ul class="simple">
+<li><p><strong>启蒙性</strong>：他的思想，尤其是对君主专制的批判，在清末被维新派（如梁启超、谭嗣同）重新发掘，成为推动变法的重要思想武器，被誉为“中国的卢梭”。</p></li>
+<li><p><strong>系统性</strong>：他从哲学基础到政治、经济、史学，构建了一个相对完整的批判和重建体系。</p></li>
+<li><p><strong>实践性</strong>：其思想始终紧扣明亡教训和现实民生，具有强烈的实践关怀。</p></li>
+</ul>
+<p>总而言之，黄宗羲的核心思想在于，他是一位 <strong>“旧制度的掘墓人”和“新蓝图的绘制者”</strong>。他站在民本的立场上，用犀利的笔触完成了对两千年君主专制的最系统批判，并试图为之寻找替代方案。他的哲学观为其历史批判提供了“气本论”的基础，而其史学实践则体现了“经世致用”和“多元包容”的宏大胸怀。他的全部工作，是一次试图将儒学从**为专制服务的意识形态**扭转为**为人民福祉服务的实践哲学**的伟大努力。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">基于黄宗羲核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-huang-zongxi-s-core-ideas">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on Huang Zongxi’s Core Ideas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、黄宗羲核心思想概述：民本分权与经世实学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-huang-zongxi-s-core-ideas-people-oriented-decentralization-and-practical-statecraft">I. Overview of Huang Zongxi’s Core Ideas: People-Oriented Decentralization and Practical Statecraft</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、以黄宗之核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-huang-zongxi-s-core-ideas">II. Analysis of the Case Based on Huang Zongxi’s Core Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、结语：重振民本分权，推动天下新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-people-oriented-decentralization-for-rebirth-under-heaven">III. Conclusion: Reviving People-Oriented Decentralization for Rebirth Under Heaven</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">基于黄宗羲的历史和哲学观</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">一、 “天下之法”与“一家之法”的混淆</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">二、 君臣关系颠倒：“以天下为主”的原则被抛弃</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">三、 “学校”作为议政和制衡中心的缺位</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">总结：暴政下的“一家之法”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id6"><strong>论陈京元博士之狱，兼斥“一家之法”贻害天下</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">从黄宗羲的历史与哲学观出发</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2">一、“君以天下为主”之理想的反面镜像</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3">二、“为天下之学”与士人之责</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4">三、法治之名下的“家法”复辟</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5">四、结语：在沉默中实践“天下为主”之道</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6">待访之士：沉默者与天下之责</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7">一、士之责，不在事君，而在为天下</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id8">二、君为客，民为主，不可倒置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9">三、法非家法，理应天下</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10">四、待访之士，沉默而不息</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11">五、结语：士人之责，天下之望</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、黄宗羲思想的历史背景与哲学核心</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、从黄宗羲的政治哲学看陈京元案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">——权力与天下之关系错置</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">三、黄宗羲的“法治理性”：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">——“法者天下之公器，非一家之私也”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">四、黄宗羲的历史哲学：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">——“治世者，常以言路之开塞为盛衰之征”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">五、黄宗羲的“士道”与“公道”：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">——士人之责，在于为天下言</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id10">六、黄宗羲的制度哲学：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">——“公议之政”与“群体理性”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">七、黄宗羲的道德哲学：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">——“公者，理也；私者，欲也。”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">八、从历史循环到当代理性：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">——“专制之形变，仍专制也。”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id16">九、综合诊断：黄宗羲式的政治—哲学分析</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id17">十、结语：以黄宗羲之言，为当下立论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">从黄宗羲（梨洲先生）的哲学与历史观出发</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2">一、 <strong>“天下之大害”的当代演绎：法律沦为“一家之法”而非“天下之法”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">二、 <strong>“学校”议政精神的死亡与“是非”判断权的垄断</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4">三、 <strong>“士”之尊严的践踏：从“天下为主”到“权力之奴”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5">四、 <strong>“法治”精神的悖反：有“治法”而无“治人”的悲剧</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id6"><strong>结论：一曲“明夷”之世的当代哀歌</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id7">古风一则</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">以黄宗羲之历史观与政治哲学审视陈京元案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">一、以“天下为主，君为客”观照司法沦为权力工具</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">二、以“学校议政”理想批判言论自由之窒息</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id4">三、以“吏胥之害甚于盗贼”痛斥司法黑帮化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">四、以“工商皆本”与“士之独立”观照独立学者之命运</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">五、结语：黄宗羲精神照见制度之病</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id7"><strong>《狱中士人案论》</strong></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../wym/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
