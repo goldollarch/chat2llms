@@ -1,0 +1,320 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Systems Philos &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../causal/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">诸子百家</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">哲学思想</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">哲学思想</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">科学</a></li>
+      <li class="breadcrumb-item active">Systems Philos</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/science/system/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="systems-philos">
+<h1>Systems Philos<a class="headerlink" href="#systems-philos" title="Link to this heading"></a></h1>
+<p>基于系统哲学（Systems Philosophy）的核心思想</p>
+<hr class="docutils" />
+<p>系统哲学是一门深刻且影响深远的现代哲学思潮。它可以被简要而核心地概括为：</p>
+<p><strong>一种将“系统”作为核心范畴来理解世界的哲学。它认为，宇宙万物皆可被视为由相互关联的元素组成的、具有整体性的“系统”。其核心任务是阐明系统的普遍特征、规律及与之相关的认识论与方法论，以此取代传统的、机械的还原论思维模式。</strong></p>
+<p>为了更清晰地把握系统哲学的全貌，其核心架构与历史演进可以通过下图清晰地展现：</p>
+<img alt="../../../../../../../_images/review31.png" src="../../../../../../../_images/review31.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析系统哲学的核心要义。</p>
+<p>—</p>
+<p>一、本体论：世界是系统的网络</p>
+<p>系统哲学对本源问题的回答是：<strong>“系统”是物质存在的基本方式。</strong></p>
+<ul class="simple">
+<li><p><strong>核心命题</strong>：<strong>“整体大于部分之和”</strong>。这是系统哲学最著名的论断。它表明，当要素以特定方式组织成一个系统时，会 <strong>涌现</strong> 出各个孤立要素所不具备的新属性、新功能和新规律。</p></li>
+<li><p><strong>系统的核心属性</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>整体性</strong>：系统是一个不可分割的统一整体，任何部分脱离整体都会失去其在系统中的意义和功能。</p></li>
+<li><p><strong>关联性</strong>：系统内各要素之间、系统与环境之间存在着复杂的、非线性的相互作用和信息反馈。</p></li>
+<li><p><strong>层次性</strong>：系统由子系统构成，同时又是更大系统的组成部分，宇宙由此形成一个嵌套的、有层次的系统网络。</p></li>
+<li><p><strong>动态性</strong>：系统是活的、动态的，它处于不断的演化、适应和自我调整的过程中。</p></li>
+<li><p><strong>目的性</strong>：系统行为往往趋向于某个目标或稳定状态（如维持内环境稳定的“稳态”）。</p></li>
+</ol>
+</li>
+<li><p><strong>代表人物与奠基</strong>：<strong>路德维希·冯·贝塔朗菲</strong> 是现代系统哲学的奠基人，他创立的 <strong>“一般系统论”</strong> 旨在发现适用于各种类型系统的一般原理和规律。</p></li>
+</ul>
+<p>二、认识论：如何认识系统？</p>
+<p>系统哲学对“我们如何认识世界”这一问题给出了全新的答案。</p>
+<ul class="simple">
+<li><p><strong>核心主张</strong>：<strong>反对孤立的、静态的还原论</strong>。传统的还原论将事物不断分解为最基本的部分，认为理解了部分就自然能理解整体。系统哲学则认为，必须 <strong>从事物的整体、关联、动态和演化的角度来认识它</strong>。</p></li>
+<li><p><strong>认识模式的转变</strong>：</p>
+<ul>
+<li><p><strong>从线性因果到互动网络</strong>：不再仅仅追寻A导致B的简单线性因果关系，而是分析系统内多要素之间错综复杂的 <strong>互动反馈回路</strong>。</p></li>
+<li><p><strong>从实体中心到关系中心</strong>：关注的重点从“它是什么”的实体，转向 <strong>“它如何与其他事物相关联”</strong> 的关系。</p></li>
+</ul>
+</li>
+<li><p><strong>知识观</strong>：真正的知识是关于 <strong>系统的结构、功能、演化及其与环境关系</strong> 的知识，是整体性的、语境化的。</p></li>
+</ul>
+<p>三、方法论：系统思维与系统分析</p>
+<p>系统哲学不仅是一种世界观，更是一套强大的方法论工具。</p>
+<ul class="simple">
+<li><p><strong>核心方法</strong>：<strong>系统思维</strong> 和 <strong>系统分析</strong>。</p>
+<ul>
+<li><p><strong>系统思维</strong>：一种 <strong>看见森林而非只见树木</strong> 的思维方式。它要求我们始终将研究对象置于更大的背景和更长的时空尺度中，考察其整体行为模式和长期演化趋势。</p></li>
+<li><p><strong>系统分析</strong>：运用建模、仿真等工具，对系统的结构、功能进行定性和定量分析，以理解其运行机制并预测其行为。</p></li>
+</ul>
+</li>
+<li><p><strong>跨学科性</strong>：系统哲学天然地倡导 <strong>跨学科研究</strong>。因为现实问题（如气候变化、城市交通、公共卫生）都是复杂的系统性问题，需要整合生态学、经济学、社会学、计算机科学等多学科知识。</p></li>
+<li><p><strong>相关理论</strong>：控制论（研究系统的控制与通信）、信息论、耗散结构理论（系统在远离平衡态时如何通过耗散能量维持有序结构）等，都是系统方法论的重要分支。</p></li>
+</ul>
+<p>四、价值论：系统的目的与人的责任</p>
+<p>系统哲学也探讨价值、伦理和人的意义。</p>
+<ul class="simple">
+<li><p><strong>核心关切</strong>：系统是否有其内在的“价值”或“目的”？人类在复杂的系统网络中处于何种位置？应承担何种责任？</p></li>
+<li><p><strong>伦理维度</strong>：当我们认识到人类社会、全球经济、生态系统都是一个巨大的、相互关联的复杂系统时，我们就必须对自身行为可能引发的 <strong>系统性后果</strong> （如生态破坏、金融危机）承担道德责任。这催生了 <strong>生态伦理、全球伦理</strong> 等新的伦理思考。</p></li>
+<li><p><strong>人的定位</strong>：人既是无数子系统（如身体、家庭、组织）构成的复杂系统，同时也是更大系统（如社会、生物圈）的组成部分。人的自由和价值需要在系统的约束和可能性中实现。</p></li>
+</ul>
+<p>—</p>
+<p>五、核心要义总结</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 45.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>理论维度</strong></p></th>
+<th class="head"><p><strong>核心命题</strong></p></th>
+<th class="head"><p><strong>关键概念与贡献</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>本体论</strong></p></td>
+<td><p><strong>“整体大于部分之和”：系统是现实的基本存在方式。</strong></p></td>
+<td><p><strong>系统、整体性、涌现、层次性、动态性</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>认识论</strong></p></td>
+<td><p><strong>反对还原论，强调整体性、关联性的认识路径。</strong></p></td>
+<td><p><strong>系统思维、互动网络、关系优先</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>方法论</strong></p></td>
+<td><p><strong>提供”系统分析”与”系统思维”等理解复杂性的工具。</strong></p></td>
+<td><p><strong>建模、仿真、跨学科、控制论</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>价值论</strong></p></td>
+<td><p><strong>探讨系统目的、演化及人在系统中的责任。</strong></p></td>
+<td><p><strong>系统价值、生态伦理、全球责任</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>六、思想特质与历史影响</p>
+<ul class="simple">
+<li><p><strong>思维范式的革命</strong>：系统哲学引发了从 <strong>机械论世界观</strong> 到 <strong>有机体世界观</strong> 的根本性转变，是20世纪最重要的思想革命之一。</p></li>
+<li><p><strong>复杂性科学的哲学基础</strong>：它为后来兴起的 <strong>复杂性科学</strong> （如混沌理论、网络科学、复杂适应系统理论）提供了重要的哲学预备和概念框架。</p></li>
+<li><p><strong>广泛的应用</strong>：其思想和方法已渗透到生物学、心理学、管理学、社会学、生态学、计算机科学等几乎所有现代学科领域，成为解决复杂问题的关键方法论。</p></li>
+</ul>
+<p>七、总结</p>
+<p>总而言之，系统哲学的核心思想在于，它是一位 <strong>“整体性的透视者”和“关联性的思考者”</strong> 。它教导我们，<strong>要理解任何重要的事物，无论是一个细胞、一个城市还是一种经济现象，都不能将其从它所嵌入的复杂网络中剥离出来进行孤立研究，而必须审视其内部各组成部分之间以及它与环境之间的动态互动关系，从而在整体上把握其运行规律和演化方向。</strong></p>
+<p>它的全部工作是对 <strong>自笛卡尔、牛顿以来主导西方思想的还原论、机械论范式</strong> 的一次深刻反思与超越。在人类面临的问题日益复杂化、全球化的今天，系统哲学为我们提供了一种更为有效、也更为负责任的认知世界的“新透镜”。在这个意义上，系统哲学不仅是哲学，更是一种应对现代性挑战的智慧。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">基于系统哲学核心思想的陈京元“寻衅滋事罪”案分析评论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#an-analysis-of-the-chen-jingyuan-picking-quarrels-and-provoking-trouble-case-based-on-the-core-ideas-of-systems-philosophy">An Analysis of the Chen Jingyuan “Picking Quarrels and Provoking Trouble” Case Based on the Core Ideas of Systems Philosophy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、系统哲学核心思想概述：整体论与动态反馈</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#i-overview-of-systems-philosophy-s-core-ideas-holism-and-dynamic-feedback">I. Overview of Systems Philosophy’s Core Ideas: Holism and Dynamic Feedback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、以系统哲学核心思想评析本案</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#ii-analysis-of-the-case-based-on-systems-philosophy-s-core-ideas">II. Analysis of the Case Based on Systems Philosophy’s Core Ideas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、结语：重振动态涌现，推动和谐新生</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#iii-conclusion-reviving-dynamic-emergence-for-harmony-s-rebirth">III. Conclusion: Reviving Dynamic Emergence for Harmony’s Rebirth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、系统哲学核心思想概述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、案件分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#suppression-of-feedback-loops">1. 压制反馈机制 / Suppression of Feedback Loops</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#imbalance-between-individual-and-institutional-layers">2. 个体与制度的互动失衡 / Imbalance Between Individual and Institutional Layers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#information-flow-and-system-transparency">3. 信息流动与系统透明度 / Information Flow and System Transparency</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">三、结语与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、系统哲学的基本原则与方法论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、从“系统闭合与信息阻断”看：法律系统陷入封闭化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">三、从“负反馈与正反馈失衡”看：过度刑罚导致系统共振</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">四、从“复杂系统的非线性”看：过度简化的法律逻辑</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#coupling">五、从“系统耦合（Coupling）与断裂”看：法律与政治、社会的非对称互动</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">六、从“自组织与开放性”看：健康的法治应是能自我学习的系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">七、从“系统伦理”看：正义是系统生命的内在价值</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">八、结论：以系统哲学观本案——封闭、失衡、去反馈之系统危机</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">综合评述</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#holism"><strong>一、 整体性（Holism）的悖反：当系统为维护“局部稳定”而损害“整体健康”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#interrelatedness"><strong>二、 关联性（Interrelatedness）的断裂：当信息与反馈回路被人为切断</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#levels"><strong>三、 层次性（Levels）的混乱：当不同层次的问题被错误地处理</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#dynamics"><strong>四、 动态性（Dynamics）与演化的停滞：为追求静态稳定而扼杀动态适应性</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#purpose"><strong>五、 目的性（Purpose）的异化：当“手段”反噬“目的”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>总体结论：一个“病态系统”的诊断书</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#holism">壹. 整体性（Holism）原则的缺失与系统病态</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">贰. 子系统与超系统的失衡：目的性扭曲</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#entropy">叁. 开放系统与信息熵增（Entropy）</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#cas">一、<strong>社会作为复杂适应系统</strong>（CAS）：对“严重混乱”的系统误判</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">二、<strong>信息作为系统要素</strong>：对“虚假信息”的范畴混淆</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">三、<strong>司法系统作为子系统</strong>：对“反馈机制”的破坏</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、<strong>系统边界的人为扭曲</strong>：选择性执法与系统不公</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">五、结语：系统哲学的警示——压制多样性，即压制系统生命力</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<p>[<a class="reference internal" href="../complex/compare.html"><span class="doc">“系统哲学”与“复杂系统哲学”</span></a>]</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../causal/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

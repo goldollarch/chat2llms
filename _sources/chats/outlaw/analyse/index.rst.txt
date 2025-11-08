@@ -29,14 +29,3 @@
 
     science/index
 
-
-----------
-
-人生基本指导
-
---------------
-
-[:doc:`Gemini </chats/outlaw/analyse/gemini>`]
-[:doc:`ChatGPT </chats/outlaw/analyse/chatgpt>`]
-[:doc:`DeepSeek </chats/outlaw/analyse/deepseek>`]
-[:doc:`Qwen </chats/outlaw/analyse/qwen>`]
