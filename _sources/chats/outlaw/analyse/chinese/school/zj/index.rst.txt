@@ -127,6 +127,5 @@
 
 [:doc:`科学杂道 </chats/outlaw/analyse/chinese/school/zj/scitao/index>`]
 [:doc:`系统哲学 </chats/outlaw/analyse/foreign/branch/science/system/index>`]
-[:doc:`复杂哲学 </chats/outlaw/analyse/foreign/branch/science/complex/index>`]
 [:doc:`复杂性杂 </chats/outlaw/analyse/chinese/school/zj/compare>`]
 

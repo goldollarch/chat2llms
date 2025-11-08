@@ -55,6 +55,11 @@
  .. toctree::
     :maxdepth: 1
 
+    zj/index
+
+ .. toctree::
+    :maxdepth: 1
+
     xuan/index
 
  .. toctree::
@@ -71,11 +76,6 @@
     :maxdepth: 1
 
     chan/index
-
- .. toctree::
-    :maxdepth: 1
-
-    zj/index
 
  .. toctree::
     :maxdepth: 1
