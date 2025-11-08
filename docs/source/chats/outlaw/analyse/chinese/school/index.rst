@@ -55,12 +55,22 @@
  .. toctree::
     :maxdepth: 1
 
+    xuan/index
+
+ .. toctree::
+    :maxdepth: 1
+
     ye/index
 
  .. toctree::
     :maxdepth: 1
 
     fo/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    chan/index
 
  .. toctree::
     :maxdepth: 1
@@ -76,6 +86,11 @@
     :maxdepth: 1
 
     xxue/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    bux/index
 
  .. toctree::
     :maxdepth: 1

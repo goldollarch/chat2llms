@@ -23,13 +23,20 @@
 
     school/index
 
-----------
+----------------------------------------------------------
 
-中国哲学精神
+哲学常识：
 
--------------
+-----------
+
+:doc:`中国哲学简史 </chats/outlaw/analyse/chinese/review>`
+
+--------------------
+
+中国哲学精神和特质
 
 [:doc:`GPT </chats/outlaw/analyse/chinese/chatgpt>`]
 [:doc:`Gemini </chats/outlaw/analyse/chinese/gemini>`]
 [:doc:`Qwen </chats/outlaw/analyse/chinese/qwen>`]
 [:doc:`DS </chats/outlaw/analyse/chinese/deepseek>`]
+
