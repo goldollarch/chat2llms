@@ -59,3 +59,6 @@
     xun_ds
     xun_qw
 
+
+[:doc:`荀子对百家的批判 </chats/outlaw/analyse/chinese/school/ru/xz>`]
+[:doc:`荀子批判孟子 </chats/outlaw/analyse/chinese/person/ancient/mz/xun>`]

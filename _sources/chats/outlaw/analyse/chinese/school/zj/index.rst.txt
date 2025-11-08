@@ -112,9 +112,21 @@
     gemini
     qwen
 
+----------------------------------------------------------
+
+**学术比较与批判摘录**
+
+.. important::   
+
+  诸子十家，其可观者九家而已。皆起于王道既微，诸侯力政，时君世主，好恶殊方，是以九家之术蜂出并作，各引一端，崇其所善，以此驰说，取合诸侯。其言虽殊，辟犹水火，相灭亦相生也。仁之与义，敬之与和，相反而皆相成也。《易》曰：“天下同归而殊涂，一致而百虑。”今异家者各推所长，穷知究虑，以明其指，虽有蔽短，合其要归，亦《六经》之支与流裔。使其人遭明王圣主，得其所折中，皆股肱之材已。仲尼有言：“礼失而求诸野。”方今去圣久远，道术缺废，无所更索，彼九家者，不犹愈于野乎？若能修六艺之术，而观此九家之言，舍短取长，则可以通万方之略矣……
+  杂家者流​，盖出于议官。兼儒、墨，合名、法，知国体之有此，见王治之无不贯，此其所长也。及荡者为之，则漫羡而无所归心。
+
+  --- 摘引自《汉书·艺文志·诸子略序》
+
 ---------------------------
 
-[:doc:`科学杂化之道 </chats/outlaw/analyse/chinese/school/zj/scitao/index>`]
-[:doc:`系统科学哲学 </chats/outlaw/analyse/foreign/branch/science/system/index>`]
-[:doc:`复杂科学哲学 </chats/outlaw/analyse/foreign/branch/science/complex/index>`]
+[:doc:`科学杂道 </chats/outlaw/analyse/chinese/school/zj/scitao/index>`]
+[:doc:`系统哲学 </chats/outlaw/analyse/foreign/branch/science/system/index>`]
+[:doc:`复杂哲学 </chats/outlaw/analyse/foreign/branch/science/complex/index>`]
+[:doc:`复杂性杂 </chats/outlaw/analyse/chinese/school/zj/compare>`]
 

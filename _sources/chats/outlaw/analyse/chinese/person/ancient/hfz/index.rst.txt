@@ -50,3 +50,9 @@
     han_ds
     han_qw
 
+----------------------------------------------------------
+
+**学术比较与批判**
+
+
+[:doc:`韩非子批判百家学说 </chats/outlaw/analyse/chinese/person/ancient/hfz/hf>`]
