@@ -111,7 +111,7 @@
 
 -----------
 
-:doc:`中国佛教宗派 </chats/outlaw/analyse/chinese/school/fo/review>`
+:doc:`中国佛教宗派 </chats/outlaw/analyse/chinese/main/fo/review>`
 
 -------------------------------------------------------------------
 

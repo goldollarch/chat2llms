@@ -212,4 +212,4 @@ ChatGPT
 
 ---
 
-【[中观、唯识、华严三宗对照](/chats/outlaw/analyse/chinese/school/fo/compare.md)】
+【[中观、唯识、华严三宗对照](/chats/outlaw/analyse/chinese/main/fo/compare.md)】
