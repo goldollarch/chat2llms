@@ -1,7 +1,7 @@
 Compare
 ----------
 
-【[弗雷德里克·詹明信（Fredric Jameson）](/chats/outlaw/analyse/foreign/master/modern/jameson/index)】和【[威廉·詹姆斯（William James）](/chats/outlaw/analyse/foreign/master/recent/james/index)】是两位截然不同的思想巨匠，他们之间除了姓氏“詹姆斯”在中文译名上有些相似之外，几乎没有任何直接关联。
+【[弗雷德里克·詹明信（Fredric Jameson）](/chats/outlaw/analyse/foreign/master/today/jameson/index)】和【[威廉·詹姆斯（William James）](/chats/outlaw/analyse/foreign/master/recent/james/index)】是两位截然不同的思想巨匠，他们之间除了姓氏“詹姆斯”在中文译名上有些相似之外，几乎没有任何直接关联。
 
 以下是他们的详细区别。
 

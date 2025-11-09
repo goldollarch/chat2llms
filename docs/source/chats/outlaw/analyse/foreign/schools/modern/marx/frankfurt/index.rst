@@ -131,5 +131,5 @@ Frankfurt
 
 ---------------------------
 
-[:doc:`西方马克思主义 </chats/outlaw/analyse/foreign/schools/modern/mmax/index>`]
-[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/pmmax/index>`]
+[:doc:`西方马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`]
+[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/marx/index>`]

@@ -65,4 +65,4 @@ Fredric Jameson
 
 ---------------------------
 
-[:doc:`James .vs. Jameson </chats/outlaw/analyse/foreign/master/modern/jameson/compare>`]
+[:doc:`James .vs. Jameson </chats/outlaw/analyse/foreign/master/today/jameson/compare>`]

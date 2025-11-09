@@ -88,7 +88,7 @@
  .. toctree::
     :maxdepth: 1
 
-    max/index
+    marx/index
 
  .. toctree::
     :maxdepth: 1

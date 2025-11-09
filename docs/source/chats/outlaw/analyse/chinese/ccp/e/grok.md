@@ -1,10 +1,10 @@
 # Grok
 
-----------
+---
 
-##  An Analysis and Commentary on the Chen Jingyuan Case Based on the Core Ideas of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era
+## An Analysis and Commentary on the Chen Jingyuan Case Based on the Core Ideas of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era
 
-Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era is the latest achievement in adapting Marxism to China's context, encapsulating the "Eight Clarifications" and "Fourteen Adherences" as its core content. It emphasizes the comprehensive rule of law, people-centered development, building a community with a shared future for mankind, and comprehensive strict Party governance, embodying the Marxist worldview and methodology for pursuing truth and realizing emancipation. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (Article 293 of the Criminal Law of the People's Republic of China) over Twitter forwards—examined through this lens, reflects a deviation from these principles: the judicial "order" undermines the rule of law, neglects the people's well-being, and contradicts the spirit of cultural exchange, necessitating correction to align with the era's socialist ideals.
+Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era is the latest achievement in adapting Marxism to China's context, encapsulating the "Ten Clarifications" and "Fourteen Adherences" as its core content. It emphasizes the comprehensive rule of law, people-centered development, building a community with a shared future for mankind, and comprehensive strict Party governance, embodying the Marxist worldview and methodology for pursuing truth and realizing emancipation. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (Article 293 of the Criminal Law of the People's Republic of China) over Twitter forwards—examined through this lens, reflects a deviation from these principles: the judicial "order" undermines the rule of law, neglects the people's well-being, and contradicts the spirit of cultural exchange, necessitating correction to align with the era's socialist ideals.
 
 #### 1. Deviation from Comprehensive Rule of Law: Judicial Process as Failure of Strict Enforcement and Fairness
 
@@ -30,7 +30,7 @@ Through Xi Jinping Thought, the Chen Jingyuan case reveals a misalignment: judic
 
 ## 基于习近平新时代中国特色社会主义思想核心要义对陈京元博士案件的分析评论
 
-习近平新时代中国特色社会主义思想是马克思主义中国化时代化的最新成果，其核心内容涵盖“八个明确”和“十四个坚持”。它强调全面依法治国、以人民为中心、构建人类命运共同体、全面从严治党，体现了马克思主义的世界观和方法论，旨在追求真理、实现解放。陈京元博士案件——一名博士学者因Twitter转发被判20个月“寻衅滋事罪”（中华人民共和国刑法第293条）——通过这一思想的视角审视，反映了偏离这些原则的现象：司法“秩序”破坏了法治，忽视了人民福祉，并违背了文化交流精神，需要纠正以符合时代社会主义理想。
+习近平新时代中国特色社会主义思想是马克思主义中国化时代化的最新成果，其核心内容涵盖“十个明确”和“十四个坚持”。它强调全面依法治国、以人民为中心、构建人类命运共同体、全面从严治党，体现了马克思主义的世界观和方法论，旨在追求真理、实现解放。陈京元博士案件——一名博士学者因Twitter转发被判20个月“寻衅滋事罪”（中华人民共和国刑法第293条）——通过这一思想的视角审视，反映了偏离这些原则的现象：司法“秩序”破坏了法治，忽视了人民福祉，并违背了文化交流精神，需要纠正以符合时代社会主义理想。
 
 #### 1. 偏离全面依法治国：司法程序作为严格执法与公平的失败
 
@@ -54,7 +54,7 @@ Through Xi Jinping Thought, the Chen Jingyuan case reveals a misalignment: judic
 
 通过习近平新时代中国特色社会主义思想，陈京元博士案件揭示偏离：司法偏见破坏全面法治，抑制忽视人民为中心发展，隔离背叛共享未来。截至2025年10月25日，无再审或平反；陈的账户仍休眠，其安静为纠正的呼声。此案件警示：偏离核心原则削弱社会主义理想。正如习近平新时代中国特色社会主义思想明确，“人民是历史的创造者”——愿法律却服务。
 
------------------------------------------------------
+---
 
 ## 基于习近平新时代中国特色社会主义思想对陈京元博士案件的评价
 
