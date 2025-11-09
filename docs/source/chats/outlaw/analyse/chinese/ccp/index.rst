@@ -12,10 +12,10 @@
 
 ---------------------------------------
 
-[:doc:`马克思主义 </chats/outlaw/analyse/foreign/master/recent/marx/index>`]
-[:doc:`现代马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`]
-[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/marx/index>`]
 [:doc:`苏联列宁主义 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>`]
+[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/marx/index>`]
+[:doc:`现代马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`]
+[:doc:`马克思主义 </chats/outlaw/analyse/foreign/master/recent/marx/index>`]
 
 ----------------------------------------
 
