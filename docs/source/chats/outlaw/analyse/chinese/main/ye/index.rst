@@ -101,3 +101,12 @@
     ds
     qw
 
+--------------------
+
+基督教常识：
+
+-----------------------------------------------------------
+
+[:doc:`基督教派别 </chats/outlaw/analyse/chinese/main/ye/review>`]
+[:doc:`传入中国的“景教” </chats/outlaw/analyse/chinese/main/ye/jing>`]
+
