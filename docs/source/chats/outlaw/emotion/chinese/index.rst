@@ -28,6 +28,11 @@
  .. toctree::
     :maxdepth: 1
 
+    wb/index
+
+ .. toctree::
+    :maxdepth: 1
+
     lib/index
 
  .. toctree::
