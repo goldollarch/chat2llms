@@ -128,8 +128,8 @@ Frankfurt
     ds
     qw
 
-
 ---------------------------
 
+[:doc:`批判理论 </chats/outlaw/analyse/foreign/schools/modern/critical/index>`]
 [:doc:`西方马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`]
 [:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/marx/index>`]

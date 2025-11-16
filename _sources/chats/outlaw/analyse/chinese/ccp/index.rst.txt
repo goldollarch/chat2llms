@@ -10,6 +10,9 @@
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
 
+打倒孔老二诸牛鬼蛇神，
+独尊马恩列为至圣先师。
+
 ---------------------------------------
 
 [:doc:`苏联列宁主义 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>`]

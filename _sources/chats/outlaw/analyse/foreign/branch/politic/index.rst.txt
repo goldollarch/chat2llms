@@ -231,6 +231,11 @@
  .. toctree::
     :maxdepth: 1
 
+    margalit/index
+    
+ .. toctree::
+    :maxdepth: 1
+
     pettit/index
 
  .. toctree::

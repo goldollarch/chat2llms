@@ -1,0 +1,333 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avishai Margalit &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../sandel/sandel_qw.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">政治</a></li>
+      <li class="breadcrumb-item active">Avishai Margalit</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/politic/margalit/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="avishai-margalit">
+<h1>Avishai Margalit<a class="headerlink" href="#avishai-margalit" title="Link to this heading"></a></h1>
+<p>根据阿维夏·马格利特（Avishai Margalit）《正派社会》核心思想</p>
+<hr class="docutils" />
+<p>阿维夏·马格利特（Avishai Margalit）的“正派社会”思想是其政治哲学中极具影响力的部分，他在《正派社会》一书中系统阐述了这一理论。其核心思想可以概括为：</p>
+<p><strong>一个正派社会，首要目标不是直接追求“正义”，而是致力于“不羞辱人”，尤其是不通过其制度安排和行为来羞辱任何一个人。</strong></p>
+<p>这是一种比正义社会要求更低、但更基础、更紧迫的社会理想。下面我们从几个核心维度来解析这一思想。</p>
+<p>一、核心基石：正派社会 vs. 正义社会</p>
+<p>马格利特在哲学上做了一个关键区分，这也是他思想的起点：</p>
+<table class="docutils align-center" id="id1">
+<caption><span class="caption-text">正派社会 vs. 正义社会</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 35.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>特征</strong></p></th>
+<th class="head"><p><strong>正派社会</strong></p></th>
+<th class="head"><p><strong>正义社会</strong> （以罗尔斯等理论家为代表）</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>核心目标</strong></p></td>
+<td><p><strong>不羞辱人</strong></p></td>
+<td><p><strong>实现正义</strong> （如分配正义、程序正义）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>关注焦点</strong></p></td>
+<td><p>制度对人的 <strong>尊严</strong> 的影响</p></td>
+<td><p>制度安排的 <strong>公平性</strong> 与 <strong>合理性</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>行为模式</strong></p></td>
+<td><p><strong>消极的</strong>：禁止制度性羞辱</p></td>
+<td><p><strong>积极的</strong>：要求建立公正的规则和分配</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>逻辑关系</strong></p></td>
+<td><p><strong>更基本、更优先的底线要求</strong></p></td>
+<td><p>更高阶、更复杂的理想目标</p></td>
+</tr>
+</tbody>
+</table>
+<p>马格利特认为，建立一个完全正义的社会可能非常困难，且人们在何为“正义”上存在深刻分歧。但建立一个 <strong>不羞辱其成员的社会</strong>，是一个更迫切的、也应成为共识的底线目标。一个正派社会是正义社会的必要不充分条件。</p>
+<p>二、核心原则：什么构成“制度性羞辱”？</p>
+<p>“羞辱”的本质是 <strong>拒绝承认某人作为完整意义的人的资格，将其排斥在人类共同体之外</strong>。对于一个社会而言，羞辱主要体现在其 <strong>制度</strong> （法律、政策、规范）和 <strong>主流文化象征</strong> 上。</p>
+<p>正派社会的核心原则是：<strong>其制度不应羞辱人</strong>。这具体体现在两个层面：</p>
+<ol class="arabic simple">
+<li><p><strong>不建立羞辱性制度</strong>：制度本身不应基于侮辱性的预设。</p>
+<ul class="simple">
+<li><p><strong>示例</strong>：种族隔离制度、种姓制度本身在设计和名称上就将人分为不同等级，这就是制度性的羞辱。</p></li>
+</ul>
+</li>
+<li><p><strong>制度运行时不羞辱人</strong>：即使制度设计初衷是好的，在执行中也应避免羞辱人。</p>
+<ul class="simple">
+<li><p><strong>示例</strong>：发放社会救济是善举，但如果申请程序极其繁琐、公开示众，让受助者感到耻辱，那么这个福利制度的运行方式就可能是羞辱性的。</p></li>
+</ul>
+</li>
+</ol>
+<p>三、核心应用：尊严的两种模式与宽容</p>
+<p>马格利特进一步用两种“人的形象”来阐述尊严，从而说明正派社会应如何对待不同群体：</p>
+<table class="docutils align-center" id="id2">
+<caption><span class="caption-text">创造者的人 vs. 忠诚者的人</span><a class="headerlink" href="#id2" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 37.0%" />
+<col style="width: 38.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>模式</strong></p></th>
+<th class="head"><p><strong>创造者的人</strong></p></th>
+<th class="head"><p><strong>忠诚者的人</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>核心特征</strong></p></td>
+<td><p>像艺术家一样，<strong>自由选择</strong> 自己的生活和价值观。</p></td>
+<td><p>像信徒一样，对 <strong>既有身份</strong> （如民族、宗教、文化）抱有 <strong>深厚承诺和忠诚</strong>。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>可能受到的羞辱</strong></p></td>
+<td><p>羞辱其 <strong>选择自由</strong> （如强制同化、不给予自主权）。</p></td>
+<td><p>羞辱其 <strong>身份认同</strong> （如侮辱其信仰、嘲弄其传统、否定其历史）。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>正派社会的要求</strong></p></td>
+<td><p>尊重个人的 <strong>自主选择权</strong>。</p></td>
+<td><p>尊重群体的 <strong>集体认同感</strong>。</p></td>
+</tr>
+</tbody>
+</table>
+<p>一个正派社会，必须同时尊重“创造者的人”和“忠诚者的人”。这意味着它需要一种 <strong>深刻的宽容</strong>：不仅仅是容忍你不喜欢的东西，更是要 <strong>克制自己不去羞辱那些你所反对或无法理解的生活方式与信仰</strong>。</p>
+<p>四、思想价值与总结</p>
+<ol class="arabic simple">
+<li><p><strong>降低社会理想的底线</strong>：将焦点从高不可攀的“正义”拉回到更基本、更易取得共识的“不羞辱”，为评价社会提供了一个更清晰、更紧迫的标准。</p></li>
+<li><p><strong>强调尊严的心理感受</strong>：它不仅关注物质分配是否公平，更关注制度安排对人的 <strong>心理和尊严</strong> 造成的实际影响。</p></li>
+<li><p><strong>具有强烈的现实批判力</strong>：这个理论为我们分析各种社会问题提供了锐利的工具。例如，可以审视一个国家的司法系统、社会福利制度、移民政策、学校教育等，是否存在制度性羞辱的元素。</p></li>
+</ol>
+<p>总结而言，马格利特“正派社会”的核心思想在于：一个体面的社会，不在于它能否实现至善或绝对的正义，而在于它能否 <strong>坚守一条底线——其制度绝不羞辱任何人</strong>。它要求社会以最大的谨慎来对待每一个成员的尊严，因为羞辱所造成的伤害是深刻且持久的，它摧毁的是人作为人的基本资格。这是一种充满人道主义关怀的、低调却有力的社会理想。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#analysis-and-commentary-on-the-chen-jingyuan-case-through-avishai-margalit-s-core-ideas-in-the-philosophy-of-a-decent-society">Analysis and Commentary on the Chen Jingyuan Case through Avishai Margalit’s Core Ideas in the Philosophy of a Decent Society</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#chinese-section">中文部分 / Chinese Section</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#english-section">English Section</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">🌹 羞辱性待遇的禁绝：玛格利特“正派社会”的法治伦理分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">壹. “正派”的核心要求：禁绝羞辱性待遇</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">贰. 制度的结构性羞辱与“社会分工”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">叁. 知识分子的反羞辱斗争与自尊的维护</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">总结</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、玛格利特正派社会核心思想概述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、案件分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3">1. 模糊罪名构成“制度性羞辱”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4">2. 压制表达否定公民尊严</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5">3. 正派社会要求制度避免羞辱</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6">三、结语与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、导论：从“公正社会”到“正派社会”——政治哲学视角的再定位</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、玛格利特的根本命题：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">“一个社会能够容忍不平等，但不能容忍侮辱。”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">三、制度性侮辱的三种形式：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#violating-basic-status">1. <strong>地位侵犯（violating basic status）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#procedural-humiliation">2. <strong>程序性侮辱（procedural humiliation）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#symbolic-humiliation">3. <strong>象征性侮辱（symbolic humiliation）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">四、将上述理论应用到抽象化司法事件</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">（一）<strong>表达行为被扩大解释为威胁公共秩序</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">（二）<strong>司法程序缺乏透明性，公民缺乏有效辩护空间</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">（三）<strong>以“秩序优先”替代对个人权利的正当程序保护</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id9">五、玛格利特的核心判断标准：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10"><strong>制度是否把人当作“羞辱可承受的对象”？</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id11">六、正派社会的反面不是“暴政”，而是“羞辱的日常化”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">七、从“正派社会”到“体面社会”：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">司法的任务不仅是公正，更是“不侮辱”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">八、结论：以玛格利特之学评“抽象化案件”的最终判断</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>基于马格利特“正派社会”理论对陈京元案的分析评论</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2">一、 <strong>羞辱的本质：否定人的理性与公民身份</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">二、 <strong>“制度不羞辱人”作为底线伦理</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4">三、 <strong>“血书”的象征：羞辱下的绝望反抗</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5">四、 <strong>正派社会与公正社会的分野</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6"><strong>结论：一个“不正派”社会的典型案例</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、“不羞辱”原则的全面崩塌：司法沦为羞辱机器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、对“独立学者”身份的制度性羞辱</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#vs">三、“程序羞辱” vs. “程序正义”：司法的道德失败</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、羞辱的终极目的：制造“恐惧的共谋”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">五、结语：玛格利特的警示——无“不羞辱”，则无正派社会</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../sandel/sandel_qw.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
