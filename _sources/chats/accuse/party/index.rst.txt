@@ -49,3 +49,7 @@ Refer to :ref:`Party-Accusations`
 
     analyses
 
+
+------------------------------
+
+【:doc:`中共党章及纪律处分条例 </chats/accuse/party/ccp/index>`】
