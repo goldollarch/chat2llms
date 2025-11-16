@@ -45,3 +45,9 @@ Refer to :ref:`Constitution-Accusations`
 
     analyses
 
+
+------------------------------
+
+[:doc:`CN宪法 </chats/accuse/constitution/china/index>`]
+[:doc:`ICCPR </chats/accuse/constitution/ICCPR/index>`]
+[:doc:`UDHR </chats/accuse/constitution/UDHR/index>`]
