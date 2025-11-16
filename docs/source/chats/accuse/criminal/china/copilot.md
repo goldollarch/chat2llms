@@ -6,7 +6,7 @@
 
 ---
 
-# ✦ 法律明确性与程序正义的缺失：《刑法》《刑事诉讼法》视角下的陈京元案  
+✦ 法律明确性与程序正义的缺失：《刑法》《刑事诉讼法》视角下的陈京元案  
 **Deficiency of Legal Clarity and Procedural Justice: A Perspective from the Criminal Law and Criminal Procedure Law of the PRC on the Chen Jingyuan Case**
 
 ---
