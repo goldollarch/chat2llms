@@ -125,3 +125,9 @@ Critical Theory
     deepseek
     gemini
     qwen
+
+---------------------------
+
+[:doc:`西方马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`]
+[:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/marx/index>`]
+[:doc:`法兰克福学派 </chats/outlaw/analyse/foreign/schools/modern/marx/frankfurt/index>`]
