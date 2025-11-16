@@ -10,7 +10,7 @@
    --- 引自 :doc:`【狱中血书】 </case/letters/Prison/Letter_cn>`
 
 
-抒情诗歌、散文
+抒情诗歌、散文鉴赏
 
 ---------
 
