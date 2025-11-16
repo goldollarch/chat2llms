@@ -35,4 +35,4 @@ Refer to :ref:`Criminal-Accusations`
 
 -------------------------
 
-【:doc:`中华人民共和国刑法及刑事诉讼法 </chats/accuse/criminal/china/index>`】
+【:doc:`CN刑法及刑事诉讼法 </chats/accuse/criminal/china/index>`】
