@@ -233,10 +233,15 @@
 
 ---
 
-下载：[[Manuscript](/_static/files/Letter.pdf)]
+下载：
+[[Manuscript](/_static/files/Letter.pdf)]
 [[Word](/_static/files/Letter.docx)]
 
 ---
 
-代序：[[Gemini](/chats/outlaw/emotion/chinese/lx/xu/xu_gmn.md)]
+代序：
+[[Gemini](/chats/outlaw/emotion/chinese/lx/xu/xu_gmn.md)]
 [[Qwen](/chats/outlaw/emotion/chinese/lx/xu/xu_qw.md)]
+
+评论：
+[[Grok](/chats/answers/grok/letter.md)]
