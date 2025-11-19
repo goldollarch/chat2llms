@@ -244,4 +244,5 @@
 [[Qwen](/chats/outlaw/emotion/chinese/lx/xu/xu_qw.md)]
 
 评论：
+[[Gemini](/chats/answers/gemini/letter.md)]
 [[Grok](/chats/answers/grok/letter.md)]
