@@ -243,6 +243,10 @@
 [[Gemini](/chats/outlaw/emotion/chinese/lx/xu/xu_gmn.md)]
 [[Qwen](/chats/outlaw/emotion/chinese/lx/xu/xu_qw.md)]
 
+---
+
 评论：
+[[Qwen](/chats/answers/qwen/letter.md)]
+[[DeepSeek](/chats/answers/deepseek/letter.md)]
 [[Gemini](/chats/answers/gemini/letter.md)]
 [[Grok](/chats/answers/grok/letter.md)]
