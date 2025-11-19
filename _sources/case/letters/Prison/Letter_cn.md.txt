@@ -239,15 +239,17 @@
 
 ---
 
-下载：
-[[Manuscript](/_static/files/Letter.pdf)]
-[[Word](/_static/files/Letter.docx)]
-
----
-
 评论：
 [[Grok](/chats/answers/grok/letter.md)]
 [[Gemini](/chats/answers/gemini/letter.md)]
+[[ChatGPT](/chats/answers/chatgpt/letter.md)]
+[[Copilot](/chats/answers/copilot/letter.md)]
+[[DeepSeek](/chats/answers/deepseek/letter.md)]
 [[Qwen](/chats/answers/qwen/letter.md)]
-[[DS](/chats/answers/deepseek/letter.md)]
+
+---
+
+下载：
+[[Manuscript](/_static/files/Letter.pdf)]
+[[Word](/_static/files/Letter.docx)]
 
