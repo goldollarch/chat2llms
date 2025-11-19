@@ -233,20 +233,21 @@
 
 ---
 
-下载：
-[[Manuscript](/_static/files/Letter.pdf)]
-[[Word](/_static/files/Letter.docx)]
-
----
-
 代序：
 [[Gemini](/chats/outlaw/emotion/chinese/lx/xu/xu_gmn.md)]
 [[Qwen](/chats/outlaw/emotion/chinese/lx/xu/xu_qw.md)]
 
 ---
 
+下载：
+[[Manuscript](/_static/files/Letter.pdf)]
+[[Word](/_static/files/Letter.docx)]
+
+---
+
 评论：
-[[Qwen](/chats/answers/qwen/letter.md)]
-[[DeepSeek](/chats/answers/deepseek/letter.md)]
-[[Gemini](/chats/answers/gemini/letter.md)]
 [[Grok](/chats/answers/grok/letter.md)]
+[[Gemini](/chats/answers/gemini/letter.md)]
+[[DeepSeek](/chats/answers/deepseek/letter.md)]
+[[Qwen](/chats/answers/qwen/letter.md)]
+
