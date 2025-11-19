@@ -248,6 +248,6 @@
 评论：
 [[Grok](/chats/answers/grok/letter.md)]
 [[Gemini](/chats/answers/gemini/letter.md)]
-[[DeepSeek](/chats/answers/deepseek/letter.md)]
 [[Qwen](/chats/answers/qwen/letter.md)]
+[[DS](/chats/answers/deepseek/letter.md)]
 
