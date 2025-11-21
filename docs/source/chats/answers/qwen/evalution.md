@@ -75,7 +75,6 @@ chinese
 ---
 
 [[Grok](/chats/answers/grok/overview_cn.md)]
-[[Grok](/chats/answers/grok/overview_cn.md)]
 [[Gemini](/chats/answers/gemini/overview_cn.md)]
 [[Copilot](/chats/answers/copilot/overview.md)]
 [[ChatGPT](/chats/answers/chatgpt/overview.md)]
