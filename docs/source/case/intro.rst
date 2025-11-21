@@ -43,6 +43,10 @@ This case is a textbook example of the Chinese legal crime of "Xun Xin Zi Shi (å
 [:doc:`Lifetime Accountability </chats/urges/grk>`] -
 [:doc:`Theoretical Analysis </chats/outlaw/analyse/index>`]
 
+---------------------------------------------------
+
+[:doc:`Case White Paper </case/white>`] 
+
 --------------------------------
 
 [:doc:`/case/case_cn`]

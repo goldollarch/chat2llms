@@ -41,6 +41,10 @@ Chinese
 [[理论](/chats/outlaw/analyse/index.rst)]
 [[终身追责](/chats/urges/grk.md)]
 
+-----------------------------------
+
+[[案件白皮书](/case/white_cn.md)]
+
 ----------------------------
 
 [[English](/case/intro.rst)]
