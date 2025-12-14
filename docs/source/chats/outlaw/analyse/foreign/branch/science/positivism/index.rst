@@ -113,3 +113,8 @@ Logical positivism
     deepseek
     gemini
     qwen
+
+
+---------------------------
+
+[:doc:`逻辑实证主义与分析哲学间关系 </chats/outlaw/analyse/foreign/branch/science/positivism/analytic>`]
