@@ -198,3 +198,8 @@
 
     right/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    bayes/index
+

@@ -178,6 +178,11 @@
  .. toctree::
     :maxdepth: 1
 
+    bayes/index
+
+ .. toctree::
+    :maxdepth: 1
+
     system/index
 
  .. toctree::

@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gemini &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Qwen" href="qwen.html" />
+    <link rel="prev" title="DeepSeek" href="deepseek.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Bayesian</a></li>
+      <li class="breadcrumb-item active">Gemini</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/bayes/gemini.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="gemini">
+<h1>Gemini<a class="headerlink" href="#gemini" title="Link to this heading"></a></h1>
+<section id="id1">
+<h2>从以下几个方面运用贝叶斯主义的视角进行分析<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>贝叶斯法理学（Bayesian Legal Theory / Bayesian Jurisprudence）主张在法律推理和事实认定过程中应用贝叶斯定理，强调使用概率论来评估证据如何改变对事实主张的信念程度（credence）。它将法律证明过程视为一个不断根据新证据更新先验概率（prior probability）以得出后验概率（posterior probability）的动态过程。</p>
+<p>在这个案件中，我们可以运用贝叶斯法理学的核心思想，对控辩双方的论证进行分析和评论：</p>
+<p><strong>一、 事实认定中的概率评估：对“虚假信息”和“严重混乱”的证明</strong></p>
+<p>贝叶斯法理学认为，事实认定者（法官）应当根据证据的可能性比（likelihood ratio）来更新他们对事实主张的信念。</p>
+<ul class="simple">
+<li><p><strong>控方的证明路径：</strong></p>
+<ul>
+<li><p><strong>主张：</strong> 被告发布的信息是“虚假”的，且造成了“严重混乱”。</p></li>
+<li><p><strong>证据与概率：</strong> 控方将各类信息，包括艺术作品、情感表达、学术观点和官方消息，一律归类为“虚假信息”。从贝叶斯角度看，将这些本质上不具真假属性或难以核实的信息作为证明“虚假”的证据，其可能性比极低。换言之，这些证据对于支持“信息为假”这一假设的力度非常微弱。对于“严重混乱”的指控，控方似乎缺乏具体的量化证据或实证数据，更多依赖于定性描述。这使得事实认定者很难基于这些证据大幅提高对“造成严重混乱”这一主张的后验概率。检察官甚至承认基于“感觉”而非核实来认定谣言，这完全违背了贝叶斯证据评估的理性原则。</p></li>
+</ul>
+</li>
+<li><p><strong>辩方的反驳与证据引入：</strong></p>
+<ul>
+<li><p><strong>对“虚假”的反驳：</strong> 陈京元通过将信息分类，指出艺术、情感和观点不具备真假属性，从而论证控方提供的这类证据对于证明“信息为假”这一假设的可能性比接近于零。对于可能涉及事实陈述的部分，他指出普通人核查海量信息的难度，这意味着要求个人“明知”信息虚假，是设定了一个极低的先验概率。</p></li>
+<li><p><strong>对“混乱”的反驳与新证据：</strong> 陈京元引入了强有力的实证证据：被指控的帖子在他被捕后长期存在且未被删除，也没有引发可观察到的混乱。根据贝叶斯定理，这个新证据具有极高的可能性比来支持“未造成严重混乱”的假设，从而极大地降低了控方主张的后验概率。</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>评论：</strong> 从贝叶斯角度看，控方在事实认定上提供的证据证明力薄弱，且在评估证据时存在主观偏见。辩方则通过有效的证据分析和引入关键新证据，有力地削弱了控方事实主张的可信度。</p>
+<p><strong>二、 主观状态的推论：对“明知”的证明</strong></p>
+<p>刑事案件中证明被告的主观状态（如“明知”）往往是难点。贝叶斯法理学强调在推论主观状态时，要基于相关证据进行理性的概率更新，避免毫无根据的先验假设或错误的推理。</p>
+<ul class="simple">
+<li><p><strong>控方的推论逻辑：</strong></p>
+<ul>
+<li><p><strong>先验假设与推论：</strong> 控方的逻辑是：被告是高学历的博士（证据E），因此他应当具备辨别是非的能力（中间推论），所以他必然“明知”所发布的信息是虚假的（假设H，犯罪意图）。</p></li>
+<li><p><strong>贝叶斯批判：</strong> 这种推论存在严重问题。首先，它建立在一个可疑的先验假设上，即高学历必然导致对特定政治或社会信息真伪的准确判断。其次，它错误地评估了证据E（高学历）对假设H（明知虚假）的可能性比。高学历确实可能意味着更强的认知能力，但这并不直接等同于对每一条具体信息的真伪都有确定的知识。控方将一个相关性证据错误地提升为决定性证据，忽略了其他可能解释（如学术上的怀疑、对多元观点的探索等）。</p></li>
+</ul>
+</li>
+<li><p><strong>辩方的贝叶斯式反击：</strong></p>
+<ul>
+<li><p><strong>引入新背景信息重塑先验：</strong> 陈京元引入了学者应具备怀疑精神、知识的局限性（哥德尔不完备性定理）等背景信息。这些信息旨在调整事实认定者对于一个学者如何处理信息的先验概率分布。在一个真正的学者身上，“保持怀疑”的先验概率可能远高于“确信无疑”。</p></li>
+<li><p><strong>证据的翻转与重新评估：</strong> 陈京元巧妙地利用了控方的核心证据——他的高学历和专业知识（复杂系统理论）。他论证说，正是基于这种专业知识，他通过科学分析（自组织临界性理论模型）得出结论，他的行为在物理上和社会效应上是无害的。这意味着，证据E（高学历和专业知识）实际上极大地支持了对立假设H’（明知行为无害），从而极大地降低了控方假设H（明知行为有害）的后验概率。</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>评论：</strong> 控方对“明知”的证明依赖于有缺陷的逻辑推论和对证据价值的错误评估。辩方则通过引入新的背景信息重塑先验概率，并创造性地翻转了关键证据的证明方向，有力地反驳了控方关于犯罪意图的指控。</p>
+<p><strong>三、 法律标准的贝叶斯解释：对“寻衅滋事”罪的审视</strong></p>
+<p>“寻衅滋事”罪因其构成要件模糊而被称为“口袋罪”。贝叶斯法理学可以帮助我们分析这种模糊法律标准在司法实践中的问题。</p>
+<ul class="simple">
+<li><p><strong>模糊标准与先验概率：</strong> 当法律标准（如“虚假信息”、“严重混乱”）定义不清时，事实认定者在评估证据时就缺乏明确的基准。这容易导致他们过度依赖个人的主观先验信念（如对被告身份的偏见、对某种言论的厌恶等），而不是客观地根据证据来更新概率。</p></li>
+<li><p><strong>证据评估的随意性：</strong> 模糊的标准使得控方可以随意地将各种证据（如艺术、观点、未经核实的信息）“装入”罪名中，而法院也难以运用严格的概率标准来排除这些证明力低下的证据。这破坏了贝叶斯推理所要求的证据与假设之间应有的逻辑联系。</p></li>
+<li><p><strong>辩方的努力：</strong> 陈京元的辩护可以看作是试图用更精确、可量化的标准（如信息分类、科学模型、实证检验）来替代模糊的法律标准，从而将司法证明过程拉回到理性的贝叶斯轨道上来。</p></li>
+</ul>
+<p><strong>总结</strong></p>
+<p>基于贝叶斯法理学的分析评论：</p>
+<p>本案凸显了在法律证明过程中坚持理性概率推理的重要性。控方的指控和法院的判决在很大程度上偏离了贝叶斯推理的原则，表现为：</p>
+<ol class="arabic simple">
+<li><p>对“虚假信息”和“严重混乱”的事实认定缺乏高质量证据的支持，依赖于证明力低下的证据和缺乏实证依据的断言。</p></li>
+<li><p>对“明知”的主观状态推论建立在错误的先验假设和有缺陷的逻辑之上，错误地评估了“高学历”这一证据的证明价值。</p></li>
+<li><p>利用“寻衅滋事”这一模糊的法律标准，使得证据评估变得随意，为主观偏见介入司法裁判提供了空间。</p></li>
+</ol>
+<p>相反，被告陈京元的辩护则展现了高水平的贝叶斯式思维：</p>
+<ol class="arabic simple">
+<li><p>通过信息分类和实证证据（帖子未删且无混乱），有力地削弱了控方事实主张的可能性。</p></li>
+<li><p>通过引入学术背景和科学理论，重塑了关于学者认知状态的先验概率，并成功翻转了关键证据（高学历），有力地反驳了犯罪意图的指控。</p></li>
+<li><p>试图用理性和科学的标准来对抗模糊的法律标准，维护了法律证明的严谨性。</p></li>
+</ol>
+<p>综上所述，从贝叶斯法理学的视角来看，本案的定罪在证据和逻辑上都存在严重缺陷，而被告的辩护则提供了一个运用理性思维进行法律抗争的典范。</p>
+</section>
+<section id="bayesianism">
+<h2>基于 <strong>贝叶斯主义（Bayesianism）</strong> 的科学哲学核心思想<a class="headerlink" href="#bayesianism" title="Link to this heading"></a></h2>
+<p>基于<strong>贝叶斯法理学（Bayesian Legal Theory / Bayesian Jurisprudence）<strong>的核心思想对陈京元博士案件进行分析评论，我们必须将贝叶斯推理应用于</strong>法律决策</strong>和<strong>证据评估</strong>的具体语境中。贝叶斯法理学旨在为司法系统提供一个<strong>量化、理性和透明</strong>的证据推理框架。</p>
+<hr class="docutils" />
+<section id="prior-beliefs">
+<h3>一、 法律假设与先验信念（Prior Beliefs）<a class="headerlink" href="#prior-beliefs" title="Link to this heading"></a></h3>
+<p>在法律框架内，核心假设（Hypothesis, $H$）是<strong>被告人有罪</strong>，而其否定（$\neg H$）是<strong>被告人无罪</strong>。审判的起点是<strong>无罪推定原则</strong>，这在贝叶斯法理学中体现为对<strong>有罪假设 $P(H)$ 的极低先验概率</strong>。</p>
+<ol class="arabic simple">
+<li><p><strong>先验概率的设定：无罪推定</strong></p>
+<ul class="simple">
+<li><p><strong>法律要求：</strong> 现代司法要求在审判开始时，<strong>有罪的先验概率 $P(H)$ 必须非常低</strong>，远低于 $0.5$，以体现<strong>无罪推定</strong>。</p></li>
+<li><p><strong>案件分析：</strong> 在陈京元案件中，如果法庭的<strong>内部先验</strong>（或非正式先验）受到<strong>政治压力或意识形态倾向</strong>的影响，将 $P(H)$（有罪）<strong>设定得过高</strong>，那么即使后续的<strong>证据薄弱</strong>，最终的<strong>后验概率</strong>也可能高于定罪阈值。这构成了对贝叶斯理性主义和无罪推定原则的<strong>双重背离</strong>。</p></li>
+</ul>
+</li>
+<li><p><strong>具体罪名假设：恶意寻衅</strong></p>
+<ul class="simple">
+<li><p><strong>具体假设 $H_{\text{恶意}}$：</strong> 陈京元博士具有 <strong>“恶意”</strong>（寻衅滋事的核心主观要件）。</p></li>
+<li><p><strong>先验评估：</strong> 对于一个拥有高等教育背景、通常行为符合社会规范的公民，其 <strong>“恶意寻衅”<strong>的先验概率 $P(H_{\text{恶意}})$ 本应</strong>极低</strong>。法院将 <strong>“高学历”<strong>解读为</strong>“明知故犯的恶意”</strong>，实际上是<strong>武断地提高了 $P(H_{\text{恶意}})$ 的先验，而非基于证据</strong>。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="likelihood">
+<h3>二、 证据的似然度（Likelihood）与信息价值<a class="headerlink" href="#likelihood" title="Link to this heading"></a></h3>
+<p>贝叶斯法理学使用 <strong>似然比（Likelihood Ratio, $LR$）</strong> 来量化证据 $E$ 的信息价值，即证据支持有罪假设（$H$）的可能性是支持无罪假设（$\neg H$）可能性的多少倍。</p>
+<p>$$
+LR = \frac{P(E|H)}{P(E|\neg H)}
+$$</p>
+<ol class="arabic simple">
+<li><p><strong>证据 $E_1$：“高学历”与“恶意”的关联</strong></p>
+<ul class="simple">
+<li><p><strong>法院的隐含评估：</strong> 法院隐含地认为 $LR &gt; 1$。即，<strong>如果一个人是恶意寻衅 ($H$)，那么他拥有高学历的可能性</strong> ($P(E_1|H)$) <strong>高于</strong> <strong>如果一个人是理性批判 ($\neg H$)，他拥有高学历的可能性</strong> ($P(E_1|\neg H)$)。</p></li>
+<li><p><strong>贝叶斯批判：</strong> 这个 $LR$ 的设定是<strong>非理性且反直觉的</strong>。在一个健康的社会中，<strong>理性批判</strong> ($\neg H$) <strong>更有可能</strong>出自<strong>高学历者</strong>，因此 $P(E_1|\neg H) \geq P(E_1|H)$，<strong>LR 应当 $\leq 1$</strong>，这意味着 <strong>“高学历”这一证据应该减少而不是增加有罪的概率</strong>。法院对 $E_1$ 似然度的错误设定，是判决非理性的关键所在。</p></li>
+</ul>
+</li>
+<li><p><strong>证据 $E_2$：言论的客观内容</strong></p>
+<ul class="simple">
+<li><p><strong>法律要求：</strong> 证据 $E_2$ 必须显示出<strong>言论的煽动性、虚假性和恶意</strong>。</p></li>
+<li><p><strong>贝叶斯检验：</strong> 必须客观评估：<strong>如果言论是恶意寻衅，它呈现这种内容的概率</strong> ($P(E_2|H)$) <strong>与</strong> <strong>如果言论是理性批判，它呈现这种内容的概率</strong> ($P(E_2|\neg H)$) <strong>之比</strong>。如果言论中包含<strong>大量理性分析</strong>和<strong>对公共利益的关注</strong>，那么 $LR$ 将<strong>强烈偏向无罪</strong>。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="posterior-probability">
+<h3>三、 后验概率（Posterior Probability）与证明标准<a class="headerlink" href="#posterior-probability" title="Link to this heading"></a></h3>
+<p>贝叶斯法理学要求<strong>后验概率 $P(H|E)$ 必须达到严格的法律证明标准</strong>（如“排除合理怀疑”）。</p>
+<ol class="arabic simple">
+<li><p><strong>证明标准（Threshold）：</strong></p>
+<ul class="simple">
+<li><p><strong>排除合理怀疑：</strong> 贝叶斯法理学通常将这一标准量化为 $P(H|E) \geq 0.9$ 或更高。</p></li>
+<li><p><strong>案件分析：</strong> 考虑到<strong>先验概率 $P(H)$ 极低</strong>（无罪推定），要达到如此高的后验概率，需要<strong>极强的证据</strong>，即<strong>似然比 $LR$ 必须极高</strong>。在陈京元案中，鉴于<strong>证据 $E$ 的信息价值低</strong>（如 $E_1$ 的信息量接近于零，甚至支持 $\neg H$），法院<strong>不可能</strong>通过理性的贝叶斯更新达到“排除合理怀疑”的标准。</p></li>
+</ul>
+</li>
+<li><p><strong>后验概率的形成缺陷：</strong></p>
+<ul class="simple">
+<li><p><strong>结论：</strong> 如果定罪发生，它不是<strong>理性证据更新的结果</strong>，而是<strong>先验信念（政治预设）对后验概率的非理性固着（entrenchment）</strong>。这表明，司法系统未能遵守<strong>贝叶斯理性主义</strong>和<strong>现代法律证明标准</strong>的要求。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h3>总结：对理性证据推理的检验<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>基于贝叶斯法理学，陈京元博士案件揭示了<strong>司法推理中潜在的非理性缺陷</strong>：</p>
+<ul class="simple">
+<li><p><strong>非理性先验：</strong> 未能有效遵守无罪推定原则，可能<strong>预设了有罪的较高概率</strong>。</p></li>
+<li><p><strong>证据误判：</strong> 对关键证据（如高学历）的似然度进行了<strong>错误的、反直觉的评估</strong>，使得<strong>本应削弱有罪假设的证据被错误地用来支持定罪</strong>。</p></li>
+<li><p><strong>证明不足：</strong> 在缺乏强有力证据的情况下，<strong>有罪的后验概率未能达到“排除合理怀疑”所需的门槛</strong>。</p></li>
+</ul>
+<p>贝叶斯法理学呼吁司法决策者必须<strong>公开、透明、理性地评估证据的似然度</strong>，并<strong>严格遵守无罪推定原则</strong>，以确保判决是<strong>证据更新的理性结果</strong>。</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="deepseek.html" class="btn btn-neutral float-left" title="DeepSeek" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="qwen.html" class="btn btn-neutral float-right" title="Qwen" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

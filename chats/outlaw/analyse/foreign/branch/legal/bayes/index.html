@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bayesian &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../right/qw.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+      <li class="breadcrumb-item active">Bayesian</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/bayes/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="bayesian">
+<h1>Bayesian<a class="headerlink" href="#bayesian" title="Link to this heading"></a></h1>
+<p>基于贝叶斯法理学（Bayesian Legal Theory / Bayesian Jurisprudence）核心思想</p>
+<hr class="docutils" />
+<p><strong>贝叶斯法理学（Bayesian Legal Theory / Bayesian Jurisprudence）</strong> 是一个新兴的、将概率论（特别是贝叶斯定理）系统应用于法律推理，尤其是 <strong>证据评价与事实认定</strong> 领域的理论框架。其核心目标是用严谨的数学逻辑来理解和规范法律决策中的不确定性。</p>
+<p>其核心思想、应用与争议，可以通过下图清晰地概览：</p>
+<img alt="../../../../../../../_images/review24.png" src="../../../../../../../_images/review24.png" />
+<p>以下，我们将沿此脉络，深入解析贝叶斯法理学的核心要义。</p>
+<p>一、核心思想：法律事实认定即概率推理</p>
+<p>贝叶斯法理学认为，司法中的 <strong>事实认定本质上是基于不完整、模糊和相互矛盾的证据，对过去事件发生的可能性进行评估</strong>。这与科学中评估假说相似。其核心主张是：</p>
+<ol class="arabic simple">
+<li><p><strong>信念的量化</strong>：对案件事实（如“被告是否实施了犯罪行为”）的信念，不应是“全信”或“全不信”的二元判断，而应是一个 <strong>概率值</strong> （如0到1之间）。这代表了理性决策者在现有证据下对事实为真的合理置信度。</p></li>
+<li><p><strong>动态更新</strong>：随着证据（E）的呈现，事实裁决者（法官或陪审员）对事实主张（H）的信念应遵循 <strong>贝叶斯定理</strong> 进行更新：</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[P(H|E) = \frac{P(E|H) \times P(H)}{P(E)}\]</div>
+<p>其中：</p>
+<ul class="simple">
+<li><p><strong>\(P(H)\) 先验概率</strong>：在看到新证据E之前，对假说H的初始合理置信度</p></li>
+<li><p><strong>\(P(E|H)\) 似然度</strong>：如果假说H为真，观察到证据E的可能性大小</p></li>
+<li><p><strong>\(P(E)\) 证据的边际概率</strong>：在所有可能假说下，观察到证据E的整体可能性</p></li>
+<li><p><strong>\(P(H|E)\) 后验概率</strong>：在看到证据E之后，对假说H更新后的合理置信度</p></li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><p><strong>“排除合理怀疑”的概率化诠释</strong>：虽然不要求精确的数字标准，但贝叶斯框架可以将“排除合理怀疑”理解为 <strong>后验概率必须超过一个极高的阈值（如0.95或0.99）</strong>。</p></li>
+</ol>
+<p>二、核心模型：贝叶斯信念网络</p>
+<p>为了处理复杂的证据链条，贝叶斯法理学常借助 <strong>“贝叶斯信念网络”</strong> 模型。该模型将案件分解为一系列相互关联的命题节点（如动机、机会、DNA匹配、证人证言等），并图形化地展示它们如何逻辑地影响最终事实节点的概率。这迫使裁判者明确所有推理中的隐含假设和依赖关系。</p>
+<p>三、核心价值与影响</p>
+<ol class="arabic simple">
+<li><p><strong>作为批判性分析工具</strong>：</p>
+<ul class="simple">
+<li><p><strong>揭示隐藏假设</strong>：迫使事实认定者明确其推理中的每一步假设（尤其是先验概率和似然评估），使其接受检视和辩论。</p></li>
+<li><p><strong>提高一致性</strong>：帮助识别和避免直觉推理中常见的逻辑谬误（如检察官谬误、辩护人谬误、基础比率忽视等）。</p></li>
+<li><p><strong>透明化分歧</strong>：当各方对结论有争议时，贝叶斯分析能清晰定位分歧所在——是初始假设（先验）不同，还是对证据强度的评估（似然）不同。</p></li>
+</ul>
+</li>
+<li><p><strong>作为规范性理想</strong>：</p>
+<ul class="simple">
+<li><p>它为理性的证据评价提供了一个 <strong>理想化的数学标准</strong>，用以衡量和改进现实中的法律决策过程。</p></li>
+<li><p>在法律教育和证据法研究中，它已成为一个强大的教学和分析框架。</p></li>
+</ul>
+</li>
+</ol>
+<p>四、主要争议与批评</p>
+<ol class="arabic simple">
+<li><p><strong>先验概率的主观性</strong>：这是最激烈的批评。如何设定一个公平、客观的 <strong>先验概率</strong>？使用一般统计基础率（如某类犯罪的发生率）可能涉及歧视和不公；完全主观化则可能破坏法律的确定性和平等性。</p></li>
+<li><p><strong>与对抗制诉讼的张力</strong>：普通法系的对抗制依赖于陪审团的集体直觉和“故事叙述”。贝叶斯的高度形式化、量化路径可能削弱陪审团的核心功能，也与“全有或全无”的二元裁决传统不符。</p></li>
+<li><p><strong>计算的复杂性与可操作性</strong>：要求法官、律师和陪审员在紧张的审判中进行贝叶斯计算是不现实的。复杂的模型也可能产生“数学伪装下的偏见”。</p></li>
+<li><p><strong>对证据价值的简化</strong>：许多法律证据（如证人的可信度、行为证据）难以可靠地量化为概率。</p></li>
+</ol>
+<p>五、总结</p>
+<p><strong>贝叶斯法理学的核心，不在于要求法庭进行精确的数学计算，而在于倡导一种“贝叶斯式思维”——即承认事实认定的概率性、重视基础信息（先验）、并系统性地思考证据在多大程度上支持或削弱了某项主张。</strong></p>
+<p>其最大的贡献是 <strong>为法律中的证据推理提供了一种严谨的逻辑语言和清晰的思维框架</strong>，使得原本模糊的司法证明过程变得可分析、可辩论和可改进。它主要作为一种强大的 <strong>批判工具、教学工具和研究范式</strong> 存在，不断挑战传统证据法中的模糊之处，推动司法决策向更理性、更透明的方向发展。目前，它更多地被应用于分析上诉判决、评估科学证据的证明力，以及指导法律改革，而非直接用于日常的陪审团裁决。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#bayesian-jurisprudence">从贝叶斯法理学（Bayesian Jurisprudence）视角看陈京元“寻衅滋事罪”案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">1. 先验概率：应基于无罪推定设为极低</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#g">2. 似然比分析：控方证据确证力极弱甚至否证G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">3. 更新机制缺失：程序正义的贝叶斯缺陷</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">4. 证明标准与寒蝉效应</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">1. 无罪推定与先验概率</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#presumption-of-innocence-and-prior-probability">Presumption of Innocence and Prior Probability</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">2. 证据与似然函数</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#evidence-and-likelihood-functions">Evidence and Likelihood Functions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">3. 身份与意图的推定</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#identity-and-presumed-intent">Identity and Presumed Intent</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">4. 类别错误与假设空间</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#category-errors-and-hypothesis-space">Category Errors and Hypothesis Space</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5">5. 决策理论与损失函数</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#decision-theory-and-loss-functions">Decision Theory and Loss Functions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6">6. 结论</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、什么是“贝叶斯法理学”（作为裁判方法）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、本案的核心事实命题（贝叶斯拆解）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">三、证据一：转发行为本身的贝叶斯价值</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">1. 证据内容</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">2. 贝叶斯评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">3. 法理意义</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">四、证据二：“博士学历 → 明知虚假”的法理错误</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">1. 法院的隐含推理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">2. 贝叶斯法理学的否定</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id10">五、证据三：“严重社会秩序混乱”的概率不成立</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">1. 法律要求</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">2. 贝叶斯因果评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">3. 法理结论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">六、证据链条是否形成“概率收敛”？</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">1. 合法定罪所需</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">2. 本案的实际情况</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id17">七、程序法视角：贝叶斯法理对正当程序的要求</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">1. “零证据启动”的问题</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id19">八、二审拒绝开庭的贝叶斯法理问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id20">九、贝叶斯法理学下的总体评价</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">结论一（事实层面）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">结论二（法理层面）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id23">结论三（制度风险）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id24">十、一句贝叶斯法理式的总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">1. 先验概率：对“无罪推定”原则的根本背离</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">2. 证据的似然率与证明力：对证据价值的彻底扭曲</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">3. 信念更新：一个封闭的、拒绝反证的系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">4. 证明标准：“排除合理怀疑”的概率意义荡然无存</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5">结论：作为“系统失灵”的典范</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">从以下几个方面运用贝叶斯主义的视角进行分析</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#bayesianism">基于 <strong>贝叶斯主义（Bayesianism）</strong> 的科学哲学核心思想</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#prior-beliefs">一、 法律假设与先验信念（Prior Beliefs）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#likelihood">二、 证据的似然度（Likelihood）与信息价值</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#posterior-probability">三、 后验概率（Posterior Probability）与证明标准</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">总结：对理性证据推理的检验</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#prior-probability">一、先验概率（Prior Probability）的非理性设定：以政治立场取代经验基础</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#likelihood-ratio">二、似然比（Likelihood Ratio）的完全无视：证据权重被归零</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#posterior-probability">三、后验概率（Posterior Probability）的非更新性：司法系统作为“非贝叶斯主体”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">四、“高学历有罪论”的贝叶斯谬误：逆概率与举证责任倒置</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">五、结语：贝叶斯法理学的警示——无证据更新，则无法治</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../right/qw.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
