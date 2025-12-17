@@ -1,4 +1,4 @@
-Sociological Jurisprudence
+Sociological 
 ====================
 
 基于社会法学派（Sociological Jurisprudence）核心思想
@@ -112,3 +112,7 @@ Sociological Jurisprudence
     deepseek
     gemini
     qwen
+
+---------------------------
+
+[:doc:`社会法学派与法律现实主义 </chats/outlaw/analyse/foreign/branch/legal/sociolo/compare>`]
