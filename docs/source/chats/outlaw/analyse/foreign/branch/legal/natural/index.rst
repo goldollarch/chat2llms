@@ -1,4 +1,4 @@
-Natural Law School
+Natural Law 
 ===========
 
 基于自然法学派（Natural Law School）核心思想

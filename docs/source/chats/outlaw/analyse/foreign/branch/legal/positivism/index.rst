@@ -75,4 +75,5 @@ Analytical Positivism
 
 ---------------------------
 
-[:doc:`分析法学和分析哲学关系 </chats/outlaw/analyse/foreign/branch/legal/positivism/analytic>`]
+[:doc:`实证主义与现实主义 </chats/outlaw/analyse/foreign/branch/legal/positivism/compare>`]
+[:doc:`分析法学和分析哲学 </chats/outlaw/analyse/foreign/branch/legal/positivism/analytic>`]
