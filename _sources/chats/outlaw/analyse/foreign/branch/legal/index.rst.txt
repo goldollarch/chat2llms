@@ -23,11 +23,11 @@
 
   - **古典自然法** （:doc:`亚里士多德 </chats/outlaw/analyse/foreign/master/ancient/aristotle/index>`、:doc:`西塞罗 </chats/outlaw/analyse/foreign/branch/legal/cicero/index>` ）：法律应体现普遍理性与自然正义。
 
-  - **神学自然法** （:doc:`托马斯·阿奎那 </chats/outlaw/analyse/foreign/master/ancient/aquinas/index>`）：法律是神圣理性在人类社会的体现。
+  - **神学自然法** （:doc:`托马斯·阿奎那 </chats/outlaw/analyse/foreign/master/middle/aquinas/index>`）：法律是神圣理性在人类社会的体现。
 
   - **近代自然法** （:doc:`格劳秀斯 </chats/outlaw/analyse/foreign/branch/legal/grotius/index>` 、:doc:`洛克 </chats/outlaw/analyse/foreign/master/recent/locke/index>`、:doc:`卢梭 </chats/outlaw/analyse/foreign/master/recent/rouss/index>`）：强调自然权利、社会契约与人民主权。
 
-- **现代表现**：:doc:`富勒 </chats/outlaw/analyse/foreign/branch/legal/fuller/index>` 的程序自然法（法律需具备内在道德性）、菲尼斯的自然法基本善理论。
+- **现代表现**：:doc:`富勒 </chats/outlaw/analyse/foreign/branch/legal/fuller/index>` 的程序自然法（法律需具备内在道德性）、:doc:`菲尼斯 </chats/outlaw/analyse/foreign/branch/legal/finnis/index>` 的自然法基本善理论。
 
 - **影响**：为现代人权观念、宪法审查和反抗暴政提供了理论基础。
 

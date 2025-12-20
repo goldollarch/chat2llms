@@ -113,3 +113,7 @@ Ferdinand de Saussure
     deepseek
     qwen
 
+
+---------------------------
+
+[:doc:`语言哲学的两大重要源头 </chats/outlaw/analyse/foreign/branch/langu/saussure/compare>`]
