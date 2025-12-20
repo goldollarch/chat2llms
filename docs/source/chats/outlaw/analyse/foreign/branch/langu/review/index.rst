@@ -93,8 +93,3 @@ Overview
     ds
     qw
 
-
-
----------------------------
-
-[:doc:`日常语言学派 </chats/outlaw/analyse/foreign/branch/langu/review/ordlang/index>`]
