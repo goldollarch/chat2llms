@@ -48,6 +48,11 @@
  .. toctree::
     :maxdepth: 1
 
+    ponty/index
+
+ .. toctree::
+    :maxdepth: 1
+
     deleuze/index
 
  .. toctree::
