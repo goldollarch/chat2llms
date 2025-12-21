@@ -103,6 +103,11 @@
  .. toctree::
     :maxdepth: 1
 
+    dstevsky/index
+
+ .. toctree::
+    :maxdepth: 1
+
     krkgrd/index
 
  .. toctree::
