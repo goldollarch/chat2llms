@@ -48,3 +48,10 @@
 
     marx/index
 
+----------
+
+西方哲学常识
+
+-----------
+
+[:doc:`流派关系 </chats/outlaw/analyse/foreign/schools/modern/compare>`]
