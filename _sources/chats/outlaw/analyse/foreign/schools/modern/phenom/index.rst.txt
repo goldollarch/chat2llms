@@ -109,5 +109,5 @@ Phenomenology
 
 -----------
 
-[:doc:`现象学、存在主义和解释学 </chats/outlaw/analyse/foreign/schools/modern/compare>`]
+[:doc:`现象学、存在主义和解释学 </chats/outlaw/analyse/foreign/schools/modern/phens>`]
 [:doc:`现象学与物理学唯象模型 </chats/outlaw/analyse/foreign/schools/modern/phenom/physics>`]
