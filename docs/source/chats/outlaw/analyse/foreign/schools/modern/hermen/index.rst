@@ -134,5 +134,5 @@ Hermeneutics
 
 -----------
 
-[:doc:`现象学、存在主义和解释学 </chats/outlaw/analyse/foreign/schools/modern/compare>`]
+[:doc:`现象学、存在主义和解释学 </chats/outlaw/analyse/foreign/schools/modern/phens>`]
 [:doc:`解释学与其它学派 </chats/outlaw/analyse/foreign/schools/modern/hermen/compare>`]
