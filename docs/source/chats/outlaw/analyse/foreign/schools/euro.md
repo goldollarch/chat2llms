@@ -34,7 +34,7 @@
 
 ### 谱系三：[批判理论](/chats/outlaw/analyse/foreign/schools/modern/critical/index)谱系（诊断社会与寻求解放）
 
-从[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/marx/frankfurt/index)发展而来，紧密结合社会现实，旨在批判社会不公并寻求解放路径。
+从[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/critical/frankfurt/index)发展而来，紧密结合社会现实，旨在批判社会不公并寻求解放路径。
 
 *   **核心问题**：在复杂的现代社会中，如何诊断病理、批判意识形态，并找到理性与解放的可能性？
 *   **关键人物与演进**：
