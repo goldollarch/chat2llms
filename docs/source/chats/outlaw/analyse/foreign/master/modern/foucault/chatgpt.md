@@ -1,7 +1,7 @@
-## ChatGPT
+# ChatGPT
 -------
 
-### 基于歇尔·福柯（Michel Foucault）的哲学核心
+## 基于歇尔·福柯（Michel Foucault）的哲学核心
 
 米歇尔·福柯（Michel Foucault）的哲学核心在于：**权力/知识（power/knowledge）关系**、**规训与惩罚（discipline and punishment）**、**话语与真理体制（regimes of truth）**。福柯不从“普遍正义”角度去评价社会，而是揭示**权力如何通过话语与制度生产真理、构建秩序**。
 
