@@ -95,7 +95,7 @@
 
   * [欧陆哲学](/chats/outlaw/analyse/foreign/schools/euro)（主要流行于欧洲大陆）
     * **核心**：关注存在、历史、权力、现象和实践。
-    * **主要流派**：现象学（[胡塞尔](/chats/outlaw/analyse/foreign/master/modern/husserl/index)、[海德格尔](/chats/outlaw/analyse/foreign/master/modern/heidegger/index)）、[存在主义](/chats/outlaw/analyse/foreign/schools/modern/existential/index)（[萨特](/chats/outlaw/analyse/foreign/master/modern/sartre/index)）、[解释学](/chats/outlaw/analyse/foreign/schools/modern/hermen/index)（[伽达默尔](/chats/outlaw/analyse/foreign/master/modern/gadamer/index)）、[结构主义](/chats/outlaw/analyse/foreign/schools/modern/struct/index) 与 [后结构主义](/chats/outlaw/analyse/foreign/schools/today/posts/index)（[福柯](/chats/outlaw/analyse/foreign/master/modern/foucault/index)、[德里达](/chats/outlaw/analyse/foreign/master/modern/derrida/index)）、批判理论（[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/marx/frankfurt/index)）。
+    * **主要流派**：现象学（[胡塞尔](/chats/outlaw/analyse/foreign/master/modern/husserl/index)、[海德格尔](/chats/outlaw/analyse/foreign/master/modern/heidegger/index)）、[存在主义](/chats/outlaw/analyse/foreign/schools/modern/existential/index)（[萨特](/chats/outlaw/analyse/foreign/master/modern/sartre/index)）、[解释学](/chats/outlaw/analyse/foreign/schools/modern/hermen/index)（[伽达默尔](/chats/outlaw/analyse/foreign/master/modern/gadamer/index)）、[结构主义](/chats/outlaw/analyse/foreign/schools/modern/struct/index) 与 [后结构主义](/chats/outlaw/analyse/foreign/schools/today/posts/index)（[福柯](/chats/outlaw/analyse/foreign/master/modern/foucault/index)、[德里达](/chats/outlaw/analyse/foreign/master/modern/derrida/index)）、批判理论（[法兰克福学派](/chats/outlaw/analyse/foreign/schools/modern/critical/frankfurt/index)）。
 
 ### **西方哲学史总结**
 
