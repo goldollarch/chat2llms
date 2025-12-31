@@ -18,3 +18,6 @@ Gödel Theorem
     deepseek
     qwen
 
+---------------------------
+
+[:doc:`超越哥德尔的限制 </chats/outlaw/analyse/science/system/godel/other>`]
