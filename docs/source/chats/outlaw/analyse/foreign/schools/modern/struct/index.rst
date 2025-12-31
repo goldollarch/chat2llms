@@ -72,3 +72,4 @@ Structuralism
 
 [:doc:`后结构主义 </chats/outlaw/analyse/foreign/schools/today/posts/index>`]
 [:doc:`结构主义和存在主义 </chats/outlaw/analyse/foreign/schools/modern/exi2str>`]
+[:doc:`数学与哲学结构主义 </chats/outlaw/analyse/foreign/schools/modern/struct/structure>`]
