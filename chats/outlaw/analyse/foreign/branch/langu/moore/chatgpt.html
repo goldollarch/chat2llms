@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Copilot" href="copilot.html" />
+    <link rel="prev" title="Grok" href="grok.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">语言</a></li>
+          <li class="breadcrumb-item"><a href="index.html">George Edward Moore</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/langu/moore/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>下面将<strong>基于乔治·爱德华·摩尔（G. E. Moore）的哲学核心思想</strong>，对本案件作出一种<strong>分析哲学—伦理学—常识理性</strong>取向的评论。摩尔并不宏大叙事，也不诉诸形而上激情，而是以一种近乎“冷静而顽固”的方式追问：<strong>我们究竟有没有理由说自己“知道”某事？又凭什么把价值判断伪装成事实判断？</strong></p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、摩尔哲学的核心立场：<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>“清楚地说清楚你在说什么”<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>摩尔哲学的几个关键原则，与本案高度相关：</p>
+<ol class="arabic simple">
+<li><p><strong>反对概念混淆（conceptual confusion）</strong>
+——许多哲学与道德错误，源于把不同层次的问题混为一谈</p></li>
+<li><p><strong>捍卫常识（common sense）作为理性底线</strong>
+——在没有充分理由之前，常识性判断具有初始可信度</p></li>
+<li><p><strong>反对“自然主义谬误”（naturalistic fallacy）</strong>
+——不能从事实描述直接推出价值或规范结论</p></li>
+<li><p><strong>区分“知道”“相信”“推测”“评价”</strong></p></li>
+</ol>
+<p>摩尔会不断追问一句话：</p>
+<blockquote>
+<div><p><strong>“你所断言的这一点，究竟是什么意思？”</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>二、本案的第一个摩尔式问题：<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="id4">
+<h3>“虚假信息”究竟指的是什么？<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>法院认定被告传播“虚假信息”，但在摩尔看来，必须先澄清三个层次：</p>
+<ol class="arabic simple">
+<li><p><strong>是否为可判真伪的命题（proposition）？</strong></p></li>
+<li><p><strong>是否已被证明为假？</strong></p></li>
+<li><p><strong>被告是否“知道”其为假？</strong></p></li>
+</ol>
+</section>
+<section id="id5">
+<h3>摩尔的判断：<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>艺术表达、情绪性评论、哲学讨论</strong>
+👉 根本不属于“真假命题”的范畴</p></li>
+<li><p>将其定性为“虚假陈述”，是<strong>概念错误</strong></p></li>
+</ul>
+<p>这正是摩尔最反对的哲学错误之一：</p>
+<blockquote>
+<div><p><strong>把“评价性语言”“象征性语言”当作事实陈述来处理</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>三、第二个关键问题：<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>“你受过高等教育，所以你应当知道”——这是合法的吗？<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>在摩尔看来，这是一个<strong>典型的推理失效</strong>。</p>
+</section>
+<section id="id8">
+<h3>推理结构是：<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>你是博士
+→ 博士更有知识
+→ 更有知识的人更能分辨真假
+→ 所以你必然知道该信息是假的</p>
+</div></blockquote>
+</section>
+<section id="id9">
+<h3>摩尔的批判：<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>“更可能知道” ≠ “确实知道”</strong></p></li>
+<li><p>概率判断不能直接转换为<strong>刑事责任的确定性</strong></p></li>
+<li><p>“应当知道”是<strong>规范性判断</strong>，不是事实判断</p></li>
+</ol>
+<p>👉 这是<strong>自然主义谬误的变体</strong>：</p>
+<blockquote>
+<div><p><strong>从“人具备某种能力”
+直接推出“他已经履行了该能力”</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>四、摩尔视角下的“明知”标准：被无限抬高的认识要求<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<p>摩尔坚持一种朴素却严格的“知识观”：</p>
+<blockquote>
+<div><p><strong>知道某事 = 有充分理由 + 该事为真</strong></p>
+</div></blockquote>
+<p>在本案中：</p>
+<ul class="simple">
+<li><p>信息是否为假，本身存在争议</p></li>
+<li><p>被告明确表明其怀疑立场</p></li>
+<li><p>信息来源并非其原创</p></li>
+</ul>
+<p>👉 那么在摩尔看来：</p>
+<p><strong>“明知其假”这一要件并未被满足</strong></p>
+<p>而如果在这种情况下仍认定“明知”，就意味着：</p>
+<blockquote>
+<div><p><strong>法律在要求人具备一种超出常识的“全知能力”</strong></p>
+</div></blockquote>
+<p>这恰恰违背摩尔所捍卫的<strong>日常理性标准</strong>。</p>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h2>五、关于“社会秩序混乱”：<a class="headerlink" href="#id11" title="Link to this heading"></a></h2>
+<section id="id12">
+<h3>摩尔会问一个非常简单的问题<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>“你能指出一个具体的、可观察的混乱事实吗？”</strong></p>
+</div></blockquote>
+<p>摩尔拒绝抽象恐惧。</p>
+<p>在他的哲学中：</p>
+<ul class="simple">
+<li><p>“混乱”必须是<strong>经验上可指认的状态</strong></p></li>
+<li><p>不是一种主观不安</p></li>
+<li><p>不是一种预设风险</p></li>
+<li><p>更不是对思想本身的厌恶</p></li>
+</ul>
+<p>当被告：</p>
+<ul class="simple">
+<li><p>关注者不足百人</p></li>
+<li><p>无实证性后果</p></li>
+<li><p>无直接因果链条</p></li>
+</ul>
+<p>却被认定为造成“严重混乱”，在摩尔看来：</p>
+<blockquote>
+<div><p><strong>这是用情绪词汇替代事实描述</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h2>六、摩尔对程序正义的隐含立场：<a class="headerlink" href="#id13" title="Link to this heading"></a></h2>
+<section id="id14">
+<h3>“未经澄清的概念，不能成为裁判基础”<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<p>摩尔虽然不以政治哲学著称，但其分析方法本身具有强烈制度含义：</p>
+<ul class="simple">
+<li><p>若<strong>概念不清</strong></p></li>
+<li><p>若<strong>证据与结论不匹配</strong></p></li>
+<li><p>若<strong>价值判断冒充事实判断</strong></p></li>
+</ul>
+<p>那么判决在哲学上就是<strong>不成立的（unsound）</strong>。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h2>七、摩尔式的总体评价<a class="headerlink" href="#id15" title="Link to this heading"></a></h2>
+<section id="id16">
+<h3>1️⃣ 本案存在系统性的概念混淆<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<p>（表达 ≠ 陈述；怀疑 ≠ 虚假）</p>
+</section>
+<section id="id17">
+<h3>2️⃣ “明知”的认定违反了常识性知识标准<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+</section>
+<section id="id18">
+<h3>3️⃣ 将“教育程度”作为恶意证据，属于推理错误<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+</section>
+<section id="id19">
+<h3>4️⃣ 对“社会秩序”的描述缺乏可验证事实<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id20">
+<h2>八、如果让摩尔给出一句判词<a class="headerlink" href="#id20" title="Link to this heading"></a></h2>
+<p>摩尔不会激昂，也不会愤怒，他可能只会冷静地说：</p>
+<blockquote>
+<div><p><strong>“在我看来，这个结论并未从前提中得出。”</strong></p>
+</div></blockquote>
+<p>而在分析哲学中，这已经是<strong>最致命的批评</strong>。</p>
+</section>
+<hr class="docutils" />
+<section id="id21">
+<h2>九、总结性判断<a class="headerlink" href="#id21" title="Link to this heading"></a></h2>
+<p>从乔治·爱德华·摩尔的哲学立场看，本案的问题不在于立场冲突，而在于：</p>
+<blockquote>
+<div><p><strong>法律判断失去了对概念清晰性与常识理性的尊重</strong></p>
+</div></blockquote>
+<p>当司法不再区分：</p>
+<ul class="simple">
+<li><p>事实与评价</p></li>
+<li><p>知道与怀疑</p></li>
+<li><p>能力与行为</p></li>
+</ul>
+<p>它就不再是在“裁判”，而是在<strong>强制定义现实</strong>。</p>
+<hr class="docutils" />
+<p>如果你愿意，我可以继续：</p>
+<ul class="simple">
+<li><p>以<strong>摩尔 vs 哈特 / 德沃金</strong>对本案作比较</p></li>
+<li><p>用<strong>分析哲学方法重写“判决书的逻辑结构”</strong></p></li>
+<li><p>或延展到<strong>当代英美证据法中的知识标准</strong></p></li>
+</ul>
+<p>这起案件，在摩尔的意义上，首先是一桩<strong>概念失败的案件</strong>。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="grok.html" class="btn btn-neutral float-left" title="Grok" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="copilot.html" class="btn btn-neutral float-right" title="Copilot" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -123,6 +123,7 @@ illard Van Orman Quine
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen
