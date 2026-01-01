@@ -1,4 +1,4 @@
-illard Van Orman Quine
+Willard Quine
 ======
 
 基于威拉德·范·奥曼·奎因（Willard Van Orman Quine）分析哲学核心思想对陈京元博士案件进行评价。

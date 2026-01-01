@@ -49,7 +49,7 @@
 
 *   **核心思想**：与理想语言学派相反，该学派认为日常语言本身是完美的，混乱源于哲学家 **脱离具体语境对语言进行抽象误用**。哲学的任务不是重建语言，而是 **仔细分析日常语言的细微差别和具体用法**，以“治疗”哲学疾病。
 
-*   **代表人物与理论**：
+*   **代表人物**：
 
     *   :doc:`晚期维特根斯坦 </chats/outlaw/analyse/foreign/branch/langu/wittgstein/index>` ：思想发生巨大转变，在《哲学研究》中批判了自己早期的观点，提出 **“意义即使用”** 和 **“语言游戏”** 理论。词语的意义不在于指称，而在于它在特定生活形式中的使用方式。
 
@@ -108,17 +108,17 @@
 
   - 关注语言的 **心智基础** 与认知机制。
 
-  - 乔姆斯基的“普遍语法”假设引发关于语言天赋性的哲学辩论。
+  - :doc:`乔姆斯基 </chats/outlaw/analyse/foreign/branch/langu/chomsky/index>` 的“普遍语法”假设引发关于语言天赋性的哲学辩论。
 
 **（2）社会语用与批判理论**
 
-- **代表人物**：哈贝马斯、布兰顿
+- **代表人物**： 哈贝马斯、布兰顿
 
 - **核心思想**：
 
-  - 哈贝马斯强调语言的 **交往理性** 功能，追求“理想言谈情境”。
+  - :doc:`哈贝马斯 </chats/outlaw/analyse/foreign/master/modern/habermas/index>` 强调语言的 **交往理性** 功能，追求“理想言谈情境”。
 
-  - 布兰顿等将分析哲学与实用主义结合，发展“推理主义语义学”。
+  - :doc:`布兰顿 </chats/outlaw/analyse/foreign/branch/langu/brandom/index>` 等将分析哲学与实用主义结合，发展“推理主义语义学”。
 
 
 **核心议题的流派对比**
@@ -134,10 +134,10 @@
      - 指称论（弗雷格/罗素） vs. 使用论（后期维特根斯坦） vs. 真值条件论（戴维森）
    * - **语言与世界**
      - 图像论（早期维特根斯坦） vs. 工具论（日常语言学派） vs. 存在论（海德格尔）
-   * - **语言与心智**
-     - 内在主义（乔姆斯基） vs. 外在主义（普特南/伯奇）
    * - **语言与社会**
      - 言语行为理论（奥斯汀） vs. 话语权力（福柯） vs. 交往行动（哈贝马斯）
+   * - **语言与心智**
+     - 内在主义（乔姆斯基） vs. 外在主义（普特南）
 
 
 **总结**
@@ -177,6 +177,11 @@
  .. toctree::
     :maxdepth: 1
 
+    moore/index
+
+ .. toctree::
+    :maxdepth: 1
+
     davidson/index
 
  .. toctree::
@@ -188,11 +193,6 @@
     :maxdepth: 1
 
     kripke/index
-
- .. toctree::
-    :maxdepth: 1
-
-    moore/index
 
  .. toctree::
     :maxdepth: 1
@@ -238,6 +238,26 @@
     :maxdepth: 1
 
     saussure/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    chomsky/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    makhan/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lakoff/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lauck/index
 
 -----------------------
 

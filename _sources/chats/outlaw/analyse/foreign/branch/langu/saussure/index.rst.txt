@@ -109,6 +109,7 @@ Ferdinand de Saussure
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen
