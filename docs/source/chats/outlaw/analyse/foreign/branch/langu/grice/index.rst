@@ -119,6 +119,7 @@ Herbert Paul Grice
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen
