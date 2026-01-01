@@ -94,6 +94,7 @@ Gilbert Ryle
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen

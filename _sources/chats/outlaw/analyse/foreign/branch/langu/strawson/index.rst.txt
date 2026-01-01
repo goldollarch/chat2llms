@@ -90,6 +90,7 @@ Peter Strawson
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen

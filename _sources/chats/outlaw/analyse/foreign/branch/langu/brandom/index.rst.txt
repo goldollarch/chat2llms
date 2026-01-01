@@ -108,6 +108,7 @@ Robert Brandom
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen
