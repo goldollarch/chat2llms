@@ -1,4 +1,4 @@
-George Edward Moore
+George E. Moore
 =====================
 
 根据乔治·爱德华·摩尔（George Edward Moore）常识唯实论哲学
