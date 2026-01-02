@@ -12,7 +12,7 @@ Slavoj Žižek
 
 一、核心方法论：拉康化的黑格尔辩证法
 
-齐泽克思想的基石是将拉康的精神分析理论作为解读黑格尔哲学的关键钥匙。
+齐泽克思想的基石是将 :doc:`拉康 </chats/outlaw/analyse/foreign/branch/psycho/lacan/index>` 的精神分析理论作为解读 :doc:`黑格尔 </chats/outlaw/analyse/foreign/master/recent/hegel/index>` 哲学的关键钥匙。
 
 *   **“回归黑格尔”**：他反对将黑格尔视为一个主张“绝对精神”和谐统一的乐观主义者，而是将其解读为一个 **直面矛盾、否定性和分裂的哲学家**。
 
@@ -105,3 +105,7 @@ Slavoj Žižek
     deepseek
     qwen
 
+
+---------------------------
+
+[:doc:`齐泽克的复杂性 </chats/outlaw/analyse/foreign/master/modern/zizek/compare>`]
