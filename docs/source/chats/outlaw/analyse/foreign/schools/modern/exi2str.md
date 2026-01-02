@@ -44,9 +44,9 @@
 
 尽管二者对立，但后来的思想流派（如后结构主义、后现代主义）试图超越这种二元对立。例如：
 
-- **福柯**早期受结构主义影响，后期转向关注权力与主体性的历史建构；
-- **德勒兹**批判结构主义的静态性，但吸收其非人本主义视角；
-- **拉康**将结构主义语言学引入精神分析，却保留了对主体分裂性的存在论关注。
+- [福柯](/chats/outlaw/analyse/foreign/master/modern/foucault/index) 早期受结构主义影响，后期转向关注权力与主体性的历史建构；
+- [德勒兹](/chats/outlaw/analyse/foreign/master/modern/deleuze/index) 批判结构主义的静态性，但吸收其非人本主义视角；
+- [拉康](/chats/outlaw/analyse/foreign/branch/psycho/lacan/index) 将结构主义语言学引入精神分析，却保留了对主体分裂性的存在论关注。
 
 因此，虽然结构主义与存在主义在鼎盛期呈现鲜明对立，但它们共同构成了20世纪思想对“人之本质”的深刻反思的两极。
 
@@ -71,8 +71,8 @@
 
    - 语言学：索绪尔
    - 人类学：列维-斯特劳斯
-   - 精神分析：拉康
-   - 思想史：福柯（早期）
+   - 精神分析：[拉康](/chats/outlaw/analyse/foreign/branch/psycho/lacan/index)
+   - 思想史：[福柯](/chats/outlaw/analyse/foreign/master/modern/foucault/index)（早期）
    - 文学理论：罗兰·巴特
 
 ---

@@ -59,6 +59,7 @@ Stoicism
 
 *   :doc:`马可·奥勒留 </chats/outlaw/analyse/foreign/master/ancient/aurelius/index>` ： 罗马帝国皇帝，其著作《沉思录》是他写给自己的个人日记，是斯多葛实践的终极典范。
 
+*   :doc:`西塞罗 </chats/outlaw/analyse/foreign/branch/legal/cicero/index>` ： 系统化、罗马化阐述斯多葛主义，并将其应用于罗马法理学的奠基。
 
 斯多葛主义在当代依然极具影响力，其教义被视为 **管理情绪、培养韧性和践行责任** 的强大心理工具，被广泛应用于现代心理学、领导力培训和个人发展中。
 
