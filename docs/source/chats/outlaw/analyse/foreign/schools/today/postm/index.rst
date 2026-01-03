@@ -87,6 +87,7 @@ Postmodernism
 *   :doc:`雅克·德里达 </chats/outlaw/analyse/foreign/master/modern/derrida/index>` ： **解构主义** 创始人，挑战逻各斯中心主义。
 *   :doc:`米歇尔·福柯 </chats/outlaw/analyse/foreign/master/modern/foucault/index>` ： 研究 **权力-知识** 关系、话语和规训。
 *   :doc:`让·鲍德里亚 </chats/outlaw/analyse/foreign/master/modern/baudrilard/index>` ： 提出“**仿像**”和“超真实”理论。
+*   :doc:`德勒兹 </chats/outlaw/analyse/foreign/master/modern/deleuze/index>` ： 从关注“存在是什么”转向关注“生成如何可能”；从追问“事物的同一性”转向探寻“差异的内在动力”。
 
 总而言之，后现代主义的核心是一种 **深刻的怀疑精神** ，它质疑任何绝对的、单一的、声称具有普遍权威的理论和答案，转而拥抱矛盾、碎片化和多样性。它的影响遍及哲学、文学、艺术、建筑、社会理论等几乎所有人文领域。
 

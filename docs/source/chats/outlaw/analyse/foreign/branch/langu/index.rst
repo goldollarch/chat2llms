@@ -55,9 +55,9 @@
 
     *   :doc:`约翰·奥斯汀 </chats/outlaw/analyse/foreign/branch/langu/austin/index>` ：提出 **言语行为理论**，认为说话本身就是做事（如承诺、命令、警告），区分了“言内行为”、“言外行为”和“言后行为”。
 
-    *   :doc:`斯特劳森 </chats/outlaw/analyse/foreign/branch/langu/strawson/index>`。
+    *   :doc:`约翰·塞尔 </chats/outlaw/analyse/foreign/branch/langu/searle/index>` ：来解决心智哲学和现实建构的根本问题，并在此基础上，捍卫一种基于常识和生物科学的现实主义世界观。
 
-    *   :doc:`塞尔 </chats/outlaw/analyse/foreign/branch/langu/searle/index>`。
+    *   :doc:`斯特劳森 </chats/outlaw/analyse/foreign/branch/langu/strawson/index>` ：一场 “回归生活世界”的哲学实践。
 
 **（3）实用主义与意义使用理论**
 
@@ -102,7 +102,7 @@
 
 **（1）心智与语言哲学**
 
-- **代表人物**：乔姆斯基、福多、平克
+- **代表人物**：乔姆斯基、:doc:`福多 </chats/outlaw/analyse/foreign/branch/psycho/fodor/index>` 、:doc:`平克 </chats/outlaw/analyse/foreign/branch/psycho/pinker/index>` 
 
 - **核心思想**：
 
@@ -183,11 +183,6 @@
     :maxdepth: 1
 
     davidson/index
-
- .. toctree::
-    :maxdepth: 1
-
-    dennett/index
 
  .. toctree::
     :maxdepth: 1
