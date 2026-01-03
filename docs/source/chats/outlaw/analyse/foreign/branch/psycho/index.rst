@@ -57,9 +57,11 @@
 
 - **代表人物**：
 
-   *  :doc:`勒内·笛卡尔 </chats/outlaw/analyse/foreign/master/recent/descartes/index>` 
+   * :doc:`勒内·笛卡尔 </chats/outlaw/analyse/foreign/master/recent/descartes/index>`： 传统实体二元论，现代严格追随者少。
 
-   *  大卫·查尔默斯 (David Chalmers)： 提出了“哲学僵尸”（Philosophical Zombie）的思想实验——一个在物理上和你完全一样，但没有内在意识体验的生物是逻辑上可能的。以此反驳物理主义。
+   * :doc:`戴维森 </chats/outlaw/analyse/foreign/branch/langu/davidson/index>`： 认为虽然心灵和身体是不同的，但它们在每个具体实例上是不可分割的（即每个心理事件都对应一个物理事件）。
+
+   * 大卫·查尔默斯 (David Chalmers)： 提出了“哲学僵尸”（Philosophical Zombie）的思想实验——一个在物理上和你完全一样，但没有内在意识体验的生物是逻辑上可能的。以此反驳物理主义。
 
 - **主要变种**：
 
@@ -72,8 +74,13 @@
 
 2.  **唯心主义**：
 
--    **核心观点**：它认为根本的实在是心灵的或精神的，物质世界只是心灵的显现或依赖于心灵而存在。
--    **代表人物**： :doc:`乔治·贝克莱 </chats/outlaw/analyse/foreign/master/recent/berkeley/index>`。
+-  **核心观点**：它认为根本的实在是心灵的或精神的，物质世界只是心灵的显现或依赖于心灵而存在。
+
+-  **代表人物**： 
+
+   *  :doc:`乔治·贝克莱 </chats/outlaw/analyse/foreign/master/recent/berkeley/index>`： 主观唯心论。
+
+   *  :doc:`罗素 </chats/outlaw/analyse/foreign/branch/langu/russell/index>`： 中立一元论。认为实在本质上是心灵的，或存在比物质与心灵更基本的“中性要素”
 
 
 3.  **物理主义/唯物主义** (Materialism)：
