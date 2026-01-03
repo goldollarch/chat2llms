@@ -1,4 +1,4 @@
-Benjamin Nathan Cardozo
+Benjamin N. Cardozo
 ====================
 
 基于本杰明·内森·卡多佐（Benjamin Nathan Cardozo）司法过程论核心思想
