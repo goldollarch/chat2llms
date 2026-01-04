@@ -261,3 +261,4 @@
 ---------------------------
 
 [:doc:`规范法学和实证法学 </chats/outlaw/analyse/foreign/branch/legal/review>`]
+[:doc:`中国哲学中对法哲学的探索 </chats/outlaw/analyse/foreign/branch/legal/chinese>`]

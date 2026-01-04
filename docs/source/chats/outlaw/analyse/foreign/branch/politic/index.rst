@@ -328,3 +328,7 @@
 
     socialist/index
 
+
+---------------------------
+
+[:doc:`中国哲学中对政治哲学的探索 </chats/outlaw/analyse/foreign/branch/politic/chinese>`]

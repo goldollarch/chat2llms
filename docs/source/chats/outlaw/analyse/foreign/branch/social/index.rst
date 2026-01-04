@@ -135,3 +135,7 @@
     :maxdepth: 1
 
     schutz/index
+
+---------------------------
+
+[:doc:`中国哲学中对社会哲学的探索 </chats/outlaw/analyse/foreign/branch/social/chinese>`]

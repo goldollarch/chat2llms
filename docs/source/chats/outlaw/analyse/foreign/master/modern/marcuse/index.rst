@@ -85,3 +85,9 @@ Herbert Marcuse
     deepseek
     qwen
 
+
+---------------------------
+
+[:doc:`阿尔都塞与马尔库塞” </chats/outlaw/analyse/foreign/master/modern/marcuse/compare>`]
+[:doc:`存在主义的马克思主义者” </chats/outlaw/analyse/foreign/master/modern/marcuse/existism>`]
+
