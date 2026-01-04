@@ -300,6 +300,7 @@
 
 -----------
 
+[:doc:`名家：中国的语言哲学与逻辑学先驱 </chats/outlaw/analyse/foreign/branch/langu/chinese>`]
 [:doc:`语言哲学和分析哲学关系 </chats/outlaw/analyse/foreign/branch/langu/analytic>`]
 [:doc:`英美哲学和欧陆哲学 </chats/outlaw/analyse/foreign/branch/langu/compare>`]
 [:doc:`语言学和语言哲学 </chats/outlaw/analyse/foreign/branch/langu/languge>`]

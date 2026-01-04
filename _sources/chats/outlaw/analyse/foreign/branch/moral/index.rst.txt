@@ -292,3 +292,7 @@
 
     meta/index
 
+
+---------------------------
+
+[:doc:`中国哲学中对道德哲学的探索 </chats/outlaw/analyse/foreign/branch/moral/chinese>`]

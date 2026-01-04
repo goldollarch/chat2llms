@@ -125,4 +125,5 @@ Systems Philos
 ---------------------------
 
 [:doc:`“系统哲学”与“复杂系统哲学” </chats/outlaw/analyse/foreign/branch/science/complex/compare>`]
+[:doc:`“系统哲学”与“结构主义哲学” </chats/outlaw/analyse/foreign/branch/science/system/structure>`]
 
