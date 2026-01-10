@@ -69,7 +69,7 @@
 
   - **美国现实主义** （:doc:`霍姆斯 </chats/outlaw/analyse/foreign/branch/legal/holmes/index>`、:doc:`弗兰克 </chats/outlaw/analyse/foreign/branch/legal/frank/index>`、:doc:`卢埃林 </chats/outlaw/analyse/foreign/branch/legal/lewellyn/index>`）：“法律的生命不是逻辑，而是经验”，注重司法行为预测。
 
-  - :doc:`斯堪的纳维亚现实主义 </chats/outlaw/analyse/foreign/branch/legal/realists/index>` （哈格斯特勒姆、罗斯）：用实证科学方法解构法律概念，视法律为社会心理事实。
+  - :doc:`斯堪的纳维亚现实主义 </chats/outlaw/analyse/foreign/branch/legal/realists/index>`： 用实证科学方法解构法律概念，视法律为社会心理事实。
 
 - **影响**：促进了法律社会学、批判法学和司法行为研究。
 
@@ -237,6 +237,21 @@
     :maxdepth: 1
 
     frank/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    hystlm/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lundst/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    ross/index
 
  .. toctree::
     :maxdepth: 1
