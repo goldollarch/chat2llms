@@ -100,17 +100,18 @@
 
 六、其他重要思潮
 
-1. **女性主义法学**：批判法律中的男性中心主义，关注法律对性别差异的建构与压迫。
+1. **法律与经济学**：用经济学的工具（特别是效率、激励）分析法律规则。代表人物：:doc:`理查德·波斯纳 </chats/outlaw/analyse/foreign/branch/legal/posner/index>` 等
 
-2. **批判种族理论**：揭露法律中系统性的种族主义及其隐蔽形式。
+2. **历史法学派**：法律是"民族精神"的有机产物，随历史自然生长，而非理性设计。代表人物：:doc:`萨维尼 </chats/outlaw/analyse/foreign/branch/legal/savigny/index>`
 
-3. **法律与经济学**：用经济学的工具（特别是效率、激励）分析法律规则。代表人物：:doc:`理查德·波斯纳 </chats/outlaw/analyse/foreign/branch/legal/posner/index>` 等
+3. **新修辞学法学**：强调法律语言的修辞性与解释的多样性。代表人物：:doc:`查伊姆·佩雷尔曼 </chats/outlaw/analyse/foreign/branch/legal/perelman/index>`
 
-4. **历史法学派**：法律是"民族精神"的有机产物，随历史自然生长，而非理性设计。代表人物：:doc:`萨维尼 </chats/outlaw/analyse/foreign/branch/legal/savigny/index>`
+4. :doc:`后现代法学 </chats/outlaw/analyse/foreign/branch/legal/postm/index>` ： 解构法律的确定性与普遍性，强调话语、权力和偶然性。
 
-5. **新修辞学法学**：强调法律语言的修辞性与解释的多样性。代表人物：:doc:`查伊姆·佩雷尔曼 </chats/outlaw/analyse/foreign/branch/legal/perelman/index>`
+5. **女性主义法学**：批判法律中的男性中心主义，关注法律对性别差异的建构与压迫。
 
-6. **后现代法学**：解构法律的确定性与普遍性，强调话语、权力和偶然性。
+6. **批判种族理论**：揭露法律中系统性的种族主义及其隐蔽形式。
+
 
 -----------------
 
@@ -121,6 +122,11 @@
 各流派的争论，尤其是自然法学与实证主义关于“法律与道德”的百年论战，构成了法哲学发展的主线。:doc:`德沃金 </chats/outlaw/analyse/foreign/branch/legal/dworkin/index>` 的解释理论试图超越这一对立。而批判法学、现实主义等则从外部审视法律的社会功能。理解这些流派，不仅是为了把握智识史，更是为了思考一个永恒的问题：在一个复杂多元的现代社会中，我们究竟需要什么样的法律，以及我们为何应当遵守它。
 
 -------------------------
+
+ .. toctree::
+    :maxdepth: 1
+
+    cicero/index
 
  .. toctree::
     :maxdepth: 1
@@ -151,11 +157,6 @@
     :maxdepth: 1
 
     dworkin/index
-
- .. toctree::
-    :maxdepth: 1
-
-    cicero/index
 
  .. toctree::
     :maxdepth: 1
@@ -236,6 +237,11 @@
     :maxdepth: 1
 
     frank/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    postm/index
 
  .. toctree::
     :maxdepth: 1
