@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carl Llewellyn &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../holmes/qw.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+      <li class="breadcrumb-item active">Carl Llewellyn</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/lewellyn/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="carl-llewellyn">
+<h1>Carl Llewellyn<a class="headerlink" href="#carl-llewellyn" title="Link to this heading"></a></h1>
+<p>基于卡尔·卢埃林（Carl Llewellyn）法律现实主义法哲学核心思想</p>
+<hr class="docutils" />
+<p>卡尔·卢埃林是 <strong>美国法律现实主义运动的领袖与系统阐述者</strong>。与杰罗姆·弗兰克激进的“事实怀疑论”相比，卢埃林的思想更为稳健和建设性，其核心可概括为 <strong>“规则怀疑论”</strong> 与 <strong>“功能主义”</strong> 的结合。他强调 <strong>法律研究的重点应从纸面规则转向官员（尤其是法官）的实际行为</strong>，并倡导一种以 <strong>“情境感”</strong> 为核心的司法方法。</p>
+<p>其核心思想体系，可以通过下图清晰地概览：</p>
+<img alt="../../../../../../../_images/review32.png" src="../../../../../../../_images/review32.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析其核心要义。</p>
+<p>—</p>
+<p><strong>一、核心命题：法律是官员的行为</strong></p>
+<p>卢埃林最著名的论断是：“<strong>法律就是官员（尤其是法官）关于争端所做的行为。</strong>” 这意味着：</p>
+<ul class="simple">
+<li><p><strong>研究对象**的转移：法学研究的焦点不应是书本上静止的规则，而应是法官、律师、警察、行政官员等 **活生生的行为</strong> 及其产生的社会效果。</p></li>
+<li><p><strong>预测性</strong>：对于律师和当事人而言，法律的意义在于 <strong>预测法院将如何裁决</strong>。因此，研究法官的 <strong>行为模式</strong> 比研究抽象的规则条文更实用。</p></li>
+</ul>
+<p><strong>二、核心方法：区分“纸面规则”与“现实规则”</strong></p>
+<p>这是其实证研究纲领的基础。</p>
+<ul class="simple">
+<li><p><strong>纸面规则</strong>：正式颁布的法典、条例和上诉法院判决中的原则性陈述。它们常常被法律形式主义者奉为圭臬。</p></li>
+<li><p><strong>现实规则</strong>：官员在实际处理纠纷时 <strong>真正遵循并产生稳定预期的行为规律</strong>。例如，某个法律条文在实践中可能被法官们普遍规避或重新解释。</p></li>
+</ul>
+<p>卢埃林认为，现实主义者的任务就是戳穿“纸面规则”与“现实规则”常常不符的假象，通过细致观察（如研究大量低级法院判决、商业惯例）来揭示法律在现实中究竟如何运作。</p>
+<p><strong>三、核心主张：规则的不确定性及其根源</strong></p>
+<p>他主张 <strong>“规则怀疑论”</strong> ，但与弗兰克不同，他的怀疑主要针对 <strong>上诉法院层面规则的确定性</strong>，认为其存在以下固有局限：</p>
+<ol class="arabic simple">
+<li><p><strong>规则的可塑性</strong>：先例并非只有一个“正确”解释。法官拥有 <strong>“可用的先例识别技术”</strong> （如遵循、区分、限缩、扩展），可以选择性地运用先例来支持不同的结论。</p></li>
+<li><p><strong>规则的冲突性</strong>：针对任何复杂案件，往往可以找到支持对立双方的法律原则。</p></li>
+<li><p><strong>规则的空缺性</strong>：法律无法为每一个新情况提供现成的答案。</p></li>
+</ol>
+<p>因此，判决不能简单归结为“规则+事实=结论”的逻辑演绎。法官在规则框架内拥有 <strong>相当大的选择和创造空间</strong>。</p>
+<p><strong>四、建设性方案：情境感与“普通法传统”</strong></p>
+<p>卢埃林并非单纯的“解构者”，他提出了建设性的司法方法。</p>
+<ol class="arabic simple">
+<li><p><strong>“情境感”方法</strong>：</p>
+<ul class="simple">
+<li><p>这是卢埃林思想中最具建设性的部分。他认为，优秀法官的判决不应基于个人癖好，而应基于对案件所涉 <strong>社会情境的深刻理解</strong>。</p></li>
+<li><p>法官应像工匠一样，考察案件事实背后的 <strong>商业惯例、行业需求、社会关系类型</strong>，并探究在此情境下，怎样的判决才能实现 <strong>“合理预期”</strong> 和 <strong>“正义感”</strong> 。法律规则应作为服务于此目的的工具。</p></li>
+</ul>
+</li>
+<li><p><strong>复兴“普通法的宏大风格”</strong>：</p>
+<ul class="simple">
+<li><p>在《普通法传统》一书中，他追溯并赞扬了普通法历史上一种理想的司法风格。这种风格 <strong>既尊重先例（保障稳定性和可预测性），又灵活运用法律技艺（保障法律的适应性和实质正义）</strong>。</p></li>
+<li><p>他认为，上诉法院的判决在总体上仍具有相当的可预测性，这种可预测性并非来自规则的僵化，而是来自法官共享的专业传统、推理技艺和对社会需求的敏感。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>五、与杰罗姆·弗兰克的对比</strong></p>
+<table class="docutils align-center" id="id1">
+<caption><span class="caption-text">法律现实主义内部两大思想对比</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 40.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>维度</strong></p></th>
+<th class="head"><p><strong>卡尔·卢埃林 （规则怀疑论）</strong></p></th>
+<th class="head"><p><strong>杰罗姆·弗兰克 （事实怀疑论）</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>怀疑焦点</strong></p></td>
+<td><p><strong>上诉审的法律规则</strong> 之确定性与预测力。</p></td>
+<td><p><strong>初审的事实认定过程</strong> 之可靠性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>核心研究对象</strong></p></td>
+<td><p>法官（尤其是上诉法官）的 <strong>行为模式与裁判技艺</strong>。</p></td>
+<td><p>法官/陪审团在认定事实时的 <strong>心理过程与主观因素</strong>。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>形象比喻</strong></p></td>
+<td><p>法律是 <strong>法官行为模式</strong> 的稳定集合，可被经验研究。</p></td>
+<td><p>法律是一场结果难测的 <strong>心理戏剧</strong>，充满了偶然性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>建设性方向</strong></p></td>
+<td><p>倡导以 <strong>“情境感”</strong> 为核心的司法方法，复兴普通法的灵活技艺。</p></td>
+<td><p>建议改革司法程序（如削弱陪审团），要求法官接受心理学训练。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>主要著作</strong></p></td>
+<td><p>《荆棘丛》、《普通法传统》、《买卖法的判例与材料》。</p></td>
+<td><p>《法律与现代心智》、《初审法院：美国司法的神话与现实》。</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>六、总结与影响</strong></p>
+<p>卡尔·卢埃林的法律现实主义，是一种 <strong>务实、功能导向且富有建设性</strong> 的法学思想。他并非要否定规则，而是主张更诚实、更科学地看待规则在实践中的作用。</p>
+<p>他的核心贡献在于：</p>
+<ol class="arabic simple">
+<li><p><strong>将法学研究的焦点从“规则”引向“行为”和“效果”</strong>，为法律社会学、司法行为研究开辟了道路。</p></li>
+<li><p><strong>提出了“情境感”这一核心方法论</strong>，强调法律必须回应社会生活的具体需要，这对法律教育和司法实践产生了深远影响。</p></li>
+<li><p><strong>其集大成之作《美国统一商法典》</strong>，正是其思想的最佳实践：该法典不拘泥于概念逻辑，而是以商业惯例和交易需求为核心，旨在促进商业活动的便利与公平。</p></li>
+</ol>
+<p>总而言之，卢埃林教导法律人：<strong>不要只做规则的奴仆，而要做善于运用规则、理解社会现实、实现正义功能的“技艺娴熟的工匠”。</strong> 他的思想平衡了现实主义对确定性的怀疑与对法律作为社会治理工具的信心。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">1. “纸上规则”与现实风格的脱节</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">2. 司法工艺的“人性”与偏见</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">3. 实用效果：从福祉到压制</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id4">结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、卢埃林的核心：  “法律规则不是决定，而是工具。”</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2"><strong>“寻衅滋事”不是法律依据，而是法律工具。</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3"><strong>二、卢埃林：  “法律的真正运作在法院的行为，而不是文本。”</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4"><strong>书本上的法律：</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5"><strong>行动中的法律：</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6"><strong>三、卢埃林：  “法官不是逻辑机器，而是制度角色。”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id7"><strong>四、卢埃林：  “模糊规则的功能是提供弹性，而不是提供确定性。”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id8"><strong>五、卢埃林：  “法律推理是修辞，而不是逻辑。”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id9"><strong>六、卢埃林式结论：“本案的结果不是法律决定的，而是制度决定的。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、卢埃林法律现实主义的核心思想（精准对位本案）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">1️⃣ 法律不是规则，而是<strong>裁判实践</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">2️⃣ 判决具有<strong>高度可预测性</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">3️⃣ 法律推理本质上是<strong>事后合理化</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">4️⃣ 模糊规则的价值在于<strong>可操作性</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">二、卢埃林视角下的第一判断：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">本案的裁判结果是“制度可预测的”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">在本案中，这三点高度明确：</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id9">三、“寻衅滋事”在卢埃林法哲学中的真正功能</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">1️⃣ 卢埃林区分两种规则：</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">2️⃣ 模糊不是问题，而是“好规则”的标志</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">四、“明知其假”如何被卢埃林式地构造</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">1️⃣ 卢埃林的“理由生成模型”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">2️⃣ 高学历 = 明知其假</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id17">五、为何被告的哲学与科学辩护注定失败？</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">1️⃣ 被告犯了“现实主义禁忌”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">2️⃣ 因此，程序选择成为结果的一部分</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id20">六、“证据链完整”的真实含义（卢埃林式解码）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id21">七、卢埃林的“情境化裁判”与本案</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id22">八、如果让卢埃林给本案一句课堂点评</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id23">九、总结性判断（卢埃林式）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id24">一句话结论（卢埃林式）：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">1. “官员的行为即为法律本身”：本案中官员行为的实质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">2. 规则怀疑论：规则的不确定性与“宏大风格”的缺失</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">3. 法律的“官方法”与“活法”的冲突</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">4. 作为纠纷解决方式的法律的失败</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5">结论：卢埃林视角下的系统性司法功能失调</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#vs-paper-rules-vs-real-rules">一、 纸面规则 vs. 实在规则（Paper Rules vs. Real Rules）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#rationalization">二、 判决理由的“事后合理化”（Rationalization）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#formal-style-vs-grand-style">三、 “形式风格”掩盖“大风范”（Formal Style vs. Grand Style）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#law-as-a-craft">四、 法律作为一门“手艺”（Law as a Craft）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">总结：实在主义的冷峻凝视</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#vs">一、“纸面规则” vs. “行动中的法”：规则沦为政治工具</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">二、规则怀疑论的反讽：规则被用于压制怀疑</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">三、“大传统”的缺席：无政策考量、无社会后果、无公平意识</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">四、情境的暴力抹除：从“具体的人”到“抽象罪犯”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">结语：卢埃林的警示——无法情境化的法律，只是暴力的伪装</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../holmes/qw.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

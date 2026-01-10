@@ -1,0 +1,362 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="ChatGPT" href="chatgpt.html" />
+    <link rel="prev" title="Grok" href="grok.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Carl Llewellyn</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/lewellyn/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>下面我给你一个<strong>真正基于卡尔·卢埃林（Karl Llewellyn）法律现实主义核心思想</strong>的深度分析，而不是泛泛而谈的“现实主义”。卢埃林是美国法律现实主义运动的灵魂人物，他的思想比霍姆斯或弗兰克更系统、更结构化，尤其强调：</p>
+<ul class="simple">
+<li><p><strong>法律是“做出来的”（law in action），不是“写出来的”（law in books）</strong></p></li>
+<li><p><strong>规则不是决定案件的，而是被法官“使用”的</strong></p></li>
+<li><p><strong>案件的结果来自制度、角色、习惯、压力，而不是逻辑推演</strong></p></li>
+<li><p><strong>法律的真正意义在于预测法院的行为，而不是解释文本</strong></p></li>
+</ul>
+<p>将这些思想应用到你正在研究的案件，会呈现出一种极具穿透力的分析。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2><strong>一、卢埃林的核心：  “法律规则不是决定，而是工具。”</strong><a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>卢埃林最著名的观点之一是：</p>
+<blockquote>
+<div><p><strong>规则不是决定案件的，而是法官用来支持其决定的工具。</strong></p>
+</div></blockquote>
+<p>换句话说：</p>
+<ul class="simple">
+<li><p>法官先有倾向</p></li>
+<li><p>再从规则中挑选支持倾向的语言</p></li>
+<li><p>判决书是“事后合理化”而不是“逻辑推导”</p></li>
+</ul>
+<p>应用到本案：</p>
+<section id="id2">
+<h3><strong>“寻衅滋事”不是法律依据，而是法律工具。</strong><a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>它的功能不是界定行为，而是：</p>
+<ul class="simple">
+<li><p>提供一个可伸缩的框架</p></li>
+<li><p>让法院可以在需要时“套用”</p></li>
+<li><p>让判决看起来合法、形式上完备</p></li>
+</ul>
+<p>因此，本案的关键不是：</p>
+<ul class="simple">
+<li><p>行为是否真的“扰乱秩序”</p></li>
+<li><p>信息是否真的“虚假”</p></li>
+</ul>
+<p>而是：</p>
+<blockquote>
+<div><p><strong>法院是否需要一个可以合法化惩罚的工具。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2><strong>二、卢埃林：  “法律的真正运作在法院的行为，而不是文本。”</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>卢埃林区分：</p>
+<ul class="simple">
+<li><p><strong>law in books（书本上的法律）</strong></p></li>
+<li><p><strong>law in action（行动中的法律）</strong></p></li>
+</ul>
+<p>在本案中：</p>
+<section id="id4">
+<h3><strong>书本上的法律：</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>“严重扰乱社会秩序”</p></li>
+<li><p>“明知虚假信息”</p></li>
+<li><p>“情节恶劣”</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3><strong>行动中的法律：</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>对跨境信息流动的制度焦虑</p></li>
+<li><p>对表达的政治敏感性</p></li>
+<li><p>对“示范性惩罚”的行政需求</p></li>
+<li><p>法院对上级机关的从属性</p></li>
+<li><p>对风险的规避心理</p></li>
+</ul>
+<p>卢埃林会说：</p>
+<blockquote>
+<div><p><strong>真正决定案件结果的，是“行动中的法律”，不是“书本上的法律”。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2><strong>三、卢埃林：  “法官不是逻辑机器，而是制度角色。”</strong><a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>卢埃林认为法官的行为受到：</p>
+<ul class="simple">
+<li><p>制度结构</p></li>
+<li><p>职业文化</p></li>
+<li><p>角色期待</p></li>
+<li><p>上级压力</p></li>
+<li><p>同僚影响</p></li>
+<li><p>社会情绪</p></li>
+</ul>
+<p>的共同塑造。</p>
+<p>在本案中，法官的“角色期待”包括：</p>
+<ul class="simple">
+<li><p>不得放纵敏感表达</p></li>
+<li><p>不得制造“政治风险”</p></li>
+<li><p>必须与检方保持一致</p></li>
+<li><p>必须体现“态度”</p></li>
+<li><p>必须维护行政系统的预期</p></li>
+</ul>
+<p>因此，法官的行为不是“法律推理”，而是：</p>
+<blockquote>
+<div><p><strong>在制度结构中寻找最安全的选择。</strong></p>
+</div></blockquote>
+<p>而最安全的选择就是：</p>
+<ul class="simple">
+<li><p>维持指控</p></li>
+<li><p>强化边界</p></li>
+<li><p>传递信号</p></li>
+</ul>
+<p>这完全符合卢埃林的理论。</p>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h2><strong>四、卢埃林：  “模糊规则的功能是提供弹性，而不是提供确定性。”</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<p>“寻衅滋事”作为口袋罪，正是卢埃林所说的：</p>
+<blockquote>
+<div><p><strong>“open‑texture rules”（开放纹理规则）</strong></p>
+</div></blockquote>
+<p>它们的功能不是：</p>
+<ul class="simple">
+<li><p>精确界定行为</p></li>
+</ul>
+<p>而是：</p>
+<ul class="simple">
+<li><p>提供制度弹性</p></li>
+<li><p>让法院在需要时可以“扩张”或“收缩”</p></li>
+<li><p>让行政系统可以“选择性适用”</p></li>
+</ul>
+<p>在本案中：</p>
+<ul class="simple">
+<li><p>“严重扰乱社会秩序”没有量化标准</p></li>
+<li><p>“明知”被用身份推定</p></li>
+<li><p>“虚假信息”没有事实检验机制</p></li>
+</ul>
+<p>这些都不是缺陷，而是：</p>
+<blockquote>
+<div><p><strong>制度为了灵活控制而设计的特性。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2><strong>五、卢埃林：  “法律推理是修辞，而不是逻辑。”</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<p>卢埃林认为：</p>
+<blockquote>
+<div><p><strong>判决书的功能不是推理，而是说服。</strong></p>
+</div></blockquote>
+<p>说服谁？</p>
+<ul class="simple">
+<li><p>上级机关</p></li>
+<li><p>同级法院</p></li>
+<li><p>社会公众</p></li>
+<li><p>未来可能的被告</p></li>
+</ul>
+<p>因此，判决书中的逻辑不需要严密，只需要：</p>
+<ul class="simple">
+<li><p>形式上完整</p></li>
+<li><p>语言上严肃</p></li>
+<li><p>态度上坚定</p></li>
+<li><p>结论上可预测</p></li>
+</ul>
+<p>在本案中：</p>
+<ul class="simple">
+<li><p>“博士＝明知”</p></li>
+<li><p>“低传播＝严重危害”</p></li>
+<li><p>“表达＝虚假信息”</p></li>
+</ul>
+<p>这些推理在逻辑上站不住脚，但在修辞上：</p>
+<ul class="simple">
+<li><p>足够严肃</p></li>
+<li><p>足够威慑</p></li>
+<li><p>足够符合制度期待</p></li>
+</ul>
+<p>这就是卢埃林所说的：</p>
+<blockquote>
+<div><p><strong>“法律推理是为了正当化，而不是为了推导。”</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h2><strong>六、卢埃林式结论：“本案的结果不是法律决定的，而是制度决定的。”</strong><a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<p>从卢埃林的角度看，本案的核心不是：</p>
+<ul class="simple">
+<li><p>行为是否违法</p></li>
+<li><p>信息是否虚假</p></li>
+<li><p>是否造成危害</p></li>
+<li><p>是否明知</p></li>
+</ul>
+<p>而是：</p>
+<ul class="simple">
+<li><p>法院在制度中的位置</p></li>
+<li><p>模糊规则的工具性</p></li>
+<li><p>行政系统的风险偏好</p></li>
+<li><p>法官的角色期待</p></li>
+<li><p>对表达的政治敏感性</p></li>
+</ul>
+<p>因此，卢埃林会说：</p>
+<blockquote>
+<div><p><strong>“法律在此不是裁判，而是工具；
+判决不是逻辑，而是制度行为。”</strong></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>如果你愿意，我可以继续为你：</p>
+<ul class="simple">
+<li><p>写一篇<strong>卢埃林式的法律现实主义学术论文</strong></p></li>
+<li><p>写一篇<strong>从“law in action”角度重构本案的司法过程分析</strong></p></li>
+<li><p>将此分析与霍姆斯、弗兰克、罗斯（斯堪的纳维亚现实主义）进行比较</p></li>
+<li><p>将其纳入你正在构建的“法律‑哲学‑制度”活档案体系</p></li>
+</ul>
+<p>你想继续往哪个方向深化？</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="grok.html" class="btn btn-neutral float-left" title="Grok" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chatgpt.html" class="btn btn-neutral float-right" title="ChatGPT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

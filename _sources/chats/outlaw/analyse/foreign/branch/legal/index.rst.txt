@@ -61,15 +61,15 @@
   - 庞德提出“社会工程论”，主张法律应调和社会利益。
   - 法律不仅是规范，更是社会秩序的工具。
 
-法律现实主义是“社会法学”思潮中一个最重要、最激进、最具代表性的分支或表现形态：
+:doc:`法律现实主义 </chats/outlaw/analyse/foreign/branch/legal/realist/index>` 是“社会法学”思潮中一个最重要、最激进、最具代表性的分支或表现形态：
 
 - **核心主张**：关注“行动中的法律”，认为法律是不确定的，法官的个性、心理和社会背景决定了判决。
 
 - **主要分支**：
 
-  - **美国现实主义** （:doc:`霍姆斯 </chats/outlaw/analyse/foreign/branch/legal/holmes/index>`、弗兰克、卢埃林）：“法律的生命不是逻辑，而是经验”，注重司法行为预测。
+  - **美国现实主义** （:doc:`霍姆斯 </chats/outlaw/analyse/foreign/branch/legal/holmes/index>`、:doc:`弗兰克 </chats/outlaw/analyse/foreign/branch/legal/frank/index>`、:doc:`卢埃林 </chats/outlaw/analyse/foreign/branch/legal/lewellyn/index>`）：“法律的生命不是逻辑，而是经验”，注重司法行为预测。
 
-  - :doc:`斯堪的纳维亚现实主义 </chats/outlaw/analyse/foreign/branch/legal/srealist/index>` （哈格斯特勒姆、罗斯）：用实证科学方法解构法律概念，视法律为社会心理事实。
+  - :doc:`斯堪的纳维亚现实主义 </chats/outlaw/analyse/foreign/branch/legal/realists/index>` （哈格斯特勒姆、罗斯）：用实证科学方法解构法律概念，视法律为社会心理事实。
 
 - **影响**：促进了法律社会学、批判法学和司法行为研究。
 
@@ -190,11 +190,6 @@
  .. toctree::
     :maxdepth: 1
 
-    holmes/index
-
- .. toctree::
-    :maxdepth: 1
-
     pound/index
 
  .. toctree::
@@ -230,17 +225,37 @@
  .. toctree::
     :maxdepth: 1
 
+    holmes/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    lewellyn/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    frank/index
+
+ .. toctree::
+    :maxdepth: 1
+
     positivism/index
 
  .. toctree::
     :maxdepth: 1
 
-    sociolo/index
+    realist/index
 
  .. toctree::
     :maxdepth: 1
 
-    srealist/index
+    realists/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    sociolo/index
 
  .. toctree::
     :maxdepth: 1

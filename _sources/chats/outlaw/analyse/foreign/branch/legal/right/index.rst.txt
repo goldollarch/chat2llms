@@ -83,3 +83,6 @@ Legal Right
     ds
     qw
 
+--------------------
+
+[:doc:`法权哲学和法律哲学 </chats/outlaw/analyse/foreign/branch/legal/right/compare>`]

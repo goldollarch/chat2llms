@@ -1,0 +1,335 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jerome Frank &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../lewellyn/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+      <li class="breadcrumb-item active">Jerome Frank</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/frank/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="jerome-frank">
+<h1>Jerome Frank<a class="headerlink" href="#jerome-frank" title="Link to this heading"></a></h1>
+<p>基于杰罗姆·弗兰克（Jerome Frank）法律现实主义（Legal Realism）法哲学核心思想</p>
+<hr class="docutils" />
+<p>杰罗姆·弗兰克是 <strong>美国法律现实主义运动中最激进、最具代表性的思想家之一</strong>，其核心思想可以概括为 <strong>“事实怀疑论”</strong>。他比其同侪（如卡尔·卢埃林）走得更远，认为法律不确定性的根源不仅在于规则的模糊，更在于 <strong>司法过程中“事实认定”的极端不可靠性</strong>。</p>
+<p>其核心思想体系，可以通过下图清晰地概览：</p>
+<img alt="../../../../../../../_images/review31.png" src="../../../../../../../_images/review31.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析其核心要义。</p>
+<p>—</p>
+<p><strong>一、核心命题：解构“法律确定性神话”</strong></p>
+<p>弗兰克在其代表作《法律与现代心智》中，首先抨击了主流社会所信奉的 <strong>“法律确定性神话”</strong> ——即认为法律是稳定、精确、可预测的，法官只是机械地适用规则。他认为，这种对确定性的渴求，源于一种孩子对父亲般权威的 <strong>“幼稚期依赖”</strong> ，而成熟的法律人应当拥抱现实世界的 <strong>不确定性</strong>。</p>
+<p><strong>二、核心诊断：“事实怀疑论”</strong></p>
+<p>弗兰克认为，法律不确定性的关键在于 <strong>“事实”</strong> ，而非“规则”。他将司法过程的不确定性分为两层：</p>
+<ol class="arabic simple">
+<li><p><strong>第一层：规则的不确定性</strong> （“规则怀疑论”）：</p>
+<ul class="simple">
+<li><p>这是其现实主义同僚（如卢埃林）关注的重点，即 <strong>法律规则本身是模糊、可被多种解释的</strong>。</p></li>
+<li><p>弗兰克承认这一点，但他认为这还不是最根本的问题。</p></li>
+</ul>
+</li>
+<li><p><strong>第二层：事实的不确定性</strong> （其原创核心贡献）：</p>
+<ul class="simple">
+<li><p>这是弗兰克思想的核心。他认为，<strong>法庭上认定的“法律事实”，与真实的“客观事实”之间存在着巨大、且无法消除的差距</strong>。</p></li>
+<li><p>判决是基于法官或陪审团 <strong>“确信”发生了的事实</strong> 作出的，而这种确信极可能出错。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>三、事实为何不可靠？——扭曲事实的四大因素</strong></p>
+<p>弗兰克详细分析了司法过程中导致事实被扭曲的根源：</p>
+<ol class="arabic simple">
+<li><p><strong>证人因素</strong>：证人的感知、记忆和叙述都不可靠。他们可能无意中歪曲事实，也可能故意作伪证。</p></li>
+<li><p><strong>法官与陪审团的“人格”因素</strong>：这是弗兰克最强调的一点。法官/陪审员的个人经历、性格特质、潜意识偏见、情绪甚至 <strong>消化状况</strong>，都会影响其对证人可信度和证据份量的判断。判决往往是 <strong>直觉先行，法律理由后补</strong>。</p></li>
+<li><p><strong>律师因素</strong>：律师是“有偏见的筛选者”，他们只呈现对己方有利的证据，并通过技巧影响法庭对事实的认知。</p></li>
+<li><p><strong>程序因素</strong>：对抗制诉讼程序本身就像一场 <strong>人为安排的战斗</strong>，其规则（如证据排除规则）可能阻碍真相的发现。</p></li>
+</ol>
+<p><strong>四、核心隐喻与解决方案</strong></p>
+<ul class="simple">
+<li><p><strong>法官是“司法艺术家”，而非“自动售货机”</strong>：弗兰克认为，理想的法官不应掩饰其直觉和个性在判决中的作用，而应公开承认这一点，并努力通过 <strong>自我认知和心理学训练</strong>，来减少个人偏见的影响，成为更敏锐、更公正的“事实判断者”。</p></li>
+<li><p><strong>改革方向</strong>：</p>
+<ul>
+<li><p><strong>承认法律的“人”性</strong>：法律是法官在具体案件中的行为，必须直面人性因素。</p></li>
+<li><p><strong>改革事实认定程序</strong>：例如，他主张削弱传统陪审团的作用，认为其容易受情绪和偏见左右，建议由专业法官或专家小组负责事实认定。</p></li>
+<li><p><strong>追求“看得见的正义”</strong>：尽管确定性是神话，但应通过制度设计，使司法过程尽可能透明、公正，让当事人感受到程序正义。</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>五、与卢埃林“规则怀疑论”的对比</strong></p>
+<table class="docutils align-center" id="id1">
+<caption><span class="caption-text">法律现实主义两大分支思想对比</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 40.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>维度</strong></p></th>
+<th class="head"><p><strong>卡尔·卢埃林 （规则怀疑论）</strong></p></th>
+<th class="head"><p><strong>杰罗姆·弗兰克 （事实怀疑论）</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>怀疑焦点</strong></p></td>
+<td><p><strong>法律规则</strong> 的确定性和预测价值。</p></td>
+<td><p><strong>事实认定过程</strong> 的可靠性。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>核心问题</strong></p></td>
+<td><p>“纸面规则”与“现实规则”是否一致？官员（尤其是法官）的行为模式是什么？</p></td>
+<td><p>法官/陪审团如何“认定”事实？这些“法律事实”为何与真相相去甚远？</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>改革重点</strong></p></td>
+<td><p>使法律规则更贴近商业实践等现实，倡导“情境感”法律方法。</p></td>
+<td><p>改革司法程序和事实认定机制，提升法官的心理素养。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>比喻</strong></p></td>
+<td><p>法律是社会工程师的 <strong>工具</strong>。</p></td>
+<td><p>法律是一场由人主演的、结果难测的 <strong>戏剧</strong>。</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>总结</strong></p>
+<p>杰罗姆·弗兰克将法律现实主义推向了逻辑极致：<strong>如果连案件“事实”本身都是法庭主观建构的、极不稳定的产物，那么建立在“事实”之上的法律规则适用，其确定性和客观性更是无从谈起。</strong> 他的思想彻底揭开了司法过程“理性化”的外衣，暴露出其深处根植于人类心理弱点和程序缺陷的 <strong>偶然性与不确定性</strong>。</p>
+<p>尽管其观点因其极端性和对司法信心的潜在破坏而备受争议，但他的“事实怀疑论”留下了不可磨灭的遗产：</p>
+<ol class="arabic simple">
+<li><p><strong>深刻影响了证据法学</strong>，促使人们更科学地研究证人心理学、陪审团行为。</p></li>
+<li><p><strong>强化了程序正义的重要性</strong>，既然实体结果难以绝对确定，那么公平的程序本身就成为正义的核心。</p></li>
+<li><p><strong>作为一面永恒的警示镜</strong>，提醒所有法律人：在追求正义的道路上，最大的挑战或许不是理解法律，而是 <strong>看清事实的真相</strong>。</p></li>
+</ol>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">1. “基本法律神话”在判决中的延续与强化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">2. 事实怀疑论：事实认定的极端不确定性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#hunch">3. 司法“hunch”与后理性化的典型案例</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">4. 改革诉求的缺席与现实悲剧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id4">结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、弗兰克的核心：“法律的不确定性来自法官，而不是规则。”</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2"><strong>本案的判决不是由《刑法》第293条决定的，而是由：</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3"><strong>二、弗兰克：“规则是事后合理化，判决来自潜意识。”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4"><strong>三、弗兰克：“法官的个人经历决定法律。”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5"><strong>四、弗兰克：“制度压力比规则更能决定结果。”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6"><strong>五、弗兰克：“法律的不确定性是结构性的，而不是偶然的。”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id7"><strong>六、弗兰克式结论：“本案的结果不是法律决定的，而是法官的心理与制度压力决定的。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、弗兰克法律现实主义的独特位置</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">1️⃣ <strong>法律结果本质上不确定</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">2️⃣ <strong>司法判断深受心理因素影响</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">3️⃣ <strong>确定性是司法制造的幻觉</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">二、本案的弗兰克式起点：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">判决并非“判断”，而是“心理反应”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">三、“寻衅滋事”作为心理缓冲器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">1️⃣ 弗兰克眼中的模糊罪名</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id9">四、“明知其假”是一种心理投射</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">1️⃣ 弗兰克的“司法投射理论”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">2️⃣ 高学历 = 明知其假</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">五、为何哲学与科学辩护必然被拒绝？</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">1️⃣ 复杂性 = 威胁</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">2️⃣ 因此，程序被压缩</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id15">六、“证据链完整”是心理安慰语</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id16">七、上诉被驳回的弗兰克式解释</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id17">1️⃣ 弗兰克：</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id18">八、弗兰克视角下的本案本质</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">1️⃣ 本案不是“事实裁决”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">2️⃣ 而是“焦虑管理”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">3️⃣ 法律语言是镇静剂</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">4️⃣ 判决是心理稳定装置</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id23">九、如果让杰罗姆·弗兰克给本案一句评语</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id24">十、总结性判断（弗兰克式）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id25">一句话结论（弗兰克式）：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">1. 事实怀疑论：被权力“建构”出来的“犯罪事实”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">2. 法官的“个性”与“预感”：非理性因素的决定性作用</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">3. 法律确定性的“基本法律神话”的破灭</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">4. 父亲权威的投射与“司法孩童”的心理需求</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5">结论：一场“人”的悲剧，而非“法”的失误</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#fact-skepticism">一、 事实怀疑主义（Fact Skepticism）：事实是被“制造”出来的</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#the-personal-equation">二、 法官的“个人方程式”（The Personal Equation）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#the-basic-myth-father-complex">三、 “基本神话”与“父权情结”（The Basic Myth &amp; Father Complex）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">四、 判决的不确定性与“老千赌局”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">总结：司法心理剧</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、“事实怀疑论”的极端印证：事实即叙事，叙事即权力</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、法官的“早餐”：司法人格的政治化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">三、“寻衅滋事罪”作为“规则空洞化”的典范</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">四、对“法律神话”的摧毁：民众幻想的破灭</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">五、结语：弗兰克的终极警示——法律即人，人即不确定</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../lewellyn/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
