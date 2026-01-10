@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alf Ross &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../lundst/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+      <li class="breadcrumb-item active">Alf Ross</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/ross/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="alf-ross">
+<h1>Alf Ross<a class="headerlink" href="#alf-ross" title="Link to this heading"></a></h1>
+<p>基于阿尔夫·罗斯（Alf Ross）现实主义法哲学核心思想</p>
+<hr class="docutils" />
+<p>阿尔夫·罗斯是 <strong>斯堪的纳维亚现实主义法学最具国际影响力的人物</strong>，其思想以 <strong>逻辑经验主义的严密性和对“正义”概念的激进批判</strong> 著称。他致力于将法学彻底改造为一门 <strong>经验性的、价值中立的预测科学</strong>。</p>
+<p>其核心思想体系，可以通过下图清晰地概览：</p>
+<img alt="../../../../../../../_images/review37.png" src="../../../../../../../_images/review37.png" />
+<p>以下，我们将沿此逻辑脉络，深入解析其核心要义。</p>
+<p>—</p>
+<p><strong>一、哲学基础：激进的逻辑经验主义</strong></p>
+<p>罗斯深受维也纳学派逻辑经验主义的影响，其思想的起点是一个严格的认识论原则：<strong>一个陈述的意义，就在于其验证（或证伪）的方法。</strong> 据此，他将所有陈述分为两类：</p>
+<ol class="arabic simple">
+<li><p><strong>有认知意义的陈述</strong>：</p>
+<ul class="simple">
+<li><p><strong>分析命题</strong> （逻辑、数学）：其真假取决于形式。</p></li>
+<li><p><strong>综合命题</strong> （经验事实）：其真假可通过感官观察验证。</p></li>
+</ul>
+</li>
+<li><p><strong>无认知意义的陈述</strong>：</p>
+<ul class="simple">
+<li><p><strong>形而上学与伦理命题</strong> （包括大部分传统法哲学讨论的“正义”、“自然法”、“应然”）：它们无法被经验验证，因此不表达客观知识，仅仅是 <strong>情感、态度或意志的表达</strong>。</p></li>
+</ul>
+</li>
+</ol>
+<p>这一哲学立场，为他对传统法学的批判提供了最锋利的武器。</p>
+<p><strong>二、核心批判：解构“正义”</strong></p>
+<p>罗斯最著名的论断是：<strong>“主张正义，无异于敲打桌子：一种情感的表达，将个人的要求转化为绝对的信条。”</strong></p>
+<ul class="simple">
+<li><p><strong>“正义”是空洞的</strong>：他认为，“正义”这个概念没有确定的经验指涉。对同一法律或判决，人们可能基于截然不同的价值观（自由、平等、安全、效率）而宣称其“正义”或“不正义”。因此，正义判断本质上是 <strong>主观偏好的情感宣泄</strong>，而非理性的论证。</p></li>
+<li><p><strong>对法学的意义</strong>：真正的 <strong>法律科学必须彻底清除“正义”这类无法验证的形而上学概念</strong>。法学家的任务不是讨论法律“应当”是什么（那是政治学或伦理学的领域），而是描述和解释法律“实际”是什么。</p></li>
+</ul>
+<p><strong>三、核心理论：法律作为“社会事实”与“预测工具”</strong></p>
+<p>在清除了形而上学之后，罗斯提出了他对法律本质的实证主义解释：</p>
+<ol class="arabic simple">
+<li><p><strong>法律规则的效力是一种社会心理事实</strong>：他吸收了伦德斯特的思想，认为法律之所以有效，并非因为其符合某种道德理想或逻辑规范，而是因为 <strong>社会成员（尤其是法官）普遍将其体验为一种“社会事实”并据以行动</strong>。</p></li>
+<li><p><strong>“无效力感”是效力的关键</strong>：罗斯提出了一个精妙的公式：一条法律规则之所以有效，是因为人们（特别是法官）在违反它时，会产生一种 <strong>“无效力感”</strong> ——即预测到会导致不利的社会反应（如制裁）。因此，效力存在于人们的 <strong>预测性心理态度</strong> 中。</p></li>
+<li><p><strong>法律陈述是对官员行为的预测</strong>：基于此，他认为所有真正的法律陈述（如“你有义务还债”），都可以被 <strong>翻译为对法官在未来特定情境下可能采取何种行为的经验性预测</strong>。法学因此成为一门 <strong>预测法官行为的科学</strong>。</p></li>
+</ol>
+<p><strong>四、方法论：区分“法律科学”与“法律政策学”</strong></p>
+<p>为了保持法学的科学性，罗斯严格区分了两个领域：</p>
+<table class="docutils align-center" id="id1">
+<caption><span class="caption-text">阿尔夫·罗斯的学科划分</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 35.0%" />
+<col style="width: 35.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>领域</strong></p></th>
+<th class="head"><p><strong>法律科学</strong></p></th>
+<th class="head"><p><strong>法律政策学</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>性质</strong></p></td>
+<td><p><strong>描述性、价值中立</strong> 的经验科学。</p></td>
+<td><p><strong>规范性、评价性</strong> 的政治或伦理艺术。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>核心问题</strong></p></td>
+<td><p>法律 <strong>是</strong> 什么？它如何实际运作？</p></td>
+<td><p>法律 <strong>应当</strong> 是什么？如何改进法律？</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>方法</strong></p></td>
+<td><p>逻辑分析与对法官行为的经验观察。</p></td>
+<td><p>基于社会目标（如福利、安全）的价值判断与权衡。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>目标</strong></p></td>
+<td><p>提供关于法律体系运作的客观知识。</p></td>
+<td><p>为立法和法律改革提供建议。</p></td>
+</tr>
+</tbody>
+</table>
+<p>罗斯认为，混淆这两者是传统法学混乱的根源。真正的法学家应专注于前者。</p>
+<p><strong>五、总结与评价</strong></p>
+<p>阿尔夫·罗斯将斯堪的纳维亚现实主义推向了 <strong>最彻底、最逻辑严密的实证主义形式</strong>。</p>
+<ul class="simple">
+<li><p><strong>贡献</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>方法论上的纯粹性</strong>：他以逻辑经验主义为法学“消毒”，试图建立一门堪比自然科学的、价值无涉的法律科学。</p></li>
+<li><p><strong>深刻的批判性</strong>：他对“正义”概念的剖析，无情地揭示了法律辩论中经常隐藏的情感与非理性因素，至今仍有警示意义。</p></li>
+<li><p><strong>国际影响</strong>：其代表作《论法律与正义》以英文出版，是该学派在英语世界影响最广的著作。</p></li>
+</ol>
+</li>
+<li><p><strong>批评</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>自我驳斥</strong>：他的理论本身（如“所有规范性陈述都无认知意义”）是否也是一个无法验证的形而上学命题？这陷入了逻辑困境。</p></li>
+<li><p><strong>解释力不足</strong>：将法律完全归结为对官员行为的预测，无法解释法律为何能作为普通人 <strong>行动的独立理由</strong> （“我守法因为这是法律”，而不仅仅是因为“我预测法官会制裁我”）。</p></li>
+<li><p><strong>过于狭隘</strong>：将“正义”等价值问题完全驱逐出法学领域，使得法学无法对法律进行内在的批判性反思，削弱了其社会关怀。</p></li>
+</ol>
+</li>
+</ul>
+<p><strong>总而言之，罗斯是斯堪的纳维亚现实主义学派中“科学的、反意识形态的清洁工”。他将法学对确定性和科学性的追求推向了极致，其思想是一面冷酷而清晰的镜子，映照出传统法学中所有模糊与情感的部分，迫使我们思考：当我们谈论法律时，我们究竟是在进行理性的描述，还是在“敲打桌子”？</strong></p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#alf-ross">从阿尔夫·罗斯（Alf Ross）现实主义法哲学视角看陈京元“寻衅滋事罪”案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">1. 判决作为司法行为的预测而非规范命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">2. 非认知主义：法律价值的虚无与情感投射</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">3. 实证主义：司法过程的经验事实与神秘主义伪装</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">4. 实用预测与社会效果的失败</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">1. 罗斯的核心：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2"><strong>“法律规则的意义来自法院的行为，而不是文本。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">2. 罗斯：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5"><strong>“法律判断不是逻辑推导，而是制度化的行为预测。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id7">3. 罗斯：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id8"><strong>“法律概念是行动指令，而不是事实陈述。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id9">4. 罗斯：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10"><strong>“法律必须基于经验事实，而不是形而上学推定。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id11">5. 罗斯：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12"><strong>“法律的功能是维持可预测性，而不是制造恐惧。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id13">6. 罗斯式结论：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14"><strong>“本案不是法律逻辑的产物，而是制度行为模式的产物。”</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、阿尔夫·罗斯现实主义法哲学的核心立场</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">1️⃣ 法律不是“应然规范”，而是<strong>事实性预测</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">2️⃣ “权利”“义务”不是实体，而是<strong>语言工具</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">3️⃣ 法律有效性 ≠ 道德正当性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">4️⃣ 裁判的真正基础是<strong>制度心理与实践稳定性</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#rationalization">5️⃣ 法律论证是<strong>合理化（rationalization）而非发现真理</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">6️⃣ 对“主观恶意”“内心状态”持高度怀疑态度</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">二、罗斯视角下的根本问题重构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">三、“寻衅滋事”在罗斯理论中的法律地位</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">1️⃣ 模糊罪名的现实主义解释</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">2️⃣ 罪名的意义 = 可预测的裁判后果</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id11">四、“明知其假”：罗斯式的拆解</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">1️⃣ 主观要件不是心理事实</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">2️⃣ 高学历的制度意义</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">五、证据在罗斯法哲学中的角色</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">1️⃣ 证据不是为了证明真理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">2️⃣ “证据链形成”的真正含义</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id17">六、程序问题：罗斯的冷静解释</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">1️⃣ 不开庭、不实质听证</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">2️⃣ 上诉的真实功能</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id20">七、罗斯视角下：被告的全部辩护为何“注定失败”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id21">八、罗斯意义上的案件本质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id22">九、如果让阿尔夫·罗斯作出评价</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id23">十、总结性结论（罗斯式）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id24">一句话结论（阿尔夫·罗斯）：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">1. 法律的本质：是对官员行为的预测，而非公民的权利</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">2. “正义”的祛魅：司法判决是伪装成逻辑的情感态度</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">3. 法律推理的真相：事后合理化与“火车车厢”逻辑</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">4. 法律概念的空洞性：“寻衅滋事”作为权力的空白支票</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5">结论：一部“有效”但“非法治”的法律的胜利</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. 法律有效性即“法官的意识形态”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">2. 对“权利”概念的解构：作为工具的虚词</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">3. “正义”即非理性的情感宣泄</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">4. 法律作为对法官行为的预测</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id5">5. 法律意识形态的规训功能</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id6">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、“法律即预测”：本案彻底摧毁法律的可预测性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、“规范语义学”：法律语言沦为“魔法词汇”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">三、“法官行为中心论”：司法沦为政治指令的执行器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">四、“法律科学化”：本案是对经验理性的全面背叛</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">五、结语：罗斯的终极警示——无法预测的法律，只是暴力的遮羞布</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../lundst/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
