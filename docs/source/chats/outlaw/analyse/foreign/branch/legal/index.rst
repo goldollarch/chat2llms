@@ -121,7 +121,11 @@
 
 各流派的争论，尤其是自然法学与实证主义关于“法律与道德”的百年论战，构成了法哲学发展的主线。:doc:`德沃金 </chats/outlaw/analyse/foreign/branch/legal/dworkin/index>` 的解释理论试图超越这一对立。而批判法学、现实主义等则从外部审视法律的社会功能。理解这些流派，不仅是为了把握智识史，更是为了思考一个永恒的问题：在一个复杂多元的现代社会中，我们究竟需要什么样的法律，以及我们为何应当遵守它。
 
--------------------------
+--------
+
+大师
+
+--------
 
  .. toctree::
     :maxdepth: 1
@@ -211,6 +215,16 @@
  .. toctree::
     :maxdepth: 1
 
+    horwitz/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    kennedy/index
+
+ .. toctree::
+    :maxdepth: 1
+
     posner/index
 
  .. toctree::
@@ -256,7 +270,18 @@
  .. toctree::
     :maxdepth: 1
 
-    postm/index
+    luhmann/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    toibner/index
+
+--------
+
+流派
+
+--------
 
  .. toctree::
     :maxdepth: 1
@@ -286,7 +311,22 @@
  .. toctree::
     :maxdepth: 1
 
+    critical/index
+
+ .. toctree::
+    :maxdepth: 1
+
     right/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    postm/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    system/index
 
  .. toctree::
     :maxdepth: 1
@@ -296,5 +336,6 @@
 
 ---------------------------
 
+[:doc:`法学和哲学思想 </chats/outlaw/analyse/foreign/branch/legal/compare>`]
 [:doc:`规范法学和实证法学 </chats/outlaw/analyse/foreign/branch/legal/review>`]
 [:doc:`中国哲学中对法哲学的探索 </chats/outlaw/analyse/foreign/branch/legal/chinese>`]
