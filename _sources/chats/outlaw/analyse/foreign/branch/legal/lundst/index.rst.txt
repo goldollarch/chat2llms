@@ -1,5 +1,5 @@
-Lundstedt
-=========
+Vilhelm Lundstedt
+==================
 
 基于维尔赫姆·伦德斯特德（Vilhelm Lundstedt, 1882–1955）现实主义法哲学核心思想
 
