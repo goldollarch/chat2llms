@@ -73,15 +73,15 @@
 
 - **影响**：促进了法律社会学、批判法学和司法行为研究。
 
-四、马克思主义法学和批判法学研究
+四、马克思主义法学和 :doc:`批判法学 </chats/outlaw/analyse/foreign/branch/legal/critical/index>` 研究
 
 - **核心主张**：法律并非中立，而是反映了统治阶级的意识形态，用以维护现有的权力结构和社会不公。
 
 - **核心观点**：法律的不确定性、法律与政治的不可分性、对自由主义法律观念的批判。
 
-- **代表人物**： :doc:`马克思 </chats/outlaw/analyse/foreign/master/recent/marx/index>`、:doc:`罗伯托·昂格尔 </chats/outlaw/analyse/foreign/branch/legal/unger/index>` 等
-
 - **影响**：催生了女性主义法学、批判种族理论等后续思潮，促进了法律与社会理论的深度结合。
+
+- **代表人物**： :doc:`马克思 </chats/outlaw/analyse/foreign/master/recent/marx/index>`、:doc:`罗伯托·昂格尔 </chats/outlaw/analyse/foreign/branch/legal/unger/index>` 等
 
 五、:doc:`德沃金 </chats/outlaw/analyse/foreign/branch/legal/dworkin/index>` 的解释性法哲学
 
@@ -106,14 +106,16 @@
 
 3. **新修辞学法学**：强调法律语言的修辞性与解释的多样性。代表人物：:doc:`查伊姆·佩雷尔曼 </chats/outlaw/analyse/foreign/branch/legal/perelman/index>`
 
-4. :doc:`后现代法学 </chats/outlaw/analyse/foreign/branch/legal/postm/index>` ： 解构法律的确定性与普遍性，强调话语、权力和偶然性。
+4. :doc:`系统论法学 </chats/outlaw/analyse/foreign/branch/legal/system/index>` ： 卢曼: 法律是自创生的社会子系统，依据合法/非法二元代码封闭运作。
 
-5. **女性主义法学**：批判法律中的男性中心主义，关注法律对性别差异的建构与压迫。
+5. :doc:`后现代法学 </chats/outlaw/analyse/foreign/branch/legal/postm/index>` ： 解构法律的确定性与普遍性，强调话语、权力和偶然性。
 
-6. **批判种族理论**：揭露法律中系统性的种族主义及其隐蔽形式。
+6. **女性主义法学**：批判法律中的男性中心主义，关注法律对性别差异的建构与压迫。
+
+7. **批判种族理论**：揭露法律中系统性的种族主义及其隐蔽形式。
 
 
------------------
+--------------------------------------------------------------------
 
 当代发展趋势与总结
 
@@ -151,16 +153,6 @@
     :maxdepth: 1
 
     cover/index
-
- .. toctree::
-    :maxdepth: 1
-
-    cardozo/index
-
- .. toctree::
-    :maxdepth: 1
-
-    dworkin/index
 
  .. toctree::
     :maxdepth: 1
@@ -270,12 +262,22 @@
  .. toctree::
     :maxdepth: 1
 
+    cardozo/index
+
+ .. toctree::
+    :maxdepth: 1
+
     luhmann/index
 
  .. toctree::
     :maxdepth: 1
 
     toibner/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    dworkin/index
 
 --------
 

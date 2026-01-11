@@ -1,5 +1,5 @@
-Hägerström
-=========
+Axel Hägerström
+================
 
 基于阿克塞尔·海耶斯特勒姆（Axel Hägerström，通常被误写为“Asel Hayestelmer”）现实主义法哲学核心思想
 
