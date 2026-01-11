@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gunta Toibner &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../luhmann/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+      <li class="breadcrumb-item active">Gunta Toibner</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/toibner/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="gunta-toibner">
+<h1>Gunta Toibner<a class="headerlink" href="#gunta-toibner" title="Link to this heading"></a></h1>
+<p>基于贡塔·托依布纳法学核心思想</p>
+<hr class="docutils" />
+<p>贡塔·托依布纳是 <strong>当代德国最具原创性的法社会学家之一</strong>，他是尼古拉斯·卢曼系统论法学 <strong>最重要、最富创造力的继承者与发展者</strong>。托依布纳的核心思想可概括为：<strong>在功能高度分化的全球社会中，传统国家中心的法律模式已然失效，法律必须转向一种“反身性”的治理模式，并通过“社会宪治”来约束各个激进自治的社会子系统（如经济、科技、媒体）的权力扩张。</strong></p>
+<p>如果说卢曼构建了系统论法学的“基础科学”，那么托依布纳则致力于其 <strong>“工程应用”和“危机诊断”</strong> ，聚焦于各社会子系统之间冲突所引发的现代性危机。其思想体系可以概括为三大核心命题：</p>
+<img alt="../../../../../../../_images/review43.png" src="../../../../../../../_images/review43.png" />
+<p>以下，我们将沿此脉络，深入解析其核心要义。</p>
+<p><strong>一、问题诊断：从“规制三元困境”到“片段化的全球法”</strong></p>
+<p>托依布纳的起点是对现代治理危机的深刻诊断：</p>
+<ol class="arabic simple">
+<li><p><strong>规制三元困境</strong>：传统“国家命令-控制”式法律在干预经济、科技、环境等复杂领域时屡屡失败。国家（规制）、市场（去规制）、社群（自我规制）三者陷入僵局。法律要么因干预过深而窒息系统活力，要么因放任自流而导致系统产生毁灭性负外部性（如金融危机、生态灾难）。</p></li>
+<li><p><strong>全球法律多元主义</strong>：他敏锐地指出，真正的“全球法”并非来自联合国或国家条约，而是产生于 <strong>全球化的社会子系统内部</strong>。</p>
+<ul class="simple">
+<li><p><strong>例子</strong>：跨国公司网络产生的 <strong>新商人法</strong>、互联网技术标准构成的 <strong>数字法</strong>、世界体育组织制定的 <strong>体育法</strong>。</p></li>
+<li><p><strong>特征</strong>：这些法律秩序是 <strong>“没有国家的全球法”</strong> ，它们是自创生的、片段化的，并与民族国家法律体系并存、竞争甚至冲突。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>二、核心理论一：“反身法”</strong></p>
+<p>这是托依布纳提出的核心治理方案，旨在破解“规制困境”。</p>
+<ul class="simple">
+<li><p><strong>核心主张</strong>：法律不应再试图直接规定社会子系统的具体结果（那是 <strong>“实质法”</strong> ，注定失败），而应转向 <strong>“反身法”</strong> ——即法律的功能是 <strong>为其他社会系统（经济、科学、医疗等）设计、激发和规制其“自我规制”的架构、组织与程序</strong>。</p></li>
+<li><p><strong>运作方式</strong>：法律通过设定程序性规范、组织性要求和决策参与权利，促使其他系统进行 <strong>内部反思和自我约束</strong>。例如：</p>
+<ul>
+<li><p>公司法不规定利润多少，但要求设立董事会、独立审计、信息披露程序。</p></li>
+<li><p>环境法不规定每项技术标准，但要求企业进行环境影响评估并建立内部合规体系。</p></li>
+</ul>
+</li>
+<li><p><strong>本质</strong>：法律从 <strong>“一级控制”</strong> 转向 <strong>“二级控制”</strong> ，即控制“自我控制”的过程。</p></li>
+</ul>
+<p><strong>三、核心理论二：“社会宪治”</strong></p>
+<p>这是托依布纳最具野心的理论，旨在应对子系统权力膨胀带来的系统性风险。</p>
+<ul class="simple">
+<li><p><strong>核心问题</strong>：当经济、科技、媒体等子系统遵循自身逻辑（利润最大化、技术可行性、点击率）无限扩张时，会侵蚀其他子系统（如政治、法律、家庭）的生存基础，甚至威胁人类生存（如金融风暴、生态危机、基因编辑伦理困境）。</p></li>
+<li><p><strong>核心主张</strong>：因此，这些社会子系统需要自己的 <strong>“宪法”</strong> 。这并非国家宪法的副本，而是一套 <strong>“自我限制的基本规则”</strong> ，用以约束子系统自身的过度扩张倾向，防止其产生毁灭性的“社会性外部成本”。</p></li>
+<li><p><strong>实例</strong>：</p>
+<ul>
+<li><p><strong>经济宪法</strong>：反垄断法、金融监管中的系统性风险控制、公司社会责任框架。</p></li>
+<li><p><strong>数字宪法</strong>：数据隐私权、算法透明度与问责制、数字人格保护。</p></li>
+<li><p><strong>科学宪法</strong>：生物研究伦理审查委员会、科研诚信规范。</p></li>
+</ul>
+</li>
+<li><p><strong>宪治机制</strong>：社会宪治通过子系统的 <strong>自省性结构</strong> （如内部审计、伦理委员会、监督机构）和与其他系统的 <strong>“耦合制度”</strong> （如公益诉讼、监管机构）来实现。</p></li>
+</ul>
+<p><strong>四、核心理论三：作为“边缘地带”的法律与“系统际冲突法”</strong></p>
+<p>托依布纳认为，在现代社会中，法律最重要的位置不在中心，而在 <strong>各个社会子系统相互接触、冲突的“边缘地带”</strong>。</p>
+<ul class="simple">
+<li><p><strong>法律的角色</strong>：法律成为处理 <strong>“系统际冲突”</strong> 的中介。当经济逻辑侵犯生命健康（如职业病），或科技逻辑挑战人类尊严（如基因专利）时，法律需要在不同系统的“理性”之间进行翻译、权衡和裁判。</p></li>
+<li><p><strong>新型法律形态</strong>：这催生了一种 <strong>“异体移植”式</strong> 的法律发展——将某个子系统的逻辑（如经济成本收益分析）部分引入另一个子系统（如环境法），但需经过法律的重构，以避免被单一逻辑殖民。</p></li>
+</ul>
+<p><strong>五、总结与评价</strong></p>
+<p>托依布纳的思想是系统论法学在 <strong>全球化与风险社会时代的一次重大升级</strong>。</p>
+<ul class="simple">
+<li><p><strong>贡献</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>提供了治理复杂性的新范式</strong>：“反身法”和“社会宪治”为应对金融、科技、生态等全球性风险提供了极具启发性的理论工具箱。</p></li>
+<li><p><strong>重新定义了法律全球化</strong>：打破了“法律=国家法”的教条，揭示了全球法律秩序真实、多元、碎片化的图景。</p></li>
+<li><p><strong>挽救了法律的规范性</strong>：在卢曼高度描述性、冷峻的理论中，重新注入了 <strong>“批判性”和“建设性”</strong> 的维度，致力于寻找约束系统性权力的法律途径。</p></li>
+</ol>
+</li>
+<li><p><strong>批评</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>实施难度</strong>：社会宪治依赖子系统的“自我限制”，这在利益驱动下往往非常脆弱。</p></li>
+<li><p><strong>民主赤字</strong>：全球自创生法（如商人法）的正当性来源模糊，缺乏民主问责。</p></li>
+<li><p><strong>概念抽象</strong>：其理论框架仍显复杂，转化为具体政策面临挑战。</p></li>
+</ol>
+</li>
+</ul>
+<p><strong>总而言之，托依布纳将法律思考从“国家与公民”的经典框架，推向了一个“系统与系统”的未知疆域。他的工作预言并诠释了我们时代的核心困境：在一个没有顶层的、由各种自主运行的力量（市场、技术、网络）构成的全球社会中，如何通过法律来实现文明的自我约束与共存。</strong> 他的思想是理解当代规制理论、全球治理和数字社会法理演进的关键。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#gunter-teubner">从贡特·托伊布纳（Günter Teubner）系统论法学核心思想看陈京元“寻衅滋事罪”案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">1. 法律系统的自治封闭与结构耦合的负面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">2. 法律多元主义与社会宪政的缺失</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">3. 内在悖论与去悖论化的失败</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">4. 功能分化与社会复杂性的危机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">🟩 一、托依布纳的核心命题：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2"><strong>“法律是多中心社会中的结构耦合机制，而不是单一系统的自我运作。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">🟩 二、托依布纳：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#colonization"><strong>“法律会被其他系统殖民化（colonization）。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5">🟩 三、托依布纳：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6"><strong>“法律冲突是现代社会的常态，而不是例外。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id9">🟩 四、托依布纳：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#reflexive-law"><strong>“法律的反思性（reflexive law）在本案中被压制。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id10">🟩 五、托依布纳：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11"><strong>“法律系统在本案中扮演的是‘边界警察’，而不是‘冲突调节者’。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id12">🟩 六、托依布纳式结论：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id13"><strong>“本案的判决是多系统压力下的耦合产物，体现了法律系统被政治系统部分殖民化，并失去了反思性功能。”</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、托依布纳系统论法学的核心思想（分析起点）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">1️⃣ 法律是<strong>自创生系统</strong>，但具有<strong>规范性后果</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">2️⃣ 现代社会是<strong>多重自律子系统并存</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">3️⃣ 系统间存在<strong>结构耦合失衡风险</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#normative-closure">4️⃣ 法律可能发生 <strong>“规范自闭症”（normative closure）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#self-limitation">5️⃣ 法律需要<strong>自我限制（self-limitation）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">二、托依布纳视角下：本案的系统性诊断</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">三、“寻衅滋事”：托依布纳的“去界限化法条”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#de-boundarization">1️⃣ 去界限化（de-boundarization）的危险</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">2️⃣ 法律从“调解者”变为“霸权系统”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">四、“虚假信息”：系统误读的制度性后果</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#code-confusion">1️⃣ 系统代码错配（code confusion）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#normative-harm">2️⃣ 规范性伤害（normative harm）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id9">五、“明知其假”：托依布纳的“反身性失灵”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">1️⃣ 法律未能进行二阶观察</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">2️⃣ 责任构造的系统偏置</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">六、“严重扰乱社会秩序”：风险社会中的系统过载</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">1️⃣ 法律对风险的过度吸收</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">2️⃣ 法律的“预防性暴力”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id15">七、程序问题：托依布纳的“制度自我正当化”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">1️⃣ 程序替代了实质合理性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id17">2️⃣ 上诉失败的系统意义</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id18">八、托依布纳视角下：为何这是“危险案件”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id19">九、托依布纳式总结：本案的制度意义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id20">十、终极判断（托依布纳式）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">一句话结论（贡塔·托依布纳）：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">1. 系统的“操作闭合”与“碰撞”的必然性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">2. “悖论”的暴力性展开：法律系统对科学理性的扭曲</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">3. 系统的“自创生”暴力：法律如何“创造”它所需要的事实</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">4. “结构耦合”点的扭曲：司法程序作为暴力转换器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5">5. “宪法”的失败：跨系统冲突的调节器失灵</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6">结论：一场系统性的“符号灭绝”</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. “法律扩张主义”与子系统的生态破坏</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">2. 跨国界沟通与“碎片化”的法律冲突</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">3. “结构耦合”的毒性异化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">4. 缺乏“自我限制”的法律系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id5">5. “程序正义”作为系统的虚假闭合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id6">总结：跨系统的“功能性谋杀”</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、法律系统的自创生封闭：以“合法/非法”符码吞噬异质话语</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、法律悖论的暴露：正当性危机与暴力补救</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">三、反身法的缺失：法律对自身界限的盲目</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">四、“法律病理”的社会后果：系统间沟通的断裂</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">结语：托依布纳的终极警示——无界限，则无法律；无反身，则无正义</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../luhmann/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

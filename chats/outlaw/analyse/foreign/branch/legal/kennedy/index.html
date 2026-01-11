@@ -1,0 +1,317 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duncan Kennedy &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../horwitz/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+      <li class="breadcrumb-item active">Duncan Kennedy</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/kennedy/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="duncan-kennedy">
+<h1>Duncan Kennedy<a class="headerlink" href="#duncan-kennedy" title="Link to this heading"></a></h1>
+<p>基于邓肯·肯尼迪法学核心思想</p>
+<hr class="docutils" />
+<p>邓肯·肯尼迪是美国批判法学运动最核心、最具战斗性的理论家和组织者之一。他的思想以 <strong>“解构自由主义法律思想的内在矛盾”</strong> 和 <strong>“揭露法律推理中的政治性”</strong> 而著称，其核心可概括为：<strong>法律并非中立的规则体系，而是掩盖并再生产资本主义社会基本矛盾和等级制（尤其是阶级关系）的意识形态装置。</strong></p>
+<p>其思想体系可以概括为以下三个相互关联的核心命题：</p>
+<img alt="../../../../../../../_images/review34.png" src="../../../../../../../_images/review34.png" />
+<p><strong>一、核心理论基石：“基本矛盾”理论</strong></p>
+<p>肯尼迪认为，自由主义法律思想内部存在一个 <strong>“基本矛盾”</strong> ，它无法被消除，并渗透于所有法律领域。</p>
+<ul class="simple">
+<li><p><strong>矛盾内容</strong>：即 <strong>“个人主义”</strong> 与 <strong>“利他主义”</strong> （或译为“共享目的”、“共同体”）之间的根本张力。</p>
+<ul>
+<li><p><strong>个人主义</strong>：主张个人自由、自治、自利是最高价值，社会是个人为实现各自目的而进行的自愿联合。在法律上体现为 <strong>合同自由、财产权绝对、形式平等</strong>。</p></li>
+<li><p><strong>利他主义</strong>：主张个人应对他人和集体负有义务，共同体的福祉和团结是重要价值。在法律上体现为 <strong>侵权法中的注意义务、合同法中的诚信原则、以及各种规制和再分配政策</strong>。</p></li>
+</ul>
+</li>
+<li><p><strong>矛盾的不可消解性</strong>：肯尼迪指出，没有任何一个自由主义法律体系能纯粹地贯彻其中一种价值。所有法律规则都是这两种对立价值观 <strong>“无法调和却又不得不进行的调和”</strong> 的临时产物。例如，绝对的合同自由（个人主义）会受到显失公平原则（利他主义）的限制。</p></li>
+<li><p><strong>政治性所在</strong>：由于矛盾无法在逻辑上解决，法官在具体案件中偏向个人主义还是利他主义，就成为一个 <strong>“政治选择”</strong> 。然而，传统法律学说却竭力掩盖这种选择性，将其装扮成逻辑推导或概念演进的必然结果。</p></li>
+</ul>
+<p><strong>二、核心方法论：对“法律论证风格”的批判</strong></p>
+<p>肯尼迪深入分析了法官和律师如何运用语言来掩盖其政治选择。他区分了两种主要的“法律论证风格”：</p>
+<ol class="arabic simple">
+<li><p><strong>形式主义论证风格</strong>：</p>
+<ul class="simple">
+<li><p>声称判决是从既定的、清晰的、中立的规则中 <strong>逻辑演绎</strong> 出来的。</p></li>
+<li><p>将法律描绘成一个 <strong>封闭、自洽的体系</strong>，法官只是“法律的嘴巴”。</p></li>
+<li><p><strong>功能</strong>：这种风格的作用是 <strong>否认判决的政治性和自由裁量性</strong>，将其合法化为“必然”结论，从而维护现状的权威。</p></li>
+</ul>
+</li>
+<li><p><strong>工具主义/政策论证风格</strong>：</p>
+<ul class="simple">
+<li><p>公开承认法律规则是实现社会政策的 <strong>工具</strong>，判决需要进行 <strong>政策权衡和后果考量</strong>。</p></li>
+<li><p><strong>功能</strong>：这种风格看起来更务实、更开放，但肯尼迪指出，它同样具有意识形态性。它预设了社会目标（如“效率”、“社会福利”）是既定的、共识性的，从而掩盖了这些目标本身的政治性和阶级性。</p></li>
+</ul>
+</li>
+</ol>
+<p>肯尼迪的犀利之处在于指出：<strong>这两种风格并非对立，而是共谋的。</strong> 法律人根据需要在两者间灵活切换，用形式主义来抵制激进变革，用工具主义来推行温和改良，其共同效果是 <strong>维持现有的权力结构</strong>。</p>
+<p><strong>三、核心实践场域：法律教育批判</strong></p>
+<p>肯尼迪认为，法学院是 <strong>再生产法律意识形态和精英律师的关键机构</strong>。其著名短文《法律教育的成本》是批判法学在教育领域的宣言。</p>
+<ul class="simple">
+<li><p><strong>法学院的“政治使命”</strong>：不是教授“纯粹技术”，而是系统地 <strong>将学生“去政治化”</strong>，让他们接受法律现状的“自然性”与“正当性”。</p></li>
+<li><p><strong>“课堂等级制”</strong>：苏格拉底教学法和考试制度制造了恐惧、竞争和个人主义，压抑了合作与集体政治意识，使学生专注于个人职业成功，并内化精英价值观。</p></li>
+<li><p><strong>“异化”过程</strong>：学生学习将法律视为一套与个人道德情感无关的、需要掌握的“把戏”，从而与自己最初的正义感产生疏离，成为服务于现有权力结构的“技术官僚”。</p></li>
+</ul>
+<p><strong>四、总结与特点</strong></p>
+<p>邓肯·肯尼迪的思想具有鲜明的战斗性和解构性：</p>
+<ul class="simple">
+<li><p><strong>定位</strong>：他是CLS运动中的 <strong>“解构大师”</strong> 和 <strong>“激进旗手”</strong>。与昂格尔的宏大理论建构相比，肯尼迪更擅长对具体法律学说和推理进行 <strong>“内部爆破”</strong>。</p></li>
+<li><p><strong>目标</strong>：他的工作旨在 <strong>剥去法律“中立”、“客观”、“科学”的外衣</strong>，暴露出其下涌动的政治冲突、价值选择和阶级利益，从而激发法律学生和从业者进行政治反思和行动。</p></li>
+<li><p><strong>影响与局限</strong>：他的批判极其有力，深刻揭示了法律形式背后的政治性，但也因 <strong>“只破不立”</strong> 而备受诟病。他揭示了矛盾，但未提供明确的解决蓝图。然而，正是这种彻底的揭露，使他的思想成为理解法律与权力关系不可或缺的批判性资源。</p></li>
+</ul>
+<p><strong>总而言之，肯尼迪教导我们：每一次法律辩论，无论是关于合同解释还是宪法权利，其深层都是一场关于“我们想生活在何种社会”的政治斗争。法律话语的高墙之内，并非真理与逻辑的圣殿，而是意识形态角逐的战场。</strong></p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">从邓肯·肯尼迪批判法学核心思想看陈京元“寻衅滋事罪”案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">1. 法律规则的不确定性与政治操纵</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">2. 意识形态偏见与权力结构的再生产</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">3. 解构法律话语：二元对立的建构与边缘化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">4. 法律作为政治战场与变革潜力</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id6">结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">🔵 一、肯尼迪的核心命题：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2"><strong>“法律是不确定的，而权力利用这种不确定性。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">🔵 二、肯尼迪：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4"><strong>“法律推理是意识形态，而不是逻辑。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5">🔵 三、肯尼迪：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6"><strong>“法律职业内部的等级制决定了法官的行为。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id7">🔵 四、肯尼迪：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id8"><strong>“法律通过规训与内化来制造顺从。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id9">🔵 五、肯尼迪：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10"><strong>“法律的表面中立掩盖了深层的支配结构。”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id13">🔵 六、肯尼迪式结论：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14"><strong>“本案不是法律逻辑的产物，而是权力通过法律不确定性进行的支配行为。”</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、邓肯·肯尼迪的核心理论要点（作为分析起点）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">1️⃣ 法律推理并不决定结果，而是<strong>为既定结果提供修辞合法性</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#fundamental-contradiction">2️⃣ 法律规则存在<strong>结构性对立（fundamental contradiction）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">3️⃣ 法律裁判是<strong>意识形态选择</strong>，不是技术运算</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">4️⃣ 法律教育与专业话语塑造<strong>顺从型主体</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">5️⃣ “中立”“客观”“依法”是<strong>意识形态遮蔽语言</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">二、肯尼迪视角下：本案“真正的决定点”在哪里？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">三、“寻衅滋事”：肯尼迪的“结构性不确定性”范例</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">1️⃣ 不确定性不是缺陷，而是统治资源</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">2️⃣ 该罪名的真实功能</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id10">四、“虚假信息”：肯尼迪的意识形态语言分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">1️⃣ “虚假”并非事实判断，而是话语位置判断</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">2️⃣ 法律语言的“自然化”效应</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id13">五、“明知其假”：肯尼迪的“主体建构”分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">1️⃣ 主体不是被发现的，而是被建构的</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">2️⃣ 自由主体的悖论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id16">六、“严重扰乱社会秩序”：肯尼迪的“对立价值操控”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#vs">1️⃣ 自由 vs 秩序的裁剪逻辑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id17">2️⃣ “可能性”如何变成“确定性”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id18">七、程序问题：肯尼迪的“合法性表演”理论</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">1️⃣ 程序是意识形态仪式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">2️⃣ 上诉的真实意义</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id21">八、为何被告的辩护“在肯尼迪意义上必然失败”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id22">九、肯尼迪式总结：本案的深层意义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id23">十、终极判断（肯尼迪式）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id24">一句话结论（邓肯·肯尼迪）：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#vs">1. 法律的基本矛盾：个人自由 vs. 集体福利的不可调和性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">2. 法律推理的“合法性神话”：在荒谬之上构建形式合理性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">3. 法律教育与法律职业的社会化：再生产等级与服从</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">4. 权利意识的意识形态功能：个体反抗的系统性收编</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">结论：法律作为一场“被编码的权力游戏”</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. 根本矛盾：个人自由与他人强制</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#legal-molding">2. 法律推理作为“法律塑造”（Legal Molding）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">3. 法律教育中的规训：对高学历的惩罚</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">4. 法律论证的非连贯性与“权力直觉”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">总结：揭穿“中立性”的政治表演</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、法律的不确定性：从“口袋罪”到任意入罪</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、法律的政治性：以“技术中立”掩盖意识形态选择</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id3">三、“权利话语”的悖论：宪法权利如何成为规训工具</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">四、法律形式主义的暴力：程序如何成为压迫的仪式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">五、结语：肯尼迪的终极警示——法律即政治，中立即神话</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../horwitz/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

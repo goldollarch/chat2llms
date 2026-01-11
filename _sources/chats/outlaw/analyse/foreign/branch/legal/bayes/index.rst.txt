@@ -1,4 +1,4 @@
-Bayesian
+Bayesian Legal Theory
 =========
 
 基于贝叶斯法理学（Bayesian Legal Theory / Bayesian Jurisprudence）核心思想

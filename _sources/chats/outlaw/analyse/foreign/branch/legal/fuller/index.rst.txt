@@ -92,4 +92,4 @@ Lon L. Fuller
 
 ---------------------------
 
-【:doc:`哈特与富勒的论战 </chats/outlaw/analyse/foreign/branch/legal/compare>`】
+【:doc:`哈特与富勒的论战 </chats/outlaw/analyse/foreign/branch/legal/fuller/compare>`】

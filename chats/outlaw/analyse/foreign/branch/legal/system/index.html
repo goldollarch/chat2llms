@@ -1,0 +1,367 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Systemic Theory &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../postm/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/letters/index.html">Letters by Defendant</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../compare/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the Crime PXQT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../schools/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">法律</a></li>
+      <li class="breadcrumb-item active">Systemic Theory</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/legal/system/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="systemic-theory">
+<h1>Systemic Theory<a class="headerlink" href="#systemic-theory" title="Link to this heading"></a></h1>
+<p>基于系统论法学（Systemic Theory of Law）核心思想</p>
+<hr class="docutils" />
+<p>系统论法学是20世纪下半叶最具革命性的法学思想之一，它彻底改变了我们观察法律的视角：<strong>法律不再仅仅是一套规则或机构，而是一个独立“活着”的、自我生产的社会系统</strong>。</p>
+<p>其核心思想可以用一句话概括：<strong>法律是一个“自创生”的社会系统，它通过“合法/非法”的二元代码封闭运作，并在认知上对环境开放，以此实现社会的规范性期望稳定。</strong></p>
+<p><strong>一、核心思想：法律作为“自创生”系统</strong></p>
+<p>系统论法学主要受 <strong>尼古拉斯·卢曼</strong> 的社会系统理论启发，其核心概念如下：</p>
+<ol class="arabic simple">
+<li><p><strong>自创生</strong>：</p>
+<ul class="simple">
+<li><p>这是最核心、最颠覆性的概念。法律系统被看作一个 <strong>“自我生产”</strong> 的生命系统。它像生命体一样，用自己的产品（<strong>法律沟通</strong>）来再生产自己。</p></li>
+<li><p><strong>关键循环</strong>：法律系统只生产 <strong>“法律沟通”</strong> （如立法、判决、合同、法学论述）。每一次法律沟通（如一个判决）都会激发和连接下一次法律沟通（如上诉、执行、学术评论），如此循环不息。<strong>法律之外，无法产生法律</strong>。</p></li>
+</ul>
+</li>
+<li><p><strong>运作封闭与二值代码</strong>：</p>
+<ul class="simple">
+<li><p>法律系统在运作上是 <strong>封闭</strong> 的，因为它只使用一套独一无二的识别符：<strong>合法/非法的二元代码</strong>。世间万物（行为、事件、言论）一旦被法律系统“观察”，就必须被贴上“合法”或“非法”的标签，别无他选。</p></li>
+<li><p>这一代码是 <strong>不可替代的</strong>：你不能用“盈利/亏损”（经济系统）或“有权/无权”（政治系统）的代码来做出法律判断。</p></li>
+</ul>
+</li>
+<li><p><strong>系统与环境的区分</strong>：</p>
+<ul class="simple">
+<li><p>法律系统之外的一切（政治、经济、道德、宗教、公众舆论等）都是其 <strong>“环境”</strong> 。</p></li>
+<li><p>系统对环境的反应不是直接“输入-输出”，而是 <strong>根据自身的内部结构和逻辑</strong>，对外部“干扰”进行 <strong>内部重构</strong>。例如，一次公众抗议（环境事件）不会自动改变法律，它必须被法律系统“翻译”为诉讼、立法建议等内部沟通，并依据现有法律程序处理。</p></li>
+</ul>
+</li>
+<li><p><strong>认知开放</strong>：</p>
+<ul class="simple">
+<li><p>虽然运作封闭，但法律系统在 <strong>认知上对环境开放</strong>。它会关注政治动向、科学发现、道德观念等，但这些外部信息只有被 <strong>转化为法律系统的内部语言</strong> （如上升为法律原则、构成法律事实）后，才能产生影响。</p></li>
+</ul>
+</li>
+<li><p><strong>功能：稳定规范性期望</strong>：</p>
+<ul class="simple">
+<li><p>法律系统的社会功能不是实现正义或维护秩序，而是 <strong>“稳定反事实的规范性期望”</strong>。</p></li>
+<li><p>解释：当期望落空时（如合同被违约、人被伤害），人们会产生失望。法律系统通过其代码和程序，<strong>确保这种失望不会导致期望被放弃</strong>，而是被处理。它告诉大家：“即使事情出了错，你当初‘期望对方履约/不伤害你’的立场仍然是社会认可的。” 这极大地降低了社会互动的复杂性。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>二、代表人物</strong></p>
+<p><strong>1. 尼古拉斯·卢曼</strong></p>
+<ul class="simple">
+<li><p><strong>地位</strong>： <strong>系统论法学的奠基人和最主要代表</strong>。他原本是律师和行政官员，后转向社会学，构建了宏大的一般社会系统理论，法律系统是其理论中最成熟的部分。</p></li>
+<li><p><strong>核心著作</strong>：《法律的社会系统》、《社会的法律》。</p></li>
+<li><p><strong>核心贡献</strong>：将 <strong>自创生理论</strong> 引入法律研究，完整阐述了法律作为一个功能分化下的现代社会子系统的封闭运作逻辑、二元代码以及“通过程序获得正当性”等核心命题。他的理论高度抽象，具有元理论色彩。</p></li>
+</ul>
+<p><strong>2. 贡塔·托依布纳</strong></p>
+<ul class="simple">
+<li><p><strong>地位</strong>： <strong>卢曼思想在法学领域最杰出的继承者、发展者和应用者</strong>。他本身就是法学家，致力于将卢曼抽象的社会学理论转化为更贴近法律实践的分析工具。</p></li>
+<li><p><strong>核心著作</strong>：《法律：一个自创生系统》、《宪法碎片：全球社会宪治》。</p></li>
+<li><p><strong>核心发展</strong>：</p>
+<ul>
+<li><p><strong>强调“反身法”</strong>：在现代“规制的三元困境”（国家、市场、社群）中，法律不能直接指挥其他系统，而应转向 <strong>“规制自我规制”</strong> ，即设计程序和组织形式，促使经济、科技等系统进行自我反思和约束。</p></li>
+<li><p><strong>推动全球法研究</strong>：提出 <strong>“全球法律多元主义”</strong> ，认为在全球层面，没有中心政治权威，但已形成由跨国公司、国际组织、NGO、仲裁机构等构成的 <strong>“没有国家的全球法”</strong> ，这些也是自创生的片段化系统。</p></li>
+<li><p><strong>发展“社会宪治”理论</strong>：认为经济、科技、媒体等全球性社会子系统权力过大，需要其自身的 <strong>“宪法”</strong> （即自我限制的基本规则）来防止其对其他系统和个人造成毁灭性影响。</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>三、与传统法学的根本区别</strong></p>
+<table class="docutils align-center" id="id1">
+<caption><span class="caption-text">传统法学与系统论法学核心维度对比</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 40.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>比较维度</strong></p></th>
+<th class="head"><p><strong>传统法学（自然法/实证主义）</strong></p></th>
+<th class="head"><p><strong>系统论法学</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>分析单位</strong></p></td>
+<td><p><strong>规则、原则、意志（立法者/法官）</strong></p></td>
+<td><p><strong>沟通、系统</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>法律的核心</strong></p></td>
+<td><p>规范文本或权威决定</p></td>
+<td><p><strong>合法/非法的二元代码运作</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>系统状态</strong></p></td>
+<td><p>相对开放，受道德、政策影响</p></td>
+<td><p><strong>运作上绝对封闭，认知上开放</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>法律变化</strong></p></td>
+<td><p>立法修改、司法创制</p></td>
+<td><p><strong>系统的自我演化，通过变异、选择、稳定化</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>关注焦点</strong></p></td>
+<td><p><strong>正义、效力、解释</strong></p></td>
+<td><p><strong>系统的</strong> <strong>功能、维持、与环境的关系</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>四、总结与评价</strong></p>
+<p>系统论法学提供了一幅 <strong>冷酷但极具洞察力的现代法律图景</strong>：</p>
+<ul class="simple">
+<li><p><strong>贡献</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>深刻解释了法律的自治性</strong>：为何法律总显得“循规蹈矩”、拥有专业壁垒？因为它在进行封闭的自我生产。</p></li>
+<li><p><strong>揭示了法律与社会的关系</strong>：法律既受社会影响，又保持独立，这种复杂关系通过“系统/环境”、“结构耦合”等概念得到精妙阐述。</p></li>
+<li><p><strong>为分析全球化和数字社会中的法律现象</strong> （如算法规则、跨国商事秩序）提供了强大工具。</p></li>
+</ol>
+</li>
+<li><p><strong>批评</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>过于抽象和去人性化</strong>：将人视为系统的“环境”或“沟通的承载者”，忽略了行动者的能动性和法律的道德维度。</p></li>
+<li><p><strong>保守倾向</strong>：因其强调系统的自我维持，可能削弱了对法律进行根本性批判和变革的激进动力。</p></li>
+</ol>
+</li>
+</ul>
+<p><strong>总而言之，系统论法学将法律从“规则的静力学”带入了“系统的动力学”时代。它告诉我们，现代法律是一个自我指涉、自我生产的复杂生命体，它用自己独有的语言（合法/非法）观察并重构世界，以此在高度复杂的社会中履行其不可替代的功能。</strong> 理解它，是理解当代法律形式主义、专业自治以及法律全球化等现象的关键。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#systemic-theory-of-law">从系统论法学（Systemic Theory of Law）核心思想看陈京元“寻衅滋事罪”案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">1. 法律系统的自治封闭：判决作为二元代码的运作</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">2. 功能分化与结构耦合的悖论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">3. 内在悖论与去悖论化的局限</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">4. 法律多元主义与社会宪政的缺失</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">🟦 一、系统论核心：法律是一个“开放系统”，持续吸收外部刺激</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">🟦 二、系统论核心：法律通过“边界维护”来保持自身稳定</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">🟦 三、系统论核心：法律通过“复杂性压缩”来处理不确定性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">🟦 四、系统论核心：法律通过“反馈机制”调节社会行为</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5">🟦 五、系统论核心：法律与政治之间存在“结构耦合”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6">🟦 六、系统论核心：模糊法律概念是系统的“弹性结构”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id7">🟦 七、系统论核心：法律系统的最终目标是“自我维持”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id8">🟦 八、系统论式结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">基于一般系统论的核心思想，</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">一、一般系统论法学的基本立场（分析基底）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">二、系统论视角下：本案“被处理的是什么问题？”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">三、“寻衅滋事”：系统论意义上的“通用调节器”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">四、“虚假信息”：系统对复杂信息的简化处理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">五、“明知其假”：主体角色的系统化定位</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">六、“严重扰乱社会秩序”：系统风险评估逻辑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">七、程序问题：系统效率优先于个体参与</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">八、系统论视角下：被告辩护为何难以被吸收</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id23">九、一般系统论法学的整体评价</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id24">十、终极判断（系统论法学）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id26">基于系统论法学的核心思想</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id27">一、系统论法学的基本前提（作为分析起点）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id32">二、系统论视角下：本案的“系统性问题”是什么？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id33">三、“寻衅滋事”：系统论中的“通用吸纳机制”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id36">四、“虚假信息”：系统对信息复杂性的压缩</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id39">五、“明知其假”：主体的系统性角色定位</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id42">六、“严重扰乱社会秩序”：系统的风险逻辑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id45">七、程序问题：系统效率与稳定优先</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id48">八、为何被告的辩护难以被系统“接收”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id49">九、系统论法学的总体评价</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id50">十、系统论式结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">基于<strong>一般系统论法学</strong>的核心思想对陈京元案进行分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2">1. 系统的操作闭合与认知开放：法律系统的“免疫反应”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">2. 合法/非法的二元代码：系统运作的“自动驾驶仪”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4">3. 系统的“自创生”：法律如何创造其自身的现实</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5">4. 系统际冲突：不可通约的“语言游戏”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id6">5. 系统的悖论与稳定性：通过“冗余”与“变异性”维持稳定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id7">结论：系统的“理性”与人的“消失”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id8">基于<strong>系统论法学</strong> 的核心思想对陈京元案进行分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id9">1. 系统的操作闭合与认知开放：法律如何“消化”外部事件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id10">2. 合法/非法的二元代码：系统运作的“自动导航”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id11">3. 系统的“自创生”：法律如何创造其自身的现实</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id12">4. 系统际冲突：不可通约的“语言游戏”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id13">5. 系统的悖论与稳定性：通过程序正义维持信任</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id14">结论：系统的“成功”与人的“牺牲”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">1. 系统的整体性与“涌现”效应的误判</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">2. 信息的“输入-处理-输出”闭环失效</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">3. 系统平衡与“正反馈”带来的破坏</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">4. 边界渗透与“功能异化”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id5">5. 对“复杂度”的过度简化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id6">总结：系统的病理学分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#systemic-theory-of-law">一般系统论法学（Systemic Theory of Law）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id1">一、运作封闭性的崩塌：法律沦为政治的附庸</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">二、规范性预期的破坏：法律制造不确定性而非稳定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">三、结构耦合的扭曲：司法成为政治压力的传导器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id4">四、司法判决的异化：从“决定”到“表演”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">五、结语：系统论法学的终极警示——无功能，则无法律</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<p>[<a class="reference internal" href="compare.html"><span class="doc">法学中的结构主义</span></a>]</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../postm/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
