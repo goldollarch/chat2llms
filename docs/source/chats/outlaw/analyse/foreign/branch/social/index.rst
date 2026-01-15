@@ -40,10 +40,10 @@
      - 代表人物
    * - 古典社会哲学
      - 社会是道德与政治生活的场域
-     - :doc:`苏格拉底 </chats/outlaw/analyse/foreign/master/ancient/socrates/index>`、:doc:`孔子 </chats/outlaw/analyse/chinese/person/kz/index>`、:doc:`亚里士多德 </chats/outlaw/analyse/foreign/master/ancient/aristotle/index>`
+     - :doc:`苏格拉底 </chats/outlaw/analyse/foreign/master/ancient/socrates/index>`、:doc:`孔子 </chats/outlaw/analyse/chinese/person/ancient/kz/index>`、:doc:`亚里士多德 </chats/outlaw/analyse/foreign/master/ancient/aristotle/index>`
    * - 黑格尔传统
      - 社会是精神的展开，制度体现理性
-     - :doc:`黑格尔 </chats/outlaw/analyse/foreign/master/recent/hegel/index>`、:doc:`马克思 </chats/outlaw/analyse/foreign/master/recent/max/index>`
+     - :doc:`黑格尔 </chats/outlaw/analyse/foreign/master/recent/hegel/index>`、:doc:`马克思 </chats/outlaw/analyse/foreign/master/recent/marx/index>`
    * - 批判理论
      - 揭示社会结构中的压迫与意识形态
      - :doc:`马尔库塞 </chats/outlaw/analyse/foreign/master/modern/marcuse/index>`、:doc:`阿多诺 </chats/outlaw/analyse/foreign/branch/social/adorno/index>`、:doc:`哈贝马斯 </chats/outlaw/analyse/foreign/master/modern/habermas/index>`
@@ -80,6 +80,11 @@
 两者共同致力于理解并塑造一个更加公正和善治的人类共同体。
 
 -------------------------
+
+ .. toctree::
+    :maxdepth: 1
+
+    comte/index
 
  .. toctree::
     :maxdepth: 1
