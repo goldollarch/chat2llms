@@ -60,6 +60,7 @@ Richard Rorty
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen
