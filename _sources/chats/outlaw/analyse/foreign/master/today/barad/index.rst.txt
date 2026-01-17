@@ -111,6 +111,8 @@ Karen Barad
     :maxdepth: 3
 
     grok
+    chatgpt
     copilot
     deepseek
     gemini
+    qwen

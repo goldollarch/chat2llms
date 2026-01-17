@@ -114,5 +114,7 @@ Rosi Braidotti
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen

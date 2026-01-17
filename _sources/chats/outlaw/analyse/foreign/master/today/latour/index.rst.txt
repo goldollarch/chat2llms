@@ -119,5 +119,7 @@ ANT与其说是一种“理论”，不如说是一种 **研究方法论**，旨
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen

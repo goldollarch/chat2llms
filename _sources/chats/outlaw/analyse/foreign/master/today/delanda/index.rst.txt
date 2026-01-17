@@ -113,5 +113,7 @@ Manuel DeLanda
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen

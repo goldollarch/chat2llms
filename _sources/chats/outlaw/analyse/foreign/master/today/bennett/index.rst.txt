@@ -109,5 +109,7 @@ Jane Bennett
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen
