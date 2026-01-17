@@ -58,6 +58,7 @@ Fredric Jameson
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen

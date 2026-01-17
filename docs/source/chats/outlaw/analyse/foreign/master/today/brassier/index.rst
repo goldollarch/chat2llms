@@ -92,5 +92,7 @@ Ray Brassier
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen

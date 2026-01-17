@@ -106,5 +106,7 @@ OOO的哲学体系精妙而独特，其核心要义可以梳理为以下四大�
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen

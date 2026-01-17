@@ -96,5 +96,7 @@ Quentin Meillassoux
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen

@@ -58,6 +58,7 @@ Julia Kristeva
 
     grok
     gemini
+    chatgpt
     copilot
     deepseek
     qwen

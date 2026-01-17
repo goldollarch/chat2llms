@@ -1,7 +1,7 @@
 Iain Hamilton Grant
 ====================
 
-伊恩·汉密尔顿·格兰特（Iain Hamilton Grant）独特的思辨自然哲学核心思想
+基于伊恩·汉密尔顿·格兰特（Iain Hamilton Grant）独特的思辨自然哲学核心思想
 
 -------------
 
@@ -101,5 +101,7 @@ Iain Hamilton Grant
 
     grok
     copilot
+    chatgpt
     deepseek
     gemini
+    qwen
