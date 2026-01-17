@@ -209,4 +209,4 @@ Louis Pierre Althusser
 
 ---------------------------
 
-[:doc:`阿尔都塞与马尔库塞” </chats/outlaw/analyse/foreign/master/modern/marcuse/compare>`]
+[:doc:`阿尔都塞VS马尔库塞 </chats/outlaw/analyse/foreign/master/modern/marcuse/compare>`]
