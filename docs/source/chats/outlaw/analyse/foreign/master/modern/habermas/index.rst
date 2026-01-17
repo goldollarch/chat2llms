@@ -102,4 +102,4 @@ Jürgen Habermas
 
 ---------------------------
 
-[:doc:`哈贝马斯与阿佩尔 </chats/outlaw/analyse/foreign/master/today/apel/compare>`]
+[:doc:`哈贝马斯VS阿佩尔 </chats/outlaw/analyse/foreign/master/today/apel/compare>`]
