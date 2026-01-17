@@ -99,3 +99,7 @@ Jürgen Habermas
     ds
     qw
 
+
+---------------------------
+
+[:doc:`哈贝马斯与阿佩尔 </chats/outlaw/analyse/foreign/master/today/apel/compare>`]
