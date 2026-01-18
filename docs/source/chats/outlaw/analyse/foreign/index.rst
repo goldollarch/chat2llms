@@ -38,5 +38,6 @@
 
 [:doc:`简史 </chats/outlaw/analyse/foreign/review>`]
 [:doc:`骨架 </chats/outlaw/analyse/foreign/schools/only>`]
+[:doc:`转向 </chats/outlaw/analyse/foreign/schools/turns>`]
 [:doc:`现代 </chats/outlaw/analyse/foreign/schools/review>`]
 [:doc:`欧陆 </chats/outlaw/analyse/foreign/schools/euro>`]
