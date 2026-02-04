@@ -113,3 +113,7 @@ Speculative Realism
 [:doc:`Iain Hamilton Grant </chats/outlaw/analyse/foreign/master/today/grant/index>`]
 [:doc:`Quentin Meillassoux </chats/outlaw/analyse/foreign/master/today/meillassou/index>`]
 
+-----------
+
+【:doc:`思辨实在论vs经典实在论 </chats/outlaw/analyse/foreign/schools/today/realism/compare>`】
+
