@@ -94,15 +94,5 @@ New Materialism
 
 -----------
 
-代表人物
-
-[:doc:`Karen Barad </chats/outlaw/analyse/foreign/master/today/barad/index>`]
-[:doc:`Jane Bennett </chats/outlaw/analyse/foreign/master/today/bennett/index>`]
-[:doc:`Rosi Braidotti </chats/outlaw/analyse/foreign/master/today/braidotti/index>`]
-[:doc:`Manuel DeLanda </chats/outlaw/analyse/foreign/master/today/delanda/index>`]
-[:doc:`Bruno Latour </chats/outlaw/analyse/foreign/master/today/latour/index>`]
-
------------
-
 【:doc:`新唯物主义vs古典唯物主义 </chats/outlaw/analyse/foreign/schools/today/material/compare>`】
 
