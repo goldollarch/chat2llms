@@ -105,15 +105,5 @@ Speculative Realism
 
 -----------
 
-代表人物
-
-[:doc:`Alain Badiou </chats/outlaw/analyse/foreign/master/today/badiou/index>`]
-[:doc:`Graham Harman </chats/outlaw/analyse/foreign/master/today/harman/index>`]
-[:doc:`Ray Brassier </chats/outlaw/analyse/foreign/master/today/brassier/index>`]
-[:doc:`Iain Hamilton Grant </chats/outlaw/analyse/foreign/master/today/grant/index>`]
-[:doc:`Quentin Meillassoux </chats/outlaw/analyse/foreign/master/today/meillassou/index>`]
-
------------
-
 【:doc:`思辨实在论vs经典实在论 </chats/outlaw/analyse/foreign/schools/today/realism/compare>`】
 
