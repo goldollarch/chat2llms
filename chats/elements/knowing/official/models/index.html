@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>模型分析集 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Qwen：专案研究" href="qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../actions/index.html">行为：传播“虚假信息”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">主观：“明知”和“故意”</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">主观：“明知”和“故意”</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+      <li class="breadcrumb-item active">模型分析集</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/knowing/official/models/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>模型分析集<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：专案研究</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、 法定标准：“明知”要件的规范内涵与证明要求</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">（一）刑法教义学定位：主观故意的绝对前提</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">（二）现行法对“明知”证明的底线要求</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">二、 逻辑谬误：“高学历推定明知”的法理悖论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">三、 证据法批判：举证责任倒置与证明标准虚化</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">（一）非法转移举证责任</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id7">（二）证明标准的彻底塌陷</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id8">四、 刑法原则背离：主观归罪与责任主义的溃败</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id9">（一）违反“主客观相统一”原则</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id10">（二）违背责任主义（罪责自负与主观可归责性）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">（三）破坏罪刑法定原则的明确性</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id12">五、 司法实践对照：网络言论案件“明知”认定的正确路径</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">六、 综合评估结论与制度矫正建议</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">（一）专业评级：<strong>严重违法（主观要件认定无效）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id15">（二）核心法律定性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id16">（三）法治矫正路径</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>关于昆明司法机关基于“高学历”推定陈京元博士“明知”构成“寻衅滋事罪”的专业法律分析与评估</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2"><strong>一、 主观构成要件认定的基本原则</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3"><strong>二、 对“高学历=明知”推定的法律分析</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4"><strong>三、 对“寻衅滋事罪”主观故意的架空</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5"><strong>四、 结论：对法治原则的损害</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">昆明司法机关以“高学历”推定“明知”与主观恶意的专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">一、主观要件的法律标准：必须证明，而非推定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">二、“高学历→明知”的推断性质</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">三、与刑事诉讼法的冲突</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">四、与“主客观相一致原则”的冲突</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">五、是否属于“有罪推定”的变形？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">六、司法实践中的允许推定边界</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">七、进一步法理风险：身份歧视与责任不平等</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id26">八、对“主观恶意”的推断问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id29">九、综合专业评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id34">十、一句话结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id35">十一、进一步提升（如果你需要）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">昆明司法机关以“高学历”推定“明知”与主观恶意的专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2">🧭 第一部分：刑法要求“明知”必须有证据，而不能推定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4">🧭 第二部分：《两高解释》明确要求“明知虚假”必须有直接证据</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5">🧭 第三部分：以“高学历”推定“明知”属于严重违法的“主观归罪”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9">🧭 第四部分：昆明司法机关的做法违反《刑事诉讼法》的举证责任规则</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10">🧭 第五部分：司法实践从未出现“以学历推定明知”的合法判例</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11">🧭 第六部分：专业法律结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">昆明司法机关以“高学历”推定“明知”与主观恶意的专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">一、 实体法维度：对“明知”要件的非法扩张与拟制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">二、 证据法维度：违反“排除合理怀疑”的证明标准</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">三、 法理维度：身份标签化与“高学历有罪论”的荒谬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">四、 综合评估结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id6">专家总结</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1"><strong>昆明司法机关对陈京元博士“明知”主观犯罪构成要件的推断专业法律分析与评估</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、寻衅滋事罪（网络适用）主观构成要件的法定要求</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、昆明司法机关的具体推断方式与表现</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、该推断的法律错误评估：系统性、根本性违法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">四、制度危害与法律后果</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id6">一、“未知领域”无边无际：认识论解构“明知”概念的深刻性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id7">二、专业领域内的自信：以专家判断否定主观恶意</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id8">三、作为学者的身份即“罪证”：归谬法揭示指控的荒谬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id9">四、整体专业评估与结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="qwen.html" class="btn btn-neutral float-left" title="Qwen：专案研究" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

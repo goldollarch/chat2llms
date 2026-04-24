@@ -1,0 +1,298 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modeling and Simulation &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../soc/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">科学理论</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../system/index.html">系统</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">物理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../psycho/index.html">心理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">科学理论</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">物理</a></li>
+      <li class="breadcrumb-item active">Modeling and Simulation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/physic/model/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="modeling-and-simulation">
+<h1>Modeling and Simulation<a class="headerlink" href="#modeling-and-simulation" title="Link to this heading"></a></h1>
+<p>一个理论模型框架，把
+无标度网络结构（who can reach whom）、
+分支过程（how cascades grow）
+与自组织临界性（when large cascades emerge）
+都考虑到这个模型中。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#galton-watson-process">网络传播动力学数学模型：基于分支过程（Galton-Watson Process）的级联传播模拟</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">1. 模型框架（忠实于陈博士思路）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">2. 数值模拟结果（数学精确计算）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#eta-m">3. 灭绝概率曲线 ( \eta(m) )</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">4. 模型对本案的法律意义</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#sf-soc-bp-model"><strong>无标度网络上的自组织临界分支过程模型（SF-SOC-BP Model）</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">1. 模型总体框架</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">2. 数学形式化（各组成部分）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id6">3. 模型整体动力学与本案应用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id7">4. 模型优势与法律相关性</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">简化传播模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#galton-watson">一、 模型基本定义：Galton-Watson 过程</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">二、 级联演化分析：深度亚临界区</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#extinction-probability">三、 级联灭绝概率曲线 (Extinction Probability)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">四、 模拟“雪崩”所需的极端条件（控方逻辑的荒谬性）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">五、 模型总结与存档建议</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id6">综合理论模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#sf-b-soc">综合理论模型：SF-B-SOC 动力学框架</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id7">综合模型结论：针对本案的“物理审判”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id8">给历史档案的总结</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">基于分支过程的传播动力学模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2">一、建模目标</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#galtonwatson">二、模型框架：Galton–Watson 分支过程</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#r-0">三、关键参数设定：平均分支数 (R_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3">四、级联灭绝与总传播规模</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6">五、与“严重混乱”的量级对比</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7">六、如何把这个模型写进你的档案或论文</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id8"><strong>与《两高解释》量化标准的对照分析</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9">一、量化标准与传播动力学模型的直接对照</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10">二、从法律量化到科学量化的逻辑断层</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11">三、结论：司法认定与科学事实的数量级冲突</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id12">综合理论模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#scale-free-network">一、层级 1：网络结构层——谁能触达谁（Scale-Free Network）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#branching-process">二、层级 2：传播动力学层——级联如何生长（Branching Process）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#self-organized-criticality">三、层级 3：临界性层——何时出现大级联（Self-Organized Criticality）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id13">四、把三层合在一起：一个统一模型</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14">五、用这个统一模型评价本案的“严重混乱”说法</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">基于分支过程的传播动力学模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#galtonwatson">一、模型选择：Galton–Watson 分支过程</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">二、结合本案的参数设定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">三、级联规模与灭绝概率</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">四、级联概率（“雪崩”可能性）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">五、引入网络结构（边缘节点效应）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">六、最终模拟结论（严格版）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id23">七、可以进一步增强的模型（进阶建议）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id27">八、最终一句话总结</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id28">综合无标度网络结构的传播动力学模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id29">一、总体思路（统一视角）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id30">二、网络层：无标度结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id31">三、动力学层：网络上的分支过程</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id35">四、阈值层：临界条件与级联</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#soc">五、自组织临界性（SOC）嵌入</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id41">六、级联规模分布（统一结果）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id45">七、边缘节点的作用（统一解释）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id49">八、针对“个体行为影响”的严格表述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id52">九、模型的“历史级”表达（哲学升维）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id53">十、最终总结（一句话模型结论）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id54">十一、可以继续深化的方向（真正论文级）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">基于分支过程的传播动力学模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#branching-process">一、模型构建：基于分支过程（Branching Process）的传播模型</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5">二、参数估计：陈博士的实际情况</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id6">三、模拟结果：级联灭绝概率与平均规模</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id9">四、考虑网络结构的修正模型</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id12">五、模型结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id13">六、司法意义</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id14">七、模型的可视化建议（面向历史档案）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id15">综合传播理论模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id16"><strong>一、 综合模型框架</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#vs"><strong>二、 模型分析：边缘节点 vs. 枢纽节点</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id20"><strong>三、 应用于陈博士案例的参数估计</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id21"><strong>四、 模型结论与司法启示</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id22"><strong>五、 进一步研究方向</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">陈京元案网络传播动力学数学模型：分支过程框架下的级联传播模拟</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">一、模型理论基础：为何选择分支过程？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">二、本案参数设定：基于事实的量化约束</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#python">三、Python实现：分支过程模拟与可视化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id9">四、可视化分析：级联灭绝概率曲线与规模分布</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id13">五、敏感性分析：参数不确定性下的稳健性检验</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id15">六、法律映射：数学结论的规范转译</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id18">七、模型局限与未来扩展方向</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id21">结语：当科学严谨性遭遇司法模糊性</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id22">状态依赖型异质分支-临界网络模型</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id23">一、模型核心架构：三层耦合机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id24">二、统一数学表述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id27">三、针对本案的定量推演</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id30">四、科学结论向法律要件的结构化映射</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id31">五、模型边界与学术延展说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id32">结语：当复杂系统科学遭遇司法归因谬误</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../soc/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

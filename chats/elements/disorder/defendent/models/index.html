@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>模型分析集 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Qwen：专案研究" href="qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../actions/index.html">行为：传播“虚假信息”</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">后果：秩序“严重混乱”</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../twitter/index.html">实证数据：账号及互动</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../official/index.html">官方质证与逻辑</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">被告辩护评析</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">后果：秩序“严重混乱”</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">被告辩护评析</a></li>
+      <li class="breadcrumb-item active">模型分析集</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/disorder/defendent/models/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>模型分析集<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：专案研究</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">关于“造成公共秩序严重混乱”要件自辩内容的专业法律评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">一、 科学论证维度：对刑法因果关系的理论解构与举证责任分配</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">二、 法律解释维度：对“严重混乱”法定标准的精准对照与要件虚置批判</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id8">三、 实证观察维度：事后反证对“损害结果”客观存在性的彻底证伪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">四、 综合专业评估：法理价值、实践局限与制度启示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">针对“造成公共秩序严重混乱”这一核心构成要件的反驳逻辑</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">一、 科学论证的法律转化效力：切断因果关系与证伪“现实危险性”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id15">二、 法律要件对接：精准锚定《刑法》与《两高解释》的裁判标准</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id18">三、 实证观察的证据法意义：构成“自然对照实验”与反证锁链</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id19">四、 司法实践对照：暴露“结果推定”与“客观归罪”的裁判逻辑缺陷</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id20">五、 综合评估结论与程序救济建议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id23">结语：当科学确定性遭遇司法模糊性</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>一、 核心法律规范框架梳理</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2"><strong>二、 对陈博士三层反驳的法律评估</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3"><strong>（一）科学论证层面：在法理上具有极强的辩驳力，但在司法实践中面临采纳障碍</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4"><strong>（二）法律解释层面：直接、有力，完全符合法律条文与证据裁判原则</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5"><strong>（三）实证观察层面：构成对指控事实的终极否定</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6"><strong>三、 综合评估结论</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、规范起点：本罪的证明结构（关键框架）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">（1）行为要件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">（2）结果要件（核心）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">（3）因果关系</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">（4）主观要件</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">二、对“科学论证层”的法律评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">（一）对“结果要件”的冲击 —— ✔ 有实质意义</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">（二）对“因果关系”的冲击 —— ✔ 中度有效</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">（三）“系统内禀无序性”论证 —— ❗法律上效力较弱</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id13">三、对“法律论证层”的评估（最关键部分）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">（一）对“严重混乱”的量化标准反驳 —— ✔ 强有效</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">（二）对“证据裁判原则”的指向 —— ✔ 强有效</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id17">（三）关于《刑法》第十六条（意外事件） —— ✔ 有条件成立</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id19">四、对“实证层”的评估（决定性部分）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">陈博士提出：</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">法律意义：</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id25">五、综合评估（三层结构的真实效果）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id26">（一）最强部分</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id27">（二）次强部分</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id28">（三）最弱部分</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id29">六、司法实践视角下的关键判断</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id30">1. 是否存在可观测传播</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id31">2. 是否达到司法解释阈值</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id32">3. 是否有现实秩序扰动</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id33">七、最终专业结论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id34">八、一句话总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、从《刑法》与《两高解释》出发：控方指控的核心要件是什么？</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2"><strong>（1）行为要件：被告实施了某种行为</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3"><strong>（2）因果要件：该行为导致了某种危害结果</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4"><strong>（3）结果要件：该危害结果必须达到法定严重程度</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6"><strong>二、陈京元博士的反驳：从法律角度看是否成立？</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#a"><strong>（A）科学论证层：是否能切断“行为→结果”的因果链？</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#b"><strong>（B）法律解释层：是否符合《两高解释》的量化标准？</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#c"><strong>（C）实证观察层：是否存在“严重混乱”的现实后果？</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id10"><strong>三、控方若坚持“蝴蝶效应”或“雪崩效应”，是否成立？</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11"><strong>法律评估：控方无法满足任何一项。</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12"><strong>《刑法》第十六条：不可预见性 → 不构成犯罪</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id13"><strong>四、综合评估：陈博士的反驳是否成立？</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14"><strong>（1）控方无法证明“严重混乱”的事实存在</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id15"><strong>（2）控方无法证明“转发行为”与“混乱”之间的因果关系</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id16"><strong>（3）控方无法满足《两高解释》的量化标准</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id17"><strong>（4）控方无法证明主观故意或过失</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id18"><strong>（5）控方的指控属于“抽象危害论”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id19"><strong>（6）陈博士的科学论证具有高度专业性</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id20"><strong>（7）实证观察完全否定控方指控</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id21"><strong>五、最终结论（可直接写入档案）</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id22">🔹 写一份《专业法律意见书》版本</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id23">🔹 写一份《司法错误分析报告》</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id24">🔹 写一份《复杂系统科学在司法中的适用性研究》</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id25">🔹 写一份《本案为何构成“指称缺失型指控”》</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 科学维度：对因果关系与损害后果的“量化拆解”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">二、 法律维度：对“结果要件”的定性与定量分析</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">三、 实证维度：刑满后的“零效应”观测</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">四、 综合评估总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">一、科学层面论证：从复杂系统理论彻底切断因果关系</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">二、法律层面解释：精准对标《两高网络解释》，否定要件符合性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">三、实证观察层面：刑满后“自然实验”构成毁灭性事后证伪</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id4">四、整体专业评估与结论</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="qwen.html" class="btn btn-neutral float-left" title="Qwen：专案研究" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

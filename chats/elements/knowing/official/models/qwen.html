@@ -1,0 +1,320 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qwen：专案研究 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="模型分析集" href="index.html" />
+    <link rel="prev" title="官方质证与逻辑" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../actions/index.html">行为：传播“虚假信息”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">主观：“明知”和“故意”</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">主观：“明知”和“故意”</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+      <li class="breadcrumb-item active">Qwen：专案研究</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/knowing/official/models/qwen.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="qwen">
+<h1>Qwen：专案研究<a class="headerlink" href="#qwen" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p><strong>昆明司法机关以“高学历”推定“明知”与主观恶意的专业法律分析与评估</strong></p>
+<blockquote>
+<div><p><strong>分析说明</strong>：本报告严格依据《中华人民共和国刑法》《中华人民共和国刑事诉讼法》《最高人民法院、最高人民检察院关于办理利用信息网络实施诽谤等刑事案件适用法律若干问题的解释》（以下简称《两高解释》）及刑事证据法理、刑法教义学原理，针对昆明公检法机关在陈京元案中 <strong>仅凭“高学历”身份直接推定其“明知”转发内容为虚假信息且具有主观恶意</strong> 的做法，进行系统性、穿透式法律评估。</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、 法定标准：“明知”要件的规范内涵与证明要求<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>（一）刑法教义学定位：主观故意的绝对前提<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>《刑法》第14条规定：“明知自己的行为会发生危害社会的结果，并且希望或者放任这种结果发生，因而犯罪的，是故意犯罪。”
+《两高解释》第5条第2款进一步明确，利用信息网络实施寻衅滋事罪，必须是“<strong>明知是编造的虚假信息</strong>，在信息网络上散布”。</p>
+<p>在刑法体系中，“明知”属于 <strong>主观构成要件要素</strong>，其认定必须满足：</p>
+<ol class="arabic simple">
+<li><p><strong>认知对象特定</strong>：明确知道所传播的具体信息系“编造的虚假事实”；</p></li>
+<li><p><strong>认知状态现实</strong>：行为时实际知晓或高度确信，而非“应当知道”或“可能知道”；</p></li>
+<li><p><strong>证明路径客观</strong>：必须通过客观外在事实（如聊天记录、自认供述、信息明显违背常识、收到权威辟谣后仍转发等）逆向推证内心状态。</p></li>
+</ol>
+</section>
+<section id="id3">
+<h3>（二）现行法对“明知”证明的底线要求<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>《刑事诉讼法》第55条确立“证据确实、充分，排除合理怀疑”标准；第51条明确“公诉案件中被告人有罪的举证责任由人民检察院承担”。
+对于主观要件，最高人民法院《关于适用〈刑事诉讼法〉的解释》第140条强调：<strong>不得仅凭被告人身份、职业、学历等抽象特征推定主观故意</strong>，必须结合具体行为语境与客观证据综合认定。</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id4">
+<h2>二、 逻辑谬误：“高学历推定明知”的法理悖论<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p>昆明司法机关在判决书中表述：“被告陈京元作为完全刑事能力人，且具有很高的学历和知识水平……对明知是侮辱、攻击……的图片和文章进行转发”。该推定存在三重根本性逻辑断裂：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>推定环节</p></th>
+<th class="head text-left"><p>司法机关逻辑</p></th>
+<th class="head text-left"><p>法理批判</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>前提</strong></p></td>
+<td class="text-left"><p>具有博士研究生学历</p></td>
+<td class="text-left"><p>学历仅证明学习能力与专业训练背景，不等同于对特定网络信息真伪的“实际认知”</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>跳跃</strong></p></td>
+<td class="text-left"><p>高学历 → 应能明辨是非 → 明知是谣言</p></td>
+<td class="text-left"><p>将道德/认知层面的**“注意义务”** （应知）偷换为刑法层面的 <strong>“实际心理状态”</strong> （明知），属典型的概念混淆</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>结论</strong></p></td>
+<td class="text-left"><p>具备主观恶意，构成故意犯罪</p></td>
+<td class="text-left"><p>脱离主客观相统一原则，陷入**“身份归罪”** 与 <strong>“客观归罪”</strong> 的双重误区</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>法理定性</strong>：该推定违反形式逻辑的 <strong>同一律</strong> 与 <strong>充足理由律</strong>。学历高低与对某条具体网帖是否“明知为假”之间不存在必然因果关联，更不符合刑法对主观故意“现实性、特定性、可证性”的严格要求。</p>
+<hr class="docutils" />
+</section>
+<section id="id5">
+<h2>三、 证据法批判：举证责任倒置与证明标准虚化<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<section id="id6">
+<h3>（一）非法转移举证责任<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p>《刑事诉讼法》第51条明确规定控方承担有罪举证责任。主观“明知”作为犯罪构成要件之一，理应由公诉机关提供证据链予以证明。
+本案中，卷宗无任何能证明陈博士“明知信息虚假”的客观证据（如：其本人承认明知虚假的供述、与原创者串通造假的记录、信息明显荒谬至常人可辨的程度、收到官方辟谣后仍恶意扩散等）。司法机关以“未提交反证”或“学历高应知”为由完成定罪，实质是<strong>将控方举证责任非法倒置给被告人</strong>，严重违反无罪推定原则。</p>
+</section>
+<section id="id7">
+<h3>（二）证明标准的彻底塌陷<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>《刑事诉讼法》第55条要求定罪必须“排除合理怀疑”。陈博士在《上诉书》及《狱中自辩》中已明确陈述其认知状态为“学术批判态度”“无力确认真伪”“保持开放与怀疑”。该自述构成对“明知”要件的 <strong>合理反证</strong>。
+在存在合理怀疑的情况下，司法机关不仅未予审慎评估，反而以身份标签强行闭合证明链条，使“排除合理怀疑”标准沦为 <strong>“有罪确信”</strong> 的修辞装饰。</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id8">
+<h2>四、 刑法原则背离：主观归罪与责任主义的溃败<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<section id="id9">
+<h3>（一）违反“主客观相统一”原则<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>我国刑法坚持主客观相统一，即定罪必须同时具备客观危害行为与主观罪过，且二者必须相互印证。
+本案仅凭“转发行为”+“高学历”即认定主观故意，<strong>割裂了行为与心理状态的实质关联</strong>。若此逻辑成立，则所有转发过争议性内容的学者、记者、公务员均可被推定为“明知故犯”，刑法将彻底退化为“思想审查法”。</p>
+</section>
+<section id="id10">
+<h3>（二）违背责任主义（罪责自负与主观可归责性）<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>《刑法》第16条规定：“行为在客观上虽然造成了损害结果，但是不是出于故意或者过失，而是由于不能抗拒或者不能预见的原因所引起的，不是犯罪。”
+责任主义要求：刑事归责必须以行为人 <strong>具有非难可能性</strong> 为前提。陈博士作为复杂系统研究者，其认知结构本就强调“多源信息比对”“批判性吸收”“不可证伪命题的存疑”。司法机关无视其专业认知背景，强行套用“非黑即白”的单一真伪判断标准，实质是 <strong>以行政意识形态替代刑法主观归责标准</strong>，彻底消解了责任主义的伦理基础。</p>
+</section>
+<section id="id11">
+<h3>（三）破坏罪刑法定原则的明确性<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>《刑法》第3条确立罪刑法定原则，要求构成要件必须明确、可预见。将“高学历”作为推定“明知”的法定事由，既无法律明文规定，也无司法解释授权，属于 <strong>司法造法与要件扩张</strong>，使公民无法预见自身行为的刑事风险，直接侵蚀刑法的保障机能。</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id12">
+<h2>五、 司法实践对照：网络言论案件“明知”认定的正确路径<a class="headerlink" href="#id12" title="Link to this heading"></a></h2>
+<p>结合最高人民法院指导案例及司法共识，网络转发类案件“明知”的认定应综合以下客观因素，<strong>严禁单一身份推定</strong>：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>审查维度</p></th>
+<th class="head text-left"><p>合法认定路径</p></th>
+<th class="head text-left"><p>本案表现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>信息内容明显虚假程度</strong></p></td>
+<td class="text-left"><p>是否违背基本科学常识、历史事实或官方通报</p></td>
+<td class="text-left"><p>涉案多为观点评论、艺术作品、外媒报道，不具备“明显虚假”特征</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>行为人专业背景与信息匹配度</strong></p></td>
+<td class="text-left"><p>是否具备该领域专业鉴别能力（如医学专家转发伪科学）</p></td>
+<td class="text-left"><p>陈博士专业为物理与复杂系统，与涉政/艺术帖文无专业关联</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>传播动机与行为模式</strong></p></td>
+<td class="text-left"><p>是否以牟利、煽动、恶意诋毁为目的，是否反复、批量、跨平台扩散</p></td>
+<td class="text-left"><p>仅为零星转发、个人收藏研究，无恶意扩散特征</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>事后反应</strong></p></td>
+<td class="text-left"><p>是否收到辟谣、警告后仍继续传播或对抗监管</p></td>
+<td class="text-left"><p>无此类证据，且贴文长期静默存在</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>结论</strong>：本案完全偏离司法实践对“明知”的审慎认定标准，属于典型的<strong>要件虚置与主观臆断</strong>。</p>
+<hr class="docutils" />
+</section>
+<section id="id13">
+<h2>六、 综合评估结论与制度矫正建议<a class="headerlink" href="#id13" title="Link to this heading"></a></h2>
+<section id="id14">
+<h3>（一）专业评级：<strong>严重违法（主观要件认定无效）</strong><a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>评估维度</p></th>
+<th class="head text-left"><p>判定</p></th>
+<th class="head text-left"><p>法律依据</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>逻辑严密性</p></td>
+<td class="text-left"><p>❌ 严重缺陷</p></td>
+<td class="text-left"><p>混淆“应知”与“明知”，违反充足理由律</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>证据充分性</p></td>
+<td class="text-left"><p>❌ 零证据支撑</p></td>
+<td class="text-left"><p>违反《刑诉法》第51、55条举证责任与证明标准</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>原则符合性</p></td>
+<td class="text-left"><p>❌ 根本背离</p></td>
+<td class="text-left"><p>违反主客观相统一、责任主义、罪刑法定</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>司法实践契合度</p></td>
+<td class="text-left"><p>❌ 严重偏离</p></td>
+<td class="text-left"><p>脱离网络言论案件“明知”认定的客观化审查路径</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id15">
+<h3>（二）核心法律定性<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>昆明司法机关以“高学历”推定“明知”与主观恶意，是一份 <strong>在证据上无源之水、在逻辑上自相矛盾、在法理上违背责任主义、在程序上倒置举证责任</strong> 的违法推定。其本质是以 <strong>身份标签替代事实查明</strong>，以 <strong>政治预判覆盖法律证明</strong>，将刑法主观要件异化为可随意填充的“思想审查工具”。</p>
+</section>
+<section id="id16">
+<h3>（三）法治矫正路径<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>确立“禁止身份推定明知”规则</strong>：通过司法解释或指导性案例明确，学历、职业、职务等外在特征不得单独或主要作为推定主观明知的依据。</p></li>
+<li><p><strong>强化主观要件的客观化审查</strong>：要求裁判文书必须列明推定“明知”的具体客观事实基础（如信息虚假的明显程度、行为人的特定认知渠道、事后行为反应等），并允许被告人提出合理反证。</p></li>
+<li><p><strong>激活疑罪从无的实质适用</strong>：对主观故意存疑且控方举证不能的案件，法院应依法作出证据不足、指控犯罪不能成立的无罪判决，不得以“社会危害性推定”或“身份标签”填补证据缺口。</p></li>
+<li><p><strong>完善二审与审判监督机制</strong>：对以身份推定主观要件的裁判，上级法院应依法撤销或发回重审；检察机关应履行客观公正义务，对证据不足的起诉依法作出不起诉决定。</p></li>
+</ol>
+<blockquote>
+<div><p><strong>结语</strong>：
+刑法中的“明知”不是办案人员主观想象的投射，更不是身份标签的附属品，而是必须由客观证据严密印证的心理事实。当司法机关用“高学历”替代证据审查，用“应知”掩盖“明知”，刑法便从“保障自由的盾牌”异化为“规训思想的枷锁”。陈京元案中这一主观要件的违法推定，应成为推动刑事证明标准实质化、主观故意认定客观化、司法裁判去身份化的重要反面教材。法治的尊严，恰恰体现在司法机关面对证据缺失时，仍能坚守“疑罪从无”的底线，而非以权力的惯性完成有罪的闭环。</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="官方质证与逻辑" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-right" title="模型分析集" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

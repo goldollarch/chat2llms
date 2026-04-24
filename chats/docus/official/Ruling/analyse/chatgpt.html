@@ -1,0 +1,552 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Copilot" href="copilot.html" />
+    <link rel="prev" title="Gemini" href="gemini.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Legal Documents Analysis</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">官方正式文书</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../Indictment/index.html">检察院起诉书</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Judgment/index.html">一审法院判决书</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">二（终）审裁定书</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../quality.html">质量与合规性审查</a></li>
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析与比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../overview/index.html">总体分析与评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../defendant/index.html">被告狱中书信</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Legal Documents Analysis</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">官方正式文书</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">二（终）审裁定书</a></li>
+          <li class="breadcrumb-item"><a href="index.html">模型分析与比较</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/docus/official/Ruling/analyse/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>下面对本案 <strong>昆明市中级人民法院二审裁定书（（2023）云01刑终310号）</strong> 进行系统、深入的专业评估。重点围绕：<strong>二审审查义务、程序适法性、上诉理由回应、证据复核标准与裁判说理</strong>。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、总体专业判断<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>先给出结论性评价：</p>
+<blockquote>
+<div><p><strong>该二审裁定属于典型的“维持型裁判”，在审查深度与说理义务上明显弱化，未履行二审对一审错误进行实质纠偏的法定功能。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、二审的法定职责与本案对照<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>根据《刑事诉讼法》，二审的核心职责是：</p>
+<section id="id3">
+<h3>1. 全面审查原则<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>对<strong>事实、证据、法律适用</strong>进行全面复核</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>2. 实质审查义务<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>尤其在存在争议时，应进行深入审查</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3>3. 救济功能<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>纠正一审可能错误</p></li>
+</ul>
+<hr class="docutils" />
+<p>👉 本案的关键问题在于：</p>
+<blockquote>
+<div><p><strong>二审是否真正“重新审查”，还是仅“确认一审”？</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>三、程序层面评估<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id7">
+<h3>（一）不开庭审理的合法性与合理性<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>裁定书：</p>
+<blockquote>
+<div><p>“决定不开庭审理本案”</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id8">
+<h4>法律依据：<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<p>二审可不开庭，但前提是：</p>
+<ul class="simple">
+<li><p>事实清楚</p></li>
+<li><p>证据充分</p></li>
+<li><p>争议不大</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h4>本案情况：<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<p>上诉人提出五项核心争议：</p>
+<ol class="arabic simple">
+<li><p>是否属于虚假信息</p></li>
+<li><p>是否“明知”</p></li>
+<li><p>是否扰乱秩序</p></li>
+<li><p>法律适用是否错误</p></li>
+<li><p>主观故意是否存在</p></li>
+</ol>
+<p>👉 这些属于：</p>
+<blockquote>
+<div><p><strong>构成要件的核心争议，而非一般事实争议</strong></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>📌 评估：</p>
+<blockquote>
+<div><p><strong>形式合法，但实质合理性明显不足</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h3>（二）直接维持原判的程序风险<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>二审未进行：</p>
+<ul class="simple">
+<li><p>新证据调查</p></li>
+<li><p>证据质证强化</p></li>
+<li><p>关键事实再查明</p></li>
+</ul>
+<p>👉 实质上：</p>
+<blockquote>
+<div><p><strong>完全依赖一审认定</strong></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>二审“复核功能”弱化为“确认功能”</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h2>四、对上诉理由的审查质量<a class="headerlink" href="#id11" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id12">
+<h3>（一）上诉理由的性质<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>上诉人提出的不是一般抗辩，而是：</p>
+<p>👉 <strong>针对犯罪构成要件的全面否认</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3>（二）裁定书回应方式<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>核心表述：</p>
+<blockquote>
+<div><p>“上诉意见与查明事实和法律规定不符，本院不予采纳”</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id14">
+<h4>存在问题：<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<p>这是典型的：</p>
+<p>❌ <strong>结论性否定</strong>
+❌ <strong>未逐项回应</strong>
+❌ <strong>未展开论证</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h4>正确做法应包括：<a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+<p>对每一项上诉理由：</p>
+<ul class="simple">
+<li><p>是否成立</p></li>
+<li><p>依据何证据否定</p></li>
+<li><p>法律上如何评价</p></li>
+</ul>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>未履行“针对性回应义务”</strong></p>
+</div></blockquote>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h2>五、构成要件复核（核心问题）<a class="headerlink" href="#id16" title="Link to this heading"></a></h2>
+<p>二审应重点审查一审三大缺陷：</p>
+<ol class="arabic simple">
+<li><p>虚假信息是否成立</p></li>
+<li><p>明知是否成立</p></li>
+<li><p>是否造成秩序混乱</p></li>
+</ol>
+<hr class="docutils" />
+<section id="id17">
+<h3>（一）虚假信息认定：未复核<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<p>裁定仅重复：</p>
+<blockquote>
+<div><p>“内容属于虚假信息”</p>
+</div></blockquote>
+<p>但：</p>
+<p>❌ 未列明具体内容
+❌ 未说明认定方法
+❌ 未回应上诉质疑</p>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>未进行实质审查，仅重复一审结论</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h3>（二）“明知”问题：未审查<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<p>裁定沿用一审逻辑：</p>
+<blockquote>
+<div><p>“明知仍转发”</p>
+</div></blockquote>
+<p>但：</p>
+<p>❌ 未补充任何证据
+❌ 未回应“推定问题”</p>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>主观要件仍属“无证据状态”</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3>（三）“扰乱秩序”问题：完全空白<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<p>裁定：</p>
+<blockquote>
+<div><p>未提供任何新的论证</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>📌 关键缺陷：</p>
+<ul class="simple">
+<li><p>无传播数据</p></li>
+<li><p>无社会影响</p></li>
+<li><p>无因果关系</p></li>
+</ul>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>结果要件仍未被证明</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id20">
+<h2>六、证据复核标准评估<a class="headerlink" href="#id20" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id21">
+<h3>（一）“证据锁链”认定问题<a class="headerlink" href="#id21" title="Link to this heading"></a></h3>
+<p>裁定称：</p>
+<blockquote>
+<div><p>“证据形成锁链”</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>但未说明：</p>
+<ul class="simple">
+<li><p>哪些证据证明哪些要件</p></li>
+<li><p>如何相互印证</p></li>
+<li><p>如何排除合理怀疑</p></li>
+</ul>
+<hr class="docutils" />
+<p>👉 实质：</p>
+<blockquote>
+<div><p><strong>形式性确认，而非实质性审查</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id22">
+<h3>（二）未履行“重新评价证据”义务<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<p>二审应：</p>
+<ul class="simple">
+<li><p>独立判断证据证明力</p></li>
+<li><p>而非简单采信一审</p></li>
+</ul>
+<hr class="docutils" />
+<p>本案：</p>
+<p>❌ 未独立分析
+❌ 未指出关键证据</p>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>证据审查流于形式</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h2>七、法律适用复核缺失<a class="headerlink" href="#id23" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id24">
+<h3>（一）罪名适用问题未审查<a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+<p>上诉提出：</p>
+<blockquote>
+<div><p>寻衅滋事罪适用不当</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>但裁定：</p>
+<p>❌ 未分析罪名适用边界
+❌ 未说明为何适用“口袋罪”</p>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h3>（二）未讨论替代罪名或无罪可能<a class="headerlink" href="#id25" title="Link to this heading"></a></h3>
+<p>在理论上应考虑：</p>
+<ul class="simple">
+<li><p>是否构成行政违法</p></li>
+<li><p>是否不构成犯罪</p></li>
+</ul>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>法律适用审查缺失</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id26">
+<h2>八、裁判说理质量评估<a class="headerlink" href="#id26" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id27">
+<h3>（一）高度简化<a class="headerlink" href="#id27" title="Link to this heading"></a></h3>
+<p>全文逻辑：</p>
+<blockquote>
+<div><p>一审正确 → 证据充分 → 上诉不成立 → 维持</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id28">
+<h3>（二）缺乏关键论证<a class="headerlink" href="#id28" title="Link to this heading"></a></h3>
+<p>未解释：</p>
+<ul class="simple">
+<li><p>为什么是虚假信息</p></li>
+<li><p>为什么属于明知</p></li>
+<li><p>为什么扰乱秩序</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id29">
+<h3>（三）典型“模板化裁定”<a class="headerlink" href="#id29" title="Link to this heading"></a></h3>
+<p>使用大量：</p>
+<ul class="simple">
+<li><p>“事实清楚”</p></li>
+<li><p>“证据充分”</p></li>
+<li><p>“定罪准确”</p></li>
+</ul>
+<p>但：</p>
+<p>👉 <strong>无实质内容支撑</strong></p>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>说理严重不足，不符合现代刑事裁判标准</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id30">
+<h2>九、二审功能失效的法理评价<a class="headerlink" href="#id30" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id31">
+<h3>（一）应然状态：<a class="headerlink" href="#id31" title="Link to this heading"></a></h3>
+<p>二审应是：</p>
+<blockquote>
+<div><p><strong>纠错机制 + 权利救济机制</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id32">
+<h3>（二）本案实然状态：<a class="headerlink" href="#id32" title="Link to this heading"></a></h3>
+<p>表现为：</p>
+<blockquote>
+<div><p><strong>确认机制 + 形式审查机制</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id33">
+<h3>（三）核心问题本质<a class="headerlink" href="#id33" title="Link to this heading"></a></h3>
+<p>本案体现：</p>
+<blockquote>
+<div><p>二审未对一审的“构成要件缺陷”进行修复</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id34">
+<h2>十、综合结论<a class="headerlink" href="#id34" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id35">
+<h3>（一）程序层面<a class="headerlink" href="#id35" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>不开庭形式合法</p></li>
+<li><p>但审查深度不足</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id36">
+<h3>（二）实体层面<a class="headerlink" href="#id36" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>未补强关键要件</p></li>
+<li><p>未回应核心争议</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id37">
+<h3>（三）证据层面<a class="headerlink" href="#id37" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>未进行实质复核</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id38">
+<h3>（四）裁判说理<a class="headerlink" href="#id38" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>严重不足</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id39">
+<h2>十一、最终专业判断<a class="headerlink" href="#id39" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>该二审裁定未履行对一审裁判进行全面、实质审查的法定义务，其维持原判的结论缺乏独立、充分的论证基础。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id40">
+<h2>十二、一句话总结<a class="headerlink" href="#id40" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>二审裁定“确认了一审”，但没有“审查一审”。</strong></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>如果你想进一步深化分析，我可以帮你做：</p>
+<ol class="arabic simple">
+<li><p><strong>三份文书的“错误传递链分析”（非常有深度）</strong></p></li>
+<li><p><strong>从德国/日本刑事二审制度对比分析本案问题</strong></p></li>
+<li><p><strong>写一份“再审申请书（专业版本）”</strong></p></li>
+</ol>
+<p>这些会更接近法律实务与学术发表水平。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="gemini.html" class="btn btn-neutral float-left" title="Gemini" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="copilot.html" class="btn btn-neutral float-right" title="Copilot" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

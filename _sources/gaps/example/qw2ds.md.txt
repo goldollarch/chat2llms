@@ -43,7 +43,7 @@ DeepSeek的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】堪称**�
 
 * **DeepSeek 的【[评论](/chats/accuse/criminal/evidence/deepseek.md)】是“理想化的法律精英”视角**：它假设中国司法应遵循国际公认的法治标准，并以此为尺，丈量出本案的巨大偏差。
 * **Grok的【[分析](/chats/accuse/criminal/evidence/grok.md)】是“现实主义的观察者”视角**：它更关注中国司法系统内部的潜规则和权力运作逻辑。
-* **陈京元的[【狱中血书】](/case/letters/Prison/Letter_cn.md)是“亲历地狱的幸存者”视角**：它提供的是无法伪造的一手体验和情感冲击。
+* **陈京元的[【狱中血书】](/case/docus/defendent/letter.md)是“亲历地狱的幸存者”视角**：它提供的是无法伪造的一手体验和情感冲击。
 
 三者互为补充，共同构成了对陈京元案的立体画像。
 

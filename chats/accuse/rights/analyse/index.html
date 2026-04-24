@@ -1,0 +1,363 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>具体指控的分析评估 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen：专案研究" href="qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Accuse the Judicial Mafia</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../criminal/index.html">刑事相关指控</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">宪法及基本人权</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../possible/index.html">违法犯罪分析评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../specific/index.html">根据具体法规的分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">具体指控的分析评估</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">共同点：法理逻辑的一致性</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">各模型的分析特点与差异</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">总结与评估</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">模型分析集</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../policies/index.html">国家路线方针和政策</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../party/index.html">中共党章党纪相关</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../overview/index.html">具体指控总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Accuse the Judicial Mafia</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">宪法及基本人权</a></li>
+      <li class="breadcrumb-item active">具体指控的分析评估</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/chats/accuse/rights/analyse/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>具体指控的分析评估<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>通过对六个大语言模型（Grok、Gemini、ChatGPT、Copilot、DeepSeek、Qwen）针对陈京元博士案件的法律分析材料进行对比研究，
+可以发现这些模型在处理涉及人权、宪法及刑事诉讼的敏感法律议题时，
+表现出高度的共识性，但在侧重点、论证逻辑和叙事风格上各有千秋。</p>
+<p>以下是对这些LLM分析结果的进一步对比分析：</p>
+<section id="id2">
+<h2>共同点：法理逻辑的一致性<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>所有模型在分析中都达成了一些核心法理共识：</p>
+<ol class="arabic simple">
+<li><p><strong>定性的一致性</strong>：均认为如果指控属实，本案涉及”系统性的人权侵犯”，而非简单的程序瑕疵。</p></li>
+<li><p><strong>核心违宪点</strong>：一致指向《宪法》第35条（言论自由）、第37条（人身自由）和第38条（人格尊严）。</p></li>
+<li><p><strong>罪名滥用评估</strong>：全部模型都对”寻衅滋事罪”在本案中的扩大化解释（尤其是针对转发官媒信息的入罪）提出了严厉的法理质疑。</p></li>
+<li><p><strong>程序违法的确认</strong>：对于”无证抓捕”、”剥夺辩护权”、”不公开审理”等事实，均判定为严重违反《刑事诉讼法》。</p></li>
+</ol>
+</section>
+<section id="id3">
+<h2>各模型的分析特点与差异<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="grok">
+<h3>Grok：全球视野与普世价值导向<a class="headerlink" href="#grok" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：极具宏观视野，将陈博士提出的”否定人类文明”控诉与国际人权文书（UDHR、ICCPR、ICESCR）的序言直接挂钩。</p></li>
+<li><p><strong>差异化</strong>：它不仅分析国内法，还特别强调”文明根基”的实质损害，将司法行为提升到人类命运共同体和普世正义的高度，论述极具哲学深度。</p></li>
+</ul>
+</section>
+<section id="gemini">
+<h3>Gemini：辩护策略的深度拆解<a class="headerlink" href="#gemini" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：长于对”辩护逻辑”的逆向推导。Gemini深入分析了陈博士如何将”高学历”从定罪证据转化为”明知其无害”的反证。</p></li>
+<li><p><strong>差异化</strong>：它对”主观归罪”的法理批判最为透彻，认为这不仅是法律错误，更是对公民认知权和思想自由的直接侵犯。</p></li>
+</ul>
+</section>
+<section id="chatgpt">
+<h3>ChatGPT：结构化的跨学科剖析<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：逻辑极其严密，采用了”宪法-刑法-刑诉法”的三位一体分析架构。</p></li>
+<li><p><strong>差异化</strong>：侧重于”宪法权利的克减”分析，将言论自由与国家权力边界的关系论述得非常清晰，像是一份标准的法律意见书。</p></li>
+</ul>
+</section>
+<section id="deepseek">
+<h3>DeepSeek：技术根源与文明价值的平衡<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：敏锐捕捉到了”技术性构陷”的根源。它指出执法机关对”虚假信息”定义的模糊性是导致冤案的技术原因。</p></li>
+<li><p><strong>差异化</strong>：它在最后部分对”否定人类文明”的评估非常有特色，认为这种司法实践扼杀了文明进步所需的创新与批判精神，具有强烈的社会观察视角。</p></li>
+</ul>
+</section>
+<section id="qwen">
+<h3>Qwen（通义千问）：实务导向与证据清单<a class="headerlink" href="#qwen" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：在所有模型中最为”接地气”，不仅分析法理，还给出了一份极其详尽的”关键证据清单”。</p></li>
+<li><p><strong>差异化</strong>：提供了具体的救济策略，如”联合国特别程序申诉”、”普遍定期审议（UPR）”等，更具律师实务操作参考价值。</p></li>
+</ul>
+</section>
+<section id="copilot">
+<h3>Copilot：图表化与直观对比<a class="headerlink" href="#copilot" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：擅长利用表格将指控内容与法律条款进行精准匹配，直观易读。</p></li>
+<li><p><strong>差异化</strong>：侧重于”法律适用边界”的论证，强调了平等权和监督权受阻的现实问题，条理清晰。</p></li>
+</ul>
+</section>
+</section>
+<section id="id4">
+<h2>总结与评估<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<table class="docutils align-center" id="id6">
+<caption><span class="caption-text">各模型分析维度对比</span><a class="headerlink" href="#id6" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 20.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>评估维度</strong></p></th>
+<th class="head"><p><strong>突出模型</strong></p></th>
+<th class="head"><p><strong>特点说明</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>广度</p></td>
+<td><p>Grok, DeepSeek</p></td>
+<td><p>在法理深度和文明高度上表现突出</p></td>
+</tr>
+<tr class="row-odd"><td><p>深度</p></td>
+<td><p>Gemini, ChatGPT</p></td>
+<td><p>在法律逻辑的严密性和主观故意的论证上更胜一筹</p></td>
+</tr>
+<tr class="row-even"><td><p>实用性</p></td>
+<td><p>Qwen, Copilot</p></td>
+<td><p>为案件后续的法律行动提供了最直接的工具和路径指导</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>广度对比</strong>：<strong>Grok</strong> 和 <strong>DeepSeek</strong> 在法理深度和文明高度上表现突出；</p></li>
+<li><p><strong>深度对比</strong>：<strong>Gemini</strong> 和 <strong>ChatGPT</strong> 在法律逻辑的严密性和主观故意的论证上更胜一筹；</p></li>
+<li><p><strong>实用性对比</strong>：<strong>Qwen</strong> 和 <strong>Copilot</strong> 为案件后续的法律行动提供了最直接的工具和路径指导。</p></li>
+</ul>
+<p><strong>综合评价</strong>：
+这些模型共同构成了一个全方位的法律评估矩阵。它们不仅证明了陈京元案在程序和实体法上的巨大争议，更通过集体发声，揭示了该案作为”系统性侵犯人权”案例在现代法治文明视野下的不可接受性。陈博士的控告在这些LLM的视角下，从”狱中血书”升华为了一份具备国际法背景和宪法深度的法学控诉材料。</p>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h2>模型分析集<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1"><strong>分析与评估陈京元博士对昆明司法机关违反宪法行为的指控</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2"><strong>陈京元指控概述</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3"><strong>分析框架：宪法与法律依据</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4"><strong>对陈京元指控的分析</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5"><strong>总体评估</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id6">对陈博士《狱中血书》中宪法及国际人权指控的逐项评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id7">一、整体定性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id8">二、逐项法律分析与评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id14">三、总体评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id15">四、可能的法律意见</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">对陈京元在其《狱中自辩与控诉书》中提出的宪法层面指控的分析和评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">一、 对核心指控的法律分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id6">二、 对宏大叙事指控的评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id7">三、 宪法指控在司法实践中的困境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id8">总结评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id9">对陈博士指控公检法人员“系统性侵犯宪法权利及人权”的分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id10">一、 宪法层面的法律分析：对公民基本权利的剥夺</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id11">二、 国际人权公约层面的法律评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id12">三、 综合评估意见：系统性侵犯的定性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id13">四、 法律建议与意见</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、宪法权利层面的分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">1. 宪法上的基本权利</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">2. 陈京元的控诉要点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">3. 宪法学评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">二、刑法适用层面的分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">1. 错误的罪名适用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">2. “谣言”认定问题</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">三、刑诉法程序层面的分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">1. “先抓人、后找证据”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">2. 不出示法律文书、不通知家属</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">3. 剥夺辩护、不公开审判</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">四、关于“危害国家与人类利益”的控诉</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id13">五、综合评估</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">六、结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、宪法层面：公民基本权利的保障与限制边界</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、刑法层面：执法人员行为的刑事定性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">三、《刑事诉讼法》层面：程序正义与司法保障</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">四、司法解释与实务标准：对“谣言”“扰乱秩序”的认定边界</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5">五、结语：依法纠错与制度信任的重建</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">陈京元博士在《狱中自辩与控诉书》中对其案件处理过程提出的宪法性指控</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2">⚖️ 基本权利保障与权力边界</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">🗣️ 言论自由与法律限制的平衡</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4">⚖️ 罪刑法定与法律解释</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5">🌍 法治文明与执法伦理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id6">💎 综合评估与启示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id7">对陈京元博士指控的、涉及系统性违反《宪法》的行为，进行专业的法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id8"><strong>第一部分：指控与宪法及国际人权标准的映射分析</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id13"><strong>第二部分：综合法律意见</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：专案研究</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">对宪法权利侵犯指控的分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">一、<strong>关于“全面无视公民基本权利”的指控：部分成立，程序违法事实清晰</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">二、<strong>关于“侵犯言论、思想及信仰自由”的指控：高度成立，触及宪法核心</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id8">三、<strong>关于“误解法律原则”的指控：成立，法律适用存在根本错误</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id10">四、<strong>关于“否定人类文明”的指控：属价值判断，但反映制度危机</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">五、<strong>关于“危害国家与人类利益”的指控：具有警示意义</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">综合结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id13">建议</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id14">宪法与国际人权法视角下的指控分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id15">一、指控内容梳理与宪法/国际法对应框架</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id16">二、逐项指控的宪法与国际法分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id34">三、综合法律意见与救济建议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id39">四、结语：宪法实施与人权保障的深层关联</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="qwen.html" class="btn btn-neutral float-left" title="Qwen：专案研究" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

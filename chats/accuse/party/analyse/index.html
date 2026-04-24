@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>具体指控的分析评估 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen：专案研究" href="qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Accuse the Judicial Mafia</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../criminal/index.html">刑事相关指控</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../rights/index.html">宪法及基本人权</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../policies/index.html">国家路线方针和政策</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">中共党章党纪相关</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">具体指控的分析评估</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">核心共识（”同”）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">各模型的特点分析（”异”）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">综合对比评估表</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">总体结论</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">模型分析集</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../overview/index.html">具体指控总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Accuse the Judicial Mafia</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">中共党章党纪相关</a></li>
+      <li class="breadcrumb-item active">具体指控的分析评估</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/chats/accuse/party/analyse/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>具体指控的分析评估<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>通过对六个大语言模型（Grok、Gemini、ChatGPT、Copilot、DeepSeek、Qwen）关于陈京元博士指控执法人员”违反党章党纪”的分析报告进行深度比对，
+可以发现这些模型在处理 <strong>“党纪与国法交叉”</strong> 这一极具中国特色且复杂的政治法律课题时，展现了清晰的逻辑分工和独特的分析视角。</p>
+<p>陈京元指控的核心在于：执法人员作为党员，在对待非党员公民时，存在”以党纪代国法”、
+“人格侮辱（吃党饭砸党锅）” 以及”政治投机（低级红高级黑）”等行为。</p>
+<section id="id2">
+<h2>核心共识（”同”）<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>所有模型在以下关键法理逻辑上保持了高度一致：</p>
+<ol class="arabic simple">
+<li><p><strong>“身份错位”的批判</strong>：一致认为党纪仅约束党员。执法人员对非党员的陈京元施以党纪逻辑的训诫或审判，属于严重的 <strong>角色错位与职权滥用</strong>。</p></li>
+<li><p><strong>“低级红、高级黑”的定性</strong>：均认可陈京元提出的这一政治学术语，认为执法人员通过捕风捉影的政治定性来邀功，实质上损害了党的形象和依法治国的方针。</p></li>
+<li><p><strong>党员的”更高责任”</strong>：普遍强调党员执法人员受”国法”与”党纪”双重约束，其行为若违背公正执法原则，首先触犯的是政治纪律和工作纪律。</p></li>
+</ol>
+</section>
+<section id="id3">
+<h2>各模型的特点分析（”异”）<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="gemini">
+<h3>Gemini：侧重”身份政治”与”话语体系”的解构<a class="headerlink" href="#gemini" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：深入分析了”吃党饭、砸党锅”这一话语背后的逻辑错误。它指出陈京元作为纳税人，其生存权由宪法保障，而非党纪赋予，揭示了执法者在**话语权上的霸凌**。</p></li>
+<li><p><strong>视角</strong>：侧重于分析执法行为对”政治生态”的破坏，将陈京元的自辩视为一种”政治防御性博弈”。</p></li>
+</ul>
+</section>
+<section id="chatgpt">
+<h3>ChatGPT：侧重”双重规范体系”的架构构建<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：建立了一个极其清晰的 <strong>“非党员公民 vs. 党员执法者”</strong> 的二元规范对比框架。它详细罗列了公民权利（受法律保护）与党员义务（受党纪约束）的边界。</p></li>
+<li><p><strong>视角</strong>：更像是一位宪法学教授，从制度设计层面论证为何党纪不能外溢至普通公民。</p></li>
+</ul>
+</section>
+<section id="grok">
+<h3>Grok：最具”实操性批判”与”线索指向”<a class="headerlink" href="#grok" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：非常直白地指出陈京元的指控虽然不直接触发法律判决的撤销，但为**纪检监察部门（纪委）提供了明确的违纪线索**。</p></li>
+<li><p><strong>视角</strong>：侧重于”政治纪律”的细项拆解，如违反《纪律处分条例》中关于滥用职权、损害党群关系的具体条款。</p></li>
+</ul>
+</section>
+<section id="qwen">
+<h3>Qwen (通义千问)：侧重”逻辑流程”与”制度矫正”<a class="headerlink" href="#qwen" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：提供了一个 <strong>“分析逻辑图”</strong>，将指控拆解为事实、党纪、政策三个层级，并提出了建立”政策-法律一致性审查机制”的实务建议。</p></li>
+<li><p><strong>视角</strong>：体现了本土模型对中国政治运行机制的深刻理解，强调”党纪严于国法”应体现在职业伦理，而非替代法律。</p></li>
+</ul>
+</section>
+<section id="copilot">
+<h3>Copilot：侧重”文书与语境”的直接对质<a class="headerlink" href="#copilot" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：通过对陈京元自辩书中具体语境的分析，直接给出了”指控基本成立”的强力结论，并重点批判了”以党纪代国法”对程序正义的冲击。</p></li>
+<li><p><strong>视角</strong>：关注法律实务中的权力越界，论证风格犀利，具有很强的正义感色彩。</p></li>
+</ul>
+</section>
+<section id="deepseek">
+<h3>DeepSeek：侧重”风险评估”与”界限划分”<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：以冷静、审慎的态度划分了”党员个人行为失职”与”系统性问题”的界限。它重点评估了此类行为对”全面依法治国”这一顶层方略的实际侵蚀风险。</p></li>
+<li><p><strong>视角</strong>：倾向于从”政治风险评估”的角度审视个案对宏观法治信心的影响。</p></li>
+</ul>
+</section>
+</section>
+<section id="id4">
+<h2>综合对比评估表<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<table class="docutils align-center" id="id7">
+<caption><span class="caption-text">各模型分析特点综合对比</span><a class="headerlink" href="#id7" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 30.0%" />
+<col style="width: 20.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>模型</strong></p></th>
+<th class="head"><p><strong>核心亮点</strong></p></th>
+<th class="head"><p><strong>分析深度</strong></p></th>
+<th class="head"><p><strong>政治/法律偏向</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Gemini</strong></p></td>
+<td><p>解构”政治霸凌”话语</p></td>
+<td><p>话语分析深度高</p></td>
+<td><p>侧重权利保障与话语解构</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>ChatGPT</strong></p></td>
+<td><p>建立公民/党员二元规范框架</p></td>
+<td><p>系统性、架构感强</p></td>
+<td><p>侧重法理架构与规范边界</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Grok</strong></p></td>
+<td><p>转化为具体的纪检监察线索</p></td>
+<td><p>批判性、操作性强</p></td>
+<td><p>侧重违纪查处与政治批判</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Qwen</strong></p></td>
+<td><p>提出制度性矫正路径</p></td>
+<td><p>实务性、逻辑清晰</p></td>
+<td><p>侧重制度对接与实务合规</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Copilot</strong></p></td>
+<td><p>直接对质司法文书与党纪</p></td>
+<td><p>犀利、针对性强</p></td>
+<td><p>侧重程序正义与权力边界</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>DeepSeek</strong></p></td>
+<td><p>风险对冲与系统影响评估</p></td>
+<td><p>审慎、中立</p></td>
+<td><p>侧重宏观政治风险评估</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h2>总体结论<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>这六个模型的分析结果互为经纬：</p>
+<ul class="simple">
+<li><p><strong>Gemini、Grok 和 Copilot</strong> 提供了更具冲击力的 <strong>批判视角</strong>，指出了权力在意识形态外衣下的傲慢；</p></li>
+<li><p><strong>ChatGPT、Qwen 和 DeepSeek</strong> 则提供了更稳健的 <strong>制度逻辑</strong>，试图在现有体制内寻找纠偏的法理依据。</p></li>
+</ul>
+<p>陈京元博士的指控在这些AI眼中，被公认为是一次极其成功的 <strong>“以子之矛攻子之盾”</strong> 的法理博弈——他利用执法者自身的政治身份约束（党纪），反向审判了那些本在审判他的人。</p>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>模型分析集<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">陈京元博士指控昆明司法机关违反中共党规党纪</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">陈京元指控概述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">分析框架：法律与党纪依据</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">对陈京元指控的分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">总体评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id6">陈京元博士《狱中自辩暨控告血书》对昆明司法机关违反中共党规党纪的指控评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id7">一、指控1：不当言行与意识形态攻击（“吃党饭、砸党锅”）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id8">二、指控2：在量刑中不当适用党纪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id9">三、指控3：否定党的路线方针政策</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id10">四、指控4：违反党纪党规与理想（“低级红、高级黑”、司法黑帮等）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id11">五、指控5：背叛中共政策与理想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id12">六、总体结论：指控依据、合规性及更广泛影响</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#gemini-2">Gemini-2 的分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id1">陈京元指控的概述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">法律分析与评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">总体评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">结论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#gemini-3">Gemini-3 的分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">一、 执法人员言行的党纪与合规性评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id6">二、 法律程序的实体与程序性评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id7">三、 陈京元指控的法理深度评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id8">四、 案件的更广泛影响评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id9">总结评估</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一般框架：论“党员执法者的更高规范责任”与“普通公民权利的制度性保障”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">一、前提设定：公民非党员、执法者为党员</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">二、党章的根本精神：党员必须比法律要求“更高、更严、更自律”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">三、《纪律处分条例》的核心逻辑：党员执法者的行为必须接受更严格的“政治伦理审查”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">四、政治纪律与政治规矩：权力必须服务人民，而非对立于人民</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">五、组织纪律：程序越不透明，越有违党纪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">六、工作纪律：执法者不可为了“绩效”“表态”而牺牲公平正义</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">七、廉洁纪律：权力必须“慎用”而非“滥用”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">八、群众纪律：不得损害人民群众的合法权益</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">九、关键逻辑：公民不受党纪约束，但党员必须高度负责</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">十、结语：党纪的根本不是“处罚”——而是“自我克制的政治伦理”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id21">针对本案的进一步分析和评估报告</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">一、指控一：不当言行与意识形态攻击</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id25">二、指控二：量刑中不当适用党纪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id28">三、指控三：否定党的路线方针政策</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id31">四、指控四：违反党纪党规与理想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id34">五、指控五：背叛中共政策与理想</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id37">六、综合评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id38">七、结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、从党纪党规角度评估执法人员行为</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、从国家法律角度评估执法行为的合法性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">三、与党和国家政策的冲突</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">四、案件的更广泛影响</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5">五、结语：应依法纠错，严肃问责</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">基于 《中国共产党章程》和 《中国共产党纪律处分条例》的 分析和评论</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2">分析框架：党纪的向内约束与政治责任</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">一、 基于《党章》的根本要求分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4">二、 基于《纪律处分条例》的具体条款分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5">综合评论：党纪的视角与警示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6">针对陈京元博士在其【狱中自辩与控诉书】中指控的进一步分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id7">⚖️ 党纪与国法的边界</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id8">📜 政策承诺与执法实践的差距</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id9">👤 党员个体的角色与责任</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id10">💎 综合看法与更广影响</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：专案研究</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">陈京元博士对昆明公检法系统执法人员提出的<strong>违反中共党纪党规</strong>的指控的分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">一、陈京元指控的核心内容归纳</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">二、法律与党纪分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id10">三、综合法律评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">四、救济途径建议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">五、结语</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">陈京元博士关于执法人员违反党规党纪指控的专业评估报告</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">一、 党纪与国法的基本关系：评估的前提性框架</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id17">二、 五项党纪指控的逐项专业评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id39">三、 综合评估：党纪指控的法律依据与制度启示</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id46">四、 专业建议与制度矫正路径</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="qwen.html" class="btn btn-neutral float-left" title="Qwen：专案研究" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

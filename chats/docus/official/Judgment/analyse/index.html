@@ -1,0 +1,410 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>模型分析与比较 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen：专案研究" href="qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Legal Documents Analysis</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">官方正式文书</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../Indictment/index.html">检察院起诉书</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">一审法院判决书</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../quality.html">质量与合规性审查</a></li>
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">模型分析与比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../Ruling/index.html">二（终）审裁定书</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../overview/index.html">总体分析与评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../defendant/index.html">被告狱中书信</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Legal Documents Analysis</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">官方正式文书</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">一审法院判决书</a></li>
+      <li class="breadcrumb-item active">模型分析与比较</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/docus/official/Judgment/analyse/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>模型分析与比较<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>利用六个大语言模型（Grok、Gemini、ChatGPT、Copilot、DeepSeek、Qwen）对昆明市西山区法院一审《判决书》进行了系统的法律分析和评估。
+以下是对这些LLMs分析结果的深度对比、异同点说明及其各自特点的评估：</p>
+<section id="id2">
+<h2>核心共识：对判决书缺陷的一致判定<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>尽管六个模型在分析风格和切入点上有所不同，但在对这份《判决书》的实质性评价上达成了惊人的高度统一，均认为其存在以下核心法律缺陷：</p>
+<ol class="arabic simple">
+<li><p><strong>“主观归罪”逻辑</strong>：一致指出法院利用”高学历”强行推定”明知是虚假信息”是法理上的逻辑跳跃。</p></li>
+<li><p><strong>“犯罪结果”虚置</strong>：一致认为判决书在完全没有列举转发量、点击量或社会骚乱证据的情况下，抽象认定”造成公共秩序严重混乱”缺乏事实基础。</p></li>
+<li><p><strong>“虚假性”认定缺失</strong>：指出法院未对信息内容的真伪进行实质性对质，而是采取了结论先行的定性方式。</p></li>
+<li><p><strong>程序正义瑕疵</strong>：均关注到”不公开审理”缺乏法定理由说明，以及对辩护意见回应不足的问题。</p></li>
+</ol>
+</section>
+<section id="id3">
+<h2>各模型的分析特点与异同分析<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="qwen">
+<h3>结构化与量化派：Qwen (通义千问)<a class="headerlink" href="#qwen" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特点</strong>：<strong>最具技术指标感。</strong> Qwen采用了严谨的表格对比（审查项目vs合规性评估）和量化评分体系（综合得分3.0/10）。</p></li>
+<li><p><strong>差异化</strong>：它将判决书的审查拆解为形式规范性、事实清楚度、法律适用准确性等多个维度。这种分析方式最接近 <strong>司法技术质检报告</strong>，逻辑清晰，适合作为正式法律评估的纲要。</p></li>
+</ul>
+</section>
+<section id="grok-chatgpt">
+<h3>法条考据与规范派：Grok &amp; ChatGPT<a class="headerlink" href="#grok-chatgpt" title="Link to this heading"></a></h3>
+<section id="grok">
+<h4>Grok<a class="headerlink" href="#grok" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>最强调规范指引。</strong> Grok 详细引用了《刑诉法》第195条、最高法司法解释及《两高网络解释》第五条第二款。其特点是严格遵循”构成要件”的四要素审查。</p></li>
+</ul>
+</section>
+<section id="chatgpt">
+<h4>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>注重论证过程的拆解。</strong> 它提出了”结论驱动型裁判”的定性，侧重于分析”事实→证据→定罪”链条中每一个环节的断裂。其对比表（原创编造vs转发散布）非常直观。</p></li>
+</ul>
+</section>
+</section>
+<section id="deepseek-copilot">
+<h3>深度逻辑与批判派：DeepSeek &amp; Copilot<a class="headerlink" href="#deepseek-copilot" title="Link to this heading"></a></h3>
+<section id="deepseek">
+<h4>DeepSeek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>法理穿透力最强。</strong> 它深入探讨了”身份”与”法律义务”之间的错位，将判决书的逻辑讽刺为”高学历有罪推定”。它对”证据锁链”实质空洞化的批判最为犀利，指出警方的”梳理说明”不具备客观证据效力。</p></li>
+</ul>
+</section>
+<section id="copilot">
+<h4>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>最具辩护律师视角。</strong> 它通过追问”混乱在哪里？”、”证据对应什么事实？”等实战化问题，揭示了判决书如何将”构成要件”直接写成”结论”。</p></li>
+</ul>
+</section>
+</section>
+<section id="gemini">
+<h3>逻辑架构与体系派：Gemini<a class="headerlink" href="#gemini" title="Link to this heading"></a></h3>
+<section id="id4">
+<h4>Gemini<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>聚焦核心矛盾的体系化呈现。</strong> 它将判决书的问题总结为四个维度（事实认定、法律适用、逻辑推导、证据裁判），并详细拆解了”高学历”作为前设的逻辑陷阱，说理性极强。</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="id5">
+<h2>六大模型分析结果对比表<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<table class="docutils align-center" id="id8">
+<caption><span class="caption-text">各模型分析维度对比</span><a class="headerlink" href="#id8" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 20.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>维度</strong></p></th>
+<th class="head"><p><strong>突出模型</strong></p></th>
+<th class="head"><p><strong>差异化表现</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>逻辑分析深度</strong></p></td>
+<td><p><strong>DeepSeek / Gemini</strong></p></td>
+<td><p>能够从法理层面剖析”主观推定”与”罪刑法定”的内在冲突。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>法律文本合规性</strong></p></td>
+<td><p><strong>Grok / Qwen</strong></p></td>
+<td><p>严格对照中国现行刑事法律及司法解释的条文序号。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>证据法评价</strong></p></td>
+<td><p><strong>Copilot / ChatGPT</strong></p></td>
+<td><p>侧重于审查证据与待证事实之间是否形成了闭环。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>评估直观度</strong></p></td>
+<td><p><strong>Qwen</strong></p></td>
+<td><p>使用评分制和表格，将复杂的法律评估转化为量化结果。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2>综合总结评价<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>相同点</strong>：所有模型都识别出了该判决书 <strong>“重政治定性、轻法理证明”</strong> 的本质。它们均认定该判决在证据链条完整性、因果关系论证及主观故意认定上未达到”证据确实、充分”的刑事定罪标准。</p></li>
+<li><p><strong>不同点</strong>：</p>
+<ul>
+<li><p><strong>Qwen 和 Grok</strong> 表现得更像中国本土的法律合规官，对条文的引用极其敏感；</p></li>
+<li><p><strong>DeepSeek</strong> 展现了更强的学术思辨能力，对”主观归罪”的法理批判最为深刻；</p></li>
+<li><p><strong>ChatGPT 和 Copilot</strong> 表现得更像辩护律师，侧重于寻找指控事实与证据之间的具体脱节处。</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>总体评估</strong>：这六个模型的分析结果互为补充。如果需要一份 <strong>权威的纠错报告</strong>，Qwen的量化框架是最好的载体；如果需要 <strong>深度的辩护逻辑</strong>，DeepSeek和Gemini的法理分析则提供了最具说服力的武器。</p>
+</section>
+<section id="id7">
+<h2>模型分析集<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">一、格式要件审查：基本合规但说理严重不足</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">二、事实认定审查：完全复制起诉书，缺乏独立审查</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">三、证据审查：所谓“证据锁链”纯属形式主义，证据确实性完全不成立</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id4">四、法律适用审查：构成要件全面错误，罪刑法定原则严重违反</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id5">五、量刑与程序瑕疵审查</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id6">六、综合评估结论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id7"><strong>最终结论</strong>：</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 事实认定维度的分析：主观故意的“标签化”推论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">二、 法律适用维度的分析：寻衅滋事罪的“口袋化”扩张</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">三、 证据体系与程序逻辑的评估</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">四、 综合评估结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、整体评价先行</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、裁判结构与基本逻辑分析</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">三、构成要件逐项审查（核心部分）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">（一）行为要件：网络转发行为的定性错误</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">（二）“虚假信息”认定：严重方法论缺陷</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">（三）主观要件：“明知”的推定违法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">（四）结果要件：“扰乱公共秩序”完全空洞</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">（五）因果关系缺失</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id20">四、证据裁判规则评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">（一）“证据确实充分”的实质审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id23">（二）证据论证缺失</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id24">五、程序合法性评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id25">（一）不公开审理问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id26">（二）辩护意见回应不足</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id27">六、裁判说理质量评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id28">（一）高度模板化语言</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id29">（二）关键问题回避</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id30">（三）逻辑跳跃明显</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id31">七、量刑分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id32">量刑问题：</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id33">八、综合法学评价</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id34">（一）核心问题总结</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id35">（二）性质判断（学术角度）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id36">九、最终专业结论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id37">十、一句话总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">🧭 <strong>一、判决书的整体结构性问题：结论先行、要件空缺、证据缺位</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">🧩 <strong>二、对“虚假信息”的认定：完全缺乏事实基础</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3">❌ <strong>以标签代替论证，以结论代替事实</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">🧩 <strong>三、对“明知”的认定：典型的“主观归罪”</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5">❌ <strong>以身份推定主观故意</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6">❌ <strong>推定有罪，而非证据证明</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id7">🧩 <strong>四、对“严重混乱”的认定：完全没有事实支撑</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id8">❌ <strong>无事实的法律结论</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id9">🧩 <strong>五、证据体系：没有形成“证据链”，只有“证据目录”</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10">❌ <strong>证据与结论脱节</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id11">🧩 <strong>六、法律适用错误：错误引用“两高解释”</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12">❌ <strong>错误适用法律</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id13">🧩 <strong>七、程序违法：不公开审理、限制辩护</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14">❌ 不公开审理属于程序违法</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id15">🎯 <strong>八、综合法律结论：一审判决书不具备合法性与正当性</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id16"><strong>❌ 事实不清、证据不足、定性错误、程序违法的典型案例</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、 核心逻辑的致命缺陷：“高学历有罪推定”链条</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、 对核心犯罪构成要件的认定严重缺失</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">三、 程序与说理层面的严重不足</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">四、 总体评估结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：专案研究</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、判决书基本要素的形式审查</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">（一）文书格式与程序要素</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">（二）核心裁判表述的规范性问题</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">二、实体法维度：犯罪构成要件的系统性虚置</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">（一）”虚假信息”要件：法律认定与事实性质的根本错位</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">（二）”造成公共秩序严重混乱”要件：证据虚无与因果关系断裂</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id7">（三）”明知”故意要件：以身份推定心理，违反责任主义</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id8">三、证据规则维度：”证据锁链”的逻辑断裂与非法证据采纳</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id9">（一）证据列举的空洞化问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id10">（二）”证据锁链”的逻辑断裂</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id11">四、程序法维度：审判程序的多重违法</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">（一）不公开审理的合法性缺失</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id13">（二）辩护权保障的形式化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">（三）法律适用错误的系统性呈现</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id15">五、法理原则维度：对刑法基石原则的系统性背离</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id16">（一）罪刑法定原则（《刑法》第3条）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id17">（二）无罪推定原则（《刑诉法》第12条）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id18">（三）比例原则（行政法/宪法原则，亦适用于刑事司法）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id19">六、判决书说理质量的专业评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id20">（一）说理结构的完整性缺失</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id21">（二）逻辑推理的断裂与谬误</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id22">七、综合评估结论与专业建议</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id23">（一）判决书质量评级：<strong>严重不合格</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id24">（二）核心法律缺陷总结</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id25">（三）对司法实践的专业建议</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="qwen.html" class="btn btn-neutral float-left" title="Qwen：专案研究" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

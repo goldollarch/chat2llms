@@ -1,0 +1,781 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qwen：专案研究 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="具体指控的分析评估" href="index.html" />
+    <link rel="prev" title="中共党章党纪相关" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Accuse the Judicial Mafia</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../criminal/index.html">刑事相关指控</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../rights/index.html">宪法及基本人权</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../policies/index.html">国家路线方针和政策</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">中共党章党纪相关</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Qwen：专案研究</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">陈京元博士对昆明公检法系统执法人员提出的<strong>违反中共党纪党规</strong>的指控的分析与评估</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">陈京元博士关于执法人员违反党规党纪指控的专业评估报告</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="index.html">具体指控的分析评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../overview/index.html">具体指控总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Accuse the Judicial Mafia</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">中共党章党纪相关</a></li>
+      <li class="breadcrumb-item active">Qwen：专案研究</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/chats/accuse/party/analyse/qwen.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="qwen">
+<h1>Qwen：专案研究<a class="headerlink" href="#qwen" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="id1">
+<h2>陈京元博士对昆明公检法系统执法人员提出的<strong>违反中共党纪党规</strong>的指控的分析与评估<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>陈京元博士在《狱中自辩与控诉》中对昆明公检法系统执法人员提出的<strong>违反中共党纪党规</strong>的指控，虽出自一名非党员公民之口，但其内容触及中国政治-法律体系中<strong>党纪与国法的关系、公职人员行为边界、意识形态滥用</strong>等核心问题。以下结合《中国共产党章程》《中国共产党纪律处分条例》（以下简称《党纪处分条例》）、《中华人民共和国宪法》《刑法》《公务员法》等规范，进行专业法律分析与评估。</p>
+<hr class="docutils" />
+<section id="id2">
+<h3>一、陈京元指控的核心内容归纳<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>指控要点</p></th>
+<th class="head"><p>具体内容</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>1. 不当言行与身份误认</strong></p></td>
+<td><p>执法人员多次辱骂其“吃党饭、砸党锅”，尽管其非党员、非公职人员</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>2. 党纪不当适用于非党员</strong></p></td>
+<td><p>判决以党章党纪为依据量刑，违反“党纪仅约束党员”原则</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>3. 党员公职人员违反党纪</strong></p></td>
+<td><p>执法人员作为党员，未遵守党章、入党誓词、“两个维护”等政治纪律</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>4. 背叛党和国家政策</strong></p></td>
+<td><p>其行为否定“全面依法治国”“人类命运共同体”等中共既定国策</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h3>二、法律与党纪分析<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<section id="id4">
+<h4>（一）<strong>党纪的适用对象：仅限中共党员</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>《中国共产党章程》总纲</strong>：党纪是“党的各级组织和全体党员必须遵守的行为规则”。</p></li>
+<li><p><strong>《党纪处分条例》第6条</strong>：本条例适用于违犯党纪应当受到党纪责任追究的<strong>党组织和党员</strong>。</p></li>
+<li><p><strong>关键原则</strong>：<strong>党纪不适用于非党员</strong>，无论其是否为公职人员。</p></li>
+</ul>
+<blockquote>
+<div><p><strong>评估</strong>：陈京元明确表示“从未加入中共党团组织”，若属实，则：</p>
+<ul class="simple">
+<li><p>执法人员以“吃党饭、砸党锅”训斥其“背叛党”，属<strong>身份误认与政治羞辱</strong>；</p></li>
+<li><p>判决书隐含以“违反党章”为量刑依据（如强调“攻击领导核心”“破坏体制”），构成<strong>党纪越界适用</strong>，违反“党纪国法分离”原则。</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><p><strong>结论</strong>：<strong>指控第1、2项成立</strong>——党纪不得约束非党员，更不得作为刑事定罪依据。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h4>（二）<strong>党员公职人员是否违反党纪？</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<p>陈京元指控执法人员（如检察官葛斌、法官普会竣）作为党员，存在以下违纪行为：</p>
+<section id="id6">
+<h5>1. <strong>违反政治纪律</strong>（《党纪处分条例》第六章）<a class="headerlink" href="#id6" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p><strong>第51条</strong>：对党不忠诚不老实，搞两面派，做两面人；</p></li>
+<li><p><strong>第55条</strong>：干扰巡视巡察工作，或对抗组织审查；</p></li>
+<li><p><strong>第56条</strong>：妄议中央大政方针，破坏党的集中统一。</p></li>
+</ul>
+<blockquote>
+<div><p>但陈京元指控的是执法人员<strong>滥用“两个维护”“领导核心”概念</strong>，而非否定中央。<strong>关键区分</strong>：</p>
+<ul class="simple">
+<li><p><strong>正当执行职务</strong> ≠ 违纪；</p></li>
+<li><p><strong>以“维护核心”为名行打压之实</strong>，可能构成<strong>形式主义、官僚主义</strong>（《党纪处分条例》第133条）。</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="id7">
+<h5>2. <strong>违反群众纪律与工作纪律</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p><strong>第116条</strong>（群众纪律）：对待群众态度恶劣、简单粗暴，造成不良影响；</p></li>
+<li><p><strong>第133条</strong>（工作纪律）：在工作中不负责任，贯彻执行决策部署不力，给党、国家和人民利益造成较大损失。</p></li>
+</ul>
+<blockquote>
+<div><p>若执法人员存在：</p>
+<ul class="simple">
+<li><p>刑讯逼供、辱骂体罚；</p></li>
+<li><p>“不核实也不打算核实”即起诉；</p></li>
+<li><p>选择性执法、制造冤案；
+则可能构成<strong>玩忽职守、滥用职权</strong>，违反上述纪律。</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="id8">
+<h5>3. <strong>“低级红、高级黑”问题</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>中共中央办公厅2019年《关于解决形式主义突出问题为基层减负的通知》明确批评“低级红、高级黑”——即<strong>以极端方式“拥护”中央，实则损害党的形象</strong>。</p></li>
+<li><p>将学术转发定为“攻击领导核心”，正是典型“高级黑”。</p></li>
+</ul>
+<blockquote>
+<div><p><strong>评估</strong>：若陈京元所述属实（如检察官称“你作为党员…”），则执法人员：</p>
+<ul class="simple">
+<li><p><strong>误用政治话语</strong>；</p></li>
+<li><p><strong>将法律问题意识形态化</strong>；</p></li>
+<li><p><strong>损害“全面依法治国”形象</strong>；
+可能构成<strong>违反政治纪律与工作纪律</strong>。</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><p><strong>结论</strong>：<strong>指控第3项部分成立</strong>——若执法人员确为党员，其行为涉嫌违反《党纪处分条例》第116、133条及中央关于“高级黑”的禁令。</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h4>（三）<strong>是否“背叛中共政策与理想”？</strong><a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<p>陈京元指出，执法人员行为与以下中共政策相悖：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>中共政策</p></th>
+<th class="head"><p>执法行为矛盾点</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>全面依法治国</strong></p></td>
+<td><p>无证据定罪、程序违法、拒绝质证</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>人类命运共同体</strong></p></td>
+<td><p>将境外思想（如川普演讲）定为“谣言”，否定文明互鉴</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>一国两制、改革开放</strong></p></td>
+<td><p>将市场经济、多元思想视为威胁</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>全面从严治党</strong></p></td>
+<td><p>公职人员滥用权力、司法腐败</p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><p><strong>法律依据</strong>：</p>
+<ul class="simple">
+<li><p>《宪法》序言：“健全社会主义法制”“推动构建人类命运共同体”；</p></li>
+<li><p>《公务员法》第14条：公务员应“忠于宪法，模范遵守、自觉维护宪法和法律”；</p></li>
+<li><p>《党纪处分条例》第55条：不得“歪曲党的历史、新中国史、人民军队史”。</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><p><strong>评估</strong>：若执法人员以“维护体制”为由压制宪法保障的言论自由、学术自由，则：</p>
+<ul class="simple">
+<li><p>表面“忠党”，实则<strong>损害党“依法治国”“改革开放”的合法性基础</strong>；</p></li>
+<li><p>构成<strong>对党的路线方针政策的实质背离</strong>。</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><p><strong>结论</strong>：<strong>指控第4项具有政治与法理正当性</strong>——公职人员不得以“忠诚”之名行反法治之实。</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h3>三、综合法律评估<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>指控</p></th>
+<th class="head"><p>是否成立</p></th>
+<th class="head"><p>法律/党纪依据</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>1. 非党员被以党纪训斥</strong></p></td>
+<td><p><strong>成立</strong></p></td>
+<td><p>《党纪处分条例》第6条；党纪不约束非党员</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>2. 党纪用于刑事量刑</strong></p></td>
+<td><p><strong>成立</strong></p></td>
+<td><p>《刑法》第3条（罪刑法定）；党纪≠国法</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>3. 党员执法人员违纪</strong></p></td>
+<td><p><strong>部分成立</strong></p></td>
+<td><p>《党纪处分条例》第116、133条；“高级黑”禁令</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>4. 背叛党和国家政策</strong></p></td>
+<td><p><strong>成立</strong>（理念层面）</p></td>
+<td><p>《宪法》序言；《公务员法》第14条</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h3>四、救济途径建议<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>向纪检监察机关举报</strong>：依据《纪检监察机关处理检举控告工作规则》，可实名举报党员公职人员违反党纪行为。</p></li>
+<li><p><strong>申请国家赔偿</strong>：若程序违法、刑讯逼供属实，可依《国家赔偿法》第17条申请赔偿。</p></li>
+<li><p><strong>推动党纪审查</strong>：
+中共中央纪委国家监委有权对“高级黑”“选择性执法”等行为进行纪律审查。</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3>五、结语<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>陈京元虽为非党员，但其指控<strong>精准击中当代中国“党纪国法关系”的核心张力</strong>：</p>
+<blockquote>
+<div><p><strong>党纪是党员的“内部戒律”，不是治民的“外部工具”；
+“两个维护”是政治忠诚，不是打压异见的“尚方宝剑”；
+全面依法治国，首先要求公职人员“依法”而非“依党章”办案</strong>。</p>
+</div></blockquote>
+<p>若执法人员确以党纪替代国法、以意识形态取代法律推理，则不仅违反《党纪处分条例》，更<strong>动摇中共“全面依法治国”的执政合法性</strong>。陈京元的控诉，实为对“<strong>法治中国</strong>”能否真正落地的一次严峻拷问。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h2>陈京元博士关于执法人员违反党规党纪指控的专业评估报告<a class="headerlink" href="#id13" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>评估说明</strong>：本报告严格依据《中国共产党章程》《中国共产党纪律处分条例》（2023年修订）《中华人民共和国刑法》《中华人民共和国刑事诉讼法》及”全面依法治国””全面从严治党”等党和国家政策，结合本案五份核心法律文书及陈京元博士《狱中自辩暨控告血书》的具体指控，从<strong>党纪规范、法律边界、程序合规、制度影响</strong>四个维度进行系统性专业评估。</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id14">
+<h3>一、 党纪与国法的基本关系：评估的前提性框架<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<section id="id15">
+<h4>（一）党章确立的根本原则<a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>规范来源</p></th>
+<th class="head"><p>核心规定</p></th>
+<th class="head"><p>本案适用意义</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>《党章》总纲</p></td>
+<td><p>“党必须在宪法和法律的范围内活动”</p></td>
+<td><p>党员执法人员不得以党纪替代国法进行刑事裁判</p></td>
+</tr>
+<tr class="row-odd"><td><p>《党章》第三条</p></td>
+<td><p>党员义务包括”模范遵守国家的法律法规”</p></td>
+<td><p>执法行为必须同时符合党纪与国法双重标准</p></td>
+</tr>
+<tr class="row-even"><td><p>《纪律处分条例》第4条</p></td>
+<td><p>党纪处分坚持”实事求是””党纪面前一律平等”</p></td>
+<td><p>对执法人员的违纪认定需以客观证据为基础</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id16">
+<h4>（二）党纪与刑法的适用边界<a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>党纪适用范围          刑法适用范围
+├─ 党员内部行为管理    ├─ 全体公民犯罪行为规制
+├─ 政治纪律/组织纪律   ├─ 构成要件明确的犯罪行为
+├─ 道德操守/工作作风   ├─ 需经司法程序认定的危害结果
+└─ 党内问责与处分      └─ 刑罚制裁与刑事追责
+</pre></div>
+</div>
+<p><strong>核心原则</strong>：党纪不能替代刑法作为定罪量刑的依据；党员身份不能成为加重或减轻刑事处罚的法定情节。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h3>二、 五项党纪指控的逐项专业评估<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<section id="id18">
+<h4>（一）指控一：”不当言行与意识形态攻击”<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>陈京元指控</strong>：执法人员多次训斥其”吃党饭、砸党锅”，尽管其非中共党员或公职人员。</p>
+</div></blockquote>
+<section id="id19">
+<h5>1. 党纪依据分析<a class="headerlink" href="#id19" title="Link to this heading"></a></h5>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>党纪条款</p></th>
+<th class="head"><p>规范内容</p></th>
+<th class="head"><p>本案对照</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>《纪律处分条例》第116条</p></td>
+<td><p>“对待群众态度恶劣、简单粗暴，造成不良影响”</p></td>
+<td><p>若执法人员对非党员使用训斥性语言，可能违反群众纪律</p></td>
+</tr>
+<tr class="row-odd"><td><p>《纪律处分条例》第122条</p></td>
+<td><p>“工作中有形式主义、官僚主义行为”</p></td>
+<td><p>以意识形态标签替代法律论证，可能构成官僚主义</p></td>
+</tr>
+<tr class="row-even"><td><p>《党章》第三条</p></td>
+<td><p>党员须”密切联系群众，维护群众正当利益”</p></td>
+<td><p>训斥纳税人”砸党锅”与”为人民服务”宗旨相悖</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id20">
+<h5>2. 合规性评估<a class="headerlink" href="#id20" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p><strong>若指控属实</strong>：执法人员对非党员使用”吃党饭、砸党锅”等训斥，违反《纪律处分条例》群众纪律，属于”对待群众态度恶劣”的违纪行为。</p></li>
+<li><p><strong>证据要求</strong>：需有庭审笔录、录音录像或证人证言等客观证据支撑，不能仅凭当事人单方陈述认定。</p></li>
+</ul>
+</section>
+<section id="id21">
+<h5>3. 专业结论<a class="headerlink" href="#id21" title="Link to this heading"></a></h5>
+<p>✅ <strong>党纪依据成立</strong>：若查证属实，该行为违反群众纪律与党员义务，应依《纪律处分条例》第116条给予相应处分。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id22">
+<h4>（二）指控二：”在量刑中不当适用党纪”<a class="headerlink" href="#id22" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>陈京元指控</strong>：判决书以党章党规作为量刑依据，而其作为非党员不应受党纪约束。</p>
+</div></blockquote>
+<section id="id23">
+<h5>1. 法律与党纪的双重违反<a class="headerlink" href="#id23" title="Link to this heading"></a></h5>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>规范类型</p></th>
+<th class="head"><p>具体条款</p></th>
+<th class="head"><p>违反表现</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>刑法</strong></p></td>
+<td><p>第3条罪刑法定原则</p></td>
+<td><p>以党纪替代刑法条文定罪量刑，违反”法无明文规定不为罪”</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>刑诉法</strong></p></td>
+<td><p>第6条”以法律为准绳”</p></td>
+<td><p>量刑依据偏离刑法及司法解释，违反程序法定原则</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>党章</strong></p></td>
+<td><p>总纲”党必须在宪法和法律范围内活动”</p></td>
+<td><p>将党内规范外溢适用于非党员刑事裁判，违反党章根本要求</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>纪律处分条例</strong></p></td>
+<td><p>第126条”干预和插手司法活动”</p></td>
+<td><p>若存在以党纪指令干预个案裁判，构成违纪</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id24">
+<h5>2. 判决书文本分析<a class="headerlink" href="#id24" title="Link to this heading"></a></h5>
+<blockquote>
+<div><p>判决书原文：”被告陈京元…对明知是侮辱、攻击国家领导核心以及我国现行政治体制的图片和文章进行转发”</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>问题</strong>： “侮辱攻击领导核心”属于政治评价，非刑法构成要件；判决书未说明该评价的刑法依据，存在以政治立场替代法律判断的嫌疑。</p></li>
+<li><p><strong>合规要求</strong>：刑事裁判必须援引刑法条文及司法解释，不得以党章党规、政治文件作为定罪量刑的直接依据。</p></li>
+</ul>
+</section>
+<section id="id25">
+<h5>3. 专业结论<a class="headerlink" href="#id25" title="Link to this heading"></a></h5>
+<p>✅✅ <strong>双重违规</strong>：若判决书确实以党纪作为量刑依据，既违反《刑法》第3条罪刑法定原则，也违反《党章》”党必须在宪法和法律范围内活动”的根本要求，同时可能构成《纪律处分条例》第126条”干预司法活动”的违纪行为。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id26">
+<h4>（三）指控三：”否定党的路线方针政策”<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>陈京元指控</strong>：执法人员行为从根本上否定了市场经济、政治体制改革、全面依法治国、全面从严治党、”一国两制”及”人类命运共同体”等既定国策。</p>
+</div></blockquote>
+<section id="id27">
+<h5>1. 政策依据与违纪认定标准<a class="headerlink" href="#id27" title="Link to this heading"></a></h5>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>党的政策</p></th>
+<th class="head"><p>核心要求</p></th>
+<th class="head"><p>本案对照</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>全面依法治国</strong></p></td>
+<td><p>“坚持依法治国、依法执政、依法行政共同推进”</p></td>
+<td><p>若以政治立场替代法律判断，违反依法治国基本方略</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>人类命运共同体</strong></p></td>
+<td><p>“以文明交流超越文明隔阂，文明互鉴超越文明冲突”</p></td>
+<td><p>将跨文化信息交流定性为犯罪，与文明互鉴精神相悖</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>一国两制</strong></p></td>
+<td><p>包容不同社会制度与意识形态</p></td>
+<td><p>若以意识形态划线选择性执法，损害制度包容性</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>全面从严治党</strong></p></td>
+<td><p>“坚持党纪国法面前没有例外”</p></td>
+<td><p>若执法人员自身违纪违法却追究公民刑责，违反”党纪国法面前一律平等”</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id28">
+<h5>2. 《纪律处分条例》的适用分析<a class="headerlink" href="#id28" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p><strong>第44条</strong>（政治纪律）：”在重大原则问题上不同党中央保持一致且有实际言论、行为或者造成不良后果的”，给予相应处分。</p></li>
+<li><p><strong>第50条</strong>（政治纪律）：”对党不忠诚不老实，表里不一，阳奉阴违，欺上瞒下，搞两面派，做两面人”，情节严重者开除党籍。</p></li>
+<li><p><strong>第121条</strong>（工作纪律）：”工作中不负责任或者疏于管理…造成损失或者不良影响的”，应给予处分。</p></li>
+</ul>
+</section>
+<section id="id29">
+<h5>3. 专业评估<a class="headerlink" href="#id29" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p><strong>若执法人员行为确实</strong>：</p>
+<ul>
+<li><p>以”内容敏感”替代”法律虚假性”认定犯罪，违反”依法治国”要求；</p></li>
+<li><p>将学术探讨、艺术表达入罪，与”人类命运共同体”倡导的文明包容精神相悖；</p></li>
+<li><p>对同类内容选择性追责，破坏”法律面前人人平等”原则；</p></li>
+</ul>
+</li>
+<li><p><strong>则可能构成</strong>：《纪律处分条例》第44条”在重大原则问题上不同党中央保持一致”的违纪行为。</p></li>
+</ul>
+</section>
+<section id="id30">
+<h5>4. 专业结论<a class="headerlink" href="#id30" title="Link to this heading"></a></h5>
+<p>✅ <strong>政策依据成立</strong>：若查证属实，执法人员行为与党的既定国策存在实质性背离，可能违反政治纪律与工作纪律。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id31">
+<h4>（四）指控四：”违反党纪党规与理想”<a class="headerlink" href="#id31" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>陈京元指控</strong>：执法人员未遵守党章、入党誓词，未做到”两个维护”；玩弄”低级红、高级黑”伎俩；组织”司法黑帮恶势力团伙”，尸位素餐、玩忽职守。</p>
+</div></blockquote>
+<section id="id32">
+<h5>1. 党纪条款对照分析<a class="headerlink" href="#id32" title="Link to this heading"></a></h5>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>指控内容</p></th>
+<th class="head"><p>对应党纪条款</p></th>
+<th class="head"><p>违纪性质</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>未遵守入党誓词/党章</p></td>
+<td><p>《党章》第六条、《纪律处分条例》第44条</p></td>
+<td><p>违反政治纪律</p></td>
+</tr>
+<tr class="row-odd"><td><p>“低级红、高级黑”</p></td>
+<td><p>《纪律处分条例》第50条”搞两面派、做两面人”</p></td>
+<td><p>违反政治纪律</p></td>
+</tr>
+<tr class="row-even"><td><p>玩忽职守/滥用职权</p></td>
+<td><p>《纪律处分条例》第121、125条</p></td>
+<td><p>违反工作纪律</p></td>
+</tr>
+<tr class="row-odd"><td><p>尸位素餐/不务正业</p></td>
+<td><p>《纪律处分条例》第122条”形式主义、官僚主义”</p></td>
+<td><p>违反工作纪律</p></td>
+</tr>
+<tr class="row-even"><td><p>组织”司法黑帮”</p></td>
+<td><p>《纪律处分条例》第49条”搞团团伙伙、拉帮结派”</p></td>
+<td><p>违反政治纪律</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id33">
+<h5>2. 证据标准与认定难度<a class="headerlink" href="#id33" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p><strong>一般违纪</strong>（如态度恶劣、工作疏忽）：可通过庭审记录、当事人陈述、同事证言等认定；</p></li>
+<li><p><strong>严重违纪</strong>（如”司法黑帮””权力寻租”）：需纪检监察机关立案调查，获取书证、物证、电子数据等客观证据；</p></li>
+<li><p><strong>刑事犯罪</strong>（如滥用职权、徇私枉法）：需检察机关依法侦查，达到”事实清楚、证据确实充分”的刑事证明标准。</p></li>
+</ul>
+</section>
+<section id="id34">
+<h5>3. 专业结论<a class="headerlink" href="#id34" title="Link to this heading"></a></h5>
+<p>⚠️ <strong>部分依据成立，但需证据支撑</strong>：</p>
+<ul class="simple">
+<li><p>“低级红、高级黑”、玩忽职守等指控，若查证属实，可适用《纪律处分条例》相应条款；</p></li>
+<li><p>“司法黑帮恶势力团伙”等严重指控，需独立调查核实，不能仅凭当事人陈述认定；</p></li>
+<li><p>建议由纪检监察机关依《中国共产党纪律检查机关监督执纪工作规则》启动核查程序。</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id35">
+<h4>（五）指控五：”背叛中共政策与理想”<a class="headerlink" href="#id35" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>陈京元指控</strong>：执法人员行为从根本上否定中共既定国策，构成对党的理想和事业的”彻底背叛和反动”。</p>
+</div></blockquote>
+<section id="id36">
+<h5>1. 党纪与法律的双重审视<a class="headerlink" href="#id36" title="Link to this heading"></a></h5>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>审视维度</p></th>
+<th class="head"><p>分析要点</p></th>
+<th class="head"><p>本案对照</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>党纪角度</strong></p></td>
+<td><p>《纪律处分条例》第44-59条对”违反政治纪律”有详细规定</p></td>
+<td><p>若执法人员行为确实背离党中央决策部署，可能构成政治违纪</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>法律角度</strong></p></td>
+<td><p>《刑法》第397条滥用职权罪、第399条徇私枉法罪</p></td>
+<td><p>若存在故意枉法裁判，可能构成刑事犯罪</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>证据角度</strong></p></td>
+<td><p>党纪处分需”事实清楚、证据确凿”；刑事定罪需”排除合理怀疑”</p></td>
+<td><p>陈京元指控需经独立调查核实，不能直接作为定案依据</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id37">
+<h5>2. 专业评估<a class="headerlink" href="#id37" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p><strong>指控的合理性</strong>：陈京元从政策一致性角度提出的质疑，在法理上具有警示价值；</p></li>
+<li><p><strong>认定的谨慎性</strong>： “背叛党的理想”属于严重政治指控，必须由有权机关依程序调查认定，不能由当事人单方主张；</p></li>
+<li><p><strong>制度的回应性</strong>：无论指控是否成立，司法机关都应建立对”执法行为与党的政策一致性”的常态化审查机制。</p></li>
+</ul>
+</section>
+<section id="id38">
+<h5>3. 专业结论<a class="headerlink" href="#id38" title="Link to this heading"></a></h5>
+<p>⚠️ <strong>需独立调查认定</strong>：该指控涉及重大政治判断，建议由上级纪检监察机关或检察机关依职权启动核查，避免由当事人单方主张替代组织认定。</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id39">
+<h3>三、 综合评估：党纪指控的法律依据与制度启示<a class="headerlink" href="#id39" title="Link to this heading"></a></h3>
+<section id="id40">
+<h4>（一）党纪指控的合规性评级<a class="headerlink" href="#id40" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>指控类别</p></th>
+<th class="head"><p>党纪依据充分性</p></th>
+<th class="head"><p>证据要求</p></th>
+<th class="head"><p>专业结论</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>不当言行</p></td>
+<td><p>✅ 充分</p></td>
+<td><p>庭审记录/证人证言</p></td>
+<td><p>若属实，违反群众纪律</p></td>
+</tr>
+<tr class="row-odd"><td><p>党纪替代国法</p></td>
+<td><p>✅✅ 充分</p></td>
+<td><p>判决书文本/法律适用分析</p></td>
+<td><p>若属实，双重违规</p></td>
+</tr>
+<tr class="row-even"><td><p>否定党的政策</p></td>
+<td><p>✅ 充分</p></td>
+<td><p>行为与政策对照分析</p></td>
+<td><p>若属实，可能违反政治纪律</p></td>
+</tr>
+<tr class="row-odd"><td><p>违反党纪理想</p></td>
+<td><p>⚠️ 部分充分</p></td>
+<td><p>需独立调查核实</p></td>
+<td><p>部分指控需证据支撑</p></td>
+</tr>
+<tr class="row-even"><td><p>背叛党的理想</p></td>
+<td><p>⚠️ 需审慎</p></td>
+<td><p>需有权机关认定</p></td>
+<td><p>建议启动组织核查程序</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id41">
+<h4>（二）执法人员行为的合规性评估<a class="headerlink" href="#id41" title="Link to this heading"></a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>合规性审查框架：
+┌─ 党纪层面 ─┬─ 是否违反《党章》党员义务？
+│           ├─ 是否违反《纪律处分条例》具体条款？
+│           └─ 是否存在&quot;低级红、高级黑&quot;等政治违纪？
+│
+├─ 国法层面 ─┬─ 是否违反《刑法》罪刑法定原则？
+│           ├─ 是否违反《刑诉法》证据裁判原则？
+│           └─ 是否存在滥用职权、徇私枉法等犯罪？
+│
+└─ 政策层面 ─┬─ 是否与&quot;全面依法治国&quot;方略一致？
+            ├─ 是否符合&quot;人类命运共同体&quot;战略导向？
+            └─ 是否体现&quot;法律面前人人平等&quot;宪法原则？
+</pre></div>
+</div>
+</section>
+<section id="id42">
+<h4>（三）更广泛的制度影响分析<a class="headerlink" href="#id42" title="Link to this heading"></a></h4>
+<section id="id43">
+<h5>1. 对”全面依法治国”的挑战<a class="headerlink" href="#id43" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>若党纪可替代国法进行刑事裁判，将破坏”依法治国”的制度根基；</p></li>
+<li><p>若政治立场可替代法律判断，将侵蚀司法独立与专业权威；</p></li>
+<li><p>若”口袋罪”可被用于思想管控，将损害公民权利与法治信仰。</p></li>
+</ul>
+</section>
+<section id="id44">
+<h5>2. 对”全面从严治党”的启示<a class="headerlink" href="#id44" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>党员执法人员必须同时接受党纪与国法双重约束；</p></li>
+<li><p>对执法权力的监督不能仅靠内部自律，需强化外部制衡；</p></li>
+<li><p>“党纪严于国法”应体现在更高标准的职业伦理，而非替代法律适用。</p></li>
+</ul>
+</section>
+<section id="id45">
+<h5>3. 对司法公信力的影响<a class="headerlink" href="#id45" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>若公众认为司法裁判受政治立场主导，将削弱对法治的信任；</p></li>
+<li><p>若选择性执法成为常态，将损害”法律面前人人平等”的宪法原则；</p></li>
+<li><p>若”低级红、高级黑”行为得不到纠正，将损害党的形象与执政合法性。</p></li>
+</ul>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id46">
+<h3>四、 专业建议与制度矫正路径<a class="headerlink" href="#id46" title="Link to this heading"></a></h3>
+<section id="id47">
+<h4>（一）对党纪指控的处理建议<a class="headerlink" href="#id47" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p><strong>启动核查程序</strong>：建议由上级纪检监察机关依《监督执纪工作规则》对陈京元指控进行初步核实；</p></li>
+<li><p><strong>区分违纪与犯罪</strong>：对一般违纪行为依党纪处分，对涉嫌犯罪线索移送检察机关依法侦查；</p></li>
+<li><p><strong>保护举报人权利</strong>：依法保障陈京元作为举报人的合法权益，防止打击报复。</p></li>
+</ol>
+</section>
+<section id="id48">
+<h4>（二）对司法实践的规范建议<a class="headerlink" href="#id48" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p><strong>明确党纪与国法边界</strong>：出台指导意见，禁止以党章党规、政治文件作为刑事定罪量刑的直接依据；</p></li>
+<li><p><strong>强化裁判文书说理</strong>：要求刑事判决必须援引刑法条文及司法解释，不得以政治评价替代法律论证；</p></li>
+<li><p><strong>完善司法监督机制</strong>：建立对”执法行为与党的政策一致性”的常态化审查，防止选择性执法。</p></li>
+</ol>
+</section>
+<section id="id49">
+<h4>（三）对制度建设的长远启示<a class="headerlink" href="#id49" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p><strong>推动党纪与国法协调统一</strong>：在坚持”党纪严于国法”的同时，确保党纪不替代、不抵触国法；</p></li>
+<li><p><strong>强化司法人员双重培训</strong>：既加强党纪教育，也深化法治培训，确保”以事实为根据、以法律为准绳”；</p></li>
+<li><p><strong>激活审判监督程序</strong>：对党纪与国法适用存在重大争议的案件，依法启动再审或检察监督程序。</p></li>
+</ol>
+<hr class="docutils" />
+<blockquote>
+<div><p><strong>结语</strong><br />
+党纪与国法各有其规范领域与程序要求，二者应当协调统一而非相互替代。党员执法人员既是党的纪律约束对象，也是国家法律的执行者，其行为必须同时符合党纪与国法的双重标准。<br />
+陈京元博士的党纪指控，无论最终认定结果如何，都应成为推动”党纪国法协调统一””司法权力规范运行””执法行为政策合规”的重要制度镜鉴。真正的”全面从严治党”，不仅要求党员遵守党纪，更要求党纪本身在宪法和法律框架内运行；真正的”全面依法治国”，不仅要求公民守法，更要求执法者率先垂范、依法用权。<br />
+本案的深层启示在于：<strong>党纪的权威不在于替代国法，而在于引领党员成为守法的模范；法治的尊严不在于惩罚异见，而在于约束权力、保障权利。</strong> 唯有如此，才能实现”党纪国法相辅相成””党的领导与依法治国有机统一”的制度理想。</p>
+</div></blockquote>
+<p><em>注：本评估严格依据现行党纪国法规范进行，聚焦制度分析与专业判断，不涉及对个案事实的最终认定。相关指控的核实与处理，应依《中国共产党纪律检查机关监督执纪工作规则》《中华人民共和国刑事诉讼法》等规定，由有权机关依法独立进行。</em></p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="中共党章党纪相关" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-right" title="具体指控的分析评估" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

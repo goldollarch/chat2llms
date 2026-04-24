@@ -1,0 +1,550 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Deepseek" href="deepseek.html" />
+    <link rel="prev" title="Copilot" href="copilot.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Accuse the Judicial Mafia</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../criminal/index.html">刑事相关指控</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">宪法及基本人权</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../possible/index.html">违法犯罪分析评估</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">根据具体法规的分析</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../UDHR/index.html">世界人权宣言</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../ICCPR/index.html">公民权利和政治权利国际公约</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">经济、社会及文化权利国际公约</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../china/index.html">中华人民共和国宪法</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../analyse/qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../analyse/index.html">具体指控的分析评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../policies/index.html">国家路线方针和政策</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../party/index.html">中共党章党纪相关</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">具体指控总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Accuse the Judicial Mafia</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">宪法及基本人权</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">根据具体法规的分析</a></li>
+          <li class="breadcrumb-item"><a href="index.html">经济、社会及文化权利国际公约</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/accuse/rights/specific/ICESCR/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>下面基于《经济、社会及文化权利国际公约》（<strong>ICESCR</strong>）的规范框架，对陈京元博士案件进行<strong>专门的人权法分析与评估</strong>。</p>
+<blockquote>
+<div><p>⚠️说明：</p>
+<ul class="simple">
+<li><p>中国已签署并批准ICESCR，因此对其具有国际法义务</p></li>
+<li><p>该公约主要保障“经济、社会与文化权利”，不同于刑事正当程序权利（主要在ICCPR中），但本案仍存在<strong>重要交叉适用空间</strong></p></li>
+</ul>
+</div></blockquote>
+<hr class="docutils" />
+<section id="icescr">
+<h2>一、分析框架：ICESCR在本案中的适用方式<a class="headerlink" href="#icescr" title="Link to this heading"></a></h2>
+<p>ICESCR主要涉及三类权利：</p>
+<ol class="arabic simple">
+<li><p><strong>文化权利（核心）</strong></p></li>
+<li><p><strong>科学与学术自由</strong></p></li>
+<li><p><strong>人格发展与社会参与权</strong></p></li>
+</ol>
+<p>👉 本案的关键不在传统“生存权”，而在：</p>
+<p>✔ <strong>思想—学术—表达活动是否被不当刑事化</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h2>二、核心条款适用分析<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>（一）第15条：参与文化生活与科学自由<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>1. 条文核心<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>ICESCR 第15条第1款：</p>
+<blockquote>
+<div><p>人人有权：
+（a）参与文化生活
+（b）享受科学进步及其应用
+（c）从事科学研究与创作的自由</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h3>2. 本案对应行为<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>材料显示：</p>
+<ul class="simple">
+<li><p>浏览、转发思想内容</p></li>
+<li><p>接触历史资料</p></li>
+<li><p>参与学术性讨论</p></li>
+<li><p>表达政治与社会观点</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h3>3. 法律评价<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<section id="id6">
+<h4>（1）这些行为是否属于第15条保护范围？<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<p>✔ 明确属于：</p>
+<ul class="simple">
+<li><p>“参与文化生活”</p></li>
+<li><p>“获取与传播知识”</p></li>
+<li><p>“思想交流与学术活动”</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h4>（2）刑事处罚是否构成限制？<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<p>若因上述行为被定罪：</p>
+<p>👉 属于：</p>
+<p>✔ <strong>对文化权利的限制</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h3>4. 限制是否合法？<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>根据ICESCR一般解释（第21号一般性意见）：</p>
+<p>限制必须：</p>
+<ul class="simple">
+<li><p>有法律依据</p></li>
+<li><p>服务公共利益</p></li>
+<li><p><strong>必要且比例适当</strong></p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h3>5. 本案评估<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>材料显示：</p>
+<ul class="simple">
+<li><p>未证明社会危害</p></li>
+<li><p>未证明传播规模</p></li>
+<li><p>将思想表达等同“谣言”</p></li>
+</ul>
+<hr class="docutils" />
+<p>👉 若属实：</p>
+<p>✔ 结论：</p>
+<p>👉 <strong>可能违反第15条（科学与文化参与权）</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>（二）学术自由（第15条核心延伸）<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id11">
+<h3>1. 国际法解释<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>联合国解释明确：</p>
+<blockquote>
+<div><p>学术自由包括：</p>
+<ul class="simple">
+<li><p>研究</p></li>
+<li><p>获取信息</p></li>
+<li><p>传播思想</p></li>
+<li><p>不受政治干预</p></li>
+</ul>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3>2. 本案情况<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>当事人身份：</p>
+<ul class="simple">
+<li><p>独立学者</p></li>
+</ul>
+<p>行为性质：</p>
+<ul class="simple">
+<li><p>信息收集</p></li>
+<li><p>思想表达</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3>3. 法律评价<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>若因上述行为定罪：</p>
+<p>👉 可能构成：</p>
+<p>✔ <strong>对学术自由的实质性干预</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h3>4. 特别严重性<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<p>学术自由在ICESCR体系中具有：</p>
+<p>👉 <strong>制度性意义</strong></p>
+<p>其受损意味着：</p>
+<ul class="simple">
+<li><p>知识体系受限</p></li>
+<li><p>思想交流受阻</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h3>✔ 结论<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>👉 本案在ICESCR框架下：</p>
+<p><strong>最核心问题就是学术自由是否被不当限制</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h2>（三）人格发展权（第13条与第15条交叉）<a class="headerlink" href="#id16" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id17">
+<h3>1. 条文依据<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<p>ICESCR 第13条：</p>
+<blockquote>
+<div><p>教育应促进人格的充分发展</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h3>2. 延伸解释<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<p>人格发展包括：</p>
+<ul class="simple">
+<li><p>思想形成</p></li>
+<li><p>价值判断</p></li>
+<li><p>批判能力</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3>3. 本案评估<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<p>若：</p>
+<ul class="simple">
+<li><p>因思想表达受惩罚</p></li>
+<li><p>因接触信息受限制</p></li>
+</ul>
+<p>👉 则可能：</p>
+<p>✔ 限制人格发展权</p>
+</section>
+<hr class="docutils" />
+<section id="id20">
+<h3>✔ 结论<a class="headerlink" href="#id20" title="Link to this heading"></a></h3>
+<p>👉 属于：</p>
+<p><strong>间接侵害（indirect interference）</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id21">
+<h2>（四）文化表达权（第15条延伸）<a class="headerlink" href="#id21" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id22">
+<h3>1. 内容范围<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<p>包括：</p>
+<ul class="simple">
+<li><p>艺术表达</p></li>
+<li><p>象征性表达</p></li>
+<li><p>情感表达</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h3>2. 本案关键点<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>材料显示：</p>
+<ul class="simple">
+<li><p>艺术作品被认定为“谣言”</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id24">
+<h3>3. 法律评价<a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+<p>艺术表达特点：</p>
+<ul class="simple">
+<li><p>非事实命题</p></li>
+<li><p>不适用“真假判断”</p></li>
+</ul>
+<hr class="docutils" />
+<p>👉 若将其定性为犯罪：</p>
+<p>✔ 可能构成：</p>
+<p><strong>对文化表达权的误判与侵害</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h2>三、国家义务分析（ICESCR核心）<a class="headerlink" href="#id25" title="Link to this heading"></a></h2>
+<p>ICESCR规定国家有三类义务：</p>
+<hr class="docutils" />
+<section id="respect">
+<h3>（一）尊重义务（Respect）<a class="headerlink" href="#respect" title="Link to this heading"></a></h3>
+<p>不得直接干预权利</p>
+<p>👉 本案：</p>
+<ul class="simple">
+<li><p>若因思想行为处罚</p></li>
+</ul>
+<p>✔ 可能违反</p>
+</section>
+<hr class="docutils" />
+<section id="protect">
+<h3>（二）保护义务（Protect）<a class="headerlink" href="#protect" title="Link to this heading"></a></h3>
+<p>防止他人侵害</p>
+<p>👉 本案关联较弱</p>
+</section>
+<hr class="docutils" />
+<section id="fulfill">
+<h3>（三）实现义务（Fulfill）<a class="headerlink" href="#fulfill" title="Link to this heading"></a></h3>
+<p>促进文化与科学发展</p>
+<p>👉 若打击学术行为：</p>
+<p>✔ 与该义务冲突</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id26">
+<h2>四、比例原则分析（关键）<a class="headerlink" href="#id26" title="Link to this heading"></a></h2>
+<p>ICESCR强调：</p>
+<p>👉 一切限制必须符合比例原则</p>
+<hr class="docutils" />
+<section id="id27">
+<h3>本案三步审查：<a class="headerlink" href="#id27" title="Link to this heading"></a></h3>
+<section id="id28">
+<h4>1. 合法性<a class="headerlink" href="#id28" title="Link to this heading"></a></h4>
+<p>✔ 有刑法依据（形式上成立）</p>
+</section>
+<hr class="docutils" />
+<section id="id29">
+<h4>2. 正当目的<a class="headerlink" href="#id29" title="Link to this heading"></a></h4>
+<p>✔ 可能主张“维护社会秩序”</p>
+</section>
+<hr class="docutils" />
+<section id="id30">
+<h4>3. 必要性与比例性<a class="headerlink" href="#id30" title="Link to this heading"></a></h4>
+<p>关键问题：</p>
+<ul class="simple">
+<li><p>是否必须用刑法？</p></li>
+<li><p>是否有更轻手段？</p></li>
+<li><p>是否造成过度寒蝉效应？</p></li>
+</ul>
+<hr class="docutils" />
+<p>👉 若材料成立：</p>
+<p>❗ 很可能：</p>
+<p>✔ <strong>不符合比例原则</strong></p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id31">
+<h2>五、综合法律评价<a class="headerlink" href="#id31" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id32">
+<h3>（一）权利受影响情况<a class="headerlink" href="#id32" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>权利</p></th>
+<th class="head"><p>是否可能受侵害</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>文化参与权</p></td>
+<td><p>✔</p></td>
+</tr>
+<tr class="row-odd"><td><p>学术自由</p></td>
+<td><p>✔（核心）</p></td>
+</tr>
+<tr class="row-even"><td><p>科学研究自由</p></td>
+<td><p>✔</p></td>
+</tr>
+<tr class="row-odd"><td><p>人格发展权</p></td>
+<td><p>✔（间接）</p></td>
+</tr>
+<tr class="row-even"><td><p>艺术表达权</p></td>
+<td><p>✔</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id33">
+<h3>（二）性质判断<a class="headerlink" href="#id33" title="Link to this heading"></a></h3>
+<p>👉 本案在ICESCR框架下属于：</p>
+<p><strong>“文化与学术权利被刑事化限制案件”</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id34">
+<h2>六、法律意见（专业建议）<a class="headerlink" href="#id34" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="id35">
+<h3>（一）论证重点（建议）<a class="headerlink" href="#id35" title="Link to this heading"></a></h3>
+<p>应突出：</p>
+<section id="id36">
+<h4>1. 学术自由<a class="headerlink" href="#id36" title="Link to this heading"></a></h4>
+<p>👉 最强论点</p>
+</section>
+<hr class="docutils" />
+<section id="id37">
+<h4>2. 表达与文化行为区分<a class="headerlink" href="#id37" title="Link to this heading"></a></h4>
+<p>👉 区分：</p>
+<ul class="simple">
+<li><p>事实陈述</p></li>
+<li><p>价值表达</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id38">
+<h4>3. 比例原则<a class="headerlink" href="#id38" title="Link to this heading"></a></h4>
+<p>👉 关键突破口</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id39">
+<h3>（二）法律路径<a class="headerlink" href="#id39" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id40">
+<h4>1. 再审中的运用<a class="headerlink" href="#id40" title="Link to this heading"></a></h4>
+<p>ICESCR可作为：</p>
+<ul class="simple">
+<li><p>宪法解释参考</p></li>
+<li><p>法律原则依据</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id41">
+<h4>2. 学术与国际倡议<a class="headerlink" href="#id41" title="Link to this heading"></a></h4>
+<p>用于：</p>
+<ul class="simple">
+<li><p>学界论证</p></li>
+<li><p>国际关注</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id42">
+<h3>（三）表达优化建议<a class="headerlink" href="#id42" title="Link to this heading"></a></h3>
+<p>将：</p>
+<blockquote>
+<div><p>“全面迫害”</p>
+</div></blockquote>
+<p>转化为：</p>
+<p>👉 <strong>“对学术与文化权利的过度刑事干预”</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id43">
+<h2>七、一句话结论<a class="headerlink" href="#id43" title="Link to this heading"></a></h2>
+<p>👉 <strong>在《经济、社会及文化权利国际公约》框架下，若案件材料所述属实，本案可能构成对学术自由、文化参与权及科学研究自由的过度限制，其核心问题在于将思想与文化行为不当刑事化，且可能不符合国际法上的比例原则。</strong></p>
+<hr class="docutils" />
+<p>如果你需要，我可以进一步帮你：</p>
+<ul class="simple">
+<li><p>写一份<strong>ICESCR专项法律意见书（正式版）</strong></p></li>
+<li><p>或做一个 <strong>“三大人权公约综合评估报告（专业研究级）”</strong></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="copilot.html" class="btn btn-neutral float-left" title="Copilot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="Deepseek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

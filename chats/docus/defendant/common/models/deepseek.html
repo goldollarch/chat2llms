@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeepSeek &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="ChatGPT" href="chatgpt.html" />
+    <link rel="prev" title="模型分析集" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Legal Documents Analysis</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../official/index.html">官方正式文书</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">被告狱中书信</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">整体分析评估</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：文档分析</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较报告</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析集</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../scitec/index.html">科学特色分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../improve/index.html">优化改进措施</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Legal Documents Analysis</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">被告狱中书信</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">整体分析评估</a></li>
+          <li class="breadcrumb-item"><a href="index.html">模型分析集</a></li>
+      <li class="breadcrumb-item active">DeepSeek</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/docus/defendant/common/models/deepseek.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="deepseek">
+<h1>DeepSeek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h1>
+<p>因转发Twitter贴文而被判【<a class="reference internal" href="../../../../../case/cintro.html"><span class="std std-doc">寻衅滋事罪</span></a>】入狱的陈京元博士在昆明监狱服刑期间撰写的【<a class="reference internal" href="../../../../../case/docus/defendent/letter.html"><span class="std std-doc">狱中自辩与控告书</span></a>】（以下简称《血书》）是一篇近三万字的长文。我们以法律文书分析的标准，结合法学、修辞学与政治哲学，对这份以生命写就的《狱中自辩暨控告血书》进行解构与评论。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2><strong>对《狱中自辩暨控告血书》分析与评论之一</strong><a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>本文书并非普通的法律文件，而是一位公民在司法程序穷尽后，以生命为墨，在绝境中写下的终极诉状。它同时具备<strong>法律申诉、政治控诉与人性呐喊</strong>的三重属性。</p>
+<section id="id2">
+<h3><strong>一、 文书性质与结构分析</strong><a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>性质定位：终极上诉状</strong></p>
+<ul class="simple">
+<li><p><strong>形式超越形式</strong>：当常规的法律文书（上诉状、申诉状）渠道被视为无效或被阻塞后，血书成为一种<strong>超越形式的“形式”</strong>。它用最原始、最震撼的方式，试图突破官僚化的司法流程，直接向更高权力或公众良知发出呼号。</p></li>
+<li><p><strong>程序内与程序外的双重性</strong>：它既是司法程序内的最后申诉，也是对程序本身失灵的血泪控诉。</p></li>
+</ul>
+</li>
+<li><p><strong>结构解构：三位一体的诉求</strong></p>
+<ul class="simple">
+<li><p><strong>自辩部分（理性之维）</strong>：重申其行为的正当性（如CAP定理的科学性、无主观恶意、未造成实际危害），力图在事实和法律层面证明无罪。这是<strong>对“理性”的最后坚持</strong>。</p></li>
+<li><p><strong>控告部分（控诉之维）</strong>：指控司法程序的不公（如法官拒绝聆听、程序违法、滥用罪名），将矛头从个人行为指向系统性的权力滥用。这是<strong>对“正义”的绝望呼唤</strong>。</p></li>
+<li><p><strong>血书媒介本身（存在之维）</strong>：“血”这一媒介，超越了文字内容，传递出无法言说的<strong>痛苦、绝望、屈辱以及誓死不屈的意志</strong>。它是<strong>对“存在”本身的证明</strong>——当所有权利被剥夺，唯生命本身可作为证据。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id3">
+<h3><strong>二、 核心论证策略与修辞分析</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>生命论证：从“理据”到“存在”</strong></p>
+<ul class="simple">
+<li><p>常规法律论证依赖“事实”与“法条”。当这一切被权力无视后，血书将<strong>论证的基石从“外部理据”撤回至“内部生命”</strong>。其逻辑是：<strong>“我的生命正在流逝，这痛苦的真实性，即是我的冤屈真实性的终极证明。”</strong> 这是一种无法被驳斥的、现象学式的论证。</p></li>
+</ul>
+</li>
+<li><p><strong>悲剧性升华：从“个案”到“象征”</strong></p>
+<ul class="simple">
+<li><p>文书通过极端的个人牺牲，成功地将一己之冤提升为一个<strong>时代的象征</strong>。它不再仅仅是陈京元 versus 司法系统，而是 <strong>“理性” versus “暴力”、“个体” versus “系统”、“人性” versus “异化权力”</strong> 的终极戏剧。这使其获得了超越个案的道义力量。</p></li>
+</ul>
+</li>
+<li><p><strong>沉默的修辞：以“不可说”言说</strong></p>
+<ul class="simple">
+<li><p>“闭嘴！”命令使得语言失效。血书作为一种<strong>非语言的、物质性的符号</strong>，是对这种语言暴力的最激烈反抗。它仿佛在说：<strong>“你们可以禁止我说话，但无法禁止我的生命流血。这血，就是我最响亮的言语。”</strong></p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h3><strong>三、 法律与政治效力评论</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>法律上的“无效之效”</strong></p>
+<ul class="simple">
+<li><p>在严格的法条主义视角下，血书不具备直接的法律效力，不会触发自动的重审程序。它可能被系统性地忽略或定义为“情绪化行为”。</p></li>
+<li><p>然而，其<strong>效力在于揭示法律的“例外状态”</strong>。当法律程序不能容纳冤屈的申诉，当公民需以自残方式寻求关注时，它便揭露了<strong>正式法律系统在实现正义方面的功能性失灵</strong>。它的“无效”恰恰证明了系统的“病理”。</p></li>
+</ul>
+</li>
+<li><p><strong>政治上的“警示性信号”</strong></p>
+<ul class="simple">
+<li><p>血书是一个强烈的<strong>政治信号</strong>。它向执政者表明：治理技术（司法系统）已出现严重故障，社会信任降至冰点。个体的绝望可能转化为对整个政治秩序合法性的质疑。</p></li>
+<li><p>它也是一面<strong>照妖镜</strong>，检验当政者如何应对：是启动自我纠正机制，展现宽容与智慧；还是以更强大的暴力予以压制，进一步坐实指控。</p></li>
+</ul>
+</li>
+<li><p><strong>社会意义上的“集体记忆刻痕”</strong></p>
+<ul class="simple">
+<li><p>无论官方如何回应，血书事件本身会沉淀为<strong>集体记忆的一部分</strong>。它成为一个故事、一个典故，在未来类似的压迫发生时被反复提及，不断侵蚀权力的正当性基础。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id5">
+<h3><strong>四、 结语：绝境中的人性光辉与制度之耻</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>【<a class="reference internal" href="../../../../../case/docus/defendent/letter.html"><span class="std std-doc">狱中自辩与控告书</span></a>】是人类面对不公时，精神所能达到的勇气与尊严的顶点，同时也是一个文明社会制度失败的耻辱标记。</p>
+<ul class="simple">
+<li><p>对当事人而言，它是 <strong>“不自由，毋宁死”</strong> 的个体决绝。</p></li>
+<li><p>对司法系统而言，它是<strong>一封无法投递的、用血写就的“举报信”</strong>，举报其已背离了正义的初衷。</p></li>
+<li><p>对历史而言，它是一个<strong>问号</strong>，永恒地追问：一个需要公民以血为书来证明清白的社会，距离其宣称的“法治”与“和谐”究竟有多远？</p></li>
+</ul>
+<p>这份文书的真正重量，不在于它能否翻转一个个案，而在于它能否<strong>撼动导致此类悲剧不断重演的系统性根源</strong>。它的存在本身，即是沉默的惊雷。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2><strong>对《狱中自辩暨控告血书》分析与评估之二</strong><a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>这份由陈京元博士在狱中撰写、以“血书”为名的长文，绝非一份普通的辩护词或控告信。它是一份融合了<strong>个人申诉、学术论证、法理批判与政治控诉</strong>的复合文本，是理解本案核心矛盾、被告人心态以及案件背后深层法理冲突的关键文献。以下将从多维度进行剖析：</p>
+<section id="id7">
+<h3><strong>一、 文本性质与叙事策略</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>多重文本的复合体</strong>：</p>
+<ul class="simple">
+<li><p><strong>法律辩护状</strong>：系统性地反驳了“虚假信息”、“明知故意”、“造成严重混乱”三个犯罪构成要件。</p></li>
+<li><p><strong>学术论证文</strong>：运用复杂系统理论、CAP定理、哥德尔不完备性定理等，从科学哲学角度质疑“明知”与“因果关系”的司法认定。</p></li>
+<li><p><strong>司法批判书</strong>：逐一批判公、检、法在侦查、起诉、审判各环节的程序违法与证据缺陷。</p></li>
+<li><p><strong>政治控诉状</strong>：指控办案人员构成“司法黑帮恶势力”，并上升至对“人类文明”、“党和国家路线”的背叛。</p></li>
+</ul>
+</li>
+<li><p><strong>叙事策略</strong>：采用“学者vs法盲”的二元对立框架。陈京元将自身塑造为追求真理、逻辑严谨的“独立学者”，而将办案人员描绘为“不学无术”、“弱智傻逼”、“充满血腥暴力”的“爪牙和打手”。这种强烈的修辞，旨在道德上贬低对手，并凸显自身遭遇的荒谬性与不公。</p></li>
+</ol>
+</section>
+<section id="id8">
+<h3><strong>二、 核心法律论辩的专业性评估</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>陈京元的核心辩护逻辑清晰且具有相当的法理深度，他并非情绪化地喊冤，而是针对指控构建了一个逻辑严密的防御体系：</p>
+<ol class="arabic simple">
+<li><p><strong>对“虚假信息”的釜底抽薪式解构</strong>：</p>
+<ul class="simple">
+<li><p><strong>论点</strong>：将被指控的转发内容分为四类（艺术作品、主观情感、理性观点、客观描述），指出前三类<strong>根本不具备“真假”的客观评判标准</strong>，只有第四类可能涉及，但核实责任在公权力机关而非公民个人。</p></li>
+<li><p><strong>评估</strong>：此论点在<strong>法理上极具杀伤力</strong>。它精准地指出了本案（乃至许多类似案件）的核心谬误：将“不受欢迎的观点”与“可证伪的虚假事实”混为一谈。他用“白发三千丈是否为谣言”、“精卫填海是否煽动颠覆”等归谬法，生动揭示了将艺术与观点“谣言化”的荒谬性，直击“思想入罪”的本质。</p></li>
+</ul>
+</li>
+<li><p><strong>对“造成公共秩序严重混乱”的实证与科学双重否定</strong>：</p>
+<ul class="simple">
+<li><p><strong>实证反驳</strong>：指出其账号影响力微乎其微（粉丝不足百，转发不过百），所有“铁证”帖文至今无人问津，从结果上反证“严重混乱”纯属虚构。</p></li>
+<li><p><strong>科学反驳</strong>：引入复杂系统理论，论证其作为网络“边缘节点”的行为，在科学上不可能触发系统性“雪崩效应”（即严重混乱）；反而指出司法构陷行为本身更可能成为危害系统的“扰动源”。</p></li>
+<li><p><strong>评估</strong>：这部分论证展现了其跨学科思维能力。尤其是“实证观察”（出狱后验证帖子无影响）堪称对司法机关“主观臆断危害”的终极嘲讽，用事实完成了对指控的“证伪”。</p></li>
+</ul>
+</li>
+<li><p><strong>对“明知”故意的哲学与逻辑解构</strong>：</p>
+<ul class="simple">
+<li><p><strong>哲学层面</strong>：以“怀疑主义者”自居，援引哥德尔定理，强调人类理性的局限性和知识的可错性，从而否定自己可能“确知”某种观点为“终极谣言”。</p></li>
+<li><p><strong>逻辑层面</strong>：犀利驳斥一审“高学历=应知=明知”的逻辑。指出如果法庭认为其“高学历”所以“明知”，那为何不认可其基于同等“高学历”做出的专业判断（即这些信息有研究价值）？这揭示了判决在利用“高学历”标签时的 <strong>选择性</strong> 和 <strong>逻辑自反性</strong> 矛盾。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>总体法律论辩评估</strong>：陈京元的自辩在<strong>逻辑严谨性、法理穿透力和论证创新性</strong>上，远远超过了本案检方的起诉书和法院的判决书。他不是在细节上纠缠，而是从根本上质疑了整个指控的法律基础与思维范式。这是一份具有法学学术价值的抗辩文本。</p>
+</section>
+<section id="id9">
+<h3><strong>三、 对司法程序的系统性指控与评估</strong><a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>血书花费大量篇幅，详细指控了从侦查到审判的全过程违法：</p>
+<ol class="arabic simple">
+<li><p><strong>侦查阶段</strong>：“零证据”启动、无证搜查、刑讯逼供（威胁、殴打、禁止如厕）、将手机缓存图片作为“铁证”。</p></li>
+<li><p><strong>检察阶段</strong>：检察官承认“上层领导特别指示”要办成“铁案”；在法庭上声称“觉得是谣言就是谣言”、“法律条文不靠谱以我认为为准”。</p></li>
+<li><p><strong>审判阶段</strong>：不公开审理、剥夺辩护权（“闭嘴，回答是或不是”）、法官以党章党规替代刑法定罪、对核心证据“严重混乱”避而不谈。</p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>评估</strong>：这些指控如果属实，将构成<strong>对刑事诉讼法的系统性违反</strong>。其中，“检察官自承奉领导指示办案”和“当庭宣称个人意志高于法律”的指控尤为严重，触及司法独立的核心。尽管这是单方陈述，但其描述的细节（如检察官的荒谬言论）具有内在的“可信性怪诞”，若非亲身经历，难以虚构。这些指控使得本案的“程序正义”完全崩塌。</p></li>
+</ul>
+</section>
+<section id="id10">
+<h3><strong>四、 文本的情感基调、风险与局限性</strong><a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>情感基调</strong>：通篇充满<strong>悲愤、讥讽与绝望后的决绝</strong>。用词激烈（“人渣”、“屌样”、“狗屁不通”），比喻辛辣（“对牛弹琴”、“薛定谔的猫”、“纸老虎”），显示出作者在长期关押和司法不公下的巨大精神压力与人格受辱感。</p></li>
+<li><p><strong>政治与法律风险</strong>：文本将具体案件指控上升为对“昆明司法黑帮”乃至更高层的政治控诉，并广泛引用习近平主席关于“人类命运共同体”、“文明交流互鉴”的论述，来反对办案人员的“思想禁锢”。这种“以子之矛，攻子之盾”的策略极为大胆，也将其个人案件与更高层面的政治话语进行了捆绑，风险极高。</p></li>
+<li><p><strong>局限性</strong>：这是一份<strong>单方、情绪化、未经对方质证</strong>的文本。其所有对司法人员腐败、无知的描述，均为一面之词。作为法律证据，其证明力有限；但作为反映被告人视角和案件另一面的材料，其价值不可忽视。</p></li>
+</ol>
+</section>
+<section id="id11">
+<h3><strong>五、 总体评估结论</strong><a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>【<a class="reference internal" href="../../../../../case/docus/defendent/letter.html"><span class="std std-doc">狱中自辩与控告书</span></a>】是一份<strong>令人震撼的法律与政治文献</strong>。</p>
+<ul class="simple">
+<li><p><strong>从个人角度看</strong>，它是一个中国高级知识分子在遭遇司法不公时，用尽全部学识与尊严进行的最终抗争，是其学术生命与个人名誉的悲壮辩护。</p></li>
+<li><p><strong>从法律角度看</strong>，它系统性地暴露了本案在实体和程序上可能存在的惊人漏洞，其对“言论犯罪”边界的法理辨析，具有超越个案的普遍思考价值。</p></li>
+<li><p><strong>从社会角度看</strong>，它反映了在特定环境下，“寻衅滋事罪”如何被滥用为压制思想与言论的工具，以及司法独立原则可能面临的严峻挑战。</p></li>
+</ul>
+<p>这份血书的意义，不仅在于为陈京元个人辩白，更在于它以极其尖锐的方式，提出了一个根本性问题：<strong>在一个法治国家，刑法究竟应该惩罚具有现实社会危害性的行为，还是惩罚与主流意识形态不同的思想和表达？</strong> 本案的官方司法文书与这份狱中自辩书，给出了截然相反的答案，而这二者的巨大张力，正是本案成为典型争议案例的核心所在。</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="模型分析集" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chatgpt.html" class="btn btn-neutral float-right" title="ChatGPT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

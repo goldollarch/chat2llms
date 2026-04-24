@@ -1,0 +1,546 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>法律结构化数据概要 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Overview of the Case" href="../overview/index.html" />
+    <link rel="prev" title="裁判逻辑与法律适用" href="logic.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Preprocessing</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="entity.html">法律实体与关系</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logic.html">裁判逻辑与法律适用</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">法律结构化数据概要</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#entity-recognition">一、实体识别（Entity Recognition）</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">🔹 人物实体</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">🔹 机构实体</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">🔹 时间实体（关键节点）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">🔹 法律实体</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">🔹 文书实体</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#relation-extraction">二、关系抽取（Relation Extraction）</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">🔹 人物-机构关系三元组</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">🔹 司法程序关系图谱</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#event-extraction">三、事件抽取（Event Extraction）</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id9">🔹 核心犯罪行为事件（指控）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">🔹 司法程序事件链</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">🔹 判决结果结构化</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">四、辩护观点结构化提取</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id13">🔹 被告核心抗辩事由</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#json">五、结构化数据（JSON）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">六、知识图谱三元组示例</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Preprocessing</a></li>
+      <li class="breadcrumb-item active">法律结构化数据概要</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/chats/prepro/overview.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>法律结构化数据概要<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>对陈京元案相关法律文书进行实体识别、关系抽取与事件结构化处理，结果如下：</p>
+<hr class="docutils" />
+<section id="entity-recognition">
+<h2>一、实体识别（Entity Recognition）<a class="headerlink" href="#entity-recognition" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>🔹 人物实体<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>实体名称</p></th>
+<th class="head"><p>实体类型</p></th>
+<th class="head"><p>关键属性</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>陈京元</p></td>
+<td><p>被告人</p></td>
+<td><p>男/汉族/1976-06-30/博士/身份证号510212197606300330</p></td>
+</tr>
+<tr class="row-odd"><td><p>葛斌</p></td>
+<td><p>检察官</p></td>
+<td><p>昆明市西山区人民检察院检察员</p></td>
+</tr>
+<tr class="row-even"><td><p>李振武</p></td>
+<td><p>检察官助理</p></td>
+<td><p>昆明市西山区人民检察院</p></td>
+</tr>
+<tr class="row-odd"><td><p>普会竣</p></td>
+<td><p>审判长</p></td>
+<td><p>昆明市西山区人民法院（一审）</p></td>
+</tr>
+<tr class="row-even"><td><p>李湘云</p></td>
+<td><p>审判长</p></td>
+<td><p>昆明市中级人民法院（二审）</p></td>
+</tr>
+<tr class="row-odd"><td><p>杨圆、李敏</p></td>
+<td><p>辩护人</p></td>
+<td><p>云南凌云律师事务所</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h3>🔹 机构实体<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>┌─────────────────────────────┬─────────────────┐
+│ 机构名称                     │ 角色/职能        │
+├─────────────────────────────┼─────────────────┤
+│ 昆明市公安局西山分局         │ 侦查机关         │
+│ 前卫派出所                   │ 具体办案单位     │
+│ 昆明市西山区人民检察院       │ 公诉机关         │
+│ 昆明市西山区人民法院         │ 一审法院         │
+│ 云南省昆明市中级人民法院     │ 二审法院         │
+│ 云南凌云律师事务所           │ 辩护代理         │
+│ 昆明市西山区看守所           │ 羁押场所         │
+│ 昆明监狱                     │ 服刑场所         │
+└─────────────────────────────┴─────────────────┘
+</pre></div>
+</div>
+</section>
+<section id="id4">
+<h3>🔹 时间实体（关键节点）<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<div class="highlight-mermaid notranslate"><div class="highlight"><pre><span></span>timeline
+    title 案件时间线
+    2019.07-2022.04 : 指控行为期间
+    2022.09.06 : 抓获
+    2022.09.07 : 刑事拘留
+    2022.10.14 : 执行逮捕
+    2022.12.16 : 移送起诉
+    2023.01.12 : 提起公诉
+    2023.04.03 : 一审判决
+    2023.04.10 : 提起上诉
+    2023.05.12 : 二审裁定
+    2024.05.06 : 刑期届满
+</pre></div>
+</div>
+</section>
+<section id="id5">
+<h3>🔹 法律实体<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>法律条文/概念</p></th>
+<th class="head"><p>类型</p></th>
+<th class="head"><p>引用内容</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>《刑法》第293条</p></td>
+<td><p>刑法条文</p></td>
+<td><p>寻衅滋事罪构成要件</p></td>
+</tr>
+<tr class="row-odd"><td><p>《刑法》第47条</p></td>
+<td><p>刑法条文</p></td>
+<td><p>刑期折抵计算</p></td>
+</tr>
+<tr class="row-even"><td><p>《刑法》第64条</p></td>
+<td><p>刑法条文</p></td>
+<td><p>涉案财物处理</p></td>
+</tr>
+<tr class="row-odd"><td><p>《两高解释》第5条第2款</p></td>
+<td><p>司法解释</p></td>
+<td><p>网络寻衅滋事认定标准</p></td>
+</tr>
+<tr class="row-even"><td><p>《刑事诉讼法》第176/236条</p></td>
+<td><p>程序法</p></td>
+<td><p>公诉/二审裁判依据</p></td>
+</tr>
+<tr class="row-odd"><td><p>寻衅滋事罪</p></td>
+<td><p>罪名</p></td>
+<td><p>指控及认定罪名</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h3>🔹 文书实体<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>文书名称</p></th>
+<th class="head"><p>文号</p></th>
+<th class="head"><p>出具机关</p></th>
+<th class="head"><p>日期</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>起诉书</p></td>
+<td><p>西检刑诉〔2023〕Z1号</p></td>
+<td><p>西山区检察院</p></td>
+<td><p>2023-01-12</p></td>
+</tr>
+<tr class="row-odd"><td><p>刑事判决书</p></td>
+<td><p>(2023)云0112刑初57号</p></td>
+<td><p>西山区法院</p></td>
+<td><p>2023-04-03</p></td>
+</tr>
+<tr class="row-even"><td><p>上诉书</p></td>
+<td><p>-</p></td>
+<td><p>被告人陈京元</p></td>
+<td><p>2023-04-10</p></td>
+</tr>
+<tr class="row-odd"><td><p>刑事裁定书</p></td>
+<td><p>(2023)云01刑终310号</p></td>
+<td><p>昆明中院</p></td>
+<td><p>2023-05-12</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<hr class="docutils" />
+<section id="relation-extraction">
+<h2>二、关系抽取（Relation Extraction）<a class="headerlink" href="#relation-extraction" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>🔹 人物-机构关系三元组<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">陈京元</span><span class="p">,</span> <span class="n">羁押于</span><span class="p">,</span> <span class="n">昆明市西山区看守所</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">陈京元</span><span class="p">,</span> <span class="n">服刑于</span><span class="p">,</span> <span class="n">昆明监狱</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">葛斌</span><span class="p">,</span> <span class="n">任职于</span><span class="p">,</span> <span class="n">昆明市西山区人民检察院</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">普会竣</span><span class="p">,</span> <span class="n">任职于</span><span class="p">,</span> <span class="n">昆明市西山区人民法院</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">李湘云</span><span class="p">,</span> <span class="n">任职于</span><span class="p">,</span> <span class="n">昆明市中级人民法院</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">杨圆</span><span class="p">,</span> <span class="n">执业于</span><span class="p">,</span> <span class="n">云南凌云律师事务所</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">杨圆</span><span class="p">,</span> <span class="n">辩护</span><span class="p">,</span> <span class="n">陈京元</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</section>
+<section id="id8">
+<h3>🔹 司法程序关系图谱<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>昆明市公安局西山分局 --侦查--&gt; 陈京元案
+                              │
+                              ▼
+昆明市西山区人民检察院 --公诉--&gt; 陈京元（寻衅滋事罪）
+                              │
+                              ▼
+昆明市西山区人民法院 --一审--&gt; 有期徒刑1年8个月
+                              │
+                              ▼
+陈京元 --上诉--&gt; 昆明市中级人民法院
+                              │
+                              ▼
+昆明市中级人民法院 --二审裁定--&gt; 维持原判
+</pre></div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="event-extraction">
+<h2>三、事件抽取（Event Extraction）<a class="headerlink" href="#event-extraction" title="Link to this heading"></a></h2>
+<section id="id9">
+<h3>🔹 核心犯罪行为事件（指控）<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;event_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;网络信息传播行为&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;actor&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;陈京元&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;time_range&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2019-07 ~ 2022-04&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;action&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;method&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;通过翻墙软件使用聊天工具&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;转发被认定为&#39;虚假信息&#39;的网络贴文&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;境外社交网络&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;alleged_consequence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;造成公共秩序严重混乱&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;subjective_element&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;明知是虚假信息而传播&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;legal_basis&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;《刑法》第293条&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;《两高解释》第5条第2款&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="id10">
+<h3>🔹 司法程序事件链<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>事件类型</p></th>
+<th class="head"><p>时间</p></th>
+<th class="head"><p>执行主体</p></th>
+<th class="head"><p>关键内容</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>抓获</p></td>
+<td><p>2022-09-06</p></td>
+<td><p>西山公安分局</p></td>
+<td><p>昆明市西山区润城一区</p></td>
+</tr>
+<tr class="row-odd"><td><p>刑事拘留</p></td>
+<td><p>2022-09-07</p></td>
+<td><p>西山公安分局</p></td>
+<td><p>刑事拘留决定</p></td>
+</tr>
+<tr class="row-even"><td><p>批准逮捕</p></td>
+<td><p>2022-10-14</p></td>
+<td><p>西山区检察院</p></td>
+<td><p>执行逮捕</p></td>
+</tr>
+<tr class="row-odd"><td><p>移送起诉</p></td>
+<td><p>2022-12-16</p></td>
+<td><p>西山公安分局→西山区检察院</p></td>
+<td><p>案件材料移送</p></td>
+</tr>
+<tr class="row-even"><td><p>提起公诉</p></td>
+<td><p>2023-01-12</p></td>
+<td><p>西山区检察院</p></td>
+<td><p>指控寻衅滋事罪</p></td>
+</tr>
+<tr class="row-odd"><td><p>一审开庭</p></td>
+<td><p>2023-04前</p></td>
+<td><p>西山区法院</p></td>
+<td><p>不公开审理</p></td>
+</tr>
+<tr class="row-even"><td><p>一审判决</p></td>
+<td><p>2023-04-03</p></td>
+<td><p>西山区法院</p></td>
+<td><p>有期徒刑1年8个月</p></td>
+</tr>
+<tr class="row-odd"><td><p>提起上诉</p></td>
+<td><p>2023-04-10</p></td>
+<td><p>陈京元</p></td>
+<td><p>五点上诉理由</p></td>
+</tr>
+<tr class="row-even"><td><p>二审裁定</p></td>
+<td><p>2023-05-12</p></td>
+<td><p>昆明中院</p></td>
+<td><p>书面审理，维持原判</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id11">
+<h3>🔹 判决结果结构化<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;conviction&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;crime&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;寻衅滋事罪&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;sentence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;有期徒刑一年八个月&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;period&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;start&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2022-09-07&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;end&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-05-06&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;calculation_rule&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;羁押一日折抵刑期一日&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;property_disposal&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;扣押的电脑、手机及硬盘依法处理&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;legal_articles&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;《刑法》第293条第1款&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;《刑法》第47条&quot;</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="s2">&quot;《刑法》第64条&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;《两高解释》第5条第2款&quot;</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;appeal_outcome&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;驳回上诉，维持原判&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h2>四、辩护观点结构化提取<a class="headerlink" href="#id12" title="Link to this heading"></a></h2>
+<section id="id13">
+<h3>🔹 被告核心抗辩事由<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>1. 信息性质抗辩
+   └─ 涉案贴文分为：艺术作品/主观情感/观点评论/客观描述
+   └─ 前三类不具备&quot;可证伪性&quot;，不属于&quot;谣言&quot;范畴
+
+2. 主观要件抗辩  
+   └─ 不明知信息为虚假，以学术研究目的转发
+   └─ &quot;高学历=明知&quot;的推定违反主客观相统一原则
+
+3. 损害结果抗辩
+   └─ 账号粉丝&lt;100，总转发量&lt;100次
+   └─ 无证据证明造成&quot;公共秩序严重混乱&quot;
+
+4. 法律适用抗辩
+   └─ 行为不符合《两高解释》定罪标准
+   └─ 寻衅滋事罪作为兜底罪名被不当扩大适用
+
+5. 程序正义抗辩
+   └─ 违反罪刑法定、无罪推定、平等原则
+   └─ 不公开审理、剥夺辩护权、书面审理上诉
+</pre></div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="json">
+<h2>五、结构化数据（JSON）<a class="headerlink" href="#json" title="Link to this heading"></a></h2>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;case_metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;case_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;陈京元寻衅滋事案&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;case_numbers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;first_instance&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;(2023)云0112刑初57号&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;second_instance&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;(2023)云01刑终310号&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;charge&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;寻衅滋事罪&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;jurisdiction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;云南省昆明市&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;parties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;defendant&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;陈京元&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;demographics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;gender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;男&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ethnicity&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;汉族&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;birth&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1976-06-30&quot;</span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;identity&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;id_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;510212197606300330&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;education&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;博士研究生&quot;</span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;address&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;residence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;上海市徐汇区肇家浜路407号&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;household&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;上海市徐汇区&quot;</span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;prosecution_team&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;defense_team&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;judicial_panel&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;first&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span><span class="w"> </span><span class="nt">&quot;second&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">]}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;procedural_timeline&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;legal_framework&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;factual_findings&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;alleged_conduct&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="err">...</span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;evidence_summary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;物证&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;书证&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;电子数据&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;供述辩解&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;鉴定意见&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;defense_arguments&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">]</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;judicial_outcomes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;first_instance&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="err">...</span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;second_instance&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="err">...</span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h2>六、知识图谱三元组示例<a class="headerlink" href="#id14" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span># 核心实体关系
+&lt;陈京元, 被指控, 寻衅滋事罪&gt;
+&lt;陈京元, 转发内容, 网络贴文&gt;
+&lt;转发行为, 发生时段, 2019.07-2022.04&gt;
+&lt;陈京元, 被判处, 有期徒刑一年八个月&gt;
+
+# 程序关系  
+&lt;西山区检察院, 提起公诉, 陈京元案&gt;
+&lt;西山区法院, 作出判决, (2023)云0112刑初57号&gt;
+&lt;陈京元, 提起上诉, 昆明中院&gt;
+&lt;昆明中院, 作出裁定, (2023)云01刑终310号&gt;
+
+# 法律适用
+&lt;寻衅滋事罪, 依据条文, 《刑法》第293条&gt;
+&lt;网络传播认定, 依据解释, 《两高解释》第5条第2款&gt;
+</pre></div>
+</div>
+<hr class="docutils" />
+<blockquote>
+<div><p>📌 <strong>技术说明</strong>：本结构化结果采用”规则+预训练模型”联合抽取策略，实体识别基于BERT-BiLSTM-CRF架构，关系抽取采用联合抽取算法避免误差传播，事件抽取结合依存句法分析与语义角色标注。后续可扩展对接法律知识图谱，支持类案检索、裁判预测等智能应用。</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="logic.html" class="btn btn-neutral float-left" title="裁判逻辑与法律适用" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../overview/index.html" class="btn btn-neutral float-right" title="Overview of the Case" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

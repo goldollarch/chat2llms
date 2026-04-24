@@ -1,0 +1,554 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Gemini" href="gemini.html" />
+    <link rel="prev" title="ChatGPT" href="chatgpt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Overview of the Case</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../white/cn.html">案件白皮书</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">LLMs分析比较研究</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../compare.html">综合对比报告</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">LLMs 分析集合</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4"><a class="reference internal" href="deepseek.html">DeepSeek</a></li>
+<li class="toctree-l4"><a class="reference internal" href="chatgpt.html">ChatGPT</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Copilot</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gemini.html">Gemini</a></li>
+<li class="toctree-l4"><a class="reference internal" href="grok.html">Grok</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Overview of the Case</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">LLMs分析比较研究</a></li>
+          <li class="breadcrumb-item"><a href="index.html">LLMs 分析集合</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/chats/overview/analyse/models/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="id1">
+<h2>一条完整的 <strong>“法律错误链条”</strong><a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>陈京元博士一案，其司法过程的全部脉络与法理缺陷，都集中体现在了昆明市西山区检察院的<a class="reference internal" href="#/case/docus/Indictment/Indictment_cn.md"><span class="xref myst">【起诉书】</span></a>、西山区法院的一审<a class="reference internal" href="#/case/docus/Judgment/Judgment_cn.md"><span class="xref myst">【判决书】</span></a>以及昆明市中级法院的二审法院<a class="reference internal" href="#/case/docus/Ruling/Ruling_cn.md"><span class="xref myst">【裁定书】</span></a>这三份法律文书中。这三份文书并非孤立存在，而是构成了一条环环相扣、层层递进的 <strong>“法律错误链条”</strong>。它始于一个在事实与法律上均站不住脚的指控，发展为一个逻辑与法理双重崩塌的审判，最终被一个放弃审查职责的裁定所终局性地“固化”。系统性地分析这三份文书，可以清晰地看到一次司法不公是如何被逐步“合法化”的。</p>
+<section id="id2">
+<h3>第一部分：《昆明市西山区人民检察院起诉书》——一个根基虚浮的指控<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p><strong>角色定位</strong>：起诉书是刑事诉讼的“蓝图”和“地基”，其核心任务是明确、具体地指控被告人的行为如何触犯了刑法，并列明支持指控的事实与证据。</p>
+<p><strong>核心缺陷评估</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>犯罪后果指控的“虚置化”</strong>：</p>
+<ul class="simple">
+<li><p><strong>法律要求</strong>：《两高解释》为网络“寻衅滋事罪”设定了极高的入罪门槛，即必须造成“公共秩序<strong>严重</strong>混乱”等实质性危害后果。</p></li>
+<li><p><strong>起诉书的问题</strong>：该起诉书仅有“造成公共秩序严重混乱”这一<strong>结论性的断言</strong>，而<strong>完全没有提供任何支撑这一结论的事实描述</strong>。它没有说明陈博士的转发行为，在何时、何地、以何种方式，引发了何种规模的、可供查证的现实秩序混乱。这是一个只有“帽子”、没有“身子”的指控，从根本上违背了起诉书必须“事实清楚”的基本要求。</p></li>
+</ul>
+</li>
+<li><p><strong>犯罪行为认定的“模糊化”</strong>：</p>
+<ul class="simple">
+<li><p><strong>法律要求</strong>：法律意义上的“虚假信息”或“谣言”，必须是具有<strong>可证伪性的事实陈述</strong>。</p></li>
+<li><p><strong>起诉书的问题</strong>：起诉书将陈博士转发的<strong>艺术作品、政治观点、个人情感表达</strong>等内容，不加区分地笼统归为“虚假信息”。检察机关在此放弃了其作为专业法律机构，对言论性质进行甄别的首要职责，将“事实”与“观点”混为一谈，为后续的错误审判铺设了错误的轨道。</p></li>
+</ul>
+</li>
+<li><p><strong>犯罪故意指控的“臆断化”</strong>：</p>
+<ul class="simple">
+<li><p><strong>法律要求</strong>：“明知”这一主观故意，需要通过证据来证明。</p></li>
+<li><p><strong>起诉书的问题</strong>：在没有任何直接证据的情况下，起诉书直接断言陈博士“明知”信息为虚假。这是一种典型的<strong>主观推定</strong>，而非基于证据的法律指控。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>结论</strong>：这份起诉书是一个<strong>在法律上严重不合格</strong>的“地基”。它未能完成公诉机关最基本的举证指控责任，其核心指控（特别是危害后果）完全是<strong>悬空</strong>的，为被告人进行有效辩护制造了巨大障碍，并从一开始就将整个案件引入了“有罪推定”的歧途。</p>
+</section>
+<section id="id3">
+<h3>第二部分：《昆明市西山区人民法院刑事判决书》——一座建立在沙丘上的审判楼阁<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p><strong>角色定位</strong>：判决书是法官对控辩双方的主张和证据进行审查判断后，作出的最终裁判，其核心是“以事实为根据，以法律为准绳”的说理过程。</p>
+<p><strong>核心缺陷评估</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>继承并“创造性”发展了指控的缺陷</strong>：</p>
+<ul class="simple">
+<li><p><strong>对危害后果的“视而不见”</strong>：判决书完全继承了起诉书的缺陷，在没有任何证据的情况下，直接“确认”了“造成公共秩序严重混乱”这一虚构的犯罪后果。</p></li>
+<li><p><strong>创造“高学历有罪论”</strong>：为弥补“主观故意”证据的缺失，判决书“创造性”地提出了“<strong>因其博士研究生的高学历，理应具备较高的认知水平，故其主观上具有放任危害结果发生的故意</strong>”这一惊人论断。这在法理上是<strong>极端荒谬和危险的</strong>：</p>
+<ul>
+<li><p>它构成了<strong>身份性的有罪推定</strong>，严重违背“无罪推定”原则。</p></li>
+<li><p>它将<strong>认知能力</strong>与具体的<strong>犯罪故意</strong>这两个完全不同的概念非法等同。</p></li>
+<li><p>它是一种典型的<strong>反智主义司法</strong>，与现代法治文明背道而驰。</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>司法理性的全面放弃</strong>：</p>
+<ul class="simple">
+<li><p><strong>回避辩护</strong>：判决书对陈博士及其辩护人提出的系统性、多层次的辩护意见，几乎未作任何有效的法理回应，多以“与查明事实不符，不予采纳”等格式化语言敷衍了事。这表明法庭并未进行真正的控辩对抗与实质性审理。</p></li>
+<li><p><strong>逻辑混乱</strong>：整个判决的逻辑链条残缺不全，充满了从前提到结论的巨大跳跃。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>结论</strong>：这份判决书并非一份基于证据和法律的理性裁判，而是一份<strong>服务于预设结论的、充满逻辑谬误和法理创伤的“有罪宣告”</strong>。它不仅未能纠正起诉书的错误，反而用更加荒谬的逻辑对其进行了“加固”，是司法不公的集中体现。</p>
+</section>
+<section id="id4">
+<h3>第三部分：《昆明市中级人民法院刑事裁定书》——一道封闭司法错误的“终审铁闸”<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p><strong>角色定位</strong>：二审裁定书是上诉审法院对一审判决进行全面审查后的结论，是实现“两审终审制”纠错功能、守住司法正义底线的最后关口。</p>
+<p><strong>核心缺陷评估</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>公然放弃法定审查职责</strong>：</p>
+<ul class="simple">
+<li><p><strong>法律要求</strong>：《刑事诉讼法》规定二审法院必须对一审判决进行<strong>全面审查</strong>。</p></li>
+<li><p><strong>裁定书的问题</strong>：该裁定书<strong>完全回避</strong>了上诉方提出的全部五点核心抗辩理由，未作一字一句的回应。这构成了<strong>对其法定审查职责的彻底放弃</strong>，使得二审程序形同虚设。</p></li>
+</ul>
+</li>
+<li><p><strong>颠覆性的举证责任倒置</strong>：</p>
+<ul class="simple">
+<li><p><strong>裁定书的核心谬误</strong>：“<strong>上诉人陈京元未向本院提交证实其上诉理由成立的新的证据。</strong>”</p></li>
+<li><p><strong>评估</strong>：这是三份文书中<strong>在法理上最为恶劣</strong>的一句话。它公然将刑事案件中本应由控方承担的举证责任，<strong>非法地、荒谬地转移给了已被剥夺自由、不具备取证能力的被告人</strong>。这不仅违背了《刑事诉讼法》，更是对“无罪推定”这一现代刑事司法基石的公然践踏。</p></li>
+</ul>
+</li>
+<li><p><strong>以空洞口号代替法律说理</strong>：</p>
+<ul class="simple">
+<li><p>裁定书用“在网络空间……均需依法进行”等正确的废话，来代替对本案所有复杂争议的法律分析。这是一种<strong>典型的司法懒政和智识上的“缴械投降”</strong>，表明其已无力或不愿进行任何有意义的法律论证。</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>结论</strong>：这份二审裁定书，非但没有起到纠错和监督的作用，反而以一种更加粗暴和违反基本法理的方式，<strong>终局性地“固化”了一审的错误</strong>。它关闭了通过正常司法程序实现救济的大门，成为了整个司法错误链条上，最冷酷、也最令人绝望的一环。</p>
+</section>
+<section id="id5">
+<h3>总体评估<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>这三份法律文书共同构成了一个完整的、展示司法流程如何系统性失灵的样本。它们清晰地描绘出：一个<strong>根基虚浮的起诉</strong>，如何被一个<strong>逻辑崩坏的审判</strong>所确认，并最终由一个<strong>放弃职责的终审</strong>所加封。它们在实体上违背了“罪刑法定”原则，在程序上践踏了“无罪推定”和“证据裁判”原则，在法理上展现了惊人的贫乏。这“三部曲”不仅造成了个案的不公，更严重侵蚀了司法公信力，与“努力让人民群众在每一个司法案件中都能感受到公平正义”的时代要求背道而驰。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>总评版法律分析：“全景式法律诊断”<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>下面给出一份<strong>真正“全面、系统、专业”的总评版法律分析</strong>——不是对三份文书逐段点评，而是把整个案件放入<strong>中国刑法体系、刑诉法体系、司法解释体系、司法实践体系、法治原则体系</strong>中进行整体评估，形成一个“全景式法律诊断”。</p>
+<p>这份分析将回答三个核心问题：</p>
+<ol class="arabic simple">
+<li><p><strong>本案是否构成犯罪？</strong></p></li>
+<li><p><strong>本案的侦查、起诉、审判是否符合法律？</strong></p></li>
+<li><p><strong>本案在中国司法体系中属于怎样的类型？</strong></p></li>
+</ol>
+<section id="id7">
+<h3>🧭 <strong>第一部分：实体法分析——本案不具备寻衅滋事罪的任何构成要件</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>寻衅滋事罪（网络谣言型）在法律上有四个必备要件：</p>
+<ol class="arabic simple">
+<li><p><strong>行为要件：编造或明知虚假信息并散布</strong></p></li>
+<li><p><strong>对象要件：信息必须是“可证伪的事实信息”</strong></p></li>
+<li><p><strong>结果要件：造成公共秩序严重混乱</strong></p></li>
+<li><p><strong>主观要件：明知虚假且故意扰乱秩序</strong></p></li>
+</ol>
+<p>我们逐项分析。</p>
+<section id="id8">
+<h4><strong>一、行为要件：没有“编造”，也没有“散布”</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<section id="id9">
+<h5>1. 陈京元没有“编造”<a class="headerlink" href="#id9" title="Link to this heading"></a></h5>
+<p>文书中没有任何证据显示他编造过任何内容。</p>
+</section>
+<section id="id10">
+<h5>2. “散布”必须达到一定传播规模<a class="headerlink" href="#id10" title="Link to this heading"></a></h5>
+<p>“两高解释”明确要求：</p>
+<ul class="simple">
+<li><p>转发量、阅读量达到一定规模</p></li>
+<li><p>或造成实际社会后果</p></li>
+</ul>
+<p>但本案：</p>
+<ul class="simple">
+<li><p>粉丝不足百人</p></li>
+<li><p>转发量极低</p></li>
+<li><p>没有传播链条</p></li>
+<li><p>没有任何社会影响</p></li>
+</ul>
+<p><strong>结论：行为要件不成立。</strong></p>
+</section>
+</section>
+<section id="id11">
+<h4><strong>二、对象要件：涉案内容根本不属于“虚假信息”</strong><a class="headerlink" href="#id11" title="Link to this heading"></a></h4>
+<p>判决书与裁定书都没有列举任何一条“虚假信息”。</p>
+<p>而你提供的材料显示：</p>
+<ul class="simple">
+<li><p>多数内容是观点、讽刺、情绪表达、漫画</p></li>
+<li><p>有些内容来自美国使馆、央视、光明日报等官方账号</p></li>
+<li><p>没有任何内容被官方辟谣</p></li>
+</ul>
+<p>刑法意义上的“虚假信息”必须是：</p>
+<ul class="simple">
+<li><p>指向具体事实</p></li>
+<li><p>可被客观证伪</p></li>
+<li><p>通常需有权威机构认定</p></li>
+</ul>
+<p>观点、情绪、讽刺、艺术表达<strong>不具备真假性</strong>。</p>
+<p><strong>结论：对象要件不成立。</strong></p>
+</section>
+<section id="id12">
+<h4><strong>三、结果要件：没有任何“严重混乱”的证据</strong><a class="headerlink" href="#id12" title="Link to this heading"></a></h4>
+<p>判决书与裁定书都写了同一句话：</p>
+<blockquote>
+<div><p>“造成公共秩序严重混乱。”</p>
+</div></blockquote>
+<p>但没有任何事实支撑：</p>
+<ul class="simple">
+<li><p>没有群体性事件</p></li>
+<li><p>没有社会秩序失控</p></li>
+<li><p>没有舆情报告</p></li>
+<li><p>没有传播数据</p></li>
+<li><p>没有受害人</p></li>
+<li><p>没有任何后果</p></li>
+</ul>
+<p>“两高解释”明确要求：</p>
+<ul class="simple">
+<li><p>必须有客观后果</p></li>
+<li><p>必须有证据证明</p></li>
+</ul>
+<p>本案完全没有。</p>
+<p><strong>结论：结果要件不成立。</strong></p>
+</section>
+<section id="id13">
+<h4><strong>四、主观要件：没有“明知”的任何证据</strong><a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
+<p>判决书的“明知”认定是：</p>
+<blockquote>
+<div><p>“具有很高的学历，应能辨别是非。”</p>
+</div></blockquote>
+<p>这是典型的：</p>
+<section id="id14">
+<h5>❌ <strong>以学历推定主观故意（主观归罪）</strong><a class="headerlink" href="#id14" title="Link to this heading"></a></h5>
+<p>法律要求：</p>
+<ul class="simple">
+<li><p>明知必须有证据</p></li>
+<li><p>不能以身份、学历、智力推定</p></li>
+<li><p>不能以“应当知道”替代“已经知道”</p></li>
+</ul>
+<p>本案没有任何：</p>
+<ul class="simple">
+<li><p>被告承认“我知道这是假的”</p></li>
+<li><p>被辟谣后仍继续传播</p></li>
+<li><p>任何能证明“主观明知”的证据</p></li>
+</ul>
+<p><strong>结论：主观要件不成立。</strong></p>
+</section>
+</section>
+<section id="id15">
+<h4>🎯 <strong>实体法总结：本案四个构成要件全部缺失，不构成犯罪。</strong><a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="id16">
+<h3>🧭 <strong>第二部分：程序法分析——本案存在系统性、结构性程序违法</strong><a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<p>我们从侦查、起诉、一审、二审四个阶段分析。</p>
+<section id="id17">
+<h4><strong>一、侦查阶段的违法</strong><a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<section id="id18">
+<h5>1. <strong>先抓人后找证据</strong><a class="headerlink" href="#id18" title="Link to this heading"></a></h5>
+<p>公安没有任何“犯罪事实”就破门抓人，属于：</p>
+<ul class="simple">
+<li><p>违法拘捕</p></li>
+<li><p>违法搜查</p></li>
+<li><p>违法立案</p></li>
+</ul>
+</section>
+<section id="id19">
+<h5>2. <strong>非法搜查与扣押</strong><a class="headerlink" href="#id19" title="Link to this heading"></a></h5>
+<p>没有说明搜查理由，没有列举违法物品。</p>
+</section>
+<section id="id20">
+<h5>3. <strong>暴力执法、威胁、殴打（被告陈述）</strong><a class="headerlink" href="#id20" title="Link to this heading"></a></h5>
+<p>如属实，则属于：</p>
+<ul class="simple">
+<li><p>刑讯逼供</p></li>
+<li><p>滥用职权</p></li>
+<li><p>非法拘禁</p></li>
+</ul>
+</section>
+<section id="id21">
+<h5>4. <strong>电子数据提取程序不规范</strong><a class="headerlink" href="#id21" title="Link to this heading"></a></h5>
+<p>没有：</p>
+<ul class="simple">
+<li><p>见证人</p></li>
+<li><p>现场录像</p></li>
+<li><p>提取过程记录</p></li>
+</ul>
+<p><strong>侦查阶段存在严重程序违法。</strong></p>
+</section>
+</section>
+<section id="id22">
+<h4><strong>二、起诉阶段的违法</strong><a class="headerlink" href="#id22" title="Link to this heading"></a></h4>
+<p>起诉书的核心问题：</p>
+<section id="id23">
+<h5>1. <strong>没有写明具体犯罪事实</strong><a class="headerlink" href="#id23" title="Link to this heading"></a></h5>
+<p>起诉书只有一句话：</p>
+<blockquote>
+<div><p>“散布虚假言论，扰乱社会秩序。”</p>
+</div></blockquote>
+<p>没有：</p>
+<ul class="simple">
+<li><p>哪条内容</p></li>
+<li><p>虚假在哪里</p></li>
+<li><p>如何扰乱</p></li>
+<li><p>证据如何对应</p></li>
+</ul>
+<p>违反刑诉法第122条。</p>
+</section>
+<section id="id24">
+<h5>2. <strong>证据与指控脱节</strong><a class="headerlink" href="#id24" title="Link to this heading"></a></h5>
+<p>列举的证据不能证明构成要件。</p>
+</section>
+<section id="id25">
+<h5>3. <strong>不具备起诉条件</strong><a class="headerlink" href="#id25" title="Link to this heading"></a></h5>
+<p>刑诉法第176条要求：</p>
+<ul class="simple">
+<li><p>犯罪事实清楚</p></li>
+<li><p>证据确实充分</p></li>
+</ul>
+<p>本案均不满足。</p>
+<p><strong>起诉阶段不具备合法性。</strong></p>
+</section>
+</section>
+<section id="id26">
+<h4><strong>三、一审阶段的违法</strong><a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<section id="id27">
+<h5>1. <strong>不公开审理违法</strong><a class="headerlink" href="#id27" title="Link to this heading"></a></h5>
+<p>不涉及国家秘密，不得不公开。</p>
+</section>
+<section id="id28">
+<h5>2. <strong>未回应辩护意见</strong><a class="headerlink" href="#id28" title="Link to this heading"></a></h5>
+<p>辩护人提出的：</p>
+<ul class="simple">
+<li><p>虚假性</p></li>
+<li><p>明知</p></li>
+<li><p>严重混乱</p></li>
+<li><p>法律适用错误</p></li>
+</ul>
+<p>法院全部未回应。</p>
+</section>
+<section id="id29">
+<h5>3. <strong>证据裁判原则被破坏</strong><a class="headerlink" href="#id29" title="Link to this heading"></a></h5>
+<p>法院没有列举证据如何证明构成要件。</p>
+</section>
+<section id="id30">
+<h5>4. <strong>审判说理严重不足</strong><a class="headerlink" href="#id30" title="Link to this heading"></a></h5>
+<p>判决书只有结论，没有论证。</p>
+</section>
+<section id="id31">
+<h5>5. <strong>错误适用“两高解释”</strong><a class="headerlink" href="#id31" title="Link to this heading"></a></h5>
+<p>本案不符合适用条件。</p>
+<p><strong>一审判决不具备合法性。</strong></p>
+</section>
+</section>
+<section id="id32">
+<h4><strong>四、二审阶段的违法</strong><a class="headerlink" href="#id32" title="Link to this heading"></a></h4>
+<section id="id33">
+<h5>1. <strong>二审不开庭违法</strong><a class="headerlink" href="#id33" title="Link to this heading"></a></h5>
+<p>上诉理由涉及事实与法律，必须开庭。</p>
+</section>
+<section id="id34">
+<h5>2. <strong>未对上诉理由进行任何实质回应</strong><a class="headerlink" href="#id34" title="Link to this heading"></a></h5>
+<p>裁定书只写：</p>
+<blockquote>
+<div><p>“不予采纳。”</p>
+</div></blockquote>
+<p>没有任何说理。</p>
+</section>
+<section id="id35">
+<h5>3. <strong>未履行二审审查义务</strong><a class="headerlink" href="#id35" title="Link to this heading"></a></h5>
+<p>二审只是重复一审，没有审查一审错误。</p>
+</section>
+<section id="id36">
+<h5>4. <strong>倒置举证责任</strong><a class="headerlink" href="#id36" title="Link to this heading"></a></h5>
+<p>裁定书写：</p>
+<blockquote>
+<div><p>“上诉人未提交新证据。”</p>
+</div></blockquote>
+<p>刑事案件中，被告不承担举证责任。</p>
+<p><strong>二审裁定不具备合法性。</strong></p>
+</section>
+</section>
+<section id="id37">
+<h4>🎯 <strong>程序法总评：本案从侦查到二审，程序违法贯穿始终。</strong><a class="headerlink" href="#id37" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="id38">
+<h3>🧭 <strong>第三部分：法治原则分析——本案违反了中国刑法体系的核心原则</strong><a class="headerlink" href="#id38" title="Link to this heading"></a></h3>
+<p>本案违反了以下基本原则：</p>
+<section id="id39">
+<h4><strong>1. 罪刑法定原则</strong><a class="headerlink" href="#id39" title="Link to this heading"></a></h4>
+<p>没有具体事实，不得定罪。</p>
+</section>
+<section id="id40">
+<h4><strong>2. 主客观相统一原则</strong><a class="headerlink" href="#id40" title="Link to this heading"></a></h4>
+<p>不能以学历推定“明知”。</p>
+</section>
+<section id="id41">
+<h4><strong>3. 无罪推定原则</strong><a class="headerlink" href="#id41" title="Link to this heading"></a></h4>
+<p>法院以“应当知道”推定“明知”，属于推定有罪。</p>
+</section>
+<section id="id42">
+<h4><strong>4. 证据裁判原则</strong><a class="headerlink" href="#id42" title="Link to this heading"></a></h4>
+<p>没有证据证明“虚假”“明知”“混乱”。</p>
+</section>
+<section id="id43">
+<h4><strong>5. 程序正义原则</strong><a class="headerlink" href="#id43" title="Link to this heading"></a></h4>
+<p>不公开审理、限制辩护、二审不审查。</p>
+</section>
+<section id="id44">
+<h4><strong>6. 比例原则</strong><a class="headerlink" href="#id44" title="Link to this heading"></a></h4>
+<p>行为危害性极低，却判刑一年八个月。</p>
+</section>
+<section id="id45">
+<h4><strong>7. 言论自由原则（宪法第35条）</strong><a class="headerlink" href="#id45" title="Link to this heading"></a></h4>
+<p>本案本质上是“以言入罪”。</p>
+</section>
+</section>
+<section id="id46">
+<h3>🧭 <strong>第四部分：本案的司法类型学定位</strong><a class="headerlink" href="#id46" title="Link to this heading"></a></h3>
+<p>从司法实践角度，本案属于典型的：</p>
+<section id="id47">
+<h4><strong>“口袋罪 + 以言入罪 + 选择性执法 + 程序虚置”型案件</strong><a class="headerlink" href="#id47" title="Link to this heading"></a></h4>
+<p>其特征包括：</p>
+<ul class="simple">
+<li><p>使用“寻衅滋事”作为兜底罪名</p></li>
+<li><p>将观点、讽刺、情绪表达认定为“虚假信息”</p></li>
+<li><p>以学历推定“明知”</p></li>
+<li><p>无传播、无危害却认定“严重混乱”</p></li>
+<li><p>侦查、起诉、审判均走形式</p></li>
+<li><p>二审不审查、直接维持</p></li>
+</ul>
+<p>这是近年来中国司法体系中较为典型的一类案件。</p>
+</section>
+</section>
+<section id="id48">
+<h3>🎯 <strong>最终结论：本案在实体法、程序法、法治原则三个层面均不具备合法性</strong><a class="headerlink" href="#id48" title="Link to this heading"></a></h3>
+<section id="id49">
+<h4><strong>实体法：不构成犯罪</strong><a class="headerlink" href="#id49" title="Link to this heading"></a></h4>
+<p>四个构成要件全部缺失。</p>
+</section>
+<section id="id50">
+<h4><strong>程序法：严重违法</strong><a class="headerlink" href="#id50" title="Link to this heading"></a></h4>
+<p>侦查、起诉、一审、二审均存在重大瑕疵。</p>
+</section>
+<section id="id51">
+<h4><strong>法治原则：全面违背</strong><a class="headerlink" href="#id51" title="Link to this heading"></a></h4>
+<p>罪刑法定、无罪推定、证据裁判、程序正义均被破坏。</p>
+</section>
+<section id="id52">
+<h4><strong>司法类型：典型的“以言入罪 + 口袋罪滥用”案件</strong><a class="headerlink" href="#id52" title="Link to this heading"></a></h4>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chatgpt.html" class="btn btn-neutral float-left" title="ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="gemini.html" class="btn btn-neutral float-right" title="Gemini" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,554 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Copilot" href="copilot.html" />
+    <link rel="prev" title="DeepSeek" href="deepseek.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">行为：传播“虚假信息”</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../tweets/index.html">所谓的“虚假信息”</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">行为：传播“虚假信息”</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+          <li class="breadcrumb-item"><a href="index.html">模型分析集</a></li>
+      <li class="breadcrumb-item active">ChatGPT</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/actions/official/models/chatgpt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chatgpt">
+<h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="id1">
+<h2>关于昆明司法机关认定陈京元博士“散布虚假信息”的专业法律分析与评估<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>你提出的问题，直指本案在<strong>客观构成要件（行为+对象）层面</strong>的核心争议：
+👉 <strong>将多年零散“转发（多为非原创）”统一打包为“散布虚假信息”的犯罪行为，是否符合刑法与证据法要求？</strong></p>
+<p>下面从<strong>规范要求 → 行为结构 → 对象认定 → 证明方法 → 司法实践 → 综合评价</strong>六个层面进行系统分析。</p>
+<hr class="docutils" />
+<section id="id2">
+<h3>一、规范起点：客观构成要件的严格要求<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>依据《刑法》第293条及“两高解释”，网络情形下的“寻衅滋事罪”至少要求：</p>
+<section id="id3">
+<h4>（一）行为要件<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p>实施“编造、故意传播虚假信息”等行为</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h4>（二）对象要件<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p>信息属于“虚假信息”（可验证、可证伪的事实）</p>
+</div></blockquote>
+</section>
+<section id="id5">
+<h4>（三）行为方式<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p>具有“传播性”（扩散效果）</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>📌 关键原则：</p>
+<blockquote>
+<div><p><strong>必须是“具体行为 + 具体信息 + 具体传播”的组合，而不是抽象归纳。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h3>二、本案的关键做法：整体“打包式指控”<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p>你描述的模式是：</p>
+<blockquote>
+<div><p>多年零散转发内容
+→ 不区分类型
+→ 不区分来源
+→ 统一认定为“谣言”
+→ 作为一个整体“犯罪行为”</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h3>三、行为要件分析：转发≠散布（必须具体化）<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id8">
+<h4>（一）刑法对“传播行为”的要求<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<p>传播行为必须满足：</p>
+<ol class="arabic simple">
+<li><p><strong>具体行为指向</strong></p></li>
+<li><p><strong>传播路径明确</strong></p></li>
+<li><p><strong>具有扩散能力或效果</strong></p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h4>（二）本案问题<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<p>如果采取“整体打包”方式：</p>
+<p>❌ 未区分：</p>
+<ul class="simple">
+<li><p>哪一条是关键行为</p></li>
+<li><p>哪一条产生传播效果</p></li>
+</ul>
+<p>❌ 未说明：</p>
+<ul class="simple">
+<li><p>哪些转发构成“散布”</p></li>
+<li><p>哪些只是“存在”</p></li>
+</ul>
+<hr class="docutils" />
+<p>📌 法理评价：</p>
+<blockquote>
+<div><p><strong>刑法禁止“集合行为推定犯罪”</strong></p>
+</div></blockquote>
+<p>即：</p>
+<blockquote>
+<div><p>多个无罪行为之和 ≠ 犯罪行为</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h4>（三）重要原则<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<p>在刑法中：</p>
+<blockquote>
+<div><p><strong>行为必须“逐项评价”，不能“整体定性”</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h3>四、对象要件分析：“虚假信息”必须逐条证明<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id12">
+<h4>（一）法律标准<a class="headerlink" href="#id12" title="Link to this heading"></a></h4>
+<p>“虚假信息”必须满足：</p>
+<ul class="simple">
+<li><p>是“事实陈述”</p></li>
+<li><p>可以被证明为虚假</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h4>（二）本案“打包认定”的问题<a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
+<p>你提到内容包括：</p>
+<ul class="simple">
+<li><p>艺术作品</p></li>
+<li><p>情感表达</p></li>
+<li><p>理论分析</p></li>
+<li><p>历史资料</p></li>
+</ul>
+<hr class="docutils" />
+<p>👉 法律上这些类型：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>类型</p></th>
+<th class="head"><p>是否属于“虚假信息”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>艺术作品</p></td>
+<td><p>❌</p></td>
+</tr>
+<tr class="row-odd"><td><p>情感表达</p></td>
+<td><p>❌</p></td>
+</tr>
+<tr class="row-even"><td><p>理论分析</p></td>
+<td><p>原则❌</p></td>
+</tr>
+<tr class="row-odd"><td><p>历史资料</p></td>
+<td><p>需具体判断</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h4>（三）核心缺陷<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<p>若未逐条证明：</p>
+<ul class="simple">
+<li><p>哪一条是“事实陈述”</p></li>
+<li><p>哪一条“为虚假”</p></li>
+</ul>
+<p>则：</p>
+<blockquote>
+<div><p><strong>对象要件不成立</strong></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>📌 法律结论：</p>
+<blockquote>
+<div><p><strong>“虚假信息”不能整体认定，只能逐条认定</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h3>五、证明方法问题：证据裁判原则的违反<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id16">
+<h4>（一）刑诉法要求<a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<p>刑事定罪必须：</p>
+<blockquote>
+<div><p>证据 → 证明具体事实 → 对应构成要件</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h4>（二）本案“打包指控”的结构问题<a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<p>实际结构变为：</p>
+<blockquote>
+<div><p>内容集合
+→ 主观筛选
+→ 标签化为“谣言”
+→ 直接定罪</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h4>（三）具体违反点<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<section id="id19">
+<h5>1. 未逐条列明证据<a class="headerlink" href="#id19" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>没有“哪条信息证明什么”</p></li>
+</ul>
+</section>
+<section id="id20">
+<h5>2. 未逐条证明虚假性<a class="headerlink" href="#id20" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>无鉴定、无权威结论</p></li>
+</ul>
+</section>
+<section id="id21">
+<h5>3. 未逐条证明传播性<a class="headerlink" href="#id21" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>无点击量、转发量</p></li>
+</ul>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>属于“证据目录化”，而非“证据证明化”</strong></p>
+</div></blockquote>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id22">
+<h3>六、行为与对象的混同问题（关键法理问题）<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id23">
+<h4>（一）本案实质混同：<a class="headerlink" href="#id23" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p>“信息内容” ≠ “传播行为”</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>但本案逻辑是：</p>
+<blockquote>
+<div><p>信息存在 → 即视为传播 → 即视为犯罪</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id24">
+<h4>（二）刑法要求：<a class="headerlink" href="#id24" title="Link to this heading"></a></h4>
+<p>必须区分：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>要素</p></th>
+<th class="head"><p>含义</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>信息内容</p></td>
+<td><p>是什么</p></td>
+</tr>
+<tr class="row-odd"><td><p>行为</p></td>
+<td><p>做了什么</p></td>
+</tr>
+<tr class="row-even"><td><p>结果</p></td>
+<td><p>造成什么</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p>📌 本案问题：</p>
+<p>👉 三者被压缩为一个结论：</p>
+<blockquote>
+<div><p>“存在某些内容 → 构成犯罪”</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h3>七、与司法实践的对比<a class="headerlink" href="#id25" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id26">
+<h4>（一）典型网络案件（规范做法）<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<p>通常会：</p>
+<ol class="arabic simple">
+<li><p>列出具体信息（逐条）</p></li>
+<li><p>证明虚假性</p></li>
+<li><p>证明传播量</p></li>
+<li><p>证明社会影响</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id27">
+<h4>（二）本案偏离点<a class="headerlink" href="#id27" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>未逐条列明</p></li>
+<li><p>未逐条证明</p></li>
+<li><p>未建立传播链</p></li>
+</ul>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>低于通常司法证明标准</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id28">
+<h3>八、从刑法原理的深层评价<a class="headerlink" href="#id28" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id29">
+<h4>（一）罪刑法定原则<a class="headerlink" href="#id29" title="Link to this heading"></a></h4>
+<p>要求：</p>
+<blockquote>
+<div><p>明确行为 + 明确要件</p>
+</div></blockquote>
+<p>但本案：</p>
+<p>👉 行为被模糊化
+👉 对象被抽象化</p>
+</section>
+<hr class="docutils" />
+<section id="id30">
+<h4>（二）主客观相一致原则<a class="headerlink" href="#id30" title="Link to this heading"></a></h4>
+<p>需要：</p>
+<blockquote>
+<div><p>行为 + 对象 + 主观 → 一一对应</p>
+</div></blockquote>
+<p>但本案：</p>
+<p>👉 未建立对应关系</p>
+</section>
+<hr class="docutils" />
+<section id="id31">
+<h4>（三）禁止类推解释<a class="headerlink" href="#id31" title="Link to this heading"></a></h4>
+<p>本案实质上：</p>
+<blockquote>
+<div><p>将“各种表达”类推为“虚假信息”</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>📌 结论：</p>
+<blockquote>
+<div><p><strong>存在扩张解释风险</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id32">
+<h3>九、你提出观点的专业评估<a class="headerlink" href="#id32" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id33">
+<h4>✔ 正确之处（高度准确）<a class="headerlink" href="#id33" title="Link to this heading"></a></h4>
+<p>你指出：</p>
+<blockquote>
+<div><p>“将不同类型内容打包为谣言并定罪”</p>
+</div></blockquote>
+<p>👉 这是本案最关键的结构性问题之一。</p>
+</section>
+<hr class="docutils" />
+<section id="id34">
+<h4>✔ 法律意义<a class="headerlink" href="#id34" title="Link to this heading"></a></h4>
+<p>该问题直接导致：</p>
+<ol class="arabic simple">
+<li><p>客观要件无法成立</p></li>
+<li><p>证据无法对应要件</p></li>
+<li><p>定罪基础被削弱</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id35">
+<h4>⚠️ 需要稍微严谨的地方<a class="headerlink" href="#id35" title="Link to this heading"></a></h4>
+<p>你将其描述为：</p>
+<blockquote>
+<div><p>“统统打包为谣言”</p>
+</div></blockquote>
+<p>在专业表达中可优化为：</p>
+<blockquote>
+<div><p><strong>“未对不同性质信息进行类型区分与逐条证明，导致‘虚假信息’认定缺乏对象基础”</strong></p>
+</div></blockquote>
+<p>这样更符合法律论证风格。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id36">
+<h3>十、最终综合结论<a class="headerlink" href="#id36" title="Link to this heading"></a></h3>
+<hr class="docutils" />
+<section id="id37">
+<h4>（一）行为要件<a class="headerlink" href="#id37" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>未进行逐项行为识别，存在整体归纳问题</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id38">
+<h4>（二）对象要件<a class="headerlink" href="#id38" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>未逐条证明虚假性，存在根本性缺陷</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id39">
+<h4>（三）证据方法<a class="headerlink" href="#id39" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>未实现证据与要件的对应，违反证据裁判原则</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id40">
+<h4>（四）法理层面<a class="headerlink" href="#id40" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>将多个表达行为整体定性为犯罪，实质上突破了罪刑法定原则</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id41">
+<h3>十一、一句话总结<a class="headerlink" href="#id41" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>本案的问题不是“哪些内容违法”，而是“司法机关未证明哪些具体内容构成犯罪，却直接将其整体认定为犯罪”。</strong></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>如果你愿意，我可以进一步帮你做一个更深入的内容：</p>
+<p>👉 <strong>把“打包认定虚假信息”这一问题，上升为一篇“刑法中信息类犯罪的证明方法批判”（学术级分析）</strong></p>
+<p>这会把你的观察提升到理论层面。</p>
+<hr class="docutils" />
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="deepseek.html" class="btn btn-neutral float-left" title="DeepSeek" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="copilot.html" class="btn btn-neutral float-right" title="Copilot" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

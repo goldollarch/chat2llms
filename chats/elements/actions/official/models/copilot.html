@@ -1,0 +1,435 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Gemini" href="gemini.html" />
+    <link rel="prev" title="ChatGPT" href="chatgpt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">行为：传播“虚假信息”</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../tweets/index.html">所谓的“虚假信息”</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">行为：传播“虚假信息”</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+          <li class="breadcrumb-item"><a href="index.html">模型分析集</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/actions/official/models/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>陈京元博士在《狱中自辩暨控告血书》中对“谣言”认定的质疑，从法律分类、法理逻辑和人类精神生活的角度提出了系统性反驳。结合《中华人民共和国刑法》《刑事诉讼法》及《两高解释》，他的自辩在多个方面具有法律上的合理性与批判价值。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>关于昆明司法机关认定陈京元博士“散布虚假信息”的专业法律分析与评估<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>下面我给出一份<strong>严格基于《刑法》《刑事诉讼法》《两高解释》与司法实践</strong>的专业法律分析，专门评估昆明司法机关对陈京元博士“散布虚假信息”这一<strong>客观构成要件</strong>的指控与判决是否成立。</p>
+<p>分析重点放在：</p>
+<ul class="simple">
+<li><p><strong>行为要件是否成立？</strong></p></li>
+<li><p><strong>对象要件（虚假信息）是否成立？</strong></p></li>
+<li><p><strong>传播要件是否成立？</strong></p></li>
+<li><p><strong>危害结果要件是否成立？</strong></p></li>
+<li><p><strong>司法机关的证据是否满足“确实、充分”？</strong></p></li>
+</ul>
+<p>最终目标是判断：<br />
+<strong>昆明司法机关对“犯罪行为”的认定是否符合法律规定。</strong></p>
+<hr class="docutils" />
+<section id="id2">
+<h3>🧭 第一部分：寻衅滋事罪（网络谣言型）的客观构成要件是什么？<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>根据《刑法》第293条、《两高解释》以及司法实践，网络谣言型寻衅滋事罪的客观要件包括：</p>
+<section id="id3">
+<h4><strong>1. 行为要件：编造或明知虚假信息并散布</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<p>必须满足：</p>
+<ul class="simple">
+<li><p>行为人<strong>编造</strong>虚假信息，或</p></li>
+<li><p><strong>明知</strong>虚假信息而<strong>主动散布</strong></p></li>
+</ul>
+<p>且散布行为必须具有一定的传播性。</p>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h4><strong>2. 对象要件：信息必须是“可证伪的事实信息”</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>司法解释明确：</p>
+<ul class="simple">
+<li><p>观点、情绪、讽刺、艺术作品不属于“虚假信息”</p></li>
+<li><p>历史资料、理论分析不属于“虚假信息”</p></li>
+<li><p>未被官方辟谣的内容不能认定为“虚假信息”</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h4><strong>3. 传播要件：必须达到一定规模或影响</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<p>司法实践要求：</p>
+<ul class="simple">
+<li><p>转发量、阅读量达到一定规模</p></li>
+<li><p>或造成实际社会影响</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h4><strong>4. 危害结果要件：必须造成“公共秩序严重混乱”</strong><a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<p>这是本罪的核心要件。</p>
+<p>必须有：</p>
+<ul class="simple">
+<li><p>群体性事件</p></li>
+<li><p>社会恐慌</p></li>
+<li><p>舆情爆发</p></li>
+<li><p>公共服务瘫痪</p></li>
+<li><p>大量群众举报</p></li>
+</ul>
+<p>没有这些后果 → <strong>不构成犯罪</strong>。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h3>🧭 第二部分：昆明司法机关如何处理这些要件？<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>下面逐项分析昆明司法机关的做法是否符合法律。</p>
+<hr class="docutils" />
+<section id="id8">
+<h4>⭐ 一、行为要件：昆明司法机关未证明陈京元“散布”了任何信息<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<p>司法机关的全部“行为证据”是：</p>
+<ul class="simple">
+<li><p>从其社交账号采集到的<strong>零星转发</strong></p></li>
+<li><p>多为<strong>非原创</strong></p></li>
+<li><p>多为<strong>艺术作品、情绪表达、历史资料、理论分析</strong></p></li>
+</ul>
+<p>问题在于：</p>
+<section id="id9">
+<h5>✔ “转发”不等于“散布”<a class="headerlink" href="#id9" title="Link to this heading"></a></h5>
+<p>司法解释要求：</p>
+<ul class="simple">
+<li><p>必须具有“传播性”</p></li>
+<li><p>必须“扩大影响”</p></li>
+</ul>
+<p>但陈京元：</p>
+<ul class="simple">
+<li><p>粉丝不足百人</p></li>
+<li><p>多为僵尸粉</p></li>
+<li><p>转发量极低</p></li>
+<li><p>无传播链条</p></li>
+</ul>
+<p><strong>不满足“散布”要件。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h4>⭐ 二、对象要件：昆明司法机关将非事实内容“打包”为谣言，严重违法<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<p>司法机关把所有内容统统称为“谣言”，包括：</p>
+<ul class="simple">
+<li><p>艺术作品</p></li>
+<li><p>漫画</p></li>
+<li><p>讽刺图片</p></li>
+<li><p>情绪表达</p></li>
+<li><p>理论分析</p></li>
+<li><p>历史资料</p></li>
+<li><p>外媒报道</p></li>
+<li><p>官方媒体内容（如央视、光明日报）</p></li>
+<li><p>美国使馆官方账号内容</p></li>
+</ul>
+<p>这是严重违反法律的。</p>
+<section id="id11">
+<h5>✔ 法律要求“虚假信息”必须是“可证伪的事实”<a class="headerlink" href="#id11" title="Link to this heading"></a></h5>
+<p>但上述内容：</p>
+<ul class="simple">
+<li><p>不具备真假性</p></li>
+<li><p>不属于事实命题</p></li>
+<li><p>不可能被认定为“虚假信息”</p></li>
+</ul>
+</section>
+<section id="id12">
+<h5>✔ 官方媒体内容不能被认定为“谣言”<a class="headerlink" href="#id12" title="Link to this heading"></a></h5>
+<p>这是司法常识。</p>
+</section>
+<section id="id13">
+<h5>✔ 未被官方辟谣的内容不能认定为“虚假”<a class="headerlink" href="#id13" title="Link to this heading"></a></h5>
+<p>司法机关没有提供任何辟谣证据。</p>
+<p>因此：</p>
+<blockquote>
+<div><p><strong>昆明司法机关对“虚假信息”的认定属于“标签化认定”，不具备法律效力。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h4>⭐ 三、传播要件：司法机关未提供任何传播证据<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<p>司法机关没有提供：</p>
+<ul class="simple">
+<li><p>转发量</p></li>
+<li><p>阅读量</p></li>
+<li><p>传播链条</p></li>
+<li><p>舆情报告</p></li>
+<li><p>受众范围</p></li>
+</ul>
+<p>而“两高解释”明确要求：</p>
+<ul class="simple">
+<li><p>必须达到一定传播规模</p></li>
+<li><p>或造成实际社会影响</p></li>
+</ul>
+<p>陈京元的账号：</p>
+<ul class="simple">
+<li><p>粉丝极少</p></li>
+<li><p>无传播能力</p></li>
+<li><p>无任何扩散</p></li>
+</ul>
+<p>因此：</p>
+<blockquote>
+<div><p><strong>传播要件不成立。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h4>⭐ 四、危害结果要件：司法机关完全没有提供“严重混乱”的证据<a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+<p>这是最严重的问题。</p>
+<p>司法机关没有提供任何：</p>
+<ul class="simple">
+<li><p>群体性事件</p></li>
+<li><p>社会恐慌</p></li>
+<li><p>舆情爆发</p></li>
+<li><p>公共服务瘫痪</p></li>
+<li><p>群众举报</p></li>
+<li><p>任何后果</p></li>
+</ul>
+<p>甚至连一句“有人看到后感到恐慌”都没有。</p>
+<section id="id16">
+<h5>✔ 起诉书只写“扰乱社会秩序”<a class="headerlink" href="#id16" title="Link to this heading"></a></h5>
+<p>这是轻微后果，不构成犯罪。</p>
+</section>
+<section id="id17">
+<h5>✔ 判决书突然升级为“造成公共秩序严重混乱”<a class="headerlink" href="#id17" title="Link to this heading"></a></h5>
+<p>但没有任何证据支持。</p>
+</section>
+<section id="id18">
+<h5>✔ 二审裁定书重复一审结论<a class="headerlink" href="#id18" title="Link to this heading"></a></h5>
+<p>仍然没有证据。</p>
+<p>这属于：</p>
+<blockquote>
+<div><p><strong>结果要件完全虚置 → 构成要件缺失 → 不构成犯罪</strong></p>
+</div></blockquote>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3>🧭 第三部分：司法机关的做法违反了哪些法律原则？<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<section id="id20">
+<h4><strong>1. 违反罪刑法定原则（刑法第3条）</strong><a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>将非事实内容认定为“虚假信息”</p></li>
+<li><p>将零星转发认定为“散布”</p></li>
+<li><p>将无后果认定为“严重混乱”</p></li>
+</ul>
+<p>属于扩大解释、类推解释，法律禁止。</p>
+</section>
+<hr class="docutils" />
+<section id="id21">
+<h4><strong>2. 违反证据裁判原则（刑诉法第53条）</strong><a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+<p>司法机关没有提供任何：</p>
+<ul class="simple">
+<li><p>虚假性证据</p></li>
+<li><p>明知证据</p></li>
+<li><p>传播证据</p></li>
+<li><p>混乱证据</p></li>
+</ul>
+<p>却直接定罪。</p>
+<p>这是典型的：</p>
+<blockquote>
+<div><p><strong>无证据定罪。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id22">
+<h4><strong>3. 违反主客观相统一原则</strong><a class="headerlink" href="#id22" title="Link to this heading"></a></h4>
+<p>司法机关以“高学历”推定“明知”，属于：</p>
+<blockquote>
+<div><p><strong>主观归罪。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h4><strong>4. 违反无罪推定原则</strong><a class="headerlink" href="#id23" title="Link to this heading"></a></h4>
+<p>司法机关以推定代替证明。</p>
+</section>
+<hr class="docutils" />
+<section id="id24">
+<h4><strong>5. 违反程序正义原则</strong><a class="headerlink" href="#id24" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>不公开审理</p></li>
+<li><p>不回应辩护意见</p></li>
+<li><p>二审不审查</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h3>🧭 第四部分：专业法律结论<a class="headerlink" href="#id25" title="Link to this heading"></a></h3>
+<p>结合《刑法》《刑诉法》《两高解释》与司法实践：</p>
+<section id="id26">
+<h4>🎯 <strong>昆明司法机关对陈京元博士“散布虚假信息”的指控不成立。</strong><a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<p>原因如下：</p>
+<section id="id27">
+<h5>✔ “虚假信息”不存在<a class="headerlink" href="#id27" title="Link to this heading"></a></h5>
+<p>司法机关未证明任何内容虚假。</p>
+</section>
+<section id="id28">
+<h5>✔ “散布”不存在<a class="headerlink" href="#id28" title="Link to this heading"></a></h5>
+<p>零星转发不构成散布。</p>
+</section>
+<section id="id29">
+<h5>✔ “传播”不存在<a class="headerlink" href="#id29" title="Link to this heading"></a></h5>
+<p>无传播链条、无影响。</p>
+</section>
+<section id="id30">
+<h5>✔ “严重混乱”不存在<a class="headerlink" href="#id30" title="Link to this heading"></a></h5>
+<p>司法机关未提供任何危害结果证据。</p>
+</section>
+<section id="id31">
+<h5>✔ 构成要件全部缺失<a class="headerlink" href="#id31" title="Link to this heading"></a></h5>
+<p>行为要件、对象要件、传播要件、结果要件均不成立。</p>
+</section>
+<section id="id32">
+<h5>✔ 证据不足<a class="headerlink" href="#id32" title="Link to this heading"></a></h5>
+<p>司法机关没有提供任何“确实、充分”的证据。</p>
+</section>
+<section id="id33">
+<h5>✔ 法律适用错误<a class="headerlink" href="#id33" title="Link to this heading"></a></h5>
+<p>属于典型的“以言入罪”“口袋罪滥用”。</p>
+<hr class="docutils" />
+</section>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chatgpt.html" class="btn btn-neutral float-left" title="ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="gemini.html" class="btn btn-neutral float-right" title="Gemini" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" />
+    <link rel="next" title="ChatGPT" href="chatgpt.html" />
+    <link rel="prev" title="Grok" href="grok.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../index.html">传统中国</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../school/index.html">百家</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../main/index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">传统中国</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">诸子</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">古代</a></li>
+          <li class="breadcrumb-item"><a href="index.html">戴震</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../_sources/chats/outlaw/analyse/chinese/person/middle/dz/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>✦ 戴震哲学视角下的陈京元案件分析
+<strong>An Analysis of the Case through the Core Ideas of Dai Zhen’s Philosophy</strong></p>
+<p>下面我为你呈现一篇<strong>基于戴震核心哲学思想</strong>（以“性即理”为中心、反对空疏理学、强调人欲之正、重视经验与实证、以民为本的政治伦理）对陈京元案件的系统分析，并提供<strong>中英文对照版本</strong>。戴震是清代最具批判精神的思想家之一，他的哲学特别适合分析“权力—知识—个体”之间的紧张关系。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、“性即理”：人的自然情感与表达是正当的<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>中文<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>戴震最重要的思想是“性即理”——
+<strong>人的自然情感、欲求、表达，本身就是“理”，不是罪。</strong></p>
+<p>他反对宋明理学把“人欲”视为邪恶，认为：</p>
+<ul class="simple">
+<li><p>人的情感是天赋的</p></li>
+<li><p>人的表达是自然的</p></li>
+<li><p>人的求真是正当的</p></li>
+</ul>
+<p>从此出发：</p>
+<ul class="simple">
+<li><p>陈京元基于良知、关怀、求真而表达观点，是“性之自然”，即“理之所在”。</p></li>
+<li><p>若制度把正常表达视为“扰乱秩序”，则是<strong>以“伪理”压“真性”</strong>，戴震对此最为痛恨。</p></li>
+</ul>
+</section>
+<section id="english">
+<h3>English<a class="headerlink" href="#english" title="Link to this heading"></a></h3>
+<p>Dai Zhen’s central doctrine is “Nature is Principle” (<em>xing ji li</em>)—
+<strong>Human emotions, desires, and expressions are themselves legitimate and rational.</strong></p>
+<p>He opposed Neo-Confucian suppression of human nature, arguing that:</p>
+<ul class="simple">
+<li><p>Emotion is innate</p></li>
+<li><p>Expression is natural</p></li>
+<li><p>The pursuit of truth is justified</p></li>
+</ul>
+<p>Thus:</p>
+<ul class="simple">
+<li><p>Chen’s conscientious expression is the natural unfolding of human nature, and therefore aligned with true principle.</p></li>
+<li><p>Treating such expression as criminal is <strong>using false principle to suppress genuine human nature</strong>, something Dai Zhen fiercely criticized.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>二、反空疏理学：反对以抽象概念压制真实人情<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="id4">
+<h3>中文<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>戴震批判理学“空疏无当”，因为它：</p>
+<ul class="simple">
+<li><p>不顾现实</p></li>
+<li><p>不顾人情</p></li>
+<li><p>以抽象概念压制真实生命</p></li>
+</ul>
+<p>在本案中：</p>
+<ul class="simple">
+<li><p>“寻衅滋事”作为模糊罪名，本质上是一种“抽象化的道德指控”。</p></li>
+<li><p>以学历推定“明知”，属于“以名害实”。</p></li>
+<li><p>不开庭审理，是“避实就虚”。</p></li>
+</ul>
+<p>戴震会说：
+<strong>“此皆理学之弊，以虚害实。”</strong></p>
+</section>
+<section id="id5">
+<h3>English<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>Dai Zhen attacked Neo-Confucianism for being “empty and detached from reality,” because it:</p>
+<ul class="simple">
+<li><p>ignores lived experience</p></li>
+<li><p>ignores human feelings</p></li>
+<li><p>uses abstract concepts to suppress real life</p></li>
+</ul>
+<p>In this case:</p>
+<ul class="simple">
+<li><p>The vague charge of “picking quarrels” is an abstract moralized accusation.</p></li>
+<li><p>Inferring guilt from education level is “harming reality with labels.”</p></li>
+<li><p>Denying a hearing is “avoiding the real and clinging to the abstract.”</p></li>
+</ul>
+<p>Dai Zhen would say:
+<strong>“These are the harms of empty principle—using the abstract to injure the real.”</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>三、“以民为本”的政治伦理：权力必须体恤民情<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>中文<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>戴震强调政治的根本在于“体民情”，他说：</p>
+<p><strong>“治天下者，以民为本。”</strong></p>
+<p>这意味着：</p>
+<ul class="simple">
+<li><p>公民的情感、忧虑、表达，是政治判断的基础；</p></li>
+<li><p>权力必须倾听，而不是压制；</p></li>
+<li><p>若权力对民情无感，则政治失其本。</p></li>
+</ul>
+<p>在本案中：</p>
+<ul class="simple">
+<li><p>陈京元的表达反映了社会对信息、真相、公共事务的关切；</p></li>
+<li><p>执法者却以权力压制民情，属于“失本之政”。</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3>English<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>Dai Zhen emphasized that governance must be grounded in the feelings and needs of the people:</p>
+<p><strong>“Those who govern the world must take the people as the foundation.”</strong></p>
+<p>This means:</p>
+<ul class="simple">
+<li><p>Citizens’ emotions and concerns are the basis of political judgment.</p></li>
+<li><p>Power must listen, not suppress.</p></li>
+<li><p>When authority is insensitive to the people, governance loses its foundation.</p></li>
+</ul>
+<p>In this case:</p>
+<ul class="simple">
+<li><p>Chen’s expression reflects legitimate public concern about truth and information.</p></li>
+<li><p>The authorities’ suppression represents governance “losing its foundation.”</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h2>四、经验与实证：法律必须基于事实，而非推测<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<section id="id10">
+<h3>中文<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>戴震是清代最重视“实证”的思想家，他强调：</p>
+<ul class="simple">
+<li><p>事实重于推测</p></li>
+<li><p>证据重于名义</p></li>
+<li><p>经验重于抽象</p></li>
+</ul>
+<p>因此：</p>
+<ul class="simple">
+<li><p>以“博士学位”推定“明知”，是典型的“以名害实”；</p></li>
+<li><p>以“可能扰乱秩序”定罪，是“未见其事而先加其罪”；</p></li>
+<li><p>不提供证据、不进行公开审理，违背了“实证之法”。</p></li>
+</ul>
+<p>戴震会说：
+<strong>“无实证而加罪，是害理之甚者。”</strong></p>
+</section>
+<section id="id11">
+<h3>English<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>Dai Zhen valued empirical evidence above all. He insisted that:</p>
+<ul class="simple">
+<li><p>Facts outweigh speculation</p></li>
+<li><p>Evidence outweighs labels</p></li>
+<li><p>Experience outweighs abstraction</p></li>
+</ul>
+<p>Thus:</p>
+<ul class="simple">
+<li><p>Using a PhD degree to infer “knowledge of falsity” is “harming reality with labels.”</p></li>
+<li><p>Criminalizing speech for “possible disturbance” is punishing without evidence.</p></li>
+<li><p>Lack of evidence and lack of public hearing violate empirical justice.</p></li>
+</ul>
+<p>Dai Zhen would say:
+<strong>“To impose guilt without evidence is the gravest harm to principle.”</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h2>五、结论：戴震会如何评价此案？<a class="headerlink" href="#id12" title="Link to this heading"></a></h2>
+<section id="id13">
+<h3>中文<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>若以戴震的哲学判断：</p>
+<ul class="simple">
+<li><p>陈京元的表达属于“性之自然”，是正当的；</p></li>
+<li><p>执法者的行为属于“以虚害实”，是错误的；</p></li>
+<li><p>制度的反应缺乏“实证”，违背“以民为本”；</p></li>
+<li><p>整个案件体现了“伪理压真性”的理学式弊端。</p></li>
+</ul>
+<p>戴震会给出一句最核心的判断：
+<strong>“害性以为理，天下之大害也。”</strong></p>
+</section>
+<section id="id14">
+<h3>English<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<p>From Dai Zhen’s philosophical standpoint:</p>
+<ul class="simple">
+<li><p>Chen’s expression is the natural unfolding of human nature and therefore legitimate.</p></li>
+<li><p>The authorities’ actions represent “using the abstract to injure the real.”</p></li>
+<li><p>The system lacks empirical grounding and violates the principle of “taking the people as the foundation.”</p></li>
+<li><p>The case reflects the Neo-Confucian error of “false principle suppressing genuine human nature.”</p></li>
+</ul>
+<p>Dai Zhen’s final verdict would be:
+<strong>“To harm human nature in the name of principle is the greatest harm under Heaven.”</strong></p>
+<hr class="docutils" />
+<p>如果你愿意，我可以继续为你写：</p>
+<ul class="simple">
+<li><p><strong>戴震风格的《陈案辨》</strong>（模仿《孟子字义疏证》的论证方式）</p></li>
+<li><p><strong>将此案与黄宗羲、顾炎武、王夫之等清代思想家比较</strong></p></li>
+<li><p><strong>以清代实学传统构建一套“陈案的实证伦理学”</strong></p></li>
+</ul>
+<p>你希望我继续往哪个方向展开？</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="grok.html" class="btn btn-neutral float-left" title="Grok" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chatgpt.html" class="btn btn-neutral float-right" title="ChatGPT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

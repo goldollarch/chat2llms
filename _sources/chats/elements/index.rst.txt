@@ -1,26 +1,16 @@
-==================================================================
-Key Elements of the Crime PXQT
-==================================================================
+*******************************
+Key Elements of the PXQT Crime 
+*******************************
 
-A review of the relevant provisions of China's Criminal Law reveals 
-that the establishment of this crime requires several conditions: 
-objectively, there must be **acts of spreading rumors**, and objectively, 
-this must cause **serious harm or severe disruption of social order**; subjectively, 
-the perpetrator must **clearly know** that the information being spread is deliberately 
-fabricated rumors; and, of course, as criminal liability is a form of legal liability, 
-establishing a causal relationship between the act and the damage is a crucial 
-and essential element.
+根据刑法基本原则和相关条文（如《两高解释》）的规定，网络“寻衅滋事罪”成立需要满足行为、后果和动机三个要件，缺一不可： 
+客观上有“传播谣言”的行为，而且客观上造成“严重危害事实”或“社会秩序的严重混乱”的后果； 
+犯罪人的主观方面应能“明知”信息为“虚假谣言”，并具有“恶意传播”的犯罪动机。 
 
-In this part, we will review the three main constitutive elements 
-which the crime of "**Picking Quarrels and Provoking Trouble**" 
-typically comprises in the Chenjingyuan's case.
+当然，刑事责任作为一种法律责任，认定行为与后果之间的因果关系也是至关重要的必要环节。但本案中，
+由于“危害后果”这一要件被相关执法人员完全“虚置”（emptying of elements），
+因果关系自然无从考量。
 
-------
-
- .. toctree::
-    :maxdepth: 2
-
-    disorder/index
+------------------------------
 
  .. toctree::
     :maxdepth: 2
@@ -30,10 +20,15 @@ typically comprises in the Chenjingyuan's case.
  .. toctree::
     :maxdepth: 2
 
+    disorder/index
+
+ .. toctree::
+    :maxdepth: 2
+
     knowing/index
 
  .. toctree::
     :maxdepth: 2
 
-    overview
+    overview/index
 

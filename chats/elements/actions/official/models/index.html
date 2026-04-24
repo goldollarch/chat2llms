@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>模型分析集 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="Qwen：专案研究" href="qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">行为：传播“虚假信息”</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../tweets/index.html">所谓的“虚假信息”</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">行为：传播“虚假信息”</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+      <li class="breadcrumb-item active">模型分析集</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/actions/official/models/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>模型分析集<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：专案研究</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、 核心法理界定：“虚假信息”的法定内涵与司法认定的“范畴错误”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">（一）刑法意义上“虚假信息”的严格边界</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">（二）司法机关的“范畴错误”与概念偷换</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">二、 实体法审查：客观构成要件的虚置与违法扩张</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">（一）《两高解释》第5条的规范结构与本案的适用断裂</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">（二）违反刑法谦抑性与“口袋罪”限缩要求</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id7">三、 证据规则审视：“警方梳理”对证据裁判原则的系统性背离</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id8">（一）《梳理情况说明》的证据资格缺陷</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id9">（二）证据链断裂与证明标准虚化</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id10">四、 宪法与人权维度：从“行为规制”异化为“表达管制”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">（一）宪法基本权利的实质侵蚀</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">（二）国际人权标准的对照</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">五、 综合评估结论</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">🔍 最终法律定性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id15">⚖️ 法治矫正路径</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>关于昆明司法机关认定陈京元博士“散布虚假信息”的专业法律分析与评估</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2"><strong>一、 对“虚假信息”的法律界定与本案认定的“越界”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3"><strong>二、 对“散布”行为的认定违反“主客观相统一”原则</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4"><strong>三、 对“造成公共秩序严重混乱”要件的系统性虚置</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5"><strong>四、 对“寻衅滋事罪”的滥用与“口袋罪”化</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">关于昆明司法机关认定陈京元博士“散布虚假信息”的专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">一、规范起点：客观构成要件的严格要求</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">二、本案的关键做法：整体“打包式指控”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">三、行为要件分析：转发≠散布（必须具体化）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">四、对象要件分析：“虚假信息”必须逐条证明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">五、证明方法问题：证据裁判原则的违反</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">六、行为与对象的混同问题（关键法理问题）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id25">七、与司法实践的对比</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id28">八、从刑法原理的深层评价</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id32">九、你提出观点的专业评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id36">十、最终综合结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id41">十一、一句话总结</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">关于昆明司法机关认定陈京元博士“散布虚假信息”的专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2">🧭 第一部分：寻衅滋事罪（网络谣言型）的客观构成要件是什么？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7">🧭 第二部分：昆明司法机关如何处理这些要件？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id19">🧭 第三部分：司法机关的做法违反了哪些法律原则？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id25">🧭 第四部分：专业法律结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">关于昆明司法机关认定陈京元博士“散布虚假信息”的专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">一、 行为要件评估：转发行为与“编造/散布”的界限</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">二、 主观要件评估：“明知”的证明标准与推定逻辑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">三、 结果要件评估：“严重混乱”的实证缺失</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">四、 综合分析结论与专业评估</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">昆明司法机关对陈京元博士“散布虚假信息”客观构成要件的指控与判决专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、寻衅滋事罪（网络适用）客观构成要件的法定框架</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、昆明司法机关对“散布虚假信息”客观行为的指控与判决表现</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、客观构成要件符合性的专业评估：完全不成立</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">四、法律后果与制度意义</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="qwen.html" class="btn btn-neutral float-left" title="Qwen：专案研究" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,291 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>模型分析集 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="DeepSeek" href="deepseek.html" />
+    <link rel="prev" title="分析比较报告" href="../compare.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Legal Documents Analysis</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../official/index.html">官方正式文书</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">被告狱中书信</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">整体分析评估</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：文档分析</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较报告</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">模型分析集</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../scitec/index.html">科学特色分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../improve/index.html">优化改进措施</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Legal Documents Analysis</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">被告狱中书信</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">整体分析评估</a></li>
+      <li class="breadcrumb-item active">模型分析集</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/docus/defendant/common/models/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>模型分析集<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>各LLMs（
+<a class="reference internal" href="grok.html"><span class="doc">Grok</span></a>、
+<a class="reference internal" href="gemini.html"><span class="doc">Gemini</span></a>、
+<a class="reference internal" href="chatgpt.html"><span class="doc">ChatGPT</span></a>、
+<a class="reference internal" href="copilot.html"><span class="doc">Copilot</span></a>、
+<a class="reference internal" href="qwen.html"><span class="doc">Qwen</span></a>、以及
+<a class="reference internal" href="deepseek.html"><span class="doc">DeepSeek</span></a>）
+对 陈京元【<a class="reference internal" href="../../../../../case/docus/defendent/letter.html"><span class="doc">狱中自辩暨控告血书</span></a>】的总体分析评估。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：文档分析</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">多个维度的分析与评估报告</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">一、<strong>法律维度：对犯罪构成要件的精准解构</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">二、<strong>程序维度：对司法黑帮化的系统揭露</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id7">三、<strong>思想维度：对文明底线的哲学捍卫</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">四、<strong>人格维度：理性尊严对暴力羞辱的胜利</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">结语：一份文明时代的《狱中书简》</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">法律维度的更详细分析与评估报告</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">一、 文书性质与法律定位</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id15">二、 实体法抗辩的精准度与法理深度</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id19">三、 程序法与证据规则批判的穿透力</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id23">四、 宪法权利与法理原则的体系化建构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id27">五、 文书表达策略与诉讼实效的专业评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id31">六、 综合结论与法治启示</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>对《狱中自辩暨控告血书》分析与评论之一</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2"><strong>一、 文书性质与结构分析</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3"><strong>二、 核心论证策略与修辞分析</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4"><strong>三、 法律与政治效力评论</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5"><strong>四、 结语：绝境中的人性光辉与制度之耻</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6"><strong>对《狱中自辩暨控告血书》分析与评估之二</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id7"><strong>一、 文本性质与叙事策略</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id8"><strong>二、 核心法律论辩的专业性评估</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id9"><strong>三、 对司法程序的系统性指控与评估</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id10"><strong>四、 文本的情感基调、风险与局限性</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id11"><strong>五、 总体评估结论</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">深度专论级分析与评论</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">一、文本性质：这不是“辩护词”，而是“文明冲突现场的文献”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">二、叙事策略：不断“扩展战场”，把执法者拖入知识论与文明论中</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">三、核心论证：法律逻辑与科学逻辑的双线并击</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">四、修辞结构：极高张力的“烈士文本”风格</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">五、政治语境：血书在文档系统中的定位</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">六、《血书》的历史价值：它不仅关乎陈京元，也关乎制度</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">七、总结：为什么说《血书》是“一个时代的镜子”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id21">“逐结构—逐论证”的专业法律评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">一、文本整体结构的法律解剖</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id24">二、核心法律论证一：关于“谣言/虚假信息”的分类体系</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id31">三、核心法律论证二：“明知”要件的否定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id37">四、核心法律论证三：“社会危害结果”的否定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id43">五、核心法律论证四：“学者身份即罪证”的归谬论证</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id49">六、控告部分的法律评估（最弱部分）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id53">七、文本风格与法律效果的冲突</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id56">八、总体法律价值分层评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id60">九、最终专业结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id64">十、一句话概要总结</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id65">十一、提升建议</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">🧭 <strong>一、文本性质：这不是普通“申诉信”，而是一份复合型法律文书</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">🧩 <strong>二、文本结构分析：逻辑清晰、层次分明、论证方式接近学术论文</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">🧩 <strong>三、法律分析价值：文本中包含大量“可用于再审”的关键论点</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4"><strong>（1）关于“虚假信息”的法律论证</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5"><strong>（2）关于“明知”的论证</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6"><strong>（3）关于“严重混乱”的论证</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7"><strong>（4）关于“选择性执法”的论证</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id8"><strong>（5）关于“程序违法”的论证</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id9">🧩 <strong>四、文本的证据价值：属于“直接证据 + 间接证据 + 程序瑕疵证据”的混合体</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id10">🧩 <strong>五、文本的风险分析：控告内容极为尖锐，可能导致报复性处理</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id11">🧩 <strong>六、文本的学术价值：这是一个罕见的“知识分子在押者的司法批判文本”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id12">🧩 <strong>七、综合法律评价：这是一份极具力量的“司法控告 + 再审线索材料”</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id13">✔ <strong>作为再审申请材料：价值极高</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14">✔ <strong>作为控告材料：具有调查线索价值</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id15">✔ <strong>作为历史记录：具有重要文献价值</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id16">✔ <strong>作为法律论证文本：逻辑严密、论点清晰</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id17">🎯 <strong>最终结论：</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">分析与评论之一</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">一、 文书性质：一份跨学科的“降维打击”式辩护</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">二、 核心辩护逻辑分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id7">三、 控告与政治批判：从防御转向进攻</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id8">四、 总体评论：悲剧性的智性抗争</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id9">分析与评估之二</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id10">一、 辩护逻辑的维度转换：从“事实”到“科学”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id11">二、 身份认知的反转：从“罪证”到“反证”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id12">三、 控告层面的法律定性：司法程序的“系统性风险”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id13">四、 综合价值与局限性评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id14">五、 总结结论</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">《狱中自辩暨控告血书》分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">一、整体结构与写作策略分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">二、核心论证亮点（法理与科学结合的典范）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">三、策略性“破防”写法（情绪与理性交织）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">四、整体历史价值评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id6">《狱中自辩暨控告血书》专业法律分析与评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id7">一、结构与形式评估：学者型“自辩+控告”文书，逻辑严谨、层次清晰</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id8">二、内容分层解构：三重论证体系精准击中寻衅滋事罪核心要件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id13">三、法律论证强度评估：高度专业，具备“可诉性”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id14">四、程序正义与人权维度评估：对“以言入罪”的深刻揭露</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id15">五、整体价值与历史意义评估</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../compare.html" class="btn btn-neutral float-left" title="分析比较报告" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="DeepSeek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

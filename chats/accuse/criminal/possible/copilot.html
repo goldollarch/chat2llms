@@ -1,0 +1,511 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="ChatGPT" href="chatgpt.html" />
+    <link rel="prev" title="Gemini" href="gemini.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Accuse the Judicial Mafia</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">刑事相关指控</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">违法犯罪分析评估</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="index.html#id2">核心共识（相同点）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="index.html#id3">各大语言模型的特点与差异分析</a></li>
+<li class="toctree-l4"><a class="reference internal" href="index.html#id4">综合异同对比总结表</a></li>
+<li class="toctree-l4"><a class="reference internal" href="index.html#id5">评估结论</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html#id6">模型分析集</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../analyse/qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../analyse/index.html">具体指控的分析评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../rights/index.html">宪法及基本人权</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../policies/index.html">国家路线方针和政策</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../party/index.html">中共党章党纪相关</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../overview/index.html">具体指控总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Accuse the Judicial Mafia</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">刑事相关指控</a></li>
+          <li class="breadcrumb-item"><a href="index.html">违法犯罪分析评估</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/chats/accuse/criminal/possible/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>下面在<strong>严格遵守法律分析框架、避免任何政治评价</strong>的前提下，对你提供的全部材料进行系统化、专业化、条理化的法律分析。
+重点是：<strong>依据现行中国法律，分析本案中公检法人员可能触犯的法律条文，并提出法律意见</strong>。<br />
+分析基于你提供的事实材料，不涉及任何政治立场判断。</p>
+<hr class="docutils" />
+<section id="id1">
+<h2><strong>一、分析范围与方法说明</strong><a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>本分析严格依据：</p>
+<ul class="simple">
+<li><p>《中华人民共和国刑法》</p></li>
+<li><p>《中华人民共和国刑事诉讼法》</p></li>
+<li><p>《人民警察法》</p></li>
+<li><p>《检察官法》</p></li>
+<li><p>《法官法》</p></li>
+<li><p>《反有组织犯罪法》</p></li>
+<li><p>《公安机关办理刑事案件程序规定》</p></li>
+<li><p>《人民检察院刑事诉讼规则》</p></li>
+<li><p>《人民法院法官惩戒条例》</p></li>
+</ul>
+<p>并以你提供的文档中<strong>可被视为事实陈述的部分</strong>作为分析基础。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2><strong>二、从法律角度评估：本案公检法人员可能涉及的违法或犯罪风险点</strong><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>以下内容均基于你提供的材料中所描述的行为模式进行分析，不代表事实已经被司法认定。</p>
+<hr class="docutils" />
+<section id="id3">
+<h3><strong>（一）公安机关可能涉及的违法犯罪风险</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<section id="id4">
+<h4><strong>1. 非法拘禁罪（刑法第238条）</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>未出示合法手续即破门而入</p></li>
+<li><p>以“你自己清楚”为理由带走</p></li>
+<li><p>承诺“几个小时就回家”，但随后转为刑拘</p></li>
+</ul>
+<p>若属实，可能构成：</p>
+<blockquote>
+<div><p><strong>非法剥夺公民人身自由</strong></p>
+</div></blockquote>
+<p>刑法第238条规定：</p>
+<blockquote>
+<div><p>非法拘禁他人，处三年以下有期徒刑、拘役、管制或者罚金。</p>
+</div></blockquote>
+<p>若伴随暴力、殴打，则：</p>
+<blockquote>
+<div><p>处三年以上十年以下有期徒刑。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h4><strong>2. 非法搜查罪（刑法第245条）</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>未出示搜查证</p></li>
+<li><p>未说明理由</p></li>
+<li><p>搜查范围超出必要（包括废旧硬盘）</p></li>
+</ul>
+<p>若属实，可能构成：</p>
+<blockquote>
+<div><p><strong>非法搜查公民住宅、物品</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h4><strong>3. 刑讯逼供罪（刑法第247条）</strong><a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>“威胁、恐吓、甚至殴打”</p></li>
+<li><p>长时间审讯（24小时）</p></li>
+<li><p>逼迫供述</p></li>
+</ul>
+<p>若属实，可能构成：</p>
+<blockquote>
+<div><p><strong>司法人员对犯罪嫌疑人实施殴打、变相体罚、威胁等逼供行为</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h4><strong>4. 滥用职权罪（刑法第397条）</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>明知无证据仍立案</p></li>
+<li><p>先抓人后找证据</p></li>
+<li><p>以“上级要求办成铁案”为理由推进案件</p></li>
+</ul>
+<p>若属实，可能构成：</p>
+<blockquote>
+<div><p><strong>超越职权、违法办案，造成公民合法权益损害</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h4><strong>5. 伪造证据罪（刑法第299条）</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>“明知不存在社会危害性，却认定造成严重混乱”</p></li>
+<li><p>“明知无法证明明知，却推定明知”</p></li>
+</ul>
+<p>若侦查人员存在：</p>
+<ul class="simple">
+<li><p>伪造电子数据</p></li>
+<li><p>虚构“严重混乱”</p></li>
+<li><p>虚构“明知”</p></li>
+</ul>
+<p>则可能构成：</p>
+<blockquote>
+<div><p><strong>伪造证据、诱导证人作伪证</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h4><strong>6. 侵犯公民通信自由罪（刑法第252条）</strong><a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>未经合法程序提取电子设备数据</p></li>
+<li><p>未说明提取范围、目的、必要性</p></li>
+</ul>
+<p>若属实，可能构成：</p>
+<blockquote>
+<div><p><strong>非法搜查、非法获取通信内容</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h4><strong>7. 违反《人民警察法》</strong><a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<p>包括：</p>
+<ul class="simple">
+<li><p>第三十五条：不得刑讯逼供</p></li>
+<li><p>第三十六条：不得超范围搜查</p></li>
+<li><p>第三十七条：不得侮辱人格</p></li>
+<li><p>第三十八条：不得滥用武力</p></li>
+</ul>
+<p>若属实，均构成严重违纪。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h3><strong>（二）检察机关可能涉及的违法犯罪风险</strong><a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<section id="id12">
+<h4><strong>1. 徇私枉法罪（刑法第399条）</strong><a class="headerlink" href="#id12" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>明知证据不足仍批准逮捕</p></li>
+<li><p>明知不构罪仍起诉</p></li>
+<li><p>采用“推定明知”方式替代证据</p></li>
+</ul>
+<p>若属实，可能构成：</p>
+<blockquote>
+<div><p><strong>检察官故意违反法律，追诉无罪的人</strong></p>
+</div></blockquote>
+<p>刑法第399条规定：</p>
+<blockquote>
+<div><p>对明知是无罪的人而使其受追诉的，处五年以下有期徒刑。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h4><strong>2. 滥用职权罪（刑法第397条）</strong><a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
+<p>若检察机关：</p>
+<ul class="simple">
+<li><p>未依法审查证据</p></li>
+<li><p>未纠正侦查违法</p></li>
+<li><p>以“政治性理由”替代法律判断</p></li>
+</ul>
+<p>则可能构成：</p>
+<blockquote>
+<div><p><strong>滥用检察权，造成公民重大损害</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h4><strong>3. 违反《检察官法》</strong><a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<p>包括：</p>
+<ul class="simple">
+<li><p>第三十三条：必须以事实为依据，以法律为准绳</p></li>
+<li><p>第三十四条：不得徇私枉法</p></li>
+<li><p>第三十五条：不得以推定代替证据</p></li>
+</ul>
+<p>若属实，属于严重违纪违法。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h3><strong>（三）法院可能涉及的违法犯罪风险</strong><a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<section id="id16">
+<h4><strong>1. 枉法裁判罪（刑法第399条）</strong><a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<p>材料描述：</p>
+<ul class="simple">
+<li><p>以“高学历应当明知”为定罪依据</p></li>
+<li><p>未举证“严重混乱”</p></li>
+<li><p>未举证“虚假信息”</p></li>
+<li><p>未举证“明知”</p></li>
+<li><p>不公开审理</p></li>
+<li><p>不允许辩护展开</p></li>
+<li><p>二审不审理即驳回</p></li>
+</ul>
+<p>若属实，可能构成：</p>
+<blockquote>
+<div><p><strong>法官故意违反法律作出有罪判决</strong></p>
+</div></blockquote>
+<p>刑法第399条规定：</p>
+<blockquote>
+<div><p>枉法裁判，处五年以下有期徒刑；情节严重的，处五年以上十年以下。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h4><strong>2. 违反《法官法》</strong><a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<p>包括：</p>
+<ul class="simple">
+<li><p>第三十条：必须独立审判</p></li>
+<li><p>第三十一条：必须以事实为依据</p></li>
+<li><p>第三十二条：不得枉法裁判</p></li>
+<li><p>第三十三条：不得受外部干预</p></li>
+</ul>
+<p>若属实，属于严重违纪违法。</p>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h4><strong>3. 违反《刑事诉讼法》</strong><a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<p>包括：</p>
+<ul class="simple">
+<li><p>第十一条：公开审判原则</p></li>
+<li><p>第五十条：非法证据排除</p></li>
+<li><p>第五十三条：证据必须确实充分</p></li>
+<li><p>第一百八十七条：二审应当开庭审理重大案件</p></li>
+</ul>
+<p>若属实，程序违法严重。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3><strong>（四）从《反有组织犯罪法》角度的分析</strong><a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<p>你提供的材料中多次提到：</p>
+<ul class="simple">
+<li><p>公检法三方协同推进</p></li>
+<li><p>证据不足仍坚持定罪</p></li>
+<li><p>互相掩护程序违法</p></li>
+<li><p>形成“利益共同体”</p></li>
+</ul>
+<p>若这些情况属实，可能触及《反有组织犯罪法》第三条所定义的：</p>
+<blockquote>
+<div><p><strong>“具有一定组织性、共同目的、相互支持的非法控制活动”</strong></p>
+</div></blockquote>
+<p>特别是：</p>
+<section id="id20">
+<h4><strong>第十七条：国家工作人员包庇、纵容黑恶势力</strong><a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<p>若存在：</p>
+<ul class="simple">
+<li><p>共同推进违法办案</p></li>
+<li><p>互相掩护违法行为</p></li>
+<li><p>形成稳定合作关系</p></li>
+</ul>
+<p>则可能构成：</p>
+<blockquote>
+<div><p><strong>国家工作人员参与类黑恶组织</strong></p>
+</div></blockquote>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="legal-opinion">
+<h2><strong>三、综合法律意见（Legal Opinion）</strong><a class="headerlink" href="#legal-opinion" title="Link to this heading"></a></h2>
+<p>基于上述分析，若材料所述情况属实，则本案可能存在以下法律问题：</p>
+<hr class="docutils" />
+<section id="id21">
+<h3><strong>（一）案件存在重大程序违法，应当依法重新审查</strong><a class="headerlink" href="#id21" title="Link to this heading"></a></h3>
+<p>依据《刑事诉讼法》第242条：</p>
+<blockquote>
+<div><p>二审法院发现原判决认定事实不清、证据不足，应当裁定撤销原判、发回重审。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id22">
+<h3><strong>（二）应启动对办案人员的违法审查程序</strong><a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<p>依据：</p>
+<ul class="simple">
+<li><p>《监察法》</p></li>
+<li><p>《检察官法》</p></li>
+<li><p>《法官法》</p></li>
+<li><p>《人民警察法》</p></li>
+<li><p>《反有组织犯罪法》</p></li>
+</ul>
+<p>可启动：</p>
+<ul class="simple">
+<li><p>监察调查</p></li>
+<li><p>检察机关侦查权（对司法人员）</p></li>
+<li><p>法官惩戒委员会</p></li>
+<li><p>警察监督委员会</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h3><strong>（三）应当对侦查阶段的证据合法性进行全面审查</strong><a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>包括：</p>
+<ul class="simple">
+<li><p>搜查是否合法</p></li>
+<li><p>电子数据提取是否合法</p></li>
+<li><p>是否存在刑讯逼供</p></li>
+<li><p>是否存在诱导供述</p></li>
+<li><p>是否存在伪造证据</p></li>
+</ul>
+<p>若证据非法，应当排除。</p>
+</section>
+<hr class="docutils" />
+<section id="id24">
+<h3><strong>（四）应当重新评估“寻衅滋事罪”的适用</strong><a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+<p>根据最高法、最高检司法解释：</p>
+<ul class="simple">
+<li><p>必须有“严重混乱”</p></li>
+<li><p>必须有“明知”</p></li>
+<li><p>必须有“虚假信息”</p></li>
+<li><p>必须有“社会危害性”</p></li>
+</ul>
+<p>若缺一不可。</p>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h3><strong>（五）若存在违法办案，应依法追究相关人员责任</strong><a class="headerlink" href="#id25" title="Link to this heading"></a></h3>
+<p>包括：</p>
+<ul class="simple">
+<li><p>刑事责任</p></li>
+<li><p>行政责任</p></li>
+<li><p>纪律责任</p></li>
+<li><p>民事国家赔偿责任</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id26">
+<h2><strong>四、结语</strong><a class="headerlink" href="#id26" title="Link to this heading"></a></h2>
+<p>你提供的材料显示，本案涉及的法律问题具有高度复杂性，尤其是：</p>
+<ul class="simple">
+<li><p>证据合法性</p></li>
+<li><p>程序正义</p></li>
+<li><p>构罪标准</p></li>
+<li><p>办案人员行为的合法性</p></li>
+</ul>
+<p>这些问题均属于法律体系内部可以讨论和审查的范畴。</p>
+<p>如果你愿意，我可以进一步为你：</p>
+<section id="id27">
+<h3><strong>① 按条文逐条比对分析每一项可能的违法行为</strong><a class="headerlink" href="#id27" title="Link to this heading"></a></h3>
+</section>
+<section id="id28">
+<h3><strong>② 为案件撰写一份正式的《法律意见书》格式文书</strong><a class="headerlink" href="#id28" title="Link to this heading"></a></h3>
+</section>
+<section id="id29">
+<h3><strong>③ 为案件构建一份《再审申请书》或《控告状》草稿</strong><a class="headerlink" href="#id29" title="Link to this heading"></a></h3>
+</section>
+<section id="id30">
+<h3><strong>④ 对“寻衅滋事罪”的司法解释进行系统化梳理</strong><a class="headerlink" href="#id30" title="Link to this heading"></a></h3>
+<p>你希望我继续深入哪一部分？</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="gemini.html" class="btn btn-neutral float-left" title="Gemini" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chatgpt.html" class="btn btn-neutral float-right" title="ChatGPT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -4,16 +4,16 @@
 尝试各类文体。
 
 ---------
-    
- .. toctree::
-    :maxdepth: 1
-
-    smq/index
 
  .. toctree::
     :maxdepth: 1
 
     qu/index
+    
+ .. toctree::
+    :maxdepth: 1
+
+    smq/index
 
  .. toctree::
     :maxdepth: 1
