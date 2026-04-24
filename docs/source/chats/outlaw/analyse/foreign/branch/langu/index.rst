@@ -53,7 +53,7 @@
 
     *   :doc:`晚期维特根斯坦 </chats/outlaw/analyse/foreign/branch/langu/wittgstein/index>` ：思想发生巨大转变，在《哲学研究》中批判了自己早期的观点，提出 **“意义即使用”** 和 **“语言游戏”** 理论。词语的意义不在于指称，而在于它在特定生活形式中的使用方式。
 
-    *   :doc:`约翰·奥斯汀 </chats/outlaw/analyse/foreign/branch/langu/austin/index>` ：提出 **言语行为理论**，认为说话本身就是做事（如承诺、命令、警告），区分了“言内行为”、“言外行为”和“言后行为”。
+    *   :doc:`约翰·朗肖·奥斯丁 </chats/outlaw/analyse/foreign/branch/langu/austin/index>` ：提出 **言语行为理论**，认为说话本身就是做事（如承诺、命令、警告），区分了“言内行为”、“言外行为”和“言后行为”。
 
     *   :doc:`约翰·塞尔 </chats/outlaw/analyse/foreign/branch/langu/searle/index>` ：来解决心智哲学和现实建构的根本问题，并在此基础上，捍卫一种基于常识和生物科学的现实主义世界观。
 
@@ -276,7 +276,7 @@
 
 *   **语言哲学的贡献**：
 
-    *    :doc:`约翰·奥斯汀 </chats/outlaw/analyse/foreign/branch/langu/austin/index>` 的 **言语行为理论** 完美地解释了这一点。立法本身就是一种“以言行事”的行为（如“我宣布，《民法典》通过”）。法官的判决（如“判处被告有期徒刑三年”）也是在执行一个言语行为。这促使法学家更关注法律语言在具体制度语境中的 **语用效力**。
+    *    :doc:`约翰·朗肖·奥斯丁 </chats/outlaw/analyse/foreign/branch/langu/austin/index>` 的 **言语行为理论** 完美地解释了这一点。立法本身就是一种“以言行事”的行为（如“我宣布，《民法典》通过”）。法官的判决（如“判处被告有期徒刑三年”）也是在执行一个言语行为。这促使法学家更关注法律语言在具体制度语境中的 **语用效力**。
 
 3. 法律事实的建构性：语言如何塑造“事实”
 

@@ -61,7 +61,6 @@ The **objectives** include:
 
     case/intro
     case/docus/index
-    case/letters/index
 
 .. toctree::
     :maxdepth: 10
@@ -69,7 +68,8 @@ The **objectives** include:
     :hidden:
 
     chats/prepro/index
-    chats/compare/index
+    chats/overview/index
+    chats/docus/index
     chats/elements/index
     chats/accuse/index
     chats/outlaw/index
