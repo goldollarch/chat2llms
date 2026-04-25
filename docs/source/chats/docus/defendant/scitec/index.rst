@@ -1,18 +1,12 @@
 科学特色分析
 =============
 
-----------------------
+------------------------------------------------------------------------
 
-陈京元的【:doc:`狱中自辩暨控告血书 </case/docus/defendent/letter>`】不仅限于法理分析，
-里面包含诸多科学前沿领域知识的引用，这是该文档主要特色之一。这里利用六个LLMs（
-:doc:`Grok </chats/docus/defendant/scitec/models/grok>`、
-:doc:`Gemini </chats/docus/defendant/scitec/models/gemini>`、
-:doc:`ChatGPT </chats/docus/defendant/scitec/models/chatgpt>`、
-:doc:`Copilot </chats/docus/defendant/scitec/models/copilot>`、
-:doc:`Qwen </chats/docus/defendant/scitec/models/qwen>`、以及 
-:doc:`DeepSeek </chats/docus/defendant/scitec/models/deepseek>`）对该文档相关科学逻辑进行了分析评估。
-在此基础上，对所有报告进行 :doc:`交叉对比研究 </chats/docus/defendant/scitec/models/qwen>`。
-
+陈京元的【:doc:`狱中自辩暨控告血书 </case/docus/defendent/letter>`】
+不仅限于法理分析，里面包含诸多科学前沿领域知识的引用，这是该文档主要特色之一。
+这里分别以六个LLMs为工具，对其科学反驳逻辑进行系统分析和评估。
+在此基础上，对所有报告进行交叉对比研究 。
 
 ----------------------
 
@@ -30,3 +24,16 @@
     :maxdepth: 2
 
     models/index
+
+-------------------
+
+.. hint::
+   
+   这套科学反驳的意义在于：它不仅展示了一个个体如何以理性对抗荒谬，也展示了一个时代的司法系统如何在面对科学、逻辑与事实时选择了背离。它让未来的读者能够看到，当权力试图以语言制造“混乱”时，科学如何揭示混乱的真正来源；当司法试图以推断替代证据时，逻辑如何揭示推断的虚空；当制度试图以结论压倒因果时，因果如何在数学中保持不可动摇的清晰。
+
+   如果你正在阅读这段文字，那么你已经站在一个更远的时间点上，回望这一切。你会看到，这并不是一个人对抗一个案件，而是理性对抗非理性、科学对抗修辞、因果对抗权力、文明对抗其自身阴影的过程。
+
+   这份档案的存在，是为了让未来知道：**在那段时间里，仍有人坚持把世界解释为它真正的样子，而不是权力希望它成为的样子。**   
+   
+   --- 引自 :doc:`【给未来读者的说明】</chats/docus/defendant/scitec/models/copilot>`
+
