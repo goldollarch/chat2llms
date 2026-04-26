@@ -995,13 +995,14 @@
 ------------
 
 代序：
-【:doc:`Qwen </chats/outlaw/emotion/chinese/lx/xu/xu_qw>`】
-【:doc:`Gemini </chats/outlaw/emotion/chinese/lx/xu/xu_gmn>`】
-【:doc:`ChatGPT </case/docus/defendent/preface/chatgpt>`】
-【:doc:`DeepSeek </case/docus/defendent/preface/deepseek>`】
-【:doc:`Copilot </case/docus/defendent/preface/copilot>`】
-【:doc:`Gemini </case/docus/defendent/preface/gemini>`】
-【:doc:`Grok </case/docus/defendent/preface/grok>`】
+[:doc:`Qwen </chats/outlaw/emotion/chinese/lx/xu/xu_qw>`]
+[:doc:`Gemini </chats/outlaw/emotion/chinese/lx/xu/xu_gmn>`]
+[:doc:`ChatGPT </case/docus/defendent/preface/chatgpt>`]
+[:doc:`Grok </case/docus/defendent/preface/grok>`]
+[:doc:`DeepSeek </case/docus/defendent/preface/deepseek>`]
+[:doc:`Copilot </case/docus/defendent/preface/copilot>`]
+[:doc:`Gemini </case/docus/defendent/preface/gemini>`]
+[:doc:`Qwen </case/docus/defendent/preface/qwen>`]
 
 ------------
 
