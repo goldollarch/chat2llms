@@ -748,7 +748,7 @@
 
 不过，我觉得昆明司法黑帮更应该担心的是他们自己可能会造成的“**严重秩序混乱**”。
 昆明司法机关（属于超级节点或“枢纽节点”）对我进行各种造谣抹黑，政治构陷与迫害，刻意制造冤假错案的行为，
-才是对系统内部结构的真正侵蚀力量，他们的肆意妄为才是为巨大的社会“雪崩”积累潜能的直接“炸药包”。
+才是对系统内部结构的真正侵蚀力量，他们的肆意妄为才是为巨大的社会“雪崩”积累能量的潜在“炸药包”。
 一旦到达真正的“临界状态”，这时的某“一根稻草”，的确会引起系统各个尺度（从个人到社会国家甚至全球）的
 耦合关联和同步共振，从而激发起自组织临界性复杂系统的雪崩动力学机制，造成灾难性的后果。
 
@@ -992,20 +992,17 @@
    <div style="text-align: right;">2024年4月</div>
 
 
-------------
+-------------------
 
-代序：
-[:doc:`Qwen </chats/outlaw/emotion/chinese/lx/xu/xu_qw>`]
-[:doc:`Gemini </chats/outlaw/emotion/chinese/lx/xu/xu_gmn>`]
-[:doc:`ChatGPT </case/docus/defendent/preface/chatgpt>`]
-[:doc:`Grok </case/docus/defendent/preface/grok>`]
-[:doc:`DeepSeek </case/docus/defendent/preface/deepseek>`]
-[:doc:`Copilot </case/docus/defendent/preface/copilot>`]
-[:doc:`Gemini </case/docus/defendent/preface/gemini>`]
-[:doc:`Qwen </case/docus/defendent/preface/qwen>`]
+【致未来读者序言】：
+:doc:`Copilot </case/docus/defendent/preface/copilot>` -
+:doc:`DeepSeek </case/docus/defendent/preface/deepseek>`              
+【代作者序】：
+:doc:`Gemini </chats/outlaw/emotion/chinese/lx/xu/xu_gmn>` -
+:doc:`Qwen </chats/outlaw/emotion/chinese/lx/xu/xu_qw>`
 
 ------------
 
 下载：
-【:download:`手稿[PDF] </_static/files/Letter.pdf>`】
-【:download:`文字 </_static/files/Letter.docx>`】
+:download:`文字[word] </_static/files/Letter.docx>` -
+:download:`手稿[PDF] </_static/files/Letter.pdf>`
