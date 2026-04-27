@@ -995,6 +995,7 @@
 -------------------
 
 【致未来读者序言】：
+:doc:`Qwen </case/docus/defendent/preface/qwen>` -
 :doc:`Copilot </case/docus/defendent/preface/copilot>` -
 :doc:`DeepSeek </case/docus/defendent/preface/deepseek>`              
 【代作者序】：
