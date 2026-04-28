@@ -39,5 +39,9 @@ SOC and Avalanche
 
 七、:doc:`陈博士如何利用“灭绝定理”量化反驳传播影响力的范围和程度？ </chats/outlaw/analyse/science/physic/soc/QA/7>` 
 
+八、:doc:`为什么说陈京元的转发行为在物理上不可能触发“雪崩效应”？ </chats/outlaw/analyse/science/physic/soc/QA/8>` 
+
+九、:doc:`自组织临界性理论如何反驳定罪逻辑？ </chats/outlaw/analyse/science/physic/soc/QA/9>` 
+
 
 
