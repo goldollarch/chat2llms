@@ -63,4 +63,9 @@
  .. toctree::
     :maxdepth: 1
 
+    tst/index
+
+ .. toctree::
+    :maxdepth: 1
+
     lx/index

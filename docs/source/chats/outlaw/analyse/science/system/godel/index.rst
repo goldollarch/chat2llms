@@ -21,6 +21,27 @@ Gödel Theorem
     deepseek
     qwen
 
----------------------------
+-------------------
 
-[:doc:`超越哥德尔的限制 </chats/outlaw/analyse/science/system/godel/other>`]
+【问题与解答】
+
+一、:doc:`陈博士如何运用哥德尔定理质疑司法系统的封闭性 </chats/outlaw/analyse/science/system/godel/QA/1>`
+
+二、:doc:`陈博士提出的“怀疑主义认知结构”在法律上为何难以作为反证 </chats/outlaw/analyse/science/system/godel/QA/2>`
+
+三、:doc:`陈京元博士如何利用哥德尔定理进行法律自辩 </chats/outlaw/analyse/science/system/godel/QA/3>`
+
+四、:doc:`哥德尔定理在其他政治类案件中有过类似应用吗？ </chats/outlaw/analyse/science/system/godel/QA/4>`
+
+五、:doc:`既然哥德尔定理有局限，法庭通常依据哪些标准认定“明知”？ </chats/outlaw/analyse/science/system/godel/QA/5>`
+
+六、:doc:`在法律自辩中引用哥德尔定理有哪些现实的局限性？ </chats/outlaw/analyse/science/system/godel/QA/6>`
+
+七、:doc:`除了哥德尔定理，此案自辩中还应用了哪些科学理论？ </chats/outlaw/analyse/science/system/godel/QA/7>`
+
+八、:doc:`陈博士认为司法系统的这种“封闭性”为何会危害国家利益？ </chats/outlaw/analyse/science/system/godel/QA/8>`
+
+九、:doc:`如何超越哥德尔的限制？ </chats/outlaw/analyse/science/system/godel/QA/9>`
+
+
+
