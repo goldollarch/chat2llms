@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepseek &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Qwen" href="qwen.html" />
+    <link rel="prev" title="ChatGPT" href="chatgpt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">科学理论</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../system/index.html">系统</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../physic/index.html">物理</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">心理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">科学理论</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">心理</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Cognitive</a></li>
+      <li class="breadcrumb-item active">Deepseek</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/psycho/cognitive/deepseek.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="deepseek">
+<h1>Deepseek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="id1">
+<h2>从认知心理学的视角对陈京元案件的分析<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>以下从<strong>认知心理学</strong>（Cognitive Psychology）的视角对陈京元博士案件进行分析。认知心理学研究人的<strong>心智过程</strong>，包括<strong>注意、记忆、思维、决策、问题解决</strong>等。这一视角将帮助我们剥离宏大的哲学和政治叙事，聚焦于本案中关键参与者（尤其是司法人员）的<strong>内在信息处理机制如何出现了系统性偏差和故障</strong>，从而导致了一个在理性上站不住脚的判决。</p>
+<hr class="docutils" />
+<p><strong>分析框架：认知心理学的核心过程</strong></p>
+<ol class="arabic simple">
+<li><p><strong>信息感知与注意偏差：选择性过滤的“犯罪”</strong></p></li>
+<li><p><strong>记忆与图式：用“罪犯”模板扭曲事实</strong></p></li>
+<li><p><strong>思维与决策偏差：非理性的认知捷径</strong></p></li>
+<li><p><strong>社会认知：刻板印象与归因错误</strong></p></li>
+<li><p><strong>动机性推理：目标导向的认知扭曲</strong></p></li>
+</ol>
+<hr class="docutils" />
+<section id="id2">
+<h3><strong>一、 信息感知与注意偏差：选择性过滤的“犯罪”</strong><a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>认知心理学指出，人的感知和注意是<strong>选择性</strong>的。我们倾向于注意那些符合我们预期和信念的信息，而忽略或淡化与之矛盾的信息。这种机制在高压或目标明确的任务中尤为明显。</p>
+<ul class="simple">
+<li><p><strong>司法人员的“注意焦点”</strong>：
+在本案中，司法机关的注意资源被高度导向于 <strong>“证实犯罪”</strong> 这一目标。</p>
+<ul>
+<li><p><strong>确认性注意</strong>：他们只<strong>注意和收集</strong>能够支持“陈京元有罪”的信息（如“他转发了境外信息”），而<strong>主动忽略或低估</strong>无罪信息（如“粉丝数不足百人”、“无实际混乱证据”、“学术交流动机”）。</p></li>
+<li><p><strong>过滤性感知</strong>：陈京元博士的“转发”行为，本身是一个中性的、多义的行为（可理解为学术交流、信息存档、个人兴趣等）。但司法系统通过其认知过滤器，<strong>只“感知”到了其中一种可能性——“潜在威胁”或“滋事”</strong>，并将其认定为唯一真实的意义。</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id3">
+<h3><strong>二、 记忆与图式：用“罪犯”模板扭曲事实</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>我们利用<strong>图式</strong>（Schema）——一种组织知识的心理结构——来快速理解和记忆新信息。但图式也会导致我们<strong>扭曲</strong>新信息以符合已有的认知框架。</p>
+<ul class="simple">
+<li><p><strong>“寻衅滋事罪犯”图式的激活与应用</strong>：
+司法人员心中存在一个强大的 <strong>“政治性罪犯”图式</strong>（可能包含“挑战权威”、“传播异见”、“影响稳定”等特征）。当陈京元案出现时：</p>
+<ol class="arabic simple">
+<li><p><strong>信息同化</strong>：他们将陈京元的特征（博士、转发境外信息）<strong>同化</strong>到这个现成的图式中。</p></li>
+<li><p><strong>记忆重构</strong>：在回忆和记录案情时，他们可能<strong>无意识地扭曲细节</strong>，使其更符合“罪犯”图式（如夸大其行为的潜在影响，忽略其微小的传播范围）。</p></li>
+<li><p><strong>“高学历”子图式的错误链接</strong>：他们将“高学历”这个特征，错误地链接到“明知故犯”、“主观恶意”等子图式上，而不是链接到“严谨”、“求真”上。这是一种<strong>图式驱动的错误推理</strong>。</p></li>
+</ol>
+</li>
+</ul>
+</section>
+<section id="id4">
+<h3><strong>三、 思维与决策偏差：非理性的认知捷径</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>认知心理学揭示了人类在思维和决策中大量依赖<strong>启发式</strong>（heuristics）——即心理捷径。这些捷径虽然高效，但常导致系统性偏差。</p>
+<ul class="simple">
+<li><p><strong>代表性启发式（Representativeness Heuristic）</strong>：</p>
+<ul>
+<li><p><strong>偏差</strong>：人们根据某事物与原型的相似度来判断其概率，而忽略基础概率。</p></li>
+<li><p><strong>本案应用</strong>：法官认为陈京元“像”一个潜在的滋事者（因为他符合“高知接触境外信息”这一原型），便直接推断他<strong>就是</strong>滋事者，完全忽略了“绝大多数此类转发行为并未造成严重混乱”这一<strong>基础概率</strong>。</p></li>
+</ul>
+</li>
+<li><p><strong>情感启发式（Affect Heuristic）</strong>：</p>
+<ul>
+<li><p><strong>偏差</strong>：人们对事物的判断和决策强烈依赖于当下的情感反应。</p></li>
+<li><p><strong>本案应用</strong>：司法机关对“境外信息”、“政治敏感”等词语的<strong>负面情感反应（如恐惧、厌恶）</strong>，直接取代了冷静的证据分析。他们“觉得”这是危险的，所以认定它是危险的。</p></li>
+</ul>
+</li>
+<li><p><strong>锚定效应（Anchoring Effect）</strong>：</p>
+<ul>
+<li><p><strong>偏差</strong>：决策严重依赖于最初获得的信息（锚点）。</p></li>
+<li><p><strong>本案应用</strong>：一旦“寻衅滋事”的指控被提出，这个<strong>锚点</strong>就设定了整个案件的基调。后续的所有“证据”收集和推理，都围绕着如何<strong>证实这个初始锚点</strong>展开，而不是客观评估行为本身。</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id5">
+<h3><strong>四、 社会认知：刻板印象与归因错误</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>社会认知研究我们如何理解他人和社会事件。</p>
+<ul class="simple">
+<li><p><strong>基本归因错误（Fundamental Attribution Error）</strong>：</p>
+<ul>
+<li><p><strong>偏差</strong>：在解释他人行为时，过度归因于其内在特质（性格、意图），而低估外部情境因素。</p></li>
+<li><p><strong>本案应用</strong>：司法机关将陈京元的行为完全归因于其<strong>内在的“恶意”</strong>（如“攻击侮辱”），而完全忽略了<strong>外部情境</strong>（如学术交流的语境、信息求证的需求）。</p></li>
+</ul>
+</li>
+<li><p><strong>刻板印象（Stereotyping）</strong>：</p>
+<ul>
+<li><p><strong>本案应用</strong>：对“知识分子”或“高学历者”的刻板印象在此案中被<strong>恶意激活</strong>。不是将他们视为谨慎、理性的群体，而是刻板地认为他们“更狡猾”、“更有破坏力”，因此需要更严厉的惩罚（“应明辨是非”）。</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="motivated-reasoning">
+<h3><strong>五、 动机性推理（Motivated Reasoning）</strong><a class="headerlink" href="#motivated-reasoning" title="Link to this heading"></a></h3>
+<p>这是最关键的认知机制之一：我们的推理过程常常被<strong>目标或动机</strong>所驱动，而不仅仅是追求客观真相。我们会下意识地寻找支持我们想要结论的理由，并质疑或忽略相反的证据。</p>
+<ul class="simple">
+<li><p><strong>本案中的动机性推理</strong>：
+司法人员的推理很可能被强大的<strong>外部动机</strong>（如“政治正确”、“维稳压力”、“上级意图”）和<strong>内部动机</strong>（如“完成定罪任务”、“避免职业风险”）所驱动。</p>
+<ul>
+<li><p>他们的<strong>认知目标</strong>不是“查明真相”，而是 <strong>“如何将此人定罪”</strong>。</p></li>
+<li><p>因此，他们的整个认知过程——从<strong>注意</strong>（关注什么）、<strong>记忆</strong>（记住什么）、到<strong>思维</strong>（如何推理）——都<strong>系统性地偏向于能够支持定罪结论的方向</strong>。禁止陈京元自辩，是<strong>最极端的动机性推理</strong>——直接<strong>消除可能威胁其目标达成的信息源</strong>。</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id6">
+<h3><strong>结论：一场认知系统的集体故障</strong><a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p>从一般认知心理学视角审视，陈京元博士案件是一场<strong>典型的、多层次的认知系统集体故障</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>感知系统故障</strong>：选择性注意和过滤，只看到“犯罪”。</p></li>
+<li><p><strong>记忆系统故障</strong>：图式驱动，扭曲事实以符合“罪犯”模板。</p></li>
+<li><p><strong>思维系统故障</strong>：滥用启发式，导致一系列决策偏差（代表性、情感、锚定）。</p></li>
+<li><p><strong>社会认知系统故障</strong>：犯下基本归因错误，并受刻板印象驱动。</p></li>
+<li><p><strong>元认知系统故障</strong>：动机性推理完全压制了批判性思维和自省能力。</p></li>
+</ol>
+<p>此案警示我们，<strong>司法公正不仅需要法律条文的完善，更需要司法人员具备良好的认知素养——包括对自身认知偏差的清醒认识、批判性思维的严格训练，以及抵御动机性推理的职业道德和勇气。</strong> 当一整套司法系统的认知过程被非理性因素全面劫持时，它产出的就不再是判决，而是一个<strong>在认知上无效的、充满偏见的错误产品</strong>。陈京元的悲剧，从认知层面看，正是这种<strong>系统性认知失能</strong>的牺牲品。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h2>两种根本对立的认知模式与决策系统之间的冲突<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<p>从认知心理学视角审视此案，可以揭示其核心并非单纯的法律争议，而是<strong>两种根本对立的认知模式与决策系统之间的冲突</strong>。陈京元博士的自辩与司法机关的处置方式，分别体现了典型的<strong>分析性思维系统</strong>与<strong>启发式思维系统</strong>的特征，并在认知闭合需求、心智理论、认知失调等心理机制作用下，演变成一场无法对话的悲剧性碰撞。</p>
+<section id="id8">
+<h3><strong>一、 两种对立的认知模式</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>陈京元：分析性思维（Analytic Thinking）主导的科学家模式</strong></p>
+<ul class="simple">
+<li><p><strong>系统化处理</strong>：其辩词完全依赖<strong>系统2</strong>（慢思考）的深度加工。他构建了复杂的理论模型（网络科学、分支过程、SOC理论），进行概率计算（灭绝概率趋近于零），并严格遵循“假设-推理-结论”的逻辑链条。这体现了高认知需求与高认知反思能力。</p></li>
+<li><p><strong>认知谦逊与对模糊性的高容忍度</strong>：他援引哥德尔定理，本质上是承认人类认知的<strong>根本局限性和不确定性</strong>。他的认知风格是<strong>探索性</strong>的，将信息视为可讨论、可修正的假设，而非定论。这与科学思维中的“可证伪性”原则一致。</p></li>
+<li><p><strong>去情境化的抽象推理</strong>：他将自己的行为从具体社会语境中抽象出来，转化为<strong>网络拓扑中的节点属性</strong>和<strong>信息传播模型中的参数</strong>。这种高度抽象化、去道德化的分析，是其科学训练的结果，但也使其论证与司法关注的“社会危害性”这一具体、情境化的评价维度产生了隔阂。</p></li>
+</ul>
+</li>
+<li><p><strong>司法机关：启发式思维（Heuristic Thinking）主导的标签化模式</strong></p>
+<ul class="simple">
+<li><p><strong>依赖系统1（快思考）与刻板印象</strong>：司法系统在处理大量案件时，必然依赖启发式以提升效率。“转发敏感信息 → 可能扰乱秩序 → 符合‘寻衅滋事’的某些特征”这一链条，可能成为一种<strong>代表性启发</strong>。陈博士的学者身份和复杂论证，可能反而被简化为“为自己开脱的狡辩”这一负面刻板印象。</p></li>
+<li><p><strong>高认知闭合需求</strong>：司法程序有强烈的<strong>认知闭合需求</strong>——需要在法定时限内对案件作出确定性的结论（有罪/无罪）。这种需求会使人倾向于接受简单、明确的叙事（“转发谣言=扰乱秩序”），而排斥复杂、充满不确定性的科学论证（“我的转发在概率上无害”）。陈博士的论证增加了认知负担和模糊性，与司法系统的闭合需求直接冲突。</p></li>
+<li><p><strong>情感与道德启发式</strong>：案件涉及“社会秩序”，极易触发<strong>道德情感</strong>。在“维护稳定”这一强大的道德框架下，个体的复杂推理可能被边缘化。司法机关的认知可能被“保护集体免受潜在危害”的<strong>情感启发式</strong>所主导，从而更关注行为可能被赋予的象征意义（挑战权威），而非其具体、实证化的影响。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id9">
+<h3><strong>二、 关键认知心理机制分析</strong><a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>心智理论的失败</strong>：陈博士与司法机关对彼此的“心智”产生了严重误读。</p>
+<ul class="simple">
+<li><p>陈博士假设司法者具备理解并尊重其科学论证的<strong>认知意愿与能力</strong>。这是他对专业同行进行学术辩论时的心智模型，被错误地套用于司法场景。</p></li>
+<li><p>司法机关可能无法理解或拒绝进入陈博士的<strong>认知世界</strong>。在他们看来，用高深数学证明自己“无害”，可能被视为一种脱离实际、甚至故弄玄虚的抵抗策略，而非严肃的辩护。双方都未能成功向对方“心智化”自己的思维过程。</p></li>
+</ul>
+</li>
+<li><p><strong>认知失调与证实偏误</strong>：</p>
+<ul class="simple">
+<li><p>一旦司法机关形成“此人涉嫌犯罪”的初步判断，<strong>认知失调</strong>机制便开始运作。接受陈博士复杂而有力的科学论证，意味着要承认自己最初的判断可能基于过于简单的认知，这会带来心理上的不适。</p></li>
+<li><p>为了减少失调，<strong>证实偏误</strong>会被强化：司法人员会更关注那些能支持指控的简单事实（如“转发了未被官方认可的信息”），而忽视或贬低那些复杂但具有颠覆性的反驳证据（如网络影响力模型）。陈博士的论证越精巧，越可能被视作“精心编织的借口”，从而被归入已有认知框架中的“负隅顽抗”类别。</p></li>
+</ul>
+</li>
+<li><p><strong>框架效应与叙事理解</strong>：</p>
+<ul class="simple">
+<li><p>司法机关在一个强大的<strong>制度与政治叙事框架</strong>内运作。个体行为被置于“维护国家安全与社会稳定”的宏大叙事中理解。在此框架下，行为的“潜在风险”和“象征意义”权重远大于其“实际物理影响”。</p></li>
+<li><p>陈博士试图引入一个完全不同的<strong>科学叙事框架</strong>，用“节点”、“阈值”、“概率”来重新定义同一行为。这两种叙事框架几乎无法通约。认知心理学表明，人们很难同时采纳两个冲突的框架来理解同一事物。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id10">
+<h3><strong>三、 评估与启示</strong><a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>从认知心理学看，本案是一场<strong>认知模式的系统性碰撞</strong>。陈博士的失败，并非其论证不严谨，而在于其依赖的<strong>分析性认知模式</strong>，在一个由<strong>启发式、高闭合需求、强框架效应和制度化证实偏误</strong>所主导的决策系统中，无法被有效接收、处理与采纳。</p>
+<ul class="simple">
+<li><p><strong>对司法系统的启示</strong>：此案极端地揭示了，当面对超越常识和专业范畴的复杂抗辩时，基于惯常启发式的司法认知可能存在的盲区。一个健全的司法系统需要建立<strong>认知缓冲机制</strong>——例如，引入真正独立的跨学科专家陪审或鉴定，以充当不同认知模式之间的“翻译”和“缓冲”，防止因认知模式冲突而导致的实质不公。</p></li>
+<li><p><strong>对个体的启示</strong>：它展示了当个体认知的复杂性与系统认知的简单化要求产生不可调和的矛盾时，个体理性所能达到的极限。陈博士的文本，成为了这种极限状态的<strong>一份珍贵认知标本</strong>。</p></li>
+</ul>
+<p><strong>结论</strong>：认知心理学视角下，此案远非事实之争，而是<strong>认知架构之争</strong>。陈京元博士试图用一份充满系统2深思的分析报告，去应对一个主要由系统1启发式、情感道德判断和制度性叙事框架所驱动的机器。他的论证在逻辑空间里或许无懈可击，但却未能，也几乎不可能，穿透那道由截然不同的认知心理机制所构筑的屏障。这不仅是某个个体的困境，也是任何高度专业化的理性在遭遇高度程式化的权力系统时，可能面临的普遍性困境。</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chatgpt.html" class="btn btn-neutral float-left" title="ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="qwen.html" class="btn btn-neutral float-right" title="Qwen" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

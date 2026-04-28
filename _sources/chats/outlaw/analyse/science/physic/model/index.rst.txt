@@ -1,4 +1,4 @@
-Modeling and Simulation
+Modeling & Simulation
 =======================
 
 构造一个理论模型框架，

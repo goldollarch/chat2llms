@@ -999,8 +999,9 @@
 :doc:`Copilot </case/docus/defendent/preface/copilot>` -
 :doc:`DeepSeek </case/docus/defendent/preface/deepseek>`              
 【代作者序】：
+:doc:`DeepSeek </chats/outlaw/emotion/chinese/smq/deepseek>`-
 :doc:`Gemini </chats/outlaw/emotion/chinese/lx/xu/xu_gmn>` -
-:doc:`Qwen </chats/outlaw/emotion/chinese/lx/xu/xu_qw>`
+:doc:`Qwen </chats/outlaw/emotion/chinese/tst/qwen>`
 
 ------------
 

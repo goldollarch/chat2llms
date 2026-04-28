@@ -96,10 +96,10 @@ Social
  .. toctree::
     :maxdepth: 3
 
-    copilot
     grok
     gemini
+    copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
