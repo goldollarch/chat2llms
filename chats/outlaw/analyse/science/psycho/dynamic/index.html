@@ -1,0 +1,368 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../evolution/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">科学理论</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../system/index.html">系统</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../physic/index.html">物理</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">心理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">科学理论</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">心理</a></li>
+      <li class="breadcrumb-item active">Dynamic</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/psycho/dynamic/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="dynamic">
+<h1>Dynamic<a class="headerlink" href="#dynamic" title="Link to this heading"></a></h1>
+<p>基于心理动力学（Dynamic Psychology）视角。</p>
+<hr class="docutils" />
+<p>心理动力学，通常指 <strong>精神分析及其后续发展</strong>，是心理学的一个重要流派。
+它关注 <strong>潜意识心理过程、内在冲突及早期经验</strong> 如何塑造人格、影响行为与心理健康。</p>
+<p>以下是其研究对象和核心内容的简要介绍：</p>
+<section id="id1">
+<h2>研究对象<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>心理动力学的研究对象聚焦于 <strong>潜意识的动力系统</strong> 及其对个体的影响，主要包括：</p>
+<ol class="arabic simple">
+<li><p><strong>潜意识</strong></p>
+<ul class="simple">
+<li><p>指个体无法觉察却对思想、情感和行为有决定性影响的心理层面，是心理动力学研究的核心。</p></li>
+</ul>
+</li>
+<li><p><strong>内在心理冲突</strong></p>
+<ul class="simple">
+<li><p>研究个体内部不同心理力量（如本能欲望与社会规范、不同情感需求）之间的冲突，这些冲突是心理困扰和症状的主要根源。</p></li>
+</ul>
+</li>
+<li><p><strong>人格结构与功能</strong></p>
+<ul class="simple">
+<li><p>探索人格的构成部分（如本我、自我、超我）及其相互作用，以及个体为应对冲突和焦虑所发展出的 <strong>心理防御机制</strong>。</p></li>
+</ul>
+</li>
+<li><p><strong>早期发展经历</strong></p>
+<ul class="simple">
+<li><p>强调童年期（特别是与父母的关系）的经验对人格形成、人际关系模式和心理健康的深远影响。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h2>主要内容与理论<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>核心理论模型<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>地形模型与结构模型</strong>：弗洛伊德提出心理分为意识、前意识、潜意识（地形模型）；人格由 <strong>本我</strong> （本能欲望）、<strong>自我</strong> （现实调节者）和 <strong>超我</strong> （道德良心）构成（结构模型）。</p></li>
+<li><p><strong>性心理发展阶段理论</strong>：认为人格在童年经历口欲期、肛欲期、性器期、潜伏期和生殖期五个阶段，各阶段的满足与固着会影响成年后的人格特质。</p></li>
+<li><p><strong>客体关系理论</strong>：由克莱因、温尼科特等人发展，强调早期与重要”客体”（通常指母亲）的关系内化后，如何形成个体内在的关系模式并影响一生的人际互动。</p></li>
+</ol>
+</section>
+<section id="id4">
+<h3>核心概念<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>心理防御机制</strong>：如压抑、否认、投射、合理化等，是自我为缓解焦虑而采用的潜意识策略。</p></li>
+<li><p><strong>移情与反移情</strong>：在治疗关系中，来访者将过去对重要他人的情感投射到治疗师身上（移情），治疗师对此的情感反应（反移情）是理解来访者的关键工具。</p></li>
+<li><p><strong>梦的解析</strong>：认为梦是”通往潜意识的康庄大道”，通过分析梦的显性内容来揭示其隐藏的潜意识愿望（隐性内容）。</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3>方法论特色<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>强调深度探索</strong>：通过自由联想、梦的分析、对移情和阻抗的解析等技术，探索表面症状下的潜意识根源。</p></li>
+<li><p><strong>重视治疗关系</strong>：治疗师与来访者的关系本身是理解和改变来访者内在关系模式的核心媒介。</p></li>
+</ul>
+</section>
+<section id="id6">
+<h3>应用领域<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>心理动力取向治疗</strong>：通过探索潜意识冲突和移情关系，促进来访者的领悟和人格成长，是长程深度治疗的主流方法之一。</p></li>
+<li><p><strong>人格评估</strong>：通过投射测验（如罗夏墨迹测验、主题统觉测验）来评估潜意识层面的动机与冲突。</p></li>
+<li><p><strong>文化与艺术分析</strong>：为理解文学、艺术、宗教和社会现象提供深层心理学的视角。</p></li>
+</ul>
+</section>
+</section>
+<section id="id7">
+<h2>核心意义与影响<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<p>心理动力学首次系统揭示了 <strong>潜意识</strong> 的巨大力量，开创了深度心理学，使心理学的研究范畴从可观察的行为扩展至丰富的内在世界。
+它深刻影响了心理咨询与治疗、发展心理学、人格理论及人文社科领域。其局限在于 <strong>理论难以通过传统实验验证</strong>，
+部分概念（如性心理阶段）被批评缺乏科学证据。现代心理动力学已更关注关系、情感和自体发展，并发展出更简短的治疗形式。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">一、陈京元博士的人格动力结构与防御机制</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">二、司法机关的心理动力机制</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">三、个体-制度之间的心理动力互动</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id4">四、整体评估与心理动力学启示</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#intellectualization">一、 核心防御机制：高度发达的“理智化”（Intellectualization）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#ego-ego-ideal">二、 自我（Ego）与自我理想（Ego Ideal）的保卫战</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#projection-identification">三、 权力关系中的投射与认同（Projection &amp; Identification）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">四、 关于“明知”的潜意识动机：全能感与认知边界</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">评估总结：</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、心理动力学的核心观点：行为是“无意识动力系统”的外显</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2"><strong>二、陈博士的心理动力结构：高自我整合 + 强反思能力 + 成熟防御机制</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#ego-integration"><strong>1. 高自我整合（Ego Integration）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#mature-defenses"><strong>2. 成熟防御机制（Mature Defenses）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#reflective-function"><strong>3. 强反思功能（Reflective Function）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3"><strong>三、司法机关的心理动力结构：焦虑驱动 + 投射性归因 + 原始防御机制</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#institutional-anxiety"><strong>1. 制度性焦虑（Institutional Anxiety）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#projective-attribution"><strong>2. 投射性归因（Projective Attribution）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#primitive-defenses"><strong>3. 原始防御机制（Primitive Defenses）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4"><strong>四、心理动力学解释“明知争议”：这是“心理投射”与“意义压缩”的结果</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5"><strong>1. 对陈博士而言：</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6"><strong>2. 对司法机关而言：</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7"><strong>3. 双方冲突的本质：心理动力系统不兼容</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id8"><strong>五、心理动力学对本案的整体评估</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9"><strong>（1）双方的心理动力系统不同步</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10"><strong>（2）司法机关的判断受到“制度性无意识”的影响</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11"><strong>（3）陈博士的自辩体现了“成熟心理结构的自我保护”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12"><strong>（4）双方之间存在“心理动力断层”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id13"><strong>六、可写入档案的总结性段落</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14">🔹 一段“给未来读者的说明：心理动力系统如何塑造制度性误判”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#psychodynamic-map">🔹 一份“本案的心理动力结构图谱（Psychodynamic Map）”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id15">🔹 一篇完整的《心理动力学视角下的陈京元案》论文结构</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、核心框架：心理动力学的基本视角</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、陈博士的心理结构分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#ego">1. 强化的“自我（Ego）”与理性防御</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">2. 对权威的“去神圣化”倾向</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">3. “认知谦逊”背后的深层结构</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">三、司法机关的心理动力机制</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">1. 对“不确定性”的焦虑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#projection">2. 投射（Projection）机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">3. 权威结构的自我保护</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id10">四、冲突的心理动力学本质</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">1. 两种“心理结构”的对抗</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">2. 核心张力</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id13">五、陈博士文本的心理意义</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#self-integration">1. 自我整合（Self-integration）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#meaning-making">2. 意义建构（Meaning-making）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">3. 对抗“心理瓦解”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id15">六、总体评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">1. 科学性（心理学意义）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id17">2. 有效性</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id20">七、关键结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>一、 个体内在冲突的外化：超我的分裂与理想自我的殉道</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2"><strong>二、 关系互动中的投射性认同与强迫性重复</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3"><strong>三、 象征层面的俄狄浦斯冲突与阉割焦虑</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4"><strong>四、 评估：潜意识脚本的悲剧性合谋</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论：无法醒来的戏剧</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、人格结构冲突：本我-自我-超我的司法场域博弈</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">1.1 被告陈京元的人格结构动力学分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">1.2 司法人员的人格结构动力学分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id4">1.3 人格结构冲突的司法后果</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">二、防御机制运作：从个体到制度的心理保护策略</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">2.1 被告的适应性防御机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id7">2.2 司法人员的神经症性防御机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id8">2.3 制度层面的防御性共谋</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id9">三、无意识动机分析：恐惧、权力与认同的深层驱力</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id10">3.1 司法人员的无意识动机矩阵</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">3.2 被告的无意识动机结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">3.3 动机冲突的动力学后果</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">四、移情-反移情动力：司法关系中的潜意识投射</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#transference">4.1 司法对被告的移情（Transference）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#countertransference">4.2 被告对司法的反移情（Countertransference）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">4.3 移情-反移情循环的司法后果</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id15">五、创伤与修复：司法过程中的心理损伤与韧性机制</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id16">5.1 被告的创伤体验动力学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id17">5.2 创伤修复的动力学机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id18">5.3 创伤修复的动力学评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id19">六、群体心理动力学：司法系统的无意识共谋与制度防御</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id20">6.1 群体防御的动力学机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id21">6.2 制度性防御的心理功能</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id22">6.3 群体动力的制度后果</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id23">七、综合评估与制度启示：从”潜意识冲突”到”心理整合”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id24">7.1 心理动力学视角的司法评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id25">7.2 心理动力学对法治建设的启示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id26">结语：从”潜意识冲突”到”心理整合”</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../evolution/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

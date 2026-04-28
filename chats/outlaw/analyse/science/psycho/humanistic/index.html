@@ -1,0 +1,370 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Humanistic &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../behave/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">科学理论</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../system/index.html">系统</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../physic/index.html">物理</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">心理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">科学理论</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">心理</a></li>
+      <li class="breadcrumb-item active">Humanistic</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/psycho/humanistic/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="humanistic">
+<h1>Humanistic<a class="headerlink" href="#humanistic" title="Link to this heading"></a></h1>
+<p>基于人本主义心理学（Humanistic Psychology）的理论视角。</p>
+<hr class="docutils" />
+<p>人本主义心理学是20世纪中叶兴起的心理学”第三势力”，它反对行为主义的机械决定论和精神分析的潜意识决定论，
+强调研究 <strong>人的整体性、主观体验、自由意志、自我实现与成长潜能</strong>，主张心理学应关注人的积极品质和尊严。</p>
+<p>以下是其研究对象和核心内容的简要介绍：</p>
+<section id="id1">
+<h2>研究对象<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>人本主义心理学的研究对象聚焦于 <strong>健康、完整的人及其独特的内心世界</strong>，主要包括：</p>
+<ol class="arabic simple">
+<li><p><strong>人的整体性与独特性</strong></p>
+<ul class="simple">
+<li><p>主张将人视为一个不可分割的整体进行研究，强调每个人的主观经验、情感和价值观都是独一无二的。</p></li>
+</ul>
+</li>
+<li><p><strong>意识经验与主观现实</strong></p>
+<ul class="simple">
+<li><p>研究个体如何感知、解释和赋予世界以意义，认为个人的主观体验（现象场）是其行为的决定性因素。</p></li>
+</ul>
+</li>
+<li><p><strong>自我与自我实现</strong></p>
+<ul class="simple">
+<li><p>核心是研究”自我”的形成、发展，以及个体如何发挥潜能，趋向于 <strong>自我实现</strong> ——即成为”功能充分发挥的人”。</p></li>
+</ul>
+</li>
+<li><p><strong>人类的高级需求与价值</strong></p>
+<ul class="simple">
+<li><p>关注爱、创造力、美感、高峰体验、存在价值等高级心理现象和成长性需求。</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h2>主要内容与理论<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>核心理论<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>马斯洛的需求层次理论</strong>：提出人的需求像金字塔一样从低到高排列：生理需求、安全需求、归属与爱的需求、尊重需求、<strong>自我实现需求</strong>。强调当低级需求满足后，高级的成长性需求（如真、善、美）将成为主要动机。</p></li>
+<li><p><strong>罗杰斯的”来访者中心疗法”与人格理论</strong>：</p>
+<ul class="simple">
+<li><p><strong>自我概念</strong>：个体对自己的整体知觉和评价，是人格的核心。</p></li>
+<li><p><strong>无条件积极关注</strong>：认为当个体在一种被完全接纳、不评价的关系中时，其自我实现的倾向会被激发，从而发生积极的改变。</p></li>
+<li><p><strong>价值条件</strong>：指出他人（尤其是父母）有条件的接纳会导致个体形成扭曲的自我概念，阻碍成长。</p></li>
+</ul>
+</li>
+<li><p><strong>存在主义心理学的影响</strong>：探讨自由、责任、孤独、死亡、生命意义等根本性存在议题。</p></li>
+</ol>
+</section>
+<section id="id4">
+<h3>核心概念<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>自我实现</strong>：指个体尽其所能，成为自己能够成为的人的内在驱动力和过程。</p></li>
+<li><p><strong>高峰体验</strong>：一种短暂的、强烈的、令人心醉神迷的完美体验，是自我实现的短暂时刻。</p></li>
+<li><p><strong>以人为本</strong>：强调在治疗、教育和管理中，应尊重人的主体性，创造促进成长的条件，而非控制和塑造。</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3>方法论特色<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>强调质性研究</strong>：主张通过访谈、个案研究、现象学分析等方法深入理解个体的主观经验。</p></li>
+<li><p><strong>反对还原论</strong>：反对将人简化为刺激-反应或本能冲突的产物，坚持整体研究视角。</p></li>
+</ul>
+</section>
+<section id="id6">
+<h3>应用领域<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>心理治疗</strong>：开创了”来访者中心疗法”，强调治疗关系中的真诚、共情和无条件积极关注，对现代咨询产生了深远影响。</p></li>
+<li><p><strong>教育</strong>：提倡”以学生为中心”的教育，注重培养学生的自主性、创造力和情感发展。</p></li>
+<li><p><strong>组织管理</strong>：促进了”人本化管理”，关注员工的工作满意度、自我价值和成长需求。</p></li>
+</ul>
+</section>
+</section>
+<section id="id7">
+<h2>核心意义与影响<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<p>人本主义心理学将心理学的研究焦点从”病态”和”动物”重新拉回到 <strong>健康的、完整的人本身</strong>，极大地提升了人的尊严和价值在心理学中的地位。
+它强调人的主动性和成长潜能，为心理咨询、教育、管理等领域提供了充满人文关怀的实践哲学。
+其局限在于 <strong>概念较为抽象，难以进行严格的实证检验</strong>。
+它的思想后来被积极心理学等流派所继承和发展。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">一、陈京元博士的人本主义人格特征</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">二、司法过程对陈博士心理需要的破坏</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">三、制度层面的文化-存在意义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id4">四、整体评估</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 需求层次的超越：从“生存”到“自我超越”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#congruence">二、 自我一致性（Congruence）：保卫精神的完整</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#the-will-to-meaning">三、 意义意志（The Will to Meaning）：弗兰克尔式的救赎</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#dehumanization">四、 主体性与非人化（Dehumanization）的抗争</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">五、 综合评估：一个“功能完备的人”</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、人本主义心理学的核心观点：人是追求意义、真实与自我实现的存在</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2"><strong>二、陈博士的人本主义心理结构：自我实现者 + 真实自我表达 + 内在价值驱动</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#self-actualization-tendency"><strong>1. 自我实现倾向（Self-Actualization Tendency）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#authentic-self-congruence"><strong>2. 真实自我（Authentic Self）与一致性（Congruence）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#intrinsic-value-orientation"><strong>3. 内在价值驱动（Intrinsic Value Orientation）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3"><strong>三、司法机关的心理结构：外控取向 + 条件式价值 + 去人性化判断</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#external-locus-of-control"><strong>1. 外控取向（External Locus of Control）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#conditions-of-worth"><strong>2. 条件式价值（Conditions of Worth）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#dehumanized-evaluation"><strong>3. 去人性化判断（Dehumanized Evaluation）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4"><strong>四、人本主义解释“明知争议”：这是“真实自我”与“外控标签”的冲突</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5"><strong>1. 对陈博士而言：</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6"><strong>2. 对司法机关而言：</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7"><strong>3. 双方冲突的本质：价值系统不兼容</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id8"><strong>五、人本主义心理学对本案的整体评估</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9"><strong>（1）双方的行为意义来自不同的价值系统</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10"><strong>（2）司法机关的判断受到“条件式价值”影响</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11"><strong>（3）陈博士的自辩体现了“高度真实的自我表达”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12"><strong>（4）双方之间存在“价值断层”与“意义断层”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id13"><strong>六、可写入档案的总结性段落</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14">🔹 一段“给未来读者的说明：人本主义视角下的制度性误读”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#humanistic-value-map">🔹 一份“本案的价值系统图谱（Humanistic Value Map）”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id15">🔹 一篇完整的《人本主义心理学视角下的陈京元案》论文结构</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、理论框架：人本主义的核心命题</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#self-actualization">1. 自我实现（Self-actualization）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#authentic-self">2. 真实自我（Authentic self）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#unconditional-positive-regard">3. 无条件积极关注（Unconditional positive regard）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、陈博士的心理状态：自我实现取向的人格</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">1. 强烈的自我实现动机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#authenticity">2. 高度真实性（Authenticity）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#congruence">3. 自我一致性（Congruence）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">三、制度环境的心理特征：条件化评价体系</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#conditions-of-worth">1. 条件化价值判断（Conditions of worth）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">2. 标签化认知</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">3. 对真实性的压制</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#vs">四、核心冲突：自我实现 vs 条件化存在</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">1. 两种“存在方式”的对抗</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#existential-conflict">2. 存在性冲突（Existential conflict）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">五、心理后果分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">1. 对个体的影响</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">2. 对系统的影响（间接）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id13">六、《自辩血书》的心理意义</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">1. 自我实现的延续</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">2. 对“被理解”的追求</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id16">3. 对人格尊严的维护</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id17">七、总体评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">1. 个体层面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">2. 环境层面</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id20">八、核心结论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id21">一句话总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>一、 核心冲突：自我实现倾向与限制性环境的对抗</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2"><strong>二、 人的“主体性”被降格为“客体”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3"><strong>三、 存在选择与异化</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4"><strong>四、 评估：一场关于人性假设的冲突</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5"><strong>结论与人文呼唤</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、人本需求层级分析：基本心理需求的系统性剥夺</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">1.1 马斯洛需求层次理论的本案例映射</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">1.2 罗杰斯”价值条件”与”无条件积极关注”的缺失</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">二、自我实现倾向分析：学者人格的成长性追求与制度性压制</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">2.1 陈京元的自我实现特征（基于马斯洛理论）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">2.2 制度对自我实现的系统性压制</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id7">三、意义疗法视角：创伤中的意义建构与存在性抗争</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id8">3.1 弗兰克尔意义疗法的三维度应用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id9">3.2 存在性四维度的完整性维护</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id10">四、关系品质评估：以人为中心的司法沟通缺失</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">4.1 罗杰斯”治疗性关系”三要素的司法对照</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">4.2 “我-你”关系与”我-它”关系的哲学对照</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">五、制度层面的人本缺失：从”控制逻辑”到”成长逻辑”的范式转换</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">5.1 人本主义司法生态的核心要素</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id15">5.2 人本主义对法治建设的启示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id16">六、综合评估与结语：从”人性压制”到”尊严共建”</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../behave/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
