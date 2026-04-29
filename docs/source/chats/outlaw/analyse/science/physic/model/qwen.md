@@ -39,7 +39,7 @@
 
 参考：【[陈京元账号](https://x.com/_cenjoy)】
 【[账户互动数据](/chats/elements/disorder/twitter/cenjoy)】
-【[转贴传播数据](/chats/elements/disorder/twitter/cenjoy)】
+【[转贴传播数据](/chats/elements/disorder/twitter/tweets)】
 
 ```python
 ## 本案事实参数（保守估计，取上限值）
