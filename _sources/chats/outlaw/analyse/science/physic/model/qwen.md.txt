@@ -35,7 +35,11 @@
 
 ### 二、本案参数设定：基于事实的量化约束
 
-#### 2.1 节点属性参数（陈京元账号）
+#### 2.1 节点属性参数
+
+参考：【[陈京元账号](https://x.com/_cenjoy)】
+【[账户互动数据](/chats/elements/disorder/twitter/cenjoy)】
+【[转贴传播数据](/chats/elements/disorder/twitter/cenjoy)】
 
 ```python
 ## 本案事实参数（保守估计，取上限值）
