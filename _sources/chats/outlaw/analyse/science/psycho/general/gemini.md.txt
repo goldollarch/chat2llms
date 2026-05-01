@@ -96,7 +96,8 @@
 
 **结论**：陈京元的心理状态并非“寻衅滋事”典型的冲动或扭曲，而是一种高度组织化的、基于专业信仰的**理性反抗**。在心理测度上，其行为轨迹更符合“学术探索者”的特征，而非“秩序破坏者”。
 
----
 
-[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/gemini.md)]
-[[被告心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/gemini.md)]
+----------------------
+
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/gemini.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/gemini.md)]

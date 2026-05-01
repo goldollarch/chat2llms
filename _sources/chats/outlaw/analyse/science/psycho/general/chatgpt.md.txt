@@ -576,7 +576,8 @@
 
 这个案子，其实非常适合写成一篇跨学科代表性论文。
 
----
 
-[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/gpt.md)]
-[[被告心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/gpt.md)]
+----------------------
+
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/chatgpt.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/chatgpt.md)]

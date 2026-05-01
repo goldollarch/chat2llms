@@ -184,4 +184,5 @@ ChatGPT
 
 --------
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/gpt.md)】
+【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/chatgpt.md)】
+【[被告人基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/chatgpt.md)】

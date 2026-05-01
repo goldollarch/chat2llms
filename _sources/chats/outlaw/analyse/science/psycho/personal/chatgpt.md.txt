@@ -471,6 +471,6 @@
 如果你愿意，我可以进一步把这个人格分析与**刑法中的主观故意认定标准**做一个逐条对接（形成一份可用于论文或法律意见书的结构化版本）。
 
 
----
+--------------
 
-[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/resutls/chatgpt.md)]
+[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/gdc/chatgpt.md)]

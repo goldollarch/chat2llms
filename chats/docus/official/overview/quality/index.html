@@ -1,0 +1,410 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>质量与合规性审查 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="总体分析与评估" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Legal Documents Analysis</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">官方正式文书</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../Indictment/index.html">检察院起诉书</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Judgment/index.html">一审法院判决书</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Ruling/index.html">二（终）审裁定书</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">总体分析与评估</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">质量与合规性审查</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../languge/index.html">语言滥用和逻辑谬误</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../common/copilot.html">Copilot：专案研究</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../common/index.html">综合分析与比较</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../defendant/index.html">被告狱中书信</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Legal Documents Analysis</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">官方正式文书</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">总体分析与评估</a></li>
+      <li class="breadcrumb-item active">质量与合规性审查</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/docus/official/overview/quality/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>质量与合规性审查<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>针对这六份由不同大语言模型（Grok、Gemini、ChatGPT、Copilot、DeepSeek、Qwen）生成的审查报告，
+以下是对其分析结果的深度横向对比，旨在说明各模型的异同点与各自的方法论特色。</p>
+<section id="id2">
+<h2>核心共识：分析结论的高度同质性<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>尽管各模型的技术背景不同，但它们对本案三份官方法律文书的质量评价展现出了高度的”共识”。
+这种一致性表明，现代顶尖 LLMs 在处理法律逻辑缺陷和程序瑕疵时已具备极其敏锐的识别能力。</p>
+<ul class="simple">
+<li><p><strong>定性结论一致</strong>：所有模型均认定，虽然文书在形式上基本合规，但在实体认定、证据链条和法律说理上存在严重缺陷。</p></li>
+<li><p><strong>逻辑谬误识别</strong>：六个模型集体指出了”高学历意味着明知”这一推理逻辑的荒谬性，一致认为这是典型的”身份推定”或”客观归罪”。</p></li>
+<li><p><strong>证据真空指认</strong>：模型普遍指出，控方未能提供关于”造成公共秩序严重混乱”这一结果要件的任何量化证据或现实后果证明。</p></li>
+<li><p><strong>范畴混淆共识</strong>：各模型均识别出法院混淆了”事实陈述”与”观点评价”，将不可证伪的政治或艺术表达错误地定性为”虚假信息”。</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>差异化分析：各模型的”性格”与方法论<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="chatgpt">
+<h3>ChatGPT：学术化与系统科学视角<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特色</strong>：倾向于构建标准化的学术评估模型。它使用了”五层结构模型”进行模块化打分，将法律审查流程化、量化。</p></li>
+<li><p><strong>独特视角</strong>：引入了”复杂系统视角”。它指出，将个体的微观网络行为直接等同于宏观社会秩序的混乱，属于”线性因果错误”，展现了法社会学的宏观思考。</p></li>
+</ul>
+</section>
+<section id="copilot">
+<h3>Copilot：分析哲学与语言学解构<a class="headerlink" href="#copilot" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特色</strong>：侧重于语言的纯洁性与形式逻辑的严密性。</p></li>
+<li><p><strong>独特视角</strong>：使用了大量的分析哲学和语言学术语（如”指称缺失”、”伪命题”、”不相干推论”）。它更像一位严苛的语言法官，剖析官方文书如何利用”政治修辞”来填充”法律论证”的真空。</p></li>
+</ul>
+</section>
+<section id="deepseek">
+<h3>DeepSeek：司法实务的精准映射<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特色</strong>：极度贴近本土司法实务，其行文风格与思维路径最接近资深刑辩律师。</p></li>
+<li><p><strong>独特视角</strong>：采用”逐份文书审查”模式，紧扣中国现行刑事诉讼的规范细节，精准指出了二审不开庭审理在程序上的严重瑕疵，具有极强的实战参考价值。</p></li>
+</ul>
+</section>
+<section id="gemini">
+<h3>Gemini：批判法学与权力修辞分析<a class="headerlink" href="#gemini" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特色</strong>：呈现出鲜明的”批判法学”特征，语言犀利且直击政治法律的核心痛点。</p></li>
+<li><p><strong>独特视角</strong>：它不仅指出逻辑错误，更揭示了文书背后的权力属性。它将官方法律文书定性为一种”权力意志的叙事包装”，强调了法律语言在此类案件中被异化的风险。</p></li>
+</ul>
+</section>
+<section id="grok">
+<h3>Grok：法条实证与逻辑核验<a class="headerlink" href="#grok" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特色</strong>：非常注重实证法律依据，像一位严谨的法律教义学者。</p></li>
+<li><p><strong>独特视角</strong>：它是唯一明确援引《两高网络解释》中具体数额/量化标准（如转发量不足百次），并据此判定入罪要件不成立的模型。此外，它还敏锐捕捉到了起诉书中”七何”要素缺失的硬伤。</p></li>
+</ul>
+</section>
+<section id="qwen">
+<h3>Qwen：结构化诊断与制度建议<a class="headerlink" href="#qwen" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>特色</strong>：宏观结构感极强，擅长从系统性角度发现链条式的缺陷。</p></li>
+<li><p><strong>独特视角</strong>：构建了”三阶递进失守”模型，将起诉、一审、二审看作一个相互嵌套、逐级背书的司法闭环。它使用了如”形式流转、实质空转”等精准的法律隐喻，并给出了具体的中长期制度改进建议。</p></li>
+</ul>
+</section>
+</section>
+<section id="id4">
+<h2>总结对比表<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<table class="docutils align-center" id="id6">
+<caption><span class="caption-text">六大模型分析特点对比</span><a class="headerlink" href="#id6" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 20.0%" />
+<col style="width: 20.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>模型</strong></p></th>
+<th class="head"><p><strong>核心视角</strong></p></th>
+<th class="head"><p><strong>典型风格</strong></p></th>
+<th class="head"><p><strong>适用场景</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>ChatGPT</strong></p></td>
+<td><p>系统工程</p></td>
+<td><p>模块化、量化评分</p></td>
+<td><p>学术评估、宏观综述</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Copilot</strong></p></td>
+<td><p>分析哲学</p></td>
+<td><p>逻辑解构、语言审查</p></td>
+<td><p>深度逻辑批判、文书漏洞挖掘</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>DeepSeek</strong></p></td>
+<td><p>法律实务</p></td>
+<td><p>律师辩护词风格</p></td>
+<td><p>诉讼实战建议、程序监督</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Gemini</strong></p></td>
+<td><p>批判法学</p></td>
+<td><p>犀利解构、权力透视</p></td>
+<td><p>法理研究、权力运行逻辑分析</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Grok</strong></p></td>
+<td><p>法律教义</p></td>
+<td><p>细节实证、法条对照</p></td>
+<td><p>法条适用准确性校验、细节审计</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Qwen</strong></p></td>
+<td><p>结构诊断</p></td>
+<td><p>闭环分析、制度反思</p></td>
+<td><p>系统性纠错、政策/制度建议报告</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>总体来看：</strong>
+如果你需要 <strong>实战性的辩护思路</strong>，DeepSeek 和 Grok 提供的论据最为精准；
+如果你需要 <strong>深刻的理论批判或逻辑重构</strong>，Copilot 和 Gemini 是更好的选择；
+而如果你需要一份 <strong>体系化的合规评估报告</strong>，ChatGPT 和 Qwen 提供的结构化框架则最具说服力。</p>
+</section>
+<section id="id5">
+<h2>模型分析集<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">一、总体质量评估</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">二、具体审查意见</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#z1">1. 起诉书（西检刑诉【2023】Z1号）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">2. 一审判决书（（2023）云0112刑初57号）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">3. 二审裁定书（（2023）云01刑终310号）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id5">三、总体合规性与质量结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 事实认定质量审查：证据链的“真空状态”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">二、 法律逻辑合规性审查：系统性谬误分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#ad-hominem">1. 身份推定谬误（Ad Hominem）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#begging-the-question">2. 循环论证（Begging the Question）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#category-mistake">3. 非法等同（Category Mistake）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">三、 文书修辞与语用规范审查</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">四、 二审程序说理合规性审查</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id5">五、 综合评估结论与制度反思</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、审查目的与方法</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">（一）审查目的</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">（二）审查方法</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">二、总体评估结论（摘要）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">三、分项审查</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">（一）形式合规性审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">（二）事实认定与证据规则审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">（三）法律适用审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">（四）论证逻辑审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id23">（五）语言与概念规范审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id26">（六）程序合规性审查</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id29">四、复杂系统视角的补充评估（创新部分）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id30">（一）因果关系审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id31">（二）归责合理性</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id32">五、综合评分（建议性评估模型）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id33">总体评分：<strong>4/10（低于合格标准）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id34">六、结论性意见</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id35">七、改进建议（制度层面）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id36">1. 强化结果要件审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id37">2. 限制概念扩张</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id38">3. 提升论证义务</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id39">4. 引入传播证据标准</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id40">如果你还要再往前推进（非常建议）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id41">👉 1. “司法评估白皮书”（可公开发布）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id42">👉 2. “再审申请论证结构”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id43">👉 3. “国际人权法提交材料版本”（英文强化版）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、审查目的与范围</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#executive-summary"><strong>二、总体结论（Executive Summary）</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2"><strong>三、语言与表述质量审查</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3"><strong>1. 高频空洞术语的滥用（缺乏指称对象）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5"><strong>四、概念使用审查：存在严重范畴错误</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6"><strong>1. 将“观点/讽刺/批评”错误归入“虚假信息”范畴</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7"><strong>2. 强行等同“言—意—果”三层行为</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id8"><strong>五、逻辑结构审查：存在系统性推理错误</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#ad-hominem"><strong>1. 人身攻击式推理（Ad Hominem）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#non-sequitur"><strong>2. Non Sequitur（前提与结论脱节）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#begging-the-question"><strong>3. 循环论证（Begging the Question）</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id9"><strong>六、证据体系审查：证据链与构成要件链严重错位</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10"><strong>1. 证据链仅证明“行为存在”，未证明“犯罪成立”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12"><strong>2. 缺乏任何关于“混乱”的客观证据</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id13"><strong>七、程序法审查：存在重大程序违法</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14"><strong>1. 不公开审理缺乏法律依据</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id15"><strong>2. 二审未开庭审理违反刑诉法第223条</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id16"><strong>3. 辩护权未得到充分保障</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id17"><strong>八、法律适用审查：寻衅滋事罪被明显扩张使用</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id18"><strong>1. 本案不符合《两高网络诽谤解释》的量化标准</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id19"><strong>2. 寻衅滋事罪被用作兜底罪名</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id22"><strong>九、最终审查结论</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id23"><strong>综合判断：</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id24"><strong>十、如需进一步深化，我可以继续提供：</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1"><strong>一、 总体评价</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2"><strong>二、 分项审查意见</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3"><strong>三、 系统性合规缺陷总结</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4"><strong>四、 审查结论与建议</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、 总体评估结论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、 文书链系统性缺陷分析（三阶递进失守）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">🔹 第一阶：起诉书（指控源头失范）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id4">🔹 第二阶：一审判决书（事实认定与证据采信失守）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">🔹 第三阶：二审裁定书（程序监督与纠错功能瘫痪）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id6">三、 核心违法与违规维度对照</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id7">四、 程序正义与实体公正的双重崩塌</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id8">📉 实体层面：构成要件全面虚化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id9">📉 程序层面：诉讼机制全面空转</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id10">五、 合规改进与司法救济建议</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id11">🔧 短期救济路径（若案件仍在法定救济期内）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id12">🛡️ 中长期制度建议</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id13">六、 审查结语</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="总体分析与评估" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
