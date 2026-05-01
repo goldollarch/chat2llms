@@ -118,4 +118,4 @@
 
 ---
 
-[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/gdc/gemini.md)]
+[[被告人格特质分析](/chats/outlaw/analyse/science/psycho/personal/gdc/gemini.md)]

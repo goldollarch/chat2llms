@@ -128,12 +128,7 @@
  .. toctree::
     :maxdepth: 1
 
-    forensic/index
-
- .. toctree::
-    :maxdepth: 1
-
-    cognitive/index
+    behave/index
 
  .. toctree::
     :maxdepth: 1
@@ -143,22 +138,17 @@
  .. toctree::
     :maxdepth: 1
 
-    behave/index
-
- .. toctree::
-    :maxdepth: 1
-
-    humanistic/index
-
- .. toctree::
-    :maxdepth: 1
-
-    develop/index
+    cognitive/index
 
  .. toctree::
     :maxdepth: 1
 
     evolution/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    develop/index
 
  .. toctree::
     :maxdepth: 1
@@ -173,12 +163,7 @@
  .. toctree::
     :maxdepth: 1
 
-    positive/index
-
- .. toctree::
-    :maxdepth: 1
-
-    health/index
+    humanistic/index
 
  .. toctree::
     :maxdepth: 1
@@ -189,3 +174,18 @@
     :maxdepth: 1
 
     social/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    positive/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    health/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    forensic/index

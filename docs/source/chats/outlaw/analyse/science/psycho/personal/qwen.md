@@ -10,7 +10,7 @@
 
 ### **一、 陈京元的人格特质：大五人格模型下的“学者型人格”**
 
-根据“大五人格模型”（Big Five Personality Traits），陈京元展现出典型的**学者型人格**：
+根据“大五人格模型”（Big Five Personality Traits），陈京元展现出典型的 **学者型人格**：
 
 **1. 极高的“开放性”**（Openness to Experience）
 - **表现**：他广泛涉猎文史哲、政经财、数理化，将“学习”视为生命本质；其转发内容涵盖艺术、学术、政治、情感，体现对多元思想的强烈好奇心与审美敏感性。
@@ -298,4 +298,4 @@ Bandura（1999）提出的8种道德推脱策略在本案均有体现：
 
 -------------------------------------------------------
 
-[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/gdc/qwen.md)]
+[[被告人格特质分析](/chats/outlaw/analyse/science/psycho/personal/gdc/qwen.md)]

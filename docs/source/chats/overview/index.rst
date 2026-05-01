@@ -19,3 +19,8 @@ Overview of the Case
     :maxdepth: 3
 
     analyse/index
+    
+ .. toctree::
+    :maxdepth: 3
+
+    white/no
