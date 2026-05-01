@@ -203,6 +203,8 @@
 
 当司法系统学会在复杂性面前保持元认知清醒，在权力面前维持程序正义感知，在科学面前保持认知谦逊，它才能从“心理失效”走向“理性清明”。这不仅是本案的教训，更是现代刑事司法不可回避的心理学命题。
 
----
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/qw.md)】
+--------
+
+【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/qwen.md)】
+【[被告人基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/qwen.md)】

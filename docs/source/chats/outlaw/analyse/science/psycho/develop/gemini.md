@@ -65,4 +65,4 @@ Gemini
 
 ---
 
-[[被告人心理发展状况分析](/chats/outlaw/analyse/science/psycho/develop/resutls/gemini.md)]
+[[被告人心理发展状况分析](/chats/outlaw/analyse/science/psycho/develop/gdc/gemini.md)]

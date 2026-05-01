@@ -2,7 +2,7 @@
 
 ---
 
-好的。我将结合 **司法心理学（Forensic Psychology）** 的基本原理来评析陈京元案。司法心理学关注法律系统中的心理因素，包括：**被告的心理特质与行为动机**、**司法过程中的认知偏差**、**群体与权威对司法判断的影响**、**司法公正与心理健康的关系**。以下为中英文对照分析：
+我将结合 **司法心理学（Forensic Psychology）** 的基本原理来评析陈京元案。司法心理学关注法律系统中的心理因素，包括：**被告的心理特质与行为动机**、**司法过程中的认知偏差**、**群体与权威对司法判断的影响**、**司法公正与心理健康的关系**。以下为中英文对照分析：
 
 ---
 
@@ -165,3 +165,8 @@
 **中文**：司法是心理学多重维度的交织点。陈京元案揭示：若忽视个体人格的价值，若纵容群体与权威的压力，若滥用进化机制中的惩罚本能，若忽略司法过程中的心理偏差与心理健康，司法就会失去公正。真正的司法应当在四重心理学的合唱中找到平衡：既尊重个体人格的自由与责任，又警惕群体与权威的压制，并引导进化机制与司法过程走向合作、公正与人性。
 
 **English**: Justice is the intersection of multiple psychological dimensions. The Chen case shows that if the value of personality is ignored, if group and authority pressures are unchecked, if punitive instincts are misused, and if biases and mental health are neglected, justice loses fairness. True justice must find balance in the fourfold chorus of psychology: respecting individual freedom and responsibility, guarding against group and authority suppression, and channeling evolutionary and forensic mechanisms toward cooperation, fairness, and humanity.
+
+---
+
+【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/copilot.md)】
+【[被告人基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/copilot.md)】

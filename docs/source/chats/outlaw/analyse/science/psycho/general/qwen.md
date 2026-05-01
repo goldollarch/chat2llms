@@ -277,7 +277,8 @@
 - 阅读时请注意区分"心理机制描述"与"法律要件认定"的边界，心理分析仅为理解行为模式提供参考，不可替代证据审查
 - 文本结构已按"认知→情绪→意志→人格→意识→压力"模块化标注，便于跨学科引用与比较研究
 
------------------------------------
 
-[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/qw.md)]
-[[被告心理分析](/chats/outlaw/analyse/science/psycho/general/resutls/qw.md)]
+----------------------
+
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/qwen.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/qwen.md)]

@@ -72,4 +72,4 @@
 
 ---
 
-[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/resutls/grok.md)]
+[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/gdc/grok.md)]

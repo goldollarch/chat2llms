@@ -298,4 +298,4 @@ Bandura（1999）提出的8种道德推脱策略在本案均有体现：
 
 -------------------------------------------------------
 
-[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/resutls/qwen.md)]
+[[被告人人格特质分析](/chats/outlaw/analyse/science/psycho/personal/gdc/qwen.md)]

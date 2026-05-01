@@ -12,7 +12,7 @@
  .. toctree::
     :maxdepth: 3
 
-    quality
+    quality/index
 
  .. toctree::
     :maxdepth: 3

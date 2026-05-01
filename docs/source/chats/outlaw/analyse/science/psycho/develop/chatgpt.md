@@ -170,4 +170,4 @@ ChatGPT
 
 -----------
 
-[[被告人心理发展状况分析](/chats/outlaw/analyse/science/psycho/develop/resutls/chatgpt.md)]
+[[被告人心理发展状况分析](/chats/outlaw/analyse/science/psycho/develop/gdc/chatgpt.md)]
