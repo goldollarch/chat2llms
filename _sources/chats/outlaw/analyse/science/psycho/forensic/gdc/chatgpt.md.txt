@@ -2,8 +2,6 @@
 
 ---
 
----
-
 ## 从心理学视角对陈京元博士心理状态的系统分析
 
 （A Systematic Psychological Analysis of Dr. Jingyuan Chen）
