@@ -18,13 +18,3 @@ Scale-free network
     deepseek
     qwen
 
-
--------------------
-
-【问题与解答】
-
-一、:doc:`陈博士引用的“临界阈值公式”具体是如何计算的  </chats/outlaw/analyse/science/physic/scale/QA/1>`
-
-二、:doc:`陈京元博士如何利用“无标度网络”理论反驳指控  </chats/outlaw/analyse/science/physic/scale/QA/2>`
-
-三、:doc:`“边缘节点”身份如何通过无标度网络理论否定因果  </chats/outlaw/analyse/science/physic/scale/QA/3>`
