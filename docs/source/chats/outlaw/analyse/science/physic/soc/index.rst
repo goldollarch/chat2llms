@@ -20,28 +20,3 @@ SOC and Avalanche
     chatgpt
     deepseek
     qwen
-
--------------------
-
-【问题与解答】
-
-一、:doc:`陈博士如何运用物理学中的“雪崩动力学”来论证自己的无罪？ </chats/outlaw/analyse/science/physic/soc/QA/1>`
-
-二、:doc:`本案定罪中对“造成公共秩序严重混乱”的实证反驳有哪些？ </chats/outlaw/analyse/science/physic/soc/QA/2>` 
-
-三、:doc:`详细介绍陈博士提到的Galton-Watson过程灭绝定理。 </chats/outlaw/analyse/science/physic/soc/QA/3>` 
-
-四、:doc:`为什么边缘节点无法在物理上触发跨尺度的“雪崩”？ </chats/outlaw/analyse/science/physic/soc/QA/4>` 
-
-五、:doc:`如何从物理学参数$m$的角度证伪“造成严重混乱”？ </chats/outlaw/analyse/science/physic/soc/QA/5>` 
-
-六、:doc:`这种“深度亚临界区”的科学结论如何转化为法律上的疑罪从无？ </chats/outlaw/analyse/science/physic/soc/QA/6>` 
-
-七、:doc:`陈博士如何利用“灭绝定理”量化反驳传播影响力的范围和程度？ </chats/outlaw/analyse/science/physic/soc/QA/7>` 
-
-八、:doc:`为什么说陈京元的转发行为在物理上不可能触发“雪崩效应”？ </chats/outlaw/analyse/science/physic/soc/QA/8>` 
-
-九、:doc:`自组织临界性理论如何反驳定罪逻辑？ </chats/outlaw/analyse/science/physic/soc/QA/9>` 
-
-
-
