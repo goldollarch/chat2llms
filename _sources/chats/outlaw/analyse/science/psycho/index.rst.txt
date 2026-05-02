@@ -143,17 +143,17 @@
  .. toctree::
     :maxdepth: 1
 
+    dynamic/index
+
+ .. toctree::
+    :maxdepth: 1
+
     evolution/index
 
  .. toctree::
     :maxdepth: 1
 
     develop/index
-
- .. toctree::
-    :maxdepth: 1
-
-    dynamic/index
 
  .. toctree::
     :maxdepth: 1

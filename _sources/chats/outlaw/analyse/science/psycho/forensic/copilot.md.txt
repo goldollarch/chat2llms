@@ -168,5 +168,5 @@
 
 ---
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/copilot.md)】
-【[被告人基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/copilot.md)】
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/copilot.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/copilot.md)]

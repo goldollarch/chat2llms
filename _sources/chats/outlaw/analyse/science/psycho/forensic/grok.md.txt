@@ -28,7 +28,7 @@ Grok
 从司法心理学视角，陈京元案是认知偏差、群体压力与适应失衡的产物：证据加工失真放大威胁，程序缺陷固化不公。但陈的韧性反思，证明个体心理潜力。启示：司法改革需心理干预——偏差训练（如盲审机制）、公正程序设计（如公开辩护）、支持被告适应（如心理援助），方能实现公正生态。案件警示：忽略心理机制，司法将陷偏差循环；整合科学，方护法治之魂。
 
 
---------
+---
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/grok.md)】
-【[被告人基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/grok.md)】
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/grok.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/grok.md)]

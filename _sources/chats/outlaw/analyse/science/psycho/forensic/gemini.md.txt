@@ -96,7 +96,7 @@ Gemini
 愿未来的中国司法，不仅是法条的集合，更是心理的修复之所；不仅是权力的执行场，更是人性的守护地。愿每一位司法参与者，都能在法律与心理之间，找到通向公义的桥梁。
 
 
---------
+----------------------
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/gemini.md)】
-【[被告人基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/gemini.md)】
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/gemini.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/gemini.md)]

@@ -3,17 +3,7 @@ Legal Documents
 
 --------------------------- 
 
-这里收集保存了案件核心法律文档，包括：
-
-（1）官方发布的正式法律文书：
-【:doc:`起诉书 </case/docus/official/indictment>`】、
-一审【:doc:`判决书 </case/docus/official/judgment>`】、
-二（终）审【:doc:`裁定书 </case/docus/official/ruling>`】
-
-（2）被告人陈京元撰写的法律文书：
-【:doc:`上诉书 </case/docus/defendent/appeal>`】、
-【:doc:`不认罪不认罚书 </case/docus/defendent/crimal>`】、
-【:doc:`狱中自辩暨控告血书 </case/docus/defendent/letter>`】
+这里收集保存了案件核心法律文档。
 
 ------------------------
 

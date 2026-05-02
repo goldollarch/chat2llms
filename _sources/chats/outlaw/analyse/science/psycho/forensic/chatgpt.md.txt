@@ -182,7 +182,7 @@ ChatGPT
 唯有当司法者具备心理学意义上的“共情与反思能力”，
 法治才能从权力工具升华为人类理性的象征。
 
---------
+----------------------
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/chatgpt.md)】
-【[被告人基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/chatgpt.md)】
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/chatgpt.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/chatgpt.md)]
