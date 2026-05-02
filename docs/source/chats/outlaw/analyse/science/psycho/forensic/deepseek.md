@@ -147,6 +147,7 @@
 **结论**：司法心理学分析最终指向一个严峻的问题：一个在设计上未能充分考虑并主动规避人类普遍认知偏差的司法系统，其产出冤错案的风险是系统性的。陈京元案不仅仅是一个法律事件，更是一个**司法认知病理学的典型案例**。它警示我们，司法的现代化不仅需要法律条文的完善，更需要深入司法决策的“黑箱”，用对心理机制的洞察来改造流程、制衡权力、保护理性，让法庭真正成为“以证据和理性说服之地”，而非“以权威和偏见裁决之所”。
 
 
----------------------------------
+----------------------
 
-【[警察与司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/resutls/ds.md)】
+[[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/deepseek.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/deepseek.md)]

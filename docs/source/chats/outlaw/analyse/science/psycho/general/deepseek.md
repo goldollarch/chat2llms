@@ -116,4 +116,4 @@
 ----------------------
 
 [[司法人员心理分析](/chats/outlaw/analyse/science/psycho/forensic/officer/deepseek.md)]
-[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/general/gdc/deepseek.md)]
+[[被告基本心理分析](/chats/outlaw/analyse/science/psycho/forensic/gdc/deepseek.md)]
