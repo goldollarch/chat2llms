@@ -237,3 +237,8 @@ if __name__ == "__main__":
 
     # # rstfromdocx
     # os.system("rstfromdocx -lurg 项目概要.docx")
+
+    # md to doc:
+    # pandoc input.md -o output.docx
+    # pandoc input.rst -o output.docx
+    # 如需处理LaTeX公式：pandoc input.md -f markdown+tex_math_dollars -o output.docx

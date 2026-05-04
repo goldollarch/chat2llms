@@ -6,7 +6,7 @@
 意识形态等领域的描述、总结、分析或评论性质的理论文章。
 
 
-Refer to: :ref:`Self-Defense and Accusation from Prison <rational-understanding>`
+参考: :ref:`狱中自辩暨控告血书 <rational-understanding>`
 
 
 -------------
