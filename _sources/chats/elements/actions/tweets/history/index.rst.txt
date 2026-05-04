@@ -6,7 +6,7 @@
 所依据的"犯罪证据"包括其曾经转发过的纯粹属于历史资料和现实表述内容的文章，
 这些文章被警方一概定性为"谣言"。
 
-Refer to: :ref:`Self-Defense and Accusation from Prison <historical-realities>`
+参考: :ref:`狱中自辩暨控告血书 <historical-realities>`
 
 
 -------------
