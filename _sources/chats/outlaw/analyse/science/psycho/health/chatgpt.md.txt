@@ -1,4 +1,4 @@
-ChatGPT
+# ChatGPT
 -------
 
 从 **健康心理学（Health Psychology）** 的视角，本案可以被理解为：

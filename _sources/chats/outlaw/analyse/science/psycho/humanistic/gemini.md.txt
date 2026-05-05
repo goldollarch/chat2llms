@@ -1,4 +1,4 @@
-Gemini
+# Gemini
 ------
 
 从人本主义心理学（Humanistic Psychology）的视角来看，陈京元博士的《狱中自辩暨控告血书》不仅是一份法律申诉，更是一个人为了捍卫其 **主体性（Agency）**、**完整性（Integrity）** 和 **意义感（Meaning）** 而进行的极端生命实践。

@@ -1,4 +1,4 @@
-Gemini
+# Gemini
 ------
 
 从行为心理学（Behavioral Psychology）的视角来看，陈京元博士案可以被视为一个关于 **刺激（Stimulus）、反应（Response）与强化（Reinforcement）** 的复杂动力学过程。行为心理学摈弃对内部心理状态的揣摩，转而关注可观察的行为以及环境对行为的塑造。

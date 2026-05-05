@@ -1,4 +1,4 @@
-Gemini
+# Gemini
 ------
 
 从健康心理学（Health Psychology）的视角来看，陈京元博士的案情是一个关于**极端应激（Stress）、心理韧性（Resilience）与身心健康维持**的典型案例。

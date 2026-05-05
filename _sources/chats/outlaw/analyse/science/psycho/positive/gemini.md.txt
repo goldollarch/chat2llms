@@ -1,4 +1,4 @@
-Gemini
+# Gemini
 ------
 
 从积极心理学（Positive Psychology）的视角来看，陈京元博士在极端逆境下的表现，是一场关于 **人类韧性（Resilience）、美德（Virtues）与意义建构（Meaning-making）** 的深刻实践。
