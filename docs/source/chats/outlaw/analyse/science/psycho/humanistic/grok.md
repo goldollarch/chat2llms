@@ -1,4 +1,4 @@
-Grok
+# Grok
 ----
 
 **从人本主义心理学（Humanistic Psychology）视角对陈京元案的分析与评估**

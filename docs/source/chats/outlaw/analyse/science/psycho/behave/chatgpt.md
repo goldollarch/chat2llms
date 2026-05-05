@@ -1,4 +1,4 @@
-ChatGPT
+# ChatGPT
 -------
 
 从行为心理学（**Behavioral Psychology**）的视角，这一案件应当被还原为一个更“朴素但更严格”的问题：

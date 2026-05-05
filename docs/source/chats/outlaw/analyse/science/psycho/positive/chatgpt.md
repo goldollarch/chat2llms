@@ -1,4 +1,4 @@
-ChatGPT
+# ChatGPT
 -------
 
 从 **积极心理学（Positive Psychology）** 的视角，本案可以被理解为：

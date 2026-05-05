@@ -1,4 +1,4 @@
-ChatGPT
+# ChatGPT
 -------
 
 从 **人本主义心理学（Humanistic Psychology）** 的视角来看，本案可以被理解为：

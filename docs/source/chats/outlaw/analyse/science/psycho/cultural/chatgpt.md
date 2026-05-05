@@ -1,4 +1,4 @@
-ChatGPT
+# ChatGPT
 -------
 
 从文化心理学（**Cultural Psychology**）的视角，这一案件不只是“个体行为是否违法”的问题，而是：

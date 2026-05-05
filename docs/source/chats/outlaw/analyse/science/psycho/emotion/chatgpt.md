@@ -1,4 +1,4 @@
-ChatGPT
+# ChatGPT
 -------
 
 从 **动机与情绪心理学（Motivation and Emotion Psychology）** 的视角来看，本案可以被理解为：
