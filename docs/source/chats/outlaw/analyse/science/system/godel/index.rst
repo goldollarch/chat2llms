@@ -21,3 +21,6 @@ Gödel Theorem
     deepseek
     qwen
 
+-----------
+
+[:doc:`新的探索之路 </chats/outlaw/analyse/science/system/godel/surpass>`]
