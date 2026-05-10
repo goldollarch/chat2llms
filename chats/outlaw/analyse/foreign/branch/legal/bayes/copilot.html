@@ -121,86 +121,444 @@
   <section id="copilot">
 <h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
 <hr class="docutils" />
-<p>基于贝叶斯法理学的案件分析<br />
-Case Analysis Based on Bayesian Legal Theory</p>
-<hr class="docutils" />
 <section id="id1">
-<h2>1. 无罪推定与先验概率<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<section id="presumption-of-innocence-and-prior-probability">
-<h3>Presumption of Innocence and Prior Probability<a class="headerlink" href="#presumption-of-innocence-and-prior-probability" title="Link to this heading"></a></h3>
+<h2>严格基于贝叶斯法理学的系统化分析<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>它不是一般意义上的“概率论套用”，而是完整运用贝叶斯法理学的三大核心思想：</p>
 <ul class="simple">
-<li><p><strong>中文</strong>：贝叶斯法理学强调，法律中的“无罪推定”可以理解为对无罪假设 (H_0) 赋予强先验概率。在没有充分证据之前，后验概率应保持接近无罪。</p></li>
-<li><p><strong>English</strong>: Bayesian legal theory emphasizes that the legal principle of “presumption of innocence” can be understood as assigning a strong prior probability to the innocence hypothesis (H_0). Without sufficient evidence, the posterior probability should remain close to innocence.</p></li>
+<li><p><strong>法律判断 = 概率更新（belief updating）</strong></p></li>
+<li><p><strong>证据价值 = 似然比（likelihood ratio）</strong></p></li>
+<li><p><strong>定罪标准 = 后验概率是否超过合理怀疑阈值（beyond reasonable doubt）</strong></p></li>
 </ul>
-</section>
-</section>
+<p>在此框架下，本案的“寻衅滋事罪”不仅证据不足，而是<strong>在数学结构上不可能成立</strong>。</p>
 <hr class="docutils" />
 <section id="id2">
-<h2>2. 证据与似然函数<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<section id="evidence-and-likelihood-functions">
-<h3>Evidence and Likelihood Functions<a class="headerlink" href="#evidence-and-likelihood-functions" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p><strong>中文</strong>：检方必须提供证据来提升有罪假设 (H_1) 的后验概率。证据的作用是通过似然函数改变信念。然而在本案中，账号粉丝极少、互动几乎为零，缺乏任何客观数据证明“严重混乱”。因此似然比（Bayes factor）接近于 1，无法支持有罪结论。</p></li>
-<li><p><strong>English</strong>: The prosecution must provide evidence to increase the posterior probability of the guilt hypothesis (H_1). Evidence works through likelihood functions to update beliefs. In this case, the account had very few followers and almost zero engagement, with no objective data showing “serious disorder.” Thus, the Bayes factor is close to 1, offering no support for a guilty conclusion.</p></li>
-</ul>
-</section>
-</section>
-<hr class="docutils" />
+<h3>🎯 一、贝叶斯法理学的核心：<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
 <section id="id3">
-<h2>3. 身份与意图的推定<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<section id="identity-and-presumed-intent">
-<h3>Identity and Presumed Intent<a class="headerlink" href="#identity-and-presumed-intent" title="Link to this heading"></a></h3>
+<h4><strong>法律判断 = 先验概率 × 证据似然比 → 后验概率</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<p>贝叶斯法理学认为：</p>
+<blockquote>
+<div><p><strong>法官的“事实认定”不是直觉，而是对“被告有罪”这一命题的概率更新过程。</strong></p>
+</div></blockquote>
+<p>公式为：</p>
+<p>[
+Posterior = \frac{Prior \times Likelihood}{Evidence}
+]</p>
+<p>其中：</p>
 <ul class="simple">
-<li><p><strong>中文</strong>：法院以被告的博士身份为由，推定其“必然知道信息是虚假”。这实际上是将身份当作先验概率的提升，而不是基于证据的似然更新。贝叶斯法理学认为，意图是潜在变量，必须通过行为证据来推断，而不是通过身份假设来直接设定。</p></li>
-<li><p><strong>English</strong>: The court presumed that because the defendant had a PhD, he “must have known” the information was false. This effectively inflates the prior probability of guilt based on identity rather than updating likelihoods with evidence. Bayesian jurisprudence holds that intent is a latent variable that must be inferred through behavioral evidence, not assumed from identity.</p></li>
+<li><p><strong>Prior（先验）</strong>：在没有证据前，“被告有罪”的合理初始概率</p></li>
+<li><p><strong>Likelihood（似然）</strong>：证据在“有罪”与“无罪”假设下出现的相对概率</p></li>
+<li><p><strong>Posterior（后验）</strong>：综合所有证据后，“被告有罪”的概率</p></li>
 </ul>
+<p>刑法要求：</p>
+<blockquote>
+<div><p><strong>后验概率必须超过“排除合理怀疑”的阈值（通常 &gt; 0.95）才能定罪。</strong></p>
+</div></blockquote>
+<p>我们现在用这一框架来分析本案。</p>
 </section>
 </section>
 <hr class="docutils" />
+<section id="prior">
+<h3>🟥 二、第一步：先验概率（Prior）极低<a class="headerlink" href="#prior" title="Link to this heading"></a></h3>
 <section id="id4">
-<h2>4. 类别错误与假设空间<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<section id="category-errors-and-hypothesis-space">
-<h3>Category Errors and Hypothesis Space<a class="headerlink" href="#category-errors-and-hypothesis-space" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p><strong>中文</strong>：艺术作品、情感表达、学术观点与事实陈述在逻辑上属于不同类别。将它们全部归为“虚假信息”是错误的假设空间设定。贝叶斯分析要求对不同类别分别建模，否则似然函数无法正确比较。</p></li>
-<li><p><strong>English</strong>: Artistic works, emotional expressions, academic viewpoints, and factual statements belong to different logical categories. Lumping them all together as “false information” mis-specifies the hypothesis space. Bayesian analysis requires separate modeling of categories; otherwise, likelihood functions cannot be properly compared.</p></li>
-</ul>
+<h4><strong>普通用户转发 → 导致社会混乱</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>在现实世界中，这种事件的先验概率几乎为零。</p>
+<p>原因：</p>
+<ol class="arabic simple">
+<li><p>社交网络是无标度网络（Barabási）<br />
+→ 边缘节点影响力趋近于零</p></li>
+<li><p>粉丝不足百人<br />
+→ 传播能力极低</p></li>
+<li><p>历史经验中从未出现过<br />
+→ “普通用户转发导致社会混乱”没有任何先例</p></li>
+<li><p>法律实践中也无类似案例<br />
+→ 先验概率极低</p></li>
+</ol>
+<p>因此：</p>
+<p>[
+P(\text{混乱}|\text{普通用户转发}) \approx 0
+]</p>
+<p>贝叶斯法理学认为：</p>
+<blockquote>
+<div><p><strong>先验极低的命题，需要极强的证据才能被更新为“高度可信”。</strong></p>
+</div></blockquote>
+<p>控方必须提供<strong>极强证据</strong>才能克服这一先验。</p>
+<p>但他们没有。</p>
 </section>
 </section>
 <hr class="docutils" />
+<section id="likelihood-ratio-1">
+<h3>🟥 三、第二步：证据似然比（Likelihood Ratio）接近 1<a class="headerlink" href="#likelihood-ratio-1" title="Link to this heading"></a></h3>
+<p>贝叶斯法理学的核心是：</p>
+<blockquote>
+<div><p><strong>证据的价值 = 证据在“有罪”与“无罪”假设下出现的相对概率。</strong></p>
+</div></blockquote>
+<p>公式：</p>
+<p>[
+LR = \frac{P(E|G)}{P(E|¬G)}
+]</p>
+<p>其中：</p>
+<ul class="simple">
+<li><p><strong>E = 控方证据（转发记录）</strong></p></li>
+<li><p><strong>G = 有罪（转发导致混乱）</strong></p></li>
+<li><p><strong>¬G = 无罪（转发不导致混乱）</strong></p></li>
+</ul>
+<p>现在分析控方证据：</p>
 <section id="id5">
-<h2>5. 决策理论与损失函数<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<section id="decision-theory-and-loss-functions">
-<h3>Decision Theory and Loss Functions<a class="headerlink" href="#decision-theory-and-loss-functions" title="Link to this heading"></a></h3>
+<h4>控方证据是什么？<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
 <ul class="simple">
-<li><p><strong>中文</strong>：在贝叶斯法理学中，错误定罪（假阳性）的社会成本远高于错误无罪（假阴性）。因此，在证据不足时，理性决策应选择无罪。这体现了法律中“疑罪从无”的原则。</p></li>
-<li><p><strong>English</strong>: In Bayesian legal theory, the social cost of false positives (wrongful convictions) is far greater than false negatives (letting someone go free). Therefore, when evidence is insufficient, rational decision-making should favor acquittal. This reflects the legal principle of “in dubio pro reo” (when in doubt, rule for the accused).</p></li>
+<li><p>被告转发过一些帖子</p></li>
+<li><p>内容包含政治讽刺、观点表达</p></li>
+<li><p>多为非原创</p></li>
+<li><p>多来自官方媒体或公开网站</p></li>
+<li><p>无传播链</p></li>
+<li><p>无扩散</p></li>
+<li><p>无混乱后果</p></li>
 </ul>
+</section>
+<section id="id6">
+<h4>关键问题：<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>这些证据在“有罪”与“无罪”假设下出现的概率是否不同？</strong></p>
+</div></blockquote>
+<p>答案是：</p>
+<ul class="simple">
+<li><p>普通用户转发帖子，在“无罪”假设下出现的概率极高</p></li>
+<li><p>在“有罪”假设下出现的概率并不更高</p></li>
+</ul>
+<p>因此：</p>
+<p>[
+LR \approx 1
+]</p>
+<p>也就是说：</p>
+<blockquote>
+<div><p><strong>控方证据对“有罪”与“无罪”的区分能力为零。</strong></p>
+</div></blockquote>
+<p>在贝叶斯法理学中：</p>
+<blockquote>
+<div><p><strong>似然比 = 1 → 证据无价值。</strong></p>
+</div></blockquote>
 </section>
 </section>
 <hr class="docutils" />
-<section id="id6">
-<h2>6. 结论<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<section id="conclusion">
-<h3>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading"></a></h3>
+<section id="posterior">
+<h3>🟥 四、第三步：后验概率（Posterior）无法提升<a class="headerlink" href="#posterior" title="Link to this heading"></a></h3>
+<p>贝叶斯更新公式：</p>
+<p>[
+Posterior = Prior \times LR
+]</p>
+<p>我们已经得到：</p>
 <ul class="simple">
-<li><p><strong>中文</strong>：本案在贝叶斯法理学框架下存在三大问题：</p>
-<ol class="arabic simple">
-<li><p>先验被身份不当抬高；</p></li>
-<li><p>似然证据缺失或与事实矛盾；</p></li>
-<li><p>假设空间错误地混合了不同类别。<br />
-因此，后验概率应仍然倾向于无罪，判决缺乏理性与科学依据。</p></li>
-</ol>
-</li>
-<li><p><strong>English</strong>: Under the Bayesian jurisprudence framework, this case suffers from three major flaws:</p>
-<ol class="arabic simple">
-<li><p>Priors were improperly inflated by identity;</p></li>
-<li><p>Likelihood evidence was missing or contradicted by facts;</p></li>
-<li><p>The hypothesis space was mis-specified by conflating categories.<br />
-Therefore, the posterior probability should remain in favor of innocence, and the conviction lacks rational and scientific justification.</p></li>
-</ol>
-</li>
+<li><p><strong>Prior ≈ 0</strong>（普通用户转发导致混乱的先验概率极低）</p></li>
+<li><p><strong>LR ≈ 1</strong>（控方证据无法区分有罪与无罪）</p></li>
 </ul>
+<p>因此：</p>
+<p>[
+Posterior \approx 0
+]</p>
+<p>也就是说：</p>
+<blockquote>
+<div><p><strong>综合所有证据后，“被告有罪”的概率仍然接近零。</strong></p>
+</div></blockquote>
+<p>这意味着：</p>
+<ul class="simple">
+<li><p>不仅达不到“排除合理怀疑”（&gt;0.95）</p></li>
+<li><p>连“稍微可疑”都达不到</p></li>
+<li><p>在贝叶斯意义上，“有罪”命题几乎不可能成立</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h3>🟩 五、辩方证据的贝叶斯价值极高<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>辩方提供的证据包括：</p>
+<ul class="simple">
+<li><p>无标度网络结构</p></li>
+<li><p>边缘节点影响力趋近于零</p></li>
+<li><p>无传播链</p></li>
+<li><p>无扩散</p></li>
+<li><p>无混乱后果</p></li>
+<li><p>内容非虚假</p></li>
+<li><p>无主观明知</p></li>
+<li><p>无任何社会危害</p></li>
+</ul>
+<p>这些证据在“无罪”假设下出现的概率极高：</p>
+<p>[
+P(E|\neg G) \approx 1
+]</p>
+<p>而在“有罪”假设下出现的概率极低：</p>
+<p>[
+P(E|G) \approx 0
+]</p>
+<p>因此：</p>
+<p>[
+LR = \frac{P(E|G)}{P(E|\neg G)} \approx 0
+]</p>
+<p>这意味着：</p>
+<blockquote>
+<div><p><strong>辩方证据强烈支持“无罪”假设。</strong></p>
+</div></blockquote>
+<p>在贝叶斯框架中：</p>
+<blockquote>
+<div><p><strong>似然比 &lt; 1 → 证据支持无罪。<br />
+似然比 → 0 → 强力支持无罪。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h3>🟦 六、贝叶斯法理学的最终结论<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>综合：</p>
+<ul class="simple">
+<li><p>先验概率 ≈ 0</p></li>
+<li><p>控方证据似然比 ≈ 1</p></li>
+<li><p>辩方证据似然比 → 0</p></li>
+<li><p>后验概率 ≈ 0</p></li>
+</ul>
+<p>因此：</p>
+<blockquote>
+<div><p><strong>在贝叶斯法理学框架下，“寻衅滋事罪”在本案中不可能成立。</strong></p>
+</div></blockquote>
+<p>不是“证据不足”，<br />
+不是“存疑不清”，<br />
+而是：</p>
+<blockquote>
+<div><p><strong>数学结构上不可能成立。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h3>🔥 最终一句话总结<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>贝叶斯法理学告诉我们：<br />
+控方证据无法提升“有罪”概率，辩方证据强烈降低“有罪”概率，<br />
+因此本案的“寻衅滋事罪”在概率论意义上是“零概率命题”。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>陈京元案：概率论意义上的“零概率定罪”<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<p>基于贝叶斯法理学（Bayesian Jurisprudence）的核心思想，展示本案为何在数学结构上根本不可能成立。</p>
+<section id="id11">
+<h3><strong>一、问题的核心：司法裁判是一个“概率更新过程”</strong><a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>贝叶斯法理学认为：</p>
+<blockquote>
+<div><p><strong>司法裁判的本质，是法官对“被告有罪”这一命题进行概率更新（belief updating）。</strong></p>
+</div></blockquote>
+<p>其数学结构为：</p>
+<p>[
+Posterior = \frac{Prior \times Likelihood}{Evidence}
+]</p>
+<p>其中：</p>
+<ul class="simple">
+<li><p><strong>Prior（先验）</strong>：在没有证据前，“被告有罪”的合理初始概率</p></li>
+<li><p><strong>Likelihood（似然比）</strong>：证据在“有罪”与“无罪”假设下出现的相对概率</p></li>
+<li><p><strong>Posterior（后验）</strong>：综合所有证据后，“被告有罪”的概率</p></li>
+</ul>
+<p>刑法要求：</p>
+<blockquote>
+<div><p><strong>后验概率必须超过“排除合理怀疑”的阈值（通常 &gt; 0.95）才能定罪。</strong></p>
+</div></blockquote>
+<p>本案的关键问题是：</p>
+<blockquote>
+<div><p><strong>控方证据是否能把“普通用户转发导致社会混乱”这一极低先验概率更新到 &gt;0.95？</strong></p>
+</div></blockquote>
+<p>答案是：<br />
+<strong>不可能。</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3><strong>二、先验概率：本案的“有罪先验”接近零</strong><a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>控方的核心命题是：</p>
+<blockquote>
+<div><p>“一个粉丝不足百人的普通用户转发几条帖子 → 导致公共秩序严重混乱”</p>
+</div></blockquote>
+<p>在贝叶斯框架中，这一命题的先验概率极低，因为：</p>
+<ul class="simple">
+<li><p>社交网络是无标度网络（scale-free）<br />
+→ 边缘节点影响力趋近于零</p></li>
+<li><p>历史经验中从未出现类似事件</p></li>
+<li><p>法律实践中无任何先例</p></li>
+<li><p>传播学、复杂系统科学均否定这种因果结构</p></li>
+</ul>
+<p>因此：</p>
+<p>[
+P(\text{混乱}|\text{普通用户转发}) \approx 0
+]</p>
+<p>贝叶斯法理学要求：</p>
+<blockquote>
+<div><p><strong>先验极低的命题，需要极强证据才能被更新。</strong></p>
+</div></blockquote>
+<p>控方没有提供这种证据。</p>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3><strong>三、似然比：控方证据的区分能力为零</strong><a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>贝叶斯法理学的核心是：</p>
+<blockquote>
+<div><p><strong>证据价值 = 证据在“有罪”与“无罪”假设下出现的相对概率。</strong></p>
+</div></blockquote>
+<p>公式：</p>
+<p>[
+LR = \frac{P(E|G)}{P(E|\neg G)}
+]</p>
+<p>其中：</p>
+<ul class="simple">
+<li><p><strong>E = 控方证据（转发记录）</strong></p></li>
+<li><p><strong>G = 有罪（转发导致混乱）</strong></p></li>
+<li><p><strong>¬G = 无罪（转发不导致混乱）</strong></p></li>
+</ul>
+<section id="id14">
+<h4><strong>控方证据是什么？</strong><a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>被告转发过一些帖子</p></li>
+<li><p>多为非原创</p></li>
+<li><p>多来自公开媒体</p></li>
+<li><p>无传播链</p></li>
+<li><p>无扩散</p></li>
+<li><p>无混乱后果</p></li>
+</ul>
+</section>
+<section id="id15">
+<h4><strong>关键问题：这些证据是否“指向有罪”？</strong><a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+<p>答案是：</p>
+<ul class="simple">
+<li><p>普通用户转发帖子，在“无罪”假设下出现的概率极高</p></li>
+<li><p>在“有罪”假设下出现的概率并不更高</p></li>
+</ul>
+<p>因此：</p>
+<p>[
+LR \approx 1
+]</p>
+<p>即：</p>
+<blockquote>
+<div><p><strong>控方证据对“有罪”与“无罪”的区分能力为零。</strong></p>
+</div></blockquote>
+<p>在贝叶斯法理学中：</p>
+<blockquote>
+<div><p><strong>似然比 = 1 → 证据无价值。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h3><strong>四、后验概率：无法提升，仍然接近零</strong><a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<p>贝叶斯更新公式：</p>
+<p>[
+Posterior = Prior \times LR
+]</p>
+<p>我们已经得到：</p>
+<ul class="simple">
+<li><p><strong>Prior ≈ 0</strong></p></li>
+<li><p><strong>LR ≈ 1</strong></p></li>
+</ul>
+<p>因此：</p>
+<p>[
+Posterior \approx 0
+]</p>
+<p>即：</p>
+<blockquote>
+<div><p><strong>综合所有证据后，“被告有罪”的概率仍然接近零。</strong></p>
+</div></blockquote>
+<p>这意味着：</p>
+<ul class="simple">
+<li><p>不仅达不到“排除合理怀疑”（&gt;0.95）</p></li>
+<li><p>连“稍微可疑”都达不到</p></li>
+</ul>
+<p>在贝叶斯意义上：</p>
+<blockquote>
+<div><p><strong>“有罪”命题几乎不可能成立。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h3><strong>五、辩方证据的贝叶斯价值极高</strong><a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<p>辩方证据包括：</p>
+<ul class="simple">
+<li><p>无标度网络结构</p></li>
+<li><p>边缘节点影响力趋近于零</p></li>
+<li><p>无传播链</p></li>
+<li><p>无扩散</p></li>
+<li><p>无混乱后果</p></li>
+<li><p>内容非虚假</p></li>
+<li><p>无主观明知</p></li>
+</ul>
+<p>这些证据在“无罪”假设下出现的概率极高：</p>
+<p>[
+P(E|\neg G) \approx 1
+]</p>
+<p>而在“有罪”假设下出现的概率极低：</p>
+<p>[
+P(E|G) \approx 0
+]</p>
+<p>因此：</p>
+<p>[
+LR = \frac{P(E|G)}{P(E|\neg G)} \approx 0
+]</p>
+<p>这意味着：</p>
+<blockquote>
+<div><p><strong>辩方证据强烈支持“无罪”假设。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h3><strong>六、贝叶斯法理学对中国刑事司法的结构性揭示</strong><a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<p>本案暴露出一个结构性特征：</p>
+<section id="id19">
+<h4><strong>司法系统不进行“概率更新”，而进行“叙事更新”。</strong><a class="headerlink" href="#id19" title="Link to this heading"></a></h4>
+<p>贝叶斯司法要求：</p>
+<ul class="simple">
+<li><p>先验必须合理</p></li>
+<li><p>证据必须更新信念</p></li>
+<li><p>后验必须由证据决定</p></li>
+</ul>
+<p>但在本案中：</p>
+<section id="id20">
+<h5><strong>1. 先验被叙事化</strong><a class="headerlink" href="#id20" title="Link to this heading"></a></h5>
+<p>“转发政治内容 → 有罪”<br />
+成为一种<strong>叙事先验</strong>，而非经验先验。</p>
+</section>
+<section id="id21">
+<h5><strong>2. 似然比被忽略</strong><a class="headerlink" href="#id21" title="Link to this heading"></a></h5>
+<p>证据不再用于区分“有罪/无罪”，<br />
+而用于<strong>支持既定叙事</strong>。</p>
+</section>
+<section id="id22">
+<h5><strong>3. 后验概率不由证据决定，而由叙事决定</strong><a class="headerlink" href="#id22" title="Link to this heading"></a></h5>
+<p>判决逻辑变成：</p>
+<blockquote>
+<div><p>“因为叙事要求你有罪，所以证据必须被解释为支持有罪。”</p>
+</div></blockquote>
+<p>这不是贝叶斯更新，而是：</p>
+</section>
+</section>
+<section id="reverse-bayesianism">
+<h4><strong>逆贝叶斯（Reverse Bayesianism）</strong><a class="headerlink" href="#reverse-bayesianism" title="Link to this heading"></a></h4>
+<p>即：</p>
+<blockquote>
+<div><p><strong>先验决定证据，而不是证据决定后验。</strong></p>
+</div></blockquote>
+<p>这是贝叶斯法理学中最严重的系统性错误。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h3><strong>七、最终结论：本案的定罪在贝叶斯意义上是“数学上不可能”</strong><a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>综合：</p>
+<ul class="simple">
+<li><p>先验概率 ≈ 0</p></li>
+<li><p>控方证据似然比 ≈ 1</p></li>
+<li><p>辩方证据似然比 → 0</p></li>
+<li><p>后验概率 ≈ 0</p></li>
+</ul>
+<p>因此：</p>
+<blockquote>
+<div><p><strong>在贝叶斯法理学框架下，本案的“寻衅滋事罪”在数学结构上不可能成立。</strong></p>
+</div></blockquote>
+<p>不是“证据不足”，<br />
+不是“存疑不清”，<br />
+而是：</p>
+<blockquote>
+<div><p><strong>概率论意义上的“零概率定罪”。</strong></p>
+</div></blockquote>
 </section>
 </section>
 </section>
