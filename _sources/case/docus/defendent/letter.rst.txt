@@ -697,8 +697,8 @@
 
 .. _subjective-avalanche:
 
-2、我的专业领域狭隘却深不可测： 我“明知”的是“我的转发不可能引起严重混乱”
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2、我的专业领域的“明知”：我的转发“不可能造成公共秩序严重混乱”
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 当然，我对科学方法还是报有很大期望的。
 虽然原则上这种方法也不可能获得那种可称为“终极真理”的东西，但在特定条件下，这种方法常常可以得到许多确定性的有趣结论，
@@ -1000,7 +1000,7 @@
 :doc:`DeepSeek </case/docus/defendent/preface/deepseek>`              
 【代作者序】：
 :doc:`DeepSeek </chats/outlaw/emotion/chinese/smq/deepseek>`-
-:doc:`Gemini </chats/outlaw/emotion/chinese/lx/xu/xu_gmn>` -
+:doc:`Gemini </chats/outlaw/emotion/chinese/lx/gemini>` -
 :doc:`Qwen </chats/outlaw/emotion/chinese/tst/qwen>`
 
 ------------
