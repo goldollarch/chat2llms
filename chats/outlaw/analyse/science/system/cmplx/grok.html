@@ -180,14 +180,15 @@
 </section>
 <section id="scale-free-networks">
 <h4>2. 无标度网络（Scale-Free Networks）<a class="headerlink" href="#scale-free-networks" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p><strong>定义</strong>：一类复杂网络，其<strong>度分布（degree distribution）<strong>服从</strong>幂律（power-law）</strong>：
-[
-P(k) \sim k^{-\lambda} \quad (2 &lt; \lambda &lt; 3)
-]
-其中 ( k ) 为节点的<strong>度</strong>（连接数），( \lambda ) 为幂律指数。</p></li>
-<li><p><strong>结构特征</strong>：</p>
 <ul>
+<li><p><strong>定义</strong>：一类复杂网络，其<strong>度分布（degree distribution）<strong>服从</strong>幂律（power-law）</strong>：</p>
+<p>$$
+P(k) \sim k^{-\lambda} \quad (2 &lt; \lambda &lt; 3)
+$$</p>
+<p>其中 $k$ 为节点的<strong>度</strong>（连接数），$\lambda$ 为幂律指数。</p>
+</li>
+<li><p><strong>结构特征</strong>：</p>
+<ul class="simple">
 <li><p>少数 <strong>高连接枢纽节点（hubs）</strong> 掌握绝大部分连接。</p></li>
 <li><p>大量 <strong>低度边缘节点（edge/peripheral nodes）</strong> 构成“长尾”（long tail）。</p></li>
 <li><p>整体呈现 <strong>异质性（heterogeneity）</strong> 和小世界性、无标度性等复杂系统特征。</p></li>
@@ -199,21 +200,23 @@ P(k) \sim k^{-\lambda} \quad (2 &lt; \lambda &lt; 3)
 </section>
 <section id="network-robustness-cohen">
 <h4>3. 网络鲁棒性（Network Robustness）与Cohen等人的临界阈值公式<a class="headerlink" href="#network-robustness-cohen" title="Link to this heading"></a></h4>
-<ul class="simple">
+<ul>
 <li><p><strong>鲁棒性定义</strong>：网络在遭受扰动（如节点移除、失效或活动微弱）后，仍能保持<strong>连通性/功能完整性</strong>（巨连通分量，giant component）的能力。</p></li>
 <li><p><strong>无标度网络的独特鲁棒性</strong>：对<strong>随机失效（random failures）<strong>具有</strong>极端的鲁棒性</strong>。因为随机移除的绝大多数是低度边缘节点，它们对全局拓扑贡献极小。</p></li>
-<li><p><strong>Cohen等人的临界阈值公式</strong>（Reuven Cohen、Shlomo Havlin等人2000–2003年经典工作）：
-随机移除节点比例 ( p ) 后，网络仍保持巨连通分量的条件为剩余比例 ( q = 1-p ) 满足：
-[
+<li><p><strong>Cohen等人的临界阈值公式</strong>（Reuven Cohen、Shlomo Havlin等人2000–2003年经典工作）：</p>
+<p>随机移除节点比例 $p$ 后，网络仍保持巨连通分量的条件为剩余比例 $q = 1-p$ 满足：</p>
+<p>$$
 q &gt; q_c = \frac{\langle k \rangle}{\langle k^2 \rangle - \langle k \rangle}
-]
-故<strong>临界移除比例</strong>：
-[
+$$</p>
+<p>故<strong>临界移除比例</strong>：</p>
+<p>$$
 p_c = 1 - \frac{\langle k \rangle}{\langle k^2 \rangle - \langle k \rangle}
-]
-（( \langle k \rangle )、( \langle k^2 \rangle ) 为度的一阶和二阶矩）。</p></li>
-<li><p><strong>无标度网络特异性</strong>：当 ( 2 &lt; \lambda &lt; 3 ) 时，二阶矩 ( \langle k^2 \rangle \to \infty )（随网络规模发散），因此 ( p_c \to 0 )。
-<strong>结论</strong>：即使随机移除几乎全部边缘节点，网络仍保持连通——“类似我这样的边缘节点，即使全部被干掉，也不会对网络产生实质性的影响”。</p></li>
+$$</p>
+<p>（$\langle k \rangle$、$\langle k^2 \rangle$ 为度的一阶和二阶矩）。</p>
+</li>
+<li><p><strong>无标度网络特异性</strong>：当 $2 &lt; \lambda &lt; 3$ 时，二阶矩 $\langle k^2 \rangle \to \infty$（随网络规模发散），因此 $p_c \to 0$。</p>
+<p><strong>结论</strong>：即使随机移除几乎全部边缘节点，网络仍保持连通——“类似我这样的边缘节点，即使全部被干掉，也不会对网络产生实质性的影响”。</p>
+</li>
 </ul>
 <p>陈博士还用<strong>量子纠缠</strong>与<strong>呼吸对大气圈的影响</strong>类比，强调“扰动”存在但<strong>程度可忽略</strong>，必须通过严格模型（如上述公式）进行“物理测量”。</p>
 </section>

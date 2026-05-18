@@ -160,8 +160,9 @@ CAP定理 是分布式计算中的基本定理。
 #### （1）基本内容
 
 系统不可能同时满足三者：
-
+$$
 \text{Consistency} + \text{Availability} + \text{Partition Tolerance} \not\subseteq \text{simultaneously}
+$$
 
 * **Consistency（一致性）**：所有节点看到相同数据
 * **Availability（可用性）**：每次请求都有响应
@@ -198,7 +199,9 @@ CAP定理 是分布式计算中的基本定理。
 
 #### （1）核心特征
 
-P(k) \sim k^{-\gamma}
+$$
+P(k) \sim k^{-\gamma},\quad 2 < \gamma < 3
+$$
 
 👉 结果：
 
@@ -373,9 +376,9 @@ CAP定理说明的是：
 
 结合无标度网络：
 
-[
+$$
 \text{影响} \propto k
-]
+$$
 
 边缘节点：
 

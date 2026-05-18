@@ -59,10 +59,12 @@ CAP定理（CAP Theorem）由Eric Brewer于2000年提出，适用于分布式系
 #### 2. 无标度网络（Scale-Free Networks）
 
 - **定义**：一类复杂网络，其**度分布（degree distribution）**服从**幂律（power-law）**：
-  \[
+
+  $$
   P(k) \sim k^{-\lambda} \quad (2 < \lambda < 3)
-  \]
-  其中 \( k \) 为节点的**度**（连接数），\( \lambda \) 为幂律指数。
+  $$
+
+  其中 $k$ 为节点的**度**（连接数），$\lambda$ 为幂律指数。
 - **结构特征**：
   - 少数 **高连接枢纽节点（hubs）** 掌握绝大部分连接。
   - 大量 **低度边缘节点（edge/peripheral nodes）** 构成“长尾”（long tail）。
@@ -75,16 +77,22 @@ CAP定理（CAP Theorem）由Eric Brewer于2000年提出，适用于分布式系
 - **鲁棒性定义**：网络在遭受扰动（如节点移除、失效或活动微弱）后，仍能保持**连通性/功能完整性**（巨连通分量，giant component）的能力。
 - **无标度网络的独特鲁棒性**：对**随机失效（random failures）**具有**极端的鲁棒性**。因为随机移除的绝大多数是低度边缘节点，它们对全局拓扑贡献极小。
 - **Cohen等人的临界阈值公式**（Reuven Cohen、Shlomo Havlin等人2000–2003年经典工作）：
-  随机移除节点比例 \( p \) 后，网络仍保持巨连通分量的条件为剩余比例 \( q = 1-p \) 满足：
-  \[
+
+  随机移除节点比例 $p$ 后，网络仍保持巨连通分量的条件为剩余比例 $q = 1-p$ 满足：
+
+  $$
   q > q_c = \frac{\langle k \rangle}{\langle k^2 \rangle - \langle k \rangle}
-  \]
+  $$
+
   故**临界移除比例**：
-  \[
+
+  $$
   p_c = 1 - \frac{\langle k \rangle}{\langle k^2 \rangle - \langle k \rangle}
-  \]
-  （\( \langle k \rangle \)、\( \langle k^2 \rangle \) 为度的一阶和二阶矩）。
-- **无标度网络特异性**：当 \( 2 < \lambda < 3 \) 时，二阶矩 \( \langle k^2 \rangle \to \infty \)（随网络规模发散），因此 \( p_c \to 0 \)。
+  $$
+
+  （$\langle k \rangle$、$\langle k^2 \rangle$ 为度的一阶和二阶矩）。
+- **无标度网络特异性**：当 $2 < \lambda < 3$ 时，二阶矩 $\langle k^2 \rangle \to \infty$（随网络规模发散），因此 $p_c \to 0$。
+
   **结论**：即使随机移除几乎全部边缘节点，网络仍保持连通——“类似我这样的边缘节点，即使全部被干掉，也不会对网络产生实质性的影响”。
 
 陈博士还用**量子纠缠**与**呼吸对大气圈的影响**类比，强调“扰动”存在但**程度可忽略**，必须通过严格模型（如上述公式）进行“物理测量”。
