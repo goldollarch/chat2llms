@@ -218,9 +218,9 @@ m < 1
 
 #### 科学结论：
 
-[
+$$
 P(\text{large cascade}) \to 0
-]
+$$
 
 ---
 
@@ -335,9 +335,9 @@ P(\text{large cascade}) \to 0
 
 证明：
 
-[
+$$
 m = pk \ll 1
-]
+$$
 
 ---
 
@@ -345,9 +345,9 @@ m = pk \ll 1
 
 给出：
 
-[
+$$
 P(S > N) < \varepsilon
-]
+$$
 
 （极小概率）
 

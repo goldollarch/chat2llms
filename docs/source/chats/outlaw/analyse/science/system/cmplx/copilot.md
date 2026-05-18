@@ -1,4 +1,5 @@
 # Copilot
+
 -------
 
 ## “秩序混乱”：复杂网络的内禀特性
@@ -99,9 +100,9 @@ CAP 定理由 Eric Brewer 提出，后由 Gilbert & Lynch 形式化证明。它�
 
 Barabási–Albert 模型揭示：
 
-\[
+$$
 P(k) \sim k^{-\gamma},\quad 2 < \gamma < 3
-\]
+$$
 
 含义：
 
@@ -137,14 +138,14 @@ Cohen、Havlin、ben-Avraham 等人的经典研究表明：
 
 数学上，网络崩溃的临界阈值：
 
-\[
+$$
 p_c = 1 - \frac{1}{\frac{\langle k^2 \rangle}{\langle k \rangle} - 1}
-\]
+$$
 
 在无标度网络中：
 
-- \(\langle k^2 \rangle\) 极大  
-- 导致 \(p_c \approx 1\)
+- $\langle k^2 \rangle$ 极大  
+- 导致 $p_c \approx 1$
 
 含义：
 
@@ -263,4 +264,3 @@ p_c = 1 - \frac{1}{\frac{\langle k^2 \rangle}{\langle k \rangle} - 1}
 ##### 🔹 把这部分整合成一篇可发表的学术论文  
 
 你希望继续哪个方向。
-
