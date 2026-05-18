@@ -126,43 +126,45 @@
 <h2>一、核心概念简介<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
 <section id="self-organized-criticality-soc">
 <h3>1. 自组织临界性（Self-Organized Criticality, SOC）<a class="headerlink" href="#self-organized-criticality-soc" title="Link to this heading"></a></h3>
-<ul class="simple">
+<ul>
 <li><p><strong>提出者与起源</strong>：1987–1988年由物理学家<strong>Per Bak、Chao Tang、Kurt Wiesenfeld</strong>在沙堆模型（Bak-Tang-Wiesenfeld, BTW模型）中首次提出。经典表述见Bak 1996年著作《How Nature Works》。</p></li>
 <li><p><strong>核心思想</strong>：许多开放的、耗散的复杂系统（extended dissipative systems）<strong>无需外部参数微调</strong>，就能自发演化到一个<strong>临界状态（critical state）</strong>。在这个状态下：</p>
-<ul>
+<ul class="simple">
 <li><p>系统处于“亚稳态”（metastable），微小扰动可能引发从“微不足道”到“灾难性”的各种尺度事件。</p></li>
 <li><p>事件（雪崩）的大小、持续时间等分布<strong>服从幂律（power-law）</strong>，即<strong>无特征尺度</strong>（scale-free / scale-invariant）。</p></li>
 </ul>
 </li>
-<li><p><strong>数学特征</strong>（典型幂律分布）：
-[
+<li><p><strong>数学特征</strong>（典型幂律分布）：</p>
+<p>$$
 P(S \geq s) \sim s^{-\alpha} \quad (\alpha \approx 1.5 \sim 2.5，\text{视系统而定})
-]
-其中 ( S ) 为雪崩规模，( \alpha ) 为临界指数。</p></li>
+$$</p>
+<p>其中 $S$ 为雪崩规模，$\alpha$ 为临界指数。</p>
+</li>
 <li><p><strong>现实应用</strong>：地震、森林火灾、金融市场股灾、流行病爆发、森林火势蔓延等。系统“自组织”到临界点后，<strong>小事件可能引发大雪崩</strong>，但大雪崩的发生频率极低（幂律尾部）。</p></li>
 </ul>
 </section>
 <section id="avalanche-dynamics">
 <h3>2. 雪崩动力学（Avalanche Dynamics）<a class="headerlink" href="#avalanche-dynamics" title="Link to this heading"></a></h3>
-<ul class="simple">
+<ul>
 <li><p><strong>定义</strong>：SOC系统中，由局部扰动引发的<strong>连锁反应（cascade）<strong>称为“雪崩”。雪崩规模（受影响节点/事件总数）呈现</strong>幂律分布</strong>，无典型大小。</p></li>
 <li><p><strong>与信息传播的关联</strong>：在社交网络/信息系统中，信息级联（information cascades）被建模为<strong>分支过程（branching process）</strong>：</p>
-<ul>
+<ul class="simple">
 <li><p>每个“个体”（贴文/转发）独立产生“后代”（进一步转发、评论、扩散）。</p></li>
-<li><p>后代数服从某种分布（常用Poisson分布），<strong>平均分支数（mean offspring / branching factor）</strong> 记为 ( m )。</p></li>
+<li><p>后代数服从某种分布（常用Poisson分布），<strong>平均分支数（mean offspring / branching factor）</strong> 记为 $m$。</p></li>
 </ul>
 </li>
 <li><p><strong>Galton-Watson过程灭绝定理</strong>（关键数学工具）：</p>
 <ul>
-<li><p>若 ( m &lt; 1 )（亚临界，subcritical）：级联<strong>必然灭绝</strong>，灭绝概率 ( \eta = 1 )，期望规模有限且很小：
-[
+<li><p>若 $m &lt; 1$（亚临界，subcritical）：级联<strong>必然灭绝</strong>，灭绝概率 $\eta = 1$，期望规模有限且很小：</p>
+<p>$$
 \mathbb{E}[S] = \frac{1}{1-m} \approx 1 \quad (\text{几乎无扩散})
-]</p></li>
-<li><p>若 ( m = 1 )（临界）：灭绝概率仍为1，但尺度更大。</p></li>
-<li><p>若 ( m &gt; 1 )（超临界，supercritical）：存在正概率的<strong>无限雪崩</strong>（非灭绝概率 &gt;0），雪崩规模服从幂律。</p></li>
+$$</p>
+</li>
+<li><p>若 $m = 1$（临界）：灭绝概率仍为1，但尺度更大。</p></li>
+<li><p>若 $m &gt; 1$（超临界，supercritical）：存在正概率的<strong>无限雪崩</strong>（非灭绝概率 &gt;0），雪崩规模服从幂律。</p></li>
 </ul>
 </li>
-<li><p><strong>SOC与分支过程的结合</strong>：系统通过慢驱动（外部信息持续输入）自组织到 ( m \approx 1 ) 的全局临界态，此时微小扰动即可触发幂律分布的雪崩（“和蝴蝶效应类似的极难预测现象”）。</p></li>
+<li><p><strong>SOC与分支过程的结合</strong>：系统通过慢驱动（外部信息持续输入）自组织到 $m \approx 1$ 的全局临界态，此时微小扰动即可触发幂律分布的雪崩（“和蝴蝶效应类似的极难预测现象”）。</p></li>
 </ul>
 <p>这些概念已被广泛应用于<strong>信息级联传播</strong>研究（社交媒体、Twitter级联、谣言扩散等），并与无标度网络（scale-free networks）的渗流理论（Cohen等人的临界阈值公式）高度兼容。</p>
 </section>
@@ -171,7 +173,7 @@ P(S \geq s) \sim s^{-\alpha} \quad (\alpha \approx 1.5 \sim 2.5，\text{视系�
 <h2>二、陈博士论证的科学应用<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
 <p>陈博士将上述框架精确应用于本案：</p>
 <ol class="arabic simple">
-<li><p><strong>个人转发行为</strong>：账号为<strong>边缘节点（edge/peripheral node）</strong>（粉丝&lt;100、多僵尸粉、互动量≈0），属于<strong>长尾节点</strong>。因此平均分支数 ( m \ll 1 )（“远远小于一”），处于<strong>深度亚临界区</strong>。</p>
+<li><p><strong>个人转发行为</strong>：账号为<strong>边缘节点（edge/peripheral node）</strong>（粉丝&lt;100、多僵尸粉、互动量≈0），属于<strong>长尾节点</strong>。因此平均分支数 $m \ll 1$（“远远小于一”），处于<strong>深度亚临界区</strong>。</p>
 <ul class="simple">
 <li><p>结论：根据Galton-Watson灭绝定理，<strong>级联灭绝概率几乎为1</strong>，雪崩概率“趋近于零”。转发“造成严重秩序混乱”属于<strong>不可能发生事件</strong>（impossible event）。</p></li>
 </ul>

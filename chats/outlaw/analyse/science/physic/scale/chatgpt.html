@@ -120,7 +120,7 @@
   <section id="chatgpt">
 <h1>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading"></a></h1>
 <hr class="docutils" />
-<p>下面把陈博士援引的三个核心概念——<strong>无标度网络、临界阈值公式、鲁棒性</strong>——做一个尽量“物理化+数学化”的简要说明，然后再评价其论证的科学性与有效性。</p>
+<p>下面把陈博士援引的三个核心概念——<strong>无标度网络、临界阈值公式、鲁棒性</strong>——做一个尽量”物理化+数学化”的简要说明，然后再评价其论证的科学性与有效性。</p>
 <hr class="docutils" />
 <section id="scale-free-network">
 <h2>一、无标度网络（Scale-Free Network）<a class="headerlink" href="#scale-free-network" title="Link to this heading"></a></h2>
@@ -129,11 +129,13 @@
 <section id="id1">
 <h3>（1）基本定义<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
 <p>网络中节点的连接度（degree）服从幂律分布：</p>
-<p>P(k) \sim k^{-\gamma}</p>
+<p>$$
+P(k) \sim k^{-\gamma}
+$$</p>
 <p>其中：</p>
 <ul class="simple">
-<li><p>(k)：节点连接数（粉丝数/关注数）</p></li>
-<li><p>(\gamma)：通常在 (2 &lt; \gamma &lt; 3)</p></li>
+<li><p>$k$：节点连接数（粉丝数/关注数）</p></li>
+<li><p>$\gamma$：通常在 $2 &lt; \gamma &lt; 3$</p></li>
 </ul>
 </section>
 <hr class="docutils" />
@@ -157,7 +159,7 @@
 </table>
 <p>👉 大多数节点都属于：</p>
 <blockquote>
-<div><p><strong>低连接度的“长尾节点”（边缘节点）</strong></p>
+<div><p><strong>低连接度的”长尾节点”（边缘节点）</strong></p>
 </div></blockquote>
 </section>
 <hr class="docutils" />
@@ -165,37 +167,39 @@
 <h3>（3）关键直观结论<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>网络结构由少数 hub 主导</p></li>
-<li><p>绝大多数节点“影响力极小”</p></li>
+<li><p>绝大多数节点”影响力极小”</p></li>
 </ul>
 </section>
 </section>
 <hr class="docutils" />
 <section id="cohen">
 <h2>二、临界阈值公式（Cohen 等人的结果）<a class="headerlink" href="#cohen" title="Link to this heading"></a></h2>
-<p>陈博士提到的“临界阈值”，来自流行病/信息传播在网络中的扩散理论，由 Reuven Cohen 等人给出。</p>
+<p>陈博士提到的”临界阈值”，来自流行病/信息传播在网络中的扩散理论，由 Reuven Cohen 等人给出。</p>
 <hr class="docutils" />
 <section id="epidemic-threshold">
 <h3>（1）传播阈值（epidemic threshold）<a class="headerlink" href="#epidemic-threshold" title="Link to this heading"></a></h3>
-<p>在网络中，传播能否“爆发”，取决于阈值：</p>
-<p>\lambda_c = \frac{\langle k \rangle}{\langle k^2 \rangle}</p>
+<p>在网络中，传播能否”爆发”，取决于阈值：</p>
+<p>$$
+\lambda_c = \frac{\langle k \rangle}{\langle k^2 \rangle}
+$$</p>
 <p>其中：</p>
 <ul class="simple">
-<li><p>(\lambda)：传播强度（感染率/转发概率）</p></li>
-<li><p>(\langle k \rangle)：平均度</p></li>
-<li><p>(\langle k^2 \rangle)：二阶矩</p></li>
+<li><p>$\lambda$：传播强度（感染率/转发概率）</p></li>
+<li><p>$\langle k \rangle$：平均度</p></li>
+<li><p>$\langle k^2 \rangle$：二阶矩</p></li>
 </ul>
 </section>
 <hr class="docutils" />
 <section id="id4">
 <h3>（2）关键结论（无标度网络）<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
-<p>对于 (2&lt;\gamma&lt;3) 的无标度网络：</p>
-<p>[
+<p>对于 $2&lt;\gamma&lt;3$ 的无标度网络：</p>
+<p>$$
 \langle k^2 \rangle \to \infty
-]</p>
+$$</p>
 <p>因此：</p>
-<p>[
+<p>$$
 \lambda_c \to 0
-]</p>
+$$</p>
 <hr class="docutils" />
 <section id="id5">
 <h4>含义（非常重要）<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
@@ -250,13 +254,13 @@
 <section id="id10">
 <h3>（3）数学表达（简化）<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
 <p>巨型连通分量是否存在，取决于：</p>
-<p>[
+<p>$$
 \kappa = \frac{\langle k^2 \rangle}{\langle k \rangle}
-]</p>
+$$</p>
 <p>当：</p>
 <ul class="simple">
-<li><p>(\kappa &gt; 2)：网络连通</p></li>
-<li><p>(\kappa \le 2)：网络崩塌</p></li>
+<li><p>$\kappa &gt; 2$：网络连通</p></li>
+<li><p>$\kappa \le 2$：网络崩塌</p></li>
 </ul>
 </section>
 </section>
@@ -268,7 +272,7 @@
 <section id="id12">
 <h3>（1）身份定位<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
 <blockquote>
-<div><p>我是“边缘节点”（(k) 很小）</p>
+<div><p>我是”边缘节点”（$k$ 很小）</p>
 </div></blockquote>
 </section>
 <hr class="docutils" />
@@ -276,18 +280,17 @@
 <h3>（2）结构性质<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
 <blockquote>
 <div><p>无标度网络中：</p>
-</div></blockquote>
 <ul class="simple">
 <li><p>边缘节点占绝大多数</p></li>
 <li><p>对结构贡献极小</p></li>
 </ul>
+</div></blockquote>
 </section>
 <hr class="docutils" />
 <section id="id14">
 <h3>（3）推论<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
 <blockquote>
-<div><p>删除（或激活）边缘节点
-→ 不影响网络整体状态</p>
+<div><p>删除（或激活）边缘节点 → 不影响网络整体状态</p>
 </div></blockquote>
 <hr class="docutils" />
 <p>👉 得出结论：</p>
@@ -326,7 +329,7 @@
 <p>关键问题在于：</p>
 <hr class="docutils" />
 <section id="id18">
-<h4>1. ❗“结构鲁棒性” ≠ “传播无影响”<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<h4>1. ❗”结构鲁棒性” ≠ “传播无影响”<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
 <p>鲁棒性描述的是：</p>
 <blockquote>
 <div><p>网络结构是否崩溃</p>
@@ -339,7 +342,7 @@
 </section>
 <hr class="docutils" />
 <section id="id19">
-<h4>2. ❗边缘节点“影响小” ≠ “完全无影响”<a class="headerlink" href="#id19" title="Link to this heading"></a></h4>
+<h4>2. ❗边缘节点”影响小” ≠ “完全无影响”<a class="headerlink" href="#id19" title="Link to this heading"></a></h4>
 <p>科学上更准确说法是：</p>
 <blockquote>
 <div><p><strong>期望影响很小（趋近于0），但不严格为0</strong></p>
@@ -347,12 +350,12 @@
 </section>
 <hr class="docutils" />
 <section id="id20">
-<h4>3. ❗临界阈值的“反直觉点”<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<h4>3. ❗临界阈值的”反直觉点”<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
 <p>有一个重要细节：</p>
 <p>由于：</p>
-<p>[
+<p>$$
 \lambda_c \to 0
-]</p>
+$$</p>
 <p>意味着：</p>
 <blockquote>
 <div><p>理论上弱传播也可能扩散</p>
@@ -362,7 +365,7 @@
 </section>
 <hr class="docutils" />
 <section id="id21">
-<h4>4. ❗缺少“动力学参数”<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+<h4>4. ❗缺少”动力学参数”<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
 <p>结构理论说明：</p>
 <ul class="simple">
 <li><p>谁重要</p></li>
@@ -405,8 +408,8 @@
 </section>
 <hr class="docutils" />
 <section id="id25">
-<h2>七、如果要“科学上更严谨”，应如何改写？<a class="headerlink" href="#id25" title="Link to this heading"></a></h2>
-<p>建议把结论从“绝对否定”改为“概率与量级论证”：</p>
+<h2>七、如果要”科学上更严谨”，应如何改写？<a class="headerlink" href="#id25" title="Link to this heading"></a></h2>
+<p>建议把结论从”绝对否定”改为”概率与量级论证”：</p>
 <hr class="docutils" />
 <section id="id26">
 <h3>更严谨表达：<a class="headerlink" href="#id26" title="Link to this heading"></a></h3>
@@ -425,17 +428,16 @@
 <h2>八、与分支过程模型的统一（关键提升）<a class="headerlink" href="#id27" title="Link to this heading"></a></h2>
 <p>如果把你前面建立的模型结合进来：</p>
 <ul class="simple">
-<li><p>无标度网络 → 决定 (k)</p></li>
+<li><p>无标度网络 → 决定 $k$</p></li>
 <li><p>分支过程 → 决定传播</p></li>
 </ul>
 <p>得到：</p>
-<p>[
+<p>$$
 m = p \cdot k
-]</p>
+$$</p>
 <p>边缘节点：</p>
 <ul class="simple">
-<li><p>(k) 很小
-→ (m \ll 1)</p></li>
+<li><p>$k$ 很小 → $m \ll 1$</p></li>
 </ul>
 <p>👉 回到结论：</p>
 <blockquote>
@@ -446,13 +448,13 @@ m = p \cdot k
 <section id="id28">
 <h2>九、最终评价（一句话）<a class="headerlink" href="#id28" title="Link to this heading"></a></h2>
 <blockquote>
-<div><p>陈博士的论证在“复杂网络结构层面”是科学且前沿的，但其结论从“影响极小”直接跃迁到“完全不可能产生影响”存在一定的理论外推；若与传播动力学模型（如分支过程）结合，并转化为概率与量级表达，则可以达到严格科学成立的程度。</p>
+<div><p>陈博士的论证在”复杂网络结构层面”是科学且前沿的，但其结论从”影响极小”直接跃迁到”完全不可能产生影响”存在一定的理论外推；若与传播动力学模型（如分支过程）结合，并转化为概率与量级表达，则可以达到严格科学成立的程度。</p>
 </div></blockquote>
 <hr class="docutils" />
 <p>如果你愿意，下一步可以做一个更有意思的深化：</p>
-<p>👉 <strong>把“无标度网络 + 分支过程 + 自组织临界性”统一成一个完整理论框架（可写成论文级模型）</strong></p>
+<p>👉 <strong>把”无标度网络 + 分支过程 + 自组织临界性”统一成一个完整理论框架（可写成论文级模型）</strong></p>
 <p>或者：</p>
-<p>👉 直接做“仿真图”（传播规模分布、级联概率曲线）</p>
+<p>👉 直接做”仿真图”（传播规模分布、级联概率曲线）</p>
 <p>你选一个继续深化。</p>
 </section>
 </section>
