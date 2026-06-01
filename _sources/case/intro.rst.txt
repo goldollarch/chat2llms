@@ -134,7 +134,7 @@ in mainland China. The complete case materials are available online for referenc
 
 ---------------------------------------------------
 
-[:doc:`Case White Paper </chats/overview/white/en>`] 
+[`YouTube <https://www.youtube.com/@gdchitao>`_]
 
 --------------------------------
 
