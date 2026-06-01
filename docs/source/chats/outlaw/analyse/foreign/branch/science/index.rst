@@ -208,5 +208,5 @@
 
 ---------------------------
 
-[:doc:`爱因斯坦 .vs. 玻尔 </chats/outlaw/analyse/foreign/branch/science/compare>`]
-[:doc:`中国哲学中对科学哲学的探索 </chats/outlaw/analyse/foreign/branch/science/chinese>`]
+[:doc:`爱因斯坦与玻尔 </chats/outlaw/analyse/foreign/branch/science/compare>`]
+[:doc:`中国科学哲学探索 </chats/outlaw/analyse/foreign/branch/science/chinese>`]

@@ -43,7 +43,7 @@
 
 ---
 
-[[案件白皮书](/chats/overview/white/cn.md)]
+[[YouTube](https://www.youtube.com/@gdchitao)]
 
 ---
 
