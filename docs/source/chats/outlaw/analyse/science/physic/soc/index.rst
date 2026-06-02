@@ -24,4 +24,4 @@ SOC and Avalanche
 
 -------------------
 
-:doc:`两种临界性比较 </chats/outlaw/analyse/science/physic/soc/criticality>`
+:doc:`两种临界性 </chats/outlaw/analyse/science/physic/soc/criticality>`
