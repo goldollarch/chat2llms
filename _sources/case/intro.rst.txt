@@ -127,7 +127,7 @@ in mainland China. The complete case materials are available online for referenc
 
 ---------------------------------------------------
 
-[:doc:`Overview </chats/overview/analyse/models/qwen>`] -
+[:doc:`Overview </chats/overview/index>`] -
 [:doc:`Legal Affairs </chats/docus/official/overview/common/copilot>`] -
 [:doc:`Theoretical Analysis </chats/outlaw/analyse/index>`] -
 [:doc:`Lifetime Accountability </chats/urges/grk>`]
