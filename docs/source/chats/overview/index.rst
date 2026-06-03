@@ -8,7 +8,12 @@ Overview of the Case
  .. toctree::
     :maxdepth: 2
 
-    white/cn
+    wpaper/cn
+    
+ .. toctree::
+    :maxdepth: 3
+
+    innocence/index
 
  .. toctree::
     :maxdepth: 3
@@ -19,8 +24,3 @@ Overview of the Case
     :maxdepth: 3
 
     analyse/index
-    
- .. toctree::
-    :maxdepth: 3
-
-    white/no
