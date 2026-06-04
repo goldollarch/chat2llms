@@ -25,5 +25,10 @@
  .. toctree::
     :maxdepth: 1
 
+    statistic/index
+   
+ .. toctree::
+    :maxdepth: 1
+
     other/index
 
