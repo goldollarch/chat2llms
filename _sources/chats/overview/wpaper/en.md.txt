@@ -63,4 +63,4 @@ From an academic and international-law perspective, the case shows systemic proc
 
 -------------------------------------------------
 [[Download](/_static/files/white_en.pdf)]
-[[Chinese](/chats/overview/white/cn)]
+[[Chinese](/chats/overview/wpaper/cn)]
