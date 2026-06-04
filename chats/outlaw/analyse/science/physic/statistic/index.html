@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluctuation vs.Phase Transition &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../model/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">科学理论</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../system/index.html">系统</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">物理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../psycho/index.html">心理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">科学理论</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">物理</a></li>
+      <li class="breadcrumb-item active">Fluctuation vs.Phase Transition</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/physic/statistic/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="fluctuation-vs-phase-transition">
+<h1>Fluctuation vs.Phase Transition<a class="headerlink" href="#fluctuation-vs-phase-transition" title="Link to this heading"></a></h1>
+<p>在统计物理学中，<strong>涨落</strong> （Fluctuation）与 <strong>相变</strong> （Phase Transition）绝不是等价的概念，它们之间隔着极其严苛的尺度壁垒、能量势垒以及空间耗散机制。
+控方的指控，本质上是在用一种“毫无物理常识的线性思维”，去强行裁判一个典型的“非线性统计系统”。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">一、统计物理中涨落与相变的精确关系</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">二、控方逻辑在统计物理上的根本错误</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">三、法律意义上的总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 统计物理学的真理：常态系统对微观涨落的“本底耗散”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">二、 相变的实质：全局能量对涨落的“结构性妥协”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">三、 控方的逻辑硬伤：把“起风了”等同于“爆发台风”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">四、 法律意见书的终极科学升华</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id5">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、统计物理的基本事实：涨落无处不在，相变极其罕见</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2"><strong>二、涨落与相变的关系：必要条件 ≠ 充分条件</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3"><strong>三、控方的逻辑错误：把“微扰”当成“相变”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4"><strong>四、统计物理的核心原则：系统必须“准备好”才能发生相变</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id5"><strong>五、法律转译：涨落不具备刑法因果关系的“相当性”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6"><strong>六、可写入法律意见书的总结性段落</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7">🔹 “涨落—相变”专章（可直接插入法律意见书）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id8">🔹 “控方逻辑的统计物理反证矩阵”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9">🔹 “面向法庭的口头版统计物理解释稿”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#fluctuation">一、什么是涨落（Fluctuation）？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">二、涨落并不等于相变</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">三、相变是什么？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">四、相变出现的前提：涨落被放大</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">五、为什么临界点如此特殊？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#soc">六、SOC理论的核心观点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">七、统计物理如何看待“压垮骆驼的最后一根稻草”？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">八、陈博士论证的统计物理学意义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">九、如果控方主张出现了“严重混乱”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">问题1：系统是否已经接近临界点？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">问题2：是否存在关联长度扩张？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">问题3：是否存在幂律雪崩分布？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">问题4：是否存在可测量的传播链？</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">十、更深层的统计物理结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">1) 先把话说准：涨落不是“原因”，而是系统的“语法”；相变是“控制参数”走到临界处的“结构性重整化”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">2) 响应函数视角：微扰只能“探测”系统状态，不能“决定”它——除非系统已经在临界点附近</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id3">3) 把本案直接放进这套语法：控方犯了哪三步“物理—因果走私”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#a">(a) 把“系统本底涨落”读成“犯罪信号”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#b">(b) 把“微扰发生了”当“相变被触发”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#c">(c) 最关键的：不追问“控制参数是谁在推”，转而让“边缘微扰”替系统背锅</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">4) 一句能把法官抓住的“硬陈述”（不带公式也能成立）</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、 统计物理中涨落与相变的严格关系：从微观噪声到宏观重构的临界门槛</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">1. 涨落的本质：稳定相中的局部随机扰动</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">2. 相变的本质：控制参数跨越临界值后的对称性破缺</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id4">3. 涨落与相变的因果链条：缺一不可的“临界门控”机制</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">二、 控方指控的物理谬误：为何“把涨落当相变”违背统计力学</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id6">三、 法理映射：物理临界性如何切断刑法因果关系</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id7">四、 制度启示：建立“临界态检验”的证据审查标准</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id8">结语：科学规律是法治因果推演的不可逾越之界</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<p><strong>物理学中涨落与相变的关系</strong></p>
+<hr class="docutils" />
+<p>在统计物理里，<strong>涨落（fluctuation）是相变的“幕后推手”，而相变则是系统为了让全局自由能更低，对涨落做出“结构性响应”的结果</strong>。一句话概括它们的关系：</p>
+<p>&gt; <strong>相变通常意味着：某些涨落被“压制不住了”，于是宏观对称性/状态必须重新组织自己。</strong></p>
+<p>下面分层次说清楚。</p>
+<section id="id1">
+<h2>1. 涨落是什么：不是误差，而是统计本质<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>对一个宏观系统（很多粒子），即便外界条件固定，<strong>宏观量（密度、磁化、能量…）也会围绕平均值抖动</strong>：</p>
+<ul class="simple">
+<li><p>热力学极限下，对“<strong>广延量</strong>”（总能量、总粒子数）的相对涨落通常很小（~1/√N）→平均场/热力学看起来很光滑；</p></li>
+<li><p>但对“<strong>强度量或序参量相关量</strong>”（比如局部密度、局部磁化、液—气密度差），涨落可以很大，尤其在临界点附近。</p></li>
+</ul>
+<p>数学上常见来源：<strong>配分函数/系综的积分本身就意味着涨落</strong>，熵项与能量项竞争就是热涨落的根源。</p>
+</section>
+<section id="id2">
+<h2>2. 为什么会有相变：涨落“失控”的一种说法<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>以气体液化为例：</p>
+<ul class="simple">
+<li><p>高温：密度涨落存在，但很快衰减；系统稳定保持均匀相。</p></li>
+<li><p>降到临界点附近：密度涨落开始出现 <strong>越来越大的空间尺度</strong> （出现“临界乳光”那种效果），小范围里偶尔会像液相或气相；</p></li>
+<li><p>越过相变点：系统发现“分成两相”比“强行保持均匀并压住大密度涨落”更省自由能 → 出现相分离/新对称性破缺态。</p></li>
+</ul>
+<p>所以一种很有用的直觉是：
+<strong>相变 ≈ 某种涨落的相关性变得长程，最终改变宏观状态的组织方式。</strong></p>
+</section>
+<section id="id3">
+<h2>3. 经典桥梁：平均场告诉你“大致何时变”，涨落告诉你“实际怎么改”<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>3.1 平均场理论（忽略涨落的空间相关性）</p>
+<ul>
+<li><p>例如范德瓦尔斯方程、朗道相变理论：把自由能写成序参量 <span class="math notranslate nohighlight">\(m\)</span> 的展开</p>
+<div class="math notranslate nohighlight">
+\[F \sim a(T)m^2 + b m^4 + (\nabla m)^2\]</div>
+</li>
+<li><p>它给出相变温度、序参量跳变、定性正确对称性逻辑——但 <strong>默认涨落不重要</strong>。</p></li>
+</ul>
+<p>3.2 涨落什么时候“打脸”平均场？</p>
+<p>引入一个判据（常用）：<strong>金兹堡判据 / Ginzburg criterion</strong></p>
+<ul class="simple">
+<li><p>比较“涨落导致的自由能修正”与“平均场势能势垒的高度”</p></li>
+<li><p>结论：在 <strong>低维（尤其 d≤4 对很多体系）</strong>、或在 <strong>临界点极近邻域</strong>，涨落不可忽略</p>
+<ul>
+<li><p><strong>d≥4</strong>：平均场往往成立（涨落相对无害）</p></li>
+<li><p><strong>d=3, 接近临界点</strong>：涨落显著 → 真实临界指数偏离平均场值</p></li>
+<li><p><strong>d=2</strong>：涨落更强（伊辛模型二维有精确解，和平均场完全不同）</p></li>
+</ul>
+</li>
+</ul>
+<p>这解释了一个关键事实：</p>
+<p>&gt; 相变本身并不“消失”，但 <strong>临界区的定量规律会被涨落重塑</strong>。</p>
+</section>
+<section id="id4">
+<h2>4. 最核心的联系：相变点≈涨落相关性发散（ξ→∞）<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p>在很多二阶（连续）相变处，会出现一个几乎统一的结构：</p>
+<ul>
+<li><p><strong>关联长度</strong> <span class="math notranslate nohighlight">\(\xi\)</span> 决定涨落在空间上有多大“步调一致”：</p>
+<div class="math notranslate nohighlight">
+\[\xi \sim |T-T_c|^{-\nu}\]</div>
+</li>
+<li><p>当 <span class="math notranslate nohighlight">\(T\to T_c\)</span>，<span class="math notranslate nohighlight">\(\xi\to\infty\)</span>：系统里出现跨越宏观尺度的合作涨落（团簇/气泡/畴）。</p></li>
+<li><p>此时很多可观测量呈现幂律与标度：</p>
+<ul class="simple">
+<li><p>比热、磁化率等在理想化下发散或呈奇异性</p></li>
+<li><p>对应热涨落谱向低频/长波集中（散斑、乳光、临界慢化）</p></li>
+</ul>
+</li>
+</ul>
+<p>所以你可以把临界点看成：
+<strong>“涨落的尺度把系统自身尺寸当成了‘小量’的那一刻。”</strong></p>
+</section>
+<section id="id5">
+<h2>5. 一阶相变也不“没有涨落”，只是角色更像成核<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>对一级相变（如过冷蒸汽突然凝结）：</p>
+<ul class="simple">
+<li><p>仍有关键涨落：形成液相胚泡/晶核的 <strong>局域密度涨落</strong></p></li>
+<li><p>相变动力学由 <strong>成核势垒</strong> （界面能与体自由能竞争）控制：涨落必须大到跨过势垒才会不可逆长大</p></li>
+<li><p>所以这里的关系是：涨落提供“种子”，热力学提供“哪个相更稳定”，动力学提供“怎么滚过去”。</p></li>
+</ul>
+</section>
+<section id="id6">
+<h2>6. 更深的框架：重整化群把“涨落—相变”写成同一套语言<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p><strong>重整化群（RG）</strong> 的观点最彻底：</p>
+<ul class="simple">
+<li><p>你逐步“粗粒化”（把短距离涨落先积分掉），同时重新标度</p></li>
+<li><p>相变点对应 RG 流向某个 <strong>不动点</strong></p></li>
+<li><p>不动点的性质（是否高斯/有相互作用）决定：</p>
+<ul>
+<li><p>是否可用平均场（高斯不动点稳定）</p></li>
+<li><p>临界指数、普适类（由少数对称性/维数/耦合决定，而不是微观细节）</p></li>
+</ul>
+</li>
+</ul>
+<p>这相当于把“涨落怎么层层叠加”与“为什么相变会出现普适性”放在同一个机器里解释。</p>
+</section>
+<section id="id7">
+<h2>7. 一句最能抓住直觉的总结<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>远离临界点</strong>：涨落存在，但彼此短程相关，宏观仍稳。</p></li>
+<li><p><strong>趋近临界点</strong>：涨落幅度变大、且变得更“同步”到更长距离（ξ 发散）。</p></li>
+<li><p><strong>相变发生</strong>：系统不再能用单一均匀解把涨落压下去，必须选择新的宏观组织（对称破缺/两相共存/有序态）。</p></li>
+</ul>
+<p>因此，<strong>相变是涨落积累到无法被压制时的“结构性响应”</strong>，而不是简单的“涨落过大”。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../model/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
