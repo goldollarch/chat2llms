@@ -1,4 +1,4 @@
-Scale-free network
+Scale-Free Network
 =====================
 
 陈京元在其 【狱中自辩暨控告血书】 中指出： 

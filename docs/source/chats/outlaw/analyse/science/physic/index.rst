@@ -9,18 +9,12 @@
  .. toctree::
     :maxdepth: 1
 
-    scale/index
+    sf_net/index
    
  .. toctree::
     :maxdepth: 1
 
-    soc/index
-   
- .. toctree::
-    :maxdepth: 1
-
-    model/index
-
+    soc_ad/index
    
  .. toctree::
     :maxdepth: 1
@@ -30,5 +24,10 @@
  .. toctree::
     :maxdepth: 1
 
-    other/index
+    model/index
+   
+ .. toctree::
+    :maxdepth: 1
+
+    others/index
 

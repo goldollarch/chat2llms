@@ -128,6 +128,11 @@
  .. toctree::
     :maxdepth: 1
 
+    forensic/index
+
+ .. toctree::
+    :maxdepth: 1
+
     behave/index
 
  .. toctree::
@@ -168,16 +173,6 @@
  .. toctree::
     :maxdepth: 1
 
-    cultural/index
-
- .. toctree::
-    :maxdepth: 1
-
-    social/index
-
- .. toctree::
-    :maxdepth: 1
-
     positive/index
 
  .. toctree::
@@ -188,4 +183,10 @@
  .. toctree::
     :maxdepth: 1
 
-    forensic/index
+    cultural/index
+
+ .. toctree::
+    :maxdepth: 1
+
+    social/index
+
