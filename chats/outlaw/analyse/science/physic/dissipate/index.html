@@ -1,0 +1,341 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluctuation-Dissipation Theorem &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../transition/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">科学理论</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../system/index.html">系统</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">物理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../psycho/index.html">心理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">科学理论</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">物理</a></li>
+      <li class="breadcrumb-item active">Fluctuation-Dissipation Theorem</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/physic/dissipate/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="fluctuation-dissipation-theorem">
+<h1>Fluctuation-Dissipation Theorem<a class="headerlink" href="#fluctuation-dissipation-theorem" title="Link to this heading"></a></h1>
+<p>涨落-耗散定理是非平衡态统计物理学的核心基石之一（由赫伯特·卡伦和西奥多·维尔顿于1951年严格证明）。</p>
+<p>它极其深刻地揭示了：系统局部的微观自发“涨落”（内部热运动），与系统在受到外部微小扰动时的“耗散/响应”（抵抗与吸收能力），在数理本质上是由同一种微观动力学机制决定的。</p>
+<p>将其引入本案，并非主张将物理公式直接作为刑事证据，而是以该定理的因果边界、尺度分离与响应约束逻辑，
+检验控方“微观转发→宏观秩序严重混乱”指控在统计物理与信息动力学层面的科学合理性，
+进而完成刑法因果关系的客观证伪。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#fdt">一、涨落-耗散定理（FDT）简要说明</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">二、将FDT应用于本案的信息传播系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">三、FDT对本案因果关系的法理意义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">四、结论</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 涨落-耗散定理的数理本质与尺度对应</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">二、 基于涨落-耗散定理的四维深度剖析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">1. 常态系统的“高热容耗散”：微观扰动的必然被吞噬性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">2. 因果链的线性破产：控方割裂了“涨落”与“耗散”的对偶性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">3. “超临界态”下的定理失效：混乱的真正罪魁祸首</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id6">三、 意见书增补：引入“涨落-耗散定理”的法庭辩论陈述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id7">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1">一、先说清楚：涨落–耗散定理到底在讲什么？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2">二、把这套结构翻译到本案：谁是“涨落”？谁是“耗散”？谁在决定一切？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#fdt">三、FDT 对控方逻辑的直接反驳：你不能把“系统内生噪声”算到一个微扰头上</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id3">四、关键点：本案中的“微扰”甚至连进入 FDT 线性响应区的资格都没有</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id4">五、从 FDT 视角重述本案的因果结构（可直接写进法律意见书）</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、什么是涨落—耗散定理</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id2">二、经典例子：布朗运动</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#fdt">三、FDT视角下的网络系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id3">四、法律归责中的一个重要问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id4">五、边缘节点意味着什么</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id5">六、FDT对“严重混乱”命题的挑战</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#fdtsoc">七、FDT与SOC的统一</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">八、对本案论证的启示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id7">九、统计物理意义上的归责问题</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">DeepSeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#fdt">零、先讲清 FDT 本身在说什么（不带公式也能抓住刀刃）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、把社交网络”翻译”成 FDT 的语言框架</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2">步骤 1：定义我们要追踪的可观测变量</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">步骤 2：区分三种量</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id4">二、FDT 给出的三岔口（每一个都杀死指控）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#i">岔路Ⅰ：<strong>系统在正常/稳定区（大多数时候的真实状态）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#ii">岔路Ⅱ：<strong>系统接近临界/高易感区（此时响应真的会被放大）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#iii">岔路Ⅲ：<strong>确有可测量宏观事件，且系统不处于临界区</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id5">三、用 FDT 重构一个”检察官式”的三段论（反向绞杀版）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6">四、最关键的一句话（也是 FDT 最锋利的那一刀）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id7"><strong>涨落—耗散定理的法庭语言版本</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、 涨落-耗散定理的核心命题与本案映射</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#fdt">二、 控方指控的物理学谬误：违背FDT的三重断裂</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#chi-to-infty">1. 响应函数误设：预设 $\chi \to \infty$ 而无临界证据</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">2. 耗散机制无视：抹除系统秩序韧性的阻尼功能</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">3. 涨落-响应尺度混淆：以微观噪声替代宏观相变</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id4">三、 FDT框架下的法律因果关系检验</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id5">四、 适用边界与司法审查启示</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">1. 理论适用边界说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id7">2. 证据审查的FDT范式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#daubert">3. 与多伯特标准（Daubert）的内在契合</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id8">五、 结语：科学定律是法治因果推演的不可逾越之界</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id9">涨落—耗散定理的法庭语言版本</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<p><strong>涨落-耗散定理（Fluctuation–Dissipation Theorem, FDT）</strong></p>
+<hr class="docutils" />
+<p>一句话直觉： <strong>系统热平衡时的”自发涨落”有多大，决定了它在受到微扰后线性响应的”耗散/阻尼”有多大——反过来，测耗散就能反推出涨落。</strong></p>
+<p>它是涨落理论里 <strong>最可操作</strong>、最常被拿来”连接理论与实验”的定理：</p>
+<ul class="simple">
+<li><p><strong>涨落</strong> → 平衡态下观测量对其均值的无规起伏</p></li>
+<li><p><strong>耗散</strong> → 系统对外力做功不可逆地转化为热的能力（阻尼、电阻、黏度等）</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>最常用的一般性表述（线性响应框架）</p></li>
+</ol>
+<p>考虑一个系统处于温度 <span class="math notranslate nohighlight">\(T\)</span> 的热平衡，哈密顿量受外场微扰：</p>
+<div class="math notranslate nohighlight">
+\[H(t)=H_0 - A\,F(t)\]</div>
+<p>其中 <span class="math notranslate nohighlight">\(A\)</span> 是系统中某个微观可观测量（比如磁化分量、极化、粒子数密度…），<span class="math notranslate nohighlight">\(F(t)\)</span> 是共轭的外驱动（磁场、电场、化学势梯度…）。</p>
+<p>线性响应关系:</p>
+<p>对微扰 <span class="math notranslate nohighlight">\(F(t)\)</span>，<span class="math notranslate nohighlight">\(B\)</span> 的期望变化在线性阶为</p>
+<div class="math notranslate nohighlight">
+\[\langle B(t)\rangle-\langle B\rangle_0=\int_{-\infty}^{t}\chi_{BA}(t-t')\,F(t')\,dt'\]</div>
+<p>其中 <span class="math notranslate nohighlight">\(\chi_{BA}\)</span> 是 <strong>响应函数 / 广义极化率</strong> （也叫 susceptibility kernel）。</p>
+<p>涨落–耗散定理（经典，一般形式）</p>
+<div class="math notranslate nohighlight">
+\[\chi_{BA}(\omega)=\frac{i}{\hbar}\bigl(1-e^{-\beta\hbar\omega}\bigr)\,S_{AB}(\omega)\]</div>
+<p>或等价地更常用的实形式（经典极限 <span class="math notranslate nohighlight">\(k_BT\gg\hbar\omega\)</span>）：</p>
+<div class="math notranslate nohighlight">
+\[S_{AA}(\omega)\equiv\int_{-\infty}^{\infty} C_{AA}(t)\,e^{i\omega t}\,dt
+=\frac{2k_B T}{\omega}\,\operatorname{Im}\chi_{AA}(\omega)\]</div>
+<p>其中</p>
+<div class="math notranslate nohighlight">
+\[C_{AA}(t)=\langle A(t)A(0)\rangle_{\text{eq}}-\langle A\rangle_{\text{eq}}^2\]</div>
+<p>是平衡态下 <span class="math notranslate nohighlight">\(A\)</span> 的 <strong>涨落自相关函数</strong>。</p>
+<ol class="arabic simple" start="2">
+<li><p>读这句公式到底在说什么</p></li>
+</ol>
+<ul class="simple">
+<li><p>左边 <span class="math notranslate nohighlight">\(S_{AA}(\omega)\)</span>： <strong>平衡态自发涨落的功率谱</strong> （不加外场也能测到的噪声谱）</p></li>
+<li><p>右边 <span class="math notranslate nohighlight">\(\operatorname{Im}\chi(\omega)\)</span>： <strong>对外场的线性响应虚部</strong> （决定吸收/耗散/阻尼的那个部分）</p></li>
+</ul>
+<p><strong>物理含义</strong>：</p>
+<p>系统越容易被外场”拖着耗散能量”（<span class="math notranslate nohighlight">\(\operatorname{Im}\chi\)</span> 大），它自己在平衡时就”抖得越厉害”（<span class="math notranslate nohighlight">\(S(\omega)\)</span> 大），且比例由 <span class="math notranslate nohighlight">\(k_B T\)</span> 固定。</p>
+<p>这就是 <strong>爱因斯坦关系 / 奈奎斯特定理 / 涨落–耗散定理</strong> 在不同语境下的统一面孔。</p>
+<ol class="arabic simple" start="3">
+<li><p>三个最经典的例子（最容易记住）</p></li>
+</ol>
+<ol class="loweralpha simple">
+<li><p>布朗粒子：摩擦 ↔ 扩散（爱因斯坦关系）</p></li>
+</ol>
+<p>对悬浮粒子的速度  <span class="math notranslate nohighlight">\(v\)</span> （一维）：</p>
+<div class="math notranslate nohighlight">
+\[D=\mu\,k_B T,\qquad \mu=\frac{1}{\gamma}=\frac{1}{m\Gamma}\]</div>
+<ul class="simple">
+<li><p><strong>耗散</strong>：摩擦系数 <span class="math notranslate nohighlight">\(\gamma\)</span> （外力  <span class="math notranslate nohighlight">\(F\)</span> 产生稳态漂移 <span class="math notranslate nohighlight">\(v=\gamma^{-1}F\)</span>）</p></li>
+<li><p><strong>涨落</strong>：扩散常数 <span class="math notranslate nohighlight">\(D\)</span> （位移方差  <span class="math notranslate nohighlight">\(\langle\Delta x^2\rangle=2Dt\)</span>）</p></li>
+</ul>
+<p>写得更”FDT”一点：</p>
+<div class="math notranslate nohighlight">
+\[\langle v(t)v(0)\rangle_{\text{eq}}\; \xrightarrow{\text{积分}/谱}\; D=\frac{k_B T}{\gamma}\]</div>
+<ol class="loweralpha simple" start="2">
+<li><p>电阻的热噪声：约翰逊–奈奎斯特噪声</p></li>
+</ol>
+<p>两端开路电压涨落：</p>
+<div class="math notranslate nohighlight">
+\[\langle\delta V^2\rangle = 4R\,k_B T\,\Delta f\]</div>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(R=\operatorname{Re}Z(\omega)\)</span> （耗散部分）</p></li>
+<li><p>噪声功率谱正比于 <span class="math notranslate nohighlight">\(R\,k_B T\)</span></p></li>
+</ul>
+<p>这就是电路工程师天天用的 FDT 实例。</p>
+<ol class="loweralpha simple" start="3">
+<li><p>顺磁 / 介电极化：磁化率 ↔ 磁化涨落</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\chi''(\omega)=\frac{\omega}{2k_B T}S_M(\omega)\]</div>
+<p>测交流磁化率的虚部（吸收），就等价于知道了平衡态 <span class="math notranslate nohighlight">\(M\)</span> 的涨落谱，反之亦然。</p>
+<ol class="arabic simple" start="4">
+<li><p>适用条件（很重要，也是学生最常踩坑的地方）</p></li>
+</ol>
+<p>涨落–耗散定理 <strong>严格成立</strong> 需要：</p>
+<ol class="arabic simple">
+<li><p><strong>系统处于热平衡</strong> （或准平衡、细致平衡成立）</p></li>
+<li><p><strong>线性响应区</strong> （扰动足够小，线性近似有效）</p></li>
+<li><p>微扰–可观测量构成 <strong>共轭对</strong>  <span class="math notranslate nohighlight">\(-A\,F\)</span> （以保证 Kubo 公式的起点）</p></li>
+</ol>
+<p>超出这些条件就要小心：</p>
+<ul class="simple">
+<li><p>强驱动、主动介质、生物系统、”远非平衡稳态”：一般 <strong>FDT 被破坏</strong>，需要修正因子（有效温度 <span class="math notranslate nohighlight">\(T_{\text{eff}}(\omega)\)</span> 之类，但不是真正温度）</p></li>
+<li><p>量子情形：零温仍有零点涨落，这时公式里的 <span class="math notranslate nohighlight">\((1-e^{-\beta\hbar\omega})\)</span> 因子不能约掉</p></li>
+</ul>
+<ol class="arabic simple" start="5">
+<li><p>与”涨落–相变”关系的衔接</p></li>
+</ol>
+<p>在相变附近（尤其是连续相变临界点），FDT 仍然成立（系统仍热平衡），但有趣的事发生了：</p>
+<ul class="simple">
+<li><p>关联长度 <span class="math notranslate nohighlight">\(\xi\to\infty\)</span> ⇒ 涨落 <span class="math notranslate nohighlight">\(C(r)\)</span> 衰减极慢 ⇒ <span class="math notranslate nohighlight">\(S(\omega)\)</span> 出现 <strong>低频奇异性/幂律</strong></p></li>
+<li><p>同时 <span class="math notranslate nohighlight">\(\chi(\omega)\)</span> 的奇异性也由同一套临界指数控制</p></li>
+</ul>
+<p>所以 <strong>FDT 保证了：临界区”噪声有多疯”和”响应有多强”永远成对出现</strong>，临界散射（涨落）与临界响应函数本质上是同一枚硬币的两面——这也是为什么实验上既可以用中子/X射线看散射（涨落），也可以用 susceptibility 看响应，两者互相校验。</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../transition/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

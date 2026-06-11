@@ -19,12 +19,17 @@
  .. toctree::
     :maxdepth: 1
 
-    statistic/index
+    model/index
    
  .. toctree::
     :maxdepth: 1
 
-    model/index
+    transition/index
+   
+ .. toctree::
+    :maxdepth: 1
+
+    dissipate/index
    
  .. toctree::
     :maxdepth: 1
