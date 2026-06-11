@@ -1,4 +1,4 @@
-Fluctuation vs.Phase Transition
+Fluctuation vs Phase Transition
 ==================================
 
 在统计物理学中，**涨落** （Fluctuation）与 **相变** （Phase Transition）绝不是等价的概念，它们之间隔着极其严苛的尺度壁垒、能量势垒以及空间耗散机制。
