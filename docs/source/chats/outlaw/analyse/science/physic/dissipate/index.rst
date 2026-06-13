@@ -159,6 +159,6 @@ Video Overview
 1. `The FDT Defense <https://youtu.be/gOrhBmho3yo>`_ 
 2. `法庭物理学：涨落耗散辩护 <https://youtu.be/nWoKDcsHiO4>`_ 
 3. `物理因果：微扰能击垮宏观系统吗？ <https://youtu.be/HHlR7yEMlvc>`_ 
-4. `A_Criminal_Defense_Built_on_Thermodynamics <https://youtu.be/g8yX2QNzQwM>`_ 
+4. `A Criminal Defense Built on Thermodynamics <https://youtu.be/g8yX2QNzQwM>`_ 
 5. `物理学博士硬核自辩寻衅滋事 <https://youtu.be/_H_5SU2o8t0>`_ 
 6. `博士用物理公式自辩 <https://youtu.be/_mB9E-gT-k8>`_ 

@@ -126,3 +126,12 @@ Complex System
 - Mitchell, M. (2009). *Complexity: A Guided Tour*. Oxford University Press.
 - Barabási, A. L. (2016). *Network Science*. Cambridge University Press.
 - 圣塔菲研究所. (2023). *复杂性科学进展报告*.
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `范式冲突：基于CAP定理的辩护 <https://youtu.be/PqSZoJBfdkc>`_ 

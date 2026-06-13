@@ -183,10 +183,7 @@
 五、因果关系进一步分析
 -------------------------
 
- .. toctree::
-    :maxdepth: 1
-
-    causal/index
+:doc:`基于被告《狱中血书》的论证逻辑的分析 </chats/elements/causal/defendent/models/index>`
 
 
 六、法律适用错误
