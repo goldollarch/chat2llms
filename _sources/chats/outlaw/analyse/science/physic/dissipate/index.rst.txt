@@ -36,7 +36,6 @@ Fluctuation-Dissipation Theorem
 
 1. 最常用的一般性表述（线性响应框架）
 
-
 考虑一个系统处于温度 :math:`T` 的热平衡，哈密顿量受外场微扰：
 
 .. math::
@@ -77,7 +76,6 @@ Fluctuation-Dissipation Theorem
 是平衡态下 :math:`A` 的 **涨落自相关函数**。
 
 2. 读这句公式到底在说什么
-
 
 - 左边 :math:`S_{AA}(\omega)`： **平衡态自发涨落的功率谱** （不加外场也能测到的噪声谱）
 - 右边 :math:`\operatorname{Im}\chi(\omega)`： **对外场的线性响应虚部** （决定吸收/耗散/阻尼的那个部分）
@@ -131,7 +129,6 @@ Fluctuation-Dissipation Theorem
 
 4. 适用条件（很重要，也是学生最常踩坑的地方）
 
-
 涨落–耗散定理 **严格成立** 需要：
 
 1. **系统处于热平衡** （或准平衡、细致平衡成立）
@@ -145,7 +142,6 @@ Fluctuation-Dissipation Theorem
 
 5. 与"涨落–相变"关系的衔接
 
-
 在相变附近（尤其是连续相变临界点），FDT 仍然成立（系统仍热平衡），但有趣的事发生了：
 
 - 关联长度 :math:`\xi\to\infty` ⇒ 涨落 :math:`C(r)` 衰减极慢 ⇒ :math:`S(\omega)` 出现 **低频奇异性/幂律**
@@ -153,3 +149,16 @@ Fluctuation-Dissipation Theorem
 
 所以 **FDT 保证了：临界区"噪声有多疯"和"响应有多强"永远成对出现**，临界散射（涨落）与临界响应函数本质上是同一枚硬币的两面——这也是为什么实验上既可以用中子/X射线看散射（涨落），也可以用 susceptibility 看响应，两者互相校验。
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `The FDT Defense <https://youtu.be/gOrhBmho3yo>`_ 
+2. `法庭物理学：涨落耗散辩护 <https://youtu.be/nWoKDcsHiO4>`_ 
+3. `物理因果：微扰能击垮宏观系统吗？ <https://youtu.be/HHlR7yEMlvc>`_ 
+4. `A_Criminal_Defense_Built_on_Thermodynamics <https://youtu.be/g8yX2QNzQwM>`_ 
+5. `物理学博士硬核自辩寻衅滋事 <https://youtu.be/_H_5SU2o8t0>`_ 
+6. `博士用物理公式自辩 <https://youtu.be/_mB9E-gT-k8>`_ 

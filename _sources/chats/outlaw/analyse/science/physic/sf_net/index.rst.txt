@@ -18,3 +18,14 @@ Scale-Free Network
     deepseek
     qwen
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `Science vs The Law <https://youtu.be/6iaVbX7ns7w>`_ 
+2. `科学与法律的碰撞：解构一次转发 <https://youtu.be/jELVL0i4icg>`_ 
+3. `科学理性vs司法专断：陈京元案的逻辑解构 <https://youtu.be/Cown8i5r-I4>`_ 
+4. `Defending a retweet with theoretical physics <https://youtu.be/niWTPtsiDcg>`_ 
+5. `科学理性的降维打击：复杂系统视角下网络言论法律归罪模型与因果关系解构 <https://youtu.be/j_tzyQdQOjc>`_ 

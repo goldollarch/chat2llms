@@ -133,3 +133,16 @@ Fluctuation vs Phase Transition
 -   **趋近临界点**：涨落幅度变大、且变得更“同步”到更长距离（ξ 发散）。
 -   **相变发生**：系统不再能用单一均匀解把涨落压下去，必须选择新的宏观组织（对称破缺/两相共存/有序态）。
 因此，**相变是涨落积累到无法被压制时的“结构性响应”**，而不是简单的“涨落过大”。
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `统计物理学与法律因果关系 <https://youtu.be/BpKcio6x-1w>`_ 
+2. `The Micro vs Macro Trap <https://youtu.be/t7YpHVrDqAw>`_ 
+3. `物理、AI与法律因果：陈京元案解析 <https://youtu.be/s7pT3jMHPWI>`_ 
+4. `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
+5. `跨越尺度的审判：统计物理视域下的因果谬误 <https://youtu.be/2FlgI923gYc>`_ 
+6. `The Blueprint of Causality: Why Micro-Fluctions are Not Macro-Chaos <https://youtu.be/VuqlSWllcIY>`_ 
