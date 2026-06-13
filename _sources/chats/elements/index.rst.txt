@@ -32,5 +32,10 @@ Key Elements of the PXQT Crime
  .. toctree::
     :maxdepth: 2
 
+    causal/index
+
+ .. toctree::
+    :maxdepth: 2
+
     overview/index
 

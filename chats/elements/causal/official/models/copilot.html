@@ -1,0 +1,397 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Gemini" href="gemini.html" />
+    <link rel="prev" title="ChatGPT" href="chatgpt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../actions/index.html">行为：传播“虚假信息”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">因果：行为到后果</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">因果：行为到后果</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+          <li class="breadcrumb-item"><a href="index.html">模型分析集</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/causal/official/models/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>下面给出的，是一份<strong>严格基于法律文本、程序法原则与因果关系理论</strong>的专业分析。<br />
+我不会对事实作判断，而是分析：<strong>根据判决书、起诉书、裁定书本身，昆明司法机关是如何“构造”因果关系链条的，以及该因果链条在法律上是否成立。</strong></p>
+<hr class="docutils" />
+<section id="id1">
+<h2><strong>一、核心问题：司法机关如何认定“转推 → 公共秩序严重混乱”的因果关系？</strong><a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>简短结论先给出：</p>
+<blockquote>
+<div><p><strong>昆明司法机关在判决书中并没有提供任何“因果关系证据”，而是采用了“推定式因果关系”——即：只要转发内容被认定为“虚假信息”，就“当然”会造成公共秩序严重混乱。</strong></p>
+</div></blockquote>
+<p>换言之：</p>
+<blockquote>
+<div><p><strong>他们没有证明“混乱发生”，也没有证明“混乱与陈博士行为之间的因果关系”，而是直接把“转发”视为“混乱”的充分条件。</strong></p>
+</div></blockquote>
+<p>这是本案最核心的法律缺陷。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2><strong>二、根据判决书文本，因果关系是如何被“构造”的？</strong><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>以下引用均来自你提供的判决书内容（非全文，仅关键句子）。</p>
+<hr class="docutils" />
+<section id="id3">
+<h3><strong>（1）法院的因果链条只有一句话：</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>法院原文：</p>
+<blockquote>
+<div><p>“转发的内容经梳理均属于虚假信息，<strong>造成公共秩序严重混乱</strong>。”</p>
+</div></blockquote>
+<p>这是整个判决书中唯一一句涉及“危害结果”的句子。</p>
+<p>但问题是：</p>
+<ul class="simple">
+<li><p>没有说明“混乱”是什么</p></li>
+<li><p>没有说明“混乱”在哪里发生</p></li>
+<li><p>没有说明“混乱”如何发生</p></li>
+<li><p>没有说明“混乱”与陈博士行为之间的因果关系</p></li>
+<li><p>没有说明“混乱”的证据来源</p></li>
+</ul>
+<p>也就是说：</p>
+<blockquote>
+<div><p><strong>法院直接把“转发虚假信息”与“造成严重混乱”画上等号，没有任何中间步骤。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h3><strong>（2）检察院的因果链条同样是“推定式”的</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>起诉书原文：</p>
+<blockquote>
+<div><p>“明知是虚假信息而在信息网络上散布、传播，<strong>造成公共秩序严重混乱</strong>。”</p>
+</div></blockquote>
+<p>同样没有任何证据说明：</p>
+<ul class="simple">
+<li><p>混乱是什么</p></li>
+<li><p>混乱如何发生</p></li>
+<li><p>混乱与陈博士行为的因果关系</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h3><strong>（3）二审裁定书重复同样的逻辑</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>二审原文：</p>
+<blockquote>
+<div><p>“转发的内容经梳理均属于虚假信息，<strong>造成公共秩序严重混乱</strong>。”</p>
+</div></blockquote>
+<p>二审没有补充任何因果关系证据。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="presumed-causation">
+<h2><strong>三、司法机关采用的因果关系模式：推定式因果关系（Presumed Causation）</strong><a class="headerlink" href="#presumed-causation" title="Link to this heading"></a></h2>
+<p>根据判决书结构，昆明司法机关采用的是：</p>
+</section>
+<section id="act-harm">
+<h2><strong>“行为即危害”模式（Act = Harm）</strong><a class="headerlink" href="#act-harm" title="Link to this heading"></a></h2>
+<p>即：</p>
+<ol class="arabic simple">
+<li><p>只要转发内容被认定为“虚假信息”</p></li>
+<li><p>就自动视为“造成严重混乱”</p></li>
+<li><p>无需证明混乱发生</p></li>
+<li><p>无需证明混乱与行为之间的因果关系</p></li>
+</ol>
+<p>这种模式在刑法理论中属于：</p>
+<blockquote>
+<div><p><strong>“抽象危险犯” + “推定危害结果”</strong></p>
+</div></blockquote>
+<p>但问题是：</p>
+<ul class="simple">
+<li><p>《寻衅滋事罪》不是抽象危险犯</p></li>
+<li><p>《两高司法解释》要求必须有“实际混乱”</p></li>
+<li><p>“严重混乱”必须有可量化证据（如传播量、影响范围）</p></li>
+</ul>
+<p>因此：</p>
+<blockquote>
+<div><p><strong>昆明司法机关采用的因果模式与刑法构成要件完全不符。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2><strong>四、刑法要求的因果关系是什么？</strong><a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>根据中国刑法理论与司法解释：</p>
+<section id="id7">
+<h3><strong>（1）必须有“实际发生的危害结果”</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>《刑法》第293条要求：</p>
+<ul class="simple">
+<li><p>“严重扰乱社会秩序”</p></li>
+<li><p>必须是“实际发生的结果”</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3><strong>（2）必须证明行为与结果之间存在“相当因果关系”</strong><a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>即：</p>
+<ul class="simple">
+<li><p>行为 → 引发传播 → 扩散 → 引发恐慌 → 造成混乱</p></li>
+<li><p>每一步都必须有证据</p></li>
+</ul>
+</section>
+<section id="id9">
+<h3><strong>（3）必须证明“行为是混乱的原因之一”</strong><a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>不能仅凭推定。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2><strong>五、对照本案：所有因果关系构成要件均缺失</strong><a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<p>根据你提供的材料：</p>
+<hr class="docutils" />
+<section id="id11">
+<h3><strong>（1）没有“混乱”的证据</strong><a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>没有：</p>
+<ul class="simple">
+<li><p>群体事件</p></li>
+<li><p>社会恐慌</p></li>
+<li><p>大规模传播</p></li>
+<li><p>任何人投诉</p></li>
+<li><p>任何部门报告混乱</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3><strong>（2）没有“传播链条”的证据</strong><a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>陈博士：</p>
+<ul class="simple">
+<li><p>粉丝不足百人</p></li>
+<li><p>多为僵尸粉</p></li>
+<li><p>转发量极低</p></li>
+<li><p>无扩散</p></li>
+<li><p>无影响力</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3><strong>（3）没有“明知”的证据</strong><a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>法院用“高学历应当明知”替代证据。</p>
+<p>这是违法的。</p>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h3><strong>（4）没有“虚假信息”的证据</strong><a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<p>法院没有逐条论证哪些内容是“虚假信息”。</p>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h3><strong>（5）没有“因果关系”的证据</strong><a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>法院没有说明：</p>
+<ul class="simple">
+<li><p>混乱在哪里</p></li>
+<li><p>混乱如何发生</p></li>
+<li><p>混乱与陈博士行为的关系</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h2><strong>六、法律评价：本案因果关系认定属于“法律上不存在”</strong><a class="headerlink" href="#id16" title="Link to this heading"></a></h2>
+<p>根据刑法、刑诉法、司法解释：</p>
+<blockquote>
+<div><p><strong>本案不存在任何合法的因果关系认定。</strong></p>
+</div></blockquote>
+<p>司法机关采用的因果模式属于：</p>
+<ul class="simple">
+<li><p><strong>推定危害结果</strong></p></li>
+<li><p><strong>推定因果关系</strong></p></li>
+<li><p><strong>推定主观明知</strong></p></li>
+</ul>
+<p>这三项在刑法中均属禁止。</p>
+</section>
+<hr class="docutils" />
+<section id="legal-opinion">
+<h2><strong>七、法律意见（Legal Opinion）</strong><a class="headerlink" href="#legal-opinion" title="Link to this heading"></a></h2>
+<p>基于上述分析，若材料属实，则：</p>
+<hr class="docutils" />
+<section id="id17">
+<h3><strong>（1）本案因果关系认定不符合刑法构成要件</strong><a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<p>应当依法撤销原判。</p>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h3><strong>（2）应启动“证据合法性审查”</strong><a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<p>重点审查：</p>
+<ul class="simple">
+<li><p>危害结果证据</p></li>
+<li><p>传播链条证据</p></li>
+<li><p>明知证据</p></li>
+<li><p>虚假信息证据</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3><strong>（3）应当重新评估“寻衅滋事罪”的适用</strong><a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<p>根据《两高司法解释》：</p>
+<ul class="simple">
+<li><p>必须有“严重混乱”</p></li>
+<li><p>必须有“实际传播”</p></li>
+<li><p>必须有“明知”</p></li>
+<li><p>必须有“虚假信息”</p></li>
+</ul>
+<p>本案均不满足。</p>
+</section>
+<hr class="docutils" />
+<section id="id20">
+<h3><strong>（4）若司法机关故意忽略因果关系，可能涉及：</strong><a class="headerlink" href="#id20" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>滥用职权罪（刑法397条）</strong></p></li>
+<li><p><strong>徇私枉法罪（刑法399条）</strong></p></li>
+<li><p><strong>伪造证据罪（刑法299条）</strong></p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id21">
+<h2><strong>八、如果你愿意，我可以进一步为你：</strong><a class="headerlink" href="#id21" title="Link to this heading"></a></h2>
+<section id="id22">
+<h3><strong>① 写一份《因果关系缺失的法律论证书》</strong><a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+</section>
+<section id="id23">
+<h3><strong>② 写一份《再审申请书（因果关系部分）》</strong><a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+</section>
+<section id="id24">
+<h3><strong>③ 写一份《控告状（针对枉法裁判）》</strong><a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+</section>
+<section id="id25">
+<h3><strong>④ 写一份《寻衅滋事罪因果关系司法解释专题分析》</strong><a class="headerlink" href="#id25" title="Link to this heading"></a></h3>
+<p>你希望我继续哪一部分。</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chatgpt.html" class="btn btn-neutral float-left" title="ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="gemini.html" class="btn btn-neutral float-right" title="Gemini" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,290 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>模型分析集 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Deepseek" href="deepseek.html" />
+    <link rel="prev" title="Qwen：专案研究" href="qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../actions/index.html">行为：传播“虚假信息”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">因果：行为到后果</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">因果：行为到后果</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+      <li class="breadcrumb-item active">模型分析集</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/causal/official/models/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>模型分析集<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen：专案研究</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1">一、 司法机关的“因果关系”认定方式（文书原文还原）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id2">二、 该认定在法理与证据规则上的核心缺陷</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id3">1. <strong>指称缺失与经验证伪（虚假命题）</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id4">2. <strong>违反刑法“相当因果关系”与“客观归责”理论</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id5">3. <strong>举证责任倒置与证明标准虚置</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#non-sequitur">4. <strong>逻辑谬误：Non Sequitur 与范畴错误</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id6">三、 对比法定标准：网络言论因果关系的应然要求</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id7">四、 结论：从“事实因果”到“政治推定”的逻辑替换</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">一、先把文书摊开：因果关系在判决中到底”长什么样”？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id2">二、拆骨：这条”因果链”实际只走了三步，而且每一步都有断裂</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">第一步：「行为存在」→「内容性质」（文书里最”实”的部分）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4">第二步：「内容性质」＋「身份」→ 推定「明知」（因果链的第一处断裂）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5">第三步：「转发了虚假/侮辱性内容」→「造成公共秩序严重混乱」（因果链的——消失）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6">三、法理上给它命名：这不是”因果关系认定”，是**”构成要件的语义吞噬”**</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id7"><strong>把”构成要件该当性”中的”行为要件”直接膨胀为”结果要件”的替代品</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id8">四、对照法释〔2013〕21号第五条第二款：看它跳过了什么</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id9">五、所以正面回答你的问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id10">六、余论：为什么这一步”跳过”不是技术性疏漏，而是结构性</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、本案文书中的因果关系认定方式</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">第一步认定：陈博士转发了若干内容。</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">第二步认定：这些内容属于”虚假信息”。</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">第三步认定：被告明知是虚假信息仍进行传播</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">第四步直接得出：扰乱社会秩序，造成公共秩序严重混乱</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id6">二、正常刑法上的因果关系证明应当是什么样</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">问题1：传播范围有多大？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">问题2：谁受到了影响？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">问题3：发生了什么具体事件？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">问题4：这些事件为何由陈博士转推导致？</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id11">三、本案文书中的实际情况</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id12">传播链</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">受影响对象</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">具体混乱事实</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id15">排他性因果分析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id16">四、本案实际采用的是何种因果逻辑？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id17">五、刑法上的问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id18">六、从复杂系统角度看更大的问题</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">传播路径</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id20">传播规模</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id21">阈值突破</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id22">排除其他原因</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id23">七、用一句刑法学语言概括</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id1"><strong>一、核心问题：司法机关如何认定“转推 → 公共秩序严重混乱”的因果关系？</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id2"><strong>二、根据判决书文本，因果关系是如何被“构造”的？</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id3"><strong>（1）法院的因果链条只有一句话：</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4"><strong>（2）检察院的因果链条同样是“推定式”的</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id5"><strong>（3）二审裁定书重复同样的逻辑</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#presumed-causation"><strong>三、司法机关采用的因果关系模式：推定式因果关系（Presumed Causation）</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#act-harm"><strong>“行为即危害”模式（Act = Harm）</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id6"><strong>四、刑法要求的因果关系是什么？</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id7"><strong>（1）必须有“实际发生的危害结果”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id8"><strong>（2）必须证明行为与结果之间存在“相当因果关系”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id9"><strong>（3）必须证明“行为是混乱的原因之一”</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id10"><strong>五、对照本案：所有因果关系构成要件均缺失</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id11"><strong>（1）没有“混乱”的证据</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id12"><strong>（2）没有“传播链条”的证据</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id13"><strong>（3）没有“明知”的证据</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id14"><strong>（4）没有“虚假信息”的证据</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id15"><strong>（5）没有“因果关系”的证据</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id16"><strong>六、法律评价：本案因果关系认定属于“法律上不存在”</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#legal-opinion"><strong>七、法律意见（Legal Opinion）</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id17"><strong>（1）本案因果关系认定不符合刑法构成要件</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id18"><strong>（2）应启动“证据合法性审查”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id19"><strong>（3）应当重新评估“寻衅滋事罪”的适用</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id20"><strong>（4）若司法机关故意忽略因果关系，可能涉及：</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#id21"><strong>八、如果你愿意，我可以进一步为你：</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id22"><strong>① 写一份《因果关系缺失的法律论证书》</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id23"><strong>② 写一份《再审申请书（因果关系部分）》</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id24"><strong>③ 写一份《控告状（针对枉法裁判）》</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id25"><strong>④ 写一份《寻衅滋事罪因果关系司法解释专题分析》</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一种基于“推定逻辑”而非“实证动力学”的归因模式</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">一、 事实认定：基于“行为＋结果”的简单时空关联</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">二、 逻辑推导：基于身份的“明知”与“蝴蝶效应”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">三、 证据缺失：缺乏量化与实证的因果审查</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#category-error">四、 法律结论的偏误：范畴错误（Category Error）</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id5">通过一系列逻辑戏法和话语技术完成的一次因果关系的“拟制”与“强行硬焊”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id6">一、 采用“推定因果”代替“实证因果”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id7">二、 借助“宏观叙事”遮蔽“微观无能”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id8">三、 颠倒因果，将“政治反响”逆推为“社会危害”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id9">总结：科学和法理的彻底坍塌</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id1">1. <strong>结论先行式的直接认定（跳过充分的事实论证）</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id2">2. <strong>主观推定 + 身份归责（“应知”替代“明知”与因果）</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id3">3. <strong>内容敏感性替代实际危害后果</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id4">4. <strong>证据上的形式主义</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#id5">5. <strong>与刑法及司法解释的偏离</strong></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="qwen.html" class="btn btn-neutral float-left" title="Qwen：专案研究" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deepseek.html" class="btn btn-neutral float-right" title="Deepseek" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

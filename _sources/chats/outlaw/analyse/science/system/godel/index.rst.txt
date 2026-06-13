@@ -26,3 +26,14 @@ Gödel Theorem
 -----------
 
 [:doc:`新的探索之路 </chats/outlaw/analyse/science/system/godel/surpass>`]
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `The_Retweet_Case <https://youtu.be/TvvHM1-EBro>`_ 
+2. `Truth,Math,and the Law <https://youtu.be/llPu0TT4ZFw>`_ 
+3. `数字陪审团与哥德尔辩护 <https://youtu.be/iWNBzda2PrA>`_ 

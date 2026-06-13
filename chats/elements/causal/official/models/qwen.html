@@ -1,0 +1,258 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qwen：专案研究 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="模型分析集" href="index.html" />
+    <link rel="prev" title="官方质证与逻辑" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../actions/index.html">行为：传播“虚假信息”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">因果：行为到后果</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">因果：行为到后果</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+      <li class="breadcrumb-item active">Qwen：专案研究</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/causal/official/models/qwen.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="qwen">
+<h1>Qwen：专案研究<a class="headerlink" href="#qwen" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>根据案件材料及现行刑事法律规范，昆明司法机关在本案中<strong>并未依法完成因果关系的实质认定</strong>，而是通过 <strong>“结论直述+逻辑跳跃+政治推定”</strong> 的方式，将刑法要求的“行为-结果”经验因果链替换为规范性断言。具体认定路径与法理缺陷如下：</p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、 司法机关的“因果关系”认定方式（文书原文还原）<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>文书环节</p></th>
+<th class="head"><p>原文表述/操作方式</p></th>
+<th class="head"><p>实质认定逻辑</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>起诉书</strong></p></td>
+<td><p>“通过翻墙软件使用聊天工具在信息网络上散布虚假言论，扰乱社会秩序。”</p></td>
+<td><p>仅以抽象概括一笔带过，未列明传播路径、<br />影响范围、现实后果，因果链完全空心化。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>一审判决书</strong></p></td>
+<td><p>“……对明知是侮辱、攻击国家领导核心以及我国现行政治体制的图片和文章进行转发，<br />转发的内容经梳理均属于虚假信息，<strong>造成公共秩序严重混乱</strong>，故其行为已构成寻衅滋事罪。”</p></td>
+<td><p>采用“内容定性→主观推定→结果断言”的线性跳跃，<br /><strong>省略一切传播力评估与实证验证</strong>，直接将政治/意识形态评价等同于危害结果。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>二审裁定书</strong></p></td>
+<td><p>“在案证据已形成锁链，足以证实上诉人的犯罪事实……<br />上诉人上诉意见与查明事实和法律规定不符，本院不予采纳。”</p></td>
+<td><p>以格式化表述回避对因果关系的实质审查，<br />将一审的预设结论直接固化，<strong>以“证据锁链”口号替代因果论证</strong>。</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>司法认定路径可归纳为</strong>：
+<code class="docutils literal notranslate"><span class="pre">转发行为存在</span></code> → <code class="docutils literal notranslate"><span class="pre">警方“梳理”为敏感/虚假信息</span></code> → <code class="docutils literal notranslate"><span class="pre">法院推定“高学历应明知”</span></code> → <code class="docutils literal notranslate"><span class="pre">直接断言“造成严重混乱”</span></code> → <code class="docutils literal notranslate"><span class="pre">定罪量刑</span></code>
+全程<strong>无数据、无实证、无推演、无排除合理怀疑</strong>。</p>
+<hr class="docutils" />
+</section>
+<section id="id2">
+<h2>二、 该认定在法理与证据规则上的核心缺陷<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>1. <strong>指称缺失与经验证伪（虚假命题）</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>刑法上的“严重混乱”必须在经验世界中具备可验证的事实对应物（如群体性事件、公共场所秩序瘫痪、政府应急响应、重大经济损失等）。</p></li>
+<li><p>本案文书未提供任何舆情报告、平台传播数据、线下秩序干预记录。被告人账号粉丝不足百人，20余年总转发量不足百次，属典型网络“边缘节点”；刑满后涉案贴文仍完整存续，零关注、零传播、零讨论。因果链缺乏事实锚点，属于<strong>语法完整但语义空转的伪命题（pseudo-proposition）</strong>。</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>2. <strong>违反刑法“相当因果关系”与“客观归责”理论</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>刑事因果关系要求行为对结果的发生具有<strong>高度盖然性贡献</strong>，且结果未超出行为创设的“法不容许风险”范围。</p></li>
+<li><p>本案将低影响力节点的微量转发，直接等同于“系统性秩序混乱”，犯了<strong>条件关系替代因果关系</strong>的错误。复杂网络科学亦表明，边缘节点的转发处于“深度亚临界区”，级联传播灭绝概率趋近于1，不具备触发社会系统相变的物理/社会基础。</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3>3. <strong>举证责任倒置与证明标准虚置</strong><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>《刑事诉讼法》第51条、第55条明确规定：公诉案件有罪举证责任由检察机关承担，且须达到“证据确实、充分，排除合理怀疑”。</p></li>
+<li><p>控方未就“混乱结果”提交任何客观证据，反而在二审以“上诉人未提交新证据”为由驳回上诉，实质是<strong>将举证责任非法转移给被告人</strong>，使“排除合理怀疑”标准形同虚设。</p></li>
+</ul>
+</section>
+<section id="non-sequitur">
+<h3>4. <strong>逻辑谬误：Non Sequitur 与范畴错误</strong><a class="headerlink" href="#non-sequitur" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>判决书以“内容攻击体制/核心”直接推导“秩序严重混乱”，属于典型的<strong>不相干结论谬误（Non Sequitur）<strong>与</strong>虚假因果</strong>。</p></li>
+<li><p>将“政治敏感性/意识形态评价”偷换为“刑法危害结果”，混淆了规范评价与事实归责的范畴，构成<strong>范畴错误（Category Mistake）</strong>。</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id6">
+<h2>三、 对比法定标准：网络言论因果关系的应然要求<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>根据《两高关于办理利用信息网络实施诽谤等刑事案件适用法律若干问题的解释》第5条及最高法裁判指引，认定网络转发行为与“公共秩序严重混乱”的因果关系，通常需满足以下任一实证路径：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>法定/实践标准</p></th>
+<th class="head"><p>本案表现</p></th>
+<th class="head"><p>合规性</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>量化传播阈值</strong>（如转发5000次以上、引发大规模网络聚集）</p></td>
+<td><p>总转发量&lt;100，粉丝&lt;100</p></td>
+<td><p>❌ 未达标</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>现实秩序转化</strong>（引发线下群体事件、政府启动应急预案、公共场所瘫痪）</p></td>
+<td><p>无任何线下事件记录或行政响应数据</p></td>
+<td><p>❌ 无证据</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>节点影响力评估</strong>（行为人是否为关键传播枢纽、是否具备现实煽动/组织能力）</p></td>
+<td><p>属边缘长尾节点，无互动、无组织行为</p></td>
+<td><p>❌ 不符合</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>相当性检验</strong>（行为与结果之间是否存在高度盖然性关联，排除偶然/第三方因素）</p></td>
+<td><p>未进行传播拓扑分析或干扰因素排除</p></td>
+<td><p>❌ 缺失</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+</section>
+<section id="id7">
+<h2>四、 结论：从“事实因果”到“政治推定”的逻辑替换<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<p>昆明司法机关在本案中<strong>并未依法认定因果关系</strong>，而是通过以下操作完成定罪闭环：</p>
+<ol class="arabic simple">
+<li><p><strong>要件虚置</strong>：将《刑法》第293条要求的“结果犯”属性降格为“行为犯”逻辑；</p></li>
+<li><p><strong>结论预设</strong>：以“网络非法外之地”“高学历应明知”等述行语替代事实论证；</p></li>
+<li><p><strong>政治归责</strong>：将“内容敏感/意识形态不合”直接等价于“秩序混乱”，以政治定性覆盖法律归责。</p></li>
+</ol>
+<p>在缺乏客观传播数据、现实危害证据与逻辑推演的前提下，该“因果关系”在<strong>证据法上无法成立</strong>，在<strong>刑法理论上违背客观归责原则</strong>，在<strong>裁判逻辑上属于非形式谬误的堆砌</strong>。其本质是以行政确认式的话语宣告，取代刑事司法应有的经验验证与说理义务，构成典型的 <strong>“以修辞代证据、以推定代证明、以政治标签替代法律因果链”</strong> 的系统性技术失范。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="官方质证与逻辑" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-right" title="模型分析集" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

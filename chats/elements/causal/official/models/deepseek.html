@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepseek &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="ChatGPT" href="chatgpt.html" />
+    <link rel="prev" title="模型分析集" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Key Elements of the PXQT Crime</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../actions/index.html">行为：传播“虚假信息”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../disorder/index.html">后果：秩序“严重混乱”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../knowing/index.html">主观：“明知”和“故意”</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">因果：行为到后果</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">官方质证与逻辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="qwen.html">Qwen：专案研究</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">模型分析集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../compare.html">分析比较</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../defendent/index.html">被告辩护评析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../overview/index.html">核心构件概要分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../outlaw/index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Key Elements of the PXQT Crime</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">因果：行为到后果</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">官方质证与逻辑</a></li>
+          <li class="breadcrumb-item"><a href="index.html">模型分析集</a></li>
+      <li class="breadcrumb-item active">Deepseek</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../_sources/chats/elements/causal/official/models/deepseek.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="deepseek">
+<h1>Deepseek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<p>这是一个值得把手术刀直接架在文书上的问题。因为答案可能会让人不适——</p>
+<p><strong>昆明司法机关在本案中对因果关系的处理，不是一个”认定”的过程，而是一个”宣告”的过程。它跳过了因果论证本身。</strong></p>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、先把文书摊开：因果关系在判决中到底”长什么样”？<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>翻一审判决书（西山区法院，2023年4月）的关键段落：</p>
+<blockquote>
+<div><p>经审理查明：2019年7月至2022年4月期间，被告人陈京元通过翻墙软件使用聊天工具在信息网络上<strong>散布虚假言论，扰乱社会秩序</strong>。</p>
+<p>本院认为：公共网络空间并非法外之地，被告陈京元作为完全刑事能力人，且具有<strong>很高的学历和知识水平</strong>，在使用境外聊天软件过程中<strong>应辨别是非</strong>。被告……对<strong>明知</strong>是侮辱、攻击国家领导核心以及我国现行政治体制的图片和文章进行<strong>转发</strong>，转发的内容经梳理均属于<strong>虚假信息</strong>，<strong>造成公共秩序严重混乱</strong>，故其行为已构成寻衅滋事罪。</p>
+</div></blockquote>
+<p>二审裁定书（昆明中院）几乎原样复述：</p>
+<blockquote>
+<div><p>上诉人陈京元……对<strong>明知</strong>是侮辱、攻击国家领导核心……的图片和文章进行<strong>转发</strong>，转发的内容经梳理均属于<strong>虚假信息</strong>，<strong>造成公共秩序严重混乱</strong>，其行为已构成寻衅滋事罪。</p>
+</div></blockquote>
+<p>注意那个句号——不，注意那个<strong>逗号</strong>。在语法上它是一个并列罗列；在法理上它却<strong>承担着一个致命的伪装</strong>：把四个不同性质的东西（行为 → 主观状态 → 内容定性 → 危害结果）用排比句式压扁成一条直线，让读者产生一种**”当然如此”的错觉**。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、拆骨：这条”因果链”实际只走了三步，而且每一步都有断裂<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>第一步：「行为存在」→「内容性质」（文书里最”实”的部分）<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>控方确实做了取证工作——搜查、扣押、电子数据提取、网络在线提取笔录、”对陈京元网络聊天平台梳理情况说明”。这些工作的产出是：<strong>列出了一批被转发的贴文目录</strong>，其中部分含有讽刺性图片、评论、转载自媒体或使馆账号的内容。</p>
+<p>法院在此基础上做出<strong>内容定性裁决</strong>：”均属于虚假信息””侮辱、攻击国家领导核心及我国现行政治体制”。</p>
+<blockquote>
+<div><p>这一步的问题暂且按下（大量内容实为观点表达、政治漫画、转载自公开来源，真假不可验证），但它至少是个”有操作”的步骤——有人翻了手机、导了数据、打了勾。</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h3>第二步：「内容性质」＋「身份」→ 推定「明知」（因果链的第一处断裂）<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>文书的原话是：</p>
+<blockquote>
+<div><p>被告陈京元作为完全刑事能力人，且具有<strong>很高的学历和知识水平</strong>，在使用境外聊天软件过程中<strong>应辨别是非</strong>。</p>
+</div></blockquote>
+<p>这就是法学界反复批判的那根钉子——<strong>用学历倒推主观明知</strong>。逻辑结构是：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>前提</p></th>
+<th class="head"><p>推理</p></th>
+<th class="head"><p>结论</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>陈是博士、搞系统科学的</p></td>
+<td><p>高学历→”应知”能力强</p></td>
+<td><p>所以他”明知”这些是虚假/侮辱性内容</p></td>
+</tr>
+<tr class="row-odd"><td><p>他转发了</p></td>
+<td><p>有能力辨别却仍然转发</p></td>
+<td><p>= 故意</p></td>
+</tr>
+</tbody>
+</table>
+<p>这不是在证明明知，这是在<strong>用身份替代证明</strong>。刑法要求”明知”是<strong>对事实的心理认知状态</strong>，需要有具体证据（如曾被告知删帖而拒不配合、曾因同类内容被处罚、使用特定暗语规避审查等）——而不是”你是博士所以你懂”。</p>
+<p>但这一步断裂还不是你问的核心。核心是下一步。</p>
+</section>
+<section id="id5">
+<h3>第三步：「转发了虚假/侮辱性内容」→「造成公共秩序严重混乱」（因果链的——消失）<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p><strong>这是整个文书中最惊人的空白。</strong></p>
+<p>仔细看：判决书写的是”转发……造成公共秩序严重混乱”，中间没有任何过渡性论证，没有：</p>
+<ul class="simple">
+<li><p>❌ 传播范围数据（点击量、浏览量、转发链条延伸几层）</p></li>
+<li><p>❌ 受众规模（粉丝数、互动数——文书和材料中提到其账号粉丝不足百人）</p></li>
+<li><p>❌ 任何线下后果（聚集、抗议、秩序中断、政府应急、场所关闭、交通阻断——司法解释明确列出的类型）</p></li>
+<li><p>❌ 与所谓”混乱”之间的时序分析报告（何时转的→何时何处发生何种可测量的秩序扰动）</p></li>
+<li><p>❌ 排除其他原因的说明（同期海量其他信息也在流动）</p></li>
+</ul>
+<p><strong>它用一句话完成了别人需要一整份鉴定意见才能完成的事情：</strong></p>
+<blockquote>
+<div><p>“转发的内容经梳理均属于虚假信息，造成公共秩序严重混乱”</p>
+</div></blockquote>
+<p>这句话的标点本身就是一种司法修辞——<strong>逗号取代了”因为”的论证</strong>。逗号前的”虚假信息”被当作因果力的自身证明：假的东西被发了出来，所以秩序就被扰乱了——<strong>不需要证明扰乱确实发生了，也不需要证明是这个转发导致的。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>三、法理上给它命名：这不是”因果关系认定”，是**”构成要件的语义吞噬”**<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>刑法理论区分几种因果观：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>学说</p></th>
+<th class="head"><p>核心要求</p></th>
+<th class="head"><p>本案是否满足</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>条件说</strong>（”若无A则无B”）</p></td>
+<td><p>去掉转发行为，”严重混乱”是否不会发生的反事实检验</p></td>
+<td><p>❌ 连B（严重混乱）本身都没被具体指认，无从做反事实</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>相当因果关系说</strong></p></td>
+<td><p>依一般经验，该行为类型通常是否足以引发该类结果</p></td>
+<td><p>❌ 边缘节点、极小受众、无枢纽传播——经验上不相当</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>客观归责/风险创设</strong></p></td>
+<td><p>行为是否创设了法所不允许的、可归属于行为人的实质风险</p></td>
+<td><p>❌ 风险没有被量化，归属靠的是内容标签而非传播力学</p></td>
+</tr>
+</tbody>
+</table>
+<p>本案的做法，实际上是绕开了上述所有框架，走了一条更短的路——</p>
+<section id="id7">
+<h3><strong>把”构成要件该当性”中的”行为要件”直接膨胀为”结果要件”的替代品</strong><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>即：只要法院认定了——</p>
+<ol class="arabic simple">
+<li><p>✅ 你在网上发了东西（行为）</p></li>
+<li><p>✅ 东西被定性为”虚假/侮辱/攻击”（内容标签）</p></li>
+<li><p>✅ 你的身份足以推定”不应发却发了”（主观）</p></li>
+</ol>
+<p>——就<strong>自动解锁</strong>第4格：”造成公共秩序严重混乱”。</p>
+<p>这在法教义学上叫什么？叫<strong>结果要件的虚置化</strong>。危害结果不从证据中生出来，而从”行为+内容标签”的概念关系中推导出来。<strong>因果关系不是被证明的，而是被”打包认定”的。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>四、对照法释〔2013〕21号第五条第二款：看它跳过了什么<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<p>《两高解释》第5条第2款原文：</p>
+<blockquote>
+<div><p>编造虚假信息，或者<strong>明知</strong>是编造的虚假信息，在信息网络上<strong>散布</strong>，或者组织、指使人员在信息网络上散布，<strong>起哄闹事</strong>，<strong>造成公共秩序严重混乱</strong>的，依照刑法第293条第1款第（四）项的规定，以寻衅滋事罪定罪处罚。</p>
+</div></blockquote>
+<p>注意这个结构的精妙之处——它其实包含<strong>两个层次</strong>才够罪：</p>
+<ul class="simple">
+<li><p>第一层：<strong>散布虚假信息</strong>（行为 + 明知 + 内容性质）</p></li>
+<li><p>第二层：<strong>起哄闹事 + 造成公共秩序严重混乱</strong>（行为的社会效应/后果层）</p></li>
+</ul>
+<p>两层之间是”逗号”，但法理上绝非线性等价。<strong>散布虚假信息 ≠ 造成公共秩序严重混乱</strong>——否则法条何必同时写两个条件？</p>
+<p>本案的司法机关做的，恰恰是<strong>把逗号读成了等号</strong>：既然已经认定”散布了虚假/侮辱性信息”，那就”当然”造成了秩序混乱。”严重”二字甚至不需要加证明——内容够恶，后果就够重。<strong>内容恶性替代了后果证明。</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h2>五、所以正面回答你的问题<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>昆明司法机关是怎么认定的？</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>问题</p></th>
+<th class="head"><p>答案</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>它们<strong>有没有</strong>拿出一个可检验的因果论证？</p></td>
+<td><p><strong>没有。</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>它们<strong>怎么做</strong>的？</p></td>
+<td><p>三段式<strong>宣告</strong>：①提取了转发目录 → ②将目录中的内容定性为”虚假/侮辱/攻击” → ③用”公共网络空间并非法外之地”+”高学历应知”的修辞框架，直接将”散布”等同于”造成混乱”，以<strong>并列句的语法形式</strong>跳过因果证明</p></td>
+</tr>
+<tr class="row-even"><td><p>证据锁链锁的是什么？</p></td>
+<td><p>锁的是<strong>行为存在</strong>（手机里有这些东西）和<strong>内容定性</strong>（贴文本身），但”锁”不到<strong>结果</strong>（混乱到底是什么、在哪、多大、因它而起）</p></td>
+</tr>
+<tr class="row-odd"><td><p>因果关系藏哪儿了？</p></td>
+<td><p>藏在**”虚假信息”这个标签的自我指涉力**里——仿佛假话一旦被放出，破坏就是自明的，不需要测量</p></td>
+</tr>
+</tbody>
+</table>
+<p>用一个也许过于直白的比喻：</p>
+<blockquote>
+<div><p>法院做的事，类似于说”此人向湖里扔了一颗石子（已证），石子是黑色的（已定性），高学历者应知黑色石子污染水源（推定明知），故造成湖水严重污染（结果宣告）”——<strong>全程没有测水质。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>六、余论：为什么这一步”跳过”不是技术性疏漏，而是结构性<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<p>如果把这仅仅归结为”某位法官不够细致”，反而轻描淡写了。问题更深：</p>
+<p><strong>当”公共秩序严重混乱”这种需要实证支撑的构成要件，遇到政治性内容指控时，证明”混乱”本身就变成了一种政治风险</strong>——你越是具体描述”哪里乱了、怎么乱了、多少人参与了”，就越是反向证实了那些言论确实引发了公共关注，越接近公开审理不该回避的事实。</p>
+<p>于是最优策略（对控诉体系而言）就是：<strong>让”结果”停留在宣言层，不让它落地为可质证的经验事实。</strong> 内容标签够尖、身份标签够硬、”公共空间非法外之地”够重——三重修辞压下来，因果关系的论证空白就不显得像个洞，反倒像一种”不言而喻”。</p>
+<p>这正是你之前那条物理学洞察的精准对位：</p>
+<blockquote>
+<div><p><strong>把涨落当相变来指控——不需要证明系统到了临界点，不需要证明耦合系数，只需要宣布”这东西不该出现在系统里”，于是它的存在本身就等于系统的崩溃。</strong></p>
+</div></blockquote>
+<p>只不过在法庭上，这叫<strong>把”不当言论的存在”直接兑换成”公共秩序的崩坏”，中间不发一张验币单。</strong></p>
+<hr class="docutils" />
+<p>如果需要，下一步可以把这份分析进一步压缩成一份<strong>可嵌入上诉状/申诉状中的”因果关系不合格性”专项论证段落</strong>——严格按刑事证明标准（《刑诉法》第55条”证据确实、充分”的三要件）逐条击打：事实不清、因果未证、结论靠推定。那会比文学性的东西更有刀刃。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="模型分析集" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chatgpt.html" class="btn btn-neutral float-right" title="ChatGPT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
