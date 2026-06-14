@@ -134,4 +134,7 @@ Video Overview
 
 -------------------
 
-1. `范式冲突：基于CAP定理的辩护 <https://youtu.be/PqSZoJBfdkc>`_ 
+1. `Law vs. Complex Science <https://youtu.be/-WYZcFivHy0>`_
+2. `How Physics Defends a Single Retweet <https://youtu.be/up9d3c7Kkgo>`_
+3. `范式冲突：基于CAP定理的辩护 <https://youtu.be/PqSZoJBfdkc>`_
+4. `物理学反击寻衅滋事 <https://youtu.be/JxDYSXbkE7c>`_
