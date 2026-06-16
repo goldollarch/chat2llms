@@ -36,4 +36,10 @@ Video Overview
 
 1. `The_Retweet_Case <https://youtu.be/TvvHM1-EBro>`_ 
 2. `Truth,Math,and the Law <https://youtu.be/llPu0TT4ZFw>`_ 
-3. `数字陪审团与哥德尔辩护 <https://youtu.be/iWNBzda2PrA>`_ 
+3. `Six AIs judge a physicist's mathematical defense <https://youtu.be/Pqk_QDa4Bw8>`_ 
+4. `Physicist Fights Retweet Prison With Gödel's Theorem <https://youtu.be/2qirC0s37Ls>`_ 
+5. `哥德尔定理、复杂系统科学与六大AI模型共同审视一场“寻衅滋事”判决 <https://youtu.be/NVku7jO-WWs>`_ 
+6. `越界的系统与重构的真相：一桩“寻衅滋事”案的全景式法律诊断 <https://youtu.be/Q8uJmH4qQUM>`_ 
+7. `理学博士挑战口袋罪：一场法律、心理与哲学的多维解剖 <https://youtu.be/m9jYP_MNyYI>`_ 
+8. `两个时代的理性碰撞：物理博士用哥德尔定理自辩 <https://youtu.be/xEaVy92Ew2U>`_ 
+9. `数字陪审团与哥德尔辩护 <https://youtu.be/iWNBzda2PrA>`_ 
