@@ -33,3 +33,18 @@ Daubert Standard
     gemini
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+01. `Physics of a Legal Defense <https://youtu.be/0nL9uIyOcKg>`_
+
+02. `Statistical physics as a legal defense <https://youtu.be/ZrgKGFlYebM>`_
+
+03. `科学法庭：当物理学遇上法律 <https://youtu.be/FuDN7aqjEFA>`_
+
+04. `用物理学反驳法律指控 <https://youtu.be/VAGalbDP1SA>`_
+
