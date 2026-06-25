@@ -128,3 +128,17 @@ Cognitive
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `范式冲突：一场转发的审判 <https://youtu.be/Hld4vVGbp3g>`_
+2. `数学辩护：物理学与法律的碰撞 <https://youtu.be/1_2IY5wXgJQ>`_
+3. `不可能的“雪崩”：跨学科视角下的司法审查 <https://youtu.be/M9u3i_YOib0>`_
+4. `科学理性对主观判决的降维审判：从认知科学到复杂系统 <https://youtu.be/nPbTFCz0_Yk>`_
+5. `The Physics of Innocence: Deconstructing Judicial Logic Through Science <https://youtu.be/5EC4BfdaljU>`_
+6. `Science vs Legal Causality <https://youtu.be/bqSH9e5YeiE>`_
+7. `The Cognitive Collision <https://youtu.be/BCqtzVELkQo>`_

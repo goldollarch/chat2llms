@@ -96,3 +96,7 @@ Video Overview
 
 1. `Case of Chen Jingyuan <https://youtu.be/hJzb1KxjvGk>`_ 
 2. `转发引发的雪崩：法律与科学的碰撞 <https://youtu.be/rSnEqiVZNc0>`_ 
+3. `Physics Proves This Twitter Conviction Was Impossible <https://youtu.be/KD5_HWK34fQ>`_ 
+4. `理性的沉没：行为心理学、复杂系统动力学与大模型共识下的司法系统解剖 <https://youtu.be/rjSTo_baJZc>`_ 
+5. `科学对权力的审判：陈京元博士案的跨学科深度解析 <https://youtu.be/iJ0p9Q3wjIc>`_ 
+6. `Dr. Chen: Behavioral Case <https://youtu.be/vkk1L_Q3grM>`_ 

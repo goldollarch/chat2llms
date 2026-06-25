@@ -133,17 +133,22 @@
  .. toctree::
     :maxdepth: 1
 
+    cognitive/index
+
+ .. toctree::
+    :maxdepth: 1
+
     behave/index
 
  .. toctree::
     :maxdepth: 1
 
-    emotion/index
+    motivation/index
 
  .. toctree::
     :maxdepth: 1
 
-    cognitive/index
+    emotion/index
 
  .. toctree::
     :maxdepth: 1
@@ -190,3 +195,14 @@
 
     social/index
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `物理上不可能的犯罪案 <https://youtu.be/DndG1SoxJ-g>`_ 
+2. `一位因推文入狱的学者：透过三重透镜解构一桩案件 <https://youtu.be/X2A9BoBSP94>`_ 
+3. `理性的陨落与系统的盲区：陈京元博士案的跨学科心理学解析 <https://youtu.be/ouFgYq0ntbM>`_ 
+4. `Autopsy of a Systemic Cognitive Failure: A Multi-Disciplinary Diagnostic <https://youtu.be/sxSaRBfyx14>`_ 
