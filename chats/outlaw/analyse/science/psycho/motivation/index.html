@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motivation &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Grok" href="grok.html" />
+    <link rel="prev" title="Qwen" href="../behave/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">科学理论</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../system/index.html">系统</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../physic/index.html">物理</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">心理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">科学理论</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">心理</a></li>
+      <li class="breadcrumb-item active">Motivation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/psycho/motivation/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="motivation">
+<h1>Motivation<a class="headerlink" href="#motivation" title="Link to this heading"></a></h1>
+<p>基于动机心理学（Motivation Psychology）的理论视角。</p>
+<hr class="docutils" />
+<p>动机心理学研究的是<strong>“行为为何发起、朝哪走、走多强、撑多久”</strong>——也就是”为什么做、做了多久、投入多少努力”这套问题，是连接人格、认知与行为的中枢领域。</p>
+<p>一、研究内容</p>
+<p>动机心理学把”行为动力”拆成四块来问：</p>
+<ol class="arabic simple">
+<li><p><strong>起因（Activation）</strong>：行为怎么被”点燃”？——生理驱力（饿、渴）、心理需求（归属、自主）、外部诱因（奖金、点赞）各自怎么发力。</p></li>
+<li><p><strong>方向（Direction）</strong>：为什么选 A 不选 B？——目标选择、趋近 vs  回避、价值评估。</p></li>
+<li><p><strong>强度（Intensity）</strong>：投入多少努力？——努力程度、资源分配。</p></li>
+<li><p><strong>持续性（Persistence）</strong>：能撑多久？——延迟满足、挫折后的维持与放弃。</p></li>
+</ol>
+<p>应用领域：教育（学习动机）、组织（工作激励）、临床（成瘾、抑郁的动力缺失叫avolition）、健康行为（锻炼、饮食依从）、体育（竞技动机）等。</p>
+<p>二、核心思想（几条贯穿性张力）</p>
+<p>动机心理学百余年争论，底层其实在反复掰扯这几组问题：</p>
+<ul class="simple">
+<li><p><strong>驱力（内） vs  诱因（外）</strong>：行为是被”里面缺什么”推出来（驱力理论），还是被”外面有什么”拉过去（诱因理论）？</p></li>
+<li><p><strong>内在动机 vs  外在动机</strong>：做事是因为它本身有趣/有意义，还是因为奖励/惩罚 —— <strong>Deci 的经典发现：外部奖赏有时会”挤出”内在动机</strong>（overjustification  effect）。</p></li>
+<li><p><strong>需求 base vs 认知 base</strong>：早期偏”缺了什么要去补”（本能、驱力、需求层次），后来认知派偏”算出来的”（期望×价值、自我效能）。</p></li>
+<li><p><strong>自动 vs  控制</strong>：双系统思路——多巴胺驱动的”想要”（热系统，impulsive）vs  前额叶的”应该”（冷系统，self-control），解释拖延、成瘾、自律。</p></li>
+</ul>
+<p>三、发展历程（四阶段）</p>
+<p>1️⃣ 早期：本能 &amp; 驱力（1900s–1940s）</p>
+<ul class="simple">
+<li><p><strong>弗洛伊德</strong>：生/死本能是最早的动机框架，把”驱力（drive）“概念带进心理学。</p></li>
+<li><p><strong>伍德沃斯（Woodworth）</strong>：提”驱力（drive）→ 行为 →  减驱”的基本环路，开了”S-R + 内驱”的先河。</p></li>
+<li><p><strong>赫尔（Clark Hull）</strong>：把驱力公式化，<strong>D = f(内驱力 × 习惯)</strong>，缺什么→紧张→行为→减驱→强化。第一次用数学化方式处理动机，但解释不了”为挑战而战”“为艺术而饿”这类非减驱行为。</p></li>
+</ul>
+<p>2️⃣ 需求与社会动机（1940s–1960s）</p>
+<ul class="simple">
+<li><p><strong>马斯洛需求层次</strong>（1943）：生理→安全→归属→尊重→自我实现，虽实证偏弱但影响极大，是”需求”思路的文化符号。</p></li>
+<li><p><strong>麦克利兰（McClelland）成就动机理论</strong>：人对<strong>成就、权力、亲和</strong>三种动机有个体差异，用 TAT 主题统觉测验测，组织心理学里极实用。</p></li>
+</ul>
+<p>3️⃣ 认知革命后：期望—价值线（1960s–1980s）</p>
+<p>认知派认为动机不是”缺”，是”算” ——算期望、算价值、算自己行不行。</p>
+<ul class="simple">
+<li><p><strong>阿特金森（Atkinson）</strong>：动机 = 期望 × 价值 ×（成就需要-失败恐惧），把”算账”正式引入动机。</p></li>
+<li><p><strong>班杜拉自我效能理论</strong>：“我相信我能做到”比”这事值不值”更前置——自我效能感预测坚持性比能力本身还准。</p></li>
+<li><p><strong>洛克（Locke）目标设置理论</strong>：具体 + 有挑战的目标 + 反馈 = 最高绩效，组织管理的金字招牌。</p></li>
+<li><p><strong>Deci &amp; Ryan 自我决定论（SDT）雏形</strong>：内在/外在动机光谱、自主性，1980s逐步成型（下阶段详述）。</p></li>
+</ul>
+<p>4️⃣ 当代：SDT + 神经动机学（1990s–至今）</p>
+<ul class="simple">
+<li><p><strong>Deci &amp; Ryan 的 SDT</strong> 成为最有影响力的当代框架：三大基本心理需求（<strong>自主 autonomy、胜任 competence、归属 relatedness</strong>），动机是光谱不是二分（内在 →   整合调节 → 认同调节 → 内摄调节 → 外部调节）。</p></li>
+<li><p><strong>希金斯（Higgins）调节定向理论</strong>：促进定向（追求”得到”）vs 预防定向（避免”失去”），影响策略选择与失败后的情绪反应。</p></li>
+<li><p><strong>Carver &amp; Scheier 控制论模型</strong>：用”当前状态 vs  目标状态”的负反馈环路 + 差异监测解释行为维持，和工程控制理论打通。</p></li>
+<li><p><strong>神经动机学</strong>：Berridge 拆出 <strong>wanting（想要，多巴胺管）vs  liking（喜欢，阿片管）</strong>；“努力折扣（effort discounting）”“元控制（前额叶-多巴胺环路博弈）”成为热点。</p></li>
+</ul>
+<p>四、代表性理论一览</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>理论</p></th>
+<th class="head"><p>提出者</p></th>
+<th class="head"><p>核心主张</p></th>
+<th class="head"><p>定位</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>赫尔驱力理论</strong></p></td>
+<td><p>Hull</p></td>
+<td><p>D = 内驱力 × 习惯，行为目的是减驱</p></td>
+<td><p>早期公式化尝试</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>马斯洛需求层次</strong></p></td>
+<td><p>Maslow</p></td>
+<td><p>五层需求递进，自我实现为顶</p></td>
+<td><p>“需求”思路符号</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>麦克利兰成就动机</strong></p></td>
+<td><p>McClelland</p></td>
+<td><p>成就/权力/亲和三动机，个体差异</p></td>
+<td><p>组织心理学实用派</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>阿特金森期望—价值</strong></p></td>
+<td><p>Atkinson</p></td>
+<td><p>动机 = 期望 × 价值 ×（成就需要 -
+失败恐惧）</p></td>
+<td><p>把”算账”引入动机</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>班杜拉自我效能</strong></p></td>
+<td><p>Bandura</p></td>
+<td><p>“我相信我能”预测坚持性比能力本身还准</p></td>
+<td><p>认知派高峰</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>洛克目标设置</strong></p></td>
+<td><p>Locke</p></td>
+<td><p>具体 + 有挑战 + 反馈 = 高绩效</p></td>
+<td><p>管理学金字招牌</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>自我决定论（SDT）</strong></p></td>
+<td><p>Deci &amp; Ryan</p></td>
+<td><p>自主/胜任/归属三需求；动机光谱</p></td>
+<td><p>当代最有影响力框架</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>希金斯调节定向</strong></p></td>
+<td><p>Higgins</p></td>
+<td><p>促进定向 vs 预防定向</p></td>
+<td><p>动机×人格桥接</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>控制论模型</strong></p></td>
+<td><p>Carver &amp;
+Scheier</p></td>
+<td><p>当前—目标差异的负反馈环路</p></td>
+<td><p>与工程控制打通</p></td>
+</tr>
+</tbody>
+</table>
+<p>一条简明的演进脉络</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line">本能/驱力（推，Hull）</div>
+<div class="line">→ 需求层次（缺，Maslow / McClelland）</div>
+<div class="line">→ 期望—价值（算，Atkinson / Bandura / Locke）</div>
+<div class="line">→ 自我决定（需+意义+光谱，Deci &amp; Ryan）</div>
+<div class="line">→ 神经动力学（wanting/liking、努力折扣、元控制）</div>
+</div>
+</div></blockquote>
+<p>当代的活水是 <strong>SDT + 神经动机学</strong>
+两条线在对话，一边继续挖”人为何主动做事”的哲学—实证交界，一边给教育激励、健康管理、组织设计、乃至
+AI agent 的”内生驱动建模”（现在 AI 也在借 SDT 设计不是纯
+reward-maximizing 的 agent）输出工具。</p>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="grok.html">Grok</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#motivation-and-emotion-psychology">动机与情绪心理学（Motivation and Emotion Psychology）视角</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id1">一、陈京元博士的动机与情绪特征</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id2">二、司法机关的动机与情绪动态</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id3">三、个体-制度之间的动机与情绪冲突</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id4">四、整体评估与心理学启示</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="grok.html#motivation-psychology">动机心理学（Motivation Psychology）视角</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id5">一、陈京元博士的动机结构分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id6">二、司法机关的动机结构分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id7">三、动机冲突与互动机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id8">四、动机对案件结果及心理健康的影响</a></li>
+<li class="toctree-l3"><a class="reference internal" href="grok.html#id9">五、总体评论与启示</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#motivation-and-emotion-psychology">动机与情绪心理学（Motivation and Emotion Psychology）的视角</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id1">一、 动机维度：从“生存需求”向“自我实现”的逆向跃迁</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id2">二、 情绪维度：认知评价与高阶情绪调节</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id3">三、 冲突焦点：恐惧动机（司法侧）与真理动机（个人侧）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id4">四、 综合评估</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#motivation-psychology">动机心理学（Motivation Psychology）的理论视角</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id5">一、 当事人陈京元的行为动机分析：高阶认知的“内在动机”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id6">二、 办案机关与执法人员的动机分析：体制异化下的“外在动机”与系统自保</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id7">三、 当事人狱中反抗的动机分析：尊严维系与历史叙事动机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gemini.html#id8">结论评估</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#motivation-and-emotion-psychology">严格基于动机与情绪心理学（Motivation and Emotion Psychology）框架</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id1"><strong>一、动机与情绪心理学的核心观点：行为的意义由“动机系统 + 情绪系统”共同决定</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id2"><strong>二、陈博士的动机结构：求知动机 + 自主性动机 + 内在动机主导</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id4"><strong>三、司法机关的动机结构：风险规避动机 + 控制动机 + 外在动机主导</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id6"><strong>四、动机与情绪心理学解释“明知争议”：这是“动机归因冲突”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id10"><strong>五、情绪心理学视角：双方的情绪系统也完全不同</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id13"><strong>六、动机与情绪心理学对本案的整体评估</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id18"><strong>七、可写入档案的总结性段落</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copilot.html#motivation-psychology">基于动机心理学（Motivation Psychology）理论框架</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id19"><strong>一、动机心理学的核心视角</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id20"><strong>二、被告的动机结构：求知与真实性驱动</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id21"><strong>三、控方的逻辑错误：把“无动机行为”解释为“有害动机行为”</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id22"><strong>四、动机心理学的因果链审查</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id23"><strong>五、法律转译：缺乏动机基础的行为不能归责为犯罪</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="copilot.html#id24"><strong>六、可写入档案的总结性段落</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#motivation-and-emotion-psychology">从 <strong>动机与情绪心理学（Motivation and Emotion Psychology）</strong> 的视角来看</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id1">一、动机结构：两种动机系统的对位</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">二、情绪生成机制：从认知评估到情绪反应</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id8">三、情绪调节机制：陈博士的关键心理策略</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">四、动机-情绪耦合：关键心理动力</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id14">五、整体心理评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id17">六、关键结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">七、最终评价</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id23">一句话总结</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#motivation-psychology">从动机心理学（Motivation Psychology）的视角看</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id24">一、动机心理学的基本问题：行为为何发生？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id25">二、陈博士行为的主要动机结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#need-for-cognitive-closure">三、认知闭合需要（Need for Cognitive Closure）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#goal-orientation-theory">四、目标导向理论（Goal Orientation Theory）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#sdt">五、自我决定理论（SDT）分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#meaning-motivation">六、意义动机（Meaning Motivation）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id30">七、司法系统中的动机归因问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id31">八、从动机心理学看“明知”的问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id34">九、本案的动机心理学综合评估</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">从动机与情绪心理学视角审视陈京元案</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2"><strong>一、 动机系统的根本冲突</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3"><strong>二、 情绪体验与表达的错位</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id4"><strong>三、 动机-情绪的互动如何导致灾难性失效</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id5"><strong>评估与启示：当动机与情绪失去翻译</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id6">基于动机心理学对陈京元案的分析评论</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#sdt-deci-ryan">一、先用自我决定理论（SDT, Deci &amp; Ryan）给陈的行为定个性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id7">二、再用韦纳归因三维度 + 对应偏差，拆控方的”动机倒推术”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id9">三、收一句：动机心理学不替法庭判案，但它能指出控方归因的”画像错配”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id1"><strong>动机与情绪心理学视角：动机冲突、情绪加工与决策偏差</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id2">一、被告陈京元的动机结构与情绪体验分析</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id6">二、司法人员的动机驱动与情绪加工机制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id10">三、动机-情绪互动对司法决策的影响</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id14">四、情绪调节策略的个体差异与制度后果</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id17">五、动机与情绪心理学的综合评估与制度启示</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id20">结语：从”动机冲突”到”理性共情”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qwen.html#id21">动机心理学视角：动机结构、冲突与制度性动机生态</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id22">一、 动机心理学的核心理论框架与本案映射</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id23">二、 被告陈京元的动机结构：内在动机主导的学者型人格</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id26">三、 司法人员的动机结构：外在动机主导的风险规避型系统</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id30">四、 动机冲突与决策偏差：动机性推理的认知后果</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id32">五、 制度动机动力学：激励结构如何塑造集体行为</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id35">六、 动机心理学视角的制度启示与干预路径</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qwen.html#id39">结语：从”动机冲突”到”动机共融”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../behave/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="grok.html" class="btn btn-neutral float-right" title="Grok" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

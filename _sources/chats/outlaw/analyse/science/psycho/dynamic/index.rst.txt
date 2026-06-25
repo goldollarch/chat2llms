@@ -95,3 +95,10 @@ Video Overview
 -------------------
 
 1. `冲突的心理学解剖：陈京元案 <https://youtu.be/DYNyLIx6J0I>`_ 
+2. `制度性病理的解剖：法律、复杂系统与心理学的交叉透视 <https://youtu.be/IH1Q3-iBY-0>`_ 
+3. `从法律迷局到心理动力学与复杂系统的降维诊断 <https://youtu.be/zcNBDivQvGE>`_ 
+4. `陈京元案：一场心理动力学的解读 <https://youtu.be/mXFLFmCUOLA>`_ 
+5. `陈京元博士案：多学科深度解析 <https://youtu.be/Twy7hJoUwdU>`_ 
+6. `Psychodynamic Legal Clash <https://youtu.be/sRVmBQSZDT4>`_ 
+7. `Psychological Theater <https://youtu.be/tzrL2lwYpoE>`_ 
+8. `System Failure <https://youtu.be/r73bnS5AS0o>`_ 

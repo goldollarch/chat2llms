@@ -156,9 +156,9 @@ Video Overview
 
 -------------------
 
-1. `The FDT Defense <https://youtu.be/gOrhBmho3yo>`_ 
-2. `法庭物理学：涨落耗散辩护 <https://youtu.be/nWoKDcsHiO4>`_ 
-3. `物理因果：微扰能击垮宏观系统吗？ <https://youtu.be/HHlR7yEMlvc>`_ 
-4. `A Criminal Defense Built on Thermodynamics <https://youtu.be/g8yX2QNzQwM>`_ 
-5. `物理学博士硬核自辩寻衅滋事 <https://youtu.be/_H_5SU2o8t0>`_ 
-6. `博士用物理公式自辩 <https://youtu.be/_mB9E-gT-k8>`_ 
+1. `统计物理学与法律因果关系 <https://youtu.be/BpKcio6x-1w>`_ 
+2. `The Micro vs Macro Trap <https://youtu.be/t7YpHVrDqAw>`_ 
+3. `物理、AI与法律因果：陈京元案解析 <https://youtu.be/s7pT3jMHPWI>`_ 
+4. `跨越尺度的审判：统计物理视域下的因果谬误 <https://youtu.be/2FlgI923gYc>`_ 
+5. `The Blueprint of Causality: Why Micro-Fluctions are Not Macro-Chaos <https://youtu.be/VuqlSWllcIY>`_ 
+6. `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
