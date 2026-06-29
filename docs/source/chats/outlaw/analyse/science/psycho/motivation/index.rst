@@ -113,3 +113,12 @@ reward-maximizing 的 agent）输出工具。
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `science <https>`_ 
+1. `Analyzing the intersection of Jurisprudence, Psychology , and Network Science <https://youtu.be/7oOSW7KfsLg>`_ 

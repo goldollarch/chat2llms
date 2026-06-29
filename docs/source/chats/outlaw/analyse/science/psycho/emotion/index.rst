@@ -215,3 +215,19 @@ burnout 既是情绪耗竭，也是动机枯竭——临床上分不了那么清
 Integration）“框架，把wanting/liking、效价/唤醒、趋近/回避放在同一个二维/三维空间里处理；AI
 agent 设计里也借这套思路让智能体既有”目标驱动”也有”情绪模型”，而不是只算reward。
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `Psychological Collision <https://youtu.be/f_Jh553nOkA>`_ 
+2. `Chen Case: Mind & Machine <https://youtu.be/EGFimuBflpM>`_ 
+3. `Anatomy of a Systemic Misjudgment With Emotion Psychology <https://youtu.be/8pRgntYDUL4>`_ 
+4. `秩序的刻度：复杂系统科学与动机心理学视角下的司法黑幕 <https://youtu.be/J5c1nLbjE4Y>`_ 
+5. `认知断层扫描：从个体冤狱到司法心理学剖析 <https://youtu.be/anpqwne5kVE>`_ 
+6. `两个世界的碰撞：法律与科学的交锋 <https://youtu.be/oNpNK9gkb7A>`_ 
+7. `解构陈京元案：多学科视角分析 <https://youtu.be/TYPq7CzFcFc>`_ 
+8. `动机、情绪与制度的结构性断裂 <https://youtu.be/lCgvIWOWGTA>`_ 
+9. `判决的心理学：陈京元博士案 <https://youtu.be/BspV_2oPQ1A>`_ 
