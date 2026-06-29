@@ -94,3 +94,16 @@ Personality
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `Dual Lens: Science on Trial <https://youtu.be/oqZGF9NoYRA>`_ 
+2. `The Physics and Psychology of Innocence <https://youtu.be/46N06X_uFbE>`_ 
+3. `结构性错位：一份基于人格心理学的法庭诊断档案 <https://youtu.be/iv4iCIyx1s0>`_ 
+4. `系统性误判的解剖：陈京元案的多学科解构 <https://youtu.be/oLpLPrQu2Jo>`_ 
+5. `陈京元博士案：多维视角的深度剖析 <https://youtu.be/ezG6UK9wej4>`_ 
+6. `法律冲突的心理剖析：陈京元案 <https://youtu.be/hW8mBa6Ljmw>`_ 
