@@ -120,5 +120,12 @@ Video Overview
 
 -------------------
 
-1. `science <https>`_ 
-1. `Analyzing the intersection of Jurisprudence, Psychology , and Network Science <https://youtu.be/7oOSW7KfsLg>`_ 
+1. `Chen Case: Two Motivations <https://youtu.be/TiTn5mmjDao>`_ 
+2. `Chen Jingyuan Case Study <https://youtu.be/6aA9m70rxPE>`_ 
+3. `Psychological Clash <https://youtu.be/c4C6pFTy6F0>`_ 
+4. `法律遇上心理学：解剖陈京元案 <https://youtu.be/MAp0LjPx3P8>`_ 
+5. `解读：一场心理与法律的碰撞 <https://youtu.be/cWwZazaghu8>`_ 
+6. `理性的刻度：基于法理学、物理学与动机心理学的系统性诊断 <https://youtu.be/Omdutw2n17w>`_ 
+6. `结构性断裂：一份关于动机、情绪与制度性误读的历史备份 <https://youtu.be/QwWVd0P0fSI>`_ 
+6. `science <https>`_ 
+6. `science <https>`_ 

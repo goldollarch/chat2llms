@@ -1,5 +1,5 @@
-SOC and Avalanche
-==================
+SOC
+=====
 
 陈京元在其 :doc:`【狱中血书】</case/docus/defendent/letter>` 中，
 运用“**自组织临界性**”理论及“**雪崩动力学**”，论证其个人微弱的网络转发行为不可能引发“**社会秩序严重混乱**”，
@@ -24,7 +24,7 @@ SOC and Avalanche
 
 -------------------
 
-:doc:`两种临界性 </chats/outlaw/analyse/science/physic/soc_ad/criticality>`
+:doc:`临界性概念 </chats/outlaw/analyse/science/physic/criticality/index>`
 
 ---------------------------
 

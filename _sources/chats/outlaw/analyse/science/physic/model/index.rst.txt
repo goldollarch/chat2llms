@@ -1,5 +1,5 @@
-Modeling & Simulation
-=======================
+Model
+========
 
 构造一个理论模型框架，
 从简单的分支分支过程（how cascades grow）开始，
