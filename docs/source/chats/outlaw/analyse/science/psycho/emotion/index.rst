@@ -225,9 +225,10 @@ Video Overview
 1. `Psychological Collision <https://youtu.be/f_Jh553nOkA>`_ 
 2. `Chen Case: Mind & Machine <https://youtu.be/EGFimuBflpM>`_ 
 3. `Anatomy of a Systemic Misjudgment With Emotion Psychology <https://youtu.be/8pRgntYDUL4>`_ 
-4. `秩序的刻度：复杂系统科学与动机心理学视角下的司法黑幕 <https://youtu.be/J5c1nLbjE4Y>`_ 
-5. `认知断层扫描：从个体冤狱到司法心理学剖析 <https://youtu.be/anpqwne5kVE>`_ 
-6. `两个世界的碰撞：法律与科学的交锋 <https://youtu.be/oNpNK9gkb7A>`_ 
-7. `解构陈京元案：多学科视角分析 <https://youtu.be/TYPq7CzFcFc>`_ 
-8. `动机、情绪与制度的结构性断裂 <https://youtu.be/lCgvIWOWGTA>`_ 
-9. `判决的心理学：陈京元博士案 <https://youtu.be/BspV_2oPQ1A>`_ 
+4. `Analyzing the intersection of Jurisprudence, Psychology, and Network Science <https://youtu.be/7oOSW7KfsLg>`_ 
+5. `秩序的刻度：复杂系统科学与动机心理学视角下的司法黑幕 <https://youtu.be/J5c1nLbjE4Y>`_ 
+6. `认知断层扫描：从个体冤狱到司法心理学剖析 <https://youtu.be/anpqwne5kVE>`_ 
+7. `两个世界的碰撞：法律与科学的交锋 <https://youtu.be/oNpNK9gkb7A>`_ 
+8. `解构陈京元案：多学科视角分析 <https://youtu.be/TYPq7CzFcFc>`_ 
+9. `动机、情绪与制度的结构性断裂 <https://youtu.be/lCgvIWOWGTA>`_ 
+10. `判决的心理学：陈京元博士案 <https://youtu.be/BspV_2oPQ1A>`_ 

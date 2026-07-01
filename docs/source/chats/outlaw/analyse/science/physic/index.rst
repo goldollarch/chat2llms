@@ -5,6 +5,10 @@
 
 ----------
 
+ .. toctree::
+    :maxdepth: 1
+
+    soc_ad/index
    
  .. toctree::
     :maxdepth: 1
@@ -14,12 +18,7 @@
  .. toctree::
     :maxdepth: 1
 
-    soc_ad/index
-   
- .. toctree::
-    :maxdepth: 1
-
-    model/index
+    model/index   
    
  .. toctree::
     :maxdepth: 1
@@ -31,11 +30,6 @@
 
     dissipate/index
    
- .. toctree::
-    :maxdepth: 1
-
-    others/index
-
 
 ---------------------------
 
