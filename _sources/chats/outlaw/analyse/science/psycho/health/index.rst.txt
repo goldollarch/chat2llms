@@ -91,3 +91,16 @@ Health
     deepseek
     qwen
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `陈京元案：健康心理学分析 <https://youtu.be/SaxQZJkbziQ>`_ 
+2. `深度解读：两种心理模式的碰撞 <https://youtu.be/d-Fwa8XvrdU>`_ 
+3. `陈京元案：多重视角的深度解构 <https://youtu.be/qXdyhdgGPgE>`_ 
+4. `文明断层处的理性刻度：跨学科全景解剖报告 <https://youtu.be/91QCqC-6BaQ>`_ 
+5. `A Scientific Dissection of The Case through Health Psychology & Complex Systems <https://youtu.be/n2Y7oCsZ-HU>`_ 
+6. `Crucible of the Mind <https://youtu.be/_p-GytsoXyE>`_ 
+7. `Dr. Chen's Defense <https://youtu.be/iqGsHZp87co>`_ 

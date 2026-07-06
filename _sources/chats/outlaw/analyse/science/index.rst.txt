@@ -42,4 +42,7 @@ Video Overview
 -------------------
 
 1. `science <https>`_ 
+1. `The Paradox of Chaos <https://youtu.be/6GBTULUzDFk>`_ 
+1. `A Scientific Deconstruction of Legal Causation in Complex Adaptive Systems <https://youtu.be/R5hlH8JjOzU>`_ 
 2. `两个系统的碰撞：物理学对决法律 <https://youtu.be/09ZnbnXgU8E>`_ 
+1. `science <https>`_ 

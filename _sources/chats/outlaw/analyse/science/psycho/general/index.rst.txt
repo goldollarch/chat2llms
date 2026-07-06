@@ -100,3 +100,18 @@ General
     deepseek
     qwen
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `认知碰撞：审判一个心智 <https://youtu.be/LKF00I9iOz0>`_ 
+2. `陈京元案：一场跨学科的深度解构 <https://youtu.be/_FTreapvKpE>`_ 
+3. `认知碰撞：陈京元博士案件背后的心理学 <https://youtu.be/_vqA3gqXgjo>`_ 
+4. `认知碰撞：陈京元博士案的心理学诊断报告 <https://youtu.be/2S4qlWIfdUU>`_ 
+5. `法律、物理、哲学与心理学视角下的“寻衅滋事”定罪解构 <https://youtu.be/PlY-RWM0tmc>`_ 
+6. `The Psychological and Scientific Anatomy <https://youtu.be/dC18mZeuJ34>`_ 
+7. `Clash of Cognitive Systems <https://youtu.be/F6yjOVFP2Gw>`_
+8. `The Case of Dr. Chen <https://youtu.be/amWxTy05Pvs>`_ 
+9. `The Cognitive Clash <https://youtu.be/d5l2n1QVSXU>`_ 
