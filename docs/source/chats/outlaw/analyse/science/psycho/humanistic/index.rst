@@ -94,3 +94,14 @@ Humanistic
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `The Existential Clash <https://youtu.be/fyLBaMUL1Js>`_ 
+2. `陈京元案：心理学视角的深度透视 <https://youtu.be/MWhb7-klrx8>`_ 
+3. `Two World in Conflict: The Humanistic Case of Dr. Chen  <https://youtu.be/86tuA7gpYCU>`_ 
+4. `系统与人：一份写给未来的法理学与人本主义心理学调查卷宗 <https://youtu.be/k1D2Tlszkio>`_ 

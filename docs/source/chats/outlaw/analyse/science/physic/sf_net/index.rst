@@ -18,6 +18,10 @@ Cohen
     deepseek
     qwen
 
+-------------------
+
+:doc:`临界性概念 </chats/outlaw/analyse/science/physic/criticality/index>`
+
 ---------------------------
 
 Video Overview
