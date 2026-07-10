@@ -149,5 +149,6 @@ Video Overview
 3. `物理、AI与法律因果：陈京元案解析 <https://youtu.be/s7pT3jMHPWI>`_ 
 4. `跨越尺度的审判：统计物理视域下的因果谬误 <https://youtu.be/2FlgI923gYc>`_ 
 5. `The Blueprint of Causality: Why Micro-Fluctions are Not Macro-Chaos <https://youtu.be/VuqlSWllcIY>`_ 
-6. `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
-7. `物理学与法律的对决 <https://youtu.be/1c4_LUKXmuI>`_ 
+6. `Fighting retweet charges with statistical physics <https://youtu.be/6yUTWdFaz1o>`_ 
+7. `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
+8. `物理学与法律的对决 <https://youtu.be/1c4_LUKXmuI>`_ 
