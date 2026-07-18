@@ -211,3 +211,10 @@ Video Overview
 7. `Autopsy of a Systemic Cognitive Failure <https://youtu.be/sxSaRBfyx14>`_ 
 8. `The Architecture of Thought <https://youtu.be/P0Eg5gg6mUM>`_ 
 9. `Structureal Misreading <https://youtu.be/ghq5vM63AGg>`_ 
+10. `理性的陨落狱系统性盲区：多维心理学与AI深度透视 <https://youtu.be/z1DIx9AQ9rE>`_ 
+11. `两种心智的碰撞：心理学解剖 <https://youtu.be/kg6fELlLLhQ>`_ 
+12. `A Psychological & AI Audit of the Case <https://youtu.be/-c09ZQ9rHwI>`_ 
+13. `Two Minds, One Trial <https://youtu.be/tSNQC6X7oF8>`_ 
+14. `Dr. Chen Jingyuan Case <https://youtu.be/AGMQIPeR7T8>`_ 
+15. `认知断层扫描：从个体冤案到司法制度的心理学剖析 <https://youtu.be/7cc6s2mKzeo>`_ 
+16. `法律碰撞的心理学解剖 <https://youtu.be/kQZTvvWAPUw>`_ 

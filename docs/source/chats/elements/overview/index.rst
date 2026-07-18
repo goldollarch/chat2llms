@@ -29,3 +29,15 @@
 
     defendent/index
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `The AI Verdict <https://youtu.be/Uwje3pAqXXA>`_ 
+1. `AI 审视法律：解构刑事定罪 <https://youtu.be/aS-jcw5hRR8>`_ 
+1. `AI解构刑事定罪：陈京元案 <https://youtu.be/ySmxalRX3DM>`_ 
+1. `title <https>`_ 
+1. `title <https>`_ 

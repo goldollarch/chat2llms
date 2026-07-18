@@ -30,3 +30,19 @@
 
     defendent/index
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `Physics vs The Law <https://youtu.be/a-dlXWeuIhw>`_ 
+2. `The Case of Dr. Chen <https://youtu.be/BmdynaGosQc>`_ 
+3. `Anatomy of a 'Hollowed' Conviction <https://youtu.be/N0IOsARAgDU>`_ 
+4. `The Nullification of Proof <https://youtu.be/-b_auH_lvhE>`_ 
+5. `法律要件的“系统化崩塌”与数字化法治评估 <https://youtu.be/WTJSpY-5EgE>`_ 
+6. `跨学科的降维打击：被“虚置”的法律要件 <https://youtu.be/OrDISpXoZEg>`_ 
+7. `数字共识：AI深度解析陈博士案 <https://youtu.be/SK1dXgff_RI>`_ 
+8. `陈京元案：科学、AI与法律 <https://youtu.be/Zl2cyj1a2Xs>`_ 
+9. `降维打击的法医学剖析 <https://youtu.be/dee0_HOetS0>`_ 
