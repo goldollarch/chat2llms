@@ -37,7 +37,11 @@ Video Overview
 -------------------
 
 1. `The AI Verdict <https://youtu.be/Uwje3pAqXXA>`_ 
-1. `AI 审视法律：解构刑事定罪 <https://youtu.be/aS-jcw5hRR8>`_ 
-1. `AI解构刑事定罪：陈京元案 <https://youtu.be/ySmxalRX3DM>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
+2. `ChatGPT Legal Analysis <https://youtu.be/W1qX5YArLBw>`_ 
+3. `Deconstructing the Digital Charge: The Legal & Scientific Defense <https://youtu.be/PNmrpiWgP5A>`_ 
+4. `Deconstructing Judicial Fiction: The Legal Collapse of the Case <https://youtu.be/gwRceiFeXiw>`_ 
+5. `跨学科防御与解构： “寻衅滋事罪”三要件审查 <https://youtu.be/vnL-2ypZJh4>`_ 
+6. `寻衅滋事案：三大法律构件的结构性失灵 <https://youtu.be/8QZx-_ho5lU>`_ 
+7. `AI 审视法律：解构刑事定罪 <https://youtu.be/aS-jcw5hRR8>`_ 
+8. `AI解构刑事定罪：陈京元案 <https://youtu.be/ySmxalRX3DM>`_ 
+9. `辩护解剖：科学对抗刑法 <https://youtu.be/s8QEc3-iJPk>`_ 
