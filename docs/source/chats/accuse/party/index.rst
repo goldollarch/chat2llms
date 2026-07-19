@@ -45,3 +45,18 @@
 
     analyse/index
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `AI解构陈京元博士法律案件 <https://youtu.be/d8yYtlEXkOs>`_ 
+2. `AI压力测试：陈京元案评估 <https://youtu.be/E_UqGtKQYWY>`_ 
+3. `理性的降维解构：多维分析与AI智库诊断报告 <https://youtu.be/GHT60LVZRYk>`_ 
+4. `权力与理性的博弈：陈京元案三维深度评估报告 <https://youtu.be/_-jn1IFeOzA>`_ 
+5. `Auditing Judicial Overreach in the Chen Jingyuan Case <https://youtu.be/zMKz4XkMOuw>`_ 
+6. `Anatomy of a Legal Paradox <https://youtu.be/QekwHQ-d0Lw>`_ 
+7. `Law, Party & AI: Dr. Chen <https://youtu.be/2oW7wDAfyuY>`_ 
+8. `AI on Chen Jingyuan Case <https://youtu.be/7682GXYRsVs>`_ 
