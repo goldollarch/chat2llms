@@ -264,3 +264,20 @@
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `The Case of Dr. Chen <https://youtu.be/FOaVpGwpxMg>`_ 
+1. `The Retweet Paradox <https://youtu.be/y9k61bVbqSM>`_ 
+1. `物理与法律的碰撞：陈博士的复杂网络辩护策略 <https://youtu.be/L2gL5HEHzCI>`_ 
+1. `AI与判决：陈京元博士案 <https://youtu.be/KuRwMVqDYvk>`_ 
+1. `title <https>`_ 
+1. `title <https>`_ 
+1. `title <https>`_ 
+1. `title <https>`_ 
+1. `title <https>`_ 
+1. `title <https>`_ 

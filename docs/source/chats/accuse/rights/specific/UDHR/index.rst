@@ -323,14 +323,13 @@ Video Overview
 
 -------------------
 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
+1. `The Digital Jury <https://youtu.be/FY0UpM3sqU0>`_ 
+2. `AI, Rights & The Chen Case <https://youtu.be/1cmMA3dvNfY>`_ 
+3. `AI依《世界人权宣言》评陈京元案 <https://youtu.be/n0ScPDzVOAk>`_ 
+4. `数字化法治共识：大语言模型审视陈京元案 <https://youtu.be/g60PpxJO2uo>`_ 
+5. `人的尊严高于国家权力：陈京元案的多维法理透视 <https://youtu.be/H3UbOTl3Fa4>`_ 
+6. `法理之殇与数字审判：六大AI全景式法律诊断白皮书 <https://youtu.be/yOtDvsq1qXc>`_ 
+7. `文明的诊断书：基于系统科学、普世人权与AI模型的联合交叉分析 <https://youtu.be/J7I9vzqJBNE>`_ 
+8. `寻衅滋事与科学证伪：基于复杂系统科学与六大AI模型的UDHR审查报告 <https://youtu.be/rRAUkfcn1Tg>`_ 
+9. `The Digital Tribunal: Synthesizing Law and Human Rights <https://youtu.be/822JdBiaqko>`_ 
+10. `A Digital Justice Assessment: Human Rights, Network Science, and AI Consensus <https://youtu.be/yjQhJs_fzxs>`_ 

@@ -231,3 +231,18 @@
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `陈京元案：人工智能与国际法 <https://youtu.be/yKyqCWhw7XE>`_ 
+2. `转发的物理学：科学与法律的碰撞 <https://youtu.be/73OnTqPGuZE>`_ 
+3. `The Anatomy of a Digital Conviction <https://youtu.be/RG46HmCFoQs>`_ 
+4. `The Collision of Judicial Logic and Network Science <https://youtu.be/STBuCI7kfKY>`_ 
+5. `越界的审判：基于复杂系统科学与ICCPR国际人权法的多维解构 <https://youtu.be/iqsMWhiO4HY>`_ 
+6. `秩序的物理学：从复杂系统科学到国际人权法 <https://youtu.be/YvsV3Z1v-J4>`_ 
+7. `AI Meets International Law <https://youtu.be/NhxoBQz6HgY>`_ 
+8. `Law vs Complex Systems <https://youtu.be/0odDNzFxyvA>`_ 
