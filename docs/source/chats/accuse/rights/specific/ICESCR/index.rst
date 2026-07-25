@@ -271,13 +271,11 @@ Video Overview
 
 -------------------
 
-1. `The Case of Dr. Chen <https://youtu.be/FOaVpGwpxMg>`_ 
 1. `The Retweet Paradox <https://youtu.be/y9k61bVbqSM>`_ 
-1. `物理与法律的碰撞：陈博士的复杂网络辩护策略 <https://youtu.be/L2gL5HEHzCI>`_ 
-1. `AI与判决：陈京元博士案 <https://youtu.be/KuRwMVqDYvk>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
-1. `title <https>`_ 
+2. `The Case of Dr. Chen <https://youtu.be/FOaVpGwpxMg>`_ 
+3. `Fighting prison for retweets with network physics <https://youtu.be/rhhSQSywqm0>`_ 
+4. `Fighting Retweet Charges With Network Physics <https://youtu.be/jjQIJYXouTU>`_ 
+5. `系统中的异常：基于法律、人权与科学的交叉审查 <https://youtu.be/1PuoHva7hpE>`_ 
+6. `科学对权力的审判：复杂系统论如何证伪司法幻象 <https://youtu.be/5zrPW2X8eXE>`_ 
+7. `物理与法律的碰撞：陈博士的复杂网络辩护策略 <https://youtu.be/L2gL5HEHzCI>`_ 
+8. `AI与判决：陈京元博士案 <https://youtu.be/KuRwMVqDYvk>`_ 
