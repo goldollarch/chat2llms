@@ -61,8 +61,6 @@ Video Overview
 2. `AI 法律专案组：评估陈京元案 <https://youtu.be/MGaCFU1PyQY>`_ 
 3. `权力的边界：陈京元案的法理剖析 <https://youtu.be/Mb9khDFlXo4>`_ 
 4. `法律的棱镜：AI对表达与权力的分析 <https://youtu.be/gSrwrdJ-eCg>`_ 
-5. `六大AI硬刚陈京元案判词 <https>`_ 
-6. `Five_AI_models_audit_Dr <https>`_ 
-7. `Anatomy of a Legal Conflict <https://youtu.be/e58PkjxHjc0>`_ 
-8. `AI vs Law: Dr.Chen's Case <https://youtu.be/EmClARdHgfM>`_ 
-9. `AI, Law, and Human Rights <https://youtu.be/mVi-jn6J6s0>`_ 
+5. `Anatomy of a Legal Conflict <https://youtu.be/e58PkjxHjc0>`_ 
+6. `AI vs Law: Dr.Chen's Case <https://youtu.be/EmClARdHgfM>`_ 
+7. `AI, Law, and Human Rights <https://youtu.be/mVi-jn6J6s0>`_ 
