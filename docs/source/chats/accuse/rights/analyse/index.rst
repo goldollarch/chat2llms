@@ -111,3 +111,15 @@ Copilot：图表化与直观对比
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `Constitutional Erasure: Systemic Rights Violations <https://youtu.be/V0jGYy7AnvM>`_ 
+2. `法律的棱镜：AI对表达与权力的分析 <https://youtu.be/gSrwrdJ-eCg>`_ 
+3. `权力的边界：陈京元案的法理剖析 <https://youtu.be/Mb9khDFlXo4>`_ 
+4. `权力边界与权利底线的司法诊断 <https://youtu.be/wefvcnp4cDU>`_ 
+5. `人工智能、人权与法律矩阵 <https://youtu.be/pAnevj49gOg>`_ 

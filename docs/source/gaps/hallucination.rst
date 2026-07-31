@@ -8,3 +8,17 @@ Hallucination of LLM
    --- 引自 :doc:`【Qwen评论Grok】 </gaps/example/qw2grok>`
 
 To do ...
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+1. `人工智能、人权与法律矩阵 <https://youtu.be/pAnevj49gOg>`_ 
+2. `公权边界与基本人权：AI多维法理分析 <https://youtu.be/E6BvXCTCeUE>`_ 
+3. `权力的界限与自由的底线：多维法理与人权评估 <https://youtu.be/nbwAO8ugpWc>`_ 
+4. `基于复杂系统理论与多维法律框架的系统性病理分析 <https://youtu.be/e82j772JuI8>`_ 
+5. `The Boundaries of Power and Rights <https://youtu.be/dRs5emy9fa4>`_ 
+6. `The Anatomy of a Systemic Failure <https://youtu.be/SOcxN6ekXk0>`_ 
