@@ -331,5 +331,4 @@ Video Overview
 6. `法理之殇与数字审判：六大AI全景式法律诊断白皮书 <https://youtu.be/yOtDvsq1qXc>`_ 
 7. `文明的诊断书：基于系统科学、普世人权与AI模型的联合交叉分析 <https://youtu.be/J7I9vzqJBNE>`_ 
 8. `寻衅滋事与科学证伪：基于复杂系统科学与六大AI模型的UDHR审查报告 <https://youtu.be/rRAUkfcn1Tg>`_ 
-9. `The Digital Tribunal: Synthesizing Law and Human Rights <https://youtu.be/822JdBiaqko>`_ 
-10. `A Digital Justice Assessment: Human Rights, Network Science, and AI Consensus <https://youtu.be/yjQhJs_fzxs>`_ 
+9. `A Digital Justice Assessment: Human Rights, Network Science, and AI Consensus <https://youtu.be/yjQhJs_fzxs>`_ 

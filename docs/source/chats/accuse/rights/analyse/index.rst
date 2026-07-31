@@ -118,8 +118,12 @@ Video Overview
 
 -------------------
 
-1. `Constitutional Erasure: Systemic Rights Violations <https://youtu.be/V0jGYy7AnvM>`_ 
-2. `法律的棱镜：AI对表达与权力的分析 <https://youtu.be/gSrwrdJ-eCg>`_ 
+1. `人工智能、人权与法律矩阵 <https://youtu.be/pAnevj49gOg>`_ 
+2. `权力边界与权利底线的司法诊断 <https://youtu.be/wefvcnp4cDU>`_ 
 3. `权力的边界：陈京元案的法理剖析 <https://youtu.be/Mb9khDFlXo4>`_ 
-4. `权力边界与权利底线的司法诊断 <https://youtu.be/wefvcnp4cDU>`_ 
-5. `人工智能、人权与法律矩阵 <https://youtu.be/pAnevj49gOg>`_ 
+4. `法律的棱镜：AI对表达与权力的分析 <https://youtu.be/gSrwrdJ-eCg>`_ 
+5. `基于复杂系统理论与多维法律框架的系统性病理分析 <https://youtu.be/e82j772JuI8>`_ 
+6. `Constitutional Erasure: Systemic Rights Violations <https://youtu.be/V0jGYy7AnvM>`_ 
+7. `The Blueprint of Injustice: A Cross-Treaty Human Rights Audit <https://youtu.be/1mCfOqPdlKY>`_ 
+8. `思想的罪与罚：多维法理与人权审视 <https://youtu.be/xw9g2zVs2CA>`_ 
+9. `The Layered Legal Lens <https://youtu.be/3JbnffEAcfk>`_ 
