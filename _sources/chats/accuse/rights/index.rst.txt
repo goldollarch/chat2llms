@@ -62,7 +62,4 @@ Video Overview
 3. `抽象司法事件：法律压力测试 <https://youtu.be/ukHIXs8hZH0>`_ 
 4. `公权边界与基本人权：AI多维法理分析 <https://youtu.be/E6BvXCTCeUE>`_ 
 5. `权力的界限与自由的底线：多维法理与人权评估 <https://youtu.be/nbwAO8ugpWc>`_ 
-6. `基于复杂系统理论与多维法律框架的系统性病理分析 <https://youtu.be/e82j772JuI8>`_ 
-7. `The Blueprint of Injustice: A Cross-Treaty Human Rights Audit <https://youtu.be/1mCfOqPdlKY>`_ 
-8. `思想的罪与罚：多维法理与人权审视 <https://youtu.be/xw9g2zVs2CA>`_ 
-9. `The Layered Legal Lens <https://youtu.be/3JbnffEAcfk>`_ 
+6. `The Digital Tribunal: Synthesizing Law and Human Rights <https://youtu.be/822JdBiaqko>`_ 
