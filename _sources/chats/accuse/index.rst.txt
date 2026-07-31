@@ -56,6 +56,4 @@ Video Overview
 
 -------------------
 
-1. `Dr. Chen Legal Assessment <https://youtu.be/k3SNkt--A_g>`_ 
-2. `争议剖析：陈博士案的法律解析 <https://youtu.be/YIPtZJybD_c>`_ 
 1. `title <https>`_ 

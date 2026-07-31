@@ -57,10 +57,12 @@ Video Overview
 
 -------------------
 
-1. `表达的法律透镜 <https://youtu.be/dkO5RIv2lBk>`_ 
-2. `AI 法律专案组：评估陈京元案 <https://youtu.be/MGaCFU1PyQY>`_ 
-3. `权力的边界：陈京元案的法理剖析 <https://youtu.be/Mb9khDFlXo4>`_ 
-4. `法律的棱镜：AI对表达与权力的分析 <https://youtu.be/gSrwrdJ-eCg>`_ 
-5. `Anatomy of a Legal Conflict <https://youtu.be/e58PkjxHjc0>`_ 
-6. `AI vs Law: Dr.Chen's Case <https://youtu.be/EmClARdHgfM>`_ 
-7. `AI, Law, and Human Rights <https://youtu.be/mVi-jn6J6s0>`_ 
+1. `一场AI生成的法律分析 <https://youtu.be/8qKfFKM8DcM>`_ 
+2. `国家权力与人类尊严的边界 <https://youtu.be/yZspI6cwcgU>`_ 
+3. `抽象司法事件：法律压力测试 <https://youtu.be/ukHIXs8hZH0>`_ 
+4. `公权边界与基本人权：AI多维法理分析 <https://youtu.be/E6BvXCTCeUE>`_ 
+5. `权力的界限与自由的底线：多维法理与人权评估 <https://youtu.be/nbwAO8ugpWc>`_ 
+6. `基于复杂系统理论与多维法律框架的系统性病理分析 <https://youtu.be/e82j772JuI8>`_ 
+7. `The Blueprint of Injustice: A Cross-Treaty Human Rights Audit <https://youtu.be/1mCfOqPdlKY>`_ 
+8. `思想的罪与罚：多维法理与人权审视 <https://youtu.be/xw9g2zVs2CA>`_ 
+9. `The Layered Legal Lens <https://youtu.be/3JbnffEAcfk>`_ 
