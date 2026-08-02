@@ -56,4 +56,9 @@ Video Overview
 
 -------------------
 
-1. `title <https>`_ 
+1. `剖析狱中自辩暨控告血书 <https://youtu.be/A7X4RaPnWlo>`_ 
+2. `深度图解：陈京元案AI法律审计 <https://youtu.be/6pCPE6P0gPU>`_ 
+3. `深度解析：陈京元博士案件法律分析 <https://youtu.be/YUrslto178U>`_ 
+4. `越界的公权与失灵的法治：多维法律与政治审查 <https://youtu.be/sjiqhns1Tf4>`_ 
+5. `The Normative Mirror Test <https://youtu.be/mM_kdksBJjo>`_ 
+6. `Anatomy of an Accusation <https://youtu.be/xOgdXc4pI8U>`_ 
