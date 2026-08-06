@@ -32,6 +32,4 @@ Video Overview
 -------------------
 
 1. `两个系统的碰撞：物理学对决法律 <https://youtu.be/09ZnbnXgU8E>`_ 
-1. `法律崩塌的解剖：陈京元案深度解析 <https://youtu.be/3i9pn_n-2_M>`_ 
-1. `science <https>`_ 
-1. `science <https>`_ 
+2. `法律崩塌的解剖：陈京元案深度解析 <https://youtu.be/3i9pn_n-2_M>`_ 

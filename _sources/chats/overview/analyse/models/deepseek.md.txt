@@ -109,3 +109,16 @@
 ---
 
 **附注**：本案反映中国司法实践中对寻衅滋事罪的适用争议，需在维护社会秩序与保障公民权利间寻求平衡，避免法律工具化倾向。
+
+
+## Video Review
+
+- [狱中血书：多学科硬核解析](https://youtu.be/yPCiy9G4uYY) 
+- [套娃式辩护：法律、科学与三万字血书](https://youtu.be/hmYZGih7u4g) 
+- [理性的崩塌：陈京元案司法失灵与科学抗争全景解析](https://youtu.be/w1ZbJAzsUpU) 
+- [理性与权力的不对称交锋：陈京元案的系统论与法理学解构](https://youtu.be/KLdN751Vjsc) 
+- [理性与机器的碰撞：揭开系统性司法失效的法律、科学与心理学机制](https://youtu.be/ze_2_uXRUmw) 
+- [The Asymmetric Trial: Anatomy of an Impossible Crime](https://youtu.be/SFD7Fai57-o) 
+- [Science vs. Silence: The Case of Dr. Chen Jingyuan](https://youtu.be/NP1uIN9_sCI) 
+- [Anatomy of the Blood Letter](https://youtu.be/3t4JrznZsh0) 
+- [Legal vs. Scientific Clash](https://youtu.be/i4d5XWOKDUw) 
