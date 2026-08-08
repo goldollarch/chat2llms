@@ -426,3 +426,17 @@
 2. **做“寻衅滋事罪网络适用的系统性批判”**
 3. **与德国“煽动罪”、日本“业务妨害罪”做比较研究**
 
+
+## Video Review
+
+- [陈京元博士案件多学科拆解](https://youtu.be/0YUCtm09Elw) 
+- [陈京元博士案：多维视角拆解](https://youtu.be/Y7soib03cuw) 
+- [解构陈京元案：法律、心理学与哲学的交汇](https://youtu.be/Ocrnc2Ggjqk) 
+- [理性之心的跨学科解构：科学理性与法律逻辑的对峙](https://youtu.be/LGkIzVpfZ8g) 
+- [理性的刻度：基于法理、复杂系统与进化心理学的全景检验](https://youtu.be/GEjvwN4EKr4) 
+- [跨学科诊断：复杂系统、社会心理与法理学视角下的认知冲突与司法错位](https://youtu.be/7YTn4FccsyU) 
+- [Rationality on Trial: A Cross-Disciplinary Deconstruction](https://youtu.be/xe019sLDJig) 
+- [The Systems Anatomy: A Cross-Discilpinary Deconstruction](https://youtu.be/UQUzK-uEFas) 
+- [Dr. Chen Case Deconstruction](https://youtu.be/ZRwXH-1WgMo) 
+- [Multidisciplinary Defense](https://youtu.be/4FprDUvAcF4) 
+- [Anatomy of a Retweet](https://youtu.be/s3-GeD6sJGo) 

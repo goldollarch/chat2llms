@@ -134,7 +134,9 @@ in mainland China. The complete case materials are available online for referenc
 
 ---------------------------------------------------
 
-[`YouTube <https://www.youtube.com/@gdchitao>`_]
+[`YouTube <https://www.youtube.com/@gdchitao>`_] -
+[`bilibili <https://space.bilibili.com/518695827>`_] -
+[`ximalaya <https://www.ximalaya.com/zhubo/229761471>`_]
 
 --------------------------------
 

@@ -44,6 +44,7 @@
 ---
 
 [[YouTube](https://www.youtube.com/@gdchitao)]
+[[BiliBili](https://space.bilibili.com/518695827)]
 
 ---
 
