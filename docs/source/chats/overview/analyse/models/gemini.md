@@ -125,3 +125,20 @@
 
 **综合建议**：
 从法律实务看，本案的判决在**因果关系论证**和**证据裁判原则**上均存在可供申诉的重大瑕疵。对于此类“因言获罪”的案件，法律争议的核心将长期锚定在：**在没有产生任何物理或网络现实损害的情况下，纯粹的表达行为是否应当承担刑事责任。**
+
+## Video Review
+
+- [Multidisciplinary Strike](https://youtu.be/-2b616kLG3k) 
+- [跨学科降维打击：科学与法律的碰撞](https://youtu.be/cIf9hQCybHc) 
+- [The Anatomy of a Verdict](https://youtu.be/JVeklutYLL8) 
+- [陈京元案：AI、法律与物理定律](https://youtu.be/Bi1XUl9MFWg) 
+- [国家与科学家：解构一场有罪判决](https://youtu.be/GJmeQ488vj0) 
+- https 
+- https 
+- https 
+- https 
+- https 
+- https 
+- https 
+- https 
+- https 

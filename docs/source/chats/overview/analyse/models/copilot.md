@@ -381,3 +381,16 @@
 罪刑法定、无罪推定、证据裁判、程序正义均被破坏。
 
 #### **司法类型：典型的“以言入罪 + 口袋罪滥用”案件**
+
+## Video Review
+
+- [The Scientific Defense](https://youtu.be/witRLcKH7ss) 
+- [The Dr. Chen Jingyuan Case](https://youtu.be/52sAle5YxgE) 
+- [The Anatomy of a Systemic Misjudgment: Why Judicial Logic Fails Complex Systems](https://youtu.be/w0neDwuMpaw) 
+- [The Great Disconnect: The Anatomy of an Institutional Misjudgment](https://youtu.be/rw95O9TLMG8) 
+- [认知断层与制度性误读：网络物理、心理学与文化多维度解构](https://youtu.be/S53tyNLlM9Y) 
+- [科学与理性的辩词：陈京元案的跨学科反思](https://youtu.be/fK5D6xqiGhs) 
+- [理性之殇：陈京元案的多维诊断报告](https://youtu.be/7K_KSMChIY8) 
+- [陈京元博士案：两种思维范式的碰撞](https://youtu.be/dcEJT4C4zx8) 
+- [定罪解剖：解构陈京元博士案](https://youtu.be/D7XoW_PLxvI) 
+- [陈京元案：两种系统的碰撞](https://youtu.be/k5MT7zLnQ3o) 
