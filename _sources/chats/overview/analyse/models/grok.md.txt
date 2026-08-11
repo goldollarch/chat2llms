@@ -151,3 +151,17 @@
 本案不仅是个案冤错，更是检验“全面依法治国”与“罪刑法定”原则的试金石。严格回归法治轨道、限缩“口袋罪”适用、强化程序正义，是避免类似案件重复发生的根本路径。
 
 本分析纯属基于公开法律文书的学术性、专业性法律意见，仅供参考。
+
+## Video Review
+
+- [Unpacking Dr. Chen](https://youtu.be/CpgG45jN-7E) 
+- [The Chen Jingyuan Case](https://youtu.be/V8Pkvomm1Ts) 
+- [Chen Jingyuan Case Analysis](https://youtu.be/-eHgviwm0Og) 
+- [The Physics of Innocence: Dr. Chen Jingyuan vs. The 'Pocket Crime'](https://youtu.be/eJqV8W4VYWE) 
+- [An Interdisciplinary Analysis of Law, Complex Systems, and Authoritarian Psychology](https://youtu.be/a180WTY2zdw) 
+- [理性的降维打击：逻辑、物理与心理学视角下的多维解构](https://youtu.be/F0kk5XhCSgs) 
+- [理性的抗辩：基于法理、科学与哲学的审查与评估](https://youtu.be/MVTQjgWUoQg) 
+- [系统故障：运用法理、科学与心理学框架诊断](https://youtu.be/FXQHD2LDhNU) 
+- [转发的物理学：解构一场定罪](https://youtu.be/26_PcR13R2o) 
+- [多学科棱镜：陈京元博士案](https://youtu.be/1fcZMihCL9Q) 
+- [定罪剖析：解读陈京元案](https://youtu.be/uXw1inIrqDg) 
