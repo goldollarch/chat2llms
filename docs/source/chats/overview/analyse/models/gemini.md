@@ -128,17 +128,13 @@
 
 ## Video Review
 
+- [Dimensional Strike](https://youtu.be/UbgMOxvjbqo) 
 - [Multidisciplinary Strike](https://youtu.be/-2b616kLG3k) 
-- [跨学科降维打击：科学与法律的碰撞](https://youtu.be/cIf9hQCybHc) 
 - [The Anatomy of a Verdict](https://youtu.be/JVeklutYLL8) 
-- [陈京元案：AI、法律与物理定律](https://youtu.be/Bi1XUl9MFWg) 
+- [When Physics Dismantles A Pocket Crime](https://youtu.be/q5jWwfnC2GA) 
+- [跨学科降维打击：陈京元案狱中自辩深度解析](https://youtu.be/5y_6EOHVsiI) 
+- [荒谬的解剖：陈京元案的多维法证分析](https://youtu.be/8nLcf8VsvPA) 
+- [两种系统的碰撞：物理学与法律的交锋](https://youtu.be/XUdhLV_L_I0) 
+- [跨学科降维打击：科学与法律的碰撞](https://youtu.be/cIf9hQCybHc) 
 - [国家与科学家：解构一场有罪判决](https://youtu.be/GJmeQ488vj0) 
-- https 
-- https 
-- https 
-- https 
-- https 
-- https 
-- https 
-- https 
-- https 
+- [陈京元案：AI、法律与物理定律](https://youtu.be/Bi1XUl9MFWg) 
