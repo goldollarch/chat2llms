@@ -116,11 +116,12 @@ Video Overview
 
 -------------------
 
-1. `The Paradox of Proof <https://youtu.be/2lXg1K76h98>`_ 
-2. `陈京元案：法律与科学的交锋 <https://youtu.be/QEN_oVuRZG4>`_ 
-3. `一份不合理的判决：贝叶斯视角 <https://youtu.be/ZQkA0JKWbZ4>`_ 
-4. `剖析陈京元博士“寻衅滋事”案件：因果关系与贝叶斯推理 <https://youtu.be/7f1WSJEeWS0>`_ 
-5. `零概率定罪：法治的文明断层 - 基于哥德尔、贝叶斯和复杂系统哲学的全景解剖 <https://youtu.be/jSFUKNZMCH0>`_ 
-6. `The Civilizational Fault Line - A Systems, Epistemological, and Bayesian Deconstruction <https://youtu.be/IH5r_OMOl0o>`_ 
-7. `The case of Chen Jingyuan - Hume, Bayes, and Complex Systems <https://youtu.be/3vWaS9xqzAE>`_ 
-8. `A Bayesian Verdict Teardown <https://youtu.be/ISSnb-dIzes>`_ 
+- `The Paradox of Proof <https://youtu.be/2lXg1K76h98>`_ 
+- `陈京元案：法律与科学的交锋 <https://youtu.be/QEN_oVuRZG4>`_ 
+- `一份不合理的判决：贝叶斯视角 <https://youtu.be/ZQkA0JKWbZ4>`_ 
+- `剖析陈京元博士“寻衅滋事”案件：因果关系与贝叶斯推理 <https://youtu.be/7f1WSJEeWS0>`_ 
+- `零概率定罪：法治的文明断层 - 基于哥德尔、贝叶斯和复杂系统哲学的全景解剖 <https://youtu.be/jSFUKNZMCH0>`_ 
+- `The Civilizational Fault Line - A Systems, Epistemological, and Bayesian Deconstruction <https://youtu.be/IH5r_OMOl0o>`_ 
+- `The case of Chen Jingyuan - Hume, Bayes, and Complex Systems <https://youtu.be/3vWaS9xqzAE>`_ 
+- `How Bayesian Math Weighs Legal Evidence <https://youtube.com/shorts/dgnB_00vH4Q>`_ 
+- `A Bayesian Verdict Teardown <https://youtu.be/ISSnb-dIzes>`_ 
