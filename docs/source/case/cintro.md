@@ -36,7 +36,7 @@
 
 ---
 
-[YouTube：](https://www.youtube.com/@gdchitao)【[IQIYI](https://www.iqiyi.com/creator/2329859250)】【[Bilibili](https://space.bilibili.com/518695827)】【[Ximalaya](https://www.ximalaya.com/zhubo/229761471)】
+[YouTube：](https://www.youtube.com/@gdchitao)【[爱奇艺](https://www.iqiyi.com/creator/2329859250)】【[哔哩哔哩](https://space.bilibili.com/518695827)】【[喜马拉雅](https://www.ximalaya.com/zhubo/229761471)】
 
 ---
 
