@@ -273,29 +273,29 @@
 <h3>3.3 定量模型示例：分支过程+渗流理论的联合检验<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># 简化的因果关系检验框架（伪代码）</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">causal_test</span><span class="p">(</span><span class="n">user_params</span><span class="p">,</span> <span class="n">system_params</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    检验&quot;转发行为→公共秩序严重混乱&quot;的因果可能性</span>
-<span class="sd">    &quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""</span>
+<span class="sd">    检验"转发行为→公共秩序严重混乱"的因果可能性</span>
+<span class="sd">    """</span>
     <span class="c1"># 1. 微观动力学检验（分支过程）</span>
     <span class="n">m</span> <span class="o">=</span> <span class="n">calculate_branching_number</span><span class="p">(</span><span class="n">user_params</span><span class="p">)</span>  <span class="c1"># 平均分支数</span>
     <span class="k">if</span> <span class="n">m</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
         <span class="n">extinction_prob</span> <span class="o">=</span> <span class="mf">1.0</span>  <span class="c1"># Galton-Watson灭绝定理</span>
-        <span class="k">return</span> <span class="s2">&quot;因果链断裂：信息必然衰减&quot;</span>
+        <span class="k">return</span> <span class="s2">"因果链断裂：信息必然衰减"</span>
     
     <span class="c1"># 2. 中观结构检验（渗流理论）</span>
     <span class="n">f_c</span> <span class="o">=</span> <span class="n">cohen_threshold</span><span class="p">(</span><span class="n">system_params</span><span class="p">)</span>  <span class="c1"># 临界移除比例</span>
-    <span class="k">if</span> <span class="n">user_params</span><span class="p">[</span><span class="s1">&#39;degree&#39;</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">average_degree</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;因果链断裂：边缘节点无结构影响力&quot;</span>
+    <span class="k">if</span> <span class="n">user_params</span><span class="p">[</span><span class="s1">'degree'</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">average_degree</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"因果链断裂：边缘节点无结构影响力"</span>
     
     <span class="c1"># 3. 宏观相变检验（临界动力学）</span>
-    <span class="k">if</span> <span class="n">system_params</span><span class="p">[</span><span class="s1">&#39;control_parameter&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">critical_value</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;因果链断裂：系统未处临界态&quot;</span>
+    <span class="k">if</span> <span class="n">system_params</span><span class="p">[</span><span class="s1">'control_parameter'</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">critical_value</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"因果链断裂：系统未处临界态"</span>
     
     <span class="c1"># 4. 现实后果检验（实证数据）</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">empirical_evidence</span><span class="p">(</span><span class="s1">&#39;offline_events&#39;</span><span class="p">,</span> <span class="s1">&#39;platform_reports&#39;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;因果链断裂：无现实危害证据&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">empirical_evidence</span><span class="p">(</span><span class="s1">'offline_events'</span><span class="p">,</span> <span class="s1">'platform_reports'</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">"因果链断裂：无现实危害证据"</span>
     
-    <span class="k">return</span> <span class="s2">&quot;因果关系可能成立（需进一步验证）&quot;</span>
+    <span class="k">return</span> <span class="s2">"因果关系可能成立（需进一步验证）"</span>
 </pre></div>
 </div>
 <blockquote>

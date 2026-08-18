@@ -113,19 +113,19 @@ command-line interface (CLI).</p>
 <span class="kn">from</span><span class="w"> </span><span class="nn">chat2llms.base_client</span><span class="w"> </span><span class="kn">import</span> <span class="n">BaseClient</span>
 
 <span class="c1"># Initialize clients</span>
-<span class="n">gemini</span> <span class="o">=</span> <span class="n">BaseClient</span><span class="p">(</span><span class="s2">&quot;gemini&quot;</span><span class="p">)</span>
-<span class="n">deepseek</span> <span class="o">=</span> <span class="n">BaseClient</span><span class="p">(</span><span class="s2">&quot;deepseek&quot;</span><span class="p">)</span>
+<span class="n">gemini</span> <span class="o">=</span> <span class="n">BaseClient</span><span class="p">(</span><span class="s2">"gemini"</span><span class="p">)</span>
+<span class="n">deepseek</span> <span class="o">=</span> <span class="n">BaseClient</span><span class="p">(</span><span class="s2">"deepseek"</span><span class="p">)</span>
 
 <span class="c1"># Create responses</span>
-<span class="n">question</span> <span class="o">=</span> <span class="s2">&quot;What is 2 + 2?&quot;</span>
+<span class="n">question</span> <span class="o">=</span> <span class="s2">"What is 2 + 2?"</span>
 
 <span class="n">gemini_response</span> <span class="o">=</span> <span class="n">GeminiResponse</span><span class="p">(</span><span class="n">gemini</span><span class="p">)</span>
 <span class="n">deepseek_response</span> <span class="o">=</span> <span class="n">OpenAIResponse</span><span class="p">(</span><span class="n">deepseek</span><span class="p">)</span>
 
 <span class="c1"># Analyze differences</span>
 <span class="n">analyzer</span> <span class="o">=</span> <span class="n">AnswerAnalyzer</span><span class="p">(</span><span class="n">gemini_response</span><span class="p">,</span> <span class="n">deepseek_response</span><span class="p">,</span> <span class="n">question</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Similarity: </span><span class="si">{</span><span class="n">analyzer</span><span class="o">.</span><span class="n">compute_similarity</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;semantic_sim: </span><span class="si">{</span><span class="n">analyzer</span><span class="o">.</span><span class="n">compute_semantic_similarity</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Similarity: </span><span class="si">{</span><span class="n">analyzer</span><span class="o">.</span><span class="n">compute_similarity</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"semantic_sim: </span><span class="si">{</span><span class="n">analyzer</span><span class="o">.</span><span class="n">compute_semantic_similarity</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">analyzer</span><span class="o">.</span><span class="n">highlight_differences</span><span class="p">())</span>
 </pre></div>
 </div>
@@ -149,7 +149,7 @@ The sum of 2 and 2 is calculated as follows:
 <h2>Command-Line Interface<a class="headerlink" href="#command-line-interface" title="Link to this heading"></a></h2>
 <p><strong>chat2llms</strong> provides a Command-Line Interface (CLI) for quick comparisons.</p>
 <p>After installing (Refer to <a class="reference internal" href="installation.html"><span class="doc">Installation</span></a>) the package, run:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>chat2llms<span class="w"> </span>--model1<span class="w"> </span>openai<span class="w"> </span>--model2<span class="w"> </span>gemini<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">&quot;Solve 2 + 2&quot;</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>chat2llms<span class="w"> </span>--model1<span class="w"> </span>openai<span class="w"> </span>--model2<span class="w"> </span>gemini<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">"Solve 2 + 2"</span>
 </pre></div>
 </div>
 <p><strong>Output</strong>:</p>
