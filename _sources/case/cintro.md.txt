@@ -36,12 +36,12 @@
 
 ---
 
-视频：【[YouTube](https://www.youtube.com/@gdchitao)】【[BiliBili](https://space.bilibili.com/518695827)】【[Ximalaya](https://www.ximalaya.com/zhubo/229761471)】【[IQIYI](https://www.iqiyi.com/creator/2329859250)】
+[YouTube：](https://www.youtube.com/@gdchitao)【[IQIYI](https://www.iqiyi.com/creator/2329859250)】【[Bilibili](https://space.bilibili.com/518695827)】【[Ximalaya](https://www.ximalaya.com/zhubo/229761471)】
 
 ---
 
-[概况：](/chats/overview/index.rst)【[法务](/chats/docus/official/overview/common/copilot.md)】【[理论](/chats/outlaw/analyse/index.rst)】【[终身追责](/chats/urges/grk.md)】
+[Overview：](/chats/overview/index.rst)【[法务](/chats/docus/official/overview/common/copilot.md)】【[理论](/chats/outlaw/analyse/index.rst)】【[终身追责](/chats/urges/grk.md)】
 
 ---
 
-【[English](/case/intro.rst)】
+[English](/case/intro.rst)
