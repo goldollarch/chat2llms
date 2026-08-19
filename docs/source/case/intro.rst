@@ -127,18 +127,19 @@ in mainland China. The complete case materials are available online for referenc
 
 ---------------------------------------------------
 
-[:doc:`Overview </chats/overview/index>`] -
-[:doc:`Legal Affairs </chats/docus/official/overview/common/copilot>`] -
-[:doc:`Theoretical Analysis </chats/outlaw/analyse/index>`] -
-[:doc:`Lifetime Accountability </chats/urges/grk>`]
+:doc:`Overview </chats/overview/index>` -
+:doc:`Legal Affairs </chats/docus/official/overview/common/copilot>` -
+:doc:`Theoretical Analysis </chats/outlaw/analyse/index>` -
+:doc:`Lifetime Accountability </chats/urges/grk>`
 
 ---------------------------------------------------
 
-[`YouTube <https://www.youtube.com/@gdchitao>`_] -
-[`BiliBili <https://space.bilibili.com/518695827>`_] -
-[`Ximalaya <https://www.ximalaya.com/zhubo/229761471>`_] -
-[`IQIYI <https://www.iqiyi.com/creator/2329859250>`_]
+`YouTube <https://www.youtube.com/@gdchitao>`_ -
+`BiliBili <https://space.bilibili.com/518695827>`_ -
+`Ximalaya <https://www.ximalaya.com/zhubo/229761471>`_ -
+`IQIYI <https://www.iqiyi.com/creator/2329859250>`_ -
+`QQ <https://v.qq.com/s/videoplus/460674442>`_
 
 --------------------------------
 
-[:doc:`Chinese </case/cintro>`]
+:doc:`Chinese </case/cintro>`
