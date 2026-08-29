@@ -89,10 +89,12 @@ Video Overview
 
 -------------------
 
-1. `Law vs. Complex Systems <https://youtu.be/TqwvrGO8xDA>`_ 
-2. `Cultural-Cognitive Mismatch <https://youtu.be/i2BiK7A2noI>`_ 
-3. `The Physics of Justice: Deconstructing the Case through Complex Systems and Cultural Psychology <https://youtu.be/gsh3bJsda5A>`_ 
-4. `寻衅滋事与理性的断裂：陈京元案多维系统诊断报告 <https://youtu.be/K3agWgxD5Yk>`_ 
-5. `系统诊断蓝图：从复杂网络到文化心理学的双重诊断 <https://youtu.be/jJjWm_8PLiA>`_ 
-6. `辩证法范式碰撞：法律系统与网络科学的交锋 <https://youtu.be/trTLKwKNr28>`_ 
-7. `范式的冲突：科学与法律之争 <https://youtu.be/kuMCkW7G_sY>`_ 
+- `Law vs. Complex Systems <https://youtu.be/TqwvrGO8xDA>`_ 
+- `Cultural-Cognitive Mismatch <https://youtu.be/i2BiK7A2noI>`_ 
+- `Deconstructing the Case through Complex Systems and Cultural Psychology <https://youtu.be/gsh3bJsda5A>`_ 
+- `寻衅滋事与理性的断裂：陈京元案多维系统诊断报告 <https://youtu.be/K3agWgxD5Yk>`_ 
+- `系统诊断蓝图：从复杂网络到文化心理学的双重诊断 <https://youtu.be/jJjWm_8PLiA>`_ 
+- `辩证法范式碰撞：法律系统与网络科学的交锋 <https://youtu.be/trTLKwKNr28>`_ 
+- `文化心理学视域下的法律冲突与“意义错译” <https://youtu.be/Xi4TPXBO2T0>`_ 
+- `范式的冲突：科学与法律之争 <https://youtu.be/kuMCkW7G_sY>`_ 
+- `陈京元案：一场误解的解剖 <https://youtu.be/CUG7RlspvhQ>`_ 

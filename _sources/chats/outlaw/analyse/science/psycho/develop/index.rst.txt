@@ -105,11 +105,13 @@ Video Overview
 
 -------------------
 
-1. `发展错位：解码陈京元博士案 <https://youtu.be/acmFzs-Li40>`_
-2. `解构陈京元博士案：多维棱镜分析 <https://youtu.be/ciUiA-1raig>`_
-3. `深度解析：法庭上的心理发展错位 <https://youtu.be/BGpaYp8M6A0>`_
-4. `系统性碰撞：理性的解构与精神的突围 <https://youtu.be/FiRiySH9SeE>`_
-5. `发展错位：一场制度与心智的结构性冲突 <https://youtu.be/q16CzDoROBA>`_
-6. `Law, Psychology & The Mind <https://youtu.be/RjXH4q7ecFU>`_
-7. `The Anatomy of a Collision <https://youtu.be/Y0cNCu8QERA>`_
-8. `Developmental Mismatch <https://youtu.be/FJCJkHE_9C0>`_
+- `阶段冲突：一场心理学解构 <https://youtu.be/wi08ezYU-lM>`_ 
+- `发展错位：解码陈京元博士案 <https://youtu.be/acmFzs-Li40>`_
+- `解构陈京元博士案：多维棱镜分析 <https://youtu.be/ciUiA-1raig>`_
+- `深度解析：法庭上的心理发展错位 <https://youtu.be/BGpaYp8M6A0>`_
+- `系统性碰撞：理性的解构与精神的突围 <https://youtu.be/FiRiySH9SeE>`_
+- `发展错位：一场制度与心智的结构性冲突 <https://youtu.be/q16CzDoROBA>`_
+- `发展断层与制度性误读：基于发展心理学视角的诊断报告 <https://youtu.be/scM-0IT0jL0>`_ 
+- `Law, Psychology & The Mind <https://youtu.be/RjXH4q7ecFU>`_
+- `The Anatomy of a Collision <https://youtu.be/Y0cNCu8QERA>`_
+- `Developmental Mismatch <https://youtu.be/FJCJkHE_9C0>`_
