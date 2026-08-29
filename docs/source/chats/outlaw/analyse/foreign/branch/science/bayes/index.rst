@@ -120,6 +120,7 @@ Video Overview
 - `陈京元案：法律与科学的交锋 <https://youtu.be/QEN_oVuRZG4>`_ 
 - `一份不合理的判决：贝叶斯视角 <https://youtu.be/ZQkA0JKWbZ4>`_ 
 - `剖析陈京元博士“寻衅滋事”案件：因果关系与贝叶斯推理 <https://youtu.be/7f1WSJEeWS0>`_ 
+- `从机械秩序到涌现正义：贝叶斯法理学、复杂系统与哥德尔定理 <https://youtu.be/S9sOd3natxE>`_ 
 - `零概率定罪：法治的文明断层 - 基于哥德尔、贝叶斯和复杂系统哲学的全景解剖 <https://youtu.be/jSFUKNZMCH0>`_ 
 - `The Civilizational Fault Line - A Systems, Epistemological, and Bayesian Deconstruction <https://youtu.be/IH5r_OMOl0o>`_ 
 - `The case of Chen Jingyuan - Hume, Bayes, and Complex Systems <https://youtu.be/3vWaS9xqzAE>`_ 
