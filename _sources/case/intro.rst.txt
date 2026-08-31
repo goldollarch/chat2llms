@@ -136,7 +136,6 @@ in mainland China. The complete case materials are available online for referenc
 
 `YouTube <https://www.youtube.com/@gdchitao>`_ -
 `BiliBili <https://space.bilibili.com/518695827>`_ -
-`Ximalaya <https://www.ximalaya.com/zhubo/229761471>`_ -
 `IQIYI <https://www.iqiyi.com/creator/2329859250>`_ -
 `QQ <https://v.qq.com/s/videoplus/460674442>`_
 
