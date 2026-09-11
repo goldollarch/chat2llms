@@ -93,12 +93,14 @@ Video Overview
 
 -------------------
 
-1. `陈京元案：多学科解构 <https://youtu.be/Bu-xZ-EPZyY>`_ 
-2. `陈京元博士案：一场心理碰撞 <https://youtu.be/JurILz1zOQA>`_ 
-3. `系统碰撞：陈京元案背后的心理学 <https://youtu.be/0oNizDbQYEo>`_ 
-4. `认知碰撞：陈京元博士与司法心智 <https://youtu.be/KkyrbnoRXII>`_ 
-5. `个体与系统间深层认知断层与心理错位 <https://youtu.be/knXnm7294Dk>`_ 
-6. `A Forensic Paychological Autopsy <https://youtu.be/SeVy1RNXHwI>`_ 
-7. `The Cognitive Collision <https://youtu.be/SQL-5N-6ww8>`_ 
-8. `The Psychological Clash <https://youtu.be/Von2rv3pMn0>`_ 
-9. `The Tale of Two Minds <https://youtu.be/zaSreNzskos>`_ 
+- `陈京元案：多学科解构 <https://youtu.be/Bu-xZ-EPZyY>`_ 
+- `陈京元博士案：一场心理碰撞 <https://youtu.be/JurILz1zOQA>`_ 
+- `系统碰撞：陈京元案背后的心理学 <https://youtu.be/0oNizDbQYEo>`_ 
+- `认知碰撞：陈京元博士与司法心智 <https://youtu.be/KkyrbnoRXII>`_ 
+- `个体与系统间深层认知断层与心理错位 <https://youtu.be/knXnm7294Dk>`_ 
+- `A Forensic Paychological Autopsy <https://youtu.be/SeVy1RNXHwI>`_ 
+- `The Cognitive Collision <https://youtu.be/SQL-5N-6ww8>`_ 
+- `The Psychological Clash <https://youtu.be/Von2rv3pMn0>`_ 
+- `The Tale of Two Minds <https://youtu.be/zaSreNzskos>`_ 
+- `认知冲突：陈博士与司法系统 <https://youtu.be/2NP2qbGgu4E>`_ 
+- `Minds <https>`_ 

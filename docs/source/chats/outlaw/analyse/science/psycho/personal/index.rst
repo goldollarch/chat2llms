@@ -101,11 +101,13 @@ Video Overview
 
 -------------------
 
-1. `Clash of Systems <https://youtu.be/7_Lng67A14o>`_ 
-2. `Dual Lens: Science on Trial <https://youtu.be/oqZGF9NoYRA>`_ 
-3. `The Physics and Psychology of Innocence <https://youtu.be/46N06X_uFbE>`_ 
-4. `结构性错位：一份基于人格心理学的法庭诊断档案 <https://youtu.be/iv4iCIyx1s0>`_ 
-5. `系统性误判的解剖：陈京元案的多学科解构 <https://youtu.be/oLpLPrQu2Jo>`_ 
-6. `陈京元博士案：多维视角的深度剖析 <https://youtu.be/ezG6UK9wej4>`_ 
-7. `法律冲突的心理剖析：陈京元案 <https://youtu.be/hW8mBa6Ljmw>`_ 
-8. `法律碰撞的心理学解析 <https://youtu.be/GRdASLG1vD8>`_ 
+- `Clash of Systems <https://youtu.be/7_Lng67A14o>`_ 
+- `Dual Lens: Science on Trial <https://youtu.be/oqZGF9NoYRA>`_ 
+- `The Physics and Psychology of Innocence <https://youtu.be/46N06X_uFbE>`_ 
+- `结构性错位：一份基于人格心理学的法庭诊断档案 <https://youtu.be/iv4iCIyx1s0>`_ 
+- `人格的极限测试：一场跨学科的人格结构剖析 <https://youtu.be/UpbRv_hx1S0>`_ 
+- `心理碰撞：陈京元博士与系统性结构的对决 <https://youtu.be/6YlRJ6wJzHg>`_ 
+- `系统性误判的解剖：陈京元案的多学科解构 <https://youtu.be/oLpLPrQu2Jo>`_ 
+- `陈京元博士案：多维视角的深度剖析 <https://youtu.be/ezG6UK9wej4>`_ 
+- `法律冲突的心理剖析：陈京元案 <https://youtu.be/hW8mBa6Ljmw>`_ 
+- `法律碰撞的心理学解析 <https://youtu.be/GRdASLG1vD8>`_ 

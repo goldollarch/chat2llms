@@ -101,7 +101,9 @@ Video Overview
 
 -------------------
 
-1. `The Existential Clash <https://youtu.be/fyLBaMUL1Js>`_ 
-2. `陈京元案：心理学视角的深度透视 <https://youtu.be/MWhb7-klrx8>`_ 
-3. `Two World in Conflict: The Humanistic Case of Dr. Chen  <https://youtu.be/86tuA7gpYCU>`_ 
-4. `系统与人：一份写给未来的法理学与人本主义心理学调查卷宗 <https://youtu.be/k1D2Tlszkio>`_ 
+- `The Existential Clash <https://youtu.be/fyLBaMUL1Js>`_ 
+- `陈京元案：心理学视角的深度透视 <https://youtu.be/MWhb7-klrx8>`_ 
+- `Two World in Conflict: The Humanistic Case of Dr. Chen  <https://youtu.be/86tuA7gpYCU>`_ 
+- `系统与人：一份写给未来的法理学与人本主义心理学调查卷宗 <https://youtu.be/k1D2Tlszkio>`_ 
+- `系统、个体与存在性断裂：人本主义视角分析 <https://youtu.be/uciHVbK8X5c>`_ 
+- `两个世界的碰撞：心理学分析 <https://youtu.be/K6Zv6uTDysI>`_ 

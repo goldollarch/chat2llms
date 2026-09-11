@@ -89,13 +89,16 @@ Video Overview
 
 -------------------
 
-1. `陈京元案：多维透镜深度解析 <https://youtu.be/hLNO00KRYvU>`_ 
-2. `法律、AI与心智：解析陈京元案 <https://youtu.be/teNs_tgtU1w>`_ 
-3. `人类韧性的压力测试：心理学解析 <https://youtu.be/EbzaOB5LOCQ>`_ 
-4. `深渊中的理性刻度：跨学科视域诊断报告 <https://youtu.be/b0MaQqFyAo4>`_ 
-5. `理性与权力的碰撞：一份面向未来读者的文明压力测试档案 <https://youtu.be/NdXbBPyU1PE>`_ 
-6. `理性与权力的碰撞：基于法理、物理和心理学的系统性证伪与解剖 <https://youtu.be/_FoY8usCvgg>`_ 
-7. `The Chen Jingyuan Dossier: A Dual Analysis of Institutional Rigidity and Individual Resilience <https://youtu.be/Lv8F8YXSglw>`_ 
-8. `System Failure: An AI Audit of the Chen Jingyuan Case <https://youtu.be/mYwooB1ibSU>`_ 
-9. `Anatomy of an AI Verdict <https://youtu.be/lx1OZgsk1XQ>`_ 
-10. `The Dr. Chen Case <https://youtu.be/ZxL-CvyPuLY>`_ 
+- `陈京元案：多维透镜深度解析 <https://youtu.be/hLNO00KRYvU>`_ 
+- `陈京元案：一场心理学压力测试 <https://youtu.be/mInt-DNbeC8>`_ 
+- `法律、AI与心智：解析陈京元案 <https://youtu.be/teNs_tgtU1w>`_ 
+- `人类韧性的压力测试：心理学解析 <https://youtu.be/EbzaOB5LOCQ>`_ 
+- `深渊中的理性刻度：跨学科视域诊断报告 <https://youtu.be/b0MaQqFyAo4>`_ 
+- `理性的边界与精神的突围：从物理学到积极心理学的审视 <https://youtu.be/kSsZXs4x-W8>`_ 
+- `理性与权力的碰撞：一份面向未来读者的文明压力测试档案 <https://youtu.be/NdXbBPyU1PE>`_ 
+- `理性与权力的碰撞：基于法理、物理和心理学的系统性证伪与解剖 <https://youtu.be/_FoY8usCvgg>`_ 
+- `越界的算法与理性的重镇：AI模型基于物理学到积极心理学的诊断 <https://youtu.be/xXDTGwKtIgs>`_ 
+- `A Dual Analysis of Institutional Rigidity and Individual Resilience <https://youtu.be/Lv8F8YXSglw>`_ 
+- `System Failure: An AI Audit of the Chen Jingyuan Case <https://youtu.be/mYwooB1ibSU>`_ 
+- `Anatomy of an AI Verdict <https://youtu.be/lx1OZgsk1XQ>`_ 
+- `The Dr. Chen Case <https://youtu.be/ZxL-CvyPuLY>`_ 

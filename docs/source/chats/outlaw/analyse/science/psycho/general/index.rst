@@ -115,3 +115,6 @@ Video Overview
 7. `Clash of Cognitive Systems <https://youtu.be/F6yjOVFP2Gw>`_
 8. `The Case of Dr. Chen <https://youtu.be/amWxTy05Pvs>`_ 
 9. `The Cognitive Clash <https://youtu.be/d5l2n1QVSXU>`_ 
+- `认知碰撞：个体心理与系统心理交锋 <https://youtu.be/r35tQUk7CwI>`_ 
+- `认知结构的碰撞：学者与系统 <https://youtu.be/4Ql7NjMDeEE>`_ 
+- `Minds <https>`_ 
