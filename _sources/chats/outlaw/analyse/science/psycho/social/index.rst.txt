@@ -110,10 +110,13 @@ Video Overview
 
 -------------------
 
-1. `Law vs. Science <https://youtu.be/3GyZOqQajhc>`_ 
-2. `Psychology of a Verdict <https://youtu.be/VivyNK8YVwY>`_ 
-3. `A Legal, Network, and Social Psychological Autopsy of Systemic Misreading <https://youtu.be/ngJ_80ZoMlQ>`_ 
-4. `寻衅滋事罪：基于法教义学、复杂网络科学与多维心理学的全景式审查 <https://youtu.be/mZE4yjg18oE>`_ 
-5. `寻衅与秩序的拓扑学：一份来自未来的系统性误判解剖档案 <https://youtu.be/qCWMvbCiyd0>`_ 
-6. `陈京元案：一次转发的心理学解剖 <https://youtu.be/m8Kz26joPLw>`_ 
-7. `陈京元案：多维视角的深度剖析 <https://youtu.be/Fbt5XdcOFpc>`_ 
+- `Law vs. Science <https://youtu.be/3GyZOqQajhc>`_ 
+- `Psychology of a Verdict <https://youtu.be/VivyNK8YVwY>`_ 
+- `A Legal, Network, and Social Psychological Autopsy of Systemic Misreading <https://youtu.be/ngJ_80ZoMlQ>`_ 
+- `寻衅滋事罪：基于法教义学、复杂网络科学与多维心理学的全景式审查 <https://youtu.be/mZE4yjg18oE>`_ 
+- `寻衅与秩序的拓扑学：一份来自未来的系统性误判解剖档案 <https://youtu.be/qCWMvbCiyd0>`_ 
+- `系统性盲区与结构性错位：社会心理学视角诊断报告 <https://youtu.be/rELt90j30gk>`_ 
+- `陈京元案：一次转发的心理学解剖 <https://youtu.be/m8Kz26joPLw>`_ 
+- `陈京元案：多维视角的深度剖析 <https://youtu.be/1YSrWdvidco>`_ 
+- `深度图解：冲突的心理学剖析 <https://youtu.be/BHe920iJZEA>`_ 
+- `心理学碰撞：陈京元案 <https://youtu.be/mi7B_SaNuJs>`_ 

@@ -43,15 +43,17 @@ Video Overview
 
 -------------------
 
-1. `The Boundary of Rumors <https://youtu.be/3nAnYDVElCg>`_ 
-2. `Legal Boundaries of Rumors <https://youtu.be/2Mgj0ckbugI>`_ 
-3. `Deconstructing the "Rumor": Legal Boundaries <https://youtu.be/lzkDpCeUfnI>`_ 
-4. `Deconstructing the Criminalization of Online Speech <https://youtu.be/sDSWLgdWhL0>`_ 
-5. `Anatomy of an Injustice: The Criminalization of Thought <https://youtu.be/GfyP80tVixk>`_ 
-6. `虚假信息刑事化的法理边界：寻衅滋事案法理诊断 <https://youtu.be/i1R3HAGHRT8>`_ 
-7. `言论的法理边界：寻衅滋事案定罪的结构性解剖 <https://youtu.be/Y0kdG86BimE>`_ 
-8. `虚假信息的边界：法律与哲学的解构 <https://youtu.be/27dag6irzmg>`_ 
-9. `谣言的法律解剖：解构数字言论边界 <https://youtu.be/T9PQJ2xpW94>`_ 
-10. `刑法边界与言论的法理坐标 <https://youtu.be/50zRmclMss0>`_ 
-11. `表达的边界：解构狱中自辩 <https://youtu.be/golmLbut0-4>`_ 
-12. `Boundaries of A Rumor <https://youtu.be/j1a9DX5jmA8>`_ 
+- `Boundaries of A Rumor <https://youtu.be/j1a9DX5jmA8>`_ 
+- `The Boundary of Rumors <https://youtu.be/3nAnYDVElCg>`_ 
+- `Legal Boundaries of Rumors <https://youtu.be/2Mgj0ckbugI>`_ 
+- `Deconstructing the "Rumor": Legal Boundaries <https://youtu.be/lzkDpCeUfnI>`_ 
+- `Deconstructing the Criminalization of Online Speech <https://youtu.be/sDSWLgdWhL0>`_ 
+- `Anatomy of an Injustice: The Criminalization of Thought <https://youtu.be/GfyP80tVixk>`_ 
+- `虚假信息刑事化的法理边界：寻衅滋事案法理诊断 <https://youtu.be/i1R3HAGHRT8>`_ 
+- `越界的“谣言”与失职的公权：法理与逻辑的解构 <https://youtu.be/-VFdNPeu7q4>`_ 
+- `言论的法理边界：寻衅滋事案定罪的结构性解剖 <https://youtu.be/Y0kdG86BimE>`_ 
+- `虚假信息的边界：法律与哲学的解构 <https://youtu.be/27dag6irzmg>`_ 
+- `谣言的法律解剖：解构数字言论边界 <https://youtu.be/T9PQJ2xpW94>`_ 
+- `范畴解构：网络表达与刑法的边界 <https://youtu.be/kuFilf4eYkY>`_ 
+- `刑法边界与言论的法理坐标 <https://youtu.be/50zRmclMss0>`_ 
+- `表达的边界：解构狱中自辩 <https://youtu.be/golmLbut0-4>`_ 

@@ -202,19 +202,20 @@ Video Overview
 
 -------------------
 
-1. `物理上不可能的犯罪案 <https://youtu.be/DndG1SoxJ-g>`_ 
-2. `权力、认知与法律的坍塌 <https://youtu.be/ddQrIfFR3uA>`_ 
-3. `心智的碰撞：陈京元案件的心理学透视 <https://youtu.be/y-uwasZnjF4>`_ 
-4. `一场基于法理学、物理学与心理学的全景司法解剖 <https://youtu.be/1lKGTxXvMgs>`_ 
-5. `一位因推文入狱的学者：透过三重透镜解构一桩案件 <https://youtu.be/X2A9BoBSP94>`_ 
-6. `理性的陨落与系统的盲区：陈京元博士案的跨学科心理学解析 <https://youtu.be/ouFgYq0ntbM>`_ 
-7. `Autopsy of a Systemic Cognitive Failure <https://youtu.be/sxSaRBfyx14>`_ 
-8. `The Architecture of Thought <https://youtu.be/P0Eg5gg6mUM>`_ 
-9. `Structureal Misreading <https://youtu.be/ghq5vM63AGg>`_ 
-10. `理性的陨落狱系统性盲区：多维心理学与AI深度透视 <https://youtu.be/z1DIx9AQ9rE>`_ 
-11. `两种心智的碰撞：心理学解剖 <https://youtu.be/kg6fELlLLhQ>`_ 
-12. `A Psychological & AI Audit of the Case <https://youtu.be/-c09ZQ9rHwI>`_ 
-13. `Two Minds, One Trial <https://youtu.be/tSNQC6X7oF8>`_ 
-14. `Dr. Chen Jingyuan Case <https://youtu.be/AGMQIPeR7T8>`_ 
-15. `认知断层扫描：从个体冤案到司法制度的心理学剖析 <https://youtu.be/7cc6s2mKzeo>`_ 
-16. `法律碰撞的心理学解剖 <https://youtu.be/kQZTvvWAPUw>`_ 
+- `法律碰撞的心理学解剖 <https://youtu.be/kQZTvvWAPUw>`_ 
+- `物理上不可能的犯罪案 <https://youtu.be/DndG1SoxJ-g>`_ 
+- `权力、认知与法律的坍塌 <https://youtu.be/ddQrIfFR3uA>`_ 
+- `两种心智的碰撞：心理学解剖 <https://youtu.be/kg6fELlLLhQ>`_ 
+- `心智的碰撞：陈京元案件的心理学透视 <https://youtu.be/y-uwasZnjF4>`_ 
+- `理性的陨落：多维心理学与AI深度透视 <https://youtu.be/z1DIx9AQ9rE>`_ 
+- `系统的盲区：陈京元博士案的跨学科心理学解析 <https://youtu.be/ouFgYq0ntbM>`_ 
+- `一场基于法理学、物理学与心理学的全景司法解剖 <https://youtu.be/1lKGTxXvMgs>`_ 
+- `认知断层扫描：从个体冤案到司法制度的心理学剖析 <https://youtu.be/7cc6s2mKzeo>`_ 
+- `一位因推文入狱的学者：透过三重透镜解构一桩案件 <https://youtu.be/X2A9BoBSP94>`_ 
+- `A Multi-Disciplinary Diagnostic of a Systemic Cognitive Failure <https://youtu.be/RRyZAr0TIB4>`_ 
+- `Autopsy of a Systemic Cognitive Failure <https://youtu.be/sxSaRBfyx14>`_ 
+- `A Psychological & AI Audit of the Case <https://youtu.be/-c09ZQ9rHwI>`_ 
+- `The Architecture of Thought <https://youtu.be/P0Eg5gg6mUM>`_ 
+- `Structureal Misreading <https://youtu.be/ghq5vM63AGg>`_ 
+- `Dr. Chen Jingyuan Case <https://youtu.be/AGMQIPeR7T8>`_ 
+- `Two Minds, One Trial <https://youtu.be/tSNQC6X7oF8>`_ 
