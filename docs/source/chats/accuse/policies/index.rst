@@ -39,11 +39,13 @@ Video Overview
 
 -------------------
 
-1. `AI Legal Auditor <https://youtu.be/qzMdnAKyr_U>`_ 
-2. `AI裁决：微观执法与宏观政策之争 <https://youtu.be/Yjh4uCwgIHs>`_ 
-3. `Chen Jingyuan & AI Analysis <https://youtu.be/dp57Ab01eYw>`_ 
-4. `数字陪审团：AI深度解析陈京元案 <https://youtu.be/N08qJvEHtQE>`_ 
-5. `数字法治共识：深度法理与政策交叉审查报告 <https://youtu.be/eigA1YU-Bug>`_ 
-6. `基于法律、政策与复杂网络科学的多维评估报告 <https://youtu.be/FzzW70eNgoE>`_ 
-7. `The Algorithmic Audit of a Pocket Crime <https://youtu.be/9affQbPm3Ik>`_ 
-8. `Judicial Overreach vs. National Policy: The Case of Dr. Chen <https://youtu.be/3-cbUcraNaE>`_ 
+- `AI Legal Auditor <https://youtu.be/qzMdnAKyr_U>`_ 
+- `AI裁决：微观执法与宏观政策之争 <https://youtu.be/Yjh4uCwgIHs>`_ 
+- `Chen Jingyuan & AI Analysis <https://youtu.be/dp57Ab01eYw>`_ 
+- `数字陪审团：AI深度解析陈京元案 <https://youtu.be/N08qJvEHtQE>`_ 
+- `数字法治共识：深度法理与政策交叉审查报告 <https://youtu.be/eigA1YU-Bug>`_ 
+- `基于法律、政策与复杂网络科学的多维评估报告 <https://youtu.be/FzzW70eNgoE>`_ 
+- `The Algorithmic Audit of a Pocket Crime <https://youtu.be/9affQbPm3Ik>`_ 
+- `Judicial Overreach vs. National Policy: The Case of Dr. Chen <https://youtu.be/3-cbUcraNaE>`_ 
+- `基于大语言模型的司法合规性全景诊断报告 <https://youtu.be/eqcPZU7gLMQ>`_ 
+- `宏观与微观的碰撞：陈京元案AI解析 <https://youtu.be/hwJuidS7bdg>`_ 

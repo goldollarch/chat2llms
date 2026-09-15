@@ -84,11 +84,13 @@ Video Overview
 
 -------------------
 
-1. `陈京元案：AI模型解读宪法 <https://youtu.be/DrqF6sVS9AE>`_ 
-2. `陈京元案：法律、物理与AI <https://youtu.be/JG38c6CBTAY>`_ 
-3. `宪法精神与科学理性交锋前现代司法逻辑 <https://youtu.be/uvN1cdZVFwI>`_ 
-4. `秩序、网络与法治的碰撞：基于宪法与科学的诊断 <https://youtu.be/irNiyllu5gE>`_ 
-5. `The Trial of an Edge Node: A Constitutional and Scientific Deconstruction <https://youtu.be/VQ7KMZVDylA>`_ 
-6. `Constitutional Spirit vs. Judicial Reality <https://youtu.be/eUUvWgqkjWA>`_ 
-7. `Law vs Complex Reality <https://youtu.be/59v1h0DfALw>`_ 
-8. `AI Meets Constitution <https://youtu.be/c-Yozc35Bo0>`_ 
+- `陈京元案：AI模型解读宪法 <https://youtu.be/DrqF6sVS9AE>`_ 
+- `陈京元案：法律、物理与AI <https://youtu.be/JG38c6CBTAY>`_ 
+- `陈京元博士案与人工智能宪法审计 <https://youtu.be/X68U9_23IwI>`_ 
+- `宪法精神与科学理性交锋前现代司法逻辑 <https://youtu.be/uvN1cdZVFwI>`_ 
+- `秩序、网络与法治的碰撞：基于宪法与科学的诊断 <https://youtu.be/irNiyllu5gE>`_ 
+- `一场跨越宪法与科学的司法解剖：基于AI的多维审计 <https://youtu.be/P0SB9UfBpes>`_ 
+- `The Trial of an Edge Node: A Constitutional and Scientific Deconstruction <https://youtu.be/VQ7KMZVDylA>`_ 
+- `Constitutional Spirit vs. Judicial Reality <https://youtu.be/eUUvWgqkjWA>`_ 
+- `Law vs Complex Reality <https://youtu.be/59v1h0DfALw>`_ 
+- `AI Meets Constitution <https://youtu.be/c-Yozc35Bo0>`_ 
