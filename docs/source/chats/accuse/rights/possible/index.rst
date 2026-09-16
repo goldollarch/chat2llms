@@ -138,12 +138,12 @@ Video Overview
 
 -------------------
 
-1. `The Chen Jingyuan Case <https://youtu.be/s_rVVSJ75yQ>`_ 
-2. `AI, Law, and Human Rights <https://youtu.be/mVi-jn6J6s0>`_ 
-3. `AI vs Law: Dr.Chen's Case <https://youtu.be/EmClARdHgfM>`_ 
-4. `Anatomy of a Legal Conflict <https://youtu.be/e58PkjxHjc0>`_ 
-5. `The Anatomy of a Systemic Failure <https://youtu.be/SOcxN6ekXk0>`_ 
-6. `The Boundaries of Power and Rights <https://youtu.be/dRs5emy9fa4>`_ 
-7. `解码陈京元案：科学与法律的悖论 <https://youtu.be/lc-cX664aB4>`_ 
-8. `AI 法律专案组：评估陈京元案 <https://youtu.be/MGaCFU1PyQY>`_ 
-9. `表达的法律透镜 <https://youtu.be/dkO5RIv2lBk>`_ 
+- `The Chen Jingyuan Case <https://youtu.be/s_rVVSJ75yQ>`_ 
+- `AI, Law, and Human Rights <https://youtu.be/mVi-jn6J6s0>`_ 
+- `AI vs Law: Dr.Chen's Case <https://youtu.be/EmClARdHgfM>`_ 
+- `Anatomy of a Legal Conflict <https://youtu.be/e58PkjxHjc0>`_ 
+- `The Anatomy of a Systemic Failure <https://youtu.be/SOcxN6ekXk0>`_ 
+- `The Boundaries of Power and Rights <https://youtu.be/dRs5emy9fa4>`_ 
+- `解码陈京元案：科学与法律的悖论 <https://youtu.be/lc-cX664aB4>`_ 
+- `AI 法律专案组：评估陈京元案 <https://youtu.be/MGaCFU1PyQY>`_ 
+- `表达的法律透镜 <https://youtu.be/dkO5RIv2lBk>`_ 
