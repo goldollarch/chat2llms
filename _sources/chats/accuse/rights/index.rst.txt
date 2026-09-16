@@ -57,11 +57,14 @@ Video Overview
 
 -------------------
 
-1. `一场AI生成的法律分析 <https://youtu.be/8qKfFKM8DcM>`_ 
-2. `国家权力与人类尊严的边界 <https://youtu.be/yZspI6cwcgU>`_ 
-3. `抽象司法事件：法律压力测试 <https://youtu.be/ukHIXs8hZH0>`_ 
-4. `法律的同心圆：正义与权利分析 <https://youtu.be/wVTQ99XLDnk>`_ 
-5. `公权边界与基本人权：AI多维法理分析 <https://youtu.be/E6BvXCTCeUE>`_ 
-6. `权力的界限与自由的底线：多维法理与人权评估 <https://youtu.be/nbwAO8ugpWc>`_ 
-7. `Synthesizing Law and Human Rights <https://youtu.be/822JdBiaqko>`_ 
-8. `Auditing State Power <https://youtu.be/H6vILJLx9Vk>`_ 
+- `Auditing State Power <https://youtu.be/H6vILJLx9Vk>`_ 
+- `抽象司法事件：法律压力测试 <https://youtu.be/ukHIXs8hZH0>`_ 
+- `法律的同心圆：正义与权利分析 <https://youtu.be/wVTQ99XLDnk>`_ 
+- `公权边界与基本人权：AI多维法理分析 <https://youtu.be/E6BvXCTCeUE>`_ 
+- `权力的界限与自由的底线：多维法理与人权评估 <https://youtu.be/nbwAO8ugpWc>`_ 
+- `Synthesizing Law and Human Rights <https://youtu.be/822JdBiaqko>`_ 
+- `国家权力边界与基本人权的交叉审查 <https://youtu.be/Zf44ebIr4W4>`_ 
+- `权力边界、自由保障与程序正义 <https://youtu.be/v8HY8UEh8Mo>`_ 
+- `AI法律分析：法律的同心圆 <https://youtu.be/uloeLk2vFpA>`_ 
+- `国家权力与人类尊严的边界 <https://youtu.be/yZspI6cwcgU>`_ 
+- `一场AI生成的法律分析 <https://youtu.be/8qKfFKM8DcM>`_ 
