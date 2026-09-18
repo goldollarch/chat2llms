@@ -56,9 +56,13 @@ Video Overview
 
 -------------------
 
-1. `剖析狱中自辩暨控告血书 <https://youtu.be/A7X4RaPnWlo>`_ 
-2. `深度图解：陈京元案AI法律审计 <https://youtu.be/6pCPE6P0gPU>`_ 
-3. `深度解析：陈京元博士案件法律分析 <https://youtu.be/YUrslto178U>`_ 
-4. `越界的公权与失灵的法治：多维法律与政治审查 <https://youtu.be/sjiqhns1Tf4>`_ 
-5. `The Normative Mirror Test <https://youtu.be/mM_kdksBJjo>`_ 
-6. `Anatomy of an Accusation <https://youtu.be/xOgdXc4pI8U>`_ 
+- `剖析狱中自辩暨控告血书 <https://youtu.be/A7X4RaPnWlo>`_ 
+- `AI分析：陈京元血书与司法悖论 <https://youtu.be/CNKwYy0rz1k>`_ 
+- `深度图解：陈京元案AI法律审计 <https://youtu.be/6pCPE6P0gPU>`_ 
+- `深度解析：陈京元博士案件法律分析 <https://youtu.be/YUrslto178U>`_ 
+- `人工智能与系统性正义：解码陈京元博士案 <https://youtu.be/3nRF9gUiHvU>`_ 
+- `越界的公权与失灵的法治：多维法律与政治审查 <https://youtu.be/sjiqhns1Tf4>`_ 
+- `基于大语言模型的多维交叉验证与执法规范性审查 <https://youtu.be/pg02gACQx-Q>`_ 
+- `基于大语言模型的全景法理审查报告 <https://youtu.be/_VzYTgybD7Y>`_ 
+- `The Normative Mirror Test <https://youtu.be/mM_kdksBJjo>`_ 
+- `Anatomy of an Accusation <https://youtu.be/xOgdXc4pI8U>`_ 
