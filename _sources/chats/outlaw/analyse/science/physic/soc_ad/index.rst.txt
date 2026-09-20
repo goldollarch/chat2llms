@@ -32,7 +32,7 @@ Video Overview
 
 -------------------
 
-1. `无罪的物理学：沙堆与法律 <https://youtu.be/6A_-hKCtyYQ>`_ 
-2. `降维打击：物理学视角的司法诊断 <https://youtu.be/eNNcoh_VZ8M>`_ 
-3. `Physics Proves Dr Chen Caused No Chaos <https://youtu.be/l9uMY5YnC70>`_ 
-4. `Physics of Innocence <https://youtu.be/d_O1W1yA1V0>`_ 
+- `无罪的物理学：沙堆与法律 <https://youtu.be/6A_-hKCtyYQ>`_ 
+- `降维打击：物理学视角的司法诊断 <https://youtu.be/eNNcoh_VZ8M>`_ 
+- `Physics Proves Dr Chen Caused No Chaos <https://youtu.be/l9uMY5YnC70>`_ 
+- `Physics of Innocence <https://youtu.be/d_O1W1yA1V0>`_ 

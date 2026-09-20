@@ -160,12 +160,12 @@ Video Overview
 
 -------------------
 
-1. `统计物理学与法律因果关系 <https://youtu.be/BpKcio6x-1w>`_ 
-2. `The Micro vs Macro Trap <https://youtu.be/t7YpHVrDqAw>`_ 
-3. `物理、AI与法律因果：陈京元案解析 <https://youtu.be/s7pT3jMHPWI>`_ 
-4. `跨越尺度的审判：统计物理视域下的因果谬误 <https://youtu.be/2FlgI923gYc>`_ 
-5. `The Blueprint of Causality: Why Micro-Fluctions are Not Macro-Chaos <https://youtu.be/VuqlSWllcIY>`_ 
-6. `微扰与相变：物理学视角的无罪辩护审查报告 <https://youtu.be/_XiDuhuN0Uk>`_ 
-7. `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
-8. `物理学博士的法庭降维打击 <https://youtu.be/bKnYZkKTGvM>`_ 
-9. `Physics of a Retweet <https://youtu.be/hBezENi3Pi0>`_ 
+- `统计物理学与法律因果关系 <https://youtu.be/BpKcio6x-1w>`_ 
+- `The Micro vs Macro Trap <https://youtu.be/t7YpHVrDqAw>`_ 
+- `物理、AI与法律因果：陈京元案解析 <https://youtu.be/s7pT3jMHPWI>`_ 
+- `跨越尺度的审判：统计物理视域下的因果谬误 <https://youtu.be/2FlgI923gYc>`_ 
+- `The Blueprint of Causality: Why Micro-Fluctions are Not Macro-Chaos <https://youtu.be/VuqlSWllcIY>`_ 
+- `微扰与相变：物理学视角的无罪辩护审查报告 <https://youtu.be/_XiDuhuN0Uk>`_ 
+- `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
+- `物理学博士的法庭降维打击 <https://youtu.be/bKnYZkKTGvM>`_ 
+- `Physics of a Retweet <https://youtu.be/hBezENi3Pi0>`_ 

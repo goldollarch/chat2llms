@@ -87,4 +87,7 @@ Video Overview
 
 -------------------
 
-1. `物理学家、推文和“口袋罪” <https://youtu.be/r2FccQNjqIU>`_ 
+- `Rationality on Trial <https://youtu.be/UIioi6ps5nI>`_ 
+- `物理学家、推文和“口袋罪” <https://youtu.be/r2FccQNjqIU>`_ 
+- `转发的解剖学：陈京元案科学与法律之争 <https://youtu.be/jBDeQ84MmTE>`_ 
+- `title <https>`_ 
