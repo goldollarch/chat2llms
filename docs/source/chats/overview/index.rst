@@ -32,10 +32,12 @@ Video Overview
 -------------------
 
 - `Law vs Network Science <https://youtu.be/OpuPDyHxuIc>`_ 
-- `Science vs. Silence: The Anatomy of An Impossible Crime <https://youtu.be/vEYzWmfVj7o>`_ 
+- `转发案解剖：AI驱动的判决审查 <https://youtu.be/oIJKfC2fcX0>`_ 
+- `理性之殇：陈京元案的多维解构档案 <https://youtu.be/-Fs4Dc6ZrcM>`_ 
 - `理性的刻度：法理逻辑与物理规律的双重崩塌 <https://youtu.be/wtaxLoCX44U>`_ 
+- `Science vs. Silence: The Anatomy of An Impossible Crime <https://youtu.be/vEYzWmfVj7o>`_ 
+- `陈京元案：法理逻辑与物理规律的双重崩塌 <https://youtu.be/OfRX_Xrduac>`_ 
 - `法律崩塌的解剖：陈京元案深度解析 <https://youtu.be/3i9pn_n-2_M>`_ 
 - `两个系统的碰撞：物理学对决法律 <https://youtu.be/09ZnbnXgU8E>`_ 
 - `转发案解剖：AI驱动的判决审查 <https://youtu.be/ZbBkltfP51E>`_ 
 - `判决解剖：AI解构陈京元案 <https://youtu.be/HkihVLYzY_s>`_ 
-- `title <https>`_ 

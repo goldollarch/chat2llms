@@ -87,7 +87,13 @@ Video Overview
 
 -------------------
 
-- `Rationality on Trial <https://youtu.be/UIioi6ps5nI>`_ 
+- `Physics vs. The Law <https://youtu.be/37F0fVAxPnI>`_ 
 - `物理学家、推文和“口袋罪” <https://youtu.be/r2FccQNjqIU>`_ 
+- `解构一场定罪：多学科法证与系统性诊断报告 <https://youtu.be/v9oVm_ZrkeY>`_ 
+- `A case Study in the collision of State Power, science, and the Law <https://youtu.be/6n6TKxjhyZo>`_ 
+- `The Physics of Innocence: The Disconnect Between Law and Science <https://youtu.be/ug_Oixw0ejA>`_ 
+- `文明的诊断书：一份写给未来的理性航行日志 <https://youtu.be/WTHY4Quo0M8>`_ 
 - `转发的解剖学：陈京元案科学与法律之争 <https://youtu.be/jBDeQ84MmTE>`_ 
-- `title <https>`_ 
+- `陈京元博士案：法律与科学的碰撞 <https://youtu.be/SHHa7elzIyw>`_ 
+- `Anatomy of a Retweet <https://youtu.be/lbXnh02aelk>`_ 
+- `Rationality on Trial <https://youtu.be/UIioi6ps5nI>`_ 
