@@ -17,5 +17,7 @@ Video Overview
 -------------------
 
 - `范式冲突：科学、哲学与狱中自辩 <https://youtu.be/NrdvdlX_vio>`_ 
+- `系统与心智的断层：陈京元案跨学科认知诊断白皮书 <https://youtu.be/K40OBAZC8Y0>`_ 
 - `因果、复杂性与权力的度量：现代科学遭遇机械司法逻辑 <https://youtu.be/O3pABbz9aCg>`_ 
 - `理性的断层与文明的边缘：法理与科学的跨界深度辨析 <https://youtu.be/Yt9aGZr3JJ8>`_ 
+- `科学对权力的审判：案件的跨学科逻辑辩护 <https://youtu.be/bxJAhfb-LWo>`_

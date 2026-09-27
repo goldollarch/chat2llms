@@ -134,7 +134,11 @@ Video Overview
 
 -------------------
 
+- `法律 vs. 复杂性科学 <https://youtu.be/TtD1Pvp7LhU>`_
 - `Law vs. Complex Science <https://youtu.be/-WYZcFivHy0>`_
 - `How Physics Defends a Single Retweet <https://youtu.be/up9d3c7Kkgo>`_
+- `跨越文明的断层：网络传播动力学与复杂系统法理学质证 <https://youtu.be/qyxjCNeOqzI>`_
+- `科学理性的降维审判：复杂系统视域下因果归责 <https://youtu.be/CJj9zunXVYs>`_
+- `降维打击：基于CAP定理和复杂系统的审判 <https://youtu.be/4bPwuc952KI>`_
 - `范式冲突：基于CAP定理的辩护 <https://youtu.be/PqSZoJBfdkc>`_
 - `物理学反击寻衅滋事 <https://youtu.be/JxDYSXbkE7c>`_
