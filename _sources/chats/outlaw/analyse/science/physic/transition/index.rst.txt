@@ -144,11 +144,14 @@ Video Overview
 
 -------------------
 
-- `统计物理学与法律因果关系 <https://youtu.be/BpKcio6x-1w>`_ 
+- `一次转发的物理学 <https://youtu.be/DW3gXkNItQs>`_ 
 - `The Micro vs Macro Trap <https://youtu.be/t7YpHVrDqAw>`_ 
+- `Physics of a Legal Defense <https://youtu.be/nKLThaZ52eY>`_ 
 - `物理、AI与法律因果：陈京元案解析 <https://youtu.be/s7pT3jMHPWI>`_ 
 - `跨越尺度的审判：统计物理视域下的因果谬误 <https://youtu.be/2FlgI923gYc>`_ 
 - `The Blueprint of Causality: Why Micro-Fluctions are Not Macro-Chaos <https://youtu.be/VuqlSWllcIY>`_ 
+- `因果律的科学蓝图：跨学科视角下“寻衅滋事”因果链降维诊断报告 <https://youtu.be/mDXZxF3AnYQ>`_ 
 - `Fighting retweet charges with statistical physics <https://youtu.be/6yUTWdFaz1o>`_ 
 - `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
+- `统计物理学与法律因果关系 <https://youtu.be/BpKcio6x-1w>`_ 
 - `物理学与法律的对决 <https://youtu.be/1c4_LUKXmuI>`_ 
