@@ -32,7 +32,10 @@ Video Overview
 
 -------------------
 
+- `Physics of a Retweet <https://youtu.be/R6KA8upifr8>`_ 
+- `科学与司法逻辑的碰撞 <https://youtu.be/29pIGOSeZVs>`_ 
 - `无罪的物理学：沙堆与法律 <https://youtu.be/6A_-hKCtyYQ>`_ 
 - `降维打击：物理学视角的司法诊断 <https://youtu.be/eNNcoh_VZ8M>`_ 
+- `越界之判，科学之辩：为何“边缘节点”无法引发“秩序雪崩” <https://youtu.be/aXn8vyUj3RI>`_ 
 - `Physics Proves Dr Chen Caused No Chaos <https://youtu.be/l9uMY5YnC70>`_ 
 - `Physics of Innocence <https://youtu.be/d_O1W1yA1V0>`_ 
