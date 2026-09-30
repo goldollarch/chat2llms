@@ -28,8 +28,11 @@ Video Overview
 
 -------------------
 
-- `Science vs The Law <https://youtu.be/6iaVbX7ns7w>`_ 
+- `Science vs. The Law <https://youtu.be/6iaVbX7ns7w>`_ 
 - `科学与法律的碰撞：解构一次转发 <https://youtu.be/jELVL0i4icg>`_ 
 - `科学理性vs司法专断：陈京元案的逻辑解构 <https://youtu.be/Cown8i5r-I4>`_ 
 - `Defending a retweet with theoretical physics <https://youtu.be/niWTPtsiDcg>`_ 
-- `科学理性的降维打击：复杂系统视角下网络言论法律归罪模型与因果关系解构 <https://youtu.be/j_tzyQdQOjc>`_ 
+- `复杂系统视角下网络言论法律归罪模型与因果关系解构 <https://youtu.be/j_tzyQdQOjc>`_ 
+- `权力的修辞vs物理的因果：基于复杂网络理论的分析 <https://youtu.be/FZsIaXs_vws>`_ 
+- `科学与法律：网络理论辩护 <https://youtu.be/tFGtWv3LKTU>`_ 
+- `Physics vs. The Law <https://youtu.be/NCBusSMX5fE>`_ 
