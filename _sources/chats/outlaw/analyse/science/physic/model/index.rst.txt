@@ -30,7 +30,10 @@ Video Overview
 - `法律遇上物理：公共秩序的数学计算 <https://youtu.be/tl23T1lxX9k>`_ 
 - `跨学科降维打击：陈京元案专案鉴定档案 <https://youtu.be/a45CPARUZfM>`_ 
 - `复杂系统视域下的刑事归因谬误：基于传播动力学的分析 <https://youtu.be/HwELk2L9nvY>`_ 
+- `因果律的科学边界：基于复杂系统与统计物理视角的解构 <https://youtu.be/_PuAjay_mlI>`_ 
 - `Deconstructing the Illusion of Causality in Complex Networks <https://youtu.be/4D29t0ZPopg>`_ 
-- `The Anatomy of An Impossible Crime:  A Complex Systems Defense <https://youtu.be/GMWPp5s7mxc>`_ 
+- `The Anatomy of An Impossible Crime: A Complex Systems Defense <https://youtu.be/GMWPp5s7mxc>`_ 
 - `科学证伪“转发获罪”：复杂系统视角下法律因果关系解构 <https://youtu.be/1peV9vm2RNs>`_ 
 - `法律因果的物理学：微观行为与宏观混沌 <https://youtu.be/b1TodGaND-8>`_ 
+- `蝴蝶效应的神话：物理学与法律的碰撞 <https://youtu.be/LGIxjC8jlbE>`_ 
+- `The Causality Illusion <https://youtu.be/XB1ufKo-kyI>`_ 
