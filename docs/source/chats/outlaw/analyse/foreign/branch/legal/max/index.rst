@@ -72,10 +72,10 @@ Karl Marx
 
     grok
     gemini
-    copilot
     chatgpt
-    ds
-    qw
+    copilot
+    deepseek
+    qwen
 
 ------------------
 
