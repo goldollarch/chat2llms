@@ -119,12 +119,12 @@ Karl Marx
  .. toctree::
     :maxdepth: 3
 
-    max_grk
-    max_gmn
-    copilot
+    grok
+    gemini
     chatgpt
-    max_ds
-    max_qw
+    copilot
+    deepseek
+    qwen
 
 ---------------
 
