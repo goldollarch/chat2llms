@@ -132,3 +132,16 @@ Karl Marx
 [:doc:`后现代马克思主义 </chats/outlaw/analyse/foreign/schools/today/marx/index>`]
 [:doc:`苏联列宁主义 </chats/outlaw/analyse/foreign/branch/politic/lenin/index>`]
 [:doc:`中共马列主义 </chats/outlaw/analyse/chinese/ccp/index>`]
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `A Scholar on Trial <https://youtu.be/Cz54zpGLV9Q>`_ 
+- `学者受审：陈京元案解析 <https://youtu.be/MfJ97Ta2Mq0>`_ 
+- `学者、推文与20个月的刑期 <https://youtu.be/8jYiJYt-bJY>`_ 
+- `Anatomy of a Retweet Trial <https://youtu.be/816ysCuByMQ>`_ 
+- `物理学家 vs 口袋罪 <https://youtu.be/9Sj6SuYTpaU>`_ 
+- `Physics <https>`_ 
