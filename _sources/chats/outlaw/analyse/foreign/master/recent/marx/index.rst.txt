@@ -143,13 +143,13 @@ Video Overview
 - `Anatomy of a Retweet Trial <https://youtu.be/816ysCuByMQ>`_ 
 - `The Chinese Scholar Jailed for His PhD diploma <https://youtu.be/tykAQScPpLI>`_ 
 - `The Individual Subject vs. The Ideological State Apparatus <https://youtu.be/dN4myiyjqGg>`_ 
+- `Law, Power, and Alienation: A Marxist Critique of the Chen Jingyuan Case <https://youtu.be/lruCBWqG9HE>`_ 
+- `Anatomy of the Pocket Crime: Intellectual Freedom vs. Judicial Repression <https://youtu.be/jCjZtCD6zNA>`_ 
+- `穿透法律形式的迷雾：马克思法哲学批判视域的“陈京元案”解剖 <https://youtu.be/LOV9LTl_FQU>`_ 
+- `理性与强权的系统性碰撞：权力的幽灵与理性的因征 <https://youtu.be/DWkH9HeLGb0>`_ 
 - `转发推文获刑案：陈京元案的法理与权力剖析 <https://youtu.be/L54zlyivYQw>`_ 
 - `博士转发推特如何获罪寻衅滋事 <https://youtu.be/bNK9fDJxsC0>`_ 
 - `陈京元案：马克思法哲学分析 <https://youtu.be/OmRDpydSLCE>`_ 
 - `学者、推文与20个月的刑期 <https://youtu.be/8jYiJYt-bJY>`_ 
 - `学者受审：陈京元案解析 <https://youtu.be/MfJ97Ta2Mq0>`_ 
 - `物理学家 vs 口袋罪 <https://youtu.be/9Sj6SuYTpaU>`_ 
-- `Physics <https>`_ 
-- `Physics <https>`_ 
-- `Physics <https>`_ 
-- `Physics <https>`_ 

@@ -35,3 +35,21 @@
     deepseek
     qwen
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `学者与国家：陈博士推文案 <https://youtu.be/A1EZT8mttgg>`_ 
+- `AI以邓小平理论深度解析陈京元案 <https://youtu.be/SwwXhCXyUms>`_ 
+- `A Scholar, Tweets, and Prison <https://youtu.be/nnka1aTD0Eo>`_ 
+- `The Case of Chen Jingyuan <https://youtu.be/pWjNtqop9X0>`_ 
+- `学者与国家：陈京元案解析 <https://youtu.be/PJ0OEzj31yw>`_ 
+- `AI vs Political Theory <https://youtu.be/1ibGfo9_ndo>`_ 
+- `Case <https>`_ 
+- `Case <https>`_ 
+- `Case <https>`_ 
+- `Case <https>`_ 
+- `Case <https>`_ 
+- `Case <https>`_ 

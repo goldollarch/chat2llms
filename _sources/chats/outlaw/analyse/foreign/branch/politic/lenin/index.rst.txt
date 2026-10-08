@@ -31,7 +31,7 @@ Vladimir Ilyich Ulyanov
 
 *   **国家的本质**：国家是 **阶级统治的工具**，是一个阶级镇压另一个阶级的暴力机器。资产阶级国家无论其形式如何民主，本质都是资产阶级专政。
 
-*   **革命的任务**：无产阶级革命的目标不是夺取现成的国家机器并用它来达到自己的目的，而是必须 **彻底打碎、摧毁旧的国家机器**（包括官僚、军队、警察等）。
+*   **革命的任务**：无产阶级革命的目标不是夺取现成的国家机器并用它来达到自己的目的，而是必须 **彻底打碎、摧毁旧的国家机器** （包括官僚、军队、警察等）。
 
 *   **无产阶级专政**：在打碎旧国家后，必须建立一个 **无产阶级专政** 的新国家。列宁强调，专政并不意味着取消民主，而是对剥削者实行专政，对广大劳动人民实行最广泛的民主。这个专政是通向国家消亡、实现共产主义的 **必要过渡阶段**。
 
@@ -91,3 +91,18 @@ Vladimir Ilyich Ulyanov
 [:doc:`西方马克思主义 </chats/outlaw/analyse/foreign/schools/modern/marx/index>`]
 
 [:doc:`列宁主义与西方马克思主义比较 </chats/outlaw/analyse/foreign/branch/politic/lenin/westm>`]
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `Chen Case:  Leninist Lens <https://youtu.be/nVZP_6y77oI>`_ 
+- `The Physicist & The Pocket Crime <https://youtu.be/RwYDdC_6v8A>`_ 
+- `一位受审的学者：解构中国的“口袋罪” <https://youtu.be/NpAtLzFaWSU>`_ 
+- `列宁主义压力测试：六大AI模型剖析陈京元案 <https://youtu.be/tx_VEtVu418>`_ 
+- `The Dialectical Dossier: A Leninist Autopsy of Chen Jingyuan Case <https://youtu.be/AHg3W2QCtxI>`_ 
+- `Anatomy of a Pocket Crime through Legal and Marxist-Leninist Dimensions <https://youtu.be/Yp01mgA97Zo>`_ 
+- `理性的囚徒与权力的幽灵：陈京元案法理剖析 <https://youtu.be/JWrmLVlucUk>`_ 
+- `权力的异化：列宁主义视域下的审视 <https://youtu.be/khHSO2xF8CU>`_ 

@@ -19,3 +19,22 @@
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `The Case of the Tweet <https://youtu.be/1lCAE41vsK4>`_ 
+- `AI Meets Mao: Chen Case <https://youtu.be/I5KoHIeTdso>`_ 
+- `The Case of Chen Jingyuan <https://youtu.be/dx_wDhvYw9k>`_ 
+- `学者、转发与刑期：解析陈京元博士案 <https://youtu.be/GgYXh7fNDrE>`_ 
+- `AI对决法庭：陈京元案的毛泽东思想压力测试 <https://youtu.be/nvXkNJ_vCOU>`_ 
+- `理论的解剖刀：基于毛泽东思想核心要义的司法实践诊断 <https://youtu.be/DZtygikwdxk>`_ 
+- `解构“寻衅滋事”：从实证数据、法理逻辑到政治哲学的全景调查报告 <https://youtu.be/TY6GIliZbkE>`_ 
+- `Anatomy of a Judicial Black Hole: A Multidisciplinary deconstruction <https://youtu.be/xpZ0zOAnBGs>`_ 
+- `Deconstructed through the Foundational Framework of Mao Zedong Thought <https://youtu.be/OCylqC1x5-c>`_ 
+- `Justice on Trial: The Case of Dr. Chen Jingyuan <https://youtu.be/c2K7jd99Y-8>`_ 
+- `陈京元案：从刑法、科学、心理学到政治哲学的系统性法理审查 <https://youtu.be/CZTr5MRFyn4>`_ 
+- `陈京元博士案：当转发文章成为一种罪行 <https://youtu.be/55tN4chsHnU>`_ 
