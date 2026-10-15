@@ -39,3 +39,18 @@
     deepseek
     qwen
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `Chen Case & Three Represents <https://youtu.be/phiPfmaF1To>`_ 
+- `一位学者的“罪行”：陈京元博士案 <https://youtu.be/dNS2c1UN7zE>`_ 
+- `人工智能、意识形态与法律：解构陈京元案 <https://youtu.be/RKp9wmHwATU>`_ 
+- `Analyzing the Case Through the 'Three Represents' Framework <https://youtu.be/0LhkBCr2dEc>`_ 
+- `理论的测验：当“三个代表”遭遇“寻衅滋事” <https://youtu.be/IpRC8cUgdD0>`_ 
+- `一位学者，几次转发，20个月刑期 <https://youtu.be/zMegG0BcQ_g>`_ 
+- `The Case of the Tweeting Scholar <https://youtu.be/xCPUXKpHeAc>`_ 
+- `The Physicist’s Pocket Crime <https://youtu.be/TdxtJdYaXq8>`_ 
+- `One Tweet, Two Lenses <https://youtu.be/vrA8uW9oMs8>`_ 

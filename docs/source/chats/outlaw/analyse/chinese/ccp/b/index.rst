@@ -41,15 +41,14 @@ Video Overview
 
 -------------------
 
-- `学者与国家：陈博士推文案 <https://youtu.be/A1EZT8mttgg>`_ 
-- `AI以邓小平理论深度解析陈京元案 <https://youtu.be/SwwXhCXyUms>`_ 
-- `A Scholar, Tweets, and Prison <https://youtu.be/nnka1aTD0Eo>`_ 
-- `The Case of Chen Jingyuan <https://youtu.be/pWjNtqop9X0>`_ 
 - `学者与国家：陈京元案解析 <https://youtu.be/PJ0OEzj31yw>`_ 
+- `The Case of Chen Jingyuan <https://youtu.be/pWjNtqop9X0>`_ 
+- `A Scholar, Tweets, and Prison <https://youtu.be/nnka1aTD0Eo>`_ 
+- `Deng Xiaoping Theory vs. Judicial Practice <https://youtu.be/s2Ne7wlyUCU>`_ 
+- `制度的偏航与理论的准绳：基于“邓小平理论”的法理诊断 <https://youtu.be/008WqQOtoc8>`_ 
+- `一份基于法律、科学、哲学与政治伦理的深度诊断 <https://youtu.be/BAvI-iIw-xY>`_ 
+- `一场基于法理、哲学与政治伦理的系统性解构 <https://youtu.be/ogZk_d09YZY>`_ 
+- `陈京元案：法治、思想与权力的冲突博弈 <https://youtu.be/U7ijjs6FrjI>`_ 
+- `AI以邓小平理论深度解析陈京元案 <https://youtu.be/SwwXhCXyUms>`_ 
+- `学者与国家：陈博士推文案 <https://youtu.be/A1EZT8mttgg>`_ 
 - `AI vs Political Theory <https://youtu.be/1ibGfo9_ndo>`_ 
-- `Case <https>`_ 
-- `Case <https>`_ 
-- `Case <https>`_ 
-- `Case <https>`_ 
-- `Case <https>`_ 
-- `Case <https>`_ 

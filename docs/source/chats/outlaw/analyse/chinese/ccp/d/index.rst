@@ -74,3 +74,17 @@
     deepseek
     qwen
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `A Scholar on Trial <https://youtu.be/FDC2QncobLE>`_ 
+- `The State vs. The Scholar <https://youtu.be/wJ9d-vLVwTk>`_ 
+- `AI vs. Political Philosophy <https://youtu.be/WFm03UbU0q4>`_ 
+- `Evaluating Judicial Reality by the State's Scientific Outlook on Development <https://youtu.be/XVgkveBfhaA>`_ 
+- `内在检验：科学发展观视域下的司法异化 <https://youtu.be/L_HjUWMkI5c>`_ 
+- `一位学者，一份判决，一场逻辑之战 <https://youtu.be/JMWDb5VqV5I>`_ 
+- `审视正义：AI 理论压力测试 <https://youtu.be/omxHk6WIOLw>`_ 
+- `学者异见案：法律解析 <https://youtu.be/-IBbYMmCPGc>`_ 
