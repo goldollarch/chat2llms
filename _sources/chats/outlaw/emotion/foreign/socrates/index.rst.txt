@@ -8,10 +8,9 @@ Socrates
  .. toctree::
     :maxdepth: 3
 
-    gpt
     grok
     copilot
-    ds
-    gmn
-    qw
-
+    gemini
+    chatgpt
+    deepseek
+    qwen

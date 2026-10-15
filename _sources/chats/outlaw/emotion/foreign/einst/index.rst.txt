@@ -26,9 +26,9 @@ Einstein
  .. toctree::
     :maxdepth: 3
 
-    gpt
-    copilot
     grok
-    ein_ds
+    copilot
     gemini
-    ein_qw
+    chatgpt
+    deepseek
+    qwen
