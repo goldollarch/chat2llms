@@ -22,6 +22,8 @@
 ## Video Review
 
 - [Anatomy of a Frame-Up](https://youtu.be/EjDvxOyPr78)
-- [案件解剖：全面解构陈京元博士案](https://youtu.be/lYoTYyUc_fk)
-- [The Anatomy of a Judicial Mafia: The Chen Jingyuan Case and the Weaponization of the Law](https://youtu.be/bf-l-0rDJmA)
+- [The Anatomy of a Judicial Mafia](https://youtu.be/bf-l-0rDJmA)
+- [解构陈京元案：一场法理与实证的深度解析](https://youtu.be/yJjCbELcVpw)
 - [铁证如山：深度解构普会峻“司法黑帮”](https://youtu.be/bu-QFlE-NtQ)
+- [案件解剖：全面解构陈京元博士案](https://youtu.be/lYoTYyUc_fk)
+- [The Chen Jingyuan Case](https://youtu.be/O4COCWBxI4k)

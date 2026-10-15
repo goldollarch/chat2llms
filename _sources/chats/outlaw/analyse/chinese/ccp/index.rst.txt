@@ -50,3 +50,20 @@
 
     z/index
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `The Contradictory Verdict <https://youtu.be/MVJ0f0qEjt4>`_ 
+- `The Conviction of Dr. Chen <https://youtu.be/Pzx38sqIq1Y>`_ 
+- `The Case of the Tweeting Scholar <https://youtu.be/xCPUXKpHeAc>`_ 
+- `The Internal Benchmark: Ideological Theory vs. Judcial Reality <https://youtu.be/NW-zM2osiMY>`_ 
+- `The Ideological Mirror: Evaluating the Case Through the lens of CCP's Core Ideologies <https://youtu.be/Rp3NLSC7G5M>`_ 
+- `解构法治理性的复杂性：以陈京元案透视线性决定论与现代治理体系的深层碰撞 <https://youtu.be/wzRg7DxfLzs>`_ 
+- `标尺与偏离：基于中共执政核心思想的基层司法个案检验报告 <https://youtu.be/EovmXo-j7js>`_ 
+- `以理为魂，以法为轨：中共执政理论视域下的司法诊断 <https://youtu.be/71jJfRr4Jg8>`_ 
+- `一场判决，三重透视：法律、学者与思想的交锋 <https://youtu.be/aNoBrm2m5KY>`_ 
+- `一位学者，一条判决，一场制度的审视 <https://youtu.be/knZaqSnD1f8>`_ 
+- `判决与剖析：陈京元博士案 <https://youtu.be/jNnVGCybJ6Y>`_ 

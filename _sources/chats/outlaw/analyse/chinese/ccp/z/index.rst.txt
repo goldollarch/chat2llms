@@ -87,3 +87,17 @@
 :doc:`[江] </chats/outlaw/analyse/chinese/ccp/c/index>`
 :doc:`[胡] </chats/outlaw/analyse/chinese/ccp/d/index>`
 :doc:`[习] </chats/outlaw/analyse/chinese/ccp/e/index>`
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `Ideological Stress Test <https://youtu.be/px9cXb14iso>`_ 
+- `Butterfly Effect on Trial <https://youtu.be/2A1gtrvs8O8>`_ 
+- `Chen Jingyuan AI Stress Test <https://youtu.be/me2lx7gsR9c>`_ 
+- `解构陈京元案：物理与政治的法庭碰撞 <https://youtu.be/oIB_lAczXZA>`_ 
+- `AI与国家意识形态：陈博士案解析 <https://youtu.be/rXmy2Z5TU-M>`_ 
+- `陈京元案：一场AI审计 <https://youtu.be/BTB1WZxk2xA>`_ 

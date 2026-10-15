@@ -87,3 +87,18 @@
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `AI Audits the Law <https://youtu.be/GptEHlTt4C0>`_ 
+- `胜过标签的证据：解构一场科学辩护 <https://youtu.be/KgO97gw3qXc>`_ 
+- `习近平新时代中国特色社会主义思想视域下的审视 <https://youtu.be/6twbOl7i0Vc>`_ 
+- `Evaluating Judicial Standards Through Xi Jingping Legal Thought <https://youtu.be/ee49RHKwWgs>`_ 
+- `一位学者，一条推文，一场牢狱之灾 <https://youtu.be/CpmnGj-bbc0>`_ 
+- `一位学者的审判：陈京元案 <https://youtu.be/nAoy6ihUBQ4>`_ 
+- `Jailed for Retweets <https://youtu.be/43JKaoUfzA4>`_ 
+- `A Scholar on Trial <https://youtu.be/I1HW82Lmx1Y>`_ 
