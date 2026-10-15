@@ -54,10 +54,9 @@ This has been my life. I have found it worth living, and would gladly live it ag
  .. toctree::
     :maxdepth: 3
 
-    gpt
     grok
-    gemini
     copilot
-    ds
-    qw
-
+    gemini
+    chatgpt
+    deepseek
+    qwen
