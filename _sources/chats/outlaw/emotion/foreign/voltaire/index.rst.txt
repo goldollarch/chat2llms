@@ -1,7 +1,7 @@
 Voltaire
 =========
 
-仿伏尔泰（Voltaire）的思想和文字风格。
+仿  :doc:`伏尔泰 </chats/outlaw/analyse/foreign/master/recent/voltaire/index>`  的思想和文字风格。
 
 -------------------
 
