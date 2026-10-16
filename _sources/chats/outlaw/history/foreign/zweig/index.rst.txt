@@ -33,6 +33,6 @@ Zweig
     gemini
     copilot
     chatgpt
-    zwg_ds
-    zwg_qw
+    deepseek
+    qwen
 
