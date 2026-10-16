@@ -72,14 +72,15 @@ Friedrich Hayek
     :maxdepth: 3
 
     grok
-    copilot
     gemini
+    copilot
     chatgpt
-    hayek_ds
-    hayek_qw
+    deepseek
+    qwen
 
 
 ---------------------------
 
-[:doc:`哈耶克与凯恩斯的争论 </chats/outlaw/analyse/foreign/branch/politic/hayek/keynes>`]
+[:doc:`哈耶克的理性思想 </chats/outlaw/analyse/foreign/branch/politic/hayek/ration>`]
+[:doc:`哈耶克vs凯恩斯 </chats/outlaw/analyse/foreign/branch/politic/hayek/keynes>`]
 
