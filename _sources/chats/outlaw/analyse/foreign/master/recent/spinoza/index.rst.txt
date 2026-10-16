@@ -53,9 +53,9 @@ Baruch Spinoza
     :maxdepth: 3
 
     grok
-    copilot
     gemini
+    copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
