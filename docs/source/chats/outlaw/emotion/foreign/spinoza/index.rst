@@ -1,17 +1,16 @@
 Spinoza
 ============
 
-根据斯宾诺莎哲学理念：
+根据 :doc:`斯宾诺莎 </chats/outlaw/analyse/foreign/master/recent/spinoza/index>` 哲学理念：
 
 -------------------
 
  .. toctree::
     :maxdepth: 3
 
-    gpt
     grok
     gemini
-    ds
     copilot
-    qw
-
+    chatgpt
+    deepseek
+    qwen
