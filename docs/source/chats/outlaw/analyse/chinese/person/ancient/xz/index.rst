@@ -56,8 +56,8 @@
     gemini
     copilot
     chatgpt
-    xun_ds
-    xun_qw
+    deepseek
+    qwen
 
 
 [:doc:`荀子对百家的批判 </chats/outlaw/analyse/chinese/school/ru/xz>`]

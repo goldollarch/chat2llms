@@ -59,8 +59,8 @@
     gemini
     copilot
     chatgpt
-    mz_ds
-    mz_qw
+    deepseek
+    qwen
 
 ----------------------------------------------------------
 

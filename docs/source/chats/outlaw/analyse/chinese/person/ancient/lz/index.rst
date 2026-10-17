@@ -38,6 +38,6 @@
     gemini
     copilot
     chatgpt
-    lao_ds
-    lao_qw
+    deepseek
+    qwen
 
