@@ -77,6 +77,6 @@
     grok
     gemini
     copilot
-    li_ds
-    li_qw
+    deepseek
+    qwen
 

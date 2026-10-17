@@ -84,6 +84,6 @@ Joseph Raz
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

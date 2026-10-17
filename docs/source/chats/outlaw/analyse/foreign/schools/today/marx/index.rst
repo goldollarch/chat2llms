@@ -62,12 +62,12 @@ Postmodern Maxism
  .. toctree::
     :maxdepth: 3
 
+    grok
+    gemini
     copilot
-    grk
-    gmn
-    gpt
-    ds
-    qw
+    chatgpt
+    deepseek
+    qwen
 
 
 ---------------------------

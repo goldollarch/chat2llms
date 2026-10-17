@@ -74,6 +74,6 @@ John Locke
     copilot
     gemini
     chatgpt
-    locke_ds
-    locke_qw
+    deepseek
+    qwen
 

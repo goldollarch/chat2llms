@@ -84,8 +84,8 @@ William James
     copilot
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
 
 ---------------------------

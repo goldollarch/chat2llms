@@ -58,5 +58,6 @@
 
     gemini
     copilot
-    su_ds
-    su_qw
+    deepseek
+    qwen
+

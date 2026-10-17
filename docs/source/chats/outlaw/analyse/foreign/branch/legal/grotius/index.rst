@@ -87,6 +87,6 @@ Hugo Grotius
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

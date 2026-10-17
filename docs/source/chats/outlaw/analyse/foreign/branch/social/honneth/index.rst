@@ -104,6 +104,6 @@ Axel Honneth
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

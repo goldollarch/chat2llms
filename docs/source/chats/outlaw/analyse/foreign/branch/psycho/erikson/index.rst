@@ -104,6 +104,6 @@ Erik H. Erikson
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

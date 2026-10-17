@@ -125,6 +125,6 @@ Jonathan Haidt
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

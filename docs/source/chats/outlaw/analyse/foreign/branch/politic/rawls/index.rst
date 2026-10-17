@@ -104,8 +104,8 @@ John Rawls
     copilot
     gemini
     chatgpt
-    rawls_ds
-    rawls_qw
+    deepseek
+    qwen
 
 
 ---------------------------

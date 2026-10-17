@@ -9,8 +9,8 @@
     :maxdepth: 3
 
     grok
+    gemini
     copilot
-    gmn
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen

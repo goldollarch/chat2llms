@@ -93,6 +93,6 @@ Daniel Kahneman
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

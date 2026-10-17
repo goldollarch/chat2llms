@@ -100,6 +100,6 @@ Analytic Philosophy
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

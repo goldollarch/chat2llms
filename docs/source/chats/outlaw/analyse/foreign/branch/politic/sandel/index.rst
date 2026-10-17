@@ -89,6 +89,6 @@ Michael Sandel
     copilot
     gemini
     chatgpt
-    sandel_ds
-    sandel_qw
+    deepseek
+    qwen
 

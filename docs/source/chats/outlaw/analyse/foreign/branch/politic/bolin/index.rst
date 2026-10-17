@@ -90,6 +90,6 @@ Isaiah Berlin
     copilot
     gemini
     chatgpt
-    bolin_ds
-    bolin_qw
+    deepseek
+    qwen
 

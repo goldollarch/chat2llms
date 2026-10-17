@@ -85,6 +85,6 @@ Bernard Williams
     copilot
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

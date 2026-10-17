@@ -64,7 +64,7 @@
  .. toctree::
     :maxdepth: 3
 
+    gemini
     copilot
-    sm_gmn
-    sm_ds
-    sm_qw
+    deepseek
+    qwen

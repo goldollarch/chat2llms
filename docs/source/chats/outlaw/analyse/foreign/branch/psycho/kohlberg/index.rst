@@ -98,6 +98,6 @@ Lawrence Kohlberg
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

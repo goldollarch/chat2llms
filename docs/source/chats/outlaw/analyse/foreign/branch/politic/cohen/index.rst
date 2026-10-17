@@ -91,6 +91,6 @@ Gerald Allan Cohen
     copilot
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

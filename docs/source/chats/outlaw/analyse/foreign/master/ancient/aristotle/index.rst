@@ -58,6 +58,6 @@ Aristotle
     copilot
     gemini
     chatgpt
-    aristotle_ds
-    aristotle_qw
+    deepseek
+    qwen
 

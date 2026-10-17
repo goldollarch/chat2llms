@@ -82,6 +82,6 @@ Robert M. Cover
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

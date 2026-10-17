@@ -98,6 +98,6 @@ Thomas Hobbes
     copilot
     gemini
     chatgpt
-    hobbes_ds
-    hobbes_qw
+    deepseek
+    qwen
 

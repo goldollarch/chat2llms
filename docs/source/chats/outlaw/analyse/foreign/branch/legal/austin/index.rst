@@ -99,8 +99,8 @@ John Austin
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
 
 ---------------------------
