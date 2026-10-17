@@ -93,6 +93,6 @@ Philip Pettit
     copilot
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

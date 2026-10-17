@@ -77,6 +77,5 @@ Richard Posner
     gemini
     copilot
     chatgpt
-    ds
-    qw
-
+    deepseek
+    qwen

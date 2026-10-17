@@ -66,12 +66,12 @@ Western Marxism
  .. toctree::
     :maxdepth: 3
 
-    copilot
-    grk
-    gmn
+    grok
+    gemini
     chatgpt
-    ds
-    qw
+    copilot
+    deepseek
+    qwen
 
 
 ---------------------------

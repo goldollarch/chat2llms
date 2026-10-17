@@ -87,6 +87,6 @@ Oliver W. Holmes
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

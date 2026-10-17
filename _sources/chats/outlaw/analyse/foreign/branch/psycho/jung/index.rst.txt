@@ -86,8 +86,8 @@ Carl Gustav Jung
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
 
 ----------

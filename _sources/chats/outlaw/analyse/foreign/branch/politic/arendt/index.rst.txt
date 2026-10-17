@@ -102,6 +102,6 @@ Hannah Arendt
     copilot
     gemini
     chatgpt
-    arendt_ds
-    arendt_qw
+    deepseek
+    qwen
 

@@ -91,6 +91,6 @@ Martha Nussbaum
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

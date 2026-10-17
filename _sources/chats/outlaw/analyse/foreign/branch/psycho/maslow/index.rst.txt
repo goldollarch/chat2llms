@@ -112,7 +112,7 @@ Abraham Maslow
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
 

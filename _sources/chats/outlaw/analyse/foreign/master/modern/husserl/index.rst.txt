@@ -55,6 +55,6 @@ Edmund Husserl
     copilot
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

@@ -106,6 +106,6 @@ Cicero
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

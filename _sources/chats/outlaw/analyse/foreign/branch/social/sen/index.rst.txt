@@ -95,6 +95,6 @@ Amartya Sen
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

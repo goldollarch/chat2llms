@@ -234,9 +234,9 @@
  .. toctree::
     :maxdepth: 3
 
-    grk
-    gmn
+    grok
+    gemini
     copilot
-    ds
-    qw
+    deepseek
+    qwen
 

@@ -95,8 +95,8 @@ H. L. A. Hart
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
 
 ---------------------------

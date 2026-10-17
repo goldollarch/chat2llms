@@ -90,8 +90,8 @@ Ronald Dworkin
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
 -------------------------
 

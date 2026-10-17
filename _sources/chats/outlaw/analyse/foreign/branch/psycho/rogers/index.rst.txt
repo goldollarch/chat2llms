@@ -86,6 +86,6 @@ Carl Rogers
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

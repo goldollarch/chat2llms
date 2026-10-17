@@ -53,6 +53,6 @@ Jean-Jacques Rousseau
     copilot
     gemini
     chatgpt
-    rouss_ds
-    rouss_qw
+    deepseek
+    qwen
 

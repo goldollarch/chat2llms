@@ -98,6 +98,6 @@ Hans Kelsen
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

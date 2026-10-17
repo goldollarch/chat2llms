@@ -107,6 +107,6 @@ Montesquieu
     copilot
     gemini
     chatgpt
-    mds_ds
-    mds_qw
+    deepseek
+    qwen
 

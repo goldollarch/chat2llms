@@ -100,8 +100,8 @@ Robert Nozick
     copilot
     gemini
     chatgpt
-    nozick_ds
-    nozick_qw
+    deepseek
+    qwen
 
 
 ---------------------------

@@ -86,8 +86,8 @@ Lon L. Fuller
     gemini
     copilot
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 
 
 ---------------------------

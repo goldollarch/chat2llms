@@ -101,6 +101,6 @@ Nancy Fraser
     grok
     gemini
     chatgpt
-    ds
-    qw
+    deepseek
+    qwen
 

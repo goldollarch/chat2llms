@@ -82,6 +82,6 @@ Machiavelli
     copilot
     gemini
     chatgpt
-    machi_ds
-    machi_qw
+    deepseek
+    qwen
 
