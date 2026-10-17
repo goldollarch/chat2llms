@@ -66,6 +66,6 @@
     gemini
     copilot
     chatgpt
-    sun_ds
-    sun_qw
+    deepseek
+    qwen
 
