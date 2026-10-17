@@ -47,12 +47,12 @@
  .. toctree::
     :maxdepth: 3
 
-    zz_grk
-    zz_gmn
+    grok
+    gemini
     copilot
     chatgpt
-    zz_ds
-    zz_qw
+    deepseek
+    qwen
     
 ----------------------------------------------------------
 
