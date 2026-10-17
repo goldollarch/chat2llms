@@ -30,7 +30,7 @@
     main/index
     
 
-----------------------------------------------------------
+-------------------------------
 
 哲学常识：
 
@@ -42,8 +42,8 @@
 
 中国哲学精神和特质
 
-[:doc:`GPT </chats/outlaw/analyse/chinese/chatgpt>`]
-[:doc:`Gemini </chats/outlaw/analyse/chinese/gemini>`]
-[:doc:`Qwen </chats/outlaw/analyse/chinese/qwen>`]
-[:doc:`DS </chats/outlaw/analyse/chinese/deepseek>`]
+[:doc:`GPT </chats/outlaw/analyse/chinese/abc/chatgpt>`]
+[:doc:`Gemini </chats/outlaw/analyse/chinese/abc/gemini>`]
+[:doc:`Qwen </chats/outlaw/analyse/chinese/abc/qwen>`]
+[:doc:`DS </chats/outlaw/analyse/chinese/abc/deepseek>`]
 

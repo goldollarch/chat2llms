@@ -61,8 +61,8 @@
     gemini
     copilot
     chatgpt
-    mo_ds
-    mo_qw
+    deepseek
+    qwen
 
 
 ----------------------------------------------------------
