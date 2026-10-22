@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of the Chen Jingyuan Case Based on Johann Gottlieb Fichte's Idealist Philosophical Core Ideas

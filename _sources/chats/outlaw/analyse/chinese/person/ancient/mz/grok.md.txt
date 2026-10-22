@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-###### An Evaluation of the Chen Jingyuan Case Based on Mencius's Philosophical Core Ideas
+## An Evaluation of the Chen Jingyuan Case Based on Mencius's Philosophical Core Ideas
 
 Mencius (c. 372-289 BCE), the preeminent successor to Confucius in Confucianism, developed a philosophy rooted in the innate goodness of human nature (*ren xing shan*), advocating benevolent governance (*ren zheng*) to cultivate virtue and harmony. His core ideas in the *Mencius* emphasize the people as paramount (*min wei gui*), moral kingship (*wang dao*) over coercive hegemony (*ba dao*), the flood-like qi of righteousness (*hao ran zhi qi*) as inner moral fortitude, and the righteousness-profit distinction (*yi li zhi bian*), where ethical duty trumps expediency. Mencius championed righteous rebellion against tyrants and the ruler's duty to nourish the people, warning that unjust laws breed disorder. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through Mencius's lens, exemplifies tyrannical *ba dao*: the judiciary forsakes human goodness for coercive profit, suppressing righteous qi and violating the people's primacy, eroding moral harmony.
 

@@ -55,7 +55,3 @@
     gemini
     qwen
 
----------------------------
-
-[:doc:`周敦颐与张载 </chats/outlaw/analyse/chinese/person/middle/zz>`]
-

@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of the Chen Jingyuan Case Based on Manuel DeLanda's Core Ideas in New Materialist Philosophy

@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 陈京元博士案件若从笛卡尔的唯理论（Rationalism）与“怀疑方法”（Methodical Doubt）视角出发来分析，

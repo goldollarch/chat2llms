@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 An Evaluation of Dr. Chen Jingyuan's Case from Søren Kierkegaard's Philosophical Perspective

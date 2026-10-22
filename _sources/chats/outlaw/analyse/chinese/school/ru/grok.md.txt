@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Confucian Philosophy from the Hundred Schools of Thought
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Confucian Philosophy from the Hundred Schools of Thought
 
 Confucianism (Rujia), the preeminent school among the "Hundred Schools of Thought" (Zhuzi Baijia) in ancient China, is rooted in the teachings of Confucius (551-479 BCE) and elaborated by Mencius and Xunzi. Its core ideas emphasize *ren* (benevolence or humaneness) as the foundation of moral cultivation, *li* (ritual propriety) to structure harmonious social relations, *yi* (righteousness) as ethical duty over expediency, the *junzi* (gentleman-scholar) as a model of virtue through learning and integrity, rectification of names (*zheng ming*) to align words with reality and prevent chaos, and benevolent governance (*ren zheng*) where rulers inspire obedience through moral example, not coercion. Confucianism envisions a harmonious society (*he*) through self-cultivation and reciprocal roles, prioritizing the people's welfare (*min ben*) over arbitrary power. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Confucian lens of the Warring States masters, exemplifies a tragic perversion: the judiciary forsakes *ren* and *li* for unrighteous coercion, distorting names and undermining the *junzi*'s virtue, fracturing harmony in favor of disingenuous order.
 

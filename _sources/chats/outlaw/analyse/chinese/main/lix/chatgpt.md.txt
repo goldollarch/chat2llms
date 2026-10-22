@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以 **程朱理学（Neo-Confucianism of the Cheng-Zhu School）** 为理论视角来分析陈京元博士案件，是将此案从单纯的法理争议提升到**道德哲学与宇宙本体论层面的反思**。

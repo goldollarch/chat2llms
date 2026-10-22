@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以**法兰克福学派（Frankfurt School）批判理论（Critical Theory）**的思想框架来分析**陈京元博士案件**，

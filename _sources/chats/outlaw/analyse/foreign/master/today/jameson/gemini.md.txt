@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于弗雷德里克·詹明信（Fredric Jameson）的哲学核心思想来评价陈京元博士案件，核心视角必须围绕其对 **“晚期资本主义”（Late Capitalism）的文化逻辑——“后现代主义”（Postmodernism）**的批判，以及**“政治无意识”（Political Unconscious）**和**“认知地图”（Cognitive Mapping）** 的概念。

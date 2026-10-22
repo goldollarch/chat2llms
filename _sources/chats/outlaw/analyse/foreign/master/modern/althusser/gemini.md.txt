@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于阿尔都塞（Louis Pierre Althusser）的哲学核心思想对陈京元博士案件进行评价，其分析将完全集中于**意识形态国家机器（ISAs）**、**压迫性国家机器（RSAs）**、**意识形态的“主体询唤”（Interpellation）**以及**阶级斗争**的结构性层面。

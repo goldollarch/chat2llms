@@ -1,8 +1,9 @@
-Grok
+# Grok
+
 ------
 
-### 基于清代朴学的核心思想的陈京元“寻衅滋事罪”案分析评论  
-### An Analysis of the Chen Jingyuan "Picking Quarrels and Provoking Trouble" Case Based on the Core Ideas of Qing Dynasty Evidential Scholarship (Puxue)
+## 基于清代朴学的核心思想的陈京元“寻衅滋事罪”案分析评论  
+## An Analysis of the Chen Jingyuan "Picking Quarrels and Provoking Trouble" Case Based on the Core Ideas of Qing Dynasty Evidential Scholarship (Puxue)
 
 **中文版**  
 **Chinese Version**
@@ -11,15 +12,15 @@ Grok
 
 Qing Dynasty Evidential Scholarship (Puxue), represented by Gu Yanwu, Huang Zongxi, and Wang Fuzhi, centered on "seeking truth from facts" (shi shi qiu shi) and evidential research, stressing objective truth via textual collation, historical verification, and rational critique, opposing Song-Ming Neo-Confucian abstraction and subjective fiat, advocating "practical application for statecraft" (jing shi zhi yong), viewing free speech as tool for evidential truth-seeking and academic independence, opposing arbitrary bias destroying historical veracity. In this case, Dr. Chen Jingyuan, an independent scholar, was sentenced to one year and eight months' imprisonment for "picking quarrels and provoking trouble" due to forwarding artistic works and political commentary on X (formerly Twitter)—with fewer than 100 followers and near-zero engagement—amid procedural flaws like subjective presumption, denial of self-defense, and selective enforcement. From Puxue's viewpoint, this is not seeking truth from facts but subjective fiat violating evidential research: annihilating academic veracity, betraying verification and practical application.
 
-#### 一、朴学核心思想概述：实事求是与实证考据  
-#### I. Overview of Puxue's Core Ideas: Seeking Truth from Facts and Evidential Research  
+### 一、朴学核心思想概述：实事求是与实证考据  
+### I. Overview of Puxue's Core Ideas: Seeking Truth from Facts and Evidential Research  
 
 朴学的核心思想是“实事求是”：通过实证考据与理性批判追求历史与文本的客观真理，反对空谈抽象与主观臆断，主张“经世致用”，言论自由为考证求真与学术独立的保障，反对权威偏私破坏真实性。 顾炎武强调“博学于文，行己有耻”，黄宗羲主张“天下为主，君为客”，王夫之以“气一元论”重实践。 原则：实证理性、历史真实、实用考证，反对独断偏私与空谈。
 
 Puxue's core ideas are "seeking truth from facts": pursuing objective truth of history and texts via evidential research and rational critique, opposing empty abstraction and subjective presumption, advocating "practical application for statecraft," free speech as safeguard for evidential truth-seeking and academic independence, opposing arbitrary bias destroying veracity. Gu Yanwu stressed "broad learning in literature, shame in one's conduct"; Huang Zongxi "the world for the people, sovereign as guest"; Wang Fuzhi's "monism of qi" emphasizing practice. Principles: empirical rationality, historical veracity, practical verification, opposing arbitrary bias and empty talk.
 
-#### 二、以朴学核心思想评析本案  
-#### II. Analysis of the Case Based on Puxue's Core Ideas  
+### 二、以朴学核心思想评析本案  
+### II. Analysis of the Case Based on Puxue's Core Ideas  
 
 1. **主观独断背离实事求是：违背实证考据与历史真实原则**  
    朴学视真理源于实证考据，反对主观臆断。 本案判决将陈京元转发的情感表达（如讽刺帖）、理性观点（如智库报告）和艺术作品（如漫画隐喻）泛化为“虚假言论”，无证据考据证明危害，却以主观“明知”推定判“寻衅滋事”，背离实事求是。 账号数据显示零互动、无历史断裂，却被“梳理”为“铁证”，这正是顾炎武斥的空谈：司法未实证考据陈京元学术意图（求真表达），而是独断偏私，摧毁真实性。 朴学若在，必判此不朴实——非考据真理，乃独断暴政。
@@ -39,8 +40,8 @@ Puxue's core ideas are "seeking truth from facts": pursuing objective truth of h
 3. **Imbalanced Historical Veracity: Absurd Warning and Puxue Crisis**  
    Puxue saw veracity as soul. Dr. Chen's bio mocks his account as a "tool of crime," with posts lingering online unheeded, yet earning 20 months—absurd like Huang Zongxi's "private harm to public under heaven": presuming "crime" lacks evidential balance, twisting veracity, breeding crisis. This warns: imbalanced veracity entrenches empty talk.
 
-#### 三、结语：重振实证考据，推动真实新生  
-#### III. Conclusion: Reviving Evidential Research for Veracity's Rebirth  
+### 三、结语：重振实证考据，推动真实新生  
+### III. Conclusion: Reviving Evidential Research for Veracity's Rebirth  
 
 朴学思想视本案为悲剧：独断背离实证，压制失考据，永固偏私危机。陈京元自辩如顾炎武求真呼吁，重审恢复历史解释，方能让社会在真实中新生。 如顾炎武所言：“实事求是。”唯有以此衡，方避“独断”成“公敌”，推动人文朴实。
 

@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Cheng-Zhu Neo-Confucian Philosophy
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Cheng-Zhu Neo-Confucian Philosophy
 
 Cheng-Zhu Neo-Confucianism, developed by the Cheng brothers (Cheng Hao and Cheng Yi) and systematized by Zhu Xi (1130-1200), represents the orthodox rationalist strain of Song-Ming Confucianism, emphasizing *li* (principle) as the metaphysical foundation of reality, manifesting through *qi* (vital energy), and the moral imperative of self-cultivation (*xiushen*) to align human nature with cosmic order. Core ideas include the "investigation of things" (*gewu zhizhi*), exhaustive study to grasp *li*; the unity of knowledge and action (*zhixing heyi*, Wang Yangming's influence notwithstanding); hierarchical social roles for harmony (*he*); and the state's role as moral exemplar, fostering benevolence (*ren*) and righteousness (*yi*). Zhu Xi's commentaries on the *Four Books* promote rational inquiry within ethical bounds, viewing unchecked desires as disruptive to the *li-qi* balance. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Cheng-Zhu lens, exemplifies a tragic inversion: the judiciary forsakes *gewu*'s rational pursuit for coercive disharmony, distorting *li* into rigid hierarchy and undermining self-cultivation, fracturing the moral cosmos.
 

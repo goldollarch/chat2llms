@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Military School Philosophy from the Hundred Schools of Thought
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Military School Philosophy from the Hundred Schools of Thought
 
 The Military School (Bingjia), one of the "Hundred Schools of Thought" (Zhuzi Baijia) in ancient China, is epitomized by Sun Tzu's *The Art of War* (c. 5th century BCE) and Sun Bin's *Sun Bin's Art of War*, focusing on strategic mastery for victory with minimal conflict. Core ideas include knowing oneself and the enemy (*zhi ji zhi bi*), adapting to terrain and timing (*shi di quan shi*), deception as supreme art (*wei zhan zhi dao*), intelligence and spies (*qing bao*), and supreme excellence in subduing the enemy without battle (*bu zhan er qu ren zhi bing*). Bingjia views governance as warfare: the state must maneuver with cunning, avoid wasteful attrition, and secure objectives through superior strategy. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Bingjia lens, exemplifies strategic blunders: the judiciary, as "commander," misreads intelligence, deploys blunt force over deception, and fights needless battles, risking self-defeat in the "war" for order.
 

@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of the Chen Jingyuan Case Based on Diogenes of Sinope's Core Ideas in Cynic Philosophy

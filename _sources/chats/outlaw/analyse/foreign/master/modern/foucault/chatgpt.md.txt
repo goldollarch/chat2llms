@@ -1,4 +1,5 @@
 # ChatGPT
+
 -------
 
 ## 基于歇尔·福柯（Michel Foucault）的哲学核心

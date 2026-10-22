@@ -1,4 +1,5 @@
 # ChatGPT
+
 -------
 
 新唯物主义不同于传统马克思式的历史唯物论，它是21世纪以来在**科学哲学、后人类理论与政治哲学**交汇处兴起的一场思想革命，代表人物包括 **Karen Barad、Rosi Braidotti、Jane Bennett、Manuel DeLanda** 等。

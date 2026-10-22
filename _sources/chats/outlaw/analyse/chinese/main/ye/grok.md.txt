@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ----
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Nestorian Christianity (Jingjiao) and Broader Christian Philosophy
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Nestorian Christianity (Jingjiao) and Broader Christian Philosophy
 
 Nestorian Christianity, known as Jingjiao in Chinese, arrived in Tang China via the Silk Road in the 7th century, as documented in the *Xi'an Stele* (781 CE), blending Eastern Syriac theology with Confucian and Daoist elements. Its core ideas emphasize Christ's dual nature (divine and human, per Nestorius's Christology), divine grace (*chen* or mercy) as the path to salvation, the pursuit of truth through rational inquiry tempered by faith, and an ethic of love (*agape*) and justice rooted in God's eternal law. Broader Christian philosophy, from Augustine's *City of God* to Aquinas's natural law and Kierkegaard's leap of faith, reinforces themes of original sin redeemed by grace, the dignity of the individual conscience, and resistance to unjust authority as obedience to higher divine order. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Jingjiao/Christian lens, exemplifies a profound betrayal of grace and truth: the judiciary's coercive "order" supplants divine mercy, suppressing the inquiring conscience and fracturing the pursuit of justice, echoing Augustine's lament for a fallen earthly city.
 

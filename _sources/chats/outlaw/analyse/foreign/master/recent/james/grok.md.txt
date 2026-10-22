@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 An Analysis of Dr. Chen Jingyuan's Case from William James's Pragmatist Perspective

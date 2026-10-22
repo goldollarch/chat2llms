@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 若以**分析哲学（Analytic Philosophy）**的主要工具与方法论来评价**陈京元博士案件**，

@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 从**经院哲学（Scholasticism）**的视角审视**陈京元博士案件**，

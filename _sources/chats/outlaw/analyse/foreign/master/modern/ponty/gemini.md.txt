@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于**莫里斯·梅洛-庞蒂（Maurice Merleau-Ponty）**的现象学核心思想，陈京元博士案件不仅是一个法律或政治事件，更是一个关于**身体-主体（Body-Subject）**、**知觉（Perception）**与**世界之肉（The Flesh）** 的生存论悲剧。

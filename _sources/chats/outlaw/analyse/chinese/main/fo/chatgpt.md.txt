@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇以 **佛教哲学（释家思想）** 为理论基础的系统性分析，
@@ -8,7 +9,7 @@ ChatGPT
 
 ---
 
-**缘起、幻相与正觉：佛教哲学视角下的陈京元博士案件分析**
+## **缘起、幻相与正觉：佛教哲学视角下的陈京元博士案件分析**
 
 *(Dependent Origination, Illusion, and Right Awakening: A Buddhist Philosophical Reflection on the Case of Dr. Jingyuan Chen)*
 

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于约翰·斯图尔特·密尔（John Stuart Mill）的哲学核心思想，尤其是他在《论自由》（*On Liberty*）中阐述的**自由原则（Liberty Principle）**和**言论自由的功利主义辩护**，对陈京元博士案件的评价将得出**强烈的批判性结论**。

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于杰里米·边沁的功利主义（Utilitarianism）政治与法哲学核心思想，对陈京元博士案件的评价将完全围绕 **“最大多数人的最大幸福原则”（The Greatest Happiness of the Greatest Number）** 展开。

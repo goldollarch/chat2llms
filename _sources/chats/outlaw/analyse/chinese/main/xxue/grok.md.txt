@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Lu-Wang Xin Xue Philosophy
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Lu-Wang Xin Xue Philosophy
 
 Lu-Wang Xin Xue (the School of Mind or Heart-Mind, developed by Lu Jiuyuan and Wang Yangming in the Song-Ming Neo-Confucian tradition) posits the heart-mind (*xin*) as the locus of principle (*li*), emphasizing innate moral knowledge (*liang zhi*) as an intuitive, luminous awareness of right and wrong. Core ideas include the unity of knowledge and action (*zhi xing he yi*), where true understanding manifests in practice; self-cultivation through introspective rectification of the heart-mind, rather than exhaustive external investigation (*gewu*); and the sage's moral autonomy, free from coercive externals, to achieve harmony with the cosmos. Wang Yangming's dictum, "knowledge is the onset of action," underscores ethical spontaneity over rigid dogma. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Lu-Wang lens, exemplifies a profound betrayal of the heart-mind: judicial coercion extinguishes innate *liang zhi*, severing knowledge from action and imposing external distortion on moral autonomy, fracturing the luminous unity of self and principle.
 

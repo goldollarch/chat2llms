@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 若以**解释学（Hermeneutics）**的理论视角来分析**陈京元博士案件**，

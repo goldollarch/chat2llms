@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 An Existentialist Evaluation of Dr. Chen Jingyuan's Case: Authenticity, Absurdity, and the Burden of Freedom

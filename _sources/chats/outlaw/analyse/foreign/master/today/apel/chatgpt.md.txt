@@ -1,4 +1,5 @@
 # ChatGPT
+
 -------
 
 下面将**基于卡尔－奥托·阿佩尔（Karl-Otto Apel）**的哲学核心思想，尤其是其**先验语用学（Transcendental Pragmatics）**与**话语伦理学（Diskursethik）**框架，对本案件作出一种**规范性—反思性—交往理性取向**的分析评论。

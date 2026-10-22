@@ -1,5 +1,5 @@
 Speculative Realism
-===================
+=======================
 
 基于​​思辨实在论（Speculative Realism）​哲学核心思想
 
