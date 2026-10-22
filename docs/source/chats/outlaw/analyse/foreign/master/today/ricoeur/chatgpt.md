@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于保罗·利科（Paul Ricoeur）哲学核心思想对陈京元博士案件的哲学性评价

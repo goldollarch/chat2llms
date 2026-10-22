@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 An Evaluation of the Chen Jingyuan Case Based on David Hume's Philosophical Core Ideas

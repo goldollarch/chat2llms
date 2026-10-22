@@ -1,4 +1,5 @@
-Qwen
+# Qwen
+
 ----
 
 根据亚里士多德在《尼各马可伦理学》和《政治学》中所阐述的政治哲学，陈京元博士一案是对“法治”（Rule of Law）、“分配正义”（Distributive Justice）与“矫正正义”（Corrective Justice）的全面背叛，是“僭主政体”（Tyranny）对“共和政体”（Polity）的胜利，更是对“人是政治动物”这一根本命题的彻底否定。

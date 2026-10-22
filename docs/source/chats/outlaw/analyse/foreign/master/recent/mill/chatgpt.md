@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 约翰·斯图尔特·密尔（**John Stuart Mill**, 1806–1873）是**现代自由主义的奠基人之一**，其核心思想集中体现在《论自由》（*On Liberty*, 1859）与《功利主义》（*Utilitarianism*, 1863）两部著作中。

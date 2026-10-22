@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于朱莉娅·克里斯特瓦（Julia Kristeva）的哲学核心思想来评价陈京元博士案件，关键在于运用她的**精神分析-符号学**概念，特别是 **“象征界”（the Symbolic）、“符号界”（the Semiotic）**以及**“嫌恶物”（Abjection）**。

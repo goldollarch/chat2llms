@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于吉尔·德勒兹（Gilles Deleuze）哲学核心思想对陈京元博士案件的哲学性评价

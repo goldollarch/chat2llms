@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of the Chen Jingyuan Case Based on Sextus Empiricus's Core Ideas in Skeptical Philosophy

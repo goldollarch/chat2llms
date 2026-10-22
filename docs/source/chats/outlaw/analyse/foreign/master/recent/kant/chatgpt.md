@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 这一问题切入了**近代哲学的核心转折点**——康德的“批判哲学”（Critical Philosophy）。

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于捷尔吉·卢卡奇（György Lukács）的哲学核心思想来评价陈京元博士案件，需要聚焦于他著作《历史与阶级意识》（*History and Class Consciousness*）中的三大核心概念：**物化（Reification）、总体性（Totality）**和**阶级意识（Class Consciousness）**。

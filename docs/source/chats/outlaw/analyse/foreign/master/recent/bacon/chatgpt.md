@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 弗朗西斯·培根（Francis Bacon）是现代科学方法与经验哲学的奠基人，他提出的“知识就是力量”（*scientia potentia est*）并非权力崇拜，而是一种**以经验观察和归纳理性取代权威信念**的思想革命。

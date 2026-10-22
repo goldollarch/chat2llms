@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于列维-斯特劳斯（Claude Lévi-Strauss）的结构主义人类学核心思想，对陈京元博士案件的评价，必须超越表面事实，去**解构**（decode）隐藏在事件背后的**普遍的、无意识的“心智结构”（Mental Structure）**，特别是 **二元对立（Binary Opposition）**和**调解（Mediation）** 的逻辑。

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于查尔斯·桑德斯·皮尔斯（Charles S. Peirce）的哲学核心思想，对陈京元博士案件的评价将集中于**探究的逻辑（Logic of Inquiry）**、**信念的固定（Fixation of Belief）**、**符号学（Semiotics）**以及**真理作为“探究社群的终极共识”（Final Opinion of the Community of Inquirers）**。

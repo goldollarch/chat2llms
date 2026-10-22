@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 若以**现代西方马克思主义（Western Marxism）**的理论视角来分析**陈京元博士案件**，

@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Mohist Philosophy from the Hundred Schools of Thought
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Mohist Philosophy from the Hundred Schools of Thought
 
 Mohism (Mojia), founded by Mozi (c. 470-391 BCE) during the Warring States period, is a utilitarian and egalitarian philosophy among the "Hundred Schools of Thought" (Zhuzi Baijia), advocating *jian ai* (impartial concern or universal love) to promote collective welfare, meritocracy (*shang xian*, elevating the worthy) over hereditary privilege, and anti-war frugality to maximize benefit (*li*) for all. In the *Mozi*, Mohists critiqued Confucian ritual excess and Legalist coercion, proposing standardized governance, economic efficiency, and defensive strength as paths to harmony, judging actions by their consequential impact on the people's prosperity. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Mohist lens, exemplifies a failure of impartiality and merit: selective punishment undermines universal benefit, devaluing scholarly worthiness and squandering collective *li*, fostering disharmony rather than prosperity.
 

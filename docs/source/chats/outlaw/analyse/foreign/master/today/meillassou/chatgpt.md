@@ -1,4 +1,5 @@
 # ChatGPT
+
 -------
 
 下面将**基于昆汀·梅亚苏（Quentin Meillassoux）**的哲学核心思想——尤其是**反相关主义（Anti-Correlationism）、绝对偶然性（Absolute Contingency）、事实性的必然性（Necessity of Contingency）、祖先性（Ancestrality）、以及对“理性专断”的批判**——对**陈京元博士案件**作出一种**高度哲学化、但直指法治根基的分析评论**。

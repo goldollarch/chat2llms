@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 以下是基于法兰克福学派（Frankfurt School）的批判理论（Critical Theory）视角，对陈京元博士案件的分析。

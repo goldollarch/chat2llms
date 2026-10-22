@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于安东尼奥·葛兰西（Antonio Gramsci）的哲学核心思想来评价陈京元博士案件，核心视角必须是 **“霸权”（Hegemony）**、**“市民社会”（Civil Society）**、**“意识形态”（Ideology）**和**“阵地战”（War of Position）**。

@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Yin-Yang Philosophy from the Hundred Schools of Thought
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Yin-Yang Philosophy from the Hundred Schools of Thought
 
 The Yin-Yang School (Yinyangjia), a cosmological offshoot among the "Hundred Schools of Thought" (Zhuzi Baijia) in ancient China, is epitomized by Zou Yan (c. 305-240 BCE) and his *Yinyangjia* texts, integrating dualistic forces of yin (passive, receptive, dark, feminine) and yang (active, assertive, light, masculine) with the Five Phases (wu xing: wood, fire, earth, metal, water) in cycles of generation (sheng) and conquest (ke). Core ideas emphasize cosmic harmony through dynamic balance—neither force dominates eternally, but they interpenetrate in rhythmic flux, mirroring natural and political orders; excess of one engenders corrective opposition, as in seasonal rotations or dynastic rises/falls. Yin-Yang philosophy influenced statecraft, viewing governance as attuning to these cycles rather than rigid control, to sustain equilibrium. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Yin-Yang lens, exemplifies disharmony from yang excess: judicial overassertion fractures the receptive yin of inquiry, disrupting the Five Phases' cycle and inviting inevitable reversal.
 

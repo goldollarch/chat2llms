@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 对陈京元博士案件，基于威廉·狄尔泰（Wilhelm Dilthey）解释学的核心思想进行评价，其核心将围绕 **精神科学（Geisteswissenschaften）**的方法论，特别是**“体验”（Erlebnis）、“表达”（Ausdruck）**和**“理解”（Verstehen）** 的三元结构展开。

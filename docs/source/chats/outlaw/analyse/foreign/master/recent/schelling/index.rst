@@ -1,5 +1,5 @@
 Friedrich Schelling
-=============
+=======================
 
 基于弗里德里希·谢林（Friedrich Schelling）的唯心论哲学核心思想
 

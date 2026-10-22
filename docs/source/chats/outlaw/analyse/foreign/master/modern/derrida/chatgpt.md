@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于雅克·德里达（Jacques Derrida）解构主义哲学核心思想

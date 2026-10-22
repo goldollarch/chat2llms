@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于让-雅克·卢梭（Jean-Jacques Rousseau）的哲学核心思想，对陈京元博士案件的评价将是**复杂且充满内在矛盾**的。

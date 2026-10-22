@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 若以**阿图尔·叔本华（Arthur Schopenhauer, 1788–1860）**的哲学为透镜，来审视**陈京元博士案件**，

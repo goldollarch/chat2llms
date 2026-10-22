@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in the School of Diplomacy (Zonghengjia) from the Hundred Schools of Thought
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in the School of Diplomacy (Zonghengjia) from the Hundred Schools of Thought
 
 The School of Diplomacy (Zonghengjia), a pragmatic branch among the "Hundred Schools of Thought" (Zhuzi Baijia) in ancient China, is exemplified by strategists like Su Qin and Zhang Yi during the Warring States period (c. 475-221 BCE). Its core ideas revolve around *he zong lian heng* (forming vertical and horizontal alliances to balance power), masterful rhetoric and persuasion (*you shuo*), and realpolitik maneuvering—leveraging interests, deception, and coalitions to avert conflict and secure state advantage without direct confrontation. Diplomats viewed interstate relations as a chessboard of calculated alliances, where eloquent lobbying (*shui mo*) and flexible adaptation trump brute force, as in Su Qin's advocacy for unity against Qin hegemony. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Zonghengjia lens, exemplifies a strategic miscalculation: the judiciary, as "state actor," forgoes diplomatic persuasion for rigid confrontation, fracturing alliances and inviting backlash, squandering the art of indirect victory.
 

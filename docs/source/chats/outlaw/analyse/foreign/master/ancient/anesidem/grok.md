@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ----
 
-An Evaluation of the Chen Jingyuan Case Based on Aenesidemus's Philosophical Core Ideas
+## An Evaluation of the Chen Jingyuan Case Based on Aenesidemus's Philosophical Core Ideas
 
 Aenesidemus (fl. 1st century BCE), a pivotal figure in the revival of Pyrrhonian skepticism, rediscovered the tradition of Pyrrho of Elis in works like *Pyrrhonian Discourses* (lost, but summarized by Photius). His core ideas emphasize *epoché* (suspension of judgment) as the path to *ataraxia* (tranquility), achieved by demonstrating the equipollence of opposing arguments through the "Modes of Agrippa" (infinite regress, relativity, hypothesis, reciprocity, and relation). Skepticism, for Aenesidemus, is not nihilism but a therapeutic practice—living by appearances (*phainomena*) without dogmatic assent, critiquing Stoic and Epicurean certainties as unfounded. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through Aenesidemus's lens, exemplifies dogmatic overreach: the judiciary's unsuspended "certainty" of "disruption" ignores equipollent arguments, breeding disturbance rather than tranquility, and perpetuating skepticism's critique of unexamined authority.
 

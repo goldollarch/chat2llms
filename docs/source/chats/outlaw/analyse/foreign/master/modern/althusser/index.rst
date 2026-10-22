@@ -1,5 +1,5 @@
 Louis Pierre Althusser
-===================
+=========================
 
 基于路易·皮埃尔·阿尔都塞（Louis Pierre Althusser）马克思主义哲学。
 

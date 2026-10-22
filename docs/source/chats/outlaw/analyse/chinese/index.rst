@@ -47,3 +47,14 @@
 [:doc:`Qwen </chats/outlaw/analyse/chinese/abc/qwen>`]
 [:doc:`DS </chats/outlaw/analyse/chinese/abc/deepseek>`]
 
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `title <https>`_ 
+- `A Scholar on Trial <https://youtu.be/OVi7ShdMmtw>`_ 
+- `Scholar Chen Jingyuan, Neo Confucianism and VPN Crime <https://youtu.be/TCVDZI3lIVo>`_ 
+- `中国传统思想进一步解读现代中国大陆案件 <https://youtu.be/N1Pd_O_zTxk>`_ 
+- `一位学者的审判：陈京元博士案 <https://youtu.be/29tEKL0cALI>`_ 

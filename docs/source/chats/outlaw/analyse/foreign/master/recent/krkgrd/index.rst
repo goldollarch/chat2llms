@@ -1,5 +1,5 @@
 Søren Kierkegaard
-=========
+===================
 
 基于 **索伦·克尔凯戈尔（Søren Kierkegaard）** 的哲学视角。
 

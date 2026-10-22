@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 An Evaluation of the Chen Jingyuan Case Based on Friedrich Nietzsche's Philosophical Core Ideas

@@ -1,4 +1,5 @@
-Copilot
+# Copilot
+
 --------
 
 好的。我将结合路易·皮埃尔·阿尔都塞（Louis Pierre Althusser，20世纪法国马克思主义哲学家）的核心思想来评析陈京元案。阿尔都塞的哲学核心包括：**意识形态与意识形态国家机器（Ideological State Apparatuses, ISA）**、**再生产与统治秩序**、**个体的“召唤”（interpellation）**、以及**法律与教育、媒体等制度的意识形态功能**。以下为中英文对照分析：  

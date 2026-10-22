@@ -1,5 +1,6 @@
-Grok
-----
+# Grok
+
+--------
 
 ### 基于熊十力新儒学的核心思想的陈京元“寻衅滋事罪”案分析评论  
 ### An Analysis of the Chen Jingyuan "Picking Quarrels and Provoking Trouble" Case Based on Xiong Shili's Core Ideas in New Confucianism

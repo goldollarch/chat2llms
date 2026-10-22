@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 若以**让-雅克·卢梭（Jean-Jacques Rousseau, 1712–1778）** 的哲学为参照系来审视**陈京元博士案件**，

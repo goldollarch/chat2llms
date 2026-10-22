@@ -1,5 +1,6 @@
-Grok
-----
+# Grok
+
+-------
 
 ### 基于张载核心哲学思想的陈京元“寻衅滋事罪”案分析评论  
 ### An Analysis of the Chen Jingyuan "Picking Quarrels and Provoking Trouble" Case Based on Zhang Zai's Core Philosophical Ideas

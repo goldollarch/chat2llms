@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of the Chen Jingyuan Case Based on Bruno Latour's Core Ideas in Actor-Network Theory (ANT) and Critique of Modernity

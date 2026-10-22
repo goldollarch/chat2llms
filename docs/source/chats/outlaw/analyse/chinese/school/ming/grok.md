@@ -1,7 +1,8 @@
-Grok
+# Grok
+
 ------
 
-An Evaluation of the Chen Jingyuan Case Based on Core Ideas in the School of Names (Mingjia) from the Hundred Schools of Thought
+## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in the School of Names (Mingjia) from the Hundred Schools of Thought
 
 The School of Names (Mingjia), a minor yet provocative Warring States philosophy (c. 475-221 BCE), is exemplified by Hui Shi and Gongsun Long, who dissected the relationship between names (*ming*) and actualities (*shi*) through linguistic paradoxes and relativism. Core ideas include the arbitrary separation of attributes ("hardness and whiteness are separate," Gongsun Long), the compound nature of terms ("a white horse is not a horse," distinguishing composite from simple), and Hui Shi's ten paradoxes emphasizing perspectival relativity ("I know the Dao of heaven and earth, but not the Dao of a hair or fly"). Mingjia challenged rigid categorizations, highlighting language's conventionality and the fluidity between form and substance, often through sophistic play to expose logical absurdities. The Chen Jingyuan case—a doctoral scholar sentenced to 20 months for "picking quarrels and provoking trouble" (PRC Criminal Law Article 293) over Twitter forwards—through the Mingjia lens, exemplifies the perils of unexamined naming: the judiciary's compound "disruption" conflates attributes arbitrarily, severing names from actualities and fostering relativistic absurdities that undermine justice.
 

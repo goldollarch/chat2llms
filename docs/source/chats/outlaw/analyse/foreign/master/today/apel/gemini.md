@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 阿佩尔（Karl-Otto Apel）是当代最重要的后康德主义哲学家之一，他的思想核心是**先验语用学（Transcendental Pragmatics）**和**话语伦理学（Discourse Ethics）**。

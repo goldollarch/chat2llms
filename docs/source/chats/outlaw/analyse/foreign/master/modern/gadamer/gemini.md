@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 汉斯-格奥尔格·伽达默尔（Hans-Georg Gadamer）的解释学哲学，尤其是其巨著《真理与方法》中的核心思想，将理解视为一种**本体论事件**，而非单纯的**方法论技术**。评价陈京元博士案件，需围绕 **前见（Vorurteil）、效果历史（Wirkungsgeschichte）、视域融合（Horizontverschmelzung）**和**理解即对话（Verständigung als Dialog）** 这几个核心概念展开。

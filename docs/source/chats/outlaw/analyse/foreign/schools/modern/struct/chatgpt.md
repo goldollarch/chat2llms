@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 若以 **结构主义（Structuralism）哲学** 的理论视角分析 **陈京元博士案件**，

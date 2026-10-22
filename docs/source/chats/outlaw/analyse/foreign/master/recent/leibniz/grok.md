@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 An Evaluation of Dr. Chen Jingyuan's Case from Gottfried Wilhelm Leibniz's Philosophical Perspective
