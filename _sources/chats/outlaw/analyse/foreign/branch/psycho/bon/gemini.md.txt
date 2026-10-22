@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 古斯塔夫·勒庞（Gustave Le Bon）是社会心理学的奠基人之一，他以其著作《乌合之众：大众心理研究》（*Psychologie des Foules*）而闻名。勒庞的理论核心在于**对群体（Crowd/Mass）的非理性、情绪化和低智商特性**的深刻洞察。

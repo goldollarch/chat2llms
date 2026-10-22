@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于雅克·拉康（Jacques Lacan）精神分析哲学的思想评析

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 马丁·塞利格曼（Martin Seligman）是美国心理学家，**积极心理学（Positive Psychology）**的奠基人之一。积极心理学的核心思想在于**研究和促进人类的积极功能（Positive Functioning）**，关注个体的**优势、美德、幸福和生命的意义**，而非仅仅治疗心理疾病。

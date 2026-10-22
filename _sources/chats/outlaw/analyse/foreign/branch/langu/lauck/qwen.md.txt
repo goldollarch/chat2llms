@@ -1,4 +1,5 @@
 # Qwen
+
 ----
 
 罗纳德·兰艾克（Ronald W. Langacker）是**认知语言学**（Cognitive Linguistics）的奠基人之一，其**认知语法**（Cognitive Grammar）理论彻底颠覆了形式语言学对语言的抽象化处理。其核心思想可概括为：

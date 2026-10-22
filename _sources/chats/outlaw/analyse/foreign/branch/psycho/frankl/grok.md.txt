@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 A Logotherapeutic Analysis of Dr. Chen Jingyuan's Case: The Will to Meaning Amid Suffering

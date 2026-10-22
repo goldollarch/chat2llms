@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于**杰瑞·福多（Jerry Fodor）**的心灵哲学和认知科学核心思想对陈京元博士案件进行分析，我们将进入一个关于**心理表征（Mental Representation）**、**思维语言（Language of Thought / Mentalese）**以及**心智模块性（Modularity）** 的深度讨论。

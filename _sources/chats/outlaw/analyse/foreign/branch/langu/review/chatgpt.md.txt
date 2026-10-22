@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 从**当代语言哲学（Philosophy of Language）**的理论视角出发来分析**陈京元博士案件**，

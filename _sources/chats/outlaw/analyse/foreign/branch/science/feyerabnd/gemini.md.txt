@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于保罗·费耶阿本德（Paul Feyerabend）的科学哲学核心思想来评价陈京元博士案件，需要将关注点从传统的“真理”或“理性”转移到 **“多元主义”（Pluralism）**、**“反方法论”（Against Method）**，以及**反对“科学沙文主义”（Scientism）**。

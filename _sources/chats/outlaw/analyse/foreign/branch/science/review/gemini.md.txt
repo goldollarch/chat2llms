@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 以下是基于当代科学哲学（Contemporary Philosophy of Science）的理论视角，对陈京元博士案件的评论。

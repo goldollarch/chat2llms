@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于约翰·塞尔（John R. Searle）语言哲学与社会本体论的视角

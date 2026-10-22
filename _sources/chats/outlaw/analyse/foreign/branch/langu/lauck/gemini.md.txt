@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于**罗纳德·兰艾克（Ronald Langacker）**的**认知语言学（Cognitive Linguistics）**，特别是 **认知语法（Cognitive Grammar）**的核心思想对陈京元博士案件进行分析，我们将目光从外部的法律条文转向内部的**“概念化（Conceptualization）”** 过程。

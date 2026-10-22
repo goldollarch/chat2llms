@@ -1,4 +1,5 @@
 # Gemini
+
 ------
 
 ## 基于伯特兰·罗素的分析哲学（Analytic Philosophy）和其一贯的社会批判立场

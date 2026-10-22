@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of the Chen Jingyuan Case Based on Core Ideas in New Experimentalism (e.g., Ian Hacking's Philosophy of Science)

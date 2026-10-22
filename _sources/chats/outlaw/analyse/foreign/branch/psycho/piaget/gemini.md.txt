@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 让·皮亚杰（Jean Piaget）是瑞士著名心理学家，其 **发生认识论（Genetic Epistemology）** 和 **认知发展理论（Cognitive Developmental Theory）** 的核心思想在于： **儿童通过与环境的互动，主动构建（Construct）对世界的理解，认知发展经历一系列固定的、质性不同的阶段**。

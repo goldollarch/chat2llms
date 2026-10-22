@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于伊姆雷·拉卡托斯（Imre Lakatos）的科学哲学核心思想，我们可以将对陈京元博士案件的评价置于对 **相互竞争的“社会治理研究纲领”（Social Governance Research Programmes）** 的动态评估中。

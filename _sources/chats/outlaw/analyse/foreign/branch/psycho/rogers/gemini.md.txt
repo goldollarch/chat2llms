@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 卡尔·罗杰斯（Carl Rogers）是人本主义心理学（Humanistic Psychology）的另一位核心创始人，他提出了**个人中心疗法（Person-Centered Therapy）**。罗杰斯理论的核心在于：**个体具有实现其潜能的内在倾向（实现倾向，Actualizing Tendency）**，以及**心理健康依赖于“真实自我”（Real Self）与“理想自我”（Ideal Self）之间的和谐**。

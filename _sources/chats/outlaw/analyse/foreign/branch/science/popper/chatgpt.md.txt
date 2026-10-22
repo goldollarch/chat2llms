@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 卡尔·波普尔（Karl Popper）的哲学核心是 **批判理性主义（Critical Rationalism）** 与 **开放社会（Open Society）** 理念。

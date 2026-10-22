@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of the Chen Jingyuan Case Based on Bas van Fraassen's Constructive Empiricism in Philosophy of Science

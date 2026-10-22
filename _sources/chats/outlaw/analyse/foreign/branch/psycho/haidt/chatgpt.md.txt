@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇系统性的学术性分析，基于 **乔纳森·海特（Jonathan Haidt）** 的社会心理学与 **道德心理学（Moral Psychology）** 核心理论，特别参考其代表作《正义之心》（*The Righteous Mind: Why Good People Are Divided by Politics and Religion*, 2012）与“社会直觉主义模型”（*Social Intuitionist Model*）。

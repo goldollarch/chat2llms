@@ -1,4 +1,5 @@
 # Grok
+
 ----
 
 ## An Evaluation of the Chen Jingyuan Case Based on Bertrand Russell's Philosophical Core Ideas

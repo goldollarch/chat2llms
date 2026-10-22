@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 古斯塔夫·勒庞（**Gustave Le Bon, 1841–1931**）是现代 **群体心理学（social psychology of crowds）** 的奠基人。他在名著《乌合之众：大众心理研究》（*La Psychologie des Foules*, 1895）中揭示了 **群体行为的非理性机制、意见操纵的社会心理基础** 以及 **舆论与权力之间的共生关系**。

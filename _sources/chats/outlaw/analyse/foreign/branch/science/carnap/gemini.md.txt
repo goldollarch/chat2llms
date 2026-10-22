@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于鲁道夫·卡尔纳普（Rudolf Carnap）的分析哲学，尤其是其**逻辑实证主义（Logical Positivism）**的核心思想来评价陈京元博士案件，需要将案件中的所有陈述、指控和判决视为**语言陈述**，并运用**逻辑分析**来区分其**认知意义（Cognitive Meaning）**和**形而上学/伪陈述（Pseudo-Statements）**。

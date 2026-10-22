@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 若以 **日常语言学派（Ordinary Language Philosophy）** 的理论视角分析 **陈京元博士案件**，
