@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于希拉里·普特南（Hilary Putnam）哲学核心思想对陈京元博士案件的评价

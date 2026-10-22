@@ -1,4 +1,5 @@
 # Qwen
+
 ----
 
 乔治·莱考夫（George Lakoff）是当代认知语言学与认知科学的奠基人之一，其思想以**概念隐喻理论**（Conceptual Metaphor Theory）、**框架理论**（Framing Theory）与**道德政治模型**（Moral Politics）为核心。他主张：

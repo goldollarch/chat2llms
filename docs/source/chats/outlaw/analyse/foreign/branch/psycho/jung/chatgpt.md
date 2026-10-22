@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇基于 **卡尔·古斯塔夫·荣格（Carl Gustav Jung）分析心理学（Analytical Psychology）** 核心思想，对**陈京元博士案件**进行系统的哲学与心理学分析。本文结合荣格的“集体无意识”“原型”“人格面具（Persona）”“阴影（Shadow）”与“个体化（Individuation）”等核心概念，从**深层心理、社会象征与精神文化病理**角度探讨此案的意义。

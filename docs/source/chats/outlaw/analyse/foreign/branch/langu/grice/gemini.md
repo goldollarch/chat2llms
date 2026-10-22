@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于保罗·格赖斯（H. P. Grice）的语言哲学核心思想来评价陈京元博士案件，需要将关注点聚焦于语言交流中的 **“合作原则”（Cooperative Principle, CP）** 及其四个子准则：**量（Quantity）、质（Quality）、关系（Relation）和方式（Manner）**。

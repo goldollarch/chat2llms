@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 From the Perspective of Critical Rationalism: Analysis of the Chen Jingyuan Case

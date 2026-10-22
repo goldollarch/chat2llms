@@ -1,4 +1,5 @@
 # Qwen
+
 ----
 
 M.A.K. 韩礼德（Michael Halliday）的**系统功能语言学**（Systemic Functional Linguistics, SFL）将语言视为**社会意义的建构系统**，而非抽象形式规则的集合。其核心思想可概括为：

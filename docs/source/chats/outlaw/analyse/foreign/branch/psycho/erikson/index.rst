@@ -100,9 +100,9 @@ Erik H. Erikson
  .. toctree::
     :maxdepth: 3
 
-    copilot
     grok
     gemini
+    copilot
     chatgpt
     deepseek
     qwen

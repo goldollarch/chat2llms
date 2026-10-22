@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 维克多·弗兰克尔（Viktor Frankl）是奥地利神经病学家和精神病学家，也是纳粹集中营的幸存者。他创立了**意义治疗法（Logotherapy）**，其核心思想是：**人类最主要的驱动力是寻求生命的意义（Will to Meaning）**。

@@ -1,4 +1,5 @@
 # Qwen
+
 ----
 
 杰瑞·福多（Jerry Fodor, 1935–2017）是20世纪最具影响力的心灵哲学家与认知科学家之一，其思想以**心灵模块性**（modularity of mind）、**思想语言假说**（Language of Thought Hypothesis, LOT）与**对还原论的批判**为核心。他主张：

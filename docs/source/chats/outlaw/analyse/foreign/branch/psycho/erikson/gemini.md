@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 埃里克·埃里克森（Erik H. Erikson）是著名的发展心理学家和精神分析学家，他的**心理社会发展理论**（Theory of Psychosocial Development）将个体的发展视为一个贯穿一生的过程，由八个阶段组成，每个阶段都伴随着一个**核心的心理社会危机（Psychosocial Crisis）**，其成功解决与否影响着 **自我同一性（Identity）** 的建立。

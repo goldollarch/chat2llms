@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 劳伦斯·科尔伯格（Lawrence Kohlberg）是美国心理学家，以其在道德发展领域的研究而闻名。他创立的**道德发展阶段理论**（Theory of Moral Development）提出人类的道德推理能力是按固定的、不可逆的顺序经历三个水平和六个阶段的发展。

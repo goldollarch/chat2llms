@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于 **日常语言学派（Ordinary Language Philosophy, OLP）** 的哲学视角，我们将对陈京元博士案件进行评价。日常语言学派主要关注词语在具体社会语境中“如何被使用”（Use），而非其抽象的“意义”（Meaning）。代表人物如维特根斯坦（Ludwig Wittgenstein）认为，法律、学术、日常交谈都是特定的“语言游戏”（Language-Games）。

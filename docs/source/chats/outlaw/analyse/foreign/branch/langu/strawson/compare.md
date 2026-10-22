@@ -1,4 +1,5 @@
-Compare
+# Compare
+
 ----------
 
 【[列维-斯特劳斯（Claude Lévi-Strauss）](/chats/outlaw/analyse/foreign/master/modern/strauss/index)】和【[彼得·斯特劳森（Peter Strawson）](/chats/outlaw/analyse/foreign/branch/langu/strawson/index)】是两位完全不同、但在20世纪思想界都极具影响力的学者。他们的名字在中文译名上有些相似，但研究领域、思想传承和核心观点截然不同。

@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 路德维希·维特根斯坦（Ludwig Wittgenstein）是20世纪最具影响力的哲学家之一，他的思想经历了早期与晚期两个阶段——从《逻辑哲学论》（*Tractatus Logico-Philosophicus*）到《哲学研究》（*Philosophical Investigations*）——这两阶段分别代表了**语言的逻辑界限**与**语言的生活实践性**。

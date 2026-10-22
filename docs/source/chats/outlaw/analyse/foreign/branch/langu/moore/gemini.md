@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于**乔治·爱德华·摩尔（George Edward Moore）**的**常识唯实论（Common Sense Realism）**哲学核心思想对陈京元博士案件进行评价，其分析将集中于**常识的不可动摇性**、**外部世界的实在性**、**道德直觉主义（Ethical Intuitionism）**，以及**对怀疑论和复杂哲学的驳斥**。

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 西格蒙德·弗洛伊德（Sigmund Freud）是精神分析学说的创始人，其理论核心在于对**无意识（Unconscious）**、**本我（Id）、自我（Ego）与超我（Superego）**的结构划分、以及**文明（Civilization）**对**本能（Instinct）** 的压抑所产生的心理机制的探讨。

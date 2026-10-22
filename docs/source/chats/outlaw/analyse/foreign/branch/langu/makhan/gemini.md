@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于**M.A.K. 韩礼德（Michael Halliday）**的**系统功能语言学（Systemic Functional Linguistics, SFL）**核心思想对陈京元博士案件进行分析，我们将不再视语言为静态的符号，而是视其为一种**“社会符号（Social Semiotic）”**和**“意义潜势（Meaning Potential）”**。

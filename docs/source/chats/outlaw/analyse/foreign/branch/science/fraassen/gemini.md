@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于**范·弗拉森（Bas van Fraassen）**的**建构经验论（Constructive Empiricism）**哲学核心思想对陈京元博士案件进行评价，其分析将完全集中于**“可观察的现象”（Observable Phenomena）**与**“理论”**（即法院的定罪逻辑）之间的关系。

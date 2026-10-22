@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 乔纳森·海特（Jonathan Haidt）是当代社会心理学和道德心理学的领军人物，其核心贡献包括 **社会直觉主义模型（Social Intuitionist Model）** 和 **道德基础理论（Moral Foundations Theory, MFT）**。海特的理论指出：**道德判断主要源于直觉（情感），而理性思考往往是事后为直觉辩护的“骑象人”为“大象”寻找理由。**

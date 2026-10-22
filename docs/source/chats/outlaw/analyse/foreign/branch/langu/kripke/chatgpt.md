@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于索尔·克里普克（Saul Kripke）分析哲学核心思想对陈京元博士案件的评价

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于罗伯特·布兰顿（Robert Brandom）的语言哲学核心思想来评价陈京元博士案件，需要将关注点从传统的“意图”或“真值”转移到 **“规范性”（Normativity）**和**“理由给予与寻求的社会实践”（The Social Practice of Giving and Asking for Reasons）**。
