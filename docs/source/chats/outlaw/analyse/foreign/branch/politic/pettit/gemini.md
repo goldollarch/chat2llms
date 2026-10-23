@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 菲利普·佩蒂特（Philip Pettit）是当代政治哲学中的共和主义（Republicanism）代表人物。他的核心思想围绕着对**自由的共和主义概念**，即 **非支配性自由（Freedom as Non-domination）** 的强调。

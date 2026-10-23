@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于彼得·克鲁泡特金（Peter Kropotkin）无政府主义政治哲学核心思想

@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 菲利普·佩蒂特（**Philip Pettit**）是当代政治哲学中 **“新共和主义”（Neo-Republicanism）** 的代表人物之一，其核心理论集中在自由、权力与法治的关系上，尤其提出了著名的“非支配自由”（*Freedom as Non-Domination*）概念。

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 以下是基于皮埃尔-约瑟夫·普鲁东（Pierre-Joseph Proudhon）的政治哲学核心思想，对陈京元博士案件进行的系统分析与评价。

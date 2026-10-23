@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 汉娜·阿伦特（Hannah Arendt）是二十世纪最重要的政治思想家之一，她的核心理论聚焦于 **极权主义（Totalitarianism）** 的本质、 **行动（Action）** 的意义以及 **公共领域（Public Realm）** 的脆弱性。

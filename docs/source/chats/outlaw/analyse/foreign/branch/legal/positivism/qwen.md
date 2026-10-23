@@ -1,4 +1,5 @@
-Qwen
+# Qwen
+
 ----
 
 从**分析实证主义法哲学**（Analytical Legal Positivism）的理论视角出发，陈京元博士一案可被严格置于“**法律与道德分离**”“**法律有效性取决于社会事实而非内容正义**”“**规则体系的清晰性与可预测性**”等核心命题下进行评价。该理论以**杰里米·边沁**（Jeremy Bentham）、**约翰·奥斯丁**（John Austin）、**H. L. A. 哈特**（H. L. A. Hart）及**约瑟夫·拉兹**（Joseph Raz）为代表，主张：**法律是什么**（what the law is），而非**法律应当是什么**（what it ought to be）。

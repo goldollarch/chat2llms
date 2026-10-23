@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 ### Analysis and Commentary on the Chen Jingyuan Case through Avishai Margalit's Core Ideas in the Philosophy of a Decent Society

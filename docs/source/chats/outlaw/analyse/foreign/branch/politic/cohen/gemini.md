@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 G.A. 柯恩（G.A. Cohen）是当代分析马克思主义（Analytical Marxism）和政治哲学的重要代表人物，以其对 **正义、平等和共同体（Community）** 的深刻探讨而著称。他的核心思想强调：

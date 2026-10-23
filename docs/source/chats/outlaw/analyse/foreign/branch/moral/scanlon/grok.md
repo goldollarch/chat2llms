@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 An Evaluation of Dr. Chen Jingyuan's Case from T.M. Scanlon's Contractualist Moral Theory Perspective

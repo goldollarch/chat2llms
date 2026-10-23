@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 彼得·辛格（Peter Singer）是当代最著名的功利主义（Utilitarianism）和应用伦理学家，他的道德哲学核心是 **“平等的利益考量原则”（Principle of Equal Consideration of Interests）** 和 **后果主义（Consequentialism）**。

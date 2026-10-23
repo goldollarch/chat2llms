@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于无政府主义（Anarchism）政治哲学视角

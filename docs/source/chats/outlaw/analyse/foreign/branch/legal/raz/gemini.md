@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 约瑟夫·拉兹（Joseph Raz）是当代著名的法律哲学家，是法律实证主义的重要代表人物，也是赫伯特·哈特（H. L. A. Hart）理论的继承和发展者。拉兹的核心思想是 **“社会渊源论”（The Social Thesis, 或 Source Thesis）** 和 **“权威理论”（Authority Theory）**。

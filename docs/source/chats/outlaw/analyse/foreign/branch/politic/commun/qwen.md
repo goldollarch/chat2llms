@@ -1,4 +1,5 @@
-Qwen
+# Qwen
+
 ----
 
 从**社群主义**（Communitarianism）的视角出发，陈京元博士一案可被置于对**个体与共同体关系、公共善**（common good）等核心命题的反思框架中加以审视。社群主义——以阿拉斯代尔·麦金泰尔（Alasdair MacIntyre）、查尔斯·泰勒（Charles Taylor）、迈克尔·桑德尔（Michael Sandel）和迈克尔·沃尔泽（Michael Walzer）为代表——批判自由主义将个体视为“无牵无挂的自我”（unencumbered self），强调：**人的身份、价值与道德判断，始终嵌入于特定的历史、文化与社群脉络之中；真正的自由，不是脱离共同体的孤立选择，而是在共同体中实现自我与公共善的统一**。

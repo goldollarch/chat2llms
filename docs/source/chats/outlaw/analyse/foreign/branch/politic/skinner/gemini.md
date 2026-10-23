@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于**昆廷·斯金纳（Quentin Skinner）**的哲学核心思想对陈京元博士案件进行评价，其分析将集中于**语言的语境、政治行动的言语行为（illocutionary force）**，以及 **自由作为“非专断统治”（Liberty as Non-Domination）** 的共和主义视角。

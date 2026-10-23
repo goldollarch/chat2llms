@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以**分析实证主义法哲学（Analytical Legal Positivism）**的理论框架来评价**陈京元博士案件**，

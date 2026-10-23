@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 以下是基于马库斯·图利乌斯·西塞罗（Marcus Tullius Cicero）的法律哲学核心思想，对陈京元博士案件进行的系统分析与评价。

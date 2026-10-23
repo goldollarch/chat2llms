@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 以下是基于欧根·埃利希（Eugen Ehrlich）的社会学法学（Sociology of Law）理论视角，对陈京元博士案件进行的系统分析与评价。

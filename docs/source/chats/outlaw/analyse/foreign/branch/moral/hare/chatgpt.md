@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于R. M. 黑尔（R. M. Hare）“规定主义”（Prescriptivism）元伦理学视角对陈京元博士案件的哲学分析

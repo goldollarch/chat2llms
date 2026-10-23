@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 乔治·爱德华·摩尔（G. E. Moore）是分析哲学和元伦理学史上的关键人物，他的道德哲学核心是 **直觉主义（Intuitionism）** 和对 **自然主义谬误（Naturalistic Fallacy）** 的批判。

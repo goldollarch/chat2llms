@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 约翰·菲尼斯（John Finnis）的新自然法理论（New Natural Law Theory）则是一种**道德和理性**导向的理论，其核心思想是：**人类福祉**依赖于一系列**不可化约的基本善（Basic Goods）**，而法律的最高目标是通过**实践理性（Practical Reasonableness）**的要求来服务和促进这些基本善，从而实现**共同利益（Common Good）**。

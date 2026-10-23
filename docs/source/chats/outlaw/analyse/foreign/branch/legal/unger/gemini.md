@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 以下是基于批判法学理论（Critical Legal Studies, CLS）的核心思想，对陈京元博士案件进行的系统分析与评价。
