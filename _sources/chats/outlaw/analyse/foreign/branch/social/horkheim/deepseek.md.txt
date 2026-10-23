@@ -1,4 +1,5 @@
-Deepseek
+# Deepseek
+
 --------
 
 以下从**马克斯·霍克海默（Max Horkheimer）** 的批判理论视角对陈京元博士案件进行分析。作为法兰克福学派的奠基人，霍克海默的思想核心是对 **“工具理性”**（Instrumental Reason）的批判、对 **“启蒙辩证法”**（Dialectic of Enlightenment）的揭示以及对 **“权威人格”**（Authoritarian Personality）的剖析。他的视角将帮助我们穿透此案的法律表象，揭示其作为**理性自我毁灭的症候**、**权威对批判的镇压**以及**社会整体非理性化**的深刻悲剧。

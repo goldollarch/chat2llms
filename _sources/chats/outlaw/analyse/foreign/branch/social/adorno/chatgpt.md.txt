@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇以 **西奥多·阿多诺（Theodor W. Adorno）** 的 **批判理论（Critical Theory）** 视角，对 **陈京元博士案件** 进行的系统性哲学分析与社会评估。

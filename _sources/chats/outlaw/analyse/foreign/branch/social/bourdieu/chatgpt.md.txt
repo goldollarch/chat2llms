@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于皮埃尔·布尔迪厄（Pierre Bourdieu）社会哲学核心思想

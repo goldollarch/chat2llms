@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 From Émile Durkheim’s Sociological Perspective: Analysis of the Chen Jingyuan Case

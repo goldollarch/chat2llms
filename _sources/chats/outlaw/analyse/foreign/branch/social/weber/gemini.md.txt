@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 基于马克斯·韦伯（Max Weber）的社会学和法理学核心思想，对陈京元博士案件的评价，将主要围绕 **“理性化”（Rationalization）** 进程的后果、**“法理型权威”（Rational-Legal Authority）** 的运作以及 **“官僚制”（Bureaucracy）** 与 **“实质理性”（Substantive Rationality）** 的冲突展开。

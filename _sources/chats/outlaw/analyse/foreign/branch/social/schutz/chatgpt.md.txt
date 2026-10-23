@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于阿尔弗雷德·舒茨（Alfred Schütz）现象学社会哲学的核心思想

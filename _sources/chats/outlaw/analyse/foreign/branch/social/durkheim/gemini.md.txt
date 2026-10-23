@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 埃米尔·涂尔干（Émile Durkheim）是法国社会学家，与卡尔·马克思、马克斯·韦伯并称为社会学的三大奠基人。他的核心理论关注**社会秩序、社会团结（Social Solidarity）**以及**集体意识（Collective Conscience）**。

@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 ### The Heresy of the Intellect
