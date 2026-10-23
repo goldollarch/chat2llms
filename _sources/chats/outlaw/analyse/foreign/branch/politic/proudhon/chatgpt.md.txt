@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于皮埃尔·约瑟夫·普鲁东（Pierre-Joseph Proudhon）政治哲学的视角  

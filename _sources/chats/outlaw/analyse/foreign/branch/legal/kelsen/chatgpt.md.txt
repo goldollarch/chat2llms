@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以 **汉斯·凯尔森（Hans Kelsen, 1881–1973）** 的 **“纯粹法学理论”（*Reine Rechtslehre*, Pure Theory of Law）** 视角来分析**陈京元博士案件**，我们就进入了法哲学中最纯粹的“法律自足性”与“规范层级秩序”讨论。

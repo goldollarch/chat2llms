@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于索尔·纽曼（Saul Newman）后结构主义无政府主义哲学

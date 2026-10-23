@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 托马斯·斯坎伦（Thomas M. Scanlon, 1940– ）是当代英语世界中最具影响力的道德哲学家之一，其代表作《我们彼此应得的理由》（*What We Owe to Each Other*, 1998）开创了 **契约主义（Contractualism）** 的现代形式。

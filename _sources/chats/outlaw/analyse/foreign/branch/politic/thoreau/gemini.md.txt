@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 亨利·大卫·梭罗（Henry David Thoreau）是美国超验主义哲学家、作家，他以其在《论公民不服从》（*Civil Disobedience*）中提出的思想而闻名。梭罗的政治哲学核心是**个体良心（Individual Conscience）的至高无上性**以及**对不义政府的非暴力抵抗**。

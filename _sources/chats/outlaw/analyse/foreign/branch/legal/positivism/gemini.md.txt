@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 分析实证主义法哲学（Analytical Legal Positivism）是一个涵盖了以约翰·奥斯丁（John Austin）、赫伯特·哈特（H. L. A. Hart）和部分汉斯·凯尔森（Hans Kelsen）为代表的流派。其核心关注点是**法律是什么（Is Law）**，而不是**法律应该是什么（Ought Law）**。它致力于对法律概念、术语、结构和规则的逻辑分析。

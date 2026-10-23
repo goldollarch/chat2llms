@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 迈克尔·桑德尔（**Michael Sandel**）是当代最具影响力的政治哲学家之一，他以对**自由主义的批判**、对**社群性善**与**道德参与政治**的强调而著称。其代表作《自由主义及正义的局限》（*Liberalism and the Limits of Justice*, 1982）与《公正：该如何做是好？》（*Justice: What’s the Right Thing to Do?*, 2009）构成了对约翰·罗尔斯等“程序正义”模式的重要修正。

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 伊丽莎白·安斯康姆（G. E. M. Anscombe）是二十世纪重要的道德哲学家，是 **美德伦理学（Virtue Ethics）** 复兴的奠基人，她的核心思想强调：

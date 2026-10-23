@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 罗伯特·诺齐克（Robert Nozick）是当代自由意志主义（Libertarianism）的代表人物，其政治哲学核心是**权利理论**和 **最小国家（Minimal State）** 概念。

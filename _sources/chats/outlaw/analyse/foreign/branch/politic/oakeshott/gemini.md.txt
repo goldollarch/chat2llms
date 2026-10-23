@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 迈克尔·奥克肖特（Michael Oakeshott）是二十世纪英国最重要的保守主义政治哲学家之一。他的核心思想围绕着对 **政治理性主义（Rationalism in Politics）** 的批判、对 **实践知识（Practical Knowledge）** 的强调、以及对 **“市民社团”（Civil Association）** 的独特理解。

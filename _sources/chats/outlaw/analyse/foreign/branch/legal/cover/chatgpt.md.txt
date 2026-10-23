@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以美国当代法哲学家 **罗伯特·M·卡沃（Robert M. Cover, 1943–1986）** 的思想来审视 **陈京元博士案件**，我们就进入了一个兼具**叙事学（narrative）**、**法的暴力性（violence of law）** 与 **规范多元性（normative pluralism）** 的独特理论视角。

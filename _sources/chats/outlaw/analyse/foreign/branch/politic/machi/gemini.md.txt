@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 尼科洛·马基雅维里（Niccolò Machiavelli）是文艺复兴时期最重要的政治思想家，他的哲学核心集中于**现实主义政治（Political Realism）**、**权力（Power）的获取与维持**以及**政治道德（Political Morality）**与**私人道德**的分离。

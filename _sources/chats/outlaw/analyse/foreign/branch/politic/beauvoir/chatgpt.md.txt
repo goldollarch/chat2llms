@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 ---------
 
 基于西蒙娜·德·波伏娃（Simone de Beauvoir）政治哲学核心思想对陈京元博士案件的分析  

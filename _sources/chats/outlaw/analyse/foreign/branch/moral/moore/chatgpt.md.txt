@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 G. E. Moore（乔治·爱德华·摩尔，1873–1958）是20世纪初英国 **分析哲学（Analytic Philosophy）**与**元伦理学（Meta-ethics）** 的奠基者之一。他在代表作《伦理学原理》（*Principia Ethica*, 1903）中，提出了极具影响力的“**善的不可定义性（The indefinability of ‘Good’）**”与“**自然主义谬误（Naturalistic Fallacy）**”的概念，从而奠定了现代道德哲学关于“价值判断如何可能”的理论框架。

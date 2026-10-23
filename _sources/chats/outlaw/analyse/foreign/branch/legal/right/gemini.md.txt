@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 当代法权哲学（Philosophy of Right）是一个涵盖广泛的领域，它继承了康德和黑格尔的传统，但更侧重于对**权利（Rights）、自由（Liberty）、正义（Justice）以及国家权力合法性**的现代分析。它寻求在**实在法**（Positiv Law）与**道德正义**之间架起桥梁。

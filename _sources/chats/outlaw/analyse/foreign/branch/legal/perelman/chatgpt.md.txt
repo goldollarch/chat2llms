@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 “**新修辞学法学（The New Rhetoric in Legal Philosophy）**”以 **查伊佩罗（Chaïm Perelman）** 与 **吕西·奥尔布雷希特-泰特卡（Lucie Olbrechts-Tyteca）** 为代表，后来经 **佩雷尔曼（Perelman）** 发展成为现代法理学中的“说服性理性理论”。

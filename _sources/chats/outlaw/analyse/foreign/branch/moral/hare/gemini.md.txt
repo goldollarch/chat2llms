@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 以下是基于R.M.黑尔（R. M. Hare）的“规定主义”（Prescriptivism）元伦理学核心思想，对陈京元博士案件进行的系统分析与评价。

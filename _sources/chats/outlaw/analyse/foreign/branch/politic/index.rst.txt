@@ -191,6 +191,11 @@
  .. toctree::
     :maxdepth: 1
 
+    bakunin/index
+
+ .. toctree::
+    :maxdepth: 1
+
     stirner/index
 
  .. toctree::

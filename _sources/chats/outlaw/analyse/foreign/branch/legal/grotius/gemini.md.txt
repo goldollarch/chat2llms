@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 胡果·格劳秀斯（Hugo Grotius）是十七世纪著名的法学家，被誉为**国际法之父**。他的法律哲学核心是 **理性自然法（Rational Natural Law）** 理论，强调即使“上帝不存在”（*Etsi Deus non daretur*），自然法也依然有效。格劳秀斯认为，人类的本质是**社会性**（*appetitus societatis*），自然法源于人类的理性要求，即**维护社会秩序**和**尊重他人的权利**。

@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 德里克·帕菲特（Derek Parfit）是当代最具有影响力的道德哲学家之一，他的道德哲学以其对 **个人同一性（Personal Identity）**、 **非个人化（Impersonal）** 的道德理论以及 **后果主义（Consequentialism）** 的修正而著称。他的核心目标是寻求一个 **客观、理性的、普遍接受的** 道德理论。

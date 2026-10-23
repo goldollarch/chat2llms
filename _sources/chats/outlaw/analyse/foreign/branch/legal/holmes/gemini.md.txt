@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 奥利弗·温德尔·霍姆斯（Oliver Wendell Holmes Jr.）是美国法律思想史上最重要的人物之一，被誉为 **法律现实主义（Legal Realism）** 的先驱。他的核心思想体现在其著名的“恶人理论”（Bad Man Theory）和对法律本质的定义中：**“法律的生命不在于逻辑，而在于经验。”**

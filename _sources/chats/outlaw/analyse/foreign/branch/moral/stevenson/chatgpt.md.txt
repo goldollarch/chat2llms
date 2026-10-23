@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 C. L. 史蒂文森（Charles Leslie Stevenson, 1908–1979）是**情感主义伦理学（Emotivism）**的代表人物之一，他继承并发展了A.J.艾耶尔的元伦理学立场，提出了“**情感表达论（the emotive theory of ethics）**”和“**劝服性定义（persuasive definition）**”等核心概念。史蒂文森的道德哲学主要关切的是：**道德语言并非单纯陈述事实，而是情感态度的表达与影响他人的手段**。

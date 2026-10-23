@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 伯纳德·威廉姆斯（Bernard Williams）是二十世纪下半叶最重要的英国伦理学家和政治哲学家之一。他的核心思想以其**道德哲学中的现实主义（Moral Realism）**、对**道德运气（Moral Luck）**的探讨以及对**政治自由主义**的批判而著称。他强调政治的 **“首要的、基本的自由主义要求”（The First Political Question）**，即**建立合法的秩序**。

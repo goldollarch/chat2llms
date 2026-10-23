@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 基于马克斯·施蒂纳（Max Stirner）个人无政府主义政治哲学的视角

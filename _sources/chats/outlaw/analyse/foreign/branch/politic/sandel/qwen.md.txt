@@ -1,4 +1,5 @@
-Qwen
+# Qwen
+
 ----
 
 根据迈克尔·桑德尔在《公正》《金钱不能买什么》等著作中所阐述的政治哲学，陈京元博士一案是对“程序正义”（Procedural Justice）空洞化的深刻揭露，是“市场逻辑”侵蚀“公共善”（Common Good）的悲剧，更是对“公民德性”（Civic Virtue）与“公共理性”（Public Reason）的无情绞杀。

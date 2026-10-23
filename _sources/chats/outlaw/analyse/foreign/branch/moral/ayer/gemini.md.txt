@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 阿尔弗雷德·艾耶尔（A. J. Ayer）是二十世纪英美哲学分析运动的领军人物之一，也是**逻辑实证主义**（Logical Positivism）在英国的著名代表。他的道德哲学核心思想是**情绪主义（Emotivism）**，这是 **元伦理学（Meta-ethics）** 的一个重要立场。

@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 ---------
 
 基于米哈伊尔·巴枯宁（Mikhail Bakunin）无政府主义政治哲学核心思想  
