@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 查尔斯·泰勒（Charles Taylor）的现代性批判和“承认政治”（Politics of Recognition）理论，将**身份认同（Identity）**视为一种**对话性（Dialogical）**和**社会构建**的产物。他认为，**承认（Recognition）**是一种“至关重要的人类需求”，**“错误承认”（Misrecognition）或“不承认”（Nonrecognition）**会对个人造成**“真正的伤害、真正的扭曲”**，构成一种**压迫形式**。

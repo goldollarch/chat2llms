@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 阿克塞尔·霍耐特（Axel Honneth）是法兰克福学派第三代批判理论的核心人物。他的**承认理论（Theory of Recognition）**的核心思想是：**社会冲突的根本驱动力是“为承认而斗争”（Struggle for Recognition）**。人类要建立一个健康的**自我关系（Self-relation）**和**完整的人格认同（Identity）**，必须在主体间关系中获得**三种基本形式的承认**。

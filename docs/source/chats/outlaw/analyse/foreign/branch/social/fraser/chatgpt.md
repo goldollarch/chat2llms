@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇基于 **南茜·弗雷泽（Nancy Fraser）** 的批判理论（Critical Theory）与社会正义哲学的系统性分析，对 **陈京元博士案件** 的深度学术评价。

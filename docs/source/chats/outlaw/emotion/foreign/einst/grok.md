@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 ### A Reflection on the Chen Jingyuan Case in the Spirit of Einstein's Worldview

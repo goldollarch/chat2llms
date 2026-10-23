@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇基于 **阿马蒂亚·森（Amartya Sen）** 的理论视角，特别是其“**能力方法（Capability Approach）**”与“**自由即发展（Freedom as Development）**”核心思想，对 **陈京元博士案件** 所作的系统性分析与哲学评估。

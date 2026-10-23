@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 安东尼·吉登斯（Anthony Giddens, 1938–）是当代社会学最具影响力的思想家之一，其核心贡献是提出了**结构化理论（Structuration Theory）**，系统打破了传统社会学中“结构决定论”（structural determinism）与“个人能动性”（individual agency）之间的二元对立。

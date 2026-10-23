@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇基于 **阿克塞尔·霍耐特（Axel Honneth）** 的 **“承认理论”（Recognition Theory）** 的系统性分析，对 **陈京元博士案件** 的社会哲学与道德评估。

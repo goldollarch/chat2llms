@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ------
 
 ### A Reflection from Beyond the Stars: Galileo Galilei on Dr. Chen Jingyuan's Defiance

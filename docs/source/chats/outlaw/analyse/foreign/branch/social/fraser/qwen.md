@@ -1,4 +1,5 @@
-Qwen
+# Qwen
+
 ----
 
 从**南茜·弗雷泽**（Nancy Fraser）的批判理论视角出发，陈京元博士一案可被置于其核心分析框架——**正义的三维结构**（redistribution, recognition, representation）——以及她对**公共领域再封建化**（re-feudalization of the public sphere）、**反话语排斥**（discursive exclusion）与**民主合法性危机**的深刻批判中加以审视。弗雷泽强调，真正的社会正义不仅要求物质再分配的公平，更要求**文化承认的平等**与**政治代表权的包容**；而当国家权力压制异议、垄断话语权、将公共讨论私有化或政治化时，民主的根基便遭到系统性侵蚀。

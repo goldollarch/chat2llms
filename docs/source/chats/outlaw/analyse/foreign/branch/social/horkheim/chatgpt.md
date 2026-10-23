@@ -1,4 +1,5 @@
-ChatGPT
+# ChatGPT
+
 -------
 
 以下是一篇基于 **马克斯·霍克海默（Max Horkheimer）** 的 **批判理论（Critical Theory）** 核心思想，对 **陈京元博士案件** 进行的系统性哲学分析与社会评价。

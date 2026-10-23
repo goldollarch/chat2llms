@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 阿马蒂亚·森（Amartya Sen）的核心思想集中于**能力进路（Capability Approach）**，并在其著作《以自由看待发展》（*Development as Freedom*）中提出：**发展即自由（Development as Freedom）**。他认为，衡量个体和社会进步的最终标准，不是GDP、收入或效用，而是人们享有的 **“实质自由”（Substantive Freedom）**，即人们拥有 **“过他们有理由珍视的生活所需要的可行能力”（Capabilities）**。

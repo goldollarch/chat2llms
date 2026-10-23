@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 南茜·弗雷泽（Nancy Fraser）是美国政治哲学家和批判理论家，她的理论致力于**将正义的概念扩展到三个维度**：**再分配（Redistribution）、承认（Recognition）和代表（Representation）**，并对**资本主义**作为一种制度化社会秩序的**多维度危机倾向**进行批判。

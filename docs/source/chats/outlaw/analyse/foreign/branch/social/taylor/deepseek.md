@@ -1,4 +1,5 @@
-Deepseek
+# Deepseek
+
 --------
 
 以下从**查尔斯·泰勒（Charles Taylor）** 的哲学视角对陈京元博士案件进行分析。泰勒的思想深邃而富有人文关怀，其核心关切包括 **“本真性”**（Authenticity）、**“承认的政治”**（Politics of Recognition）、**“社会想象”**（Social Imaginary）以及**现代性中的“框架”**（Framework）与**道德根源**（Moral Sources）。此视角将帮助我们理解此案中**个体身份的毁灭性否定**、**社会道德视野的狭隘化**以及**人类基本尊严所遭遇的深刻伤害**。

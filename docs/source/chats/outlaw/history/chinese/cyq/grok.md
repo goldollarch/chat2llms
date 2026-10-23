@@ -1,4 +1,5 @@
-Grok
+# Grok
+
 ----
 
 ### An Evaluation of the Chen Jingyuan Case Based on Chen Yinke's Historical and Philosophical Views

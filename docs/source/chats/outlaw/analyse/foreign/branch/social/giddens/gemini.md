@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 安东尼·吉登斯（Anthony Giddens）是英国社会学家，其核心贡献是**结构化理论（Structuration Theory）**。该理论旨在超越社会学中长期存在的 **“结构”与“行动”**的二元对立，主张两者是相互依赖、相互构成的关系，即**“结构的二重性”（Duality of Structure）**。结构既是行动的**约束（Constraint）**，也是行动的**赋权（Enablement）**，而行动则在不断地 **再生产（Reproduction）**或**转型（Transformation）** 结构。

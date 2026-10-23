@@ -1,4 +1,5 @@
-Qwen
+# Qwen
+
 ----
 
 从**阿克塞尔·霍耐特**（Axel Honneth）的**承认理论**（Recognition Theory）出发，陈京元博士一案可被深刻理解为一场**系统性承认剥夺**（denial of recognition）的悲剧。霍耐特认为，个体的自我认同与社会尊严并非孤立形成，而是依赖于他人与社会制度在三个基本维度上的**承认**（Anerkennung）：  

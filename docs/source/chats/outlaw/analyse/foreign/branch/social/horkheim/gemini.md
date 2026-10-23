@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 马克斯·霍克海默（Max Horkheimer）是法兰克福学派的奠基人之一，也是“批判理论”这一术语的主要提出者。他的核心思想集中于对**理性（Reason）的批判**，尤其是在其与泰奥多尔·阿多诺合著的《启蒙辩证法》（*Dialectic of Enlightenment*）中，提出了 **“工具理性”（Instrumental Reason）** 的主导地位及其对现代社会的异化作用。

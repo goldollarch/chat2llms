@@ -1,4 +1,5 @@
-Gemini
+# Gemini
+
 ------
 
 西奥多·阿多诺（Theodor W. Adorno）是法兰克福学派的核心成员，是著名的哲学家、社会学家和批判理论家。他的核心思想在于对**启蒙辩证法**、**工具理性（Instrumental Reason）**、 **文化工业（Culture Industry）**以及**否定性辩证法（Negative Dialectics）** 的批判。
