@@ -1,0 +1,957 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepseek &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Qwen" href="qwen.html" />
+    <link rel="prev" title="ChatGPT" href="chatgpt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">传统中国</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../person/index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../school/index.html">百家</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">传统中国</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">主流</a></li>
+          <li class="breadcrumb-item"><a href="index.html">现儒</a></li>
+      <li class="breadcrumb-item active">Deepseek</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/chinese/main/neo/deepseek.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="deepseek">
+<h1>Deepseek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h1>
+<section id="id1">
+<h2>以现代新儒学观陈京元案_要点<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>要点整理 · 配合全文《以现代新儒学观陈京元案》使用</p>
+<p>分析对象：（2023）云0112刑初57号判决、（2023）云01刑终310号裁定
+分析路径：正名之链 · 王霸之辨 · 政道治道 · 三统之说 · 良知坎陷
+文本性质：思想评论，非法律意见；事实以随案文书为限</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id2">
+<h3>一、用孔子那条链条做诊断<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>《论语·子路》那六句常被当作语言学命题，其实是政治哲学命题：</p>
+<blockquote>
+<div><p>名不正，则言不顺；言不顺，则事不成；事不成，则礼乐不兴；礼乐不兴，则刑罚不中；刑罚不中，则民无所措手足。</p>
+</div></blockquote>
+<p>用本案逐环核对，会发现几乎不用改动：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>孔子的六环</p></th>
+<th class="head"><p>本案的对应</p></th>
+<th class="head"><p>后果</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>名不正</p></td>
+<td><p>把“转发”命名为“滋事”，把“观点”命名为“虚假信息”</p></td>
+<td><p>罪名脱离行为类型</p></td>
+</tr>
+<tr class="row-odd"><td><p>言不顺</p></td>
+<td><p>检察官“我觉得是谣言，它就是谣言”——言者自弃其言</p></td>
+<td><p>定义权与事实脱钩</p></td>
+</tr>
+<tr class="row-even"><td><p>事不成</p></td>
+<td><p>“严重混乱”四栏皆空，以“经梳理”三字代之</p></td>
+<td><p>后果未经证明</p></td>
+</tr>
+<tr class="row-odd"><td><p>礼乐不兴</p></td>
+<td><p>不公开、不开庭、不许自辩（程序即现代之“礼”）</p></td>
+<td><p>程序节度尽失</p></td>
+</tr>
+<tr class="row-even"><td><p>刑罚不中</p></td>
+<td><p>二十个月对不足百人的转发</p></td>
+<td><p>罪与刑不相称</p></td>
+</tr>
+<tr class="row-odd"><td><p>民无所措手足</p></td>
+<td><p>读书人无法预知自身安全</p></td>
+<td><p>寒蝉效应</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h3>二、王霸之辨：<strong>“以法为霸”，不是“无法无天”</strong><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>《孟子·公孙丑上》：“以力假仁者霸”，关键在 <strong>“假”</strong> 字。</p>
+<p>本案的“假”有三重证据：</p>
+<ul class="simple">
+<li><p><strong>形式的假借</strong>——文书一应俱全（起诉书、判决书、裁定书、法条引用、证据清单、合议庭署名）</p></li>
+<li><p><strong>道德的假借</strong>——“应辨别是非”是儒家语汇，却被改造成归责标准</p></li>
+<li><p><strong>目的的假借</strong>——以公共安全之名，行“不可控言论”之判</p></li>
+</ul>
+<p>这样定性比“无法无天”更准确，也更难对付：它没留下“违法”的把柄，只留下“论证不足”的空白。</p>
+<p>而它仍须借德与法的名，说明它知道自己缺正当性——<strong>借得越用力，越说明欠缺</strong>。</p>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h3>三、政道与治道：<strong>定义权即主权</strong><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>牟宗三“有治道无政道”在此精确落刀。</p>
+<ul class="simple">
+<li><p><strong>治道层面</strong>，本案相当熟练：取轻罪名、文书完整、二审以阅卷讯问替代开庭</p></li>
+<li><p><strong>政道层面</strong>，完全沉默：“谁有权认定转发是犯罪”从未被提出，被“是否符合第 293 条”替换掉了</p></li>
+</ul>
+<p>那句“我觉得是谣言，它就是谣言”的哲学意义正在此：<strong>它把定义权直接等同于主权</strong>。在政道已立之处，定义权由证据规则、举证责任、审级分派；在政道未立之处，定义权归属于位置。</p>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h3>四、三统俱伤，而学统伤得最隐蔽<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>“高学历”在判决里被用了两次：</p>
+<ol class="arabic simple">
+<li><p>既证明 <strong>“有能力辨别”</strong> （学统）</p></li>
+<li><p>又证明 <strong>“应当辨别”</strong> （道统）</p></li>
+</ol>
+<p>一个事实拆成两半，一半补故意的漏洞，一半补过失的漏洞——而这两个漏洞本互斥：</p>
+<blockquote>
+<div><p>若确知，无需论应知；若不知而应知，则属过失，而过失不成立本罪。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h3>五、良知坎陷的反面<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p><strong>坎陷</strong>是良知自我限制，让出制度空间。</p>
+<p>本案是权力<strong>拒绝</strong>限制，要求良知直接服从（“闭嘴”“回答是或不是”）。</p>
+<p>所以血书不是儒家的光荣，而是<strong>理论的失败证据</strong>：制度通道全关之后，良知只能退回“体”的直接呈现——血、肉身、痛感。</p>
+<blockquote>
+<div><p>本应由良知开出制度，结果良知只能以肉身对抗制度。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h3>六、对新儒学自身的一刀<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<p>这是全文最不客气的地方。</p>
+<p>本案最刺人的一句 <strong>“应辨别是非”，恰恰是儒家的语言</strong>。同一个词，从“自省”翻成“定罪”——你总不能反驳说“我不该辨别是非”。</p>
+<p>由此得出一个判断：</p>
+<blockquote>
+<div><p>道统若不经学统、政统客观化，它不仅开不出外王，还会被外王拿去当装饰。</p>
+</div></blockquote>
+<p>所以<strong>不能说“儒家能救法治”</strong>；正确的关系是分工：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>问题</p></th>
+<th class="head"><p>承担者</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>为什么会这样</p></td>
+<td><p>新儒学</p></td>
+</tr>
+<tr class="row-odd"><td><p>应当怎么办</p></td>
+<td><p>法教义学</p></td>
+</tr>
+</tbody>
+</table>
+<p>混用两者，一边得到漂亮的道德批评而无一份可用的文书，另一边得到技术正确却不知病症所在的意见书。</p>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h3>七、判词（仿《春秋》笔法收束）<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>名不正矣——以转发为滋事，以观点为虚言；
+言不顺矣——“我觉得是谣言”，则言者自弃其言；
+事不成矣——四栏皆空，而以三字代之曰“经梳理”；
+礼不兴矣——不公开、不开庭、不许辩；
+刑罚不中矣——二十月之刑，加于百人之听。</p>
+<p>六者俱失，而狱成焉。</p>
+</div></blockquote>
+<p>故曰：</p>
+<blockquote>
+<div><p>此非一吏之失，亦非法之失；乃政道之失，道统之失。
+法者器也，仁者本也；器无本则僵，本无器则虚。
+今以器为政而本不立，故其器愈备，其失愈甚。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h3>说明<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>事实</strong>一律以随案文书为限（92 粉丝、二十个月、“经梳理”等），未作任何补充。</p></li>
+<li><p><strong>引文</strong>只用确有出处的（《论语》《孟子》《左传》、牟宗三“政道治道”与“三统”、熊十力“体用不二”、冯友兰四境界），未编造页码或原话。</p></li>
+<li><p>全文刻意不写成“儒家救世”的颂词，第八章即是自我批评。</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h3>附：可继续推进的一步<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>把 <strong>“正名”六环做成可检索的要件对照表</strong>，与法教义学的四要件并列——那会是一份能直接用于申诉材料的双重论证结构。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>法教义学要件</p></th>
+<th class="head"><p>正名六环</p></th>
+<th class="head"><p>交集</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>行为（编造、散布）</p></td>
+<td><p>名不正</p></td>
+<td><p>行为类型是否落入罪名</p></td>
+</tr>
+<tr class="row-odd"><td><p>主观（明知）</p></td>
+<td><p>言不顺</p></td>
+<td><p>定义权与认识状态</p></td>
+</tr>
+<tr class="row-even"><td><p>结果（严重混乱）</p></td>
+<td><p>事不成</p></td>
+<td><p>后果的证明</p></td>
+</tr>
+<tr class="row-odd"><td><p>因果</p></td>
+<td><p>刑罚不中</p></td>
+<td><p>罪与刑的比例</p></td>
+</tr>
+<tr class="row-even"><td><p>—</p></td>
+<td><p>礼乐不兴</p></td>
+<td><p>程序</p></td>
+</tr>
+<tr class="row-odd"><td><p>—</p></td>
+<td><p>民无所措手足</p></td>
+<td><p>社会效果</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h2>现代新儒学视野下的陈京元案<a class="headerlink" href="#id11" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>以现代新儒学观
+正名 · 王霸 · 政道：一个案子的三层诊断
+依熊十力、牟宗三、徐复观、唐君毅、张君劢诸家义理</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>分析对象</strong>：(2023) 云 0112 刑初 57 号判决(2023) 云 01 刑终 310 号裁定</p></li>
+<li><p><strong>分析路径</strong>：正名之链 · 王霸之辨 · 政道治道 · 三统之说 · 良知坎陷</p></li>
+<li><p><strong>文本性质</strong>：思想评论，非法律意见；事实以文书为限</p></li>
+</ul>
+<hr class="docutils" />
+<section id="id12">
+<h3>导言：两种问法<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>同一个案子，可以问两个完全不同的问题。</p>
+<p>第一种问法是<strong>法教义学的问题</strong>：
+判决是否符合《刑法》第 293 条第 1 款第 4 项与两高解释第 5 条第 2 款的构成要件？答案在法条与卷宗之间，可以用要件表逐格核对。</p>
+<p>第二种问法是<strong>制度与心性的问题</strong>：
+一份具备了全部法律形式的判决，为什么能够脱离它自己声称依据的事实与道德？
+这不是条文解释的问题，而是：<strong>法律没有失灵，法律被使用了——用得非常熟练</strong>：引了法条、列了证据、写了理由、盖了章。失效的不是法律的技术，而是法律与道德的连接。</p>
+<p>现代新儒学处理的正是第二个问题。它的核心关切，并非如何恢复古礼，而是一个更困难的问题：**道德主体如何客观化为制度？**用牟宗三的话说：内圣如何“开出”外王。这个“开出”，既是一个纲领，也是一份承认——承认它尚未完成。</p>
+<blockquote>
+<div><p>因此本文不打算论证“儒家能救法治”。
+恰恰相反，本文要借这个案子说明一件事：
+<strong>道统若不经由学统与政统客观化，它的道德语言必被权力征用为修辞。</strong>
+本案最锋利的一处证据，恰恰是一句儒家式的话——“具有很高的学历和知识水平，应辨别是非”。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3>事实与判词：作为分析对象的文本<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>本文只使用文书中记载的内容，不作事实补充。</p>
+<section id="id14">
+<h4>表 1：本案的可核对事实<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>项目</p></th>
+<th class="head"><p>文书内容</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>当事人</p></td>
+<td><p>陈京元，博士研究生文化，无业；案发前在社交平台推特设有账号</p></td>
+</tr>
+<tr class="row-odd"><td><p>平台规模</p></td>
+<td><p>关注者不足百人（材料记载为 92 人）；全部转发量推算五十至七十次</p></td>
+</tr>
+<tr class="row-even"><td><p>涉案行为</p></td>
+<td><p>2019 年 7 月至 2022 年 4 月，转发若干图片、漫画、演讲与学术文章</p></td>
+</tr>
+<tr class="row-odd"><td><p>指控罪名</p></td>
+<td><p>寻衅滋事罪，《刑法》第 293 条第 1 款第 4 项</p></td>
+</tr>
+<tr class="row-even"><td><p>定罪理由之一</p></td>
+<td><p>“被告具有很高的学历和知识水平，在使用境外聊天软件过程中应辨别是非”</p></td>
+</tr>
+<tr class="row-odd"><td><p>定罪理由之二</p></td>
+<td><p>“转发的内容经梳理均属于虚假信息”</p></td>
+</tr>
+<tr class="row-even"><td><p>定罪理由之三</p></td>
+<td><p>“造成公共秩序严重混乱”</p></td>
+</tr>
+<tr class="row-odd"><td><p>刑罚</p></td>
+<td><p>有期徒刑一年八个月；扣押电脑、手机、硬盘</p></td>
+</tr>
+<tr class="row-even"><td><p>程序</p></td>
+<td><p>一审不公开审理；二审不开庭，径行驳回上诉、维持原判</p></td>
+</tr>
+</tbody>
+</table>
+<p>三点需要特别指出，因为它们构成后文分析的支点：</p>
+<ol class="arabic simple">
+<li><p>判决把“学历”同时用作两个方向的证明：既证明行为人有能力辨别（故其转发是“明知”），又证明行为人应当辨别（故其未辨别即为过错）。同一个事实，补了两个相反的漏洞。</p></li>
+<li><p>判决把“侮辱、攻击国家领导核心”与“虚假信息”并置。前者是政治倾向的评价，后者是真假的判断。二者之间没有推导关系。</p></li>
+<li><p>对于“造成公共秩序严重混乱”，文书中没有传播量、没有现实后果、没有时间与地域关联，只有一句结论。</p></li>
+</ol>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h3>正名：孔子那条链条的现代重演<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>《论语·子路》：</p>
+<blockquote>
+<div><p>名不正，则言不顺；言不顺，则事不成；
+事不成，则礼乐不兴；礼乐不兴，则刑罚不中；
+刑罚不中，则民无所措手足。</p>
+</div></blockquote>
+<p>这六环是一条<strong>因果链</strong>，不是六个并列的告诫。
+孔子说的是：命名的失当会一路传导，最终落在刑罚的失当上，而刑罚失当的最后承受者是普通人的手足无措。</p>
+<p>把这个链条对着本案走一遍，会发现它几乎不需要改动。</p>
+<section id="id16">
+<h4>二·一 名不正：把“转发”命名为“滋事”<a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<p>“寻衅滋事”四字，在汉语中的原型是市井之间的挑斗：寻隙挑衅，酿成斗殴。
+它的行为图像是<strong>身体的、当下的、面对面的</strong>。
+而本案被命名的行为，是在屏幕上点一下按钮。</p>
+<p>这个命名不是描述，而是归类；而归类一旦完成，后续全部的论证都不再需要——因为罪名已经替事实说完了话。</p>
+<blockquote>
+<div><p>新儒学对“名”的重视，常被误解为对措辞的讲究。
+其实正名的要义在于：<strong>名是事实与规范之间的接口。</strong>
+名若虚设，规范就失去了适用对象，而适用者获得一种自由——
+他可以在任何一个具体行为上，套用任何一个足够宽的罪名。
+这就是“口袋”的哲学定义。</p>
+</div></blockquote>
+</section>
+<section id="id17">
+<h4>二·二 言不顺：“我觉得是谣言，它就是谣言”<a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<p>据材料记载，庭审中检察官就证据问题说过一句话：</p>
+<blockquote>
+<div><p>“我觉得是谣言，它就是谣言，无需核实。”</p>
+</div></blockquote>
+<p>从正名的角度看，这是一次“言”的自我取消。</p>
+<p>“言顺”的前提是<strong>言与事相应</strong>。
+当言者公开宣称自己的言不必与事相应，“言”就不再是言，而是命令。
+此时已无从讨论“顺”与“不顺”——因为讨论所需的共同标准，被言者本人取消了。</p>
+<p>这句话之所以令人不适，不在于它蛮横，而在于它诚实。
+它把整套判决的隐前提说了出来：<strong>定义权归属于权力，不归属于事实。</strong></p>
+</section>
+<section id="id18">
+<h4>二·三 事不成：四栏全空的“严重混乱”<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<p>“事不成”在孔子那里指政事无从成立。
+本案的对应物，是一个从未被查明却已被认定的后果。</p>
+<p>若要认定“公共秩序严重混乱”，通常需要四组事实：</p>
+<ul class="simple">
+<li><p>传播量</p></li>
+<li><p>传播结构</p></li>
+<li><p>现实后果</p></li>
+<li><p>时间与地域的关联</p></li>
+</ul>
+<p>文书中这四栏<strong>全部空白</strong>。</p>
+<p>这里出现一个奇特结构：
+不是先有事、后有罪名，而是<strong>先有罪名、再向事实索取内容</strong>；
+索取不到，就以“经梳理”三字代之。
+这就是“事不成”所成者——不是事，是词的影子。</p>
+</section>
+<section id="id19">
+<h4>二·四 礼乐不兴：程序作为“礼”的现代形态<a class="headerlink" href="#id19" title="Link to this heading"></a></h4>
+<p>“礼”在古代的功能，是把抽象的道理落实为可操作的节度：
+什么场合、什么次序、什么分寸。</p>
+<p>现代法律程序承担的正是这个功能：
+公开审理、当庭质证、二审开庭、辩护权，都是“节度”，而不是可有可无的手续。</p>
+<p>本案的程序恰恰在这些“节度”上失守：</p>
+<ul class="simple">
+<li><p>一审不公开且未载明法定事由</p></li>
+<li><p>被告人自我辩护受限</p></li>
+<li><p>二审依《刑事诉讼法》第 234 条第 1 项本应开庭，却决定不开庭</p></li>
+</ul>
+<p>用儒家的话说：<strong>礼不兴，则刑罚无所依凭，只能依凭意志。</strong></p>
+</section>
+<section id="id20">
+<h4>二·五 刑罚不中：二十个月的分寸<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<p>“中”字是全章的枢纽。
+它不是“轻”，也不是“重”，而是<strong>合宜、中节、与事相称</strong>。</p>
+<p>本案的量刑，落在两个不相称之间：</p>
+<ul class="simple">
+<li><p>行为是向不足百人的受众转发既有文本，未有原创、未有组织、未有现实动员；</p></li>
+<li><p>刑罚是二十个月的人身自由。</p></li>
+</ul>
+<p>这个比例本身即构成一种“不中”。
+而这种不中，不是法官一时失手，而是前四环失守之后必然落下的结果：
+<strong>名已不正，言已不顺，事已不成，礼已不兴，刑罚自然无所附丽，只能凭威势而定。</strong></p>
+</section>
+<section id="id21">
+<h4>二·六 民无所措手足<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+<p>链条的末端，是普通人。
+孔子用“无所措手足”四字形容这种状态：
+不知道手该放在哪里、脚该站在哪里，因为规则已经不可预测。</p>
+<p>本案的实际效果正是如此。
+当一个学者因转发而被判刑，且判决理由可以简化为“你学历高，本应知道”，
+那么任何读书人都无法预先知道自己是否安全。</p>
+<p>这就是“无所措手足”的现代形态：
+<strong>不是恐惧某一条法律，而是无法从法律中推出自己的处境。</strong></p>
+</section>
+<section id="id22">
+<h4>表 2：“正名”六环与本案的对应<a class="headerlink" href="#id22" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>孔子的六环</p></th>
+<th class="head"><p>本案的对应</p></th>
+<th class="head"><p>后果</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>名不正</p></td>
+<td><p>把转发命名为滋事；把观点命名为虚假信息</p></td>
+<td><p>罪名脱离行为类型</p></td>
+</tr>
+<tr class="row-odd"><td><p>言不顺</p></td>
+<td><p>“我觉得是谣言，它就是谣言”</p></td>
+<td><p>定义权与事实脱钩</p></td>
+</tr>
+<tr class="row-even"><td><p>事不成</p></td>
+<td><p>“严重混乱”四栏皆空，仅以“经梳理”代之</p></td>
+<td><p>后果未经证明</p></td>
+</tr>
+<tr class="row-odd"><td><p>礼乐不兴</p></td>
+<td><p>不公开、不开庭、辩方受限</p></td>
+<td><p>程序节度尽失</p></td>
+</tr>
+<tr class="row-even"><td><p>刑罚不中</p></td>
+<td><p>二十个月对不足百人的转发</p></td>
+<td><p>罪与刑不相称</p></td>
+</tr>
+<tr class="row-odd"><td><p>民无所措手足</p></td>
+<td><p>读书人无法预知自身安全</p></td>
+<td><p>寒蝉效应</p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><p>本章不是要把孔子当作法学家来援引。
+孔子论正名，本意在于纠正春秋时期名实相违的政治乱象，其关怀与刑法教义相去甚远。
+但正因如此，这条链条才具有诊断价值——
+它描述的不是某一个条文的技术问题，而是“命名、言说、事实、礼制、刑罚、民心”之间的传递关系。
+本案在这个关系上，<strong>六环俱失</strong>。</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h3>王霸之辨：以力假仁的现代形态<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>如果只看到“违法”，本案会被误解为一个技术事故。
+新儒学提供的第一个矫正，是把它放回“王霸之辨”的老问题里。</p>
+<p>《孟子·公孙丑上》：</p>
+<blockquote>
+<div><p>以力假仁者霸，霸必有大国；
+以德行仁者王，王不待大。</p>
+</div></blockquote>
+<p>这句话的关键在 <strong>“假”字</strong>。
+霸者并非不要仁；霸者 <strong>借仁</strong>。
+他需要仁的名义来完成力的事实。
+若纯任暴力，那是“暴”，不是“霸”；
+霸之所以为霸，正在于它始终保持着一套像样的形式。</p>
+<section id="id24">
+<h4>三·一 “假”的三重证据<a class="headerlink" href="#id24" title="Link to this heading"></a></h4>
+<p>本案的“假”，可以指出三处：</p>
+<ol class="arabic simple">
+<li><p><strong>形式的假借</strong>起诉书、判决书、裁定书、法条引用、证据清单、合议庭署名，一应俱全。这套形式本身是文明的产物，它的存在说明权力并不打算抛弃法律，而是要法律的壳。</p></li>
+<li><p><strong>道德的假借</strong>判决理由使用“应辨别是非”这样的道德语汇。“辨别是非”是儒家的语言，讲的是心性修养；判词把它改造成了归责标准。这是最值得注意的一处：不是道德缺席，而是道德被征用。</p></li>
+<li><p><strong>目的的假借</strong>
+定罪的公开理由是社会秩序与公共安全，
+而实际运作的判准是“是否构成不可控的言论”。
+前者是可辩护的公共善，后者是不可言说的政治判断。
+以可辩护者之名，行不可言说者之实，此之谓假。</p></li>
+</ol>
+<p>因此，“以法为霸”这个说法，比“无法无天”更准确。
+无法无天是前现代的；以法为霸是现代的，而且更难对付——
+因为它没有留下“违法”的把柄，只留下“论白”。</p>
+</section>
+<section id="id25">
+<h4>三·二 与法家的距离<a class="headerlink" href="#id25" title="Link to this heading"></a></h4>
+<p>有人会说：这明明是法家，何关儒家。此说有一半是对的。本案的操作逻辑，确实与《韩非子》的“法、术、势”高度吻合：</p>
+<ul class="simple">
+<li><p><strong>法者</strong>：第 293 条；</p></li>
+<li><p><strong>术者</strong>：口袋罪的定义弹性与“经梳理”的取证方式；</p></li>
+<li><p><strong>势者</strong>：维稳之位置。</p></li>
+</ul>
+<p>牟宗三论法家，谓其<strong>只有治道而无政道</strong>。
+这个判断可以用在这里：
+法家并不缺少治理技术，它缺少的是政权合法性的自我交代。
+本案亦然——它不缺少办案能力，它缺少的是“我凭什么这样办”的答案。</p>
+<p>但与法家仍有一步之遥，而这一步恰是本案最令人不安之处：
+<strong>法家是坦率的，它公开主张“不务德而务法”；</strong>
+<strong>本案却必须借“德”的语言（应辨别是非）与“法”的形式（第 293 条）来完成，</strong>
+这说明它仍然处在儒家的道德审查之下——它知道自己需要正当性。
+借得越用力，越说明它欠缺。</p>
+</section>
+<section id="id26">
+<h4>表 3：王霸判准与本案的对照<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>判准</p></th>
+<th class="head"><p>王</p></th>
+<th class="head"><p>霸</p></th>
+<th class="head"><p>本案</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>凭何而治</p></td>
+<td><p>以德行仁</p></td>
+<td><p>以力假仁</p></td>
+<td><p>以力行之，借仁与法之名</p></td>
+</tr>
+<tr class="row-odd"><td><p>形式与实质</p></td>
+<td><p>形式即实质之显</p></td>
+<td><p>形式为实质之饰</p></td>
+<td><p>文书完备，论证空转</p></td>
+</tr>
+<tr class="row-even"><td><p>对民的态度</p></td>
+<td><p>民为贵</p></td>
+<td><p>民为可用</p></td>
+<td><p>民为风险来源</p></td>
+</tr>
+<tr class="row-odd"><td><p>自我交代</p></td>
+<td><p>不需借名，德即其名</p></td>
+<td><p>必须借名</p></td>
+<td><p>必须引用法条与道德语汇</p></td>
+</tr>
+<tr class="row-even"><td><p>可预期的秩序</p></td>
+<td><p>有耻且格</p></td>
+<td><p>民免而无耻</p></td>
+<td><p>民无所措手足</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id27">
+<h4>三·三 “道之以政”的现代版本<a class="headerlink" href="#id27" title="Link to this heading"></a></h4>
+<p>《论语·为政》：</p>
+<blockquote>
+<div><p>道之以政，齐之以刑，民免而无耻；
+道之以德，齐之以礼，有耻且格。</p>
+</div></blockquote>
+<p>这句话常被误读为“德治优于法治”。
+其实孔子对比的不是德与法，而是两种治理的“着力点”：
+一种着力于外在的禁令，一种着力于内在的耻感，并配以可预期的礼制。</p>
+<p>本案属于前者，而且是最粗糙的形态：
+它连“禁令的可预期性”都没有做到。
+“民免而无耻”的前提是民知道如何“免”；
+本案连这一点也不给，于是“免”变成了猜测，“耻”变成了恐惧。
+这是“道之以政”的失败形态，不是它的完成形态。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id28">
+<h3>政道与治道：定义权即主权<a class="headerlink" href="#id28" title="Link to this heading"></a></h3>
+<p>牟宗三有一个著名判断：<strong>中国传统政治“有治道而无政道”。</strong></p>
+<ul class="simple">
+<li><p><strong>治道</strong>：治理的方法与艺术；</p></li>
+<li><p><strong>政道</strong>：政权的合法性依据——谁应当统治，凭什么。</p></li>
+</ul>
+<p>前者可以极精致，后者却始终未被客观化。
+这个区分可以精确地切开本案。</p>
+<section id="id29">
+<h4>四·一 治道层面的熟稔<a class="headerlink" href="#id29" title="Link to this heading"></a></h4>
+<p>就治道而言，本案的运作相当“专业”：</p>
+<ul class="simple">
+<li><p>立案、侦查、起诉、审判、二审，环环相扣；</p></li>
+<li><p>罪名选择上取轻避重（不用煽动颠覆，而用寻衅滋事）；</p></li>
+<li><p>文书制作上力求形式完整；</p></li>
+<li><p>二审以阅卷、讯问、听取意见代替开庭，既完成程序外观，又控制风险。</p></li>
+</ul>
+<p>这是一套成熟的治道技术。</p>
+<blockquote>
+<div><p>治道的成熟，恰恰使政道的缺席更加刺目：
+技术越熟练，越说明它知道自己在做什么，
+也越说明它不需要回答“凭什么”。</p>
+</div></blockquote>
+</section>
+<section id="id30">
+<h4>四·二 政道层面的沉默<a class="headerlink" href="#id30" title="Link to this heading"></a></h4>
+<p>本案真正被追问的问题，不是“他转发了什么”，而是：
+<strong>“谁有权认定转发是犯罪？”</strong></p>
+<p>这个问题在文书中从未出现。
+它被一个更小的技术问题替换了：
+“该行为是否符合第 293 条第 1 款第 4 项？”</p>
+<p>而后者之所以能够替代前者，是因为前者的答案被当作不言自明。</p>
+<p>检察官那句“我觉得是谣言，它就是谣言”，其哲学意义正在于此：它把“定义权”直接等同于“主权”。</p>
+<ul class="simple">
+<li><p>在政道已立的政治体中，定义权是被制度分派的——由证据规则分派，由举证责任分派，由审级分派；</p></li>
+<li><p>在政道未立的政治体中，定义权归属于位置。</p></li>
+</ul>
+<p>因此这句话不是一句失言，而是一句坦白：它说出了整套程序的隐前提。</p>
+</section>
+<section id="id31">
+<h4>四·三 以治道遮蔽政道<a class="headerlink" href="#id31" title="Link to this heading"></a></h4>
+<p>最能说明“以治道遮蔽政道”的，是二审的处理方式。</p>
+<p>《刑事诉讼法》第 234 条第 1 项规定：
+被告人对第一审认定的事实、证据提出异议、可能影响定罪量刑的，应当开庭审理。</p>
+<p>本案上诉理由五项，全部指向事实与证据。而二审“经阅卷审查，讯问上诉人，听取辩护人意见，决定不开庭审理”。</p>
+<ul class="simple">
+<li><p>阅卷、讯问、听取意见 → 属于<strong>治道</strong>（办案方法）；</p></li>
+<li><p>开庭审理 → 属于<strong>政道</strong>的一个环节（让争点在公开的对列之局中被检验）。</p></li>
+</ul>
+<p>用前者替代后者，是治道对政道的僭越。
+用儒家的话说：这是“以吏为师”的现代版本，
+只不过“师”换成了“办案人员”，而“弟子”是整个社会。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id32">
+<h3>三统俱伤：道统、学统、政统<a class="headerlink" href="#id32" title="Link to this heading"></a></h3>
+<p>牟宗三的“三统”说，把文化生命的承续分为三层：</p>
+<ul class="simple">
+<li><p><strong>道统</strong>：道德宗教之统；</p></li>
+<li><p><strong>学统</strong>：认知主体之建立，逻辑、数学、科学；</p></li>
+<li><p><strong>政统</strong>：民主建国、政道之客观化。</p></li>
+</ul>
+<p>三统不是并列的三件事，而是同一生命的三个向度：
+<strong>道统是根，学统与政统是干。</strong></p>
+<p>本案的特殊之处，在于三统同时受损，而受损的方式各不相同。</p>
+<section id="id33">
+<h4>表 4：三统在本案中的受损形态<a class="headerlink" href="#id33" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>三统</p></th>
+<th class="head"><p>本案中的表现</p></th>
+<th class="head"><p>受损方式</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>道统</p></td>
+<td><p>判决援引“应辨别是非”，以道德语汇完成归罪</p></td>
+<td><p>被挪用：道德不再是评判权力的尺度，而成为权力评判个人的尺度</p></td>
+</tr>
+<tr class="row-odd"><td><p>学统</p></td>
+<td><p>阅读、收藏、转发、比对，本是学者的日常认知活动，被定为犯罪</p></td>
+<td><p>被否定：认知主体的独立运作本身成为罪证</p></td>
+</tr>
+<tr class="row-even"><td><p>政统</p></td>
+<td><p>不公开审理、二审不开庭、自辩受限</p></td>
+<td><p>未建立：程序形式具备，而对列之局与合法性追问缺位</p></td>
+</tr>
+</tbody>
+</table>
+<p>三者之中，学统的受损最应被注意，因为它的受损方式最隐蔽。“高学历”在判决里出现了两次功能：</p>
+<ol class="arabic simple">
+<li><p>证明“有能力辨别”（补故意的漏洞）；</p></li>
+<li><p>证明“应当辨别”（补过失的漏洞）。</p></li>
+</ol>
+<p>一个事实被拆成两半：
+一半去补故意的漏洞，一半去补过失的漏洞。
+而这两个漏洞本是互相排斥的：
+若他确知，则无需论其应知；
+若他不知而应知，则属过失，而过失不成立本罪。</p>
+<p>这不是逻辑上的小疵，而是三统关系被扭曲后的必然结果：
+<strong>当政统不能提供“谁有权认定”的答案，裁判者就只能在道统与学统之间来回取用，哪一半方便就用哪一半。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id34">
+<h3>良知的坎陷与不坎陷<a class="headerlink" href="#id34" title="Link to this heading"></a></h3>
+<p>熊十力讲“体用不二”：
+良知不是内心的私事，它必须在事上呈现；<strong>离用无体</strong>。
+离开具体的历史实践，所谓本体只是一句空话。</p>
+<p>这个立场使新儒家无法满足于内省，它必须回答：
+<strong>良知如何进入世界？</strong></p>
+<p>牟宗三的答案是 <strong>“良知的自我坎陷”</strong>：</p>
+<blockquote>
+<div><p>良知若要开出科学与民主，必须先自我否定、自我限制，
+让出一个“对列之局”——一个主体与客体相对、人与人以制度相待的客观结构。
+坎陷不是堕落，而是良知的自律：
+它承认自己不能直接统治世界，所以才需要法律、程序、证据、审级这些“非道德”的装置。</p>
+</div></blockquote>
+<section id="id35">
+<h4>六·一 本案是“不坎陷”的样本<a class="headerlink" href="#id35" title="Link to this heading"></a></h4>
+<p>把本案放进这个框架，会看到一种颠倒。
+坎陷要求权力自我限制；本案是<strong>权力拒绝限制</strong>。</p>
+<p>法庭对被告说的“闭嘴”“回答是或不是”，其结构是：
+不允许道德主体进入程序，只要求它直接服从结论。</p>
+<p>这不是良知的胜利，而是良知的被冒充。
+因为真正的良知若要行使判断，必须经由证据、经由对质、经由可反驳的程序；
+拒绝这些程序的“判断”，只是意志，不是良知。</p>
+<p>王阳明讲“致良知”，其功夫在“事上磨”；
+本案的裁判者恰恰拒绝在事上磨——他们把事省略了。</p>
+</section>
+<section id="id36">
+<h4>六·二 血书：良知以肉身对抗制度<a class="headerlink" href="#id36" title="Link to this heading"></a></h4>
+<p>本案最沉重的一幕，是当事人于狱中写下长篇自辩，且以血书写。</p>
+<p>从新儒学的角度看，这不是浪漫的殉道，而是一个理论失败的证据。</p>
+<p>按坎陷的逻辑，良知本应经由学统（学术）、政统（法律）客观化，
+使争点成为可公开检验的命题。
+本案的实际路径相反：
+<strong>所有制度通道先后关闭，良知只能退回“体”的直接呈现——血、肉身、痛感。</strong></p>
+<p>血书是一种前语言的言语行为，它的力量正来自它不可被反驳：
+你不能对血作语义分析，也不能对它适用真值判断。</p>
+<p>这恰恰说明：
+<strong>当制度不给良知留下坎陷的空间，良知只能以身体为最后的论证。</strong>
+这不是儒家的光荣，而是儒家的问题——它证明道德主体一旦失去客观化的渠道，剩下的只有悲壮。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id37">
+<h3>义利之辨与“士”的限度<a class="headerlink" href="#id37" title="Link to this heading"></a></h3>
+<p>儒家伦理的骨架之一是<strong>义利之辨</strong>。
+义者，宜也，是“应当如此”；利者，便也，是“于我有利”。
+二者并非总是冲突，但当冲突发生时，儒家的立场是明确的：<strong>义在利先。</strong></p>
+<p>本案的判准，是以利代义。
+“利”在这里不是金钱，而是政绩意义上的稳定：
+把可能的不确定性清除，把可能的杂音消音。</p>
+<p>这是一种典型的 <strong>“功利境界”</strong>。
+冯友兰在《新原人》中把人生境界分为四层：
+自然、功利、道德、天地。
+以功利为尺的治理，正停留在第二层：它计算得失，不问是非。</p>
+<p>而法治要求的，是 <strong>“道德境界”的治理</strong>：
+即便某种言论令人不悦，只要它不构成法定的侵害，就应当被容许——
+因为容许本身是“义”，而不是“不利”。</p>
+<p>本案的判决之所以令人不安，不在于它残酷，而在于它的计算方式：
+它把“容许的成本”与“压制的收益”放在天平上，却从未把“义”放上去。</p>
+<section id="id38">
+<h4>七·一 士的传统<a class="headerlink" href="#id38" title="Link to this heading"></a></h4>
+<p>徐复观论“士”，谓其为社会的良心；
+余英时论“道统”与“政统”的张力，指出中国历史上存在一个以“道”自任、可以与政权相抗的知识阶层。</p>
+<p>这个传统在本案中有清晰的回声：
+当事人的自辩书不是求情，而是陈述；不是诉苦，而是记录；
+他甚至明言此文本“不是为当时的法庭而写，而是为后来者”。
+这是“士志于道”的现代形态。</p>
+<p>但新儒学自身也必须承认这个传统的限度。
+士的抗议若无制度承接，就只能是一种道德姿态；
+而道德姿态一旦成为唯一选项，它就同时证明了制度的失败与自身的无力。</p>
+<p>这正是“内圣开不出外王”这一批评的要害：
+内圣可以极深，外王却需要另一套功夫——制度的功夫。</p>
+</section>
+<section id="id39">
+<h4>七·二 “书法不隐”<a class="headerlink" href="#id39" title="Link to this heading"></a></h4>
+<p>《左传》记董狐“书法不隐”，孔子称之。
+史官的价值不在于改变结局，而在于不让结局被改写。</p>
+<p>本案的血书，可以看作“书法不隐”的现代版本：
+在制度不能记录真相的时候，以身体为史笔。</p>
+<p>这一层意义不应被低估，但也不应被夸大。
+它保存了记录，却不构成救济；
+它赢得了后世的同情，却改变不了当世的刑期。
+分清这两件事，是对当事人真正的尊重。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id40">
+<h3>对新儒学自身的一个批评<a class="headerlink" href="#id40" title="Link to this heading"></a></h3>
+<p>以上五章，大体是用新儒学的语汇为本案作诊断。
+这一章要反过来问：<strong>这套语汇本身，在本案中暴露了什么？</strong></p>
+<section id="id41">
+<h4>八·一 道德语言的可征用性<a class="headerlink" href="#id41" title="Link to this heading"></a></h4>
+<p>本案最刺人的一句话是：</p>
+<blockquote>
+<div><p>“应辨别是非。”</p>
+</div></blockquote>
+<p>这句话之所以刺人，不是因为它是谎言，而是因为它是儒家的语言。
+“辨是非”本是心性修养的功夫，其主体是自我；
+判词把它翻转过来，主体变成了审判者，对象变成了被告。</p>
+<p>同一个词，从“自省”变成了“定罪”。</p>
+<p>这说明一个不容回避的事实：
+<strong>道德语言没有天然的免疫力。</strong>
+它可以被权力征用，而且征用之后比赤裸的暴力更有效——
+因为它让被压迫者无从反驳：你总不能说“我不该辨别是非”。</p>
+<p>由此可以提出一个更尖锐的判断：
+<strong>道统若不经过学统与政统的客观化，它不仅开不出外王，还会被外王拿去当装饰。</strong>
+本案即其证。</p>
+</section>
+<section id="id42">
+<h4>八·二 新儒学不能替代法教义学<a class="headerlink" href="#id42" title="Link to this heading"></a></h4>
+<p>新儒学能说：政道未立，故治道必术。
+它不能说的是：二审依第 234 条第 1 项应当开庭，而不开庭即属程序违法，应依第 238 条发回重审。</p>
+<p>后者需要条文、判例与程序知识，而儒家的义理不提供这些。</p>
+<p>因此二者是<strong>分工，而非替代</strong>：</p>
+<ul class="simple">
+<li><p>新儒学回答：“为什么会这样？”</p></li>
+<li><p>法教义学回答：“应当怎么办？”</p></li>
+</ul>
+<p>把前者当作后者用，会得到一篇漂亮的道德批评而无一纸可用的法律文书；
+把后者当作前者用，会得到一份技术正确却不知病症所在的意见书。</p>
+</section>
+<section id="id43">
+<h4>八·三 “开出”之难<a class="headerlink" href="#id43" title="Link to this heading"></a></h4>
+<p>牟宗三的“开出”说，历来受两类批评：</p>
+<ol class="arabic simple">
+<li><p>一说它是比附，把西方的民主科学硬说成儒家的内在要求；</p></li>
+<li><p>一说它是空想，因为历史上并未开出。</p></li>
+</ol>
+<p>本案为第二类批评提供了一个不幸的注脚。</p>
+<p>但也可以反过来看：本案恰恰说明“开出”不是可有可无的口号，而是生死攸关的问题。当制度未能客观化，儒家的道德理想并不会消失，它会以两种方式存活：</p>
+<ul class="simple">
+<li><p>或者被权力征用为修辞；</p></li>
+<li><p>或者退到血书里成为悲壮。</p></li>
+</ul>
+<p>二者都不是儒学想要的结局。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id44">
+<h3>判词<a class="headerlink" href="#id44" title="Link to this heading"></a></h3>
+<p>《春秋》之义，正名而责实。今案：</p>
+<blockquote>
+<div><p>名不正矣——以转发为滋事，以观点为虚言；
+言不顺矣——“我觉得是谣言”，则言者自弃其言；
+事不成矣——四栏皆空，而以三字代之曰“经梳理”；
+礼不兴矣——不公开、不开庭、不许辩；
+刑罚不中矣——二十月之刑，加于百人之听。
+六者俱失，而狱成焉。</p>
+</div></blockquote>
+<p>故曰：<strong>此非一吏之失，亦非法之失；乃政道之失，道统之失。</strong></p>
+<blockquote>
+<div><p>法者器也，仁者本也；
+器无本则僵，本无器则虚。
+今以器为政而本不立，故其器愈备，其失愈甚。</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id45">
+<h3>结语：三句话<a class="headerlink" href="#id45" title="Link to this heading"></a></h3>
+<section id="id46">
+<h4>对个案<a class="headerlink" href="#id46" title="Link to this heading"></a></h4>
+<p>问题不在于“判错了”，而在于 <strong>“以法为霸”</strong>。
+判决并未抛弃法律，而是把法律用尽了形式、用空了内容。
+因此它的病不在技术，在正当性。</p>
+</section>
+<section id="id47">
+<h4>对制度<a class="headerlink" href="#id47" title="Link to this heading"></a></h4>
+<p><strong>政道不立，治道必术。</strong>
+当“谁有权认定”这一问题不许被提出，
+一切治理技术都会退化为办案技术，
+而一切道德语汇都会退化为修辞。</p>
+</section>
+<section id="id48">
+<h4>对儒学<a class="headerlink" href="#id48" title="Link to this heading"></a></h4>
+<p><strong>道统须经坎陷而客观化，否则必被征用。</strong>
+本案既是对权力的控诉，也是对一种思想传统的提醒：
+不作制度化的努力，最深沉的道德语言，也可能成为最锋利的定罪理由。</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chatgpt.html" class="btn btn-neutral float-left" title="ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="qwen.html" class="btn btn-neutral float-right" title="Qwen" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

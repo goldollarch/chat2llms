@@ -1,0 +1,470 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="ChatGPT" href="chatgpt.html" />
+    <link rel="prev" title="Gemini" href="gemini.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">传统中国</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../person/index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../school/index.html">百家</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">主流</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">传统中国</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">主流</a></li>
+          <li class="breadcrumb-item"><a href="index.html">现儒</a></li>
+      <li class="breadcrumb-item active">Copilot</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/chinese/main/neo/copilot.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copilot">
+<h1>Copilot<a class="headerlink" href="#copilot" title="Link to this heading"></a></h1>
+<p><strong>基于现代新儒学（Modern New Confucianism）对本案件的全面分析评论</strong></p>
+<p>现代新儒学并不是传统儒家思想的简单复兴，而是在现代法治、民主、人权、科学文明背景下，对儒家“仁、义、礼、智、信”传统价值的重新诠释。其代表人物包括熊十力、牟宗三、唐君毅、徐复观、杜维明等。现代新儒家普遍关注：</p>
+<ul class="simple">
+<li><p>人的道德主体性；</p></li>
+<li><p>国家权力的道德基础；</p></li>
+<li><p>公共理性的形成；</p></li>
+<li><p>文化与政治的协调；</p></li>
+<li><p>自由与责任的统一；</p></li>
+<li><p>法治与德治的结合。</p></li>
+</ul>
+<p>因此，若以现代新儒学分析本案，其关注点既不同于马克思主义的阶级分析，也不同于自由主义的权利分析，而更倾向于讨论：</p>
+<blockquote>
+<div><p>国家、社会与个人如何共同实现“道德秩序”与“公共善”。</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id1">
+<h2>一、现代新儒学首先关注的问题：这是不是一个“德性问题”？<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>现代新儒家认为：</p>
+<p>法律只能解决部分问题。</p>
+<p>很多社会矛盾本质上首先是：</p>
+<ul class="simple">
+<li><p>认知问题；</p></li>
+<li><p>伦理问题；</p></li>
+<li><p>公共沟通问题；</p></li>
+<li><p>社会信任问题。</p></li>
+</ul>
+<p>如果案件涉及：</p>
+<ul class="simple">
+<li><p>网络言论；</p></li>
+<li><p>政治评论；</p></li>
+<li><p>历史讨论；</p></li>
+<li><p>公共议题表达；</p></li>
+</ul>
+<p>那么现代新儒学首先会追问：</p>
+<blockquote>
+<div><p>为什么会产生这些表达？</p>
+</div></blockquote>
+<p>而不仅仅是：</p>
+<blockquote>
+<div><p>应不应该处罚这些表达？</p>
+</div></blockquote>
+<p>因为在儒家看来，</p>
+<p>治理的最高境界不是“多用刑罚”，而是“化民成俗”。</p>
+<p>孔子曾说：</p>
+<blockquote>
+<div><p>道之以政，齐之以刑，民免而无耻；道之以德，齐之以礼，有耻且格。</p>
+</div></blockquote>
+<p>现代新儒家会认为：</p>
+<p>如果一个社会出现大量激烈对立的网络表达，</p>
+<p>其根源往往不只是个体问题，</p>
+<p>也反映公共沟通机制是否顺畅。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>二、从“仁”的角度分析本案<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>“仁”是儒家最高价值。</p>
+<p>现代新儒学将其理解为：</p>
+<blockquote>
+<div><p>对人的尊严、价值和主体性的承认。</p>
+</div></blockquote>
+<p>因此，无论国家还是个人，</p>
+<p>都应被纳入“仁”的要求之下。</p>
+<p>对于国家来说：</p>
+<p>意味着执法过程中：</p>
+<ul class="simple">
+<li><p>尊重人格；</p></li>
+<li><p>尊重程序；</p></li>
+<li><p>尊重辩护权；</p></li>
+<li><p>尊重人的主体地位。</p></li>
+</ul>
+<p>对于案件当事人来说：</p>
+<p>也意味着：</p>
+<ul class="simple">
+<li><p>对社会负责；</p></li>
+<li><p>对公共言论负责；</p></li>
+<li><p>对传播内容负责。</p></li>
+</ul>
+<p>因此现代新儒学既反对：</p>
+<p>绝对自由主义，</p>
+<p>也反对：</p>
+<p>纯粹权力主义。</p>
+<p>因为二者都会伤害“人”的价值。</p>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>三、从“义”的角度分析案件<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>儒家所谓“义”，</p>
+<p>不是单纯合法，</p>
+<p>而是合乎公正。</p>
+<p>现代新儒家尤其强调：</p>
+<blockquote>
+<div><p>法律判断与道义判断不能完全分离。</p>
+</div></blockquote>
+<p>因此本案中的关键问题不是：</p>
+<p>“能不能定罪”；</p>
+<p>而是：</p>
+<p>“这样的处理是否真正符合公正？”</p>
+<p>现代新儒学会要求：</p>
+<section id="id4">
+<h3>对个人的公正<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>是否充分听取辩护意见？</p></li>
+<li><p>是否给予公平程序？</p></li>
+<li><p>是否保证证据充分？</p></li>
+</ul>
+<p>同时也要求：</p>
+</section>
+<section id="id5">
+<h3>对社会的公正<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>是否保护公众免受虚假信息伤害？</p></li>
+<li><p>是否维护公共信任？</p></li>
+<li><p>是否维护社会共同体的稳定？</p></li>
+</ul>
+<p>现代新儒家认为：</p>
+<p>真正的正义必须兼顾这两个方面。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>四、从“礼”的角度分析案件<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<p>现代新儒学特别重视“礼”。</p>
+<p>在现代政治语境中，</p>
+<p>“礼”不是古代繁文缛节，</p>
+<p>而是：</p>
+<ul class="simple">
+<li><p>正当程序；</p></li>
+<li><p>制度规范；</p></li>
+<li><p>互相尊重；</p></li>
+<li><p>公共秩序。</p></li>
+</ul>
+<p>因此：</p>
+<p>对于司法机关而言，</p>
+<p>程序正义就是现代社会的“礼”。</p>
+<p>对于公民而言，</p>
+<p>理性表达也是现代社会的“礼”。</p>
+<p>所以现代新儒学会认为：</p>
+<p>如果案件争议较大，</p>
+<p>司法机关不仅需要作出裁判，</p>
+<p>还需要：</p>
+<ul class="simple">
+<li><p>充分说明理由；</p></li>
+<li><p>回应社会关切；</p></li>
+<li><p>增强透明度。</p></li>
+</ul>
+<p>因为程序的公开性本身就是社会信任的重要来源。</p>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h2>五、从“诚”的角度分析案件<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<p>现代新儒学常强调：</p>
+<blockquote>
+<div><p>诚者，天之道也；思诚者，人之道也。</p>
+</div></blockquote>
+<p>在现代社会，</p>
+<p>“诚”体现为：</p>
+<ul class="simple">
+<li><p>诚实表达；</p></li>
+<li><p>诚实调查；</p></li>
+<li><p>诚实司法。</p></li>
+</ul>
+<p>对于个人：</p>
+<p>如果明知不实仍传播，</p>
+<p>就是失“诚”。</p>
+<p>对于国家：</p>
+<p>如果证据不足却作出强烈结论，</p>
+<p>同样是失“诚”。</p>
+<p>因此在现代新儒学看来：</p>
+<p>“诚”不是对单方面的要求，</p>
+<p>而是对所有公共参与者的共同要求。</p>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h2>六、从“内圣外王”角度分析案件<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<p>现代新儒学特别重视“内圣外王”。</p>
+<p>其现代解释是：</p>
+<blockquote>
+<div><p>个体道德成长与公共制度建设相统一。</p>
+</div></blockquote>
+<p>因此：</p>
+<p>国家治理不能只依赖法律；</p>
+<p>法律也不能替代道德。</p>
+<p>如果每一个社会争议最终都依赖刑罚解决，</p>
+<p>那么说明：</p>
+<p>社会自身的公共理性建设出现不足。</p>
+<p>现代新儒家会更强调：</p>
+<ul class="simple">
+<li><p>对话；</p></li>
+<li><p>讨论；</p></li>
+<li><p>说服；</p></li>
+<li><p>教育；</p></li>
+</ul>
+<p>而不是首先诉诸强制。</p>
+<p>这并不意味着反对法律，</p>
+<p>而是认为法律应是最后保障。</p>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h2>七、从牟宗三的“良知”理论看本案<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<p>牟宗三认为：</p>
+<p>人具有道德自觉能力。</p>
+<p>国家政治制度的价值，</p>
+<p>就在于保障这种道德主体性的实现。</p>
+<p>因此对于公共讨论、</p>
+<p>思想表达、</p>
+<p>历史评价等问题，</p>
+<p>现代新儒家通常主张：</p>
+<p>应保留合理讨论空间。</p>
+<p>因为：</p>
+<p>真理不可能在完全沉默中产生，</p>
+<p>公共理性也不能通过压制形成。</p>
+<p>但这并不意味着任何表达都没有边界。</p>
+<p>如果表达已经严重损害他人和公共利益，</p>
+<p>法律仍然有其正当功能。</p>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>八、现代新儒学眼中的国家与公民关系<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<p>现代新儒家一般反对两种极端：</p>
+<section id="id11">
+<h3>第一种极端<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>国家凌驾于社会之上。</p>
+<p>这容易变成威权主义。</p>
+</section>
+<section id="id12">
+<h3>第二种极端<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>个人凌驾于共同体之上。</p>
+<p>这容易导致原子化自由主义。</p>
+<p>现代新儒学强调：</p>
+<p>国家与公民不是敌对关系。</p>
+<p>而是：</p>
+<blockquote>
+<div><p>共同构成道德共同体。</p>
+</div></blockquote>
+<p>因此，</p>
+<p>本案最理想的处理方式应当同时体现：</p>
+<ul class="simple">
+<li><p>国家权威；</p></li>
+<li><p>法律理性；</p></li>
+<li><p>公民尊严；</p></li>
+<li><p>社会信任。</p></li>
+</ul>
+<p>四者缺一不可。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h2>九、现代新儒学与其他理论的比较<a class="headerlink" href="#id13" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>理论体系</p></th>
+<th class="head"><p>核心关注</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>马克思法哲学</p></td>
+<td><p>人的解放与法律异化</p></td>
+</tr>
+<tr class="row-odd"><td><p>列宁主义</p></td>
+<td><p>国家与政治安全</p></td>
+</tr>
+<tr class="row-even"><td><p>毛泽东思想</p></td>
+<td><p>矛盾性质与群众路线</p></td>
+</tr>
+<tr class="row-odd"><td><p>邓小平理论</p></td>
+<td><p>实事求是与稳定</p></td>
+</tr>
+<tr class="row-even"><td><p>三个代表重要思想</p></td>
+<td><p>先进生产力与人民利益</p></td>
+</tr>
+<tr class="row-odd"><td><p>科学发展观</p></td>
+<td><p>以人为本与协调发展</p></td>
+</tr>
+<tr class="row-even"><td><p>习近平新时代中国特色社会主义思想</p></td>
+<td><p>安全与法治统一</p></td>
+</tr>
+<tr class="row-odd"><td><p>现代新儒学</p></td>
+<td><p>德性、公共善与社会信任</p></td>
+</tr>
+</tbody>
+</table>
+<p>现代新儒学最大的特点是：</p>
+<p>它不把案件仅仅理解为：</p>
+<ul class="simple">
+<li><p>国家与个人的冲突；</p></li>
+</ul>
+<p>而是理解为：</p>
+<ul class="simple">
+<li><p>道德共同体内部的秩序问题。</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h2>十、总体评价<a class="headerlink" href="#id14" title="Link to this heading"></a></h2>
+<p>从现代新儒学的角度看，本案最核心的问题并非简单的“有罪还是无罪”，而是：</p>
+<blockquote>
+<div><p>国家、公民与社会是否共同维护了一个兼具公正、诚信、理性与尊严的公共空间。</p>
+</div></blockquote>
+<p>现代新儒学可能会得出以下几点评价：</p>
+<ol class="arabic simple">
+<li><p>社会秩序应当维护，但秩序的最终目的在于成就人的尊严与共同善。</p></li>
+<li><p>法律应当与道德相互支撑，而非彼此割裂。</p></li>
+<li><p>对于涉及思想、历史、政治和公共事务的表达，应尽可能优先运用理性讨论和公共说服机制。</p></li>
+<li><p>程序公正、充分说理、尊重人格，是现代社会“礼治精神”的体现。</p></li>
+<li><p>国家权力与公民自由都需要受到“仁”“义”“诚”的约束。</p></li>
+<li><p>一个真正良善的社会，不仅追求法律上的正确，也追求道义上的信服。</p></li>
+</ol>
+<section id="id15">
+<h3>结论<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p><strong>若以现代新儒学的整体精神评价本案，其最终衡量标准既不是单纯的国家权威，也不是单纯的个人自由，而是：</strong></p>
+<blockquote>
+<div><p><strong>该案件的处理是否增进了社会信任、促进了公共理性、维护了人的尊严，并有助于建设一个既有秩序又有德性的共同体。</strong></p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="gemini.html" class="btn btn-neutral float-left" title="Gemini" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chatgpt.html" class="btn btn-neutral float-right" title="ChatGPT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
