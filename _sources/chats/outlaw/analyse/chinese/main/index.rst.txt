@@ -59,3 +59,8 @@
 
     bux/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    neo/index
+

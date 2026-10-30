@@ -20,7 +20,7 @@ and explore the limitations and future development directions of current LLMs.
    This project is under development.
 
 This project represents an attempt to apply LLMs to the study and analysis of specific judicial cases. 
-We focus on :doc:`a case of "Xun Xin Zi Shi", often translated as "Picking Quarrels and Provoking Trouble" (PXQT) in mainland China <case/intro>` as our research subject. 
+We focus on [ :doc:`a case of "XúnxìnZīshì", often translated as "Picking Quarrels and Provoking Trouble" (PXQT) in mainland China <case/intro>` ] as our research subject. 
 Using LLMs, we conduct detailed textual analysis of several formal 
 legal documents from this case. 
 
