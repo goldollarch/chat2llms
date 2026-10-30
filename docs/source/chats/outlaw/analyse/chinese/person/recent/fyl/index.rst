@@ -59,5 +59,5 @@
 
 ---------------------------
 
-[:doc:`周敦颐与张载 </chats/outlaw/analyse/chinese/person/middle/zz>`]
+[:doc:`现代新儒学“八大家” </chats/outlaw/analyse/chinese/main/neo/history>`]
 

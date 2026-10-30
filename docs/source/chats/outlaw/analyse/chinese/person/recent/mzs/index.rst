@@ -73,7 +73,7 @@
 
 ---------------
 
-哲学常识： :doc:`现代新儒学 </chats/outlaw/analyse/chinese/person/recent/neo/review>`
+哲学常识： :doc:`现代新儒学“八大家” </chats/outlaw/analyse/chinese/main/neo/history>`
 
 ------------------------------------------------------------------------------------
 

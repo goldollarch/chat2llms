@@ -8,7 +8,7 @@ Introduction
 
 ------------------------------------------------------------------------------------------------
 
-`Chen Jingyuan (陈京元) <https://x.com/_cenjoy>`_, a twitter user in mainland China, 
+`Chén Jīngyuán (陈京元) <https://x.com/_cenjoy>`_, a twitter user in mainland China, 
 was arrested at his home after the police broke down his door, charged in a major criminal case, 
 and ultimately sentenced to prison for the crime of "picking quarrels and provoking trouble". 
 
@@ -121,7 +121,7 @@ In prison, Chen jingyuan writed a letter of :doc:`self-defense and accusation </
 vehemently condemning and formally accusing the law enforcement personnel of mafia-style misconduct. 
 However, prison authorities blocked the transmission of this document.
 
-This case is a textbook example of the Chinese legal crime of "Xun Xin Zi Shi (寻衅滋事)", often translated as 
+This case is a textbook example of the Chinese legal crime of "Xúnxìn Zīshì (寻衅滋事)", often translated as 
 `picking quarrels and provoking trouble (PXQT) <https://en.wikipedia.org/wiki/Picking_quarrels_and_provoking_trouble>`_ 
 in mainland China. The complete case materials are available online for reference by Chinese legal researchers.
 

@@ -38,14 +38,14 @@
  .. toctree::
     :maxdepth: 1
 
-    neo/xsl/index
+    xsl/index
 
  .. toctree::
     :maxdepth: 1
 
-    neo/fyl/index
+    fyl/index
 
  .. toctree::
     :maxdepth: 1
 
-    neo/mzs/index
+    mzs/index
