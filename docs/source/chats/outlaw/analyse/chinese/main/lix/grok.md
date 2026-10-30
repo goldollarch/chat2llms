@@ -1,6 +1,5 @@
 # Grok
 
-------
 
 ## An Evaluation of the Chen Jingyuan Case Based on Core Ideas in Cheng-Zhu Neo-Confucian Philosophy
 
