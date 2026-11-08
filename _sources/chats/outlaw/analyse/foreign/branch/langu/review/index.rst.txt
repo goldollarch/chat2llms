@@ -93,3 +93,15 @@ Overview
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `Autopsy of a Word <https://youtu.be/zktMi1mDeTA>`_ 
+- `Weaponizing Language Against Dr. Chen <https://youtu.be/3UtN2TQXEZo>`_ 
+- `Philosophy's Logic Police Analyze a Legal Case <https://youtu.be/-09U3AwBQlo>`_ 
+- `How Language Convicted Dr. Chen Jingyuan <https://youtu.be/n9iUxLAKuao>`_ 
+- `When Words Become Walls <https://youtu.be/RlZwMNiCQnc>`_ 

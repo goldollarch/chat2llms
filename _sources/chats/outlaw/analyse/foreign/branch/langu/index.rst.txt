@@ -304,3 +304,16 @@
 [:doc:`语言哲学和分析哲学关系 </chats/outlaw/analyse/foreign/branch/langu/analytic>`]
 [:doc:`英美哲学和欧陆哲学 </chats/outlaw/analyse/foreign/branch/langu/compare>`]
 [:doc:`语言学和语言哲学 </chats/outlaw/analyse/foreign/branch/langu/languge>`]
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `学者、推文与判决 <https://youtu.be/CeMLFWFxQ7Q>`_ 
+- `当言论变成罪行：陈京元博士案 <https://youtu.be/GfeCQP4yF0A>`_ 
+- `解码陈京元案：哲学的诊断工具箱 <https://youtu.be/iQSmIbosBi0>`_ 
+- `博士如何用复杂系统理论为自己辩护 <https://youtu.be/gA-5XVUTDvw>`_ 
+- `词语的审判：当法律脱离逻辑，当语言成为暴力 <https://youtu.be/mXOyjq5mVwI>`_ 
+- `博士转发被判寻衅滋事逻辑何在 <https://youtu.be/_pBAMgz0dpw>`_ 

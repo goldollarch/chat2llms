@@ -82,3 +82,18 @@
 
 【:doc:`庄子对名家的批判 </chats/outlaw/analyse/chinese/school/ming/zz>`】
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `学者与判决：一场哲学思辨 <https://youtu.be/QH0nL-gaSFc>`_ 
+- `命名的权力：语言、法律与逻辑 <https://youtu.be/rK8keJJIZ3A>`_ 
+- `判决的解剖：语言、逻辑与权力的哲学审判 <https://youtu.be/bZQBz1EBJcA>`_ 
+- `陈京元博士案：法治、科学、逻辑与“名实”的深层危机 <https://youtu.be/49kPv3qJCyU>`_ 
+- `Anatomy of an Injustice: A Forensic, Multi-Disciplinary Deconstruction <https://youtu.be/1PURsMKlnMc>`_ 
+- `The Trial of Language: A Philosophical Autopsy <https://youtu.be/xQEMAUoDO2Q>`_ 
+- `The Case of the Corrupted Word <https://youtu.be/dr-ZkiUeV_E>`_ 
+- `Anatomy of a Verdict <https://youtu.be/sbgfmfiXxuc>`_ 

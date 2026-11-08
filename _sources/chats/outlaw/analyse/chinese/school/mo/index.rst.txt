@@ -88,3 +88,19 @@
 [:doc:`孟子批墨 </chats/outlaw/analyse/chinese/school/mo/mz>`]
 [:doc:`庄子批墨 </chats/outlaw/analyse/chinese/school/mo/zz>`]
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `The Scholar's Defense <https://youtu.be/QV-DkzZLPyM>`_ 
+- `科学家的审判：陈京元案 <https://youtu.be/wAFx0z9XvaU>`_ 
+- `哲学诊断：陈京元案启示 <https://youtu.be/1DnmRLdrs8A>`_ 
+- `哲学、AI与法律 <https://youtu.be/G-CMY-8tRoQ>`_ 
+- `The Philosophical Trial <https://youtu.be/OQorUQ4w8lU>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 

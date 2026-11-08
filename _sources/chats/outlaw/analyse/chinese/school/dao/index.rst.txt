@@ -138,3 +138,18 @@
 
 【:doc:`孟子批杨朱（早期道家） </chats/outlaw/analyse/chinese/school/dao/mz>`】
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `title <https>`_ 
+- `A Scholar on Trial <https://youtu.be/v40VVI7syWg>`_ 
+- `The Chen Jingyuan Case <https://youtu.be/xN-PVB21DnY>`_ 
+- `秩序的哲学：道家、语言与陈博士案 <https://youtu.be/28LH428XD2U>`_ 
+- `陈京元案解析：一位学者的20个月刑期 <https://youtu.be/kRtg2YwMWTs>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 

@@ -160,3 +160,20 @@
 [:doc:`孟子卫道 </chats/outlaw/analyse/chinese/school/ru/mz>`]
 [:doc:`庄子批判儒家 </chats/outlaw/analyse/chinese/school/ru/zz>`]
 [:doc:`荀子对百家的批判 </chats/outlaw/analyse/chinese/school/ru/xz>`]
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `学者与“口袋罪” <https://youtu.be/vUjxovj6-HQ>`_ 
+- `Dr. Chen & Confucianism <https://youtu.be/dySEd0P_xG8>`_ 
+- `Dr. Chen: A Scholar on Trial <https://youtu.be/JZwypyOyl9U>`_ 
+- `Physics PhD Fights Chinese Pocket Crime <https://youtu.be/UnHKENayGoA>`_ 
+- `The Anatomy of a Verdict: Philosophical Analyses <https://youtu.be/bHiqt2dz4lI>`_ 
+- `Fighting a Retweet Conviction in Blood <https://youtu.be/FvXOxv9Dj-0>`_ 
+- `哲学审判：人工智能、伦理与法律 <https://youtu.be/jvDqd3MpvlY>`_ 
+- `A Scholar's Pocket Crime <https://youtu.be/Dw1O-TIvZyw>`_ 
+- `哲学、语言与正义：陈京元案 <https://youtu.be/6_nAVObBas0>`_ 

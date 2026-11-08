@@ -127,3 +127,16 @@
   法家者流，盖出于理官。信赏必罚，以辅礼制。《易》曰“先王以明罚饬法”，此其所长也。及刻者为之，则无教化，去仁爱，专任刑法而欲以致治，至于残害至亲，伤恩薄厚。
 
   --- 摘引自《汉书·艺文志·诸子略序》
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `A Scholar, Retweets, & Prison <https://youtu.be/42ypt1nVUhI>`_ 
+- `一位学者，一条判决，一部手机：陈京元博士案 <https://youtu.be/w314ljXFys8>`_ 
+- `古代律法与现代言辞：解构陈京元案 <https://youtu.be/exV4iZvxPs8>`_ 
+- `title <https>`_ 
+- `title <https>`_ 

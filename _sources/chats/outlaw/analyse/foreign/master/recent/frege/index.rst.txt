@@ -112,6 +112,24 @@ Gottlob Frege
     grok
     gemini
     copilot
+    chatgpt
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `title <https>`_ 
+- `一位学者，他的转发，与一纸判决 <https://youtu.be/9LkydKZO0zI>`_ 
+- `Scholar and the State <https://youtu.be/h150g7Aj32Y>`_ 
+- `Frege, AI, & Logic of Law <https://youtu.be/H5iDN6vdo64>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
