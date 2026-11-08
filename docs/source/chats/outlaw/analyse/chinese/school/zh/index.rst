@@ -144,3 +144,22 @@
   --- 摘引自《汉书·艺文志·诸子略序》
 
 [:doc:`历代对纵横家的评价 </chats/outlaw/analyse/chinese/school/zh/review>`]
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `title <https>`_ 
+- `词语之战：解码陈京元案 <https://youtu.be/KYA1cJg_JYI>`_ 
+- `学者、转发与判决：陈京元案解析 <https://youtu.be/T3dR838BWPk>`_ 
+- `Scholar, Tweet, System on Trial <https://youtu.be/zy2csOxBOcI>`_ 
+- `A Philosophical and Strategic Autopsy <https://youtu.be/UdMYUbSBoFA>`_ 
+- `Philosophical Autopsy by Zonghengjia and Western Linguistic Philosophy <https://youtu.be/d45bjxzlUz4>`_ 
+- `The Chen Jingyuan Case <https://youtu.be/SZMVsrn5jJ0>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
