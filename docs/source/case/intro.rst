@@ -21,7 +21,7 @@ from `the official account <https://x.com/USA_China_Talk>`_  of the U.S. Embassy
 published on July 25, 2020.
 
 The :doc:`public prosecutor argued that </case/docus/official/indictment>` 
-Chen Jingyuan, disregarded national law, knowingly spread and disseminated false information 
+Chén Jīngyuán, disregarded national law, knowingly spread and disseminated false information 
 on the information network, causing serious disorder in public order. His behavior violated 
 Article 293 of the "Criminal Law of the People's Republic of China". 
 The facts of the crime are clear, the evidence is reliable and sufficient, 
@@ -29,7 +29,7 @@ and he should be held criminally responsible for picking quarrels and provoking 
 
 At a so-called "first-instance trial" that was conducted in secret, 
 did not allow the defendant's relatives to participate, and did not allow the defendant to defend himself, 
-the defendant, Chen Jingyuan, :ref:`only simply contends that <judgment-defendant>`: his conduct 
+the defendant, Chén Jīngyuán, :ref:`only simply contends that <judgment-defendant>`: his conduct 
 does not constitute illegal or criminal acts, whereas the related Prosecutor has violated multiple laws 
 and regulations, arguing that the allegations of the public prosecution organ did not conform to the facts 
 and violated his freedom of speech, thought, and belief.
@@ -37,9 +37,9 @@ and violated his freedom of speech, thought, and belief.
 It’s hardly surprising that the district court gived 
 :ref:`the First-Instance Judgment as follows <judgment-court-logic>`: 
 The public cyberspace is not a place beyond the law. As a person with full criminal capacity 
-and a high level of education and knowledge, the defendant, Chen Jingyuan, 
+and a high level of education and knowledge, the defendant,  Chén Jīngyuán, 
 should distinguish right from wrong when using overseas chat software. 
-In the process of using the software, the defendant, Chen Jingyuan, 
+In the process of using the software, the defendant, Chén Jīngyuán, 
 retweeted pictures and articles that he knew were insulting and 
 attacking the core of the country's leadership and China's current political system. 
 The retweeted content was sorted and found to be false information, causing serious disorder in public order. 
@@ -48,7 +48,7 @@ Accordingly, in accordance with the provisions of Article 293, Paragraph 1, Arti
 and Article 64 of the "Criminal Law of the People's Republic of China," and Article 5, 
 Paragraph 2 of the "Interpretation of the Supreme People's Court and the Supreme People's Procuratorate 
 on Several Issues Concerning the Application of Law in Handling Criminal Cases of Defamation 
-Using Information Networks," the defendant, Chen Jingyuan, is found guilty of the crime of 
+Using Information Networks," the defendant, Chén Jīngyuán, is found guilty of the crime of 
 picking quarrels and provoking trouble and sentenced to one year and eight months in prison.
 
 The defendant was dissatisfied and appealed. :ref:`The defendant pointed out <ruling-defendant>`:
@@ -117,7 +117,7 @@ the ruling is as follows: The appeal is rejected and the original judgment is up
 This ruling is final.
 
 Thus, the defendant was sent to prison to serve their sentence and undergo reform. 
-In prison, Chen jingyuan writed a letter of :doc:`self-defense and accusation </case/docus/defendent/letter>`, 
+In prison, Chén Jīngyuán writed a letter of :doc:`self-defense and accusation </case/docus/defendent/letter>`, 
 vehemently condemning and formally accusing the law enforcement personnel of mafia-style misconduct. 
 However, prison authorities blocked the transmission of this document.
 
