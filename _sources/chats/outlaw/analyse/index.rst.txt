@@ -16,23 +16,27 @@
 -------------------------
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     chinese/index
 
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     chinese/ccp/index
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     foreign/index
 
  .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     science/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    review/index
