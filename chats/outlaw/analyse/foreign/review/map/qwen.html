@@ -1,0 +1,873 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qwen &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="科学理论" href="../../../science/index.html" />
+    <link rel="prev" title="Deepseek" href="deepseek.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../branch/index.html">分支</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">概况</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">概况</a></li>
+          <li class="breadcrumb-item"><a href="index.html">地图</a></li>
+      <li class="breadcrumb-item active">Qwen</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/foreign/review/map/qwen.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="qwen">
+<h1>Qwen<a class="headerlink" href="#qwen" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="id1">
+<h2>罗素分析框架<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>方法论谱系总表——陈京元案解构工具在罗素地图上的位置与诉讼可用性</p>
+<blockquote>
+<div><p>汇总对象：汇编中全部六类解构路径——科学（物理/网络/计算机）、心理学、英美分析哲学、欧陆哲学（含大陆法理论）、传统中国哲学、<strong>执政党意识形态的内部规范检验</strong>
+出具日期：2026-11-12（第六支柱并入版）｜ 配套文档：《全面分析与评估》《跨学科框架与Daubert合规评估》《哲学解构与科学解构异同》《欧陆与分析哲学异同》页码均为原 PDF 页码（10194 页）</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id2">
+<h3>〇、地图与评级轴<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p><strong>罗素框架</strong>（《西方哲学史》1945 第一章）：确定知识属<strong>科学</strong>；超出最试探性表述之外的教条属<strong>神学</strong>；两者之间是<strong>无人之域</strong>——同时遭受科学、神学与形而上学三方攻击，这就是哲学。关键在常被略去的后半句：无人之域的居民必须<strong>只讲理由、不讲 certainty</strong>。</p>
+<p><strong>本案的映射约定</strong>：</p>
+<ul class="simple">
+<li><p><strong>科学侧</strong>＝已确立的定理、定律、可测量数据；</p></li>
+<li><p><strong>无人之域</strong>＝可给理由、可被反驳、不要求最终确定的论证（概念分析、规范论证、可错的经验概括）；</p></li>
+<li><p><strong>神学侧</strong>（罗素意义上的”教条”）＝不可反驳、以权威或体认为根据的表述——包括天理/良知/道心式断言，也包括<strong>不可证伪的解释框架的教条化</strong>；</p></li>
+<li><p><strong>判决书</strong>＝地图上的<strong>越境者</strong>：用”证据锁链””经梳理均属”的句式冒充科学侧确定性，用”领导核心不可冒犯””我觉得是谣言”的根据冒充神学侧不可错性，而它合法栖身所需遵守的无人之域规则（说理、举证、可复核）恰恰一条都未执行。</p></li>
+<li><p><strong>第六支柱的地图位置需单列</strong>：它不在无人之域设防，也不从外部进攻神学侧，而是<strong>进入教义内部，取用其中残存的理性构件</strong>（实事求是、实践标准、制度根本性、法制统一、有错必纠、自我革命），用以审计该教义的执行人。故其效力条件不是”论据为真”，而是”<strong>承诺对执行者确有约束力</strong>”——一个政治前提，不是一个可证事实。</p></li>
+</ul>
+<p><strong>可用性评级</strong>（全表通用）：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>级</p></th>
+<th class="head"><p>含义</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>A</strong></p></td>
+<td><p>经一次”法言法语化”翻译后可<strong>直接写入</strong>申诉状/再审申请</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>A−</strong></p></td>
+<td><p>可直接使用，但<strong>收件人不是刑事审判庭</strong>（限于政治系统渠道或作为话语包装）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>B</strong></p></td>
+<td><p>须实质改造（换前提、补证据或降格）后方可用</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>C</strong></p></td>
+<td><p>只作说理背景，不出现原术语与学者名</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>D</strong></p></td>
+<td><p>仅限学术与档案层，<strong>一律不入诉讼文书</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>四条越界警示</strong>（全表反复出现的失败模式，先立于此）：</p>
+<ol class="arabic simple">
+<li><p><strong>废垒之戒</strong>：不在已被科学侧放弃的阵地设防（证实原则、情感主义——见 §3）。</p></li>
+<li><p><strong>教条漂移</strong>：不可证伪性＝向神学侧漂移；解释力越强、对抗性程序中越无防御（欧陆外圈的结构性代价）。</p></li>
+<li><p><strong>身份论证陷阱</strong>：判决的”高学历=明知”与辩护的”守道之士/顶级心智/本真此在”<strong>共享同一前提</strong>（以当事人社会位阶作论证环节）。一切身份型辩护在此案中都自我拆台——两侧握手的那个前提必须整个放弃，立足点只能是”任何公民”。</p></li>
+<li><p><strong>高危话语隔离（本表新增，由第六支柱带来）</strong>：入件风险不只来自”过于学术”，也来自”过于革命”。汇编中借文革文体的极左段落（发动群众、打倒司法黑帮、资产阶级法权、斗争先声），其被拒收与连带致害概率<strong>高于自由主义与欧陆批判话语</strong>，因为它们与官方自身的历史定性（1981 年决议）正面冲突——材料 p1782 已引该决议自我设限。凡以阶级专政、群众斗争语态写成的段落，一律整段隔离，<strong>不得与其余材料同件递出</strong>。</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h3>一、方法论谱系总表<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<section id="id4">
+<h4>1. 科学支柱（客观要件：因果链与”严重混乱”）<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>支系</p></th>
+<th class="head"><p>页码</p></th>
+<th class="head"><p>攻击对象</p></th>
+<th class="head"><p>地图位置</p></th>
+<th class="head"><p>主张类型</p></th>
+<th class="head"><p>反证/反噬风险</p></th>
+<th class="head"><p>进入诉讼的通道</p></th>
+<th class="head"><p>评级</p></th>
+<th class="head"><p>关键转化</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>相变概念区分（涨落≠相变）</p></td>
+<td><p>p2051–2072</p></td>
+<td><p>风险 vs 危害</p></td>
+<td><p>科学侧定理＋<strong>无人之域的概念切割</strong></p></td>
+<td><p>先天范畴区分，不依赖参数</p></td>
+<td><p>几乎无</p></td>
+<td><p>概念分析→客观归责</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>译”潜在风险≠现实危害，行为不足以致果”</p></td>
+</tr>
+<tr class="row-odd"><td><p>FDT 涨落-耗散</p></td>
+<td><p>p2027–2050</p></td>
+<td><p>因果放大能力</p></td>
+<td><p>科学侧，映射属类比</p></td>
+<td><p>后验类比</p></td>
+<td><p>适用条件（近平衡）不满足</p></td>
+<td><p>附件说理</p></td>
+<td><p><strong>C</strong></p></td>
+<td><p>只留”谁主张放大，谁证明系统处放大态”</p></td>
+</tr>
+<tr class="row-even"><td><p>无标度网络＋Cohen 渗流</p></td>
+<td><p>p2139–2160</p></td>
+<td><p>拓扑边缘性</p></td>
+<td><p>同上</p></td>
+<td><p>定性拓扑事实＋跨过程借用</p></td>
+<td><p><strong>反噬</strong>：对蓄意攻击脆弱</p></td>
+<td><p>页面公证可固定度数</p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>只主张”账号度数在分布左尾”（可公证），弃阈值迁移</p></td>
+</tr>
+<tr class="row-odd"><td><p>分支过程/GW 灭绝定理/SOC</p></td>
+<td><p>p2161–2234</p></td>
+<td><p>级联必灭、临界态前提</p></td>
+<td><p>数学确定＋<strong>参数估计悬置</strong></p></td>
+<td><p>或然性论证</p></td>
+<td><p>m 未实测；承认临界态＝承认一般危害能力</p></td>
+<td><p>专家辅助人（§192）</p></td>
+<td><p><strong>B→A</strong></p></td>
+<td><p>参数换成扣押设备实测后即升级</p></td>
+</tr>
+<tr class="row-even"><td><p>Monte Carlo 模拟（5000 节点）</p></td>
+<td><p>p2185–2234</p></td>
+<td><p>E[S] 量级</p></td>
+<td><p>科学侧方法/估计侧输入</p></td>
+<td><p>可复现计算</p></td>
+<td><p>敏感性未披露</p></td>
+<td><p>附件</p></td>
+<td><p><strong>C</strong></p></td>
+<td><p>先固定实测参数再谈输出</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAP 定理</p></td>
+<td><p>p2102–2138</p></td>
+<td><p>归因谬误</p></td>
+<td><p>科学侧定理，<strong>挪用到不等者</strong></p></td>
+<td><p>隐喻</p></td>
+<td><p>一致性≠秩序；共识算法反例</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>建议从全部对外文本删去</p></td>
+</tr>
+<tr class="row-even"><td><p>信息熵/Kolmogorov 作”混乱度”</p></td>
+<td><p>p6、p100</p></td>
+<td><p>量化秩序</p></td>
+<td><p>术语借用</p></td>
+<td><p>隐喻</p></td>
+<td><p>度量效度缺失</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>删</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>实测证据包</strong>（扣押设备审计报告、页面公证、无辟谣检索记录）</p></td>
+<td><p>p96–97、p101、p560–562</p></td>
+<td><p>结果要件</p></td>
+<td><p><strong>科学侧</strong>（确定知识通道）</p></td>
+<td><p>后验数据</p></td>
+<td><p>低</p></td>
+<td><p><strong>《刑诉法》§50 鉴定意见——唯一入证据目录之物</strong></p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>Daubert＝边防检查在中国法上的对应：完整性校验、独立来源、可质证</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h4>2. 心理学支柱（主观要件：”明知”与”恶意”）<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>支系</p></th>
+<th class="head"><p>页码</p></th>
+<th class="head"><p>攻击对象</p></th>
+<th class="head"><p>地图位置</p></th>
+<th class="head"><p>主张类型</p></th>
+<th class="head"><p>反证/反噬风险</p></th>
+<th class="head"><p>通道</p></th>
+<th class="head"><p>评级</p></th>
+<th class="head"><p>关键转化</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>法定动机要素不符（寻求刺激/发泄情绪/无事生非 vs 收藏研究）</p></td>
+<td><p>p810、p885、p2308</p></td>
+<td><p>主观动机</p></td>
+<td><p>无人之域（规范论证）</p></td>
+<td><p>要件检验</p></td>
+<td><p>低</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>弃理论名，只留行为方式对照（转发无增删、无组织、无动员）</p></td>
+</tr>
+<tr class="row-odd"><td><p>应知≠明知（元认知表述被反向拟制）</p></td>
+<td><p>p62–63、p2339+</p></td>
+<td><p>主观推定</p></td>
+<td><p>无人之域；理论源在科学侧</p></td>
+<td><p>概念区分＋反驳</p></td>
+<td><p>“放任（未必故意）”缺口</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>收口于解释§140（禁止以身份/学历推定故意）</p></td>
+</tr>
+<tr class="row-even"><td><p>偏见机制群（确认偏误/隧道视野/认知闭合/基本归因/道德推脱/权威服从/替罪羊）</p></td>
+<td><p>p2264–2948</p></td>
+<td><p>司法决策成因</p></td>
+<td><p>实验室效应属科学侧；<strong>对具体人的后验归因属无人之域</strong></p></td>
+<td><p>机制解释</p></td>
+<td><p>不可证明个人心理</p></td>
+<td><p><strong>转程序请求</strong></p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>永不写”法官有偏见”，只写”为排除偏见所必需的程序未履行”（公开审判、二审开庭、逐项说理）</p></td>
+</tr>
+<tr class="row-odd"><td><p>Big Five／SDT 人格画像（未施测）</p></td>
+<td><p>p2631–2737</p></td>
+<td><p>被告人格</p></td>
+<td><p>无人之域边缘，<strong>无取证路径</strong></p></td>
+<td><p>事后画像</p></td>
+<td><p><strong>对称悖论</strong>：控方可反向用”高开放性⇒知情乐于传播”</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>全删</p></td>
+</tr>
+<tr class="row-even"><td><p>科尔伯格道德阶段／埃里克森／”集体幼态化”</p></td>
+<td><p>p2417–2503</p></td>
+<td><p>道德不对称</p></td>
+<td><p>理论争议大；给具体人定阶段＝身份论证变体</p></td>
+<td><p>阶段归属</p></td>
+<td><p>与判决同构；冒犯裁判者</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>唯一可用内核降格为”程序制衡不可省略”的理由（并入上条 C 层）</p></td>
+</tr>
+<tr class="row-odd"><td><p>心理动力学（本我/超我/投射/死亡驱力）／健康心理学（HPA/PTSD 推定）／进化心理学</p></td>
+<td><p>p2504–2577、p2578–2604</p></td>
+<td><p>制度病理／损害</p></td>
+<td><p><strong>向神学侧漂移</strong>（不可证伪范式）</p></td>
+<td><p>诊断语言</p></td>
+<td><p>被反用为”精神状态不稳定”</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>损害事实如需主张，走伤情/体检记录，不走理论</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h4>3. 英美分析哲学支柱（判决语言的成色检验）<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>支系</p></th>
+<th class="head"><p>页码</p></th>
+<th class="head"><p>攻击对象</p></th>
+<th class="head"><p>地图位置</p></th>
+<th class="head"><p>主张类型</p></th>
+<th class="head"><p>反证/反噬风险</p></th>
+<th class="head"><p>通道</p></th>
+<th class="head"><p>评级</p></th>
+<th class="head"><p>关键转化</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>范畴错误／事实-观点-艺术-情感区分</p></td>
+<td><p>p5232–5238</p></td>
+<td><p>要件①”编造的虚假信息”</p></td>
+<td><p><strong>无人之域正中央</strong></p></td>
+<td><p>概念分析</p></td>
+<td><p>低</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>“观点与艺术表达无真假值，不能成为’虚假信息’的对象”；收口于罪刑法定之要件明确性</p></td>
+</tr>
+<tr class="row-odd"><td><p>真值条件缺失／预设失败（弗雷格-斯特劳森-罗素论模糊）</p></td>
+<td><p>p5233–5236、p6143–6149、p6351–6352</p></td>
+<td><p>“造成严重混乱”的命题地位</p></td>
+<td><p>无人之域</p></td>
+<td><p>语义检验</p></td>
+<td><p>低</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>不说”命题无意义”（引证实原则＝踩废垒），说”<strong>未提供可复核的判定标准，指控事实不清</strong>”（§55、§176）</p></td>
+</tr>
+<tr class="row-even"><td><p>言语行为论（Austin：宣判的恰当条件）</p></td>
+<td><p>p5243–5245、p6393–6399</p></td>
+<td><p>判决的效力条件</p></td>
+<td><p>无人之域</p></td>
+<td><p>构成性论证</p></td>
+<td><p>低（不指责任何人）</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>译”未满足程序条件的宣告不生效力”→ §238(一)(三) <strong>应当</strong>发回</p></td>
+</tr>
+<tr class="row-odd"><td><p>逻辑结构检验（P1 无据／P2 循环／P3 不相干／结论偷换）</p></td>
+<td><p>p5236–5237、p6150+</p></td>
+<td><p>判决推理</p></td>
+<td><p>无人之域</p></td>
+<td><p>有效性+可靠性</p></td>
+<td><p>低</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>原样可用，只删”伪推理”等判词</p></td>
+</tr>
+<tr class="row-even"><td><p>弗雷格”概念文字化”读罪刑法定／开放结构+明确性</p></td>
+<td><p>p6143–6146、p6220–6222</p></td>
+<td><p>要件法定性</p></td>
+<td><p>无人之域</p></td>
+<td><p>规范论证</p></td>
+<td><p><strong>开放结构反噬</strong>（承认裁量本体论地位）</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>弃”开放结构”作批评工具，改用其对面的<strong>明确性原则与类推禁止</strong>（§3）</p></td>
+</tr>
+<tr class="row-odd"><td><p>证实原则／情感主义（Ayer）</p></td>
+<td><p>p5237、p8387–8401、p7405+</p></td>
+<td><p>伪命题判定</p></td>
+<td><p>无人之域，<strong>但科学与哲学两侧均已放弃该阵地</strong></p></td>
+<td><p>意义标准</p></td>
+<td><p>自我指涉；反噬辩方规范语词（”平等””人权”同被削为无认知内容）</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong>（其”事实/观点区分”内核已经上行 A 项 salvaged）</p></td>
+<td><p>警示性保留于学术层</p></td>
+</tr>
+<tr class="row-even"><td><p>Sellars 两种图像／理由空间</p></td>
+<td><p>p7150–7171</p></td>
+<td><p>判决的一元论扁平化</p></td>
+<td><p>无人之域高学理层</p></td>
+<td><p>元哲学</p></td>
+<td><p>门槛过高</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>学术层最有原创性之一；正文禁用</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id7">
+<h4>4. 欧陆哲学支柱（判决的存在方式诊断）<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>支系</p></th>
+<th class="head"><p>页码</p></th>
+<th class="head"><p>攻击对象</p></th>
+<th class="head"><p>地图位置</p></th>
+<th class="head"><p>主张类型</p></th>
+<th class="head"><p>反证/反噬风险</p></th>
+<th class="head"><p>通道</p></th>
+<th class="head"><p>评级</p></th>
+<th class="head"><p>关键转化</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>富勒八项内在道德</strong>（一般性/公布/不溯及/明确/不矛盾/可能/稳定/官方一致）</p></td>
+<td><p>p7636–7641</p></td>
+<td><p>判决作为”法”的资格</p></td>
+<td><p>无人之域（非实证主义谱系；国别属美国，按谱系归入本栏）</p></td>
+<td><p>规范论证</p></td>
+<td><p>低（逐条可对账）</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>每条可直接对表文书事实；第 5 条（既以其学历定罪又禁其用学历陈述）与第 8 条（口引 293、行用”觉得”）最锋利</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>阿列克西</strong>：原则权衡/比例、论证义务、正确性宣称</p></td>
+<td><p>p7545–7550</p></td>
+<td><p>量刑与说理</p></td>
+<td><p>无人之域</p></td>
+<td><p>规范论证</p></td>
+<td><p>低</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>“零比例的暴政”译”不满足必要性与均衡性”；论证义务对应裁判文书说理规范</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>卢曼/托伊纳</strong>：符码替换（法律用了政治的区分标准）</p></td>
+<td><p>p8015、p8037</p></td>
+<td><p>法律适用</p></td>
+<td><p>无人之域（系统论）</p></td>
+<td><p>结构描述（非心理归因）</p></td>
+<td><p>低——可用判决书原文自证</p></td>
+<td><p>申诉正文</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>译”未适用§293(四)构成要件标准，适用了条文外标准”→ <strong>§253(三) 适用法律确有错误</strong>（本支柱独有的独立再审事由）</p></td>
+</tr>
+<tr class="row-odd"><td><p>诠释学：视域融合被拒</p></td>
+<td><p>p5338–5340、p5352</p></td>
+<td><p>动机与语境未查明</p></td>
+<td><p>无人之域</p></td>
+<td><p>解释学</p></td>
+<td><p>术语即失分</p></td>
+<td><p>说理段</p></td>
+<td><p><strong>C→B</strong></p></td>
+<td><p>只留一句：”未查明行为意义与语境即作敌意归因”</p></td>
+</tr>
+<tr class="row-even"><td><p>工具理性/交往理性/公共领域殖民</p></td>
+<td><p>p5378–5379、p5739+</p></td>
+<td><p>程序品格</p></td>
+<td><p>无人之域向批判极</p></td>
+<td><p>总体定性</p></td>
+<td><p>不接要件</p></td>
+<td><p>学术层</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>中圈可用形态仅一句：”以结论效率替代审查”（入 C）</p></td>
+</tr>
+<tr class="row-odd"><td><p>空能指/延异/替补（索绪尔-巴特-德里达）</p></td>
+<td><p>p5314、p5434</p></td>
+<td><p>罪名语义</p></td>
+<td><p><strong>解释学极，不可证伪性向神学侧漂移</strong></p></td>
+<td><p>符号诊断</p></td>
+<td><p>概念挪用密度高</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>与 §3”模糊谓词”同题——诉讼中一律用后者</p></td>
+</tr>
+<tr class="row-even"><td><p>询唤/正常化/反向全景敞视/生命权力（阿尔都塞-福柯）</p></td>
+<td><p>p5399、p5417、p5453</p></td>
+<td><p>主体生产与程序形态</p></td>
+<td><p>同上</p></td>
+<td><p>权力分析</p></td>
+<td><p>入状＝政治控诉，触不予受理</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>“反向全景敞视”可用内核＝公开审判之监督功能（入 C）</p></td>
+</tr>
+<tr class="row-odd"><td><p>替罪羊/献祭/净化仪式（结构人类学）</p></td>
+<td><p>p5314–5315</p></td>
+<td><p>选择性追诉的功能解释</p></td>
+<td><p><strong>神学侧</strong>（功能主义目的论，不可证伪）</p></td>
+<td><p>制度诊断</p></td>
+<td><p><strong>取消”可纠错”前提</strong>→ 与再审制度逻辑冲突</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>选择性执法的可用形态只有事实对照（唯一被追诉者）＋平等原则（§33、刑诉法§6）</p></td>
+</tr>
+<tr class="row-even"><td><p>例外状态/主权决断（施米特）</p></td>
+<td><p>p7615</p></td>
+<td><p>依法外衣下的决断</p></td>
+<td><p>神学侧近旁（政治神学）</p></td>
+<td><p>概念诊断</p></td>
+<td><p>框架本身反法治</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>“上层指示办成铁案”作为<strong>待查证线索</strong>陈述即可，不须施米特</p></td>
+</tr>
+<tr class="row-odd"><td><p>行动者网络/转译（拉图尔）；思辨实在论/新唯物主义</p></td>
+<td><p>p6042、p5466–5511</p></td>
+<td><p>行为的重构</p></td>
+<td><p>科学研究边界→无人之域</p></td>
+<td><p>存在论</p></td>
+<td><p>与要件脱节</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>档案层</p></td>
+</tr>
+<tr class="row-even"><td><p>佩雷尔曼新修辞学（普遍听众）</p></td>
+<td><p>p7836–7852</p></td>
+<td><p>论证品格</p></td>
+<td><p>无人之域</p></td>
+<td><p>论证理论</p></td>
+<td><p>低</p></td>
+<td><p>说理段</p></td>
+<td><p><strong>C</strong></p></td>
+<td><p>只借”判决须面向普遍听众可检验”支持说理义务</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cover（判决即痛苦施加）</p></td>
+<td><p>p7578</p></td>
+<td><p>法理学遮蔽</p></td>
+<td><p>无人之域批判极</p></td>
+<td><p>元批判</p></td>
+<td><p><strong>拆申诉制度地板</strong>（否定说理可自束权力）</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>学术层</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h4>5. 传统中国哲学支柱（本土话语的三种命运）<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>支系</p></th>
+<th class="head"><p>页码</p></th>
+<th class="head"><p>攻击对象</p></th>
+<th class="head"><p>地图位置</p></th>
+<th class="head"><p>主张类型</p></th>
+<th class="head"><p>反证/反噬风险</p></th>
+<th class="head"><p>通道</p></th>
+<th class="head"><p>评级</p></th>
+<th class="head"><p>关键转化</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>名家：循名责实、名实相副</strong>（”转发非罪”仿公孙龙段）</p></td>
+<td><p>p3144–3155、p6132+</p></td>
+<td><p>名（罪名）与实（行为）不对应</p></td>
+<td><p><strong>无人之域分析区</strong>（与弗雷格-斯特劳森同带）</p></td>
+<td><p>概念-规范论证</p></td>
+<td><p>低</p></td>
+<td><p>申诉正文（须匿名化）</p></td>
+<td><p><strong>B→A</strong></p></td>
+<td><p>译”指控之名与查明之实不相副：要件该当性未经证明”——实为 §3 论证的中文变体</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>法家反向引用</strong>（法莫如显／一断于法／法不阿贵／法屈于势）</p></td>
+<td><p>p3087–3088</p></td>
+<td><p>定罪规则未公布、选择性追诉、指示办案</p></td>
+<td><p>无人之域（规范侧）</p></td>
+<td><p><strong>以子之矛</strong>：证明判决连本土工具主义的标准都未达到</p></td>
+<td><p>低（不依赖权利话语）</p></td>
+<td><p>申诉正文（匿名化）</p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>内核＝公布性＋平等适用＋依法不依指示；分别对接§3、§4、刑诉法§6</p></td>
+</tr>
+<tr class="row-even"><td><p>理学”格物 vs 梳理”（不格物而妄断）</p></td>
+<td><p>p3371–3375</p></td>
+<td><p>未核实即认定</p></td>
+<td><p>无人之域／道德形上交界</p></td>
+<td><p>修辞-概念对照</p></td>
+<td><p>“穷理”本身非程序标准</p></td>
+<td><p>说理段</p></td>
+<td><p><strong>C</strong></p></td>
+<td><p>一句译：”未经核实即作认定”</p></td>
+</tr>
+<tr class="row-odd"><td><p>心学致良知／道教”此案乃悟道之机”／儒家”守道之士”／道家”法令滋彰”</p></td>
+<td><p>p3388–3400、p9897–9906、p3049、p3475</p></td>
+<td><p>制度道德定性</p></td>
+<td><p><strong>神学侧</strong>（天理/道心/良知为教条位）</p></td>
+<td><p>价值宣示</p></td>
+<td><p>身份论证陷阱＋不可反驳即不可用</p></td>
+<td><p>无</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>档案与公共写作层</p></td>
+</tr>
+<tr class="row-even"><td><p>儒道劝慰书、楚辞体《言骚》、骈文</p></td>
+<td><p>p9858–9919、p9923–9935</p></td>
+<td><p>苦难的文学-历史定性</p></td>
+<td><p>神学侧＋文学</p></td>
+<td><p>诗性证词</p></td>
+<td><p>—</p></td>
+<td><p>无</p></td>
+<td><p><strong>D（档案价值全表最高）</strong></p></td>
+<td><p>与三篇”致未来读者序言”（p36–42）同属”留给未来”的层——本汇编唯一不可被任何西方框架替代的部分</p></td>
+</tr>
+<tr class="row-odd"><td><p>材料自我诊断：”中国法律传统工具理性、伦理本位、<strong>无自然法传统、程序正义薄弱</strong>”</p></td>
+<td><p>p7449–7454</p></td>
+<td><p>—</p></td>
+<td><p>无人之域（法制史判断）</p></td>
+<td><p>史论</p></td>
+<td><p><strong>与调用儒道法理批本案相矛盾</strong>：从”从未发展出该标准的传统”推不出”该标准被违反”</p></td>
+<td><p>—</p></td>
+<td><p>结构警示</p></td>
+<td><p>中国一支的批评力量全部来自现代法治概念；本土概念只是外衣——用其可译内核，勿以其自足</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id9">
+<h4>6. 内部规范检验支柱（执政党意识形态：以判决方自身承诺为尺）<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p>前提校正（p1477 原文声明）：此部分<strong>不是党内文件</strong>，而是”依据公开文本（宪法条文、党内法规公开版本、领导人公开论述）所作的<strong>教义性重构</strong>”，叙述立场是”假如一名党内审查者按程序逐条对照，他会发现什么”。其方法原型即”以子之矛，攻子之盾”。</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>支系</p></th>
+<th class="head"><p>页码</p></th>
+<th class="head"><p>攻击对象</p></th>
+<th class="head"><p>地图位置</p></th>
+<th class="head"><p>主张类型</p></th>
+<th class="head"><p>反证/反噬风险</p></th>
+<th class="head"><p>通道</p></th>
+<th class="head"><p>评级</p></th>
+<th class="head"><p>关键转化</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>承诺-落差框架</strong>（”不是挑战体制合法性，而是指出它未兑现自己的公开承诺””不是攻击，而是请求体制自我净化”）</p></td>
+<td><p>p1329、p1400、p2531</p></td>
+<td><p>判决方话语的自相一致</p></td>
+<td><p><strong>神学侧内部</strong>（取教义自身的理性构件审计其执行人）</p></td>
+<td><p>内部教义检验</p></td>
+<td><p>依赖”承诺对执行者有约束力”这一<strong>政治前提</strong>（无限后退；p1464 已自限”九项自我革命机制均未见启动”）</p></td>
+<td><p><strong>政治系统</strong>：政法委、纪检监察、人大、检察；并为全部对外文本换装</p></td>
+<td><p><strong>A−</strong></p></td>
+<td><p>落地时改写为”有错必纠”＋§253/§254 法定事由；”背离党的路线””违宪”不得作独立主张，只作定性语缀</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>邓小平制度命题</strong>（”制度更带有根本性……使法律和制度不因领导人的改变而改变，不因领导人看法和注意力的改变而改变”；反对”言出法随”）</p></td>
+<td><p>p1682、p1638</p></td>
+<td><p>指示办案、注意力式追诉</p></td>
+<td><p>神学侧内的规范极</p></td>
+<td><p>权威自我约束论证</p></td>
+<td><p>引领导人语录在裁判中无规范效力；语录版本需核实</p></td>
+<td><p>转译后入正文；原话用于政治文书</p></td>
+<td><p><strong>B→A</strong></p></td>
+<td><p><strong>内核已被法条吸收</strong>：即罪刑法定（§3）＋适用法律平等（§4）＋依法独立审判（刑诉法§5）。正式文本只写条文，不写引文</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>“实事求是／实践是检验真理的唯一标准”</strong>（”什么是谣言？要靠实践来检验，不能靠’我觉得’”）</p></td>
+<td><p>p1634、p1712、p1806、p1892</p></td>
+<td><p>未核实即认定</p></td>
+<td><p>神学侧内的认识论构件</p></td>
+<td><p>证据标准论证</p></td>
+<td><p>该命题在司法中无独立引据地位</p></td>
+<td><p>申诉正文＋说理段</p></td>
+<td><p><strong>A−</strong></p></td>
+<td><p>译”以事实为根据、证据不足不得认定”（§6、§55、§176）；妙处在于这是<strong>与收件人共享的认识论前提</strong>，无需先接受自由主义框架</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>列宁”统一法制”</strong>（反对”卡卢加省的法制”，主张全俄法制统一）</p></td>
+<td><p>p1849、p1807</p></td>
+<td><p>选择性追诉、地方专横</p></td>
+<td><p>同上</p></td>
+<td><p>法制统一论证</p></td>
+<td><p>列宁亦持专政与思想斗争条款（p1826 材料自列”可能支持定罪的逻辑”）</p></td>
+<td><p>申诉正文＋控告</p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>内核译”适用法律平等＋国家法制统一”（§4、刑诉法§6）；事实支撑＝同批贴文原创者与其他转发者未被追诉，唯此一人获罪</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>两类矛盾学说＋双百方针＋”言者无罪”</strong>（把人民内部的思想认识问题按敌我矛盾处理）</p></td>
+<td><p>p1713、p1767–1770、p1733</p></td>
+<td><p>罪名性质与手段错配</p></td>
+<td><p>政策教义（神学侧）</p></td>
+<td><p>处分方法论证</p></td>
+<td><p><strong>强反噬</strong>：同框架含专政条款与”六条标准”，可反向援引为”越界即敌我”；且”发动群众”语态触高危隔离</p></td>
+<td><p>说理段（须含防扩大化限定）</p></td>
+<td><p><strong>C→B</strong></p></td>
+<td><p>只取”思想认识问题不适用刑事强制”入说理，且必须同引 p1742”不能因防止扩大化就否定真实危害”以封堵反向使用</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>边界检验装置</strong>（主动列出四项基本原则、人民民主专政、意识形态领导权、总体国家安全观，再逐条论证”依其原始文本不能为本案辩护”）</p></td>
+<td><p>p1369、p1399、p1567、p1641、p1686、p1845</p></td>
+<td><p>己方论证的漏洞</p></td>
+<td><p><strong>方法论装置</strong>（非主张）</p></td>
+<td><p>对抗性自测</p></td>
+<td><p>几乎无</p></td>
+<td><p>全部对外文书的结构规范</p></td>
+<td><p><strong>A−（方法）</strong></p></td>
+<td><p><strong>本支柱最大的论证品格贡献</strong>：任何对外文书应含一节”最强控方论证及其为何不成立”，此亦为 §3 逻辑检验所要求</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>诚实声明装置</strong>（”单方陈述问题／数据来源问题／卷宗事实错误的更正／本文的性质”）</p></td>
+<td><p>p1376–1377、p1463–1465、p1538–1540、p1615–1616、p1692–1693、p1781、p1856</p></td>
+<td><p>材料可信性</p></td>
+<td><p>方法论装置</p></td>
+<td><p>自我设限</p></td>
+<td><p>无</p></td>
+<td><p>申诉书前言与脚注</p></td>
+<td><p><strong>A−（方法）</strong></p></td>
+<td><p>直接照搬结构：在文书首部声明依据材料范围、未经独立核验、”查明/认定”仅指文书记载——这是唯一被反复验证能提升可受理性的写法</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>“领导核心”专节的处理法</strong>（区分”全党服从中央”与”基层执法者自行解释核心”；指出以”维护核心”之名所为实际损害核心）</p></td>
+<td><p>p1452–1453</p></td>
+<td><p>判决说理的政治修辞</p></td>
+<td><p>神学侧内部（最敏感处）</p></td>
+<td><p>概念置换批判</p></td>
+<td><p>处理不当即从”内部检验”滑为”政治指控”</p></td>
+<td><p>政治系统渠道＋说理段</p></td>
+<td><p><strong>B（须严格限定）</strong></p></td>
+<td><p>唯一可用句式：”<strong>将政治范畴置换为法律范畴，既超出基层执行权限，也不符合’党的领导的实现方式是依法治国’的表述</strong>”——落点仍是§253(三)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>极左文体段落</strong>（”必须发动群众，打倒司法黑帮””判决书是司法黑帮的呈堂供词””资产阶级法权的现代变种””无产阶级斗争的先声”）</p></td>
+<td><p>p1710、p1788、p1874、p1924–1925、p1952</p></td>
+<td><p>制度与执法者</p></td>
+<td><p><strong>神学侧激进翼</strong>（与官方 1981 年历史定性正面冲突；p1782 已引决议自限）</p></td>
+<td><p>阶级斗争话语</p></td>
+<td><p><strong>全表最高危</strong>：可被定性为”以极左话语歪曲攻击”，连带危及本可安全入件的其他部分</p></td>
+<td><p>无</p></td>
+<td><p><strong>D（须整段隔离，不同件递出）</strong></p></td>
+<td><p>若需保留历史面貌，单列为档案附件，且与任何递交通道物理分隔</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>九套理论的批量重述</strong>（马克思主义、列宁主义、毛、邓、三个代表、科学发展观、新时代思想等 × 多家模型轮化作答；p1440 自列”九把尺子”）</p></td>
+<td><p>p1317–2026 全节</p></td>
+<td><p>—</p></td>
+<td><p>档案／思想史</p></td>
+<td><p>方法论穷尽</p></td>
+<td><p><strong>对论证强度近乎零增益</strong>（第五个框架说同一件事不使该事更真）；篇幅掩盖主干</p></td>
+<td><p>无</p></td>
+<td><p><strong>D（档案与思想史价值全表最高）</strong></p></td>
+<td><p>定位为”<strong>官方话语与其执行之间落差的完整样本</strong>”——p1400”规范最细密时代的’执行黑洞‘“即其结论；不参与诉讼</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h3>二、把总表读成一条防线：四种话术，四道边检<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>判决书任何一次自我辩护只会取四种形式，各自撞上一条边界——<strong>且第四条撞在不同的地点</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>“这是有证据支撑的事实断言”</strong>（”造成严重混乱”）→ 撞 <strong>Daubert 边防</strong>（中国对应：证据种类、完整性校验、鉴定程序、§55 排除合理怀疑）→ 科学支柱的实测证据包与概念区分拦截：无数据则连进入审查的门槛都未达到。<strong>拦截地：法庭。要求交出：数据。</strong></p></li>
+<li><p><strong>“这是不容置疑的价值真理”</strong>（”领导核心不可冒犯””法外之地论”）→ 撞 <strong>无人之域的规范责任</strong>（说理义务、权衡义务、明确性）→ 富勒八项＋阿列克西＋卢曼转化版拦截：价值断言不得冒充构成要件；未适用条文自身的区分标准即”适用法律确有错误”。<strong>拦截地：法庭。要求交出：理由。</strong></p></li>
+<li><p><strong>两条都不走，径以权力宣告</strong>（”未提交新证据，驳回”）→ 这正是罗素所说无人之域<strong>遭受攻击</strong>的形态本身——撞程序刚性：§238 违反公开审判<strong>应当</strong>发回、§234 应开庭而不开庭、举证责任法定不得倒置。<strong>拦截地：法庭。要求交出：程序。</strong></p></li>
+<li><p><strong>“这是政治大局、维护核心、稳定所需”</strong>（第四种也是最后一种退路：不再谈事实、不再谈规范、不再谈程序，而谈政治站位）→ 前三道边检在此处都会松动，因为它们在法庭内部与政治话语<strong>没有共同语言</strong>。拦住它的只有 <strong>承诺边检</strong>：以该权威<strong>自己确立的公开承诺</strong>作尺——制度不因领导人看法与注意力而改变（反注意力式追诉）、实事求是与实践标准（反”我觉得是谣言”）、法制统一（反选择性追诉）、有错必纠与自我革命（反拒绝纠错）、”让人民群众在每一个司法案件中感受到公平正义”（反以稳定之名制造不义）。其结构是：<strong>不用外部价值反驳其政治理由，而用其政治理由的官方原文反驳其政治理由。</strong> 拦截地：<strong>不在法庭，在政治系统</strong>（政法委、纪检监察、人大、检察；并作为检察监督与依职权再审的递呈依据）。要求交出：<strong>一致性</strong>。</p></li>
+</ol>
+<p>由此可得全案的元诊断：<strong>错判不是选错了答案，而是拒答了问题</strong>——它跳过的恰恰是无人之域的全部义务（定义、举证、说理、权衡、公开）。六类解构工具的互补性在于各自要求交出一样东西：科学要<strong>数据</strong>，分析哲学要<strong>理由</strong>，欧陆要<strong>制度说明</strong>，程序论要<strong>程序</strong>，诸子要<strong>名实相副</strong>，内部检验要<strong>言行一致</strong>——而六样它一样都没交。</p>
+<blockquote>
+<div><p>四道边检的合成效果：前三道把判决逼回法庭内它唯一合法的位置（必须给理由的论证场），第四道把同一问题送到法庭之外的另一个机关（必须兑现承诺的政治系统）。<strong>这就是为什么本表既要有 A 级法条主张，也必须保留一条 A− 级政治通道——两者收件人不同，缺一则整案无出口。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h3>三、诉讼装配线（按评级归堆后的唯一顺序）<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p><strong>第一步（A 级，入正文主干）</strong>——全部匿名化（不出现任何学者、定理、主义、领导人语录之名）：</p>
+<ol class="arabic simple">
+<li><p>结果要件零举证 → §55、§176：指控事实不清；</p></li>
+<li><p>“严重混乱”无可复核判定标准 → §3 明确性＋§253(三)；</p></li>
+<li><p>范畴错位（观点/艺术≠可证伪事实）→ §253(三)；</p></li>
+<li><p>应知≠明知、禁止身份推定 → 解释§140；</p></li>
+<li><p>未适用构成要件标准而适用条文外标准（卢曼转化版）→ §253(三) <strong>独立成由</strong>；</p></li>
+<li><p>违反公开审判 → §238(一) <strong>应当</strong>发回＋§253(四)；二审应开庭未开庭 → §234；</p></li>
+<li><p>量刑不满足必要性与均衡性（阿列克西转化版）→ 畸重；</p></li>
+<li><p>《刑法》§13 但书作退路主张。</p></li>
+</ol>
+<p><strong>第二步（B 级，须改造后进正文）</strong>：调取扣押设备→司法鉴定（传播量审计报告）→把分支过程从 C 升 A；页面公证＋无辟谣检索→”新证据”→ §253(一)；名家”名实相副”与法家”法莫如显/一断于法”内核以普通法言写入说理段（出处仅可留脚注，且建议不留）。</p>
+<p><strong>第三步（A− 级，第六支柱专用并行通道）</strong>——<strong>不替代第一、二步，另件另递</strong>：</p>
+<ul class="simple">
+<li><p>收件人：云南省/最高人民检察院（审判监督与检察建议）、省级以上监察机关（执法违法线索）、人大内司委与政法委（依职权再审的递呈）；</p></li>
+<li><p>内容：承诺-落差框架＋实事求是/实践标准＋法制统一＋有错必纠；</p></li>
+<li><p><strong>写法要求</strong>：政治话语只作定性与动机说明，每一项落点仍须绑定一条 §253/§254 法定事由；</p></li>
+<li><p><strong>两条装置必须照搬</strong>：①边界检验节（自列最强控方论证并驳倒）；②诚实声明节（依据材料范围、未经独立核验、”查明/认定”仅指文书记载）。这两项是本支柱对全部对外文书的形式贡献。</p></li>
+</ul>
+<p><strong>第四步（C 级，说理背景，限两句以内、零术语）</strong>：偏见机制→程序保障不可省略之理；视域融合→未查明语境；工具理性→以效率代审查；格物/梳理→未经核实即认定；两类矛盾→思想认识问题不宜以刑事强制解决（须同引防扩大化限定）。</p>
+<p><strong>第五步（D 级，一律不入件）</strong>：CAP、熵隐喻、未施测人格与道德阶段、对办案人员的一切病理/神学式诊断、欧陆外圈（询唤/献祭/例外状态/延异）、儒道释心性话语、领导人语录引文（转译后可用，引文本身不入）。</p>
+<p><strong>第六步（D 级，最高危，须物理分隔）</strong>：极左文体段落（发动群众、打倒司法黑帮、资产阶级法权、斗争先声，p1710/1788/1874/1924/1952）。此类段落<strong>即使单独成件也不递出</strong>；若为历史面貌保留，只入档案附件，与任何递交通道隔离。</p>
+<p><strong>第七步（D 级，但为全书所当留）</strong>：教门劝慰与《言骚》骈文、以及第六支柱的九套理论批量重述——它们是这部档案作为<strong>中文对一桩冤案的道德-历史定性</strong>与<strong>官方话语落差样本</strong>的不可替代部分；罗素地图上它们属神学侧与文学，本就不欠论证一个交代——它们回答的不是”此判决为何无效”，而是”此事为何不可忘、此类落差为何会在最细密的规范时代发生”。</p>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3>结语：谱系的一句话总纲<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<p>按罗素地图重排后，这部 10194 页汇编的全部方法野心可以收成一句：</p>
+<blockquote>
+<div><p><strong>它发动了整张知识地图上的一切法院来审判一桩判决，最终发现只有法庭内的那个机关有管辖权——而它受理的从来不是”哪套理论为真”，只有两样东西：证据与程序。</strong>
+科学解构的价值在于把自己<strong>转化</strong>为证据（鉴定），哲学解构的价值在于把自己<strong>翻译</strong>为程序请求（发回、开庭、说理），诸子解构的价值在于证明连最工具主义的传统都不认这份判决，而第六支解构的价值在于：它是唯一一支<strong>不引入任何外部标准</strong>、只把判决方的承诺原样递回其手中的——因此也是唯一能给整份材料换上一件在收件人面前最不易被拒收外衣的。
+五者共同的伦理，仍是无人之域的那条古老戒律：<strong>只讲理由，不讲 certainty；要求别人如此，自己先如此。</strong></p>
+</div></blockquote>
+<p><em>（本表为方法论谱系整理，不针对任何机关或个人作事实认定；完整卷宗未公开，如另有经质证之实质证据，§1 各行评级须按实测结果复核；第六支柱各行评级另受”承诺对执行者有约束力”这一政治前提制约，见 §6 首行风险栏。）</em></p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="deepseek.html" class="btn btn-neutral float-left" title="Deepseek" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../../science/index.html" class="btn btn-neutral float-right" title="科学理论" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

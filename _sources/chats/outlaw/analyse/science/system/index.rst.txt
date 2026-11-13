@@ -8,13 +8,18 @@
  .. toctree::
     :maxdepth: 1
 
-    godel/index
-   
+    cmplx/index
+
  .. toctree::
     :maxdepth: 1
 
-    cmplx/index
+    godel/index
 
+ .. toctree::
+    :maxdepth: 1
+
+    review/index
+   
 
 ---------------------------
 

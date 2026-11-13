@@ -1,0 +1,607 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FLP不可能性 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../index.html">Land beyond Law</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">FLP不可能性</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/science/system/cmplx/abc.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="flp">
+<h1>FLP不可能性<a class="headerlink" href="#flp" title="Link to this heading"></a></h1>
+<p><strong>FLP 不可能性（FLP Impossibility）</strong> 是分布式计算领域的一个<strong>根本性理论边界</strong>，由 Fischer、Lynch 和 Paterson 在 1985 年证明，结论是：</p>
+<blockquote>
+<div><p><strong>在异步分布式系统中，只要允许哪怕一个进程可能崩溃（crash failure），就不存在一种确定性共识算法，能在有限时间内保证所有正确进程都达成一致。</strong></p>
+</div></blockquote>
+<p>下面用尽量直观的方式拆解它。</p>
+<hr class="docutils" />
+<section id="consensus">
+<h2>1. 背景：什么是共识（Consensus）<a class="headerlink" href="#consensus" title="Link to this heading"></a></h2>
+<p>一组进程要对某个值达成一致，必须满足三个性质：</p>
+<ol class="arabic simple">
+<li><p><strong>终止性（Termination）</strong>：所有正确进程最终都会决定一个值</p></li>
+<li><p><strong>一致性（Agreement）</strong>：所有正确进程决定的值必须相同</p></li>
+<li><p><strong>有效性（Validity）</strong>：决定出来的值必须是某个进程提议的值</p></li>
+</ol>
+<p>FLP 问的是：<strong>在异步系统 + 故障模型下，能不能做到？</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h2>2. FLP 的假设（非常关键）<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>FLP 之所以强，是因为假设<strong>很弱、很现实</strong>：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>项目</p></th>
+<th class="head"><p>假设</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>通信</p></td>
+<td><p>异步网络（无时钟同步、消息可任意延迟）</p></td>
+</tr>
+<tr class="row-odd"><td><p>故障</p></td>
+<td><p>最多 <strong>1 个进程崩溃失败</strong>（crash-stop）</p></td>
+</tr>
+<tr class="row-even"><td><p>算法</p></td>
+<td><p><strong>确定性算法</strong>（不是随机算法）</p></td>
+</tr>
+<tr class="row-odd"><td><p>进程</p></td>
+<td><p>至少 2 个进程</p></td>
+</tr>
+</tbody>
+</table>
+<p>注意：<strong>没有拜占庭错误</strong>，只是普通宕机。</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h2>3. FLP 的核心直觉<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>FLP 证明的不是“很难”，而是<strong>绝对不可能</strong>。</p>
+<p><strong>核心思想：</strong></p>
+<ul class="simple">
+<li><p>在异步系统中，<strong>无法区分</strong>一个进程是：</p>
+<ul>
+<li><p>真的崩溃了，还是</p></li>
+<li><p>只是因为消息很慢</p></li>
+</ul>
+</li>
+<li><p>因此，任何试图“等待足够证据再决定”的算法，都可能永远等下去</p></li>
+<li><p>任何试图“超时即决定”的算法，又可能在另一个执行里破坏安全性</p></li>
+</ul>
+<p>于是：</p>
+<blockquote>
+<div><p><strong>安全性（Agreement）</strong> 和 <strong>活性（Termination）</strong> 不可兼得</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>4. 对实际系统的意义<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>FLP 不是“不能写分布式系统”，而是告诉你：</p>
+<p>✅ <strong>纯异步 + 确定算法 + 容忍 1 个故障 → 不可能</strong><br />
+❌ 不是“所有共识都不可能”</p>
+<p>现实中突破 FLP 的方式：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>方式</p></th>
+<th class="head"><p>例子</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>引入部分同步假设</p></td>
+<td><p>Raft、Paxos（假设不会无限慢）</p></td>
+</tr>
+<tr class="row-odd"><td><p>使用随机化算法</p></td>
+<td><p>Randomized Consensus</p></td>
+</tr>
+<tr class="row-even"><td><p>使用故障检测器</p></td>
+<td><p>超时机制（但理论上不完美）</p></td>
+</tr>
+<tr class="row-odd"><td><p>弱化需求</p></td>
+<td><p>放弃终止性（允许有时卡住）</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>5. 一句话总结<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>FLP 不可能性告诉我们：在没有时间假设的异步系统中，容错共识在理论上是不可能的；工程上的共识算法都是通过“不再完全异步”来实现的。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="cap">
+<h1>CAP定理<a class="headerlink" href="#cap" title="Link to this heading"></a></h1>
+<section id="id5">
+<h2>1. 起源与定义<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>CAP 定理由 <strong>Eric Brewer</strong> 在 1998 年提出猜想，<strong>Seth Gilbert 和 Nancy Lynch</strong> 于 2002 年形式化证明。</p>
+<blockquote>
+<div><p><strong>在一个分布式系统中，以下三个属性最多只能同时满足两个：</strong></p>
+<ul class="simple">
+<li><p><strong>C：Consistency（一致性）</strong></p></li>
+<li><p><strong>A：Availability（可用性）</strong></p></li>
+<li><p><strong>P：Partition tolerance（分区容错性）</strong></p></li>
+</ul>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>2. 三个字母到底是什么意思？<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="c-consistency">
+<h3>✅ C — Consistency（一致性）<a class="headerlink" href="#c-consistency" title="Link to this heading"></a></h3>
+<p>这里的“一致性”指：</p>
+<blockquote>
+<div><p><strong>线性izable 一致性（Linearizability）</strong><br />
+所有节点在同一时刻看到的数据是完全相同的。</p>
+</div></blockquote>
+<p>特点：</p>
+<ul class="simple">
+<li><p>像单机系统一样</p></li>
+<li><p>读操作一定返回<strong>最近一次写的结果</strong></p></li>
+<li><p>强一致，而不是最终一致</p></li>
+</ul>
+<p>示例：</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Node A 写入 x = 1
+Node B 立刻读 x → 必须读到 1
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="a-availability">
+<h3>✅ A — Availability（可用性）<a class="headerlink" href="#a-availability" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>每一个非故障节点收到的请求，都必须在有限时间内返回响应</strong></p>
+</div></blockquote>
+<p>关键点：</p>
+<ul class="simple">
+<li><p>不要求返回“最新数据”</p></li>
+<li><p>但 <strong>不能一直卡住或报错</strong></p></li>
+<li><p>所有正常节点都要能响应</p></li>
+</ul>
+<p>⚠️ 注意：<br />
+不是“99.99% 可用”，而是<strong>理论上的 100% 可用</strong></p>
+</section>
+<hr class="docutils" />
+<section id="p-partition-tolerance">
+<h3>✅ P — Partition tolerance（分区容错性）<a class="headerlink" href="#p-partition-tolerance" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>系统在网络分区发生时，仍能继续运行</strong></p>
+</div></blockquote>
+<p>网络分区指：</p>
+<ul class="simple">
+<li><p>节点之间网络断开</p></li>
+<li><p>一部分节点无法与另一部分通信</p></li>
+</ul>
+<p>现实世界：</p>
+<ul class="simple">
+<li><p>交换机故障</p></li>
+<li><p>机房断网</p></li>
+<li><p>跨地域网络抖动</p></li>
+</ul>
+<p>👉 <strong>P 在分布式系统中几乎是不可选的</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h2>3. CAP 的“三选二”到底怎么选？<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<section id="id8">
+<h3>正确理解<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>不是“永远只能选两个”，而是：</strong></p>
+<p><strong>在发生网络分区时，你必须在 C 和 A 之间做选择。</strong></p>
+</div></blockquote>
+</section>
+<section id="id9">
+<h3>三种组合（理论层面）<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>类型</p></th>
+<th class="head"><p>含义</p></th>
+<th class="head"><p>现实情况</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>CA</strong></p></td>
+<td><p>一致 + 可用</p></td>
+<td><p>❌ 不存在于真实分布式系统</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>CP</strong></p></td>
+<td><p>一致 + 分区容错</p></td>
+<td><p>✅ 常见（Raft、ZooKeeper）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>AP</strong></p></td>
+<td><p>可用 + 分区容错</p></td>
+<td><p>✅ 常见（Dynamo、Cassandra）</p></td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ <strong>CA 系统只能在无分区环境下存在</strong>（本质上是单机）</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id10">
+<h2>4. 分区发生时发生了什么？<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<p>假设有 2 个节点 A、B，网络断开：</p>
+<section id="cp">
+<h3>CP 系统（保一致）<a class="headerlink" href="#cp" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>A 能处理写请求</p></li>
+<li><p>B 拒绝写请求（防止不一致）</p></li>
+<li><p>结果：<strong>部分不可用</strong></p></li>
+</ul>
+</section>
+<section id="ap">
+<h3>AP 系统（保可用）<a class="headerlink" href="#ap" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>A 和 B 都接受写请求</p></li>
+<li><p>两边数据可能不同</p></li>
+<li><p>结果：<strong>暂时不一致</strong></p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="cap-flp">
+<h2>5. CAP 与 FLP 的关系（回顾）<a class="headerlink" href="#cap-flp" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>理论</p></th>
+<th class="head"><p>说什么</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>FLP</p></td>
+<td><p><strong>异步网络中，确定性的共识不可能既安全又必然终止</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>CAP</p></td>
+<td><p><strong>分区时，强一致和 100% 可用不能兼得</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>联系：</p>
+<ul class="simple">
+<li><p>CAP 中的 <strong>C 依赖共识</strong></p></li>
+<li><p>FLP 说明共识在异步网络中不可能完美</p></li>
+<li><p>→ <strong>CAP 是 FLP 在工程层面的体现</strong></p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h2>6. 工程中对 CAP 的真实态度<a class="headerlink" href="#id11" title="Link to this heading"></a></h2>
+<section id="id12">
+<h3>✅ 工业界共识<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>P 必须选</strong></p></li>
+<li><p>实际系统是：</p>
+<ul>
+<li><p><strong>大多数时候 CA</strong></p></li>
+<li><p><strong>分区时退化为 CP 或 AP</strong></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id13">
+<h3>✅ 常见系统定位<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>系统</p></th>
+<th class="head"><p>类型</p></th>
+<th class="head"><p>说明</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ZooKeeper</p></td>
+<td><p>CP</p></td>
+<td><p>选主期间不可用</p></td>
+</tr>
+<tr class="row-odd"><td><p>etcd / Consul</p></td>
+<td><p>CP</p></td>
+<td><p>强一致元数据</p></td>
+</tr>
+<tr class="row-even"><td><p>Cassandra</p></td>
+<td><p>AP</p></td>
+<td><p>可调一致性</p></td>
+</tr>
+<tr class="row-odd"><td><p>DynamoDB</p></td>
+<td><p>AP</p></td>
+<td><p>最终一致</p></td>
+</tr>
+<tr class="row-even"><td><p>Google Spanner</p></td>
+<td><p>“CA”</p></td>
+<td><p>用 TrueTime 规避 CAP</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h2>7. CAP 的常见误解（非常重要）<a class="headerlink" href="#id14" title="Link to this heading"></a></h2>
+<section id="id15">
+<h3>❌ 误解 1：CAP 说“不能同时有三个”<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>✅ 实际：<br />
+<strong>分区发生时，C 和 A 二选一</strong></p>
+</section>
+<section id="id16">
+<h3>❌ 误解 2：CP 系统完全不可用<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<p>✅ 实际：<br />
+只是<strong>部分节点或部分功能不可用</strong></p>
+</section>
+<section id="id17">
+<h3>❌ 误解 3：AP 系统“没有一致性”<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<p>✅ 实际：<br />
+是<strong>最终一致性（Eventual Consistency）</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h2>8. CAP 之后的演进<a class="headerlink" href="#id18" title="Link to this heading"></a></h2>
+<p>CAP 之后还有更精细的模型：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>理论</p></th>
+<th class="head"><p>作用</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>PACELC</p></td>
+<td><p>无分区时也要权衡延迟和一致性</p></td>
+</tr>
+<tr class="row-odd"><td><p>BASE</p></td>
+<td><p>强调可用性和最终一致</p></td>
+</tr>
+<tr class="row-even"><td><p>FLP</p></td>
+<td><p>解释为什么 CAP 成立</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h2>9. 一句话总结<a class="headerlink" href="#id19" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>CAP 定理告诉我们：在分布式系统中，网络分区不可避免，一旦发生，你就必须在强一致性和永远可用之间做出选择。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="flp-vs-cap">
+<h1>FLP vs. CAP<a class="headerlink" href="#flp-vs-cap" title="Link to this heading"></a></h1>
+<p><strong>FLP 不可能性和 CAP 定理都揭示了分布式系统的“不可能三角”，但它们处在不同层面：</strong></p>
+<blockquote>
+<div><p><strong>FLP 是“计算模型层面的不可能”；CAP 是“系统设计层面的取舍”。</strong><br />
+两者互相印证，但<strong>不等价、也不互相包含</strong>。</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id20">
+<h2>1. 一句话对比<a class="headerlink" href="#id20" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>维度</p></th>
+<th class="head"><p>FLP 不可能性</p></th>
+<th class="head"><p>CAP 定理</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>研究对象</p></td>
+<td><p><strong>共识（Consensus）</strong></p></td>
+<td><p><strong>数据存储（Data Store）</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>系统模型</p></td>
+<td><p>异步分布式系统</p></td>
+<td><p>分布式存储系统</p></td>
+</tr>
+<tr class="row-even"><td><p>不可能内容</p></td>
+<td><p><strong>确定性的、可终止的共识不存在</strong></p></td>
+<td><p><strong>三者不能同时保证</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>核心冲突</p></td>
+<td><p>安全性 vs 活性</p></td>
+<td><p>一致性 vs 可用性</p></td>
+</tr>
+<tr class="row-even"><td><p>是否依赖时间</p></td>
+<td><p>完全异步（无时间假设）</p></td>
+<td><p>允许分区期间的时间选择</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="flp-cap">
+<h2>2. 核心联系：FLP 是 CAP 的“底层原因”<a class="headerlink" href="#flp-cap" title="Link to this heading"></a></h2>
+<p>可以这样理解：</p>
+<blockquote>
+<div><p><strong>CAP 中的“C（一致性）”本质上依赖共识；而 FLP 说明：在异步网络中，共识不可能完美实现。</strong></p>
+</div></blockquote>
+<p>所以：</p>
+<ul class="simple">
+<li><p>一旦网络发生<strong>分区（Partition）</strong></p></li>
+<li><p>系统若坚持强一致（Linearizability）</p></li>
+<li><p>就必须在某些节点上<strong>停止服务（牺牲 Availability）</strong></p></li>
+</ul>
+<p>这正是 CAP 所说的 <strong>CP 系统</strong>。</p>
+<p>👉 <strong>FLP 解释了：为什么 CAP 里的 C 和 A 不能兼得。</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id21">
+<h2>3. 关键区别（很多人会混淆）<a class="headerlink" href="#id21" title="Link to this heading"></a></h2>
+<section id="id22">
+<h3>✅ 1. FLP 更强、更悲观<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>FLP 说：<strong>即使在无分区的情况下</strong>，只要异步 + 一个故障<br />
+→ <strong>确定性的共识就不可能保证一定结束</strong></p></li>
+<li><p>CAP 说的是：<strong>发生分区时</strong>，你要在 C 和 A 之间选一个</p></li>
+</ul>
+</section>
+<section id="id23">
+<h3>✅ 2. FLP 针对“共识协议”<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>比如：Paxos、Raft、ViewStamp 是否满足终止性</p></li>
+<li><p>CAP 针对“整个系统对外表现”</p></li>
+</ul>
+</section>
+<section id="id24">
+<h3>✅ 3. CAP 可以被“绕过”，FLP 不行<a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>CAP 可以通过 <strong>BASE、最终一致性</strong> 绕过</p></li>
+<li><p>FLP 是<strong>数学不可能</strong>，无法绕过，只能放松前提</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id25">
+<h2>4. 工程视角的统一理解<a class="headerlink" href="#id25" title="Link to this heading"></a></h2>
+<p>在工程实践中，两者的关系是：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>理论</p></th>
+<th class="head"><p>工程后果</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>FLP</p></td>
+<td><p>所有共识算法都必须依赖“不完全异步”的假设（超时、心跳、Leader）</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAP</p></td>
+<td><p>分区时，要么返回旧数据（AP），要么拒绝请求（CP）</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Raft / Paxos 的本质：</strong></p>
+<ul class="simple">
+<li><p>用 <strong>Leader + 超时</strong> 把系统变成“伪同步”</p></li>
+<li><p>从而<strong>绕开 FLP</strong></p></li>
+<li><p>在 CAP 中表现为 <strong>CP 系统</strong></p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id26">
+<h2>5. 一句话总结<a class="headerlink" href="#id26" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>FLP 不可能性是 CAP 定理的理论基础之一：它证明了为什么在分布式系统中，强一致性和可用性在网络异常面前注定无法两全。</strong></p>
+</div></blockquote>
+<p>如果你愿意，我可以：</p>
+<ul class="simple">
+<li><p>用 <strong>Raft 在分区下的行为</strong> 同时解释 FLP 和 CAP</p></li>
+<li><p>或画一张 <strong>“FLP → CAP → 实际系统” 的层级图</strong></p></li>
+<li><p>或对比 <strong>FLP vs 2PC / 3PC</strong></p></li>
+</ul>
+<p>你想从哪个角度继续？</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

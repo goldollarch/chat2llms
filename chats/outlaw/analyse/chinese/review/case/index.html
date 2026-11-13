@@ -1,0 +1,232 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>案例 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Gemini" href="gemini.html" />
+    <link rel="prev" title="Qwen" href="../abc/qwen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">传统中国</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../person/index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../school/index.html">百家</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../main/index.html">主流</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">概况</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">传统中国</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">概况</a></li>
+      <li class="breadcrumb-item active">案例</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/chinese/review/case/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>案例<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>“在我的理解中，哲学乃是某种介乎神学与科学之间的东西。它和神学一样，包含着人类对于那些迄今仍为确切的知识所不能肯定的事物的思考；但是它又像科学一样，是诉之于人类的理性而不是诉之于权威的，不论是传统的权威还是启示的权威。”</p>
+<p>— 引自 伯特兰·罗素《西方哲学史》</p>
+</div>
+<hr class="docutils" />
+<blockquote>
+<div><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="gemini.html">Gemini</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id1">一、 法家思想的“镜鉴”：揭露“以法为教、以吏为师”的现代异化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id2">二、 名家与逻辑的对照：批判“名实相符”的崩塌与语言暴力</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id3">三、 道家与儒家（孟子）的对照：守护“心灵自由”与“士人良知”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id4">四、 宋明理学与心学的对照：批判“理在心中”的行政强暴与“良知”的唤醒</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gemini.html#id5">总结</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chatgpt.html">ChatGPT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id1">一、中国传统哲学在本案分析中的六项主要意义</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id2">1. 儒家：把“司法是否合法”推进到“司法是否合义”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id3">2. 道家：揭示“秩序”与“控制”不是同一个概念</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id4">3. 法家：提供一种对司法权力的内部检验，而不只是批判法家</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id5">4. 名家：把案件中最容易被忽略的“概念混乱”变成独立研究对象</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id6">5. 宋明理学：把司法认知提升为“求理”的责任</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id7">6. 清代朴学：为传统哲学提供最重要的实证方法补充</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id8">二、诸子百家：真正重要的是让不同的治理原则相互制衡</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id9">7. 墨家：从公共利益而不是权力利益衡量治理效果</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id10">8. 杂家：反对单一解释框架，建立综合治理观</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id11">9. 纵横家：可以分析权力与表达的策略关系，但不宜作为核心法理</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id12">三、这些思想共同构成了什么？</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id13">中国传统哲学的司法审查矩阵</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id14">四、传统哲学与西方哲学、现代科学结合后，价值会进一步提升</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id15">五、但档案中的传统哲学评论也有需要纠正的地方</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chatgpt.html#id16">六、我的总体评价：这是档案中具有独特价值的一组思想资源</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id17">1. 文化思想层面：建立中国自身的法治批判语言</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id18">2. 理论方法层面：形成多传统互补的司法批判体系</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chatgpt.html#id19">3. 公共思想层面：把个案提升为制度反思</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deepseek.html">Deepseek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id1">中国哲学的介入——意义、可用性与风险</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id2">一、实况：不是点缀，是一整套谱系</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id3">二、五重意义</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id8">三、一个跨传统发现：名家与分析哲学同族</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id9">四、四处局限与风险</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id14">五、结论：中国哲学问的是第三个问题</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="deepseek.html#id15">中国传统哲学卷：内容总结与价值评估</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id16">一、规模与编排：一卷”背书式”的写作</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id17">二、五层内容结构与一个”失败的开篇”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id19">三、九家与十项主流：具体论证一览</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id21">四、宋明理学与心学：被单独提出，也被单独削弱</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id27">五、六条真正可用的论证</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id30">六、与西方哲学卷的三组对照</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id33">七、意义：三重</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id37">八、价值的分层评估</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id38">九、局限与风险：六点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id45">十、结论</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deepseek.html#id50">附：一页图</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qwen.html">Qwen</a></li>
+</ul>
+</div>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../abc/qwen.html" class="btn btn-neutral float-left" title="Qwen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="gemini.html" class="btn btn-neutral float-right" title="Gemini" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

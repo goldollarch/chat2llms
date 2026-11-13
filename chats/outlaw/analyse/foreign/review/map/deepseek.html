@@ -1,0 +1,1319 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepseek &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Qwen" href="qwen.html" />
+    <link rel="prev" title="ChatGPT" href="chatgpt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../master/index.html">大师</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../branch/index.html">分支</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">概况</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">概况</a></li>
+          <li class="breadcrumb-item"><a href="index.html">地图</a></li>
+      <li class="breadcrumb-item active">Deepseek</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/foreign/review/map/deepseek.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="deepseek">
+<h1>Deepseek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="id1">
+<h2>罗素分析框架<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p><strong>论题</strong>：罗素”哲学是神学与科学之间的无人之域”这一论断，能否为本案中科学解构与哲学解构的互补关系提供更高阶框架？若能，该框架的边界与陷阱何在？</p>
+<hr class="docutils" />
+<section id="id2">
+<h3>一、先把出处与结构说准<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>罗素的论断出自 <strong>《西方哲学史》（1945）绪论</strong>。原意三层：</p>
+<ol class="arabic simple">
+<li><p><strong>确定的知识属于科学</strong>；</p></li>
+<li><p><strong>关于超出确定知识之物的教义，属于神学</strong>；</p></li>
+<li><p><strong>在二者之间有一片无人之域，两面受敌——这片无人之域就是哲学。</strong></p></li>
+</ol>
+<p>另有两句常被与此混引的话，出自更早的 <strong>《哲学问题》（1912）第十五章”哲学的价值”</strong>，须分开归属：</p>
+<ul class="simple">
+<li><p>哲学的价值”主要应当在其不确定性中寻找”；</p></li>
+<li><p>哲学”极大地扩展我们对<strong>可能</strong>之物的构想”，并教人”<strong>在无确定中生活，而不因犹疑而瘫痪</strong>”。</p></li>
+</ul>
+<p>区分这两处不是学究气。因为 <strong>“无人之域”是位置判断，”在无确定中生活”是价值判断</strong>——前者说明哲学在哪里，后者说明哲学有什么用。本案需要的恰恰是后者，而档案与六份分析都只用了前者（把哲学当作一种”批判工具”），几乎没有用过后者。下文第四节将说明，后者才是本案最深的一层。</p>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h3>二、把轴换掉：本案的”神学极”不是宗教，而是主权决断<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>罗素的轴是 <strong>神学 ↔ 科学</strong>。若照搬到本案，会立刻失效——本案没有神学。</p>
+<p>但若把轴抽象一层，变成 <strong>权威 ↔ 知识</strong>，则立刻严丝合缝：</p>
+<blockquote>
+<div><p>神学极 = 不问真假、只问服从的<strong>权威断言</strong>
+科学极 = 不问服从、只问依据的<strong>知识主张</strong></p>
+</div></blockquote>
+<p>而<strong>法律同时宣称自己属于两极</strong>：</p>
+<ul class="simple">
+<li><p>像神学：判决一经生效即须服从，不问当事人是否被说服（”以权威求服从”）；</p></li>
+<li><p>像科学：判决须建立在证据、证明标准、鉴定之上（”以理由求同意”）。</p></li>
+</ul>
+<p>法律的正当性，恰恰来自它<strong>同时占据两极</strong>。这也是它比任何一门学科都更容易腐坏的原因：<strong>当它借用科学的外衣来行使神学的功能时，外行无法分辨。</strong></p>
+<p><strong>此处出现本案最值得注意的一处对应</strong>：档案中欧陆一支以<strong>施密特</strong>开发最充分（<code class="docutils literal notranslate"><span class="pre">legal</span></code> 分册五个独立版本），而施密特的代表作书名叫——<strong>《政治的神学》</strong>。</p>
+<p>这不是巧合。<strong>档案在经验上找到了本案真实的运作极。</strong> “上层领导特别指示”、”主权者决断”、”例外状态”、”敌友区分”——这些不是被强行套上的理论，而是对判决实际运作方式的准确命名。</p>
+<p>于是本案的坐标可以写出来了：</p>
+<blockquote>
+<div><p><strong>施密特极（政治的神学） ←—— 哲学（无人之域）——→ 科学极（证据与测量）</strong></p>
+</div></blockquote>
+<p>而判决书的位置，在这条线上的某处。</p>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h3>三、判决书站在哪里：不是无人之域，是走私通道<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>这是本附论的核心判断。</p>
+<p><strong>判决书借用了科学的形式</strong>：证据清单、鉴定意见（虽列而未用）、电子数据提取清单、网络在线提取笔录、”形成证据锁链”。</p>
+<p><strong>判决书行使着神学的功能</strong>：”公共网络空间并非法外之地”——这是<strong>教义宣告</strong>，不承载可检验内容；”经梳理均属于虚假信息”——这是<strong>启示</strong>，不是发现；”应辨别是非”——这是<strong>信条</strong>，不是事实认定。</p>
+<p><strong>但它不满足任何一方的条件</strong>：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>极</p></th>
+<th class="head"><p>要求</p></th>
+<th class="head"><p>本案状态</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>科学极</strong></p></td>
+<td><p>可检验、有参数、可反驳</p></td>
+<td><p>无鉴定、无测量、无基线、无阈值、无反事实；Daubert 六要素全不合格</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>神学极</strong></p></td>
+<td><p>教义须明确、可被识别为教义</p></td>
+<td><p>连”虚假信息”指什么都不说；从未承认自己在作决断</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>所以它不是一个知识主张，也不是一个教义主张，而是一次范畴走私</strong>（category smuggling）：把权威的<strong>约束力</strong>与科学的<strong>声望</strong>同时进口，却不缴纳任何一方的关税。</p>
+<p><strong>而罗素那句”两面受敌”，在此不是比喻，是实测。</strong></p>
+<p>同一句话——“转发的内容经梳理均属于虚假信息”——<strong>从科学侧被击穿</strong>（无测量、无核查、无方法），<strong>从哲学侧被击穿</strong>（谓词无指称、不表达命题、以评价冒充描述）。两侧同时得手，恰恰因为它确实住在无人之域：<strong>它既不是知识，也不是教义，因而对任何一侧都没有防御。</strong></p>
+<blockquote>
+<div><p><strong>一个判断</strong>：判决书占据了无人之域，却没有做哲学的工作。<strong>它占了那块地，却没有在那块地上干活。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h3>四、于是三者的关系不是”互补”，而是”分工”<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>罗素的框架使三者的职能变得清晰，且<strong>互不重叠</strong>：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>位置</p></th>
+<th class="head"><p>职能</p></th>
+<th class="head"><p>攻击方式</p></th>
+<th class="head"><p>产出</p></th>
+<th class="head"><p>法律接口</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>科学极</strong></p></td>
+<td><p>检验依据</p></td>
+<td><p>“出示数据”</p></td>
+<td><p>举证责任</p></td>
+<td><p>253条（二）项</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>无人之域（哲学）</strong></p></td>
+<td><p><strong>裁定管辖</strong></p></td>
+<td><p>“这句话属于哪一极？”</p></td>
+<td><p><strong>定性</strong>：命题／教义／范畴错误</p></td>
+<td><p>253条（三）项</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>神学极</strong></p></td>
+<td><p>指认决断</p></td>
+<td><p>“这实际上是主权决断”</p></td>
+<td><p><strong>解释</strong>：为何有效</p></td>
+<td><p>无法条接口</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>哲学的独特职能，在这一框架下被精确地定位了：它不是提供知识，也不是提供教义，而是裁定管辖权。</strong></p>
+<p>这解决了一个此前悬而未决的问题——附论五说”哲学证明指控缺乏内容”，但未说清<strong>这种证明在制度上属于何种活动</strong>。现在可以说清：</p>
+<blockquote>
+<div><p><strong>哲学在此从事的不是证明，而是管辖判定</strong>（jurisdictional determination）。
+它不问”这个断言真不真”，而问”<strong>这个断言凭什么要求被当作知识</strong>”。</p>
+</div></blockquote>
+<p>而管辖判定是<strong>法律自身最熟悉的动作</strong>——法院每天都在做（是否属于受案范围、是否属于本院管辖、某一材料是否属于法定证据种类）。<strong>哲学所做的，是把法院对自己做的动作，反过来对法院做一次。</strong></p>
+<p>这就是为什么哲学解构在本案中不仅有效，而且<strong>在形式上是同构的</strong>：它用的是法院自己的语法。</p>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h3>五、四处修正，其中一处是我此前的错误<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<section id="id7">
+<h4>修正一：哲学在无人之域的产出是”分界”，不是”证明”<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<p>此前我将哲学的功能表述为”证明判决不表达命题”。更准确的说法是：<strong>它重新划定某一断言所属的领域</strong>。分界一旦完成，证明责任自动落到正确的一侧——<strong>这是分界的力量，不是证明的力量。</strong></p>
+</section>
+<section id="id8">
+<h4>修正二（自我更正）：被我把”装饰族”判错了<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<p>附论七我把巴迪欧、梅亚苏、哈曼、拉图尔、德兰兹列为”装饰族”并建议删除，判据是”不承担证明负担”。</p>
+<p><strong>在罗素的框架下，这个判断过窄。</strong> 因为罗素给哲学的第二项价值不是”证明”，而是——</p>
+<blockquote>
+<div><p><strong>“极大地扩展我们对可能之物的构想。”</strong></p>
+</div></blockquote>
+<p>据此，档案逐人立章（约 100 位思想家）的功能应当重新评估：</p>
+<blockquote>
+<div><p><strong>它的功能不是证明本案应如何判，而是证明”另有读法是可能的”。</strong></p>
+</div></blockquote>
+<p>而这恰恰是”<strong>合理怀疑</strong>”在认识论上的构成要件：合理怀疑不是”我怀疑”，而是”<strong>存在一个理性上可成立的替代解释</strong>”。<strong>每多一个框架，可能性空间就扩大一分；可能性空间越大，法院主张”唯一读法”的余地就越小。</strong></p>
+<p><strong>由此应引入两种价值，而非一种</strong>：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>价值类型</p></th>
+<th class="head"><p>判据</p></th>
+<th class="head"><p>例</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>承重价值</strong></p></td>
+<td><p>承担证明负担，删去则论证塌陷</p></td>
+<td><p>传播动力学、认知心理学、厚概念批判</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>扩展价值</strong></p></td>
+<td><p>扩大解释可能性，删去不塌陷但空间收窄</p></td>
+<td><p>巴迪欧、梅亚苏、拉图尔、加缪、海德格尔</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>我此前的错误在于只用一把尺子量两种价值。</strong> 承重价值决定能否胜诉，扩展价值决定<strong>胜诉的空间有多大</strong>。前者是弹药，后者是地形。</p>
+</section>
+<section id="id9">
+<h4>修正三：心理学的位置是双重的——这解释了它为何最有效<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>维度</p></th>
+<th class="head"><p>归属</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>方法</strong></p></td>
+<td><p>科学极（实验、可证伪、有错误率）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>对象</strong></p></td>
+<td><p>无人之域（”明知”是命题态度，本属哲学与法学的交界）</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>心理学是唯一在方法上属科学、在对象上属无人之域的学科。</strong> 这个双重身份正是它在本案中法律效力最高的真正原因：它同时满足<strong>证据能力</strong>（方法）与<strong>同域性</strong>（对象）。物理学方法合格而对象跨域；哲学对象同域而方法不产证据。<strong>心理学是唯一两头都占的。</strong></p>
+</section>
+<section id="id10">
+<h4>修正四（本次新增，也是最重要的一处）：证明标准是制度化的”在无确定中行动”<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<p>罗素说，哲学教人”<strong>在无确定中生活，而不因犹疑而瘫痪</strong>”。</p>
+<p>这句话在法律上有一个精确对应物——<strong>证明标准</strong>。</p>
+<p>侦查、起诉、审判，全部发生在不确定之中：证据永远不完整，事实永远只能被逼近。<strong>”排除合理怀疑”不是要求确定，而是要求”在不确定中仍能行动”的规则。</strong> 制度之所以需要证明标准，正是因为<strong>确定不可得，而决定必须作出</strong>。</p>
+<p><strong>据此，本案的病根可以被重新表述</strong>，而且这个表述比”证据不足”更深一层：</p>
+<blockquote>
+<div><p><strong>本案不是判错了，而是拒绝在不确定中行动。</strong></p>
+<p>它把”经梳理”制造成确定性，用确定性冒充决定；把”应辨别是非”制造成明知，用规范期待冒充事实认知。</p>
+<p><strong>换言之：它把一个”决定”伪装成了一个”发现”。</strong></p>
+</div></blockquote>
+<p>这一句可以解释此前所有分散的诊断：</p>
+<ul class="simple">
+<li><p>为何不要鉴定？——因为鉴定会<strong>带回不确定性</strong>。</p></li>
+<li><p>为何二审不开庭？——因为开庭会<strong>重新引入不确定</strong>。</p></li>
+<li><p>为何以”未提交新证据”驳回？——因为只有”新证据”才能维持”发现”的假象；若承认这是”决定”，则无须证据。</p></li>
+<li><p>为何文书说理空洞？——因为<strong>说理是处理不确定性的技术</strong>；一个自认为在”发现”的人，不需要说理。</p></li>
+</ul>
+<p><strong>四条症状，一个病因：不能忍受不确定性。</strong></p>
+<p>而这也正是罗素那句话在司法上的完整含义：<strong>一份拒绝在不确定中行动的判决，最终既没有得到确定，也没有作出决定——它只完成了一次伪装。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id11">
+<h3>六、必须指出的陷阱：罗素这个框架本身是科学主义的<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<p>不能只取其利而不察其弊。</p>
+<p>罗素的表述预设了”<strong>确定的知识属于科学</strong>”。这是一个<strong>科学主义</strong>的前提。<strong>若全盘接受这一前提，恰好为法院提供了一个拒斥哲学的理由</strong>：</p>
+<blockquote>
+<div><p>“这是哲学议论，不是证据。”</p>
+</div></blockquote>
+<p>而这正是本案已经发生的事——判决书从未回应任何哲学性质疑，因为它在分类上就把这些质疑归入了”与本案无关”。</p>
+<p><strong>因此，引用罗素时必须同时完成一次限定</strong>：</p>
+<blockquote>
+<div><p>哲学在此<strong>不主张知识</strong>，只主张<strong>管辖权</strong>。
+而管辖权之争<strong>不是知识之争</strong>——它是”某一断言凭什么要求被当作知识”之争。</p>
+</div></blockquote>
+<p>这个限定不是退让，而是<strong>把罗素的框架用在罗素自己身上</strong>：既然确定的知识归科学，那么”某句话是否属于知识”这一判断，就不可能是科学判断——它只能属于无人之域。<strong>哲学对自身管辖权的论证，恰好由罗素的定义本身提供。</strong></p>
+<p>一句话：<strong>罗素把哲学放进了无人之域；而”谁有资格进入无人之域”，这个问题只能在无人之域里回答。</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id12">
+<h3>七、最终定位图<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>层次</p></th>
+<th class="head"><p>学科</p></th>
+<th class="head"><p>提问</p></th>
+<th class="head"><p>产出</p></th>
+<th class="head"><p>证据地位</p></th>
+<th class="head"><p>法律接口</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>科学极</p></td>
+<td><p>传播动力学、统计物理、网络拓扑</p></td>
+<td><p>有无依据？</p></td>
+<td><p>举证责任</p></td>
+<td><p>需 fit</p></td>
+<td><p>253（二）</p></td>
+</tr>
+<tr class="row-odd"><td><p>科学极／交界</p></td>
+<td><p><strong>认知心理学</strong></p></td>
+<td><p>明知如何形成？</p></td>
+<td><p>经验法则审计</p></td>
+<td><p><strong>最高</strong></p></td>
+<td><p>253（二）（三）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>无人之域</strong></p></td>
+<td><p><strong>分析哲学</strong></p></td>
+<td><p>这句话成立吗？</p></td>
+<td><p><strong>管辖判定</strong></p></td>
+<td><p>不需证据</p></td>
+<td><p><strong>253（三）</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>无人之域</p></td>
+<td><p>欧陆批判族</p></td>
+<td><p>它损害了什么？</p></td>
+<td><p>规范标准（无支配、不羞辱）</p></td>
+<td><p>需翻译</p></td>
+<td><p>比例性、正当程序</p></td>
+</tr>
+<tr class="row-even"><td><p>无人之域</p></td>
+<td><p>解构族／系统论</p></td>
+<td><p>它为何有效？</p></td>
+<td><p>解释</p></td>
+<td><p>无</p></td>
+<td><p>无</p></td>
+</tr>
+<tr class="row-odd"><td><p>神学极</p></td>
+<td><p>施密特</p></td>
+<td><p>谁在决断？</p></td>
+<td><p>指认</p></td>
+<td><p>无</p></td>
+<td><p>无</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>读法</strong>：越往下越接近真相，越往上越接近胜诉。<strong>而法律只能处理上半部分。</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3>八、结语：三句话与一句诊断<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<p>科学极说：<strong>你没有数据。</strong>
+无人之域说：<strong>你没有命题。</strong>
+神学极说：<strong>你根本不需要数据，也不需要命题——你只需要决断。</strong></p>
+<p><strong>而本案的处境是：它做了神学的事，用了科学的文体，却既不承认自己在决断，也不接受知识的检验。</strong></p>
+<p>罗素说，哲学的价值在于教人在无确定中生活而不瘫痪。
+<strong>一份判决若能承认自己在不确定中作出决定，它就还是法律；一旦它假装自己发现了确定，它就不再是法律，而是别的什么东西。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h2>方法论谱系表<a class="headerlink" href="#id14" title="Link to this heading"></a></h2>
+<p><strong>——以罗素的”神学—哲学—科学”三分法定位档案中的全部论证方法</strong></p>
+<blockquote>
+<div><p><strong>框架来源</strong>：罗素《西方哲学史》（<em>A History of Western Philosophy</em>, 1945）绪论：</p>
+<p>“哲学，就我对这个词的理解来说，乃是某种介乎神学与科学之间的东西。它和神学一样，包含着人类对于那些迄今仍为确切的知识所不能肯定的事物的思考；但是它又像科学一样是诉之于人类的理性而不是诉之于权威的，不管是传统的权威还是启示的权威。一切确切的知识——我是这样主张的——都属于科学；一切涉及超乎确切知识之外的教条都属于神学。但是介乎神学与科学之间还有一片受到双方攻击的无人之域；这片无人之域就是哲学。”</p>
+<p><strong>任务</strong>：把档案中的全部论证方法放到这张地图上，标出区位、认识论地位与诉讼可用性。</p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="id15">
+<h3>一、罗素地图的三维化<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>罗素的原话给出两条判准：<strong>可确定性</strong>与<strong>依据</strong>。但法律判断还需要第三维。因此把地图扩成三维：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>轴</p></th>
+<th class="head"><p>两极</p></th>
+<th class="head"><p>作用</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>A 认识论轴</strong></p></td>
+<td><p>不可确定 ←→ 确切知识</p></td>
+<td><p>你说的东西能不能被证实/证伪</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>B 依据轴</strong></p></td>
+<td><p>权威 ←→ 理由</p></td>
+<td><p>你的结论凭什么，凭谁说的还是凭推出来的</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>C 性质轴</strong></p></td>
+<td><p>描述 ←→ 规范</p></td>
+<td><p>你在陈述事实还是在作评价</p></td>
+</tr>
+</tbody>
+</table>
+<p>三个”极点”的坐标：</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>神学  =（不可确定，权威，规范）
+科学  =（确切知识，理由，描述）
+哲学  =（不可确定，理由，描述／规范）
+</pre></div>
+</div>
+<p><strong>法教义学不在罗素的原始地图上</strong>，这是本表最重要的一处增补：</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>法教义学 =（确切知识*，理由，规范）
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">*</span></code>：法条文本是确切可知的（它就是那么写的），尽管其适用是评价性的。<strong>正因为它是”三轴上都可处理”的唯一一种方法，它才是唯一能被裁判文书吸收的方法。</strong></p>
+<p><strong>这直接给出本表的核心判准</strong>：</p>
+<blockquote>
+<div><p>任何方法要进入判决，必须先在三维上同时”落地”——
+①认识论上可检验 ②依据上是推理而非权威 ③性质上可转译为规范命题。
+<strong>三者缺一，论证就只能停在说服层面，或者变成越界。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id16">
+<h3>二、本案的症候：一次三重错位<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<p>用这张地图看判决书那句话，病理立刻显现：</p>
+<blockquote>
+<div><p>“转发的内容<strong>经梳理</strong>均属于<strong>虚假信息</strong>，<strong>造成</strong>公共秩序<strong>严重混乱</strong>。”</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>环节</p></th>
+<th class="head"><p>问题的真实区位</p></th>
+<th class="head"><p>法院用的方法</p></th>
+<th class="head"><p>法院用的语言</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>“什么是虚假信息”</p></td>
+<td><p><strong>哲学区</strong>（概念未闭合）</p></td>
+<td><p><strong>神学</strong>（依权威：内容”攻击领导核心”即假）</p></td>
+<td><p>科学（”经梳理”）</p></td>
+</tr>
+<tr class="row-odd"><td><p>“什么是严重混乱”</p></td>
+<td><p><strong>哲学区</strong>（指称未确定）</p></td>
+<td><p><strong>神学</strong>（依权威：秩序不容冒犯）</p></td>
+<td><p>科学（”造成”）</p></td>
+</tr>
+<tr class="row-even"><td><p>“他是否明知”</p></td>
+<td><p>哲学区 + 事实区</p></td>
+<td><p><strong>神学</strong>（依身份：高学历即应知）</p></td>
+<td><p>科学（”明知”）</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这就是我此前所说的”范畴错误”的最高阶表述</strong>：</p>
+<blockquote>
+<div><p>用<strong>神学的方式</strong>（诉诸权威）裁定<strong>哲学的问题</strong>（概念的定义），
+再用<strong>科学的语言</strong>（”经梳理””造成”）加以包装。</p>
+</div></blockquote>
+<p>三重错位叠在一起，产生了那个奇特的效果：<strong>判决看起来既不需要论证（因为它有权威），又好像已经论证（因为它有”梳理”和”造成”）。</strong></p>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h3>三、方法论谱系总表<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<p><strong>可用性分级</strong>：</p>
+<ul class="simple">
+<li><p><strong>A</strong>＝可直接写入裁判文书（三轴全部落地）</p></li>
+<li><p><strong>B</strong>＝可作辅助论证（需转译，或需个案对位）</p></li>
+<li><p><strong>C</strong>＝仅作背景与说服（不可转译，但可影响判断者）</p></li>
+<li><p><strong>D</strong>＝不可用或有反作用（越界、伪引、不可证伪、人格定性）</p></li>
+</ul>
+<section id="a">
+<h4>A 组：法教义学（在罗素地图之外，但唯一”可裁判”）<a class="headerlink" href="#a" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>方法</p></th>
+<th class="head"><p>罗素区位</p></th>
+<th class="head"><p>认识论地位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>A1</p></td>
+<td><p>五要件拆解（对象·行为·方式·结果·主观）</p></td>
+<td><p>规范—确切—理由</p></td>
+<td><p>可检验（对照法条）</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>p605–988</p></td>
+</tr>
+<tr class="row-odd"><td><p>A2</p></td>
+<td><p>司法解释文义（293 条 1 款 4 项 ↔ 2013 解释 5 条 2 款）</p></td>
+<td><p>规范—确切—理由</p></td>
+<td><p>可检验</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>p136–139</p></td>
+</tr>
+<tr class="row-even"><td><p>A3</p></td>
+<td><p>程序合法性审查（不公开审理、二审不开庭）</p></td>
+<td><p>规范—确切—理由</p></td>
+<td><p>可直接观察</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>p277–486</p></td>
+</tr>
+<tr class="row-odd"><td><p>A4</p></td>
+<td><p>证据规则与证明标准（第 51、55 条）</p></td>
+<td><p>规范—确切—理由</p></td>
+<td><p>可检验</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>p136–144</p></td>
+</tr>
+<tr class="row-even"><td><p>A5</p></td>
+<td><p>涉案财物处理（刑法 64 条）</p></td>
+<td><p>规范—确切—理由</p></td>
+<td><p>可检验</p></td>
+<td><p><strong>A</strong></p></td>
+<td><p>p5</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="b">
+<h4>B 组：形式科学（数学与逻辑）<a class="headerlink" href="#b" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>方法</p></th>
+<th class="head"><p>罗素区位</p></th>
+<th class="head"><p>认识论地位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>B1</p></td>
+<td><p>分支过程灭绝定理（m ≤ 1 ⇒ q = 1）</p></td>
+<td><p>科学—确切—描述</p></td>
+<td><p><strong>定理</strong>（无条件为真）</p></td>
+<td><p><strong>A（条件式）</strong></p></td>
+<td><p>p2185–2234</p></td>
+</tr>
+<tr class="row-odd"><td><p>B2</p></td>
+<td><p>渗流阈值／无标度网络鲁棒性</p></td>
+<td><p>科学—确切—描述</p></td>
+<td><p>定理，但迁移需论证</p></td>
+<td><p>B</p></td>
+<td><p>p2139–2160</p></td>
+</tr>
+<tr class="row-even"><td><p>B3</p></td>
+<td><p>概率论（P → 0）</p></td>
+<td><p>科学—确切—描述</p></td>
+<td><p>形式工具</p></td>
+<td><p>B（作合理怀疑，非证明）</p></td>
+<td><p>p2161–2184</p></td>
+</tr>
+<tr class="row-odd"><td><p>B4</p></td>
+<td><p>贝叶斯／似然比／相对熵</p></td>
+<td><p>科学—确切—描述</p></td>
+<td><p>形式工具，需数据</p></td>
+<td><p>B</p></td>
+<td><p>p7260–7281</p></td>
+</tr>
+<tr class="row-even"><td><p>B5</p></td>
+<td><p>CAP 定理</p></td>
+<td><p><strong>科学 → 哲学（越界）</strong></p></td>
+<td><p>工程定理，跨域无通道</p></td>
+<td><p><strong>C</strong>（作者自认隐喻 p2105）</p></td>
+<td><p>p2102–2138</p></td>
+</tr>
+<tr class="row-odd"><td><p>B6</p></td>
+<td><p>哥德尔不完备定理</p></td>
+<td><p><strong>科学 → 哲学（外推）</strong></p></td>
+<td><p>定理为真，推论不成立</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>p2235–2263</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="c">
+<h4>C 组：经验科学（物理、心理）<a class="headerlink" href="#c" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>方法</p></th>
+<th class="head"><p>罗素区位</p></th>
+<th class="head"><p>认识论地位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>C1</p></td>
+<td><p>涨落-耗散定理</p></td>
+<td><p>科学—确切—描述</p></td>
+<td><p>定律为真，<strong>参数需经验</strong></p></td>
+<td><p>B（逻辑框架可用）</p></td>
+<td><p>p2027–2050</p></td>
+</tr>
+<tr class="row-odd"><td><p>C2</p></td>
+<td><p>自组织临界性（临界门控）</p></td>
+<td><p>科学—模型—描述</p></td>
+<td><p>模型，非定律</p></td>
+<td><p>B（概念可用：”被放大≠被造成”）</p></td>
+<td><p>p2161–2184</p></td>
+</tr>
+<tr class="row-even"><td><p>C3</p></td>
+<td><p>网络拓扑／度分布</p></td>
+<td><p>科学—经验—描述</p></td>
+<td><p>需实测</p></td>
+<td><p>B（需取证）</p></td>
+<td><p>p557–604</p></td>
+</tr>
+<tr class="row-odd"><td><p>C4</p></td>
+<td><p>司法决策偏差（确认偏误、后见之明）</p></td>
+<td><p>科学—统计—描述</p></td>
+<td><p>经验规律</p></td>
+<td><p><strong>B（有个案对位时可升 A）</strong></p></td>
+<td><p>p2901–2938</p></td>
+</tr>
+<tr class="row-even"><td><p>C5</p></td>
+<td><p>虚假供述模型（Gudjonsson／Reid）</p></td>
+<td><p>科学—经验—描述</p></td>
+<td><p>经验规律</p></td>
+<td><p>B（需讯问记录）</p></td>
+<td><p>p2903、p2946</p></td>
+</tr>
+<tr class="row-odd"><td><p>C6</p></td>
+<td><p>大五人格／威权人格诊断</p></td>
+<td><p><strong>科学 → 神学（无测量）</strong></p></td>
+<td><p>无量表即无命题</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>p2632、p2677、p2682</p></td>
+</tr>
+<tr class="row-even"><td><p>C7</p></td>
+<td><p>压力生理（HPA—皮质醇）</p></td>
+<td><p>科学—经验—描述</p></td>
+<td><p>经验规律</p></td>
+<td><p>C</p></td>
+<td><p>p2578–2604</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="d">
+<h4>D 组：分析哲学（语言与逻辑）<a class="headerlink" href="#d" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>方法</p></th>
+<th class="head"><p>罗素区位</p></th>
+<th class="head"><p>认识论地位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>D1</p></td>
+<td><p>指称理论／空名称</p></td>
+<td><p>哲学—不可确定—描述</p></td>
+<td><p>概念分析，可被反驳</p></td>
+<td><p><strong>B（最强，须转译为”明确性”）</strong></p></td>
+<td><p>p6220</p></td>
+</tr>
+<tr class="row-odd"><td><p>D2</p></td>
+<td><p>真值条件／范畴错误</p></td>
+<td><p>哲学—不可确定—描述</p></td>
+<td><p>概念分析</p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>p6140–6145</p></td>
+</tr>
+<tr class="row-even"><td><p>D3</p></td>
+<td><p>言语行为／施为失效</p></td>
+<td><p><strong>哲学 → 规范（越界）</strong></p></td>
+<td><p>概念分析，推不出判决无效</p></td>
+<td><p>C</p></td>
+<td><p>p6145</p></td>
+</tr>
+<tr class="row-odd"><td><p>D4</p></td>
+<td><p>格赖斯”质准则”</p></td>
+<td><p>哲学—不可确定—描述</p></td>
+<td><p>语用学</p></td>
+<td><p>C</p></td>
+<td><p>p6560–6569</p></td>
+</tr>
+<tr class="row-even"><td><p>D5</p></td>
+<td><p>Daubert 五基准</p></td>
+<td><p><strong>科学 → 规范（须自限）</strong></p></td>
+<td><p>证据科学方法论</p></td>
+<td><p>B（作者已自限 p7174）</p></td>
+<td><p>p7172–7219</p></td>
+</tr>
+<tr class="row-odd"><td><p>D6</p></td>
+<td><p>因果论（休谟／刘易斯／罗克辛）</p></td>
+<td><p>哲学 ＋ 规范</p></td>
+<td><p>规范理论</p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>p7220–7260</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="e">
+<h4>E 组：中国考据与名实（唯一”不必翻译”的一族）<a class="headerlink" href="#e" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>方法</p></th>
+<th class="head"><p>罗素区位</p></th>
+<th class="head"><p>认识论地位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>E1</p></td>
+<td><p><strong>无征不信</strong>（朴学第一原则）</p></td>
+<td><p>科学—确切—描述</p></td>
+<td><p>准科学方法（考据）</p></td>
+<td><p><strong>A</strong>（”证据呢”无人能回避）</p></td>
+<td><p>p3407–3409</p></td>
+</tr>
+<tr class="row-odd"><td><p>E2</p></td>
+<td><p><strong>训诂 → 义理</strong></p></td>
+<td><p>规范—确切—理由</p></td>
+<td><p>准解释学</p></td>
+<td><p><strong>A</strong>（法律解释先于政治定性）</p></td>
+<td><p>p3408</p></td>
+</tr>
+<tr class="row-even"><td><p>E3</p></td>
+<td><p>名实论／正名</p></td>
+<td><p>哲学—不可确定—描述</p></td>
+<td><p>概念分析</p></td>
+<td><p>B</p></td>
+<td><p>p3147</p></td>
+</tr>
+<tr class="row-odd"><td><p>E4</p></td>
+<td><p>戴震”以理杀人”</p></td>
+<td><p><strong>哲学 → 神学 边界</strong></p></td>
+<td><p>定性语，非命题</p></td>
+<td><p>B（作定性，不作证明）</p></td>
+<td><p>p3826</p></td>
+</tr>
+<tr class="row-even"><td><p>E5</p></td>
+<td><p>公其是非于学校</p></td>
+<td><p>规范—不可确定—规范</p></td>
+<td><p>规范构想</p></td>
+<td><p>B</p></td>
+<td><p>p3763</p></td>
+</tr>
+<tr class="row-odd"><td><p>E6</p></td>
+<td><p>理势之辨（王夫之、朱熹）</p></td>
+<td><p>哲学—不可确定—规范</p></td>
+<td><p>规范构想</p></td>
+<td><p>C</p></td>
+<td><p>p3234–3473</p></td>
+</tr>
+<tr class="row-even"><td><p>E7</p></td>
+<td><p>致良知（王阳明）</p></td>
+<td><p><strong>哲学 → 神学</strong>（诉诸内在权威）</p></td>
+<td><p>不可检验</p></td>
+<td><p>C</p></td>
+<td><p>p3234–3473</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="f">
+<h4>F 组：欧陆哲学（批判理论）<a class="headerlink" href="#f" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>方法</p></th>
+<th class="head"><p>罗素区位</p></th>
+<th class="head"><p>认识论地位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>F1</p></td>
+<td><p>权力—知识／真理体制（福柯）</p></td>
+<td><p>哲学—不可确定—规范</p></td>
+<td><p>不可证伪，但有解释力</p></td>
+<td><p><strong>C（可转译为”梳理非认定”）</strong></p></td>
+<td><p>p5417、p5687–5693</p></td>
+</tr>
+<tr class="row-odd"><td><p>F2</p></td>
+<td><p>询唤／ISA（阿尔都塞）</p></td>
+<td><p>哲学—不可确定—规范</p></td>
+<td><p>不可检验</p></td>
+<td><p>C</p></td>
+<td><p>p5565–5571</p></td>
+</tr>
+<tr class="row-even"><td><p>F3</p></td>
+<td><p>空能指／神话（索绪尔—巴特）</p></td>
+<td><p>哲学—不可确定—描述</p></td>
+<td><p>概念分析</p></td>
+<td><p>C</p></td>
+<td><p>p5314、p5580–5583</p></td>
+</tr>
+<tr class="row-odd"><td><p>F4</p></td>
+<td><p>解构／延异（德里达）</p></td>
+<td><p>哲学—不可确定—描述</p></td>
+<td><p>不可操作化</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>p5669–5672</p></td>
+</tr>
+<tr class="row-even"><td><p>F5</p></td>
+<td><p>霸权／同意（葛兰西）</p></td>
+<td><p>哲学—不可确定—规范</p></td>
+<td><p>不可证伪</p></td>
+<td><p>C</p></td>
+<td><p>p5399</p></td>
+</tr>
+<tr class="row-odd"><td><p>F6</p></td>
+<td><p>现象学／存在论</p></td>
+<td><p>哲学—不可确定—描述</p></td>
+<td><p>不可检验</p></td>
+<td><p>C</p></td>
+<td><p>p5248–5288</p></td>
+</tr>
+<tr class="row-even"><td><p>F7</p></td>
+<td><p>思辨实在论／新唯物主义</p></td>
+<td><p><strong>哲学 → 神学（形而上断言）</strong></p></td>
+<td><p>不可检验</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>p5466–5511</p></td>
+</tr>
+<tr class="row-odd"><td><p>F8</p></td>
+<td><p>框架批判（”法律框架制造犯罪”）</p></td>
+<td><p><strong>规范 → 废除主义</strong></p></td>
+<td><p>等于否认管辖权</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>p5496</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="g">
+<h4>G 组：神学与准神学（罗素地图的另一极——档案中最少被承认、量却最大）<a class="headerlink" href="#g" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>材料</p></th>
+<th class="head"><p>罗素区位</p></th>
+<th class="head"><p>认识论地位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>G1</p></td>
+<td><p>“因果循环，报应不爽”（作者自陈佛教信仰）</p></td>
+<td><p><strong>神学—权威—规范</strong></p></td>
+<td><p>信仰</p></td>
+<td><p><strong>D</strong>（作者已自认 p34）</p></td>
+<td><p>p34</p></td>
+</tr>
+<tr class="row-odd"><td><p>G2</p></td>
+<td><p>“天网恢恢、疏而不漏”／”历史的必然”</p></td>
+<td><p><strong>神学—权威—规范</strong></p></td>
+<td><p>历史目的论</p></td>
+<td><p>D（作修辞 C）</p></td>
+<td><p>p34、p1233</p></td>
+</tr>
+<tr class="row-even"><td><p>G3</p></td>
+<td><p>三篇《致未来读者》——把终审法庭设在”时间”中</p></td>
+<td><p><strong>神学—权威—规范</strong></p></td>
+<td><p>不可证伪</p></td>
+<td><p>D（作修辞 C）</p></td>
+<td><p>p36–41</p></td>
+</tr>
+<tr class="row-odd"><td><p>G4</p></td>
+<td><p>“司法黑帮””恶势力团伙””邪教黑帮”</p></td>
+<td><p><strong>神学—权威—规范</strong></p></td>
+<td><p>阴谋论，不可证伪</p></td>
+<td><p><strong>D（有反作用）</strong></p></td>
+<td><p>p14、p29–30、p1073</p></td>
+</tr>
+<tr class="row-even"><td><p>G5</p></td>
+<td><p>殉道谱系（苏格拉底—耶稣—谭嗣同—陈京元）</p></td>
+<td><p>神学—权威—规范</p></td>
+<td><p>修辞</p></td>
+<td><p>C</p></td>
+<td><p>p9920–10174</p></td>
+</tr>
+<tr class="row-odd"><td><p>G6</p></td>
+<td><p>引领袖讲话／党章作为<strong>论证前提</strong>（而非政策对照）</p></td>
+<td><p><strong>神学—权威—规范</strong></p></td>
+<td><p>不能作裁判依据</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>p31–33、p1317–2026</p></td>
+</tr>
+<tr class="row-even"><td><p>G7</p></td>
+<td><p>引宪法条文／政策文件作<strong>对照标准</strong></p></td>
+<td><p><strong>规范—确切—理由</strong></p></td>
+<td><p>可检验</p></td>
+<td><p><strong>B</strong></p></td>
+<td><p>p1078–1253</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>G6 与 G7 的距离，是本节最重要的一条线</strong>：</p>
+<blockquote>
+<div><p>同样是引用官方文本，
+<strong>作为”对照标准”引用 → B（可检验：”你自己写的规范有没有兑现”）</strong>
+<strong>作为”权威前提”引用 → D（不可检验：”因为它是这么说的，所以它对”）</strong></p>
+</div></blockquote>
+<p><strong>同一个材料，因用法不同，可用性相差三个等级。</strong> 这是全表最实用的一条判断。</p>
+</section>
+<section id="h">
+<h4>H 组：修辞（不在认识论空间内，在”说服”空间内）<a class="headerlink" href="#h" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>方法</p></th>
+<th class="head"><p>定位</p></th>
+<th class="head"><p>可用性</p></th>
+<th class="head"><p>备注</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>H1</p></td>
+<td><p>归谬法</p></td>
+<td><p>说服层</p></td>
+<td><p>C</p></td>
+<td><p>有效但需前提为真</p></td>
+</tr>
+<tr class="row-odd"><td><p>H2</p></td>
+<td><p>类比／隐喻（呼吸与温室效应、系统生病不能抓药给细胞）</p></td>
+<td><p>说服层</p></td>
+<td><p>C</p></td>
+<td><p>辅助理解，不能作论证</p></td>
+</tr>
+<tr class="row-even"><td><p>H3</p></td>
+<td><p>排比／对偶（”不跪””如滔滔江水”）</p></td>
+<td><p>说服层</p></td>
+<td><p>C</p></td>
+<td><p>提升感染力，降低专业性</p></td>
+</tr>
+<tr class="row-odd"><td><p>H4</p></td>
+<td><p>古风拟作（法家”或杀或赦”）</p></td>
+<td><p>说服层</p></td>
+<td><p><strong>D</strong></p></td>
+<td><p>本意反讽，实为二次轻贱（p3100）</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id18">
+<h3>四、越界矩阵：方法用错区的后果<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<p>罗素地图的最大用处，是给出一条<strong>硬规则</strong>：</p>
+<blockquote>
+<div><p><strong>每一区的方法只能解决本区的问题；越界即失效，且往往以”看起来更有说服力”的方式失效。</strong></p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>方法来源 ↓ ／ 问题区位 →</p></th>
+<th class="head"><p>科学问题（事实）</p></th>
+<th class="head"><p>哲学问题（概念）</p></th>
+<th class="head"><p>规范问题（应当）</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>科学方法</strong></p></td>
+<td><p>✔ 有效</p></td>
+<td><p>✘ <strong>范畴错误</strong>（以转发量判定”虚假”）</p></td>
+<td><p>✘ <strong>休谟问题</strong>（以概率否定责任）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>哲学方法</strong></p></td>
+<td><p>✘ 无效（语义否定不了事实）</p></td>
+<td><p>✔ 有效</p></td>
+<td><p>△ 可行，但需规范前提</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>神学／权威</strong></p></td>
+<td><p>✘✘ <strong>本案病理</strong>（以身份判定明知）</p></td>
+<td><p>✘✘ <strong>本案病理</strong>（以”攻击核心”判定虚假）</p></td>
+<td><p>△ 仅在承认该权威的共同体内部有效</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>法教义学</strong></p></td>
+<td><p>△ 需证据填充</p></td>
+<td><p>△ 需解释</p></td>
+<td><p>✔ <strong>唯一自带裁判力</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>修辞</strong></p></td>
+<td><p>✘</p></td>
+<td><p>✘</p></td>
+<td><p>△ 影响判断者，不构成理由</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>读出三点</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>本案的病理落在”神学→哲学”这一格</strong>：用权威裁定概念。这就是为什么判决”看似无需论证”——因为在神学区，权威本身就是结论。</p></li>
+<li><p><strong>档案的一半论证落在”科学／哲学→规范”这一列</strong>：它们要证明的不是”事实如何”，而是”应当如何”，而这一列缺一个规范前提，故必然落空一半。</p></li>
+<li><p><strong>法教义学那一行是唯一没有红叉的</strong>（只有两个△）。这不是巧合——它是唯一被设计成”可裁判”的方法。</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3>五、档案自身的定位错误<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<p>把这张地图应用到档案本身，会得出一个不太舒服的结论。</p>
+<section id="id20">
+<h4>5.1 档案的自我定位<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<p>档案认为自己在<strong>科学区</strong>：它用物理、心理、数学、分析哲学，反复强调”客观””实证””可计算””可证伪”。它甚至为此设了免责声明（”这不是证据，是方法论标尺”）。</p>
+</section>
+<section id="id21">
+<h4>5.2 档案的实际分布（按页数粗估）<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>区位</p></th>
+<th class="head"><p>内容</p></th>
+<th class="head"><p>大约占比</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>法教义学区</strong></p></td>
+<td><p>要件拆解、文书审查、程序</p></td>
+<td><p><strong>约 15%</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>科学区</strong>（严格意义：有可检验命题的）</p></td>
+<td><p>分支过程、渗流、决策偏差、证据法</p></td>
+<td><p><strong>约 15%</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>哲学区</strong></p></td>
+<td><p>分析哲学、欧陆哲学、中国思想史</p></td>
+<td><p><strong>约 40%</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>神学区</strong></p></td>
+<td><p>报应、天网、历史审判、司法黑帮、文明断裂、殉道谱系</p></td>
+<td><p><strong>约 20%</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>修辞层</strong></p></td>
+<td><p>归谬、类比、排比、古风</p></td>
+<td><p>约 10%</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id22">
+<h4>5.3 结论<a class="headerlink" href="#id22" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>档案把自己当成科学，实际重心在哲学，而它有五分之一住在神学区——且不自知。</strong></p>
+</div></blockquote>
+<p>这个错位造成的具体损害是：</p>
+<ol class="arabic simple">
+<li><p><strong>D 级材料污染 B 级论证</strong>。当”司法黑帮””邪教黑帮””因果报应”与”确认偏误””指称缺失”出现在同一份文本里，法院可以用最弱的一句否定整份材料——<strong>这是实务中最常见的”整体驳回”手法</strong>。</p></li>
+<li><p><strong>不可证伪的部分吸收可证伪的部分</strong>。一份材料只要有一处明显不可证伪（如历史审判），对方就可以主张”整份材料是立场表达而非法律意见”。</p></li>
+<li><p><strong>自我豁免失效</strong>。档案很聪明地写了”科学不是证据，只是标尺”——但当它同时写”物理上不可能””数学必然性”时，这个豁免就被自己撤销了。</p></li>
+</ol>
+<p><strong>这就是为什么这份档案”看起来无比强大，却很难被采纳”</strong>：它的力量分布与裁判所需的力量分布不匹配。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id23">
+<h3>六、按构成要件的方法配置表<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>如果要把这张表变成可操作的方案，应按要件配置方法，而不是按学科罗列：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>构成要件</p></th>
+<th class="head"><p>主力方法（A/B）</p></th>
+<th class="head"><p>辅助（C）</p></th>
+<th class="head"><p><strong>禁用（D）</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>虚假信息</strong></p></td>
+<td><p>法教义学（逐条列明）+ 分析哲学（指称）+ 朴学（无征）</p></td>
+<td><p>名实论</p></td>
+<td><p>阴阳五行、神话学、框架批判</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>散布／起哄闹事</strong></p></td>
+<td><p>法教义学（方式要素）</p></td>
+<td><p>言语行为（作隐喻）</p></td>
+<td><p>哥德尔、解构</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>公共秩序严重混乱</strong></p></td>
+<td><p>法教义学（结果要件）+ 分析哲学（伪命题）</p></td>
+<td><p>物理（仅条件式）</p></td>
+<td><p>CAP、思辨实在论</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>因果关系</strong></p></td>
+<td><p>法教义学（客观归责）+ 形式科学（条件式）</p></td>
+<td><p>贝叶斯（若有数据）</p></td>
+<td><p>自设参数的”q=1.000000”</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>明知</strong></p></td>
+<td><p>法教义学（推定规则）+ 心理学（个案对位）</p></td>
+<td><p>真值条件</p></td>
+<td><p>哥德尔外推、人格诊断、”怀疑主义”</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>程序</strong></p></td>
+<td><p>法教义学（11/188/234 条）+ 心理学（Tyler）</p></td>
+<td><p>福柯（作解释）</p></td>
+<td><p>“司法黑帮”、历史审判</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>正当性（不作主证）</strong></p></td>
+<td><p>中国治道（谏议）</p></td>
+<td><p>欧陆批判、殉道谱系</p></td>
+<td><p>报应论、文明断裂论</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这张表有两条硬约束</strong>：</p>
+<ol class="arabic simple">
+<li><p><strong>“正当性”一行永远不作主证</strong>。它只能解释”为什么这类判决会反复出现”，不能证明”本案应当无罪”。一旦把它当主证，整份材料就从法律意见降级为控诉书。</p></li>
+<li><p><strong>“严重混乱”一行的物理方法只能写成条件式</strong>。写成”q = 1.000000”是自设参数；写成”若控方不提供计算该参数所需的数据，则其因果主张无法成立”是举证责任分配——<strong>同一份材料，两种写法，法律效果完全不同</strong>。</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id24">
+<h3>七、罗素地图给出的四条一般结论<a class="headerlink" href="#id24" title="Link to this heading"></a></h3>
+<section id="id25">
+<h4>7.1 它解释了为什么科学与哲学是”互补”而非”竞争”<a class="headerlink" href="#id25" title="Link to this heading"></a></h4>
+<p>我此前两篇报告只说了”科学求人、哲学求己”。罗素的框架给出了更根本的理由：</p>
+<blockquote>
+<div><p><strong>它们占据地图上相邻但不同的两区，处理的是不同类型的问题。</strong>
+科学回答”世界是否如此”（可确定）；哲学回答”这句话是否可理解”（不可确定）；二者不重叠，因此不竞争。</p>
+</div></blockquote>
+<p><strong>互补的确切形态</strong>：</p>
+<ul class="simple">
+<li><p>哲学先做<strong>清场</strong>：证明这个概念没有闭合（”虚假信息”无定义）；</p></li>
+<li><p>科学再做<strong>加压</strong>：证明即便按最有利的解释，该事件概率也极低；</p></li>
+<li><p>法教义学最后<strong>落锤</strong>：把这个双重失败翻译成”未达证明标准”。</p></li>
+</ul>
+<p>顺序不能颠倒。<strong>先科学后哲学，会显得在回避概念问题；先哲学后科学，才形成”先立标准、再验数据”的说服结构。</strong></p>
+</section>
+<section id="id26">
+<h4>7.2 它给出了第三条我此前遗漏的路径：神学批判<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<p>罗素地图逼出一个问题：<strong>本案判决的”不可争论前提”是什么？</strong></p>
+<p>答案不是”虚假信息”，也不是”严重混乱”，而是那些<strong>从未被论证、也从未被要求论证的东西</strong>：</p>
+<ul class="simple">
+<li><p>“公共网络空间并非法外之地”（这是同义反复，但它承担了整个判决的道义重量）；</p></li>
+<li><p>“攻击国家领导核心”（这是<strong>权威命题</strong>，不是事实命题）；</p></li>
+<li><p>“具有很高的学历和知识水平，应辨别是非”（这是<strong>身份命题</strong>）。</p></li>
+</ul>
+<p>这些前提住在神学区——<strong>它们只能被信仰或被要求，不能被论证</strong>。</p>
+<p><strong>这就产生了一条我此前两篇报告没有提出的批评</strong>：</p>
+<blockquote>
+<div><p>本案真正的缺陷，不是”证据不足”，而是”<strong>它有一个不需要证据的前提</strong>”。
+只要那个前提（政治忠诚即守法）不被质疑，证据不足就永远只是”瑕疵”，而不是”无罪”。</p>
+</div></blockquote>
+<p>这条批评的锋利之处在于：它不要求法院举证，只要求法院<strong>承认自己在依赖一个未经论证的前提</strong>——而这，恰恰是任何裁判说理的最低义务。</p>
+</section>
+<section id="id27">
+<h4>7.3 它预言了每种方法的失败方式<a class="headerlink" href="#id27" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>方法</p></th>
+<th class="head"><p>失败方式</p></th>
+<th class="head"><p>因为它在罗素地图上的位置</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>科学</p></td>
+<td><p>被”本案不需复杂科学”挡开</p></td>
+<td><p>它离个案远，需落地</p></td>
+</tr>
+<tr class="row-odd"><td><p>哲学</p></td>
+<td><p>被”法律术语有专义”化解</p></td>
+<td><p>它在无人区，无强制力</p></td>
+</tr>
+<tr class="row-even"><td><p>神学</p></td>
+<td><p><strong>被当作立场表达整体驳回</strong></p></td>
+<td><p>它诉诸权威，不进论证</p></td>
+</tr>
+<tr class="row-odd"><td><p>法教义学</p></td>
+<td><p>被”事实清楚”概括绕过</p></td>
+<td><p>它是唯一可裁判的，因此也是唯一可被”简化处理”的</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id28">
+<h4>7.4 它给出了”何时该停”的标准<a class="headerlink" href="#id28" title="Link to this heading"></a></h4>
+<p>罗素说哲学是”受到双方攻击的无人之域”。这句话的法律含义是：</p>
+<blockquote>
+<div><p><strong>在无人区里，没有人能宣布终局。</strong>
+因此，凡进入无人区的争论（”什么是虚假””什么是混乱””什么是明知”），正确的法律处理不是”由法院裁定”，而是”<strong>由立法者定义，或由法院承担定义的说理义务</strong>”。</p>
+</div></blockquote>
+<p>本案的问题恰恰是第三种：<strong>法院既没有立法授权去定义，也没有履行说理义务去论证自己的定义，而是用权威代替了二者。</strong></p>
+<p><strong>这是罪刑法定原则在认识论上的真正含义</strong>——它不只是”法无明文不为罪”，还是”<strong>概念未闭合时，不得由裁判者单方面闭合</strong>”。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id29">
+<h3>八、总结图<a class="headerlink" href="#id29" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                        权威 ←─────────── 依据 ───────────→ 理由
+                          │                                    │
+        不可确定          │   ┌──────────────┐                 │
+             ▲            │   │   神  学      │                 │
+             │            │   │ 报应·历史审判 │                 │
+             │            │   │ 司法黑帮·党章 │                 │
+             │            │   │ 殉道谱系      │                 │
+             │            │   └───────┬──────┘                 │
+             │            │           │  （本案病理：从这里裁定）  │
+             │            │   ┌───────▼──────────────────┐      │
+             │            │   │        哲  学             │      │
+             │            │   │ 分析：指称·真值·语用      │      │
+             │            │   │ 欧陆：权力·询唤·空能指    │      │
+             │            │   │ 中国：名实·理势·治道      │      │
+             │            │   │  ← 无人之域，无终局 →     │      │
+             │            │   └───────┬──────────────────┘      │
+             │            │           │                          │
+             │  确切知识  │   ┌───────▼──────────────────┐      │
+             ▼            │   │        科  学             │      │
+                          │   │ 数学：分支过程·渗流       │      │
+                          │   │ 物理：FDT·SOC·拓扑        │      │
+                          │   │ 心理：决策偏差·供述       │      │
+                          │   └───────┬──────────────────┘      │
+                          │           │                          │
+                          │   ┌───────▼──────────────────┐      │
+                          │   │  法教义学（地图之外）      │      │
+                          │   │  三轴全落地 → 唯一可裁判   │      │
+                          │   └──────────────────────────┘      │
+                          │                                      │
+                          └──────────────────────────────────────┘
+
+  ┌───────────────────────────────────────────────────────────┐
+  │ 越界规则：                                                 │
+  │   科学 → 哲学 = 范畴错误（以数据判定概念）                  │
+  │   哲学 → 科学 = 无效（语义否定不了事实）                    │
+  │   神学 → 哲学 = 本案病理（以权威裁定概念）                  │
+  │   科学/哲学 → 规范 = 缺规范前提（is-ought）                 │
+  │   一切 → 法教义学 = 唯一出口                               │
+  └───────────────────────────────────────────────────────────┘
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="id30">
+<h3>九、一句话收束<a class="headerlink" href="#id30" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>罗素的”无人之域”原本是一个<strong>哲学的光荣</strong>——它是人类理性在尚不能确定之处仍然坚持推理的地方。
+但在本案里，它变成了一个<strong>司法的漏洞</strong>：法院在这片无人区里，既没有立法者的定义权，也没有履行说理义务，于是干脆退回到神学——<strong>用权威把无人区划成了自己的领地</strong>。</p>
+<p>而档案的贡献与局限，也在这张地图上一目了然：
+<strong>它用科学与哲学的方法，去攻击一个神学的前提。</strong> 所以它永远只能赢一半——它证明了”你没有论证”，却无法证明”你的前提不成立”。</p>
+<p>要让后一半成立，唯一的办法是把那个前提<strong>摆到桌面上，要求它接受论证</strong>。而这一步，已经不属于科学，也不属于哲学，而属于<strong>宪法</strong>。</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chatgpt.html" class="btn btn-neutral float-left" title="ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="qwen.html" class="btn btn-neutral float-right" title="Qwen" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

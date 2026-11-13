@@ -18,11 +18,6 @@
 .. image:: /_static/images/box.jpg
 
 -----------------------------------
-
- .. toctree::
-    :maxdepth: 2
-
-    system/index
    
  .. toctree::
     :maxdepth: 2
@@ -34,6 +29,10 @@
 
     psycho/index
 
+ .. toctree::
+    :maxdepth: 2
+
+    system/index
 
 ---------------------------
 

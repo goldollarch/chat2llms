@@ -29,23 +29,15 @@
 
     main/index
     
+ .. toctree::
+    :maxdepth: 2
 
--------------------------------
+    review/index
+    
 
-哲学常识：
-
------------
+--------------------------------------------------------------
 
 :doc:`中国哲学简史 </chats/outlaw/analyse/chinese/review>`
-
---------------------
-
-中国哲学精神和特质
-
-[:doc:`GPT </chats/outlaw/analyse/chinese/abc/chatgpt>`]
-[:doc:`Gemini </chats/outlaw/analyse/chinese/abc/gemini>`]
-[:doc:`Qwen </chats/outlaw/analyse/chinese/abc/qwen>`]
-[:doc:`DS </chats/outlaw/analyse/chinese/abc/deepseek>`]
 
 ---------------------------
 

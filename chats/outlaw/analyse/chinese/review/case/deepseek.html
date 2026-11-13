@@ -1,0 +1,1225 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepseek &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Qwen" href="qwen.html" />
+    <link rel="prev" title="ChatGPT" href="chatgpt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">传统中国</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../person/index.html">诸子</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../school/index.html">百家</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../main/index.html">主流</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">概况</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../ccp/index.html">中共官方</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../foreign/index.html">西方哲学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">传统中国</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">概况</a></li>
+          <li class="breadcrumb-item"><a href="index.html">案例</a></li>
+      <li class="breadcrumb-item active">Deepseek</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../_sources/chats/outlaw/analyse/chinese/review/case/deepseek.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="deepseek">
+<h1>Deepseek<a class="headerlink" href="#deepseek" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="id1">
+<h2>中国哲学的介入——意义、可用性与风险<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><strong>依据</strong>：<code class="docutils literal notranslate"><span class="pre">china.docx</span></code>（95.8万字，92章）</p></li>
+<li><p><strong>论题</strong>：档案中的中国传统哲学（诸子百家、两汉经学、宋明理学心学、清学）对本案的分析，有何意义？在整体评价体系中应居何位？</p></li>
+</ul>
+<hr class="docutils" />
+<section id="id2">
+<h3>一、实况：不是点缀，是一整套谱系<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>层次</p></th>
+<th class="head"><p>内容</p></th>
+<th class="head"><p>主要概念密度</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>先秦诸子</p></td>
+<td><p>儒、道、法、墨、阴阳、名、纵横</p></td>
+<td><p>仁1086、势625、礼566、法家217、墨222、名实140</p></td>
+</tr>
+<tr class="row-odd"><td><p>人物专章</p></td>
+<td><p>孔、孟、荀、老、庄、韩非、董仲舒、韩愈、张载、程颢、朱熹</p></td>
+<td><p>良知631、格物198、理学370</p></td>
+</tr>
+<tr class="row-even"><td><p>宋明清</p></td>
+<td><p>程朱理学、陆王心学、黄宗羲、顾炎武、王夫之、戴震</p></td>
+<td><p>戴震132、黄宗羲135、顾炎武137、”以理杀人”38</p></td>
+</tr>
+<tr class="row-odd"><td><p>比较宗教</p></td>
+<td><p>佛教、道教、基督教、两汉经学、魏晋玄学</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-even"><td><p>现代</p></td>
+<td><p>现代新儒学（熊十力、牟宗三一系）</p></td>
+<td><p>—</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>判断</strong>：这一支的方法论地位与欧陆一支<strong>同级</strong>——同为”以本土思想资源作结构性诊断”。但它的<strong>性质</strong>与其余各支都不同，须先说明这一点，否则会误用。</p>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h3>二、五重意义<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<section id="id4">
+<h4>意义一：内在批判最深的一层<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>本报告反复强调的方法——<strong>用对象自己承认的规范审判对象的实际运行</strong>——在中国哲学中有最深的本土资源。它们不依赖任何外来立场，因而无法被”立场不同”消解。</p>
+<p>可直接使用的六条本土标准：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>本土命题</p></th>
+<th class="head"><p>出处</p></th>
+<th class="head"><p>对应的现代法律命题</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>“刑不可知，则威不可测”</strong></p></td>
+<td><p>《左传·昭公六年》叔向致子产书所表达的立场</p></td>
+<td><p>明确性、可预见性（罪刑法定）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>“法不阿贵，绳不挠曲”</strong></p></td>
+<td><p>《韩非子·有度》</p></td>
+<td><p>平等适用（《刑法》第4条）；反选择性执法</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>“不教而杀谓之虐”</strong></p></td>
+<td><p>《论语·尧曰》</p></td>
+<td><p>违法性认识可能性、期待可能性</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>“以理杀人”</strong></p></td>
+<td><p>戴震《与某书》</p></td>
+<td><p>不能以抽象原则覆盖具体情境</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>“法者，天下之法”</strong></p></td>
+<td><p>黄宗羲《明夷待访录·原法》</p></td>
+<td><p>法律的公共性、非工具性</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>名实相符</strong></p></td>
+<td><p>名家（惠施、公孙龙）</p></td>
+<td><p>构成要件的语义确定性</p></td>
+</tr>
+</tbody>
+</table>
+<p>其中<strong>最有力的一条是”刑不可知”</strong>，理由在下节。</p>
+</section>
+<section id="id5">
+<h4>意义二（本篇核心判断）：本案的裁判方式本身是”传统的”<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<p>这是全部中国哲学材料的真正价值所在——<strong>它不是外来的批判资源，而是自我诊断。</strong></p>
+<p>理由有三：</p>
+<p><strong>（一）本案的论证结构是”原心论罪”。</strong></p>
+<p>董仲舒《春秋繁露·精华》：”<strong>春秋之听狱也，必本其事而原其志</strong>；志邪者不待成，首恶者罪特重，本直者其论轻。”</p>
+<p>即：<strong>由行为人的身份、品格推其心志。</strong> 而判决书的论证是：”具有很高的学历和知识水平……<strong>应辨别是非</strong>……<strong>明知</strong>……”——<strong>由身份推心志，结构完全相同。</strong></p>
+<p><strong>（二）本案的犯罪类型是”腹诽”。</strong></p>
+<p>《史记·平准书》：张汤治颜异，”异与客语……汤奏当异九卿见令不便，不入言而<strong>腹诽</strong>，论死。自是之后，有腹诽之法比”。<strong>腹诽是中国法制史上思想罪的原型</strong>——不因言获罪，而因”心中有言”获罪。</p>
+<p>本案不因转发获罪，而因”明知是假而转发”获罪；而”明知”由学历推出——<strong>这是腹诽之法的现代技术化版本。</strong></p>
+<p><strong>（三）本案的结构是”儒表法里”。</strong></p>
+<p>判决书用<strong>儒家式道德话语</strong>（”应辨别是非”、”法外之地”），而其运作是<strong>法家式权势逻辑</strong>。韩非的”法、术、势”三元可精确对应：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>韩非</p></th>
+<th class="head"><p>本案</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>法</strong>（明文的、公开的、可预期的）</p></td>
+<td><p>《刑法》第293条——<strong>仅形式存在</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>术</strong>（暗中操作、不公开的）</p></td>
+<td><p>“经梳理”、不公开审理、内部”梳理情况说明”</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>势</strong>（权位本身的力量）</p></td>
+<td><p>“上层领导特别指示”</p></td>
+</tr>
+</tbody>
+</table>
+<p>韩非要求的是”<strong>法</strong>”约束”术”与”势”，即”抱法处势”；而本案是”<strong>有势无术、有术无法</strong>”——势与术合流，法仅存其名。</p>
+<blockquote>
+<div><p><strong>韩非本人会判本案违法。</strong> 这不是比附，而是文本的直读：《有度》篇的整个论证，就是要求君主以公开、统一、不阿贵之法取代大臣的私人操作。<strong>用法家批本案，比用自由主义批本案更难被回避。</strong></p>
+</div></blockquote>
+<p><strong>结论：中国传统哲学在这一支的意义，是”<strong>认出自己的病</strong>”。</strong> 它解释了一个此前各支都无法解释的现象——为什么一份明显违背现代法治要件的判决，在形式上却显得”有文化根基”、”符合国情”。<strong>因为它确实有一个古老的谱系：原心论罪、腹诽之法、儒表法里。</strong></p>
+</section>
+<section id="id6">
+<h4>意义三：法制史的纵深——本案是序列中的逆向点<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<p>中国法制史有一条清晰的方向：<strong>从”刑不可知”到”刑可知”。</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>时间</p></th>
+<th class="head"><p>事件</p></th>
+<th class="head"><p>方向</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>前536</p></td>
+<td><p>郑国子产铸刑书（成文法首次公布）；叔向反对，理由是民将”不忌于上”</p></td>
+<td><p><strong>前进</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>前513</p></td>
+<td><p>晋国铸刑鼎；孔子叹”晋其亡乎，失其度矣”</p></td>
+<td><p>前进（争议中）</p></td>
+</tr>
+<tr class="row-even"><td><p>唐</p></td>
+<td><p>《唐律疏议·断狱》：”诸断罪皆须具引律、令、格、式正文”</p></td>
+<td><p>前进（引律令义务）</p></td>
+</tr>
+<tr class="row-odd"><td><p>1997</p></td>
+<td><p>废除流氓罪，理由是”规定比较原则”</p></td>
+<td><p>前进（分解罪名）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>2023</strong></p></td>
+<td><p><strong>本案：以”寻衅滋事”概括适用，未指明任何具体内容</strong></p></td>
+<td><p><strong>逆向</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这一条序列的力量在于</strong>：它不诉诸任何抽象法理，只诉诸<strong>中国自己的法制演进方向</strong>。而”经得起历史检验”恰恰是官方语言中最常被援引的标准——<strong>用历史序列论证，比用比较法论证更容易被听见。</strong></p>
+</section>
+<section id="audibility">
+<h4>意义四：可听性（audibility）优势<a class="headerlink" href="#audibility" title="Link to this heading"></a></h4>
+<p>“法不阿贵””以理杀人””刑不可知则威不可测””天下之法非一家之法”——这些命题在中国法律人的文化直觉中有共鸣，比引用哈贝马斯、佩蒂特更易被接受。</p>
+<p><strong>须与”证据效力”严格区分</strong>：可听性不产生证明力，它只降低接受成本。但<strong>在申诉实务中，接受成本是真实成本</strong>。</p>
+</section>
+<section id="id7">
+<h4>意义五：文明自我诊断的档案价值<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<p>最后一份价值是档案性的：这份材料记录了一个文明<strong>用自己两千年的思想资源审视自己当代的一次判决</strong>。无论结论如何，这个动作本身具有独立价值。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id8">
+<h3>三、一个跨传统发现：名家与分析哲学同族<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>这是本次解析最值得记录的发现。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>名家命题</p></th>
+<th class="head"><p>分析哲学对应</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>“名实相符”</strong>（名以指实）</p></td>
+<td><p><strong>指称理论</strong>：谓词无指称则不表达命题</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>“以属混类”</strong>（公孙龙”白马非马”）</p></td>
+<td><p><strong>范畴错误</strong>（赖尔）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>“正名”</strong>（名不正则言不顺）</p></td>
+<td><p><strong>概念分析</strong>：澄清用法是解决争端的先决条件</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>“辩亡则理死”</strong></p></td>
+<td><p><strong>可对抗性</strong>：无对抗则无真理发现机制</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>“名之大而失其实”</strong>（以”秩序””安全”等宏大词吞噬个体经验）</p></td>
+<td><p><strong>厚概念替薄概念</strong>；”空洞能指”</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这意味着</strong>：我在附论五中所说”分析哲学属于不可能性论证家族、因而不需数据”这一判断，其方法论在中国先秦已有对应物。<strong>名家是中国的分析哲学。</strong></p>
+<blockquote>
+<div><p>档案中”<strong>语言的腐败即法的腐败</strong>”这一提法（名家章），与我在附论四提出的”要件从未被操作化”、附论五提出的”以评价冒充描述”，是同一诊断的三种表述。<strong>三条独立进路汇合，是该结论稳健性的一个指标。</strong></p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="id9">
+<h3>四、四处局限与风险<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<section id="id10">
+<h4>风险一：引文可靠性——这一支最严重的问题<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<p>比 <code class="docutils literal notranslate"><span class="pre">europe</span></code>/<code class="docutils literal notranslate"><span class="pre">west</span></code> 更严重，原因有二：古文引文<strong>更易被核对</strong>；一旦错，在中文读者面前<strong>显得极不专业</strong>。</p>
+<p>抽样所见的问题包括：</p>
+<ul class="simple">
+<li><p>归入《孟子字义疏证》的”以理杀人”，<strong>实际出自《与某书》</strong>（”酷吏以法杀人，后儒以理杀人”）。</p></li>
+<li><p>所引公孙龙”名以指实，不得实则名不立”、惠施”至大无外，至小无内”（后者确为《庄子·天下》所载惠施历物之意），<strong>前者与传世文本不符</strong>。</p></li>
+<li><p>所引黄宗羲”法者，天下之公器；刑者，天下之公正”、”国无言路，则是国非国也”等句，<strong>与《明夷待访录》传世文本有出入</strong>，疑为转写或拟作。</p></li>
+</ul>
+<p><strong>处置</strong>：<strong>凡拟写入正式文书的引文，必须逐条核对传世本（中华书局点校本）</strong>；无法核实的，统一改为”大意谓……参见某篇”。这一条没有例外——<strong>一条伪引文足以葬送整份申诉</strong>。</p>
+</section>
+<section id="id11">
+<h4>风险二：概念不可直接操作<a class="headerlink" href="#id11" title="Link to this heading"></a></h4>
+<p>“仁””良知””天理””公”不能化为诉讼请求。必须经过翻译：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>传统概念</p></th>
+<th class="head"><p>现代法律概念</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>仁</p></td>
+<td><p>比例原则；人道待遇</p></td>
+</tr>
+<tr class="row-odd"><td><p>恕（己所不欲）</p></td>
+<td><p>换位检验（设身处地审查）</p></td>
+</tr>
+<tr class="row-even"><td><p>礼</p></td>
+<td><p>程序规范</p></td>
+</tr>
+<tr class="row-odd"><td><p>义</p></td>
+<td><p>实质正义</p></td>
+</tr>
+<tr class="row-even"><td><p>信</p></td>
+<td><p>裁判的可预期性</p></td>
+</tr>
+<tr class="row-odd"><td><p>公（天下之法）</p></td>
+<td><p>公共性、非工具化</p></td>
+</tr>
+<tr class="row-even"><td><p>名实相符</p></td>
+<td><p>构成要件的明确性</p></td>
+</tr>
+<tr class="row-odd"><td><p>不教而杀</p></td>
+<td><p>期待可能性</p></td>
+</tr>
+<tr class="row-even"><td><p>以理杀人</p></td>
+<td><p>不得以抽象秩序压制具体表达</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>未经翻译的传统语汇，在裁判文书中等于不存在。</strong></p>
+</section>
+<section id="id12">
+<h4>风险三（最大）：可被反向使用——“国情论”<a class="headerlink" href="#id12" title="Link to this heading"></a></h4>
+<p><strong>同一批材料可以被用来为本案辩护。</strong> 例如：”中国重秩序、轻个人，故以刑法维护政治秩序符合文化传统”；”西方言论自由不适合中国国情”。</p>
+<p>若不预先拆解，这一支将成为对方的武器。<strong>拆解方式只能是内在的</strong>：</p>
+<blockquote>
+<div><p>用”刑不可知则威不可测””法不阿贵””不教而杀谓之虐””以理杀人””天下之法非一家之法”回应国情论——<strong>即用国情论自己的材料反驳国情论。</strong></p>
+</div></blockquote>
+<p>而这一点，韩非提供了最硬的支撑：<strong>法家本人就主张法须公开、统一、不阿贵</strong>。若本案连法家的标准都达不到，则”国情”不能成为理由——<strong>它连”国情”这一关都过不了。</strong></p>
+</section>
+<section id="id13">
+<h4>风险四：心学被误用<a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
+<p>“良知”在档案中出现 631 次，说明心学被大量使用。<strong>但须精确</strong>：</p>
+<p>王阳明所说”良知”是<strong>道德本心</strong>（知善知恶），<strong>不是经验知识</strong>（知真知假）。故：</p>
+<ul class="simple">
+<li><p><strong>正确的用法</strong>：以”良知≠见闻之知”批判判决——“应辨别是非”是良知层面的应然，”明知系编造”是见闻层面的实然，二者不可互换。<strong>阳明本人会反对以良知推出事实认知。</strong></p></li>
+<li><p><strong>错误的用法</strong>：若论证成”良知自能知真假”，则反而<strong>支持</strong>判决书的推定。</p></li>
+</ul>
+<p><strong>心学在此是一柄极锋利但极滑的刀。</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id14">
+<h3>五、结论：中国哲学问的是第三个问题<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<p>综合全系列，四支学科各问一个问题：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>进路</p></th>
+<th class="head"><p>提问</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>科学</p></td>
+<td><p>你说它有后果，<strong>有依据吗</strong>？</p></td>
+</tr>
+<tr class="row-odd"><td><p>分析哲学</p></td>
+<td><p>你说它是虚假信息，<strong>这句话成立吗</strong>？</p></td>
+</tr>
+<tr class="row-even"><td><p>欧陆哲学</p></td>
+<td><p>你说你在依法裁判，<strong>这实际上是决断吗</strong>？</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>中国哲学</strong></p></td>
+<td><p><strong>这个秩序，是为谁的秩序？</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>第四个问题是西方各支都问不出的。</strong> 因为西方各支的理论前提（法治、权利、系统、主体）都预设了”秩序”是一个<strong>中性的容器</strong>；而中国哲学从黄宗羲到戴震，一直知道一个问题：</p>
+<blockquote>
+<div><p><strong>“天下之法”与”一家之法”的区别，不在条文，在它服务于谁。</strong></p>
+</div></blockquote>
+<p>而这恰恰击中本案最深的病灶——本报告在附论六中已经指出：判决书用”公共秩序”这一<strong>普遍词</strong>，掩盖”个别办案机关的秩序感受”这一<strong>特殊实</strong>。<strong>黄宗羲在三百多年前给这个结构取了名字：以”天下”之名，行”一家”之实。</strong></p>
+<p>所以中国哲学在此的最终意义，不是提供新的论据，而是提供<strong>一个新的提问方向</strong>——而这个问题，恰好是本案唯一无法回避的问题：</p>
+<blockquote>
+<div><p><strong>一份判决若以”公共”为名，它必须证明它所维护的，真是公共的。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id15">
+<h2>中国传统哲学卷：内容总结与价值评估<a class="headerlink" href="#id15" title="Link to this heading"></a></h2>
+<p><strong>——“以传统反传统”的论证及其意义与限度</strong></p>
+<ul class="simple">
+<li><p><strong>材料</strong>：<code class="docutils literal notranslate"><span class="pre">ALL.pdf</span></code> 第 6 部分 <code class="docutils literal notranslate"><span class="pre">china</span></code>（p3025–4038，1014 页，281 篇模型文）。</p></li>
+<li><p><strong>页码已逐一核验</strong>（如戴震 p3824–3846、黄宗羲 p3760–3775、朴学 p3407–3409）。</p></li>
+<li><p><strong>方法</strong>：先还原内容与编排，再区分”哪几条真正可用”，最后评估其意义、价值与限度。</p></li>
+</ul>
+<hr class="docutils" />
+<section id="id16">
+<h3>一、规模与编排：一卷”背书式”的写作<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>项</p></th>
+<th class="head"><p>内容</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>页数</p></td>
+<td><p>1014 页（占全书 9.9%）</p></td>
+</tr>
+<tr class="row-odd"><td><p>篇数</p></td>
+<td><p><strong>281 篇</strong>模型文</p></td>
+</tr>
+<tr class="row-even"><td><p>分布</p></td>
+<td><p>简史 1 篇（单篇）／特质 4／百家 51／<strong>诸子 174（占 56%）</strong>／主流 52</p></td>
+</tr>
+<tr class="row-odd"><td><p>体例</p></td>
+<td><p>L4 标题 + 一行任务指令（”仿儒家孔子理念和文风作”）→ 未署名的教科书式共享导论 → 模型清单占位行 → <code class="docutils literal notranslate"><span class="pre">Important</span></code> 块引司马谈《论六家要指》与《汉书·艺文志》（仅百家、诸子有）→ 六篇”套案”文</p></td>
+</tr>
+<tr class="row-even"><td><p>模型缺位</p></td>
+<td><p>特质缺 Copilot、Grok；儒、道、法、经学、佛教、景教、道教、理学、心学、朴学、现儒<strong>各缺 DeepSeek</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>一个决定性的结构事实</strong>：281 篇的结论<strong>高度同质</strong>——一律判定为冤案、主张平反追责。差异只在文体与学理密度，<strong>不在结论</strong>。</p>
+<p>这说明本卷的功能不是”论证”，而是<strong>背书</strong>：让两千年的传统为现代的一个结论作担保。</p>
+</section>
+<hr class="docutils" />
+<section id="id17">
+<h3>二、五层内容结构与一个”失败的开篇”<a class="headerlink" href="#id17" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>主题</p></th>
+<th class="head"><p>页码</p></th>
+<th class="head"><p>内容</p></th>
+<th class="head"><p>是否涉及本案</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>简史</p></td>
+<td><p>p3025–3026</p></td>
+<td><p>四阶段（先秦、汉唐、宋明、近现代）+ 四条思想特质</p></td>
+<td><p><strong>完全不提</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>特质</p></td>
+<td><p>p3027–3044</p></td>
+<td><p>全卷唯一”中立教科书”节；建”秩序（名教）↔自然（道体）””阴阳—执两用中”坐标，13 学派定位表</p></td>
+<td><p><strong>零个案</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>百家</p></td>
+<td><p>p3045–3233</p></td>
+<td><p>儒、道、法、墨、名、阴阳、纵横、杂、兵 9 家</p></td>
+<td><p>个案首次出现（p3049，儒家）</p></td>
+</tr>
+<tr class="row-odd"><td><p>主流</p></td>
+<td><p>p3234–3473</p></td>
+<td><p>经学、玄学、佛教、禅宗、<strong>景教</strong>、道教、理学、心学、<strong>朴学</strong>、现儒 10 项</p></td>
+<td><p>全面套案</p></td>
+</tr>
+<tr class="row-even"><td><p>诸子</p></td>
+<td><p>p3474–4038</p></td>
+<td><p>29 位人物，按时代排成”孔老→熊十力”的道统链</p></td>
+<td><p>全面套案</p></td>
+</tr>
+</tbody>
+</table>
+<section id="id18">
+<h4>“特质”节的失败，暴露了方法论起点<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<p>这一节只 4 篇、零个案，却最值得注意。它把中国哲学概括为”<strong>不是解决（Resolve）二元对立，而是调和（Harmonize）</strong>”（p3044），并给出”中国=调和/阴阳/中道，西方=对立/超越”的二分。</p>
+<p><strong>这实际上是自我东方化</strong>：先设一个”中道—调和”的本质，再把案件塞进”失衡”一格，最后得出”判决是一种失衡”。整卷的论证方向，在还没谈案件时就已被这个框架决定。</p>
+<p>同样的自我限定也出现在”礼制”上：全卷**未出现”差序格局””礼治秩序””文字狱”**这类概念，只把”礼制/规范”当作坐标轴。<strong>它回避了中国传统中最不利于己的那一面</strong>——这一点后文第九节要专门讨论。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id19">
+<h3>三、九家与十项主流：具体论证一览<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<section id="p30453233">
+<h4>3.1 九家（百家，p3045–3233）<a class="headerlink" href="#p30453233" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>学派</p></th>
+<th class="head"><p>核心资源</p></th>
+<th class="head"><p>在本案中的用法</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>儒家</strong></p></td>
+<td><p>和而不同、从道不从君、道之以德、正名</p></td>
+<td><p>攻”以知识为罪证”</p></td>
+<td><p>p3049–3053</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>道家</strong></p></td>
+<td><p>“法令滋彰，盗贼多有”、无为之治</p></td>
+<td><p>攻”口袋罪”</p></td>
+<td><p>p3070</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>法家</strong></p></td>
+<td><p>法、术、势三元；”一断于法”</p></td>
+<td><p>判”一断于法？实为<strong>一断于势</strong>”</p></td>
+<td><p>p3087</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>墨家</strong></p></td>
+<td><p>兼爱、尚同、”别爱”</p></td>
+<td><p>指”选择性执法”</p></td>
+<td><p>p3104</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>名家</strong></p></td>
+<td><p>名实之辨、”名者实之宾也”</p></td>
+<td><p><strong>“定义权即权力”</strong></p></td>
+<td><p>p3147</p></td>
+</tr>
+<tr class="row-odd"><td><p>阴阳家</p></td>
+<td><p>阴阳消长</p></td>
+<td><p>读作”阳盛而阴灭”</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-even"><td><p>纵横家</p></td>
+<td><p>权谋</p></td>
+<td><p>“法为谋，刑为势”</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-odd"><td><p>杂家</p></td>
+<td><p>兼采</p></td>
+<td><p>斥”执一害理”</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-even"><td><p>兵家</p></td>
+<td><p>攻守之势</p></td>
+<td><p>讥为”下策攻城”</p></td>
+<td><p>—</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>法家一节最锋利的两句</strong>（p3090–3091）：</p>
+<blockquote>
+<div><p>“社会秩序的根本威胁不是罪行本身，而是’<strong>不顺从</strong>’。”
+“在法家逻辑中，’<strong>错误的定罪</strong>’不是问题，只要它能’<strong>稳固体制之势</strong>’，便是’成功治理’。”</p>
+</div></blockquote>
+<p>这两句是”以传统反传统”的典范：它不是说”法家错了”，而是说”<strong>你们的做法连法家都不如</strong>”——法家尚且讲”法”，你们讲的只是”势”。</p>
+</section>
+<section id="p32343473">
+<h4>3.2 十项主流（p3234–3473）<a class="headerlink" href="#p32343473" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>项</p></th>
+<th class="head"><p>用法</p></th>
+<th class="head"><p>页码</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>经学</p></td>
+<td><p>以”正名””礼法合一””春秋决狱”论判决失据</p></td>
+<td><p>p3240</p></td>
+</tr>
+<tr class="row-odd"><td><p>玄学</p></td>
+<td><p>名教与自然的张力</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-even"><td><p>佛教</p></td>
+<td><p>业报、慈悲</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-odd"><td><p>禅宗</p></td>
+<td><p>直指本心</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>景教</strong></p></td>
+<td><p>唐代基督教聂斯托利派的宽容传统</p></td>
+<td><p>p3318</p></td>
+</tr>
+<tr class="row-odd"><td><p>道教</p></td>
+<td><p>“以无为御有为”</p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>理学</strong></p></td>
+<td><p>理 vs 势</p></td>
+<td><p>详见第四节</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>心学</strong></p></td>
+<td><p>致良知</p></td>
+<td><p>详见第四节</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>朴学</strong></p></td>
+<td><p>无征不信、训诂、实事求是</p></td>
+<td><p><strong>p3407–3409（全卷最强）</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>现儒</p></td>
+<td><p>牟宗三、熊十力的”道德主体”</p></td>
+<td><p>p3423</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>经学一节的一句，是全卷最凝练的判词</strong>（p3240）：</p>
+<blockquote>
+<div><p>“法之名犹存，而其’经义’已亡……<strong>有法而无法，有礼而无理，有刑而无德</strong>。”</p>
+</div></blockquote>
+</section>
+<section id="id20">
+<h4>3.3 诸子 29 人<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<p>老子、孔子、孟子、庄子、荀况、韩非、董仲舒、韩愈、周敦颐、张载、程颢、程颐、陆九渊、朱熹、王阳明、黄宗羲、顾炎武、王夫之、戴震、章学诚、龚自珍、魏源、康有为、谭嗣同、孙中山、胡适、冯友兰、牟宗三、熊十力。</p>
+<p><strong>这份名单本身就是一个论证</strong>：从先秦到现代新儒家，构成一条连续的”道统链”，而链上的每个人都在为同一个结论作证。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id21">
+<h3>四、宋明理学与心学：被单独提出，也被单独削弱<a class="headerlink" href="#id21" title="Link to this heading"></a></h3>
+<p>用户特别提到这部分，值得单列。两宋至明清的”理学—心学—实学”三段，在本卷中承担不同功能：</p>
+<section id="id22">
+<h4>4.1 理学：以”理”抗”势”<a class="headerlink" href="#id22" title="Link to this heading"></a></h4>
+<p><strong>核心资源</strong>：天理是超越于一切权力的规范秩序；”理”高于”势”，故判决若违理，即失其正当性。</p>
+<p><strong>本卷用法</strong>：周敦颐、张载、二程、朱熹被用来论证——<strong>判决不能以权力为理由，只能以理为理由</strong>。张载”为天地立心，为生民立命”被用作知识分子的责任论证。</p>
+<p><strong>问题</strong>：这一路最容易滑向”以道德批评代替法律批评”。而<strong>戴震恰恰是批判这一路的</strong>——本卷把理学的”理”和戴震对”理”的批判放在同一卷，却没有处理两者的冲突。</p>
+</section>
+<section id="id23">
+<h4>4.2 心学：以”良知”抗”权威”<a class="headerlink" href="#id23" title="Link to this heading"></a></h4>
+<p><strong>核心资源</strong>：王阳明的”致良知”——道德判断的最终依据在每个人的本心，不在外部权威；”良知”人人具足，故不需要权威来告知是非。</p>
+<p><strong>本卷用法</strong>：被告的自我辩护被解释为”致良知”——他不服从外在的定罪，因为本心知道那不是罪。</p>
+<p><strong>问题</strong>：心学的”良知”是<strong>主观内在标准</strong>，在法庭上无法作为客观依据。它提供的是道德勇气，不是法律论据。</p>
+</section>
+<section id="id24">
+<h4>4.3 明清之际的转折：本卷最有价值的四个人<a class="headerlink" href="#id24" title="Link to this heading"></a></h4>
+<p>这是全卷真正的重心，也是唯一能与现代法学对接的部分。</p>
+<section id="p37603775">
+<h5>（1）黄宗羲（p3760–3775）：本土的”公共领域”理论<a class="headerlink" href="#p37603775" title="Link to this heading"></a></h5>
+<p>黄宗羲在《明夷待访录·学校》中提出：</p>
+<blockquote>
+<div><p>“天子之所是未必是，天子之所非未必非，天子亦遂不敢自为是非，而<strong>公其是非于学校</strong>。”（p3763）</p>
+</div></blockquote>
+<p><strong>这是中国政治思想中最接近”公共领域”的资源</strong>，而且比哈贝马斯更贴切——因为它不是咖啡馆式的市民社会，而是<strong>制度化的议政机构</strong>。</p>
+<p><strong>本卷的用法极为精准</strong>：</p>
+<blockquote>
+<div><p>判决的做法是”<strong>定其是非于朝廷</strong>”，而黄宗羲的理想是”<strong>公其是非于学校</strong>”。</p>
+</div></blockquote>
+<p>这一句把”言论自由被压制”翻译成了一个中国古典的制度问题：<strong>谁有权判断是非？</strong> 而不是”你侵犯了我的权利”。</p>
+<p>另外三处也用得好：</p>
+<ul class="simple">
+<li><p>《原君》”天下为主，君为客”（p3760）→ 法应为万民设，非为一家设；</p></li>
+<li><p>“一家之法”vs”天下之法”（p3763）→ 本案用的是”一家之法”；</p></li>
+<li><p>《胥吏》”吏胥之舞文，皆奉上意”（p3764）→ 直指”上级指示”问题。</p></li>
+</ul>
+<p><strong>这是全卷最具原创性的一处</strong>：它为”程序公开”与”舆论监督”提供了<strong>完全本土的规范依据</strong>。</p>
+</section>
+<section id="p3876">
+<h5>（2）顾炎武（p3876 前后）：经世致用与”天下兴亡”<a class="headerlink" href="#p3876" title="Link to this heading"></a></h5>
+<p>“天下兴亡，匹夫有责”被用来论证：关注公共事务是公民责任，不是犯罪。”博学于文，行己有耻”被用来论证学者的双重义务（求知与守节）。</p>
+</section>
+<section id="id25">
+<h5>（3）王夫之：”理势合一”<a class="headerlink" href="#id25" title="Link to this heading"></a></h5>
+<p><strong>核心资源</strong>：理不在势之外，而在势之中；但<strong>理可以评判势</strong>。</p>
+<p><strong>本卷用法</strong>：判决是”势”，而”理”要求它服从规范。这一路比理学的”天理”更接地气，因为它承认权力的事实性，但仍保留批判的尺度。</p>
+</section>
+<section id="p38243846">
+<h5>（4）戴震（p3824–3846）：全卷最锋利的一把刀<a class="headerlink" href="#p38243846" title="Link to this heading"></a></h5>
+<p>这是中国卷中<strong>唯一具有世界级哲学分量、且与本案结构完全同构</strong>的资源。</p>
+<p>戴震在《孟子字义疏证》中提出：</p>
+<blockquote>
+<div><p>“酷吏以法杀人，后儒以理杀人……<strong>人死于法，犹有怜之者；死于理，其谁怜之？</strong>”（p3826）</p>
+</div></blockquote>
+<p><strong>本卷的用法</strong>（p3824）：</p>
+<blockquote>
+<div><p>“此案不仅是一场司法冤狱，更是一场典型的’<strong>以理杀人</strong>’现代重演——司法机关以抽象政治教条（’体制不容冒犯’）为’理’，将学者的转发行为强行定罪，恰如戴震所痛斥的’酷吏以理杀人，而自以为义’。”</p>
+</div></blockquote>
+<p><strong>为什么这一条最有力？</strong> 因为它准确描述了本案的<strong>特殊恶性</strong>：</p>
+<ul class="simple">
+<li><p>普通冤案是”以法杀人”——虽然错，但至少用的是法律，还有”怜之者”；</p></li>
+<li><p>本案是”以理杀人”——<strong>披着道德与政治正确的外衣</strong>，因此连同情都被剥夺，”其谁怜之”。</p></li>
+</ul>
+<p><strong>这一句解释了本案一个最难解释的现象</strong>：为什么一个明显证据不足的案件，能在舆论上被如此轻易地正当化。答案是：<strong>它不需要证据，因为它诉诸的是”理”而不是”法”</strong>。</p>
+<blockquote>
+<div><p><strong>这是全卷唯一一句让”程序批判”与”道德批判”同时到位的话。</strong></p>
+</div></blockquote>
+</section>
+</section>
+<section id="id26">
+<h4>4.4 一处必须指出的拟作<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<p>朴学一节（p3409）写：</p>
+<blockquote>
+<div><p>“以理杀人，不如以法杀人；以法杀人，不如以<strong>以证据杀人</strong>。无证据而杀人，是为……”</p>
+</div></blockquote>
+<p>这是对戴震原句的<strong>扩写拟作</strong>。戴震原文只有”以法杀人””以理杀人”两项，没有”以证据杀人”。这个第三项是档案自己加的——<strong>意思很好，但不能当作戴震的话引用</strong>。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id27">
+<h3>五、六条真正可用的论证<a class="headerlink" href="#id27" title="Link to this heading"></a></h3>
+<p>把 281 篇压到可用的，只有六条。按可用强度排序：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>##</p></th>
+<th class="head"><p>论证</p></th>
+<th class="head"><p>出处</p></th>
+<th class="head"><p>可转译为的法律主张</p></th>
+<th class="head"><p>强度</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><strong>无征不信</strong>：朴学第一原则</p></td>
+<td><p>p3407–3409</p></td>
+<td><p>“控方未提供任何’征’（证据），’梳理’是臆说不是认定”</p></td>
+<td><p>★★★</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p><strong>训诂明而后义理明</strong></p></td>
+<td><p>p3408</p></td>
+<td><p>“法院跳过’训诂’（法律文本解释）直接进入’义理’（政治定性）”</p></td>
+<td><p>★★★</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p><strong>以理杀人</strong></p></td>
+<td><p>p3824–3831</p></td>
+<td><p>“本案以政治正确替代证据，故其恶性甚于普通错案”</p></td>
+<td><p>★★★</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p><strong>公其是非于学校</strong></p></td>
+<td><p>p3763</p></td>
+<td><p>“审判公开的功能是接受外部检验；不公开审理取消了这一功能”</p></td>
+<td><p>★★</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p><strong>一断于法？实为一断于势</strong></p></td>
+<td><p>p3087–3091</p></td>
+<td><p>“判决的真实依据是’势’（上级意志）而非’法’（法条）”</p></td>
+<td><p>★★</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p><strong>不教而杀谓之虐</strong></p></td>
+<td><p>p3494</p></td>
+<td><p>“未事先明确告知何为违法，即加以刑罚，违反责任主义”</p></td>
+<td><p>★★</p></td>
+</tr>
+</tbody>
+</table>
+<section id="id28">
+<h4>5.1 第 2 条最值得展开<a class="headerlink" href="#id28" title="Link to this heading"></a></h4>
+<p>p3408 的这一段是<strong>全卷最精妙的类比</strong>：</p>
+<blockquote>
+<div><p>戴震说”训诂明而后义理明”——必须先厘清字词的本义，才能谈义理。而本案”却<strong>跳过’训诂’（法律文本解释），直接进入’义理’（政治定性）</strong>”。</p>
+</div></blockquote>
+<p><strong>它把中国学术史的方法论，精确地映射到了法律解释学上</strong>：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>朴学</p></th>
+<th class="head"><p>法律</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>训诂（字词本义）</p></td>
+<td><p>法律解释（构成要件的文义）</p></td>
+</tr>
+<tr class="row-odd"><td><p>义理（思想旨趣）</p></td>
+<td><p>规范目的（法益）</p></td>
+</tr>
+<tr class="row-even"><td><p>“不求字义，但执己见”</p></td>
+<td><p>不以条文为据，以政治判断为据</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这是一个完全本土、却与现代法律解释学同构的论证</strong>。而且它用的是法官熟悉的语言——“字义””本义””考据”，而不是”指称””真值条件”。</p>
+<p><strong>这正是中国卷的独特价值：它不必翻译。</strong></p>
+</section>
+<section id="id29">
+<h4>5.2 朴学的证据学，是一整条独立的路径<a class="headerlink" href="#id29" title="Link to this heading"></a></h4>
+<p>朴学的方法论与证据法高度同构：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>朴学原则</p></th>
+<th class="head"><p>证据法对应</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>无征不信</p></td>
+<td><p>证据裁判原则</p></td>
+</tr>
+<tr class="row-odd"><td><p>孤证不立</p></td>
+<td><p>证据的相互印证</p></td>
+</tr>
+<tr class="row-even"><td><p>本证 / 旁证</p></td>
+<td><p>直接证据 / 间接证据</p></td>
+</tr>
+<tr class="row-odd"><td><p>以经解经</p></td>
+<td><p>体系解释</p></td>
+</tr>
+<tr class="row-even"><td><p>实事求是</p></td>
+<td><p>以事实为根据</p></td>
+</tr>
+<tr class="row-odd"><td><p>“有一分证据，说一分话”</p></td>
+<td><p>证明标准的分层</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这是全卷最具实践价值的部分</strong>：它让”证据不足”这个现代法律判断，有了一个中国学术传统中的对应物——<strong>“无征”</strong>。</p>
+<p>而且它的修辞力量极强：”你说这是谣言，<strong>证据呢？</strong>”——这句话在任何时代的法庭上都成立。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id30">
+<h3>六、与西方哲学卷的三组对照<a class="headerlink" href="#id30" title="Link to this heading"></a></h3>
+<p>这是理解中国卷价值的关键：它的不同不在于”更中国”，而在于<strong>论证结构根本不同</strong>。</p>
+<section id="vs">
+<h4>6.1 最核心的差异：权利论证 vs 治道论证<a class="headerlink" href="#vs" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>西方卷（欧陆 + 分析）</p></th>
+<th class="head"><p>中国卷</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>出发点</p></td>
+<td><p><strong>权利</strong>（言论自由、人格尊严）</p></td>
+<td><p><strong>治道</strong>（仁政、公议、名实、慎刑）</p></td>
+</tr>
+<tr class="row-odd"><td><p>论证方向</p></td>
+<td><p><strong>对抗国家</strong>：”你侵犯了我的权利”</p></td>
+<td><p><strong>规劝国家</strong>：”你不是一个好的治理者”</p></td>
+</tr>
+<tr class="row-even"><td><p>规范来源</p></td>
+<td><p>宪法、自然法、人权</p></td>
+<td><p>圣王之治、道统、天下为公</p></td>
+</tr>
+<tr class="row-odd"><td><p>力量依赖</p></td>
+<td><p>权利的可主张性</p></td>
+<td><p>统治者的<strong>德性</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>结论性质</p></td>
+<td><p><strong>可主张的权利</strong>（claim-right）</p></td>
+<td><p><strong>可期待的善治</strong>（expectation of good governance）</p></td>
+</tr>
+<tr class="row-odd"><td><p>政治位置</p></td>
+<td><p>外部挑战</p></td>
+<td><p><strong>内部批评</strong>（谏议）</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这一组差异决定了两者的全部命运。</strong></p>
+<p>治道论证的优点是<strong>安全</strong>——它假定统治者会听，因此不构成挑战；缺点是<strong>无力</strong>——它无法产生请求权，只能产生期待。</p>
+<p><strong>而法律救济需要的恰恰是请求权。</strong></p>
+<blockquote>
+<div><p><strong>安全与有力，在这里成反比。</strong>
+这正是本卷最深的悖论：它是最”安全”的一卷，因此也是最”无力”的一卷。</p>
+</div></blockquote>
+</section>
+<section id="id31">
+<h4>6.2 语义批判 vs 名实批判<a class="headerlink" href="#id31" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>分析哲学</p></th>
+<th class="head"><p>中国卷（名家）</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>概念</p></td>
+<td><p>指称、真值条件、范畴错误</p></td>
+<td><p>名实、正名、”名者实之宾也”</p></td>
+</tr>
+<tr class="row-odd"><td><p>结论</p></td>
+<td><p>“严重混乱”是<strong>空名称</strong></p></td>
+<td><p>“寻衅滋事”是<strong>名不副实</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>处方</p></td>
+<td><p>补上定义</p></td>
+<td><p><strong>正名</strong>（使名归于实）</p></td>
+</tr>
+<tr class="row-odd"><td><p>共同点</p></td>
+<td><p>都要求”名”必须对应”实”</p></td>
+<td><p>同</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>名实论是分析哲学在中国传统中的对应物</strong>，而且它的优势是：<strong>”正名”本身就是一个政治概念</strong>——孔子说”名不正则言不顺”，已经把”命名”与”权力”连在一起。名家更进一步：”定义权即权力”（p3147）。</p>
+<p>这与分析哲学的”空名称”诊断同构，但多了<strong>一层权力批判</strong>——而这正是欧陆哲学做的事。</p>
+<p><strong>所以中国卷的名家一节，恰好是分析哲学与欧陆哲学的交汇点</strong>，而且是用中文概念完成的。</p>
+</section>
+<section id="id32">
+<h4>6.3 证据批判 vs 考据批判<a class="headerlink" href="#id32" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>分析哲学</p></th>
+<th class="head"><p>中国卷（朴学）</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>方法</p></td>
+<td><p>语义分析（真值条件）</p></td>
+<td><p><strong>考据</strong>（本证、旁证、孤证不立）</p></td>
+</tr>
+<tr class="row-odd"><td><p>要求</p></td>
+<td><p>“给出可检验的命题”</p></td>
+<td><p>“<strong>给出’征’</strong>”</p></td>
+</tr>
+<tr class="row-even"><td><p>语言</p></td>
+<td><p>哲学家的语言</p></td>
+<td><p><strong>法官的语言</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>法庭可用性</p></td>
+<td><p>中（易被”法律术语有专义”化解）</p></td>
+<td><p><strong>高</strong>（”证据呢”无人能回避）</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>这是中国卷最实用的一点</strong>：朴学说的是”征”与”信”，而”证据呢”这句话在任何法庭上都不需要解释。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id33">
+<h3>七、意义：三重<a class="headerlink" href="#id33" title="Link to this heading"></a></h3>
+<section id="id34">
+<h4>7.1 策略意义：抵消”西方标准”的指控<a class="headerlink" href="#id34" title="Link to this heading"></a></h4>
+<p>这是最直接的一层。全书大量使用欧陆哲学（福柯、阿尔都塞、葛兰西）与英美分析哲学，容易被一句”<strong>你用西方标准批评中国</strong>”整体驳回。</p>
+<p>中国卷的功能就是预先封堵这一句：<strong>用中国自己的传统，得出同一结论</strong>。</p>
+<p>效果是真实的。当孔子说”不教而杀谓之虐”（p3494）、子产不毁乡校（p3525）、戴震说”以理杀人”（p3826）、黄宗羲说”公其是非于学校”（p3763）时，批评就从”外部指责”变成了”<strong>内部谏议</strong>”。</p>
+</section>
+<section id="id35">
+<h4>7.2 学理意义：提供三条独立于西方的论证路径<a class="headerlink" href="#id35" title="Link to this heading"></a></h4>
+<p>这一点比策略意义更重要，而且常被忽略：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>路径</p></th>
+<th class="head"><p>对应现代法学</p></th>
+<th class="head"><p>独立价值</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>名实论</strong></p></td>
+<td><p>罪刑法定的明确性要求</p></td>
+<td><p>高（可替代”指称缺失”）</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>考据学</strong></p></td>
+<td><p>证据裁判原则</p></td>
+<td><p><strong>最高</strong>（可替代”可证伪性”）</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>治道论</strong></p></td>
+<td><p>程序正义、公共理性</p></td>
+<td><p>中（可替代”公共领域”）</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>三条路径都可以不依赖任何西方概念而独立成立。</strong> 这意味着：即使完全放弃西方哲学卷，仅凭中国卷也能构造一套完整的批判——只是它的落点是”治道”而不是”权利”。</p>
+</section>
+<section id="id36">
+<h4>7.3 文明意义：把个案放进长时段<a class="headerlink" href="#id36" title="Link to this heading"></a></h4>
+<p>这一层是修辞，不是论证，但力量巨大。</p>
+<p>当屈原、司马迁、文天祥、谭嗣同与本案并置时，个案从”一起司法错误”变成了”文明史的一个刻度”。<strong>代价是</strong>：它把一个可以裁判的法律问题，变成了一个只能感慨的历史问题。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id37">
+<h3>八、价值的分层评估<a class="headerlink" href="#id37" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>层级</p></th>
+<th class="head"><p>内容</p></th>
+<th class="head"><p>评价</p></th>
+<th class="head"><p>理由</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>高</strong></p></td>
+<td><p>朴学证据学（p3407–3409）、戴震”以理杀人”（p3824–3831）、黄宗羲”学校议政”（p3763）、名家”名实”（p3147）</p></td>
+<td><p><strong>真正的学术贡献</strong></p></td>
+<td><p>可与现代法教义学精确对接；且用中文概念完成，无需翻译</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>中</strong></p></td>
+<td><p>法家”势”论（p3087–3091）、儒家”不教而杀”（p3494）、子产不毁乡校（p3525）、经学”有法而无法”（p3240）、王夫之”理势合一”</p></td>
+<td><p>有力的修辞与道德压力</p></td>
+<td><p>提供规范方向，但不产生可检验命题</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>低</strong></p></td>
+<td><p>阴阳家”阳盛阴灭”、纵横家”法为谋刑为势”、杂家”执一害理”、玄学与禅宗的套用</p></td>
+<td><p>装饰</p></td>
+<td><p>是比喻，不是论证；换掉学派名段落照旧成立</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>负</strong></p></td>
+<td><p>法家古风拟作”或杀或赦……无关宏旨”（p3100）、韩非伪引（p3090）、戴震”以证据杀人”的拟作延伸（p3409）</p></td>
+<td><p>损害可信度</p></td>
+<td><p>见下节</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="id38">
+<h3>九、局限与风险：六点<a class="headerlink" href="#id38" title="Link to this heading"></a></h3>
+<section id="id39">
+<h4>9.1 “以传统反传统”是一把双刃剑<a class="headerlink" href="#id39" title="Link to this heading"></a></h4>
+<p>这是<strong>最根本的局限</strong>，且与列宁主义卷的内在自洽问题完全同构。</p>
+<p>中国传统法律文化<strong>本身也包含”以言治罪”的丰富资源</strong>：</p>
+<ul class="simple">
+<li><p>秦律的”<strong>诽谤妖言</strong>”罪；</p></li>
+<li><p>汉代的”<strong>腹诽</strong>”罪（颜异案：未言而腹诽，论死）；</p></li>
+<li><p>唐律的”<strong>指斥乘舆</strong>”、”<strong>非所宜言</strong>”；</p></li>
+<li><p>明清的<strong>文字狱</strong>（本卷自己引了 p3862、p3866、p3927）。</p></li>
+</ul>
+<p>也就是说：<strong>如果用传统来论证”因言治罪不正当”，对方完全可以用同一传统论证”因言治罪正当”</strong>——而且后者的制度史证据更具体（有律条、有案例、有编年）。</p>
+<p>本卷的处理方式是<strong>回避</strong>：它只引”子产不毁乡校””防民之口甚于防川”这一侧，对”诽谤妖言””腹诽”这一侧<strong>几乎不提</strong>（全卷无一处正面讨论秦汉以降的言论罪律条）。</p>
+<p><strong>这与第三部分（列宁主义）的结构完全相同</strong>：写出有利的一面，回避不利的一面。</p>
+<p><strong>此处本可以做得更好。</strong> 真正的学理论证应当承认：中国传统中同时存在”言论有罪”与”言论可议”两条线索，而现代法治的选择应当以宪法第 35 条为准——<strong>即在两种传统中，选择与基本权利相容的那一种</strong>。这才是站得住的论证。</p>
+</section>
+<section id="id40">
+<h4>9.2 史料让位于修辞<a class="headerlink" href="#id40" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>无编年</strong>：”因言获罪”出现 20 余处，几乎同一公式”今日学者因言获罪——此非治世，实为 X 之丧”；</p></li>
+<li><p><strong>无制度史考订</strong>：没有律条梳理、没有案例汇编；</p></li>
+<li><p><strong>典故被抽为类比，且不反思时代错置</strong>：用”子产不毁乡校”时，没有讨论乡校与社交媒体的结构性差异；用”防民之口”时，没有讨论”口”与”转发”的差异。</p></li>
+</ul>
+<p><strong>结果</strong>：它是一流的修辞，二流的史学。</p>
+</section>
+<section id="id41">
+<h4>9.3 伪引与拟作<a class="headerlink" href="#id41" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><strong>韩非伪引</strong>（p3090）：引”韩非《外储说左上》：’民有以言乱政者，虽未行事，必早治之‘“及”民畏法而不畏君，国必乱”——<strong>今本《韩非子》无此二文</strong>；</p></li>
+<li><p><strong>戴震拟作延伸</strong>（p3409）：”以理杀人，不如以法杀人；以法杀人，不如以证据杀人”——戴震原文只有两项，”以证据杀人”是档案加的；</p></li>
+<li><p>另有若干”某子若在，必叹曰”的拟作（本卷体例允许，但须标明）。</p></li>
+</ul>
+<p><strong>这一点的危害是具体的</strong>：在一个需要”征”的卷子里出现伪引，恰恰自我否证了”无征不信”。</p>
+</section>
+<section id="id42">
+<h4>9.4 结构失衡<a class="headerlink" href="#id42" title="Link to this heading"></a></h4>
+<p>诸子占 56%（564 页），29 人 × 6 篇，论据共享、结论雷同，<strong>边际信息量递减</strong>——近于以人物数量撑体量。</p>
+<p><strong>Grok 的模板化在此卷达到极致</strong>：朴学篇（p3422）与熊十力篇（p4038）骨架与英译全同，仅替换关键词，连错字”<strong>拒转控控书</strong>”都原样复制。</p>
+</section>
+<section id="id43">
+<h4>9.5 “特质”节的自我东方化<a class="headerlink" href="#id43" title="Link to this heading"></a></h4>
+<p>如 2.1 所述：先设”中国=调和、西方=对立”，再把案件塞进”失衡”。这个框架<strong>在谈案件之前就决定了结论</strong>，且它本身是一个西方汉学式的建构。</p>
+</section>
+<section id="id44">
+<h4>9.6 法家古风拟作的伦理问题<a class="headerlink" href="#id44" title="Link to this heading"></a></h4>
+<p>Gemini 的法家篇（p3099–3100）以法家谋士口吻替当权者算账：</p>
+<blockquote>
+<div><p>“今此案审理，旷日持久，致使陈京元得著《狱中血书》……<strong>此非禁言，实乃扬言也。</strong>”
+“至于陈京元其人，<strong>或杀或赦</strong>，皆是君上用以整饬吏治、彰显权威之术耳，<strong>其人之死生，无关宏旨</strong>。”</p>
+</div></blockquote>
+<p><strong>作者本意是反讽</strong>——用极端的法家逻辑暴露”势”的冷酷。但文本本身已经构成对当事人的<strong>二次轻贱</strong>：一个为了辩护而写的文本，写出了”其人之死生无关宏旨”。</p>
+<p>这是”角色扮演”文体走得过远的典型，也是全卷唯一一处<strong>必须删除</strong>的文字。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id45">
+<h3>十、结论<a class="headerlink" href="#id45" title="Link to this heading"></a></h3>
+<section id="id46">
+<h4>10.1 一句话评价<a class="headerlink" href="#id46" title="Link to this heading"></a></h4>
+<blockquote>
+<div><p><strong>这是全书唯一不需要”翻译”的一卷——它用中文概念说中文问题。</strong>
+因此在<strong>可理解性</strong>上最强，在<strong>可裁判性</strong>上最弱。</p>
+</div></blockquote>
+</section>
+<section id="id47">
+<h4>10.2 三个真正的贡献<a class="headerlink" href="#id47" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p><strong>朴学的证据学</strong>：把”证据不足”翻译成”无征”，让法官用最熟悉的语言面对最根本的问题——”<strong>证据呢？</strong>”</p></li>
+<li><p><strong>戴震的”以理杀人”</strong>：解释了本案最反常的一点——<strong>为什么一个证据不足的判决可以被如此轻易地正当化</strong>：因为它诉诸”理”而非”法”。</p></li>
+<li><p><strong>黄宗羲的”公其是非于学校”</strong>：为审判公开提供了完全本土的规范依据，比援引哈贝马斯更有说服力。</p></li>
+</ol>
+</section>
+<section id="id48">
+<h4>10.3 三个必须承认的限度<a class="headerlink" href="#id48" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p><strong>治道论证不产生请求权</strong>。它能要求”善治”，不能主张”权利”；能诉诸德性，不能诉诸程序。因此在个案救济中，它只能作<strong>辅助论证</strong>。</p></li>
+<li><p><strong>传统是分裂的</strong>。用传统反传统，就必须承认传统中也有”诽谤妖言””腹诽””文字狱”。回避这一面，会让整卷在遇到专业史学质疑时整体失守。</p></li>
+<li><p><strong>281 篇，结论全同</strong>。这说明它是背书，不是论证。背书的价值在于”增加可接受度”，不在于”增加证明力”。</p></li>
+</ol>
+</section>
+<section id="id49">
+<h4>10.4 取用建议<a class="headerlink" href="#id49" title="Link to this heading"></a></h4>
+<p>若要用于正式程序，只保留四条，其余全部删除：</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>保留</p></th>
+<th class="head"><p>用法</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>无征不信</strong>（p3407–3409）</p></td>
+<td><p>作为”证据裁判”的本土表述，置于证据部分</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>训诂→义理</strong>（p3408）</p></td>
+<td><p>作为”法律解释先于政治定性”的论证，置于法律适用部分</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>以理杀人</strong>（p3826）</p></td>
+<td><p>作为对”以政治正确替代证据”的定性，置于说理缺失部分</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>公其是非于学校</strong>（p3763）</p></td>
+<td><p>作为审判公开的规范依据，置于程序部分</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>删除</strong>：九家中的阴阳、纵横、杂、兵；理学与心学的道德论证（保留其”理势之辨”即可）；29 位人物中的 25 位；全部”某子若在，必叹曰”的拟作；以及法家古风篇（p3099–3100）。</p>
+<p><strong>理由</strong>：留下的四条，每一条都能被法院检验、被对方反驳、被裁判文书引用；删掉的部分，只能被感慨。</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id50">
+<h3>附：一页图<a class="headerlink" href="#id50" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                    中国传统哲学卷（1014 页 / 281 篇）
+                                  │
+        ┌─────────────┬───────────┴───────────┬─────────────┐
+        ▼             ▼                       ▼             ▼
+   ┌─────────┐  ┌──────────┐          ┌──────────┐  ┌──────────┐
+   │ 简史 特长 │  │ 百家 9 家 │          │ 主流 10 项│  │ 诸子 29 人│
+   │ （无案件）│  │ 儒道法墨名 │          │ 经玄佛禅景│  │ 孔老→熊十力│
+   │          │  │ 阴阳纵横杂兵│         │ 道理学心学│  │ 174 篇    │
+   └─────────┘  └────┬─────┘          │ 朴学现儒  │  └────┬─────┘
+                     │                └────┬─────┘       │
+                     │                     │             │
+          ┌──────────┴─────────────────────┴─────────────┴────────┐
+          │                    六条可用论证                        │
+          └──────────┬────────────────────────────────────────────┘
+                     │
+   ┌─────────────────┼─────────────────┬─────────────────┐
+   ▼                 ▼                 ▼                 ▼
+┌────────┐      ┌──────────┐      ┌──────────┐      ┌──────────┐
+│朴学     │      │戴震       │      │黄宗羲     │      │名家       │
+│无征不信 │      │以理杀人   │      │学校议政   │      │名实/正名  │
+│p3407   │      │p3826     │      │p3763     │      │p3147     │
+│        │      │          │      │          │      │          │
+│= 证据法 │      │= 说理缺失 │      │= 审判公开 │      │= 明确性   │
+└────┬───┘      └────┬─────┘      └────┬─────┘      └────┬─────┘
+     │               │                 │                 │
+     └───────────────┴────────┬────────┴─────────────────┘
+                              ▼
+                  ┌────────────────────────┐
+                  │  治道论证（非权利论证）  │
+                  │  "你不是好的治理者"      │
+                  │  ↓                     │
+                  │  可期待的善治           │
+                  │  （非可主张的权利）      │
+                  └────────────────────────┘
+                              │
+                    ┌─────────┴─────────┐
+                    ▼                   ▼
+              ┌──────────┐        ┌──────────┐
+              │ 安全      │        │ 无力      │
+              │ 内部谏议  │        │ 不产生请求权│
+              └──────────┘        └──────────┘
+                    └────────┬────────┘
+                             ▼
+                  安全与有力，成反比
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chatgpt.html" class="btn btn-neutral float-left" title="ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="qwen.html" class="btn btn-neutral float-right" title="Qwen" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

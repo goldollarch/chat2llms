@@ -276,4 +276,6 @@
 
 ----------------------
 
-:doc:`法律意见书范文 </chats/overview/innocence/example/index>`
+[:doc:`法律意见书范文 </chats/overview/innocence/example/index>`] -
+[:doc:`三位一体辩护方案 </chats/overview/innocence/optimize>`]
+

@@ -35,8 +35,3 @@
     :maxdepth: 1
 
     science/index
-
- .. toctree::
-    :maxdepth: 1
-
-    review/index
