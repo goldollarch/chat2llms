@@ -6,7 +6,7 @@
 
 以下图表直观展示了两大传统的主要流派与演进脉络：
 
-![review](review.png)
+![today](today.png)
 
 ---
 

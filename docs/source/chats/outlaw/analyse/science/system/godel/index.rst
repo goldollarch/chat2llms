@@ -25,7 +25,8 @@ Gödel
 
 -----------
 
-[:doc:`新的探索之路 </chats/outlaw/analyse/science/system/godel/surpass>`]
+【:doc:`哥德尔不完全性定理 </chats/outlaw/analyse/science/system/godel/abc>`】
+【:doc:`新的探索之路 </chats/outlaw/analyse/science/system/godel/surpass>`】
 
 
 ---------------------------

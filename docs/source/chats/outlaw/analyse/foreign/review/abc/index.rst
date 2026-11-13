@@ -1,4 +1,4 @@
-主流
+常识
 =========
 
 
@@ -13,33 +13,12 @@
 -------------------------
 
 
- .. toctree::
-    :maxdepth: 2
-
-    ancient/index
-
- .. toctree::
-    :maxdepth: 2
-
-    recent/index
-
- .. toctree::
-    :maxdepth: 2
-
-    modern/index
-
- .. toctree::
-    :maxdepth: 2
-
-    today/index
-
-
-----------
-
 西方哲学常识
 
 -----------
 
-[:doc:`核心骨架 </chats/outlaw/analyse/foreign/schools/only>`]
-[:doc:`现代西哲 </chats/outlaw/analyse/foreign/schools/review>`]
-[:doc:`现代欧陆 </chats/outlaw/analyse/foreign/schools/euro>`]
+[:doc:`简史 </chats/outlaw/analyse/foreign/review/abc/history>`]
+[:doc:`转向 </chats/outlaw/analyse/foreign/review/abc/turns>`]
+[:doc:`现代 </chats/outlaw/analyse/foreign/review/abc/today>`]
+[:doc:`欧陆 </chats/outlaw/analyse/foreign/review/abc/euro>`]
+[:doc:`骨架 </chats/outlaw/analyse/foreign/review/abc/only>`]

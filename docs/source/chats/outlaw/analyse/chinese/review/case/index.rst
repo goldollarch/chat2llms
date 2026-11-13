@@ -1,5 +1,5 @@
-方法谱系
-=========
+案例
+============
 
 ------------------------------------
 
@@ -15,8 +15,8 @@
  .. toctree::
     :maxdepth: 3
 
+    gemini
     chatgpt
     deepseek
-    gemini
     qwen
 

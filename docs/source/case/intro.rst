@@ -123,7 +123,7 @@ However, prison authorities blocked the transmission of this document.
 
 This case is a textbook example of the Chinese legal crime of "Xúnxìn Zīshì (寻衅滋事)", often translated as 
 `picking quarrels and provoking trouble (PXQT) <https://en.wikipedia.org/wiki/Picking_quarrels_and_provoking_trouble>`_ 
-in mainland China. The complete case materials are available online for reference by Chinese legal researchers.
+in mainland China. The complete :doc:`case materials </case/abstract>` are available online for reference by Chinese legal researchers.
 
 ---------------------------------------------------
 
