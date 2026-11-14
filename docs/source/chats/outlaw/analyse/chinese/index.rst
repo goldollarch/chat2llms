@@ -37,7 +37,7 @@
 
 --------------------------------------------------------------
 
-:doc:`中国哲学简史 </chats/outlaw/analyse/chinese/review>`
+:doc:`中国哲学简史 </chats/outlaw/analyse/chinese/review/abc/history>`
 
 ---------------------------
 
