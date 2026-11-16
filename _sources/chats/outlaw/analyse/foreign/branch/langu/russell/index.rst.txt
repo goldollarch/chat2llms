@@ -64,6 +64,7 @@ Bertrand Russell
  .. toctree::
     :maxdepth: 3
 
+    QA/index
     grok
     gemini
     chatgpt

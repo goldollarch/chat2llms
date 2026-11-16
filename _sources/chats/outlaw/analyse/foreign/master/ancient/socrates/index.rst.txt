@@ -153,7 +153,7 @@ Video Overview
 - `The Explainer: The Case of Dr. Chen Jingyuan <https://youtu.be/-JwOsGzoWkU>`_ 
 - `陈京元案：一场未经审视的正义 <https://youtu.be/pQnl91eu-MA>`_ 
 - `A Scholar’ s Sentence <https://youtu.be/W5uxlS6i1ZM>`_ 
-- `title <https>`_ 
+- `Socrates & Chen Case <https://youtu.be/pFBjglKlfFA>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
