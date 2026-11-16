@@ -130,6 +130,7 @@ Socrates
  .. toctree::
     :maxdepth: 3
 
+    QA/index
     grok
     copilot
     gemini
@@ -137,3 +138,22 @@ Socrates
     deepseek
     qwen
 
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `title <https>`_ 
+- `学者、推文与审判 <https://youtu.be/NJpvlnhircc>`_ 
+- `解读：苏格拉底式审判与申诉 <https://youtu.be/ufjUTD7z-1U>`_ 
+- `陈京元案：高学历与寻衅滋事罪的哲学对决 <https://youtu.be/Hepr-YxCvuc>`_ 
+- `Scholar jailed for social media posts <https://youtu.be/eD6Tq-KCBa4>`_ 
+- `The Explainer: The Case of Dr. Chen Jingyuan <https://youtu.be/-JwOsGzoWkU>`_ 
+- `陈京元案：一场未经审视的正义 <https://youtu.be/pQnl91eu-MA>`_ 
+- `A Scholar’ s Sentence <https://youtu.be/W5uxlS6i1ZM>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
