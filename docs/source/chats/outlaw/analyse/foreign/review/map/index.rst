@@ -15,8 +15,9 @@
  .. toctree::
     :maxdepth: 3
 
-    gemini
-    chatgpt
+    review
     deepseek
+    chatgpt
+    gemini
     qwen
 

@@ -74,12 +74,14 @@
     gemini
     copilot
     chatgpt
+    review
     deepseek
     qwen
 
 
 ------------------------------------------------------------------------
 
+:doc:`[总] </chats/outlaw/analyse/chinese/ccp/review>`
 :doc:`[马] </chats/outlaw/analyse/foreign/master/recent/marx/index>`
 :doc:`[列] </chats/outlaw/analyse/foreign/branch/politic/lenin/index>`
 :doc:`[毛] </chats/outlaw/analyse/chinese/ccp/a/index>`
