@@ -18,3 +18,7 @@ Q&A
     note10
     note11
     note12
+    note13
+    note14
+    note15
+    note16

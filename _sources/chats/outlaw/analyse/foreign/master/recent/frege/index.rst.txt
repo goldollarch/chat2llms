@@ -125,9 +125,8 @@ Video Overview
 -------------------
 
 - `title <https>`_ 
-- `The Language of Justice <https://youtu.be/rkCWwBOEJMs>`_ 
-- `一位学者，他的转发，与一纸判决 <https://youtu.be/9LkydKZO0zI>`_ 
 - `Scholar and the State <https://youtu.be/h150g7Aj32Y>`_ 
+- `The Language of Justice <https://youtu.be/rkCWwBOEJMs>`_ 
 - `Frege, AI, & Logic of Law <https://youtu.be/H5iDN6vdo64>`_ 
 - `Frege's Legal Forensics <https://youtu.be/z1xpj4TbZ7E>`_ 
 - `Anatomy of a Judicial Black Hole <https://youtu.be/U1s9zlX6pFc>`_ 
@@ -136,5 +135,6 @@ Video Overview
 - `Physicist Fights Charges With Pure Logic <https://youtu.be/PEyCmUIoKok>`_ 
 - `当语言站上被告席：一桩案件的哲学解剖 <https://youtu.be/AtVZTlJQ07k>`_ 
 - `物理学家：用逻辑拆解口袋罪指控 <https://youtu.be/M2msCjdozvc>`_ 
+- `一位学者，他的转发，与一纸判决 <https://youtu.be/9LkydKZO0zI>`_ 
 - `title <https>`_ 
 - `title <https>`_ 

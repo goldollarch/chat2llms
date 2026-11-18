@@ -145,15 +145,18 @@ Video Overview
 
 -------------------
 
-- `title <https>`_ 
 - `学者、推文与审判 <https://youtu.be/NJpvlnhircc>`_ 
 - `解读：苏格拉底式审判与申诉 <https://youtu.be/ufjUTD7z-1U>`_ 
+- `陈京元案：一场未经审视的正义 <https://youtu.be/pQnl91eu-MA>`_ 
+- `解构荒诞：陈京元案的多维解构报告 <https://youtu.be/s6epNy88o4I>`_ 
+- `现代雅典的沉思：基于苏格拉底的视角 <https://youtu.be/zxv2dhlGVBU>`_ 
+- `跨越两千年的申辩：来自苏格拉底哲学审视 <https://youtu.be/bny2nYRrL3E>`_ 
+- `陈京元案：一场对法治、科学与理性的多维辩护 <https://youtu.be/D49eGE_pYLA>`_ 
+- `The Explainer: The Case of Dr. Chen Jingyuan <https://youtu.be/-JwOsGzoWkU>`_ 
+- `The Scholar vs. The State: An Anatomy of an Injustice <https://youtu.be/ukzjuXmbC74>`_ 
+- `A Physicist Uses Socrates to Defend Retweets <https://youtu.be/lvhso_gk4sU>`_ 
+- `AI Socrates defends a jailed Chinese scholar <https://youtu.be/QrExv7WRC9Q>`_ 
 - `陈京元案：高学历与寻衅滋事罪的哲学对决 <https://youtu.be/Hepr-YxCvuc>`_ 
 - `Scholar jailed for social media posts <https://youtu.be/eD6Tq-KCBa4>`_ 
-- `The Explainer: The Case of Dr. Chen Jingyuan <https://youtu.be/-JwOsGzoWkU>`_ 
-- `陈京元案：一场未经审视的正义 <https://youtu.be/pQnl91eu-MA>`_ 
 - `A Scholar’ s Sentence <https://youtu.be/W5uxlS6i1ZM>`_ 
 - `Socrates & Chen Case <https://youtu.be/pFBjglKlfFA>`_ 
-- `title <https>`_ 
-- `title <https>`_ 
-- `title <https>`_ 
