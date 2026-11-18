@@ -80,6 +80,7 @@ Video Overview
 -------------------
 
 - `title <https>`_ 
+- `The Trial of Logic <https://youtu.be/Z2Nzia4rWLA>`_ 
 - `The Language of Justice <https://youtu.be/rkCWwBOEJMs>`_ 
 - `Physicist Fights Charges With Pure Logic <https://youtu.be/PEyCmUIoKok>`_ 
 - `当语言站上被告席：一桩案件的哲学解剖 <https://youtu.be/AtVZTlJQ07k>`_ 
@@ -88,7 +89,6 @@ Video Overview
 - `物理学家、哲学家与“寻衅滋事” <https://youtu.be/5pSbPlXAZ3o>`_ 
 - `The Physicist's 'Pocket Crime' <https://youtu.be/pA8UpZ9Gyus>`_ 
 - `Russell vs. Modern Cyber-Law <https://youtu.be/UOofjPWdTws>`_ 
-- `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
