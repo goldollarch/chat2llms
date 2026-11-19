@@ -79,8 +79,8 @@ Video Overview
 
 -------------------
 
-- `title <https>`_ 
 - `The Trial of Logic <https://youtu.be/Z2Nzia4rWLA>`_ 
+- `Dr.Chen's Retweet Case <https://youtu.be/VZUtTT_LBMw>`_ 
 - `The Language of Justice <https://youtu.be/rkCWwBOEJMs>`_ 
 - `Physicist Fights Charges With Pure Logic <https://youtu.be/PEyCmUIoKok>`_ 
 - `The Scholar vs. The Machine: A Retrial by Reason <https://youtu.be/rrj_8C34ifE>`_ 
@@ -93,7 +93,7 @@ Video Overview
 - `Russell vs. Modern Cyber-Law <https://youtu.be/UOofjPWdTws>`_ 
 - `陈京元案背后的语义暴政 <https://youtu.be/c5hz3wGQQ80>`_ 
 - `博士學歷成定罪鐵證 <https://youtu.be/I3O1DJWC1Gw>`_ 
-- `title <https>`_ 
-- `title <https>`_ 
+- `Fighting a Retweet Charge With Physics <https://youtu.be/aE-I4cxaGlU>`_ 
+- `The Physicist's Chaos Theory Blood Letter <https://youtu.be/0t0gw-ktjo0>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
