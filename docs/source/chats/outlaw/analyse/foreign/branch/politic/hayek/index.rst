@@ -71,6 +71,7 @@ Friedrich Hayek
  .. toctree::
     :maxdepth: 3
 
+    QA/index
     grok
     gemini
     copilot
@@ -81,6 +82,6 @@ Friedrich Hayek
 
 ---------------------------
 
-[:doc:`哈耶克的理性思想 </chats/outlaw/analyse/foreign/branch/politic/hayek/ration>`]
-[:doc:`哈耶克vs凯恩斯 </chats/outlaw/analyse/foreign/branch/politic/hayek/keynes>`]
+【:doc:`哈耶克的理性思想 </chats/outlaw/analyse/foreign/branch/politic/hayek/ration>`】
+【:doc:`哈耶克vs凯恩斯 </chats/outlaw/analyse/foreign/branch/politic/hayek/keynes>`】
 

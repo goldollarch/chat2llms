@@ -8,7 +8,7 @@
 
 ## 一、法治与任意权力
 
-### Rule of Law vs. Arbitrary Power
+Rule of Law vs. Arbitrary Power
 
 **中文**：
 哈耶克强调，真正的自由依赖于“法治”，即法律必须是普遍的、明确的、非任意的规则，而不是统治者随意的命令。在陈京元案中，“寻衅滋事罪”作为“口袋罪”，其模糊性使得国家机关可以任意解释并适用。这种做法违背了哈耶克的法治原则，因为它让公民无法预见哪些行为会被定罪，从而陷入对权力的恐惧。
@@ -20,7 +20,7 @@ Hayek stressed that true liberty depends on the *rule of law*, meaning laws must
 
 ## 二、自发秩序与言论自由
 
-### Spontaneous Order and Freedom of Expression
+Spontaneous Order and Freedom of Expression
 
 **中文**：
 哈耶克认为，社会秩序不是由中央权力设计出来的，而是通过个体自由互动形成的“自发秩序”。言论自由是这种自发秩序的关键条件，因为只有在多元声音的交流中，社会才能逐渐发现真理与有效的制度。本案中，国家以“扰乱秩序”为由压制言论，实际上破坏了社会自我调节的机制。
@@ -32,7 +32,7 @@ Hayek argued that social order is not designed by central authority but emerges 
 
 ## 三、权力集中与通往奴役之路
 
-### Concentration of Power and The Road to Serfdom
+Concentration of Power and The Road to Serfdom
 
 **中文**：
 在《通往奴役之路》中，哈耶克警告：当国家权力可以随意决定思想与言论的合法性时，社会将滑向极权主义。本案中，警方、检察院与法院形成了一个封闭的权力链条，剥夺了被告的辩护权与公开审理的机会。这种权力集中与缺乏制衡，正是哈耶克所担忧的“通往奴役之路”。
@@ -44,7 +44,7 @@ In *The Road to Serfdom*, Hayek warned that when the state gains unchecked power
 
 ## 四、自由与安全的平衡
 
-### The Balance Between Liberty and Security
+The Balance Between Liberty and Security
 
 **中文**：
 哈耶克承认，社会需要一定的秩序与安全，但他强调，若以安全之名无限扩张权力，最终会摧毁自由与秩序本身。本案中，国家声称是为了维护“公共秩序”，但并未提供证据证明陈京元的转发行为造成了实际混乱。这种以抽象“秩序”之名限制自由的做法，违背了自由社会的根本原则。
@@ -56,7 +56,7 @@ Hayek acknowledged that society requires some order and security, but he emphasi
 
 ## 五、结论
 
-### Conclusion
+Conclusion
 
 **中文**：从哈耶克的视角看，陈京元案揭示了：
 
