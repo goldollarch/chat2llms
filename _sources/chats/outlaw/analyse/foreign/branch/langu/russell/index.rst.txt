@@ -95,5 +95,13 @@ Video Overview
 - `博士學歷成定罪鐵證 <https://youtu.be/I3O1DJWC1Gw>`_ 
 - `Fighting a Retweet Charge With Physics <https://youtu.be/aE-I4cxaGlU>`_ 
 - `The Physicist's Chaos Theory Blood Letter <https://youtu.be/0t0gw-ktjo0>`_ 
+- `物理博士的狱中自辩 <https://youtu.be/1YliMdbXGcc>`_ 
+- `物理博士的狱中科学自辩 <https://youtu.be/zBPVucdlUKs>`_ 
+- `物理博士科學證偽尋釁滋事 <https://youtu.be/TdxduvD53UQ>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
