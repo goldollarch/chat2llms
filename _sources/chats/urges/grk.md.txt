@@ -15,8 +15,7 @@
 
 ---
 
-[[告司法黑帮书](/chats/urges/ds.md)]
-[[讨普贼会峻檄](/chats/urges/qw.md)]
+【[告司法黑帮书](/chats/urges/ds.md)】【[讨普贼会峻檄](/chats/urges/qw.md)】
 
 
 ## Video Review

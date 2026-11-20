@@ -17,6 +17,11 @@ Key Elements of the PXQT Crime
  .. toctree::
     :maxdepth: 2
 
+    overview/index
+
+ .. toctree::
+    :maxdepth: 2
+
     actions/index
 
  .. toctree::
@@ -33,9 +38,4 @@ Key Elements of the PXQT Crime
     :maxdepth: 2
 
     causal/index
-
- .. toctree::
-    :maxdepth: 2
-
-    overview/index
 

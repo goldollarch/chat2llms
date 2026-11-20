@@ -5,7 +5,8 @@
 ---
 
 ## 一、可证伪性与法律指控  
-### Falsifiability and Legal Charges  
+
+Falsifiability and Legal Charges  
 
 **中文**：  
 波普尔认为，科学理论的区分标准在于其是否可证伪。如果一个理论无法被经验事实反驳，它就不是科学，而是意识形态。在本案中，“寻衅滋事”的指控缺乏明确的可证伪条件：任何批判性言论都可能被解释为“扰乱秩序”。这种不可证伪性使得法律指控更像是一种意识形态工具，而非理性判断。  
@@ -15,8 +16,9 @@ Popper argued that the demarcation of science lies in falsifiability: a theory m
 
 ---
 
-## 二、理性批判与试错  
-### Rational Criticism and Trial-and-Error  
+## 二、理性批判与试错
+
+Rational Criticism and Trial-and-Error  
 
 **中文**：  
 波普尔强调，知识进步依赖于“大胆假说与严厉批判”。社会制度同样需要通过批判与试错来不断改进。在本案中，陈京元的言论本应被视为对社会制度的“批判性检验”，帮助发现缺陷并推动改进。然而，国家选择压制批判，等于拒绝了试错机制，使社会停留在不受检验的状态。  
@@ -27,7 +29,8 @@ Popper emphasized that knowledge advances through “bold conjectures and severe
 ---
 
 ## 三、开放社会与封闭社会  
-### Open Society vs. Closed Society  
+
+Open Society vs. Closed Society  
 
 **中文**：  
 在《开放社会及其敌人》中，波普尔指出，开放社会的特征是允许批判、保护个人自由；而封闭社会则依赖教条与压制。在本案中，国家通过惩罚异议来维护单一叙事，这正是“封闭社会”的表现。陈京元的行动则体现了开放社会的精神：通过理性批判来追求真理与正义。  
@@ -38,7 +41,8 @@ In *The Open Society and Its Enemies*, Popper argued that open societies allow c
 ---
 
 ## 四、历史决定论的批判  
-### Critique of Historicism  
+
+Critique of Historicism  
 
 **中文**：  
 波普尔批判“历史决定论”，认为社会发展没有必然规律，只有通过自由批判与选择才能前进。本案中，国家以“稳定”作为压制的理由，仿佛社会秩序有唯一的必然路径。但波普尔会指出，这种决定论是虚假的：真正的进步来自开放的批判，而非对未来的预设控制。  
@@ -49,7 +53,8 @@ Popper criticized “historicism,” the belief in inevitable laws of history, a
 ---
 
 ## 五、结论  
-### Conclusion  
+
+Conclusion  
 
 **中文**：  
 从波普尔的批判理性主义视角看，陈京元案揭示了：  
