@@ -1,5 +1,5 @@
 Ludwig Wittgenstein
-=========
+=====================
 
 基于路德维希·维特根斯坦（Ludwig Wittgenstein）哲学的核心思想。
 
@@ -92,6 +92,7 @@ Ludwig Wittgenstein
  .. toctree::
     :maxdepth: 3
 
+    QA/index
     grok
     gemini
     copilot
@@ -103,3 +104,12 @@ Ludwig Wittgenstein
 ---------------------------
 
 [:doc:`语言哲学的两大重要源头 </chats/outlaw/analyse/foreign/branch/langu/saussure/compare>`]
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `title <https>`_ 
