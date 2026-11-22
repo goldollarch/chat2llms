@@ -112,4 +112,14 @@ Video Overview
 
 -------------------
 
+- `学者受审：一份判决的剖析 <https://youtu.be/F_BosPO00PU>`_ 
+- `物理博士解构寻衅滋事逻辑 <https://youtu.be/EKPDMvBSN4w>`_ 
+- `Scholar vs. State <https://youtu.be/WonuPYQJGS4>`_ 
+- `Chen Jingyuan's Physics Defense of Speech <https://youtu.be/Hrpb8Kpz-Ms>`_ 
+- `A Scholar, a Tweet, and the Law <https://youtu.be/vNMoLLZYzHg>`_ 
+- `因推特入狱：学者与国家的较量 <https://youtu.be/3XWbOCZrnRA>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
 - `title <https>`_ 
