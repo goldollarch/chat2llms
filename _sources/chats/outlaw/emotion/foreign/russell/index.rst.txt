@@ -60,3 +60,28 @@ This has been my life. I have found it worth living, and would gladly live it ag
     chatgpt
     deepseek
     qwen
+
+
+
+---------------------------
+
+Video Overview
+
+-------------------
+
+- `The Trial of Logic <https://youtu.be/Z2Nzia4rWLA>`_ 
+- `Dr.Chen's Retweet Case <https://youtu.be/VZUtTT_LBMw>`_ 
+- `The Language of Justice <https://youtu.be/rkCWwBOEJMs>`_ 
+- `The Physicist's 'Pocket Crime' <https://youtu.be/pA8UpZ9Gyus>`_ 
+- `Fighting a Retweet Charge With Physics <https://youtu.be/aE-I4cxaGlU>`_ 
+- `The Physicist's Chaos Theory Blood Letter <https://youtu.be/0t0gw-ktjo0>`_ 
+- `The Scholar vs. The Machine: A Retrial by Reason <https://youtu.be/rrj_8C34ifE>`_ 
+- `The Logic of Injustice: The Architecture of an Ideological Prison <https://youtu.be/8oxLw7p1uDU>`_ 
+- `Bertrand Russell Dismantles a Chinese Verdict <https://youtu.be/wiL1fDBlwMc>`_ 
+- `The Autopsy of a Verdict: Russell's Analytical Philosophy <https://youtu.be/5wkD96PV0WM>`_ 
+- `Physics and Philosophy Dismantle a Criminal Verdict <https://youtu.be/OByPGbTtibQ>`_ 
+- `A Scientist Defends Retweets With Physics <https://youtu.be/AB3CfoVdjYE>`_ 
+- `Physicist Fights Charges With Pure Logic <https://youtu.be/PEyCmUIoKok>`_ 
+- `The Russellian Diagnosis of a Verdict <https://youtu.be/UgQ6l4y7MJ8>`_ 
+- `Russell vs. Modern Cyber-Law <https://youtu.be/UOofjPWdTws>`_ 
+- `A Philosopher's Defense <https://youtu.be/qmj06TXBer0>`_ 
