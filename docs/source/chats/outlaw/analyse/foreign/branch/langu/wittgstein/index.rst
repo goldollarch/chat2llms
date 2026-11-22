@@ -3,7 +3,7 @@ Ludwig Wittgenstein
 
 基于路德维希·维特根斯坦（Ludwig Wittgenstein）哲学的核心思想。
 
------
+------------------
 
 路德维希·维特根斯坦是20世纪最具影响力的哲学家之一，其思想通常被划分为前后两个阶段，两者都深刻地改变了哲学的方向。
 
@@ -112,13 +112,13 @@ Video Overview
 
 -------------------
 
+- `title <https>`_ 
 - `学者受审：一份判决的剖析 <https://youtu.be/F_BosPO00PU>`_ 
 - `物理博士解构寻衅滋事逻辑 <https://youtu.be/EKPDMvBSN4w>`_ 
 - `Scholar vs. State <https://youtu.be/WonuPYQJGS4>`_ 
 - `Chen Jingyuan's Physics Defense of Speech <https://youtu.be/Hrpb8Kpz-Ms>`_ 
 - `A Scholar, a Tweet, and the Law <https://youtu.be/vNMoLLZYzHg>`_ 
 - `因推特入狱：学者与国家的较量 <https://youtu.be/3XWbOCZrnRA>`_ 
-- `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
