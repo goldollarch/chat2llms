@@ -119,6 +119,9 @@ Video Overview
 - `Chen Jingyuan's Physics Defense of Speech <https://youtu.be/Hrpb8Kpz-Ms>`_ 
 - `A Scholar, a Tweet, and the Law <https://youtu.be/vNMoLLZYzHg>`_ 
 - `因推特入狱：学者与国家的较量 <https://youtu.be/3XWbOCZrnRA>`_ 
+- `Chen Jingyuan Case Analysis <https://youtu.be/vGul4OxfAfE>`_ 
+- `How Language Games Imprisoned Dr.Chen <https://youtu.be/vflFvuBbA4c>`_ 
+- `How Language Philosophy Convicted Dr.Chen <https://youtu.be/9XGRwj6Nnis>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 

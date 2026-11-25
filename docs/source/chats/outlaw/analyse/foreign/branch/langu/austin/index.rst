@@ -124,6 +124,9 @@ Video Overview
 - `Physics, Philosophy and Criminalizing Speech <https://youtu.be/HqAysvZiamQ>`_ 
 - `陈京元案：当一条转发成为一种罪行 <https://youtu.be/vPv_jOX6AtY>`_ 
 - `The Case of the Scholar's Retweets <https://youtu.be/1eLpEJ46xIc>`_ 
+- `深度解析：J.L.奥斯汀与陈京元博士案 <https://youtu.be/gwrR5ITtZhU>`_ 
+- `Austin, Speech Act & Dr.Chen <https://youtu.be/X0faqHzFDIg>`_ 
+- `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
