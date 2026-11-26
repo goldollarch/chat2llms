@@ -53,11 +53,6 @@
  .. toctree::
     :maxdepth: 1
 
-    deleuze/index
-
- .. toctree::
-    :maxdepth: 1
-
     derrida/index
 
  .. toctree::
@@ -78,6 +73,11 @@
  .. toctree::
     :maxdepth: 1
 
+    marcuse/index
+
+ .. toctree::
+    :maxdepth: 1
+
     habermas/index
 
  .. toctree::
@@ -93,12 +93,12 @@
  .. toctree::
     :maxdepth: 1
 
-    marcuse/index
+    strauss/index
 
  .. toctree::
     :maxdepth: 1
 
-    strauss/index
+    deleuze/index
 
  .. toctree::
     :maxdepth: 1

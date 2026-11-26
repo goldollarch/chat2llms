@@ -85,6 +85,7 @@ Michel Foucault
  .. toctree::
     :maxdepth: 3
 
+    QA/index
     grok
     gemini
     copilot
