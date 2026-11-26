@@ -150,6 +150,12 @@ Video Overview
 
 - `title <https>`_ 
 - `语言的罪与罚 <https://youtu.be/Ls7Rny4WC7A>`_ 
-- `The Case of Dr. Chen Jingyuan <https://youtu.be/-oTxWawixrk>`_ 
+- `The Case of Dr.Chen Jingyuan <https://youtu.be/-oTxWawixrk>`_ 
+- `A Manufactured Reality <https://youtu.be/oQSidOZBTmE>`_ 
+- `语言、权力与法律：一场哲学解构 <https://youtu.be/J6hLgcAOShM>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
+- `title <https>`_ 
 - `title <https>`_ 
 - `title <https>`_ 
