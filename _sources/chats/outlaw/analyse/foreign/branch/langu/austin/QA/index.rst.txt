@@ -38,3 +38,4 @@ Q&A
     note29
     note30
     note31
+    note32
