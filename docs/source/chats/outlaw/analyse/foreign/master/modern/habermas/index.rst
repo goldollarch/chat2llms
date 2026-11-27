@@ -40,7 +40,7 @@ Jürgen Habermas
 
 1.  **系统与生活世界的区分**：
 
-    *   **生活世界**：通过沟通理性运作的领域，目标是**相互理解**，如家庭、公民公共领域。
+    *   **生活世界**：通过沟通理性运作的领域，目标是 **相互理解**，如家庭、公民公共领域。
 
     *   **系统**：通过非语言的“操控媒介”（如 **金钱** 、 **权力** ）运作的领域，目标是 **操控和效率** ，如经济系统、行政系统。
 
@@ -98,8 +98,9 @@ Jürgen Habermas
     chatgpt
     deepseek
     qwen
+    QA/index
 
 
 ---------------------------
 
-[:doc:`哈贝马斯VS阿佩尔 </chats/outlaw/analyse/foreign/master/today/apel/compare>`]
+【:doc:`哈贝马斯VS阿佩尔 </chats/outlaw/analyse/foreign/master/today/apel/compare>`】
