@@ -33,3 +33,5 @@ Q&A
     note23
     note24
     note25
+    note26
+    note27
