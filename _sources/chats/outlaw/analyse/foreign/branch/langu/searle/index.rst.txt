@@ -133,13 +133,13 @@ John Searle
  .. toctree::
     :maxdepth: 3
 
-    QA/index
     grok
     gemini
     copilot
     chatgpt
     deepseek
     qwen
+    QA/index
 
 
 ---------------------------
