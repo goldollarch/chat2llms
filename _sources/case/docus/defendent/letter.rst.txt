@@ -1027,5 +1027,5 @@
 ------------
 
 下载：
-:download:`文字 [word] </_static/files/Letter.docx>` -
-:download:`手稿 [PDF] </_static/files/Letter.pdf>`
+【:download:`文字 [word] </_static/files/Letter.docx>`】
+【:download:`手稿 [PDF] </_static/files/Letter.pdf>`】

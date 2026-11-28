@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>用范畴论证明多模态依然在C内部绕过接地 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../search.html" />
+    <link rel="next" title="多模态具身智能绕过符号接地问题" href="note06.html" />
+    <link rel="prev" title="哥德尔定理如何解构机械司法" href="note04.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../review/index.html">概况</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">语言</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">John Searle</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Refer</a></li>
+      <li class="breadcrumb-item active">用范畴论证明多模态依然在C内部绕过接地</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/langu/searle/RF/note05.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="c">
+<h1>用范畴论证明多模态依然在C内部绕过接地<a class="headerlink" href="#c" title="Link to this heading"></a></h1>
+<p>在路西亚诺·弗洛里迪（Luciano Floridi）、贾一扬（Yiyang Jia）与费尔南多·托梅（Fernando Tohmé）建立的范畴论（Category Theory）分析框架中，通过在关系范畴 $\mathbf{Rel}$ 的子范畴 $\mathcal{C}$ 中构建态射图表，可以对“多模态/具身智能依然在内容表征层 $C$ 内部绕过符号接地”给出一个严密的数理与哲学证明。</p>
+<p>具体推导与证明逻辑分为以下四个关键步骤：</p>
+<hr class="docutils" />
+<section id="mathbf-rel">
+<h2>一、 关系范畴 $\mathbf{Rel}$ 中的认知对象定义<a class="headerlink" href="#mathbf-rel" title="Link to this heading"></a></h2>
+<p>在范畴 $\mathcal{C}$ 中，定义了如下基础认知对象（集合）：</p>
+<ul class="simple">
+<li><p><strong>$H$</strong>：人类认知与情境状态（包含研究背景、查询意图与认知情境）。</p></li>
+<li><p><strong>$C$</strong>：人类创作的内容库（如包含语义的文本、图片、音视频等外部资源）。</p></li>
+<li><p><strong>$C’$</strong>：Token 化后的机器可读数据流（文本 Token、离散像素 Token、传感器数值 Token）。</p></li>
+<li><p><strong>$G$</strong>：已训练模型的参数权重空间。</p></li>
+<li><p><strong>$O$</strong>：模型生成的输出 Token 序列。</p></li>
+<li><p><strong>$W$</strong>：物理客观现实与可能世界状态空间。</p></li>
+<li><p><strong>$\mathrm{Pred}(W) = \mathcal{P}(W)$</strong>：关于可能世界 $W$ 的命题空间，即意义与真值评估的目标空间。</p></li>
+<li></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="x-h-to-w">
+<h2>二、 态射路径对比：经验态射 $x: H \to W$ 的结构性缺失<a class="headerlink" href="#x-h-to-w" title="Link to this heading"></a></h2>
+<p>框架将人类认知路径与 AI 计算路径形式化为两条映射到命题空间 $\mathrm{Pred}(W)$ 的复合态射：</p>
+<ol class="arabic simple">
+<li><p><strong>人类认知路径（Upper Route）</strong>：</p></li>
+</ol>
+<ul class="simple">
+<li><p>复合态射为 $g \circ c : H \to \mathrm{Pred}(W)$。</p></li>
+<li><p><strong>核心关键</strong>：人类认知链条中包含了一条<strong>经验态射 $x : H \to W$</strong>（如直接看见雪的白色、感觉物体的重量）。该态射代表人类主体与物理现实 $W$ 之间的直接具身感知、物理因果与社会规范耦合。</p></li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><p><strong>AI 计算路径（Lower Route）</strong>：</p></li>
+</ol>
+<ul class="simple">
+<li><p>复合态射为 $r \circ e \circ i_{g_0} \circ p : H \to \mathrm{Pred}(W)$。</p></li>
+<li><p>从 Prompt 生成（$p: H \to C’$）、参数推理（$e: G \times C’ \to O$）到语义赋值（$r: O \to \mathrm{Pred}(W)$），全过程都在符号与数据表征层中运作。</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="c-c">
+<h2>三、 为什么多模态/具身数据依然停留在 $C$（或 $C’$）层内部？<a class="headerlink" href="#c-c" title="Link to this heading"></a></h2>
+<p>针对“引入图像、视频或机器人传感器是否就打破了封闭性”的质疑，范畴论通过以下三点形式化地证明了多模态依然局限在 $C$ 内部：</p>
+<section id="c-token">
+<h3>1. 传感器输入在数字架构中本质上依然是 $C’$ 层的 Token 序列<a class="headerlink" href="#c-token" title="Link to this heading"></a></h3>
+<p>当给大模型接入摄像头（图像像素）或机器人传感器时，这些外部物理信号在经过数字化与离散化编码后，<strong>在范畴图表中依然被归类为数据表征层 $C$（及其 Token 化形态 $C’$）的拓展</strong>。
+多模态训练的形式化复合关系可以表达为：</p>
+<p>$$t \circ D \circ s : C_{\text{text}} \times C_{\text{vision}} \longrightarrow G$$</p>
+<p>多模态模型（VLM）将文本 Token（如“苹果”）与图像 Token 簇（红色的像素矩阵）相互对齐，<strong>本质上是在表征层 $C’ \to C’$ 内部建立了二阶统计协变（Second-order Regularities）</strong>。模型学习的是“人类如何用文本描述图像”或“不同数字表征之间的模式关联”，并没有建立直接映射到物理现实 $W$ 的一阶物理经验。</p>
+</section>
+<section id="w-x">
+<h3>2. 多模态并未新增直接通往物理世界 $W$ 的经验态射 $x$<a class="headerlink" href="#w-x" title="Link to this heading"></a></h3>
+<p>无论是多模态大模型还是机器人系统，其计算路径中<strong>依然完全缺失直接连接主体认知与物理现实的经验态射 $x : H \to W$</strong>。
+系统处理的“环境数据”（图像文件、传感器数值），本质上是人类或采集设备预先捕获并编码好的<strong>数字表征（Representations）</strong>，而非生物体面向客观现实的连续、动态的具身经验（Experiential Access）。它是在人类创造的表征宇宙内部进行更复杂的二阶模式匹配。</p>
+</section>
+<section id="r">
+<h3>3. 语义解析态射 $r$ 依然归属于外部人类观察者<a class="headerlink" href="#r" title="Link to this heading"></a></h3>
+<p>在范畴图表中，将输出字符串 $O$ 映射到命题空间 $\mathrm{Pred}(W)$ 的语义解释态射 <strong>$r : O \to \mathrm{Pred}(W)$，依然是由外部人类使用者执行的</strong>。
+机器人机械臂在物理空间中的运动指令，是由代码驱动的数字状态；其动作所代表的“抓取”或“理解”等语义约束，依然依赖于人类使用者赋予的社会与功能解读。</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id1">
+<h2>四、 结论：寄生性接地与“绕过”而非“解决”<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>范畴论图表清晰地证明：</p>
+<ul class="simple">
+<li><p><strong>寄生性/借用接地（Epistemic Parasitism）</strong>：多模态 AI 展现出的某种“接地感”，是因为训练数据集 $C$（包括图像-文本对）已经被人类作者通过经验态射 $x$ <strong>预先完成了接地（Pre-grounded Content）</strong>。AI 继承了人类接地的成果与模式，但系统自身并不具备接地能力。</p></li>
+<li><p><strong>本质为“绕过”（Circumvention）</strong>：多模态技术通过引入丰富的传感器表征，极大地扩充了内容层 $C$ 的维度与模式匹配的精准度，但这只是<strong>在更高维度的符号表征空间内进行了精致的“符号接地绕过”</strong>，并没有弥合 $C$ 与 $W$ 之间的本体论鸿沟。
+因此，多模态与具身智能只是更高效的信息中介，并没有在数理与本体论层面打破形式系统的封闭性。</p></li>
+</ul>
+<hr class="docutils" />
+<p>🧩 这一范畴论证明还解释了为什么多模态模型的“幻觉”被定义为<strong>蕴涵失败（Entailment Failure: $P_{\mathrm{AI}}(h) \nsubseteq P_{\mathrm{human}}(h)$）</strong>。如果你想看看如何利用这个蕴涵公式来分析多模态模型在具体任务中的错位案例，我们可以继续深入探讨。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="note04.html" class="btn btn-neutral float-left" title="哥德尔定理如何解构机械司法" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="note06.html" class="btn btn-neutral float-right" title="多模态具身智能绕过符号接地问题" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>范畴论如何形式化证明符号接地问题 &mdash; chat2llms  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../../../../../../_static/custom.css?v=d45d7409" />
+
+  
+      <script src="../../../../../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../search.html" />
+    <link rel="next" title="用蕴涵公式来分析司法“幻觉”" href="note01.html" />
+    <link rel="prev" title="Refer" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../../../../../index.html" class="icon icon-home">
+            chat2llms
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Code</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../contributing.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../case/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../case/docus/index.html">Legal Documents</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Chats</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../prepro/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../overview/index.html">Overview of the Case</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../docus/index.html">Legal Documents Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../elements/index.html">Key Elements of the PXQT Crime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../accuse/index.html">Accuse the Judicial Mafia</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../../index.html">Land beyond Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../emotion/index.html">抒情诗文</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../../index.html">理论分析</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../../chinese/index.html">传统中国</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../chinese/ccp/index.html">中共官方</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../../index.html">西方哲学</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../../master/index.html">大师</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../../../index.html">分支</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../review/index.html">概况</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../science/index.html">科学理论</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../history/index.html">历史评叙</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Gaps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/example.html">Meta-Analyses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/hallucination.html">Hallucination of LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/practical.html">Practical Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/value.html">Value Judgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../gaps/censor.html">Censorship</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../index.html">chat2llms</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../../../../index.html">Land beyond Law</a></li>
+          <li class="breadcrumb-item"><a href="../../../../../index.html">理论分析</a></li>
+          <li class="breadcrumb-item"><a href="../../../../index.html">西方哲学</a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">分支</a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">语言</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">John Searle</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Refer</a></li>
+      <li class="breadcrumb-item active">范畴论如何形式化证明符号接地问题</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../../../../../_sources/chats/outlaw/analyse/foreign/branch/langu/searle/RF/note00.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>范畴论如何形式化证明符号接地问题<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>在哲学家路西亚诺·弗洛里迪（Luciano Floridi）、贾一扬（Yiyang Jia）与费尔南多·托梅（Fernando Tohmé）的研究论文 <em>《A Categorical Analysis of Large Language Models and Why LLMs Circumvent the Symbol Grounding Problem》</em> 中，作者利用 <strong>范畴论（Category Theory）<strong>与</strong>抽象层（Level of Abstraction）</strong> 方法，在关系范畴 $\mathbf{Rel}$ 中对符号接地问题（Symbol Grounding Problem）进行了严密的数理形式化证明。</p>
+<p>其形式化证明的核心逻辑可以拆解为以下几个关键步骤：</p>
+<hr class="docutils" />
+<section id="id2">
+<h2>一、 形式化框架与范畴构建<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>研究将分析置于<strong>关系范畴 $\mathbf{Rel}$</strong> 及其子范畴 $\mathcal{C}$ 中（对象为集合，态射为二元关系 $R \subseteq A \times B$），Hom-set 按子集包含关系（$\subseteq$）构成偏序结构（2-范畴）。</p>
+<p>在子范畴 $\mathcal{C}$ 中，定义了如下核心认知对象与可能世界空间：</p>
+<ul class="simple">
+<li><p><strong>$H$</strong>：人类认知与情境状态集合（包含背景知识、查询意图与情境）。</p></li>
+<li><p><strong>$C$</strong>：人类创作的有意义文本/内容库。</p></li>
+<li><p><strong>$C’$</strong>：Token 化后的机器可读数据流。</p></li>
+<li><p><strong>$G$</strong>：训练好的模型权重参数空间（特定模型为 $g_0 \in G$）。</p></li>
+<li><p><strong>$O$</strong>：模型生成的输出 Token 序列。</p></li>
+<li><p><strong>$W$</strong>：物理客观现实与可能世界状态空间。</p></li>
+<li><p><strong>$\mathrm{Pred}(W) = \mathcal{P}(W)$</strong>：关于可能世界 $W$ 的<strong>命题空间（Propositions）</strong>。</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="vs-ai">
+<h2>二、 人类认知路径 vs. AI 计算路径的态射图表对比<a class="headerlink" href="#vs-ai" title="Link to this heading"></a></h2>
+<p>框架构建了一个对比图表，将从人类情境 $H$ 到命题空间 $\mathrm{Pred}(W)$ 的过程形式化为两条不同的复合态射：</p>
+<section id="upper-human-route">
+<h3>1. 人类认知路径（Upper Human Route）<a class="headerlink" href="#upper-human-route" title="Link to this heading"></a></h3>
+<p>复合态射为 $g \circ c : H \to \mathrm{Pred}(W)$：</p>
+<ul class="simple">
+<li><p>$c : H \to C$：人类查阅相关内容。</p></li>
+<li><p>$g : C \to \mathrm{Pred}(W)$：人类将内容解释为关于世界的命题，得到基准真理集 $P_{\mathrm{human}}(h) = (g \circ c)(h) \subseteq \mathrm{Pred}(W)$。</p></li>
+<li><p><strong>关键经验态射 $x : H \to W$</strong>：<strong>人类拥有直接的具身感知、物理因果与行动耦合映射 $x$（如看见雪的白色、感知苹果的重量），将认知状态 $H$ 直接锚定到客观物理现实 $W$ 上。</strong></p></li>
+</ul>
+</section>
+<section id="ai-lower-ai-route">
+<h3>2. AI 计算路径（Lower AI Route）<a class="headerlink" href="#ai-lower-ai-route" title="Link to this heading"></a></h3>
+<p>复合态射为 $r \circ e \circ i_{g_0} \circ p : H \to \mathrm{Pred}(W)$：</p>
+<ul class="simple">
+<li><p>$p : H \to C’$：将用户情境转换为输入 Prompt（Token 序列）。</p></li>
+<li><p>$i_{g_0} : C’ \to G \times C’$：将 Prompt 与固定参数模型 $g_0$ 配对。</p></li>
+<li><p>$e : G \times C’ \to O$：模型进行概率采样并输出 Token 序列 $O$。</p></li>
+<li><p>$r : O \to \mathrm{Pred}(W)$：由外部人类用户将 Token 输出 $O$ 赋予语义解读，映射为命题集 $P_{\mathrm{AI}}(h) = (r \circ e \circ i_{g_0} \circ p)(h) \subseteq \mathrm{Pred}(W)$。</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+</section>
+<section id="id3">
+<h2>三、 形式化证明：为什么大模型是“绕过”而非“解决”符号接地？<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>通过对比两条复合态射路径，论文给出了大模型未能解决符号接地问题的三大数学与哲学证明：</p>
+<ol class="arabic simple">
+<li><p><strong>结构性缺失核心态射 $x : H \to W$</strong>：
+在 AI 的计算路径中，推演完全发生在 $C \to C’ \to G \times C’ \to O$ 的数据与符号表征空间内，<strong>完全不包含直接连接物理世界 $W$ 的经验态射 $x : H \to W$</strong>。大模型缺乏与客观现实的直接感知、因果交互或规范性责任。</p></li>
+<li><p><strong>认知寄生性与“借用”接地（Epistemic Parasitism）</strong>：
+大模型之所以表现出“类似于理解”的能力，是因为其训练集 $D(C’)$ 源自人类创作的内容库 $C$。而内容库 $C$ 中的文本早已由人类作者通过经验态射 $x$ 完成了预先接地（Pre-grounded Content）。<strong>大模型学习到的只是人类描述世界的“二阶统计规律”（patterns in how humans describe patterns），而非世界本身的一阶物理规律。</strong> 它继承了人类接地的果实，但系统自身并不具备接地能力。</p></li>
+<li><p><strong>再引述（Re-quotation）与外部语义赋予</strong>：
+根据塔斯基（Tarski）的去引述真理理论（Disquotation），人类能够跨出语言去比对现实 $W$。而大模型始终处于“被引述的环境”中，它做的是“再引述”（Re-quotation）——在符号层面重构统计模式。<strong>将输出 Token 序列 $O$ 映射为命题 $\mathrm{Pred}(W)$ 的语义态射 $r : O \to \mathrm{Pred}(W)$，本质上是由外部人类使用者执行的，大模型本身只输出了无语义的字符串 $O$。</strong></p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="id4">
+<h2>四、 结论：蕴涵失败与“幻觉”的自然必然<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p>在 2-范畴架构下，系统可靠性被定义为<strong>蕴涵-弱交换性（Entailment-Commutativity）</strong>：$P_{\mathrm{AI}}(h) \subseteq P_{\mathrm{human}}(h)$。</p>
+<ul class="simple">
+<li><p><strong>幻觉（Hallucination）被形式化定义为蕴涵失败（Entailment Failure）</strong>：即存在命题 $p \in P_{\mathrm{AI}}(h)$ 但 $p \notin P_{\mathrm{human}}(h)$，导致 $P_{\mathrm{AI}}(h) \nsubseteq P_{\mathrm{human}}(h)$。</p></li>
+<li><p><strong>结论</strong>：由于大模型缺失直接面向物理世界的态射 $x : H \to W$，仅靠在预接地的文本库 $C$ 上进行概率模式匹配，当统计推演偏离离散的真理边界时，产生蕴涵失败（幻觉）是该架构“绕过接地”策略下的<strong>内禀结构性特征，而非可以通过简单技术修补消除的工程 Bug</strong>。</p></li>
+</ul>
+<hr class="docutils" />
+<p>💡 这种范畴论证明表明大语言模型本质上是高效的信息中介而非知识主体。你是否想了解论文中如何用这套图表进一步证明“即使引入多模态或 RAG 检索增强，依然无法从本体论上解决符号接地”？</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Refer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="note01.html" class="btn btn-neutral float-right" title="用蕴涵公式来分析司法“幻觉”" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Goldollar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

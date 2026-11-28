@@ -47,6 +47,5 @@
 
 --------------------------------
 
-:download:`手稿（PDF） </_static/files/Appeal.pdf>`
-
-:download:`word </_static/files/Appeal.docx>`
+【:download:`手稿（PDF） </_static/files/Appeal.pdf>`】
+【:download:`word </_static/files/Appeal.docx>`】

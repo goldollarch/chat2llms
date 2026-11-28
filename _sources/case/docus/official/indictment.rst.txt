@@ -66,7 +66,6 @@
 
 --------------------------------
 
-:download:`原件[PDF] </_static/files/Indictment.pdf>`
-
-:download:`word </_static/files/Indictment.docx>`
+【:download:`PDF原件 </_static/files/Indictment.pdf>`】
+【:download:`word </_static/files/Indictment.docx>`】
  
