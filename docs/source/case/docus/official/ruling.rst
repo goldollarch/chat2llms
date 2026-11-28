@@ -93,6 +93,5 @@
 
 --------------------------------
 
-:download:`原件[PDF] </_static/files/Ruling.pdf>`
-
-:download:`word </_static/files/Ruling.docx>`
+【:download:`PDF原件 </_static/files/Ruling.pdf>`】 
+【:download:`word </_static/files/Ruling.docx>`】

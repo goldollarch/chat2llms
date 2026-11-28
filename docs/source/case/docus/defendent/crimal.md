@@ -13,7 +13,6 @@
 
 ---
 
-[手稿（PDF）](/_static/files/statement.pdf)
-
-[word](/_static/files/Letter.docx)
+【[手稿（PDF）](/_static/files/statement.pdf)】
+【[Word](/_static/files/Letter.docx)】
 

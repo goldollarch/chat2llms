@@ -101,6 +101,5 @@
 
 --------------------------------
 
-:download:`原件[PDF] </_static/files/Judgment.pdf>`
-
-:download:`word </_static/files/Judgment.docx>`
+【:download:`PDF原件 </_static/files/Judgment.pdf>`】 
+【:download:`word </_static/files/Judgment.docx>`】
